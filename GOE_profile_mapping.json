@@ -1,0 +1,217 @@
+{
+    "source": "https://data.goettingen-research-online.de/api/search?q=*&type=dataset&per_page=500",
+    "owner": "goettingen",
+    "iterator": "$",
+    "properties": [
+        {
+            "source_property": "identifier",
+            "ldm_property": "doi",
+            "transformation_function": {
+                "function": "extractDOI",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "identifier",
+            "ldm_property": "identifier_type",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": "DOI"
+                }
+            }
+        },
+        {
+            "source_property": "datePublished",
+            "ldm_property": "doi_date_published",
+            "transformation_function": {
+                "function": "extractYear",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "datePublished",
+            "ldm_property": "source_metadata_created",
+            "transformation_function": {
+                "function": "extractYear",
+                "parameters": {}
+            }
+        },
+                {
+            "source_property": "datePublished",
+            "ldm_property": "publication_year",
+            "transformation_function": {
+                "function": "extractYear",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "name",
+            "ldm_property": "title",
+            "transformation_function": {
+                "function": "capitalizeFirst",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "name",
+            "ldm_property": "organization",
+            "transformation_function": {
+                "function": "getGoettingenOrganization",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "identifier",
+            "ldm_property": "name",
+            "transformation_function": {
+                "function": "buildGoettingenName",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "license",
+            "ldm_property": "license_id"
+        },
+        {
+            "source_property": "license_title",
+            "ldm_property": "license_title"
+        },
+        {
+            "source_property": "description",
+            "ldm_property": "notes"
+        },
+        {
+            "source_property": "publisher",
+            "ldm_property": "publishers",
+            "transformation_function": {
+                "function": "processGOEPublisher",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "subjects",
+            "ldm_property": "subject_areas",
+            "transformation_function": {
+                "function": "processGOESubjectAreas",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "@type",
+            "ldm_property": "resource_type"
+        },
+        {
+            "source_property": "publications",
+            "ldm_property": "related_identifiers",
+            "transformation_function": {
+                "function": "processGOERelatedPublications",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "keywords",
+            "ldm_property": "tags",
+            "transformation_function": {
+                "function": "processGoettingenKeywords",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "creator",
+            "ldm_property": "authors",
+            "transformation_function": {
+                "function": "processGoettingenCreators",
+                "parameters": {}
+            }
+
+        },
+        {
+            "source_property": "identifier",
+            "ldm_property": "citation",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": []
+                }
+            }
+        },
+        {
+            "source_property": "identifier",
+            "ldm_property": "doi_status",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": "True"
+                }
+            }
+        },
+        {
+            "source_property": "identifier",
+            "ldm_property": "owner_org",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": "goettingen"
+                }
+            }
+        },
+        {
+            "source_property": "identifier",
+            "ldm_property": "isopen",
+            "transformation_function": {
+                "function": "setConstantTrue",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "identifier",
+            "ldm_property": "repository_name",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": "Göttingen Research Online Data"
+                }
+            }
+        },
+        {
+            "source_property": "identifier",
+            "ldm_property": "type",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": "dataset"
+                }
+            }
+        },
+        {
+            "source_property": "identifier",
+            "ldm_property": "source_metadata_modified",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": ""
+                }
+            }
+        },
+        {
+            "source_property": "identifier",
+            "ldm_property": "url"
+        },
+        {
+            "source_property": "identifier",
+            "ldm_property": "doi_publisher",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": ""
+                }
+            }
+        }
+      
+    ],
+    "resources": {
+        "iterator": "",
+        "properties": []
+    } 
+}
