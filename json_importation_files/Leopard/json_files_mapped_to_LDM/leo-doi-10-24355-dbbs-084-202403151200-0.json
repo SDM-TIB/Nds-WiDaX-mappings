@@ -1,0 +1,73 @@
+{
+    "repository_name": "LeoPARD (TU Braunschweig Publications And Research Data)",
+    "type": "dataset",
+    "source_metadata_created": "2024",
+    "source_metadata_modified": "",
+    "owner_org": "leopard",
+    "authors": [
+        {
+            "author": "Sreekumar, Harikrishnan K.",
+            "givenName": "Harikrishnan K.",
+            "familyName": "Sreekumar",
+            "orcid": "0000-0001-9803-7968"
+        }
+    ],
+    "author_email": "",
+    "doi": "10.24355/dbbs.084-202403151200-0",
+    "doi_date_published": "2024",
+    "doi_publisher": "",
+    "doi_status": "True",
+    "license_id": "CC-BY-4.0",
+    "license_title": "Attribution 4.0",
+    "name": "leo-doi-10-24355-dbbs-084-202403151200-0",
+    "notes": "The dataset is associated with the university dissertation titled \"Surrogate modeling of high-dimensional vibroacoustic problems using parametric model order reduction\" by Harikrishnan K. Sreekumar. Parametric model order reduction techniques are used to yield reduced order models (ROMs) that can capture the desired parametric response of a system and deliver system responses for any desired parameter setting in real time. Such a parametric surrogate is highly beneficial for multi-query problems like uncertainty quantification, optimization and sensitivity analysis. However, the training process to yield a parametric ROM becomes cumbersome with increasing number of parameters under consideration leading to the infamous curse of dimensionality. The dissertation presents approaches to deal with the high-dimensional parameter space by deploying dimensionality reduction using active subspaces have shown to alleviate the training effort drastically. In addition, clustering-based techniques assisted by neural networks are used to yield converging ROMs for models exhibiting high dynamics. Furthermore, the efficiency of the method of adaptive sparse grids applied to representative vibroacoustic examples is presented. The current dataset publication contains essential artifacts (computational notebook, model data and primary results) that enable reproducibility of the outcome presented in the dissertation.",
+    "organization": {
+        "approval_status": "approved",
+        "description": "Technische Universit\u00e4t Braunschweig - Universit\u00e4tsbibliothek Braunschweig.",
+        "display_name": "leoPARD (TU Braunschweig Publications And Research Data)",
+        "image_display_url": "logo-leopard-white.png",
+        "image_url": "logo-leopard-white.png",
+        "is_organization": true,
+        "name": "leopard",
+        "state": "active",
+        "title": "leoPARD (TU Braunschweig Publications And Research Data)",
+        "type": "organization"
+    },
+    "title": "Dataset for the study of parametric-domain  model order reduction techniques in vibroacoustic applications",
+    "url": "https://doi.org/10.24355/dbbs.084-202403151200-0",
+    "citation": [],
+    "publication_year": "2024",
+    "subject_areas": [
+        {
+            "subject_area_name": "620 Engineering"
+        }
+    ],
+    "tags": [
+        {
+            "display_name": "Vibroacoustics",
+            "name": "Vibroacoustics",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "elPaSo",
+            "name": "elPaSo",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Model order reduction",
+            "name": "Model order reduction",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "resource_type": "Dataset - research_data",
+    "related_identifiers": [
+        {
+            "identifier": "https://leopard.tu-braunschweig.de/receive/dbbs_mods_00076770?XSL.Transformer=mods",
+            "identifier_type": "URL",
+            "relation_type": "HasMetadata"
+        }
+    ]
+}

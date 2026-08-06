@@ -1,0 +1,197 @@
+{
+    "source": "OAIHarvester_parsed_record",
+    "owner": "osnadata",
+    "iterator": "$",
+    "properties": [
+        {
+            "source_property": "metadata.publicationYear",
+            "ldm_property": "repository_name",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": "osnaData (The Research Data Repository of the Osnabrück University)"
+                }
+            }
+        },
+        {
+            "source_property": "metadata.publicationYear",
+            "ldm_property": "type",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": "vdataset"
+                }
+            }
+        },
+        {
+            "source_property": "metadata.publicationYear",
+            "ldm_property": "source_metadata_created"
+        },
+        {
+            "source_property": "metadata.publicationYear",
+            "ldm_property": "source_metadata_modified",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": ""
+                }
+            }
+        },
+        {
+            "source_property": "metadata.publicationYear",
+            "ldm_property": "owner_org",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": "osnadata"
+                }
+            }
+        },
+        {
+            "source_property": "metadata.creators",
+            "ldm_property": "authors",
+            "transformation_function": {
+                "function": "processOSNcreators",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "metadata.publicationYear",
+            "ldm_property": "author_email",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": ""
+                }
+            }
+        },
+        {
+            "source_property": "metadata.identifier.value",
+            "ldm_property": "doi"
+        },
+        {
+            "source_property": "metadata.publicationYear",
+            "ldm_property": "doi_date_published"
+        },
+        {
+            "source_property": "metadata.publicationYear",
+            "ldm_property": "doi_publisher",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": ""
+                }
+            }
+        },
+        {
+            "source_property": "metadata.publicationYear",
+            "ldm_property": "doi_status",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": "True"
+                }
+            }
+        },
+        {
+            "source_property": "metadata.rightsList",
+            "ldm_property": "license_id",
+            "transformation_function": {
+                "function": "extractOSNlicenseId",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "metadata.publicationYear",
+            "ldm_property": "license_title",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": ""
+                }
+            }
+        },
+        {
+            "source_property": "metadata.identifier",
+            "ldm_property": "name",
+            "transformation_function": {
+                "function": "buildOSNname",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "metadata.descriptions",
+            "ldm_property": "notes",
+            "transformation_function": {
+                "function": "getOSNfirstDescription",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "metadata.publicationYear",
+            "ldm_property": "organization",
+            "transformation_function": {
+                "function": "getOSNorganization",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "metadata.titles",
+            "ldm_property": "title",
+            "transformation_function": {
+                "function": "getOSNfirstTitle",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "metadata.identifier.value",
+            "ldm_property": "url",
+            "transformation_function": {
+                "function": "doiLink",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "metadata.publicationYear",
+            "ldm_property": "citation",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": []
+                }
+            }
+        },
+        {
+            "source_property": "metadata.publicationYear",
+            "ldm_property": "publication_year"
+        },
+        {
+            "source_property": "metadata.subjects",
+            "ldm_property": "subject_areas",
+            "transformation_function": {
+                "function": "processOSNsubjectAreas",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "metadata.resourceType.resourceTypeGeneral",
+            "ldm_property": "resource_type"
+        },
+        {
+            "source_property": "metadata.relatedIdentifiers",
+            "ldm_property": "related_identifiers",
+            "transformation_function": {
+                "function": "processOSNrelatedIdentifiers",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "metadata.citation",
+            "ldm_property": "tags",
+            "transformation_function": {
+                "function": "extractOSNkeywords",
+                "parameters": {}
+            }
+        }
+    ]
+}

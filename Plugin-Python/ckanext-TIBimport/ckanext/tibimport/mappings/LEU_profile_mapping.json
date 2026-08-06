@@ -1,0 +1,205 @@
+{
+    "source": "leuphana_dataset_parsed_to_dict (combined OAI-DIM + DataCite API record)",
+    "owner": "leuphana",
+    "iterator": "$",
+    "properties": [
+        {
+            "source_property": "doi",
+            "ldm_property": "repository_name",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": "Leuphana (The repository of the Leuphana University Lüneburg)"
+                }
+            }
+        },
+        {
+            "source_property": "doi",
+            "ldm_property": "type",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": "vdataset"
+                }
+            }
+        },
+        {
+            "source_property": "DataCite.PublicationYear",
+            "ldm_property": "source_metadata_created",
+            "transformation_function": {
+                "function": "getLEUpublicationYear",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "doi",
+            "ldm_property": "source_metadata_modified",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": ""
+                }
+            }
+        },
+        {
+            "source_property": "doi",
+            "ldm_property": "owner_org",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": "leuphana"
+                }
+            }
+        },
+        {
+            "source_property": "doi_metadata.creators",
+            "ldm_property": "authors",
+            "transformation_function": {
+                "function": "processLEUcreators",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "doi",
+            "ldm_property": "author_email",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": ""
+                }
+            }
+        },
+        {
+            "source_property": "doi",
+            "ldm_property": "doi"
+        },
+        {
+            "source_property": "DataCite.PublicationYear",
+            "ldm_property": "doi_date_published",
+            "transformation_function": {
+                "function": "getLEUpublicationYear",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "doi",
+            "ldm_property": "doi_publisher",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": ""
+                }
+            }
+        },
+        {
+            "source_property": "doi",
+            "ldm_property": "doi_status",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": "True"
+                }
+            }
+        },
+        {
+            "source_property": "license_uri",
+            "ldm_property": "license_id"
+        },
+        {
+            "source_property": "license",
+            "ldm_property": "license_title"
+        },
+        {
+            "source_property": "doi",
+            "ldm_property": "name",
+            "transformation_function": {
+                "function": "buildLEUname",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "DataCite.Description",
+            "ldm_property": "notes",
+            "transformation_function": {
+                "function": "getLEUfirstDescription",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "doi",
+            "ldm_property": "organization",
+            "transformation_function": {
+                "function": "getLEUorganization",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "dc.title",
+            "ldm_property": "title",
+            "transformation_function": {
+                "function": "getLEUfirstTitle",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "doi",
+            "ldm_property": "url",
+            "transformation_function": {
+                "function": "doiLink",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "doi",
+            "ldm_property": "citation",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": []
+                }
+            }
+        },
+        {
+            "source_property": "DataCite.PublicationYear",
+            "ldm_property": "publication_year",
+            "transformation_function": {
+                "function": "getLEUpublicationYear",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "local.Subject",
+            "ldm_property": "subject_areas",
+            "transformation_function": {
+                "function": "processLEUsubjectAreas",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "local.Subject",
+            "ldm_property": "tags",
+            "transformation_function": {
+                "function": "processLEUtags",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "DataCite.Publisher",
+            "ldm_property": "publishers",
+            "transformation_function": {
+                "function": "processLEUpublishers",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "doi",
+            "ldm_property": "resource_type",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": "Dataset"
+                }
+            }
+        }
+    ]
+}

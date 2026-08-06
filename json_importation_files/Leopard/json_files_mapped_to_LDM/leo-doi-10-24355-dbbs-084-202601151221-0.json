@@ -1,0 +1,108 @@
+{
+    "repository_name": "LeoPARD (TU Braunschweig Publications And Research Data)",
+    "type": "dataset",
+    "source_metadata_created": "2026",
+    "source_metadata_modified": "",
+    "owner_org": "leopard",
+    "authors": [
+        {
+            "author": "Herder, Philipp",
+            "givenName": "Philipp",
+            "familyName": "Herder",
+            "orcid": "0009-0007-6954-9754"
+        },
+        {
+            "author": "Cerbe, Ferdinand",
+            "givenName": "Ferdinand",
+            "familyName": "Cerbe",
+            "orcid": "0000-0002-6165-7378"
+        },
+        {
+            "author": "Sinapius, Michael",
+            "givenName": "Michael",
+            "familyName": "Sinapius",
+            "orcid": "0000-0002-1873-9140"
+        },
+        {
+            "author": "H\u00fchne, Christian",
+            "givenName": "Christian",
+            "familyName": "H\u00fchne",
+            "orcid": "0000-0002-2218-1223"
+        }
+    ],
+    "author_email": "",
+    "doi": "10.24355/dbbs.084-202601151221-0",
+    "doi_date_published": "2026",
+    "doi_publisher": "",
+    "doi_status": "True",
+    "license_id": "CC-BY-4.0",
+    "license_title": "Attribution 4.0",
+    "name": "leo-doi-10-24355-dbbs-084-202601151221-0",
+    "notes": "FDM-based 4D printing is a cost-efficient approach for manufacturing smart structures from thermoplastic filaments. During printing, pre-strain is stored in the deposited lines and later released during thermal activation, causing shape change. While printing parameters mainly influence shrinkage, even consistent process settings result in bending. This work investigates the thermal history during FDM-based 4D printing and its effect on layer-wise pre-strain and shape change. First, the influence of nozzle temperature, printing speed, part cooling fan, and build plate temperature on the cooling of a single printed line is quantified. Second, the thermal history of multilayer structures is examined using temperature and time metrics for the thermal event during deposition (T_{print, max}, \\Delta t_{print,T>T_g}) and overprinting (T_{reheat, max}, \\Delta t_{reheat,T>T_g}). Finally, the multilayer structures are thermally activated, and the shape change is characterized using shrinkage and curvature, which indicate the pre-strain and its gradient across the specimen height. The multilayer structures shrink and bend. The curvature direction indicates higher pre-strain in the bottom layers. Thermal history metrics increase towards higher layers, indicating more relaxation, which reduces pre-strain in the top layers. This indicates that the thermal history has a decisive role in pre-strain formation. The reduction of the nozzle temperature by 30 \u00b0C causes a shrinkage increase of 8-10 % and a curvature increase of 25-30 1/m. Notably, activating the part cooling fan causes a shrinkage increase of 1-2 % and a curvature decrease of 2-5 1/m, which is consistent with smaller changes in thermal history metrics. Furthermore, this study indicates that the relaxation strongly depends on variations in printer design, process parameters, or material. Consequently, modifications that alter the polymer melt's flow, heat transfer, thermal capacity, or viscoelastic relaxation affect the shrinkage and curvature.",
+    "organization": {
+        "approval_status": "approved",
+        "description": "Technische Universit\u00e4t Braunschweig - Universit\u00e4tsbibliothek Braunschweig.",
+        "display_name": "leoPARD (TU Braunschweig Publications And Research Data)",
+        "image_display_url": "logo-leopard-white.png",
+        "image_url": "logo-leopard-white.png",
+        "is_organization": true,
+        "name": "leopard",
+        "state": "active",
+        "title": "leoPARD (TU Braunschweig Publications And Research Data)",
+        "type": "organization"
+    },
+    "title": "Experimental investigation of the thermal history in fdm-based 4d printing",
+    "url": "https://doi.org/10.24355/dbbs.084-202601151221-0",
+    "citation": [],
+    "publication_year": "2026",
+    "subject_areas": [
+        {
+            "subject_area_name": "621 Applied physics"
+        }
+    ],
+    "tags": [
+        {
+            "display_name": "Rapid Prototyping Fertigung",
+            "name": "Rapid Prototyping Fertigung",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Fused Deposition Modeling",
+            "name": "Fused Deposition Modeling",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "4D-Druck",
+            "name": "4D-Druck",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Thermoplast",
+            "name": "Thermoplast",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "thermal analysis",
+            "name": "thermal analysis",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "resource_type": "Dataset - research_data",
+    "related_identifiers": [
+        {
+            "identifier": "https://leopard.tu-braunschweig.de/receive/dbbs_mods_00079620?XSL.Transformer=mods",
+            "identifier_type": "URL",
+            "relation_type": "HasMetadata"
+        },
+        {
+            "identifier": "https://doi.org/10.1088/1361-665X/ae7686",
+            "identifier_type": "DOI",
+            "relation_type": "IsReferencedBy"
+        }
+    ]
+}

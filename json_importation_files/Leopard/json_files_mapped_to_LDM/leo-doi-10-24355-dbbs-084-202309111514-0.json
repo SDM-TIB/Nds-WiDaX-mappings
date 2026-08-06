@@ -1,0 +1,100 @@
+{
+    "repository_name": "LeoPARD (TU Braunschweig Publications And Research Data)",
+    "type": "dataset",
+    "source_metadata_created": "2024",
+    "source_metadata_modified": "",
+    "owner_org": "leopard",
+    "authors": [
+        {
+            "author": "Sch\u00e4fer, Malte",
+            "givenName": "Malte",
+            "familyName": "Sch\u00e4fer",
+            "orcid": "0000-0002-3544-2314"
+        },
+        {
+            "author": "Sch\u00e4fer, Malte",
+            "givenName": "Malte",
+            "familyName": "Sch\u00e4fer",
+            "orcid": "0000-0002-3544-2314"
+        }
+    ],
+    "author_email": "",
+    "doi": "10.24355/dbbs.084-202309111514-0",
+    "doi_date_published": "2024",
+    "doi_publisher": "",
+    "doi_status": "True",
+    "license_id": "CC-BY-SA-4.0",
+    "license_title": "Attribution-ShareAlike 4.0",
+    "name": "leo-doi-10-24355-dbbs-084-202309111514-0",
+    "notes": "This dataset contains grid electricity emission factors for Germany, for the years 2019-2022. The temporal resolution is 15 minutes. The emission factors are calculated using a proprietary calculation method, linked in the description, based on data by Eurostat, ENTSO-E, UBA and IPCC. The emission factors describe the amount of global warming potential (GWP) per Kilowatt-hour of electricity, measured in CO2e/kWh. Emission factors can be calculated in multiple ways, as described in the journal article linked in the description. The dataset contains 2304 different ways of calculating an emission factors at a temporal resolution of 15 minutes, which is the combinatorial result of nine methodological aspects and two to six options per aspect taken into account. Besides the final results, i.e. the 2304 grid emission factors in 15min-resolution, the dataset also contains intermediate results and input data. The intermediate results can also be generated using the code linked in the description. However, readers wanting to save computational resources, or starting the calculations at some intermediate point, can use these intermediate results. The input data comes from Eurostat, ENTSO-E, UBA and IPCC, and is used to generate the final results. Only those input data are shared for which the publishing organizations have licensed them accordingly.",
+    "organization": {
+        "approval_status": "approved",
+        "description": "Technische Universit\u00e4t Braunschweig - Universit\u00e4tsbibliothek Braunschweig.",
+        "display_name": "leoPARD (TU Braunschweig Publications And Research Data)",
+        "image_display_url": "logo-leopard-white.png",
+        "image_url": "logo-leopard-white.png",
+        "is_organization": true,
+        "name": "leopard",
+        "state": "active",
+        "title": "leoPARD (TU Braunschweig Publications And Research Data)",
+        "type": "organization"
+    },
+    "title": "Grid electricity emission factors for germany, 2019-2022: 15 minute resolution data",
+    "url": "https://doi.org/10.24355/dbbs.084-202309111514-0",
+    "citation": [],
+    "publication_year": "2024",
+    "subject_areas": [
+        {
+            "subject_area_name": "333 Economics of land & energy"
+        }
+    ],
+    "tags": [
+        {
+            "display_name": "grid emission factors",
+            "name": "grid emission factors",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "scope 2 emissions",
+            "name": "scope 2 emissions",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "greenhouse gas emissions",
+            "name": "greenhouse gas emissions",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "electricity related emissions",
+            "name": "electricity related emissions",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "resource_type": "Dataset - research_data",
+    "related_identifiers": [
+        {
+            "identifier": "https://leopard.tu-braunschweig.de/receive/dbbs_mods_00074378?XSL.Transformer=mods",
+            "identifier_type": "URL",
+            "relation_type": "HasMetadata"
+        },
+        {
+            "identifier": "https://doi.org/10.1039/D3EE04394K",
+            "identifier_type": "DOI",
+            "relation_type": "References"
+        },
+        {
+            "identifier": "10.24355/dbbs.084-202309131139-0",
+            "identifier_type": "DOI",
+            "relation_type": "References"
+        },
+        {
+            "identifier": "https://leopard.tu-braunschweig.de/receive/dbbs_mods_00074379",
+            "identifier_type": "URL",
+            "relation_type": "References"
+        }
+    ]
+}

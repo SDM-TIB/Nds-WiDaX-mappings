@@ -1,0 +1,161 @@
+{
+    "header": {
+        "identifier": "oai:https://leopard.tu-braunschweig.de/:dbbs_mods_00076770",
+        "datestamp": "2024-11-27",
+        "setSpecs": [
+            "GENRE:research_data",
+            "ddc:6",
+            "ddc:62",
+            "doc-type:ResearchData",
+            "driver",
+            "open_access"
+        ],
+        "status": null
+    },
+    "metadata": {
+        "metadataFormat": "oai_datacite",
+        "identifier": {
+            "value": "10.24355/dbbs.084-202403151200-0",
+            "identifierType": "DOI"
+        },
+        "creators": [
+            {
+                "creatorName": {
+                    "value": "Sreekumar, Harikrishnan K.",
+                    "nameType": "Personal"
+                },
+                "givenName": "Harikrishnan K.",
+                "familyName": "Sreekumar",
+                "nameIdentifiers": [
+                    {
+                        "value": "0000-0001-9803-7968",
+                        "nameIdentifierScheme": "ORCID",
+                        "schemeURI": "http://orcid.org/"
+                    }
+                ],
+                "affiliations": [
+                    {
+                        "value": "Institut f\u00fcr Akustik und Dynamik",
+                        "affiliationIdentifier": null,
+                        "affiliationIdentifierScheme": null,
+                        "schemeURI": null
+                    }
+                ]
+            }
+        ],
+        "titles": [
+            {
+                "value": "Dataset for the study of parametric-domain  model order reduction techniques in vibroacoustic applications",
+                "titleType": null,
+                "lang": "de"
+            }
+        ],
+        "publisher": {
+            "value": "Universit\u00e4tsbibliothek Braunschweig",
+            "publisherIdentifier": null,
+            "publisherIdentifierScheme": null,
+            "schemeURI": null,
+            "lang": null
+        },
+        "publicationYear": "2024",
+        "resourceType": {
+            "value": "research_data",
+            "resourceTypeGeneral": "Dataset"
+        },
+        "subjects": [
+            {
+                "value": "Vibroacoustics",
+                "subjectScheme": null,
+                "schemeURI": null,
+                "valueURI": null,
+                "lang": null
+            },
+            {
+                "value": "elPaSo",
+                "subjectScheme": null,
+                "schemeURI": null,
+                "valueURI": null,
+                "lang": null
+            },
+            {
+                "value": "Model order reduction",
+                "subjectScheme": null,
+                "schemeURI": null,
+                "valueURI": null,
+                "lang": null
+            },
+            {
+                "value": "62",
+                "subjectScheme": "ddc",
+                "schemeURI": null,
+                "valueURI": null,
+                "lang": null
+            }
+        ],
+        "contributors": [
+            {
+                "contributorType": "HostingInstitution",
+                "contributorName": {
+                    "value": "Universit\u00e4tsbibliothek Braunschweig",
+                    "nameType": "Organizational"
+                },
+                "givenName": null,
+                "familyName": null,
+                "nameIdentifiers": [],
+                "affiliations": []
+            }
+        ],
+        "dates": [
+            {
+                "value": "2024-03-28",
+                "dateType": "Issued",
+                "dateInformation": null
+            }
+        ],
+        "language": "en",
+        "alternateIdentifiers": [
+            {
+                "value": "https://leopard.tu-braunschweig.de/receive/dbbs_mods_00076770",
+                "alternateIdentifierType": "URL"
+            },
+            {
+                "value": "dbbs_mods_00076770",
+                "alternateIdentifierType": "MyCoRe"
+            }
+        ],
+        "relatedIdentifiers": [
+            {
+                "value": "https://leopard.tu-braunschweig.de/receive/dbbs_mods_00076770?XSL.Transformer=mods",
+                "relationType": "HasMetadata",
+                "relatedIdentifierType": "URL",
+                "relatedMetadataScheme": "mods",
+                "schemeURI": "https://www.loc.gov/standards/mods/v3/mods-3-7.xsd",
+                "schemeType": null,
+                "resourceTypeGeneral": null
+            }
+        ],
+        "sizes": [],
+        "formats": [],
+        "version": null,
+        "rightsList": [
+            {
+                "value": "Attribution 4.0",
+                "rightsURI": "https://creativecommons.org/licenses/by/4.0/",
+                "rightsIdentifier": "CC-BY-4.0",
+                "rightsIdentifierScheme": null,
+                "schemeURI": null,
+                "lang": "en"
+            }
+        ],
+        "descriptions": [
+            {
+                "value": "The dataset is associated with the university dissertation titled \"Surrogate modeling of high-dimensional vibroacoustic problems using parametric model order reduction\" by Harikrishnan K. Sreekumar. Parametric model order reduction techniques are used to yield reduced order models (ROMs) that can capture the desired parametric response of a system and deliver system responses for any desired parameter setting in real time. Such a parametric surrogate is highly beneficial for multi-query problems like uncertainty quantification, optimization and sensitivity analysis. However, the training process to yield a parametric ROM becomes cumbersome with increasing number of parameters under consideration leading to the infamous curse of dimensionality. The dissertation presents approaches to deal with the high-dimensional parameter space by deploying dimensionality reduction using active subspaces have shown to alleviate the training effort drastically. In addition, clustering-based techniques assisted by neural networks are used to yield converging ROMs for models exhibiting high dynamics. Furthermore, the efficiency of the method of adaptive sparse grids applied to representative vibroacoustic examples is presented. The current dataset publication contains essential artifacts (computational notebook, model data and primary results) that enable reproducibility of the outcome presented in the dissertation.",
+                "descriptionType": "Abstract",
+                "lang": "en"
+            }
+        ],
+        "geoLocations": [],
+        "fundingReferences": [],
+        "relatedItems": []
+    }
+}

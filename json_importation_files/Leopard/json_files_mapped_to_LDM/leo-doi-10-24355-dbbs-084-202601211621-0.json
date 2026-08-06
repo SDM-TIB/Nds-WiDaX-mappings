@@ -1,0 +1,79 @@
+{
+    "repository_name": "LeoPARD (TU Braunschweig Publications And Research Data)",
+    "type": "dataset",
+    "source_metadata_created": "2026",
+    "source_metadata_modified": "",
+    "owner_org": "leopard",
+    "authors": [
+        {
+            "author": "Strohbach, Michael W.",
+            "givenName": "Michael",
+            "familyName": "Strohbach",
+            "orcid": "0000-0002-4696-0774"
+        }
+    ],
+    "author_email": "",
+    "doi": "10.24355/dbbs.084-202601211621-0",
+    "doi_date_published": "2026",
+    "doi_publisher": "",
+    "doi_status": "True",
+    "license_id": "CC-BY-4.0",
+    "license_title": "Attribution 4.0",
+    "name": "leo-doi-10-24355-dbbs-084-202601211621-0",
+    "notes": "Between 2019 and 2025, 147 urban trees, belonging to nine species/cultivars were scanned with a terrestrial laser scanner. Sampling was carried out under leaf-off conditions on windless, dry winter days. One tree was scanned in summer, but was dead and had already lost all its leaves. Point clouds of the trees were obtained with the Riegl VZ400i terrestrial laser scanner. The scanner was positioned at least at four scan positions per tree to achieve full 360\u00b0 coverage. The laser pulse repetition rate was set to 1200 kHz and the scan resolution to 20 millidegrees, which results in approximately one point per every 7 mm in 20 m distance from the scanner. The individual laser scans were registered and processed with the software RiSCAN PRO 2.18.1. Postprocessing included manually removing objects leaning at tree trunks (e.g., bikes) and filtering points with a high deviation (>=10) and low reflectance (-22). The density of the tree clouds was reduced to one point per cm\u00b3. Each tree was exported as a X,Y,Z point cloud. All but two specimens are on municipal land; the remaining two are on the campuses of Technische Universit\u00e4t Braunschweig and the Julius K\u00fchn Institute. This dataset contains all point clouds and a table of geographic coordinates and scan dates.",
+    "organization": {
+        "approval_status": "approved",
+        "description": "Technische Universit\u00e4t Braunschweig - Universit\u00e4tsbibliothek Braunschweig.",
+        "display_name": "leoPARD (TU Braunschweig Publications And Research Data)",
+        "image_display_url": "logo-leopard-white.png",
+        "image_url": "logo-leopard-white.png",
+        "is_organization": true,
+        "name": "leopard",
+        "state": "active",
+        "title": "leoPARD (TU Braunschweig Publications And Research Data)",
+        "type": "organization"
+    },
+    "title": "Point clouds of 147 trees in braunschweig, germany: terrestrial laser scans of free-standing acer pseudoplatanus, corylus colurna, ginkgo biloba, liquidambar styraciflua, ostrya carpinifolia, quercus robur, quercus robur \u2018fastigiata,\u2019 tilia cordata and tilia tomentosa",
+    "url": "https://doi.org/10.24355/dbbs.084-202601211621-0",
+    "citation": [],
+    "publication_year": "2026",
+    "subject_areas": [
+        {
+            "subject_area_name": "550 Earth sciences & geology"
+        }
+    ],
+    "tags": [
+        {
+            "display_name": "Terrestrisches Laserscanning",
+            "name": "Terrestrisches Laserscanning",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Straenbaum",
+            "name": "Straenbaum",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Parkbaum",
+            "name": "Parkbaum",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "street tree",
+            "name": "street tree",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "resource_type": "Dataset - research_data",
+    "related_identifiers": [
+        {
+            "identifier": "https://leopard.tu-braunschweig.de/receive/dbbs_mods_00079633?XSL.Transformer=mods",
+            "identifier_type": "URL",
+            "relation_type": "HasMetadata"
+        }
+    ]
+}

@@ -1,0 +1,161 @@
+{
+    "header": {
+        "identifier": "oai:https://leopard.tu-braunschweig.de/:dbbs_mods_00076769",
+        "datestamp": "2024-11-27",
+        "setSpecs": [
+            "GENRE:research_data",
+            "ddc:6",
+            "ddc:62",
+            "doc-type:ResearchData",
+            "driver",
+            "open_access"
+        ],
+        "status": null
+    },
+    "metadata": {
+        "metadataFormat": "oai_datacite",
+        "identifier": {
+            "value": "10.24355/dbbs.084-202403151158-0",
+            "identifierType": "DOI"
+        },
+        "creators": [
+            {
+                "creatorName": {
+                    "value": "Sreekumar, Harikrishnan K.",
+                    "nameType": "Personal"
+                },
+                "givenName": "Harikrishnan K.",
+                "familyName": "Sreekumar",
+                "nameIdentifiers": [
+                    {
+                        "value": "0000-0001-9803-7968",
+                        "nameIdentifierScheme": "ORCID",
+                        "schemeURI": "http://orcid.org/"
+                    }
+                ],
+                "affiliations": [
+                    {
+                        "value": "Institut f\u00fcr Akustik und Dynamik",
+                        "affiliationIdentifier": null,
+                        "affiliationIdentifierScheme": null,
+                        "schemeURI": null
+                    }
+                ]
+            }
+        ],
+        "titles": [
+            {
+                "value": "Dataset for the study of frequency-domain model order reduction techniques in vibroacoustic applications",
+                "titleType": null,
+                "lang": "de"
+            }
+        ],
+        "publisher": {
+            "value": "Universit\u00e4tsbibliothek Braunschweig",
+            "publisherIdentifier": null,
+            "publisherIdentifierScheme": null,
+            "schemeURI": null,
+            "lang": null
+        },
+        "publicationYear": "2024",
+        "resourceType": {
+            "value": "research_data",
+            "resourceTypeGeneral": "Dataset"
+        },
+        "subjects": [
+            {
+                "value": "Vibroacoustics",
+                "subjectScheme": null,
+                "schemeURI": null,
+                "valueURI": null,
+                "lang": null
+            },
+            {
+                "value": "elPaSo",
+                "subjectScheme": null,
+                "schemeURI": null,
+                "valueURI": null,
+                "lang": null
+            },
+            {
+                "value": "Model order reduction",
+                "subjectScheme": null,
+                "schemeURI": null,
+                "valueURI": null,
+                "lang": null
+            },
+            {
+                "value": "62",
+                "subjectScheme": "ddc",
+                "schemeURI": null,
+                "valueURI": null,
+                "lang": null
+            }
+        ],
+        "contributors": [
+            {
+                "contributorType": "HostingInstitution",
+                "contributorName": {
+                    "value": "Universit\u00e4tsbibliothek Braunschweig",
+                    "nameType": "Organizational"
+                },
+                "givenName": null,
+                "familyName": null,
+                "nameIdentifiers": [],
+                "affiliations": []
+            }
+        ],
+        "dates": [
+            {
+                "value": "2024-03-28",
+                "dateType": "Issued",
+                "dateInformation": null
+            }
+        ],
+        "language": "en",
+        "alternateIdentifiers": [
+            {
+                "value": "https://leopard.tu-braunschweig.de/receive/dbbs_mods_00076769",
+                "alternateIdentifierType": "URL"
+            },
+            {
+                "value": "dbbs_mods_00076769",
+                "alternateIdentifierType": "MyCoRe"
+            }
+        ],
+        "relatedIdentifiers": [
+            {
+                "value": "https://leopard.tu-braunschweig.de/receive/dbbs_mods_00076769?XSL.Transformer=mods",
+                "relationType": "HasMetadata",
+                "relatedIdentifierType": "URL",
+                "relatedMetadataScheme": "mods",
+                "schemeURI": "https://www.loc.gov/standards/mods/v3/mods-3-7.xsd",
+                "schemeType": null,
+                "resourceTypeGeneral": null
+            }
+        ],
+        "sizes": [],
+        "formats": [],
+        "version": null,
+        "rightsList": [
+            {
+                "value": "Attribution 4.0",
+                "rightsURI": "https://creativecommons.org/licenses/by/4.0/",
+                "rightsIdentifier": "CC-BY-4.0",
+                "rightsIdentifierScheme": null,
+                "schemeURI": null,
+                "lang": "en"
+            }
+        ],
+        "descriptions": [
+            {
+                "value": "The dataset is associated with the university dissertation titled \"Surrogate modeling of high-dimensional vibroacoustic problems using parametric model order reduction\" by Harikrishnan K. Sreekumar. Expensive direct numerical simulations are often used for vibroacoustic problems to yield insights about the model characteristics. These bottlenecks can be circumvented by generating a reduced order model that yields accurate system responses in real time. The current dataset includes various models that are used to investigate efficient reduction to approximate the frequency-domain response of the systems. Considered examples include (1) a simple plate model, (2) a generic aircraft fuselage model, and (3) a complex aircraft fuselage model for cabin noise assessments. The identified challenges of handling large-scale problems, frequency-dependent nature of the system entities and approaches to perform reduction for broadband applications are at focus. This current dataset publication contains essential artifacts (computational notebook, model data and primary results) that enable reproducibility of the outcome presented in the dissertation.",
+                "descriptionType": "Abstract",
+                "lang": "en"
+            }
+        ],
+        "geoLocations": [],
+        "fundingReferences": [],
+        "relatedItems": []
+    }
+}

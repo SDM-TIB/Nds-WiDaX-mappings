@@ -1,0 +1,235 @@
+{
+    "source": "goettingen_dataset_parsed_to_dict",
+    "owner": "goettingen",
+    "iterator": "$",
+    "properties": [
+        {
+            "source_property": "creator[0].name",
+            "ldm_property": "authors",
+            "transformation_function": {
+                "function": "processGoettingenAuthors",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "",
+            "ldm_property": "author_email",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": ""
+                }
+            }
+        },
+        {
+            "source_property": "identifier",
+            "ldm_property": "doi",
+            "transformation_function": {
+                "function": "extractDOI",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "datePublished",
+            "ldm_property": "doi_date_published",
+            "transformation_function": {
+                "function": "extractYear",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "",
+            "ldm_property": "doi_publisher",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": ""
+                }
+            }
+        },
+        {
+            "source_property": "",
+            "ldm_property": "doi_status",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": "True"
+                }
+            }
+        },
+        {
+            "source_property": "",
+            "ldm_property": "isopen",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": true
+                }
+            }
+        },
+        {
+            "source_property": "license",
+            "ldm_property": "license_id"
+        },
+        {
+            "source_property": "license_title",
+            "ldm_property": "license_title"
+        },
+        {
+            "source_property": "identifier",
+            "ldm_property": "name",
+            "transformation_function": {
+                "function": "buildGoettingenName",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "description",
+            "ldm_property": "notes"
+        },
+        {
+            "source_property": "",
+            "ldm_property": "organization",
+            "transformation_function": {
+                "function": "getGoettingenOrganization",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "",
+            "ldm_property": "owner_org",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": "goettingen"
+                }
+            }
+        },
+        {
+            "source_property": "datePublished",
+            "ldm_property": "source_metadata_created",
+            "transformation_function": {
+                "function": "extractYear",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "",
+            "ldm_property": "source_metadata_modified",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": ""
+                }
+            }
+        },
+        {
+            "source_property": "name",
+            "ldm_property": "title",
+            "transformation_function": {
+                "function": "capitalizeFirst",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "",
+            "ldm_property": "type",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": "vdataset"
+                }
+            }
+        },
+        {
+            "source_property": "identifier",
+            "ldm_property": "url"
+        },
+        {
+            "source_property": "",
+            "ldm_property": "citation",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": []
+                }
+            }
+        },
+        {
+            "source_property": "creator[0].givenName",
+            "ldm_property": "givenName"
+        },
+        {
+            "source_property": "creator[0].familyName",
+            "ldm_property": "familyName"
+        },
+        {
+            "source_property": "",
+            "ldm_property": "orcid",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": ""
+                }
+            }
+        },
+        {
+            "source_property": "publisher",
+            "ldm_property": "publishers",
+            "transformation_function": {
+                "function": "processPublisher",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "datePublished",
+            "ldm_property": "publication_year",
+            "transformation_function": {
+                "function": "extractYear",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "subjects",
+            "ldm_property": "subject_areas",
+            "transformation_function": {
+                "function": "processGOESubjectAreas",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "@type",
+            "ldm_property": "resource_type"
+        },
+        {
+            "source_property": "publications",
+            "ldm_property": "related_identifiers",
+            "transformation_function": {
+                "function": "processRelatedPublications",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "keywords",
+            "ldm_property": "tags",
+            "transformation_function": {
+                "function": "processGoettingenKeywords",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "",
+            "ldm_property": "repository_name",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": "Göttingen Research Online Data"
+                }
+            }
+        }
+    ],
+    "resources": {
+        "iterator": "",
+        "properties": []
+    }
+}

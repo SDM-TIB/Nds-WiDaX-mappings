@@ -1,0 +1,79 @@
+{
+    "repository_name": "LeoPARD (TU Braunschweig Publications And Research Data)",
+    "type": "dataset",
+    "source_metadata_created": "2026",
+    "source_metadata_modified": "",
+    "owner_org": "leopard",
+    "authors": [
+        {
+            "author": "Kretzschmar, Max",
+            "givenName": "Max",
+            "familyName": "Kretzschmar",
+            "orcid": ""
+        },
+        {
+            "author": "Baumann, Knut",
+            "givenName": "Knut",
+            "familyName": "Baumann",
+            "orcid": "0000-0001-9459-0045"
+        }
+    ],
+    "author_email": "",
+    "doi": "10.24355/dbbs.084-202510051748-0",
+    "doi_date_published": "2026",
+    "doi_publisher": "",
+    "doi_status": "True",
+    "license_id": "CC-BY-NC-SA-4.0",
+    "license_title": "Attribution-NonCommercial-ShareAlike 4.0",
+    "name": "leo-doi-10-24355-dbbs-084-202510051748-0",
+    "notes": "Mit der heute zur Verf\u00fcgung stehenden Rechenleistung ist es leicht m\u00f6glich Vorhersagemodelle mit einer Vielzahl an Objekten und Merkmalen zu trainieren. Mit steigender Anzahl an Variablen wird es zunehmend komplexer die Rationale eines Modells zu verstehen, was sich wiederum negativ auf dessen Interpretierbarkeit auswirken kann. Letztendlich kann es dadurch zum Overfitting kommen, d. h. einer \u00dcberanpassung des Modells an die Trainingsdaten. Eine vielversprechende Strategie um dies zu verhindern, liegt darin die Dimensionalit\u00e4t des Merkmalsraums zu reduzieren und so die Interpretierbarkeit des Modells m\u00f6glichst zu erhalten. In dieser Arbeit wird ein hoch-dimensionales paarweises Screening der Merkmale durchgef\u00fchrt, das auf der klassenbedingten und nicht-klassenbedingten empirischen Verteilungsfunktion beruht. Dieses wird mit etablierten Verfahren wie dem t-Test und dem Wilcoxon-Rangsummentest auf einem unabh\u00e4ngigen Testdatensatz verglichen. Mit den jeweils bestbewerteten Variablen werden folgend Random-Forest-Klassifikatoren trainiert und damit ihre Leistungsf\u00e4higkeit verglichen. Im hier untersuchten Zwei-Klassen-Problem sollen Naturstoffe von rein synthetischen Molek\u00fclen unterschieden werden. Nach sorgf\u00e4ltiger Aufbereitung der Strukturdatenbanken wird eine Auswahl an Molek\u00fcldeskriptoren berechnet und dem Screening unterzogen. Untersucht werden die umfangreiche Sammlung Dragon, sowie algorithmisch generierte Fragment-Deskriptoren und in manuell selektierter Deskriptorsatz, der auf erwarteten sowie publizierten Eigenschaften der zwei Molek\u00fclklassen basiert. Als Vergleich dienen MACCS keys und ein Extended-Connectivity Fingerprint. Einige dieser Deskriptors\u00e4tze, insbesondere die der Dragon-Sammlung, lassen ein hohes Ma\u00df an interner Korrelation vermuten. Da der verwendete Screening-Algorithmus nicht in der Lage ist interne Korrelation zu bewerten, wird eine Analyse auf Redundanz durchgef\u00fchrt. So k\u00f6nnen m\u00f6glicherweise redundante Variablen identifiziert und aus dem Modellbildungsprozess ausgeschlossen werden. Die Modellg\u00fcte wird folgend evaluiert, sowohl f\u00fcr die einzelnen Deskriptors\u00e4tze als auch f\u00fcr vielversprechende Kombinationen daraus.",
+    "organization": {
+        "approval_status": "approved",
+        "description": "Technische Universit\u00e4t Braunschweig - Universit\u00e4tsbibliothek Braunschweig.",
+        "display_name": "leoPARD (TU Braunschweig Publications And Research Data)",
+        "image_display_url": "logo-leopard-white.png",
+        "image_url": "logo-leopard-white.png",
+        "is_organization": true,
+        "name": "leopard",
+        "state": "active",
+        "title": "leoPARD (TU Braunschweig Publications And Research Data)",
+        "type": "organization"
+    },
+    "title": "Variablenselektion von hoch-dimensionalen deskriptoren zur erkennung von naturstoffen in molek\u00fcldatenbanken: anhang d.1",
+    "url": "https://doi.org/10.24355/dbbs.084-202510051748-0",
+    "citation": [],
+    "publication_year": "2026",
+    "subject_areas": [
+        {
+            "subject_area_name": "540 Chemistry"
+        }
+    ],
+    "tags": [
+        {
+            "display_name": "Maschinelles Lernen",
+            "name": "Maschinelles Lernen",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Computational chemistry",
+            "name": "Computational chemistry",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Naturstoff",
+            "name": "Naturstoff",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "resource_type": "Dataset - research_data",
+    "related_identifiers": [
+        {
+            "identifier": "https://leopard.tu-braunschweig.de/receive/dbbs_mods_00079250?XSL.Transformer=mods",
+            "identifier_type": "URL",
+            "relation_type": "HasMetadata"
+        }
+    ]
+}

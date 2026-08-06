@@ -1,0 +1,247 @@
+{
+    "source": "https://data.uni-hannover.de/api/3/action/package_show",
+    "owner": "luh",
+    "iterator": "$",
+    "properties": [
+        {
+            "source_property": "author",
+            "ldm_property": "authors"
+        },
+        {
+            "source_property": "doi",
+            "ldm_property": "doi"
+        },
+        {
+            "source_property": "doi_date_published",
+            "ldm_property": "doi_date_published"
+        },
+        {
+            "source_property": "doi_publisher",
+            "ldm_property": "doi_publisher"
+        },
+        {
+            "source_property": "doi_status",
+            "ldm_property": "doi_status",
+            "transformation_function": {
+                "function": "returnAsBoolValue",
+                "parameters": {
+                    "value": ""
+                }
+            }
+        },
+        {
+            "source_property": "domain",
+            "ldm_property": "domain"
+        },
+        {
+            "source_property": "have_copyright",
+            "ldm_property": "have_copyright"
+        },
+        {
+            "source_property": "isopen",
+            "ldm_property": "isopen"
+        },
+        {
+            "source_property": "license_id",
+            "ldm_property": "license_id"
+        },
+        {
+            "source_property": "license_title",
+            "ldm_property": "license_title"
+        },
+        {
+            "source_property": "license_url",
+            "ldm_property": "license_url"
+        },
+        {
+            "source_property": "maintainer",
+            "ldm_property": "maintainer"
+        },
+        {
+            "source_property": "maintainer_email",
+            "ldm_property": "maintainer_email"
+        },
+        {
+            "source_property": "metadata_created",
+            "ldm_property": "source_metadata_created"
+        },
+        {
+            "source_property": "metadata_modified",
+            "ldm_property": "source_metadata_modified"
+        },
+        {
+            "source_property": "metadata_modified",
+            "ldm_property": "metadata_modified"
+        },
+        {
+            "source_property": "name",
+            "ldm_property": "name",
+            "transformation_function": {
+                "function": "addPrefix",
+                "parameters": {
+                    "prefix": "luh-"
+                }
+            }
+        },
+        {
+            "source_property": "notes",
+            "ldm_property": "notes"
+        },
+        {
+            "source_property": "num_resources",
+            "ldm_property": "num_resources"
+        },
+        {
+            "source_property": "num_tags",
+            "ldm_property": "num_tags"
+        },
+        {
+            "source_property": "organization",
+            "ldm_property": "organization"
+        },
+        {
+            "source_property": "organization.name",
+            "ldm_property": "owner_org"
+        },
+        {
+            "source_property": "private",
+            "ldm_property": "private"
+        },
+        {
+            "source_property": "state",
+            "ldm_property": "state"
+        },
+        {
+            "source_property": "tags",
+            "ldm_property": "tags"
+        },
+        {
+            "source_property": "terms_of_usage",
+            "ldm_property": "terms_of_usage"
+        },
+        {
+            "source_property": "title",
+            "ldm_property": "title"
+        },
+        {
+            "source_property": "type",
+            "ldm_property": "type"
+        },
+        {
+            "source_property": "name",
+            "ldm_property": "url",
+            "transformation_function": {
+                "function": "buildLUHUrl",
+                "parameters": {
+                    "domain": "https://data.uni-hannover.de"
+                }
+            }
+            
+        },
+        {
+            "source_property": "version",
+            "ldm_property": "version"
+        },
+        {
+            "source_property": "id",
+            "ldm_property": "repository_name",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": "Leibniz University Hannover"
+                }
+            }
+        },
+        {
+            "source_property": "id",
+            "ldm_property": "citation",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": []
+                }
+            }
+        }
+    ],
+    "resources": {
+        "iterator": "resources[*]",
+        "filter": {
+            "function": "excludeDownloadAll",
+            "parameters": {}
+        },
+        "properties": [
+            {
+                "source_resource_property": "cache_last_updated",
+                "ldm_resource_property": "cache_last_updated"
+            },
+            {
+                "source_resource_property": "cache_url",
+                "ldm_resource_property": "cache_url"
+            },
+            {
+                "source_resource_property": "created",
+                "ldm_resource_property": "created"
+            },
+            {
+                "source_resource_property": "description",
+                "ldm_resource_property": "description"
+            },
+            {
+                "source_resource_property": "format",
+                "ldm_resource_property": "format",
+                "transformation_function": {
+                    "function": "fixLUHFormat",
+                    "parameters": {
+                        "value": ""
+                    }
+                }
+            },
+            {
+                "source_resource_property": "last_modified",
+                "ldm_resource_property": "last_modified"
+            },
+            {
+                "source_resource_property": "mimetype",
+                "ldm_resource_property": "mimetype"
+            },
+            {
+                "source_resource_property": "mimetype_inner",
+                "ldm_resource_property": "mimetype_inner"
+            },
+            {
+                "source_resource_property": "name",
+                "ldm_resource_property": "name"
+            },
+            {
+                "source_resource_property": "position",
+                "ldm_resource_property": "position"
+            },
+            {
+                "source_resource_property": "resource_type",
+                "ldm_resource_property": "resource_type"
+            },
+            {
+                "source_resource_property": "size",
+                "ldm_resource_property": "size"
+            },
+            {
+                "source_resource_property": "state",
+                "ldm_resource_property": "state"
+            },
+            {
+                "source_resource_property": "url",
+                "ldm_resource_property": "url"
+            },
+            {
+                "source_resource_property": "url",
+                "ldm_resource_property": "url_type",
+                "transformation_function": {
+                    "function": "setConstant",
+                    "parameters": {
+                        "value": ""
+                    }
+                }
+            }
+        ]
+    }
+}

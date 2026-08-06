@@ -1,0 +1,294 @@
+{
+    "source": "luh_api_package_show_with_results",
+    "owner": "luh",
+    "iterator": "$.result",
+    "properties": [
+        {
+            "source_property": "author",
+            "ldm_property": "authors",
+            "transformation_function": {
+                "function": "splitAuthors",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "author_email",
+            "ldm_property": "author_email"
+        },
+        {
+            "source_property": "doi",
+            "ldm_property": "doi"
+        },
+        {
+            "source_property": "doi_date_published",
+            "ldm_property": "doi_date_published"
+        },
+        {
+            "source_property": "doi_publisher",
+            "ldm_property": "doi_publisher"
+        },
+        {
+            "source_property": "doi_status",
+            "ldm_property": "doi_status",
+            "transformation_function": {
+                "function": "boolToString",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "domain",
+            "ldm_property": "domain"
+        },
+        {
+            "source_property": "have_copyright",
+            "ldm_property": "have_copyright"
+        },
+        {
+            "source_property": "id",
+            "ldm_property": "id"
+        },
+        {
+            "source_property": "isopen",
+            "ldm_property": "isopen",
+            "transformation_function": {
+                "function": "invertBoolean",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "license_id",
+            "ldm_property": "license_id"
+        },
+        {
+            "source_property": "license_id",
+            "ldm_property": "license_title"
+        },
+        {
+            "source_property": "maintainer",
+            "ldm_property": "maintainer"
+        },
+        {
+            "source_property": "maintainer_email",
+            "ldm_property": "maintainer_email"
+        },
+        {
+            "source_property": "metadata_created",
+            "ldm_property": "source_metadata_created"
+        },
+        {
+            "source_property": "metadata_modified",
+            "ldm_property": "source_metadata_modified"
+        },
+        {
+            "source_property": "name",
+            "ldm_property": "name",
+            "transformation_function": {
+                "function": "addPrefix",
+                "parameters": {
+                    "prefix": "luh-"
+                }
+            }
+        },
+        {
+            "source_property": "notes",
+            "ldm_property": "notes"
+        },
+        {
+            "source_property": "num_resources",
+            "ldm_property": "num_resources"
+        },
+        {
+            "source_property": "num_tags",
+            "ldm_property": "num_tags"
+        },
+        {
+            "source_property": "organization",
+            "ldm_property": "organization"
+        },
+        {
+            "source_property": "organization.name",
+            "ldm_property": "owner_org"
+        },
+        {
+            "source_property": "private",
+            "ldm_property": "private"
+        },
+        {
+            "source_property": "state",
+            "ldm_property": "state"
+        },
+        {
+            "source_property": "tags",
+            "ldm_property": "tags"
+        },
+        {
+            "source_property": "terms_of_usage",
+            "ldm_property": "terms_of_usage"
+        },
+        {
+            "source_property": "title",
+            "ldm_property": "title"
+        },
+        {
+            "source_property": "type",
+            "ldm_property": "type",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": "vdataset"
+                }
+            }
+        },
+        {
+            "source_property": "name",
+            "ldm_property": "url",
+            "transformation_function": {
+                "function": "buildLUHUrl",
+                "parameters": {
+                    "domain": "https://data.uni-hannover.de"
+                }
+            }
+        },
+        {
+            "source_property": "version",
+            "ldm_property": "version"
+        },
+        {
+            "source_property": "",
+            "ldm_property": "repository_name",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": "Leibniz University Hannover"
+                }
+            }
+        },
+        {
+            "source_property": "",
+            "ldm_property": "services_used_list",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": ""
+                }
+            }
+        },
+        {
+            "source_property": "",
+            "ldm_property": "citation",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": []
+                }
+            }
+        }
+    ],
+    "resources": {
+        "iterator": "resources[*]",
+        "filter": {
+            "function": "excludeDownloadAll",
+            "parameters": {}
+        },
+        "properties": [
+            {
+                "source_resource_property": "cache_last_updated",
+                "ldm_resource_property": "cache_last_updated"
+            },
+            {
+                "source_resource_property": "cache_url",
+                "ldm_resource_property": "cache_url"
+            },
+            {
+                "source_resource_property": "created",
+                "ldm_resource_property": "created"
+            },
+            {
+                "source_resource_property": "description",
+                "ldm_resource_property": "description"
+            },
+            {
+                "source_resource_property": "format",
+                "ldm_resource_property": "format"
+            },
+            {
+                "source_resource_property": "hash",
+                "ldm_resource_property": "hash"
+            },
+            {
+                "source_resource_property": "id",
+                "ldm_resource_property": "id"
+            },
+            {
+                "source_resource_property": "last_modified",
+                "ldm_resource_property": "last_modified"
+            },
+            {
+                "source_resource_property": "mimetype",
+                "ldm_resource_property": "mimetype"
+            },
+            {
+                "source_resource_property": "mimetype_inner",
+                "ldm_resource_property": "mimetype_inner"
+            },
+            {
+                "source_resource_property": "name",
+                "ldm_resource_property": "name"
+            },
+            {
+                "source_resource_property": "package_id",
+                "ldm_resource_property": "package_id"
+            },
+            {
+                "source_resource_property": "position",
+                "ldm_resource_property": "position"
+            },
+            {
+                "source_resource_property": "resource_type",
+                "ldm_resource_property": "resource_type"
+            },
+            {
+                "source_resource_property": "size",
+                "ldm_resource_property": "size"
+            },
+            {
+                "source_resource_property": "state",
+                "ldm_resource_property": "state"
+            },
+            {
+                "source_resource_property": "url",
+                "ldm_resource_property": "url"
+            },
+            {
+                "source_resource_property": "",
+                "ldm_resource_property": "url_type",
+                "transformation_function": {
+                    "function": "setConstant",
+                    "parameters": {
+                        "value": ""
+                    }
+                }
+            },
+            {
+                "source_resource_property": "",
+                "ldm_resource_property": "datastore_active",
+                "transformation_function": {
+                    "function": "setConstant",
+                    "parameters": {
+                        "value": false
+                    }
+                }
+            },
+            {
+                "source_resource_property": "",
+                "ldm_resource_property": "datastore_contains_all_records_of_source_file",
+                "transformation_function": {
+                    "function": "setConstant",
+                    "parameters": {
+                        "value": false
+                    }
+                }
+            }
+        ]
+    }
+}

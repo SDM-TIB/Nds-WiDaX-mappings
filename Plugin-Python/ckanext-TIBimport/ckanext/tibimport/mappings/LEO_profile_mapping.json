@@ -1,0 +1,199 @@
+{
+    "source": "OAIHarvester_parsed_record",
+    "owner": "leopard",
+    "iterator": "$",
+    "properties": [
+        {
+            "source_property": "metadata.publicationYear",
+            "ldm_property": "repository_name",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": "LeoPARD (TU Braunschweig Publications And Research Data)"
+                }
+            }
+        },
+        {
+            "source_property": "metadata.publicationYear",
+            "ldm_property": "type",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": "dataset"
+                }
+            }
+        },
+        {
+            "source_property": "metadata.publicationYear",
+            "ldm_property": "source_metadata_created"
+        },
+        {
+            "source_property": "metadata.publicationYear",
+            "ldm_property": "source_metadata_modified",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": ""
+                }
+            }
+        },
+        {
+            "source_property": "metadata.publicationYear",
+            "ldm_property": "owner_org",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": "leopard"
+                }
+            }
+        },
+        {
+            "source_property": "metadata.creators",
+            "ldm_property": "authors",
+            "transformation_function": {
+                "function": "processLEOcreators",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "metadata.publicationYear",
+            "ldm_property": "author_email",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": ""
+                }
+            }
+        },
+        {
+            "source_property": "metadata.identifier.value",
+            "ldm_property": "doi"
+        },
+        {
+            "source_property": "metadata.publicationYear",
+            "ldm_property": "doi_date_published"
+        },
+        {
+            "source_property": "metadata.publicationYear",
+            "ldm_property": "doi_publisher",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": ""
+                }
+            }
+        },
+        {
+            "source_property": "metadata.publicationYear",
+            "ldm_property": "doi_status",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": "True"
+                }
+            }
+        },
+        {
+            "source_property": "metadata.rightsList",
+            "ldm_property": "license_id",
+            "transformation_function": {
+                "function": "extractLEOlicenseId",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "metadata.rightsList",
+            "ldm_property": "license_title",
+            "transformation_function": {
+                "function": "extractLEOlicenseTitle",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "metadata.identifier",
+            "ldm_property": "name",
+            "transformation_function": {
+                "function": "buildLEOname",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "metadata.descriptions",
+            "ldm_property": "notes",
+            "transformation_function": {
+                "function": "processLEOdescriptions",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "metadata.publicationYear",
+            "ldm_property": "organization",
+            "transformation_function": {
+                "function": "getLEOorganization",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "metadata.titles",
+            "ldm_property": "title",
+            "transformation_function": {
+                "function": "getLEOfirstTitle",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "metadata.identifier.value",
+            "ldm_property": "url",
+            "transformation_function": {
+                "function": "doiLink",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "metadata.publicationYear",
+            "ldm_property": "citation",
+            "transformation_function": {
+                "function": "setConstant",
+                "parameters": {
+                    "value": []
+                }
+            }
+        },
+        {
+            "source_property": "metadata.publicationYear",
+            "ldm_property": "publication_year"
+        },
+        {
+            "source_property": "metadata.subjects",
+            "ldm_property": "subject_areas",
+            "transformation_function": {
+                "function": "processLEOsubjectAreas",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "metadata.subjects",
+            "ldm_property": "tags",
+            "transformation_function": {
+                "function": "processLEOtags",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "metadata.resourceType",
+            "ldm_property": "resource_type",
+            "transformation_function": {
+                "function": "processLEOresourceType",
+                "parameters": {}
+            }
+        },
+        {
+            "source_property": "metadata.relatedIdentifiers",
+            "ldm_property": "related_identifiers",
+            "transformation_function": {
+                "function": "processLEOrelatedIdentifiers",
+                "parameters": {}
+            }
+        }
+    ]
+}

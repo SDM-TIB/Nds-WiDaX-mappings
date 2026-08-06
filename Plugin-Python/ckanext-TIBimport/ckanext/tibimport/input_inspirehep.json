@@ -1,0 +1,19 @@
+{
+	"source":"/home/enrique/Documents/ldm_vocabulary/repositories/inspirehep/inspire_extended.json",
+	"owner":"inspire",
+	"iterator":"$.hits.hits[*]",
+	"properties": [
+		{"source_property":"metadata.titles[*].title","ldm_property":"title"},
+		{"source_property":"metadata.keywords[*].value","ldm_property":"keywords"},
+		{"source_property":"metadata.literature[*].doi","ldm_property":"defined_in"},
+		{"source_property":"metadata.abstracts[*].value","ldm_property":"description"},
+		{"source_property":"metadata.authors[*].full_name","ldm_property":"authors","transformation_function":{"function":"normalizeName","parameters":{}}}
+	],
+	"resources":{
+		"iterator":"metadata.resources[*]", 
+		"properties":[
+			{"source_resource_property":"name","ldm_resource_property":"title"},
+			{"source_resource_property":"url","ldm_resource_property":"access_url","transformation_function":{"function":"doiLink","parameters":{}}}
+		]
+	}
+}

@@ -1,0 +1,203 @@
+{
+    "header": {
+        "identifier": "oai:https://leopard.tu-braunschweig.de/:dbbs_mods_00073499",
+        "datestamp": "2024-11-27",
+        "setSpecs": [
+            "GENRE:research_data",
+            "ddc:6",
+            "ddc:68",
+            "ddc:686",
+            "doc-type:ResearchData",
+            "driver",
+            "open_access"
+        ],
+        "status": null
+    },
+    "metadata": {
+        "metadataFormat": "oai_datacite",
+        "identifier": {
+            "value": "10.24355/dbbs.084-202307141546-0",
+            "identifierType": "DOI"
+        },
+        "creators": [
+            {
+                "creatorName": {
+                    "value": "Cerbe, Ferdinand",
+                    "nameType": "Personal"
+                },
+                "givenName": "Ferdinand",
+                "familyName": "Cerbe",
+                "nameIdentifiers": [
+                    {
+                        "value": "0000-0002-6165-7378",
+                        "nameIdentifierScheme": "ORCID",
+                        "schemeURI": "http://orcid.org/"
+                    }
+                ],
+                "affiliations": [
+                    {
+                        "value": "Institut f\u00fcr Mechanik und Adaptronik",
+                        "affiliationIdentifier": null,
+                        "affiliationIdentifierScheme": null,
+                        "schemeURI": null
+                    }
+                ]
+            },
+            {
+                "creatorName": {
+                    "value": "Mahlstedt, Dominik",
+                    "nameType": "Personal"
+                },
+                "givenName": "Dominik",
+                "familyName": "Mahlstedt",
+                "nameIdentifiers": [],
+                "affiliations": [
+                    {
+                        "value": "Institut f\u00fcr Mechanik und Adaptronik",
+                        "affiliationIdentifier": null,
+                        "affiliationIdentifierScheme": null,
+                        "schemeURI": null
+                    }
+                ]
+            }
+        ],
+        "titles": [
+            {
+                "value": "Residual force and deformation measurement in FDM 4D printing",
+                "titleType": null,
+                "lang": "de"
+            }
+        ],
+        "publisher": {
+            "value": "Universit\u00e4tsbibliothek Braunschweig",
+            "publisherIdentifier": null,
+            "publisherIdentifierScheme": null,
+            "schemeURI": null,
+            "lang": null
+        },
+        "publicationYear": "2023",
+        "resourceType": {
+            "value": "research_data",
+            "resourceTypeGeneral": "Dataset"
+        },
+        "subjects": [
+            {
+                "value": "Fused Deposition Modeling",
+                "subjectScheme": null,
+                "schemeURI": null,
+                "valueURI": null,
+                "lang": null
+            },
+            {
+                "value": "4D printing",
+                "subjectScheme": null,
+                "schemeURI": null,
+                "valueURI": null,
+                "lang": null
+            },
+            {
+                "value": "Shape memory polymers",
+                "subjectScheme": null,
+                "schemeURI": null,
+                "valueURI": null,
+                "lang": null
+            },
+            {
+                "value": "686",
+                "subjectScheme": "ddc",
+                "schemeURI": null,
+                "valueURI": null,
+                "lang": null
+            }
+        ],
+        "contributors": [
+            {
+                "contributorType": "HostingInstitution",
+                "contributorName": {
+                    "value": "Universit\u00e4tsbibliothek Braunschweig",
+                    "nameType": "Organizational"
+                },
+                "givenName": null,
+                "familyName": null,
+                "nameIdentifiers": [],
+                "affiliations": []
+            },
+            {
+                "contributorType": "Other",
+                "contributorName": {
+                    "value": "Sinapius, Michael",
+                    "nameType": "Personal"
+                },
+                "givenName": "Michael",
+                "familyName": "Sinapius",
+                "nameIdentifiers": [
+                    {
+                        "value": "0000-0002-1873-9140",
+                        "nameIdentifierScheme": "ORCID",
+                        "schemeURI": "http://orcid.org/"
+                    }
+                ],
+                "affiliations": [
+                    {
+                        "value": "Institut f\u00fcr Mechanik und Adaptronik",
+                        "affiliationIdentifier": null,
+                        "affiliationIdentifierScheme": null,
+                        "schemeURI": null
+                    }
+                ]
+            }
+        ],
+        "dates": [
+            {
+                "value": "2023-07-20",
+                "dateType": "Issued",
+                "dateInformation": null
+            }
+        ],
+        "language": "en",
+        "alternateIdentifiers": [
+            {
+                "value": "https://leopard.tu-braunschweig.de/receive/dbbs_mods_00073499",
+                "alternateIdentifierType": "URL"
+            },
+            {
+                "value": "dbbs_mods_00073499",
+                "alternateIdentifierType": "MyCoRe"
+            }
+        ],
+        "relatedIdentifiers": [
+            {
+                "value": "https://leopard.tu-braunschweig.de/receive/dbbs_mods_00073499?XSL.Transformer=mods",
+                "relationType": "HasMetadata",
+                "relatedIdentifierType": "URL",
+                "relatedMetadataScheme": "mods",
+                "schemeURI": "https://www.loc.gov/standards/mods/v3/mods-3-7.xsd",
+                "schemeType": null,
+                "resourceTypeGeneral": null
+            }
+        ],
+        "sizes": [],
+        "formats": [],
+        "version": null,
+        "rightsList": [
+            {
+                "value": "Attribution 4.0",
+                "rightsURI": "https://creativecommons.org/licenses/by/4.0/",
+                "rightsIdentifier": "CC-BY-4.0",
+                "rightsIdentifierScheme": null,
+                "schemeURI": null,
+                "lang": "en"
+            }
+        ],
+        "descriptions": [
+            {
+                "value": "In FDM 4D printing, residual stresses are purposely introduce into a structure by controlling the print parameters. The residual stress introduction can be interpreted as the programming step of the shape memory cycle. However, for shape memory polymers the commonly recorded quantities are stress, strain and temperature. Therefore, we increase the knowledge about the programming step by measuring the programming force during printing and the recovered deformation after printing. These two values translate to programming stress and recovered strain, when considering the geometry of the printed line and the specimen, respectively. The programming force is measured in x-direction with four load cells based on strain gauges, which are mounted below the print platform. The force is transfered by the material from the nozzle movement onto the print platform. This force is interpreted as the programming force, which translates to programming stress by considering the cross-section of a printed line. The recovered deformation is quantified by the curvature of a bending section. Active bottom layers contain high residual stress, while the passive top layers contain low or near-zero residual stress. The deformation is activated by immersing the specimens in hot water. This leads to the recovery of the residual strain, which causes the specimen to bend. The curvature is interpreted as a strain difference between the active and passive layers, by considering the specimens height. The parameter study was carried out for nozzle temperature, print speed, and melt zone length to investigate their influence on the relationship between programming stress and recovered strain. The results show that the relationship between programming stress and recovered strain depends on the printing parameters, meaning, that on programming force can lead to different recovered strains. This depends on the varied parameter in our study.",
+                "descriptionType": "Abstract",
+                "lang": "en"
+            }
+        ],
+        "geoLocations": [],
+        "fundingReferences": [],
+        "relatedItems": []
+    }
+}
