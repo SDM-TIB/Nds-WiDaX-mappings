@@ -4,11 +4,9 @@
 
 > [**"Why it takes a village to do FAIR Data Management"**](https://doi.org/10.1162/99608f92.42eec111) – Nds-WiDaX brings together Lower Saxony’s research data infrastructures into a unified, semantically enriched knowledge graph.
 
----
-
 ## 🌐 Project Overview
 
-The **Nds-WiDaX** project ("Niedersächsischer Wissensgraphen-basierter Daten-Exchange") aims to sustainably network research data infrastructures in Lower Saxony by developing a domain-specific, semantically enriched knowledge graph. 
+The **Nds-WiDaX** project aims to sustainably network research data infrastructures in Lower Saxony by developing a domain-specific, semantically enriched knowledge graph.
 
 Recognizing that effective research data management (RDM) is a collaborative challenge requiring cooperation and technical interoperability across disciplinary and institutional boundaries, Nds-WiDaX builds on the [**Leibniz Data Manager (LDM)**](https://github.com/SDM-TIB/LDM_Docker) – an open, semantics-oriented software service – to enable machine-readable, contextually rich indexing of heterogeneous (meta)data from research data repositories across Lower Saxony.
 
@@ -16,11 +14,7 @@ The resulting knowledge graph semantically links digital research objects using 
 
 ![Project overview and work packages](./docs/images/graphical_abstract.png)
 
----
-
 ## 🎯 Target Groups
-
-Nds-WiDaX serves three key target groups:
 
 1. **Researchers**  
    - Direct access to relevant, interoperable datasets via semantic search  
@@ -35,8 +29,6 @@ Nds-WiDaX serves three key target groups:
    - Contribution to the implementation of the **FAIR principles** (Findable, Accessible, Interoperable, Reusable)  
    - Establishment of an open, intelligently searchable data ecosystem
 
----
-
 ## 🔗 Technical Foundation
 
 - [**Leibniz Data Manager (LDM)**](https://service.tib.eu/ldmservice) – Open-source service for managing, analyzing, and evaluating scientific data  
@@ -45,8 +37,6 @@ Nds-WiDaX serves three key target groups:
 - **Named Entity Recognition (NER)** for semantic enrichment  
 - **Federated Architecture** for scalable, decentralized data integration  
 - **Open-Source Stack**: Python, RDFLib, SPARQL endpoints
-
----
 
 ## 📌 Current Status
 
@@ -58,20 +48,14 @@ This repository currently contains **metadata mappings** from a selection of res
 - Documentation of ontologies, mappings, and best practices
 - Example SPARQL queries
 
-> ✅ **Future Development**: The repository will evolve into a complete, open-source pipeline from harvested metadata to a production-ready knowledge graph.
-
----
-
-## Repository status
+## 📂 Repository structure
 
 <!-- TODO: Add table of repo paths and their purposes -->
 *Coming soon*
 
----
-
 ## 📊 Data Sources
 
-The metadata harvesting phase focuses on the following research data repositories in Lower Saxony:
+The metadata of the following research data repositories in Lower Saxony is being included in Nds-WiDaX:
 
 - Leibniz University Hannover: [Research Data Repository](https://data.uni-hannover.de/)  
 - University of Göttingen: [Göttingen Research Online Data (GRO.data)](https://data.goettingen-research-online.de/)  
@@ -83,25 +67,20 @@ The metadata harvesting phase focuses on the following research data repositorie
 
 ![map of included research data repositories in Lower Saxony](./docs/images/map_lower_saxony.png)
 
----
-
 ## 🤝 Participating Institutions
 
 - **Lead**: [Technische Informationsbibliothek (TIB)](https://www.tib.eu), Hannover  
 - **Project Lead**: Säule 3 of the [**FDM-NDS**](https://fdm-nds.de/) initiative (Research Data Management Lower Saxony)  
 
----
-
 ## 📬 Contact
 
-Developed by [@Rmbruno11](https://github.com/Rmbruno11) ([📧 Mauricio Brunet](mauricio.brunet@tib.eu)) and [@jasmezz](https://github.com/jasmezz) ([📧 Jasmin Frangenberg](jasmin.frangenberg@tib.eu)).
+Developed by [Mauricio Brunet](https://github.com/Rmbruno11) and [Jasmin Frangenberg](https://github.com/jasmezz). We acknowledge all members of the TIB-SDM group for their helpful feedback and support.
 
 🌐 [Website](https://service.tib.eu/ldm_ndswidax/ldmservice/) *(coming soon)*  
 ✍️ [GitHub issues](https://github.com/SDM-TIB/Nds-WiDaX-mappings/issues)
 
 **We welcome feedback, requests and bug reports!**
 
----
 
 ## 📜 License
 
