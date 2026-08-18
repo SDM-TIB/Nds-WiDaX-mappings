@@ -46,6 +46,16 @@ This repository currently contains metadata mappings from a selection of researc
 <!-- TODO: Add table of repo paths and their purposes -->
 *Coming soon*
 
+**Current Status**
+
+This repository currently contains metadata mappings from a selection of research data repositories in Lower Saxony. These mappings serve as the foundation for building a unified knowledge graph and will be expanded to include:
+
+- Full data harvesting pipeline (incl. open source code for all steps)  
+- Semantic enrichment workflows (NER, ontology alignment)  
+- Knowledge graph construction and storage (RDF triplestores)  
+- Documentation of ontologies, mappings, and best practices
+- Example SPARQL queries
+
 ## Data Sources
 
 The metadata of the following research data repositories in Lower Saxony is being included in Nds-WiDaX:
