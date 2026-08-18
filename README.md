@@ -1,6 +1,8 @@
 # Nds-WiDaX: Semantically Enriched Knowledge Graph for Linking Research Data Repositories in Lower Saxony
 
-![Nds-WiDaX Logo](./docs/images/logo_nds_widax.png)
+<p align="center">
+   <img src="./docs/images/logo_nds_widax.png" width="60%" alt="Nds-WiDaX logo"/>
+</p>
 
 > [**"Why it takes a village to do FAIR Data Management"**](https://doi.org/10.1162/99608f92.42eec111) – Nds-WiDaX brings together Lower Saxony’s research data infrastructures into a unified, semantically enriched knowledge graph.
 
@@ -63,16 +65,15 @@ The metadata of the following research data repositories in Lower Saxony is bein
 - **Lead**: [Technische Informationsbibliothek (TIB)](https://www.tib.eu), Hannover  
 - **Project Lead**: Säule 3 of the [FDM-NDS](https://fdm-nds.de/) initiative (Research Data Management Lower Saxony)  
 
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
 ## Contact
 
-Developed by [Mauricio Brunet](https://github.com/Rmbruno11) and [Jasmin Frangenberg](https://github.com/jasmezz). We acknowledge all members of the TIB-SDM group for their helpful feedback and support.
+Developed by [Mauricio Brunet](https://github.com/Rmbruno11) and [Jasmin Frangenberg](https://github.com/jasmezz). We acknowledge all members of the [SDM-TIB](https://github.com/SDM-TIB/) group for their helpful feedback and support.
 
 🌐 [Website](https://service.tib.eu/ldm_ndswidax/ldmservice/) *(coming soon)*  
 ✍️ [GitHub issues](https://github.com/SDM-TIB/Nds-WiDaX-mappings/issues)
 
 **We welcome feedback, requests and bug reports!**
-
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
