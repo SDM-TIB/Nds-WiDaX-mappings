@@ -31,16 +31,6 @@ The resulting knowledge graph semantically links digital research objects using 
    - Contribution to the implementation of the **FAIR principles** (Findable, Accessible, Interoperable, Reusable)  
    - Establishment of an open, intelligently searchable data ecosystem
 
-## Current Status
-
-This repository currently contains metadata mappings from a selection of research data repositories in Lower Saxony. These mappings serve as the foundation for building a unified knowledge graph and will be expanded to include:
-
-- Full data harvesting pipeline (incl. open source code for all steps)  
-- Semantic enrichment workflows (NER, ontology alignment)  
-- Knowledge graph construction and storage (RDF triplestores)  
-- Documentation of ontologies, mappings, and best practices
-- Example SPARQL queries
-
 ## Repository structure
 
 <!-- TODO: Add table of repo paths and their purposes -->
