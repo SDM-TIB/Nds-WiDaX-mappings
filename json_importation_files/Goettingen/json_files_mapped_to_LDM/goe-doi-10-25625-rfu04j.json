@@ -1,0 +1,111 @@
+{
+    "doi": "10.25625/RFU04J",
+    "identifier_type": "DOI",
+    "doi_date_published": "2026",
+    "source_metadata_created": "2026",
+    "publication_year": "2026",
+    "title": "Nursing activity recognition with imu and low-resolution thermal imaging (two studies)",
+    "organization": {
+        "approval_status": "approved",
+        "description": "G\u00f6ttingen Research Online is an institutional repository for the publication of research data at the G\u00f6ttingen Campus. It is managed by the G\u00f6ttingen eResearch Alliance, a joint group of SUB and GWDG. .",
+        "display_name": "G\u00f6ttingenResearchOnline",
+        "image_display_url": "logo-goettingen.png",
+        "image_url": "logo-goettingen.png",
+        "is_organization": true,
+        "name": "goettingen",
+        "state": "active",
+        "title": "G\u00f6ttingenResearchOnline",
+        "type": "organization"
+    },
+    "name": "goe-doi-10-25625-rfu04j",
+    "license_id": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+    "license_title": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+    "notes": "This dataset contains recorded and preprocessed data from two studies on nursing activity recognition. Thirteen nursing activities were performed by trained professional nursing staff. Participants wore 10 inertial measurement units (IMUs) placed on the body (upper arms, wrists, upper and lower back, thighs, and ankles). In addition, a low-resolution thermal camera (24\u00d732 pixels) recorded the activities. For each study, the dataset provides time-synchronized multimodal recordings and a uniform sampling rate of 60 Hz. Each participant completed two runs, which are provided as separate files. The synchronized files include (i) IMU signals, (ii) the activity label per timestamp, and (iii) the corresponding thermal frame per timestamp. In addition to the synchronized recordings, we provide derived windowed data for machine-learning experiments. The windowed data were downsampled to 30 Hz, segmented into 1-second windows with 50% overlap, and windows without relevant target activities were removed. Window labels were assigned using majority vote within each window. Study 2 includes a stress condition: in the second run, participants performed a mental arithmetic task by counting backwards from 1678 in steps of 13, with 10 seconds allowed per step, while conducting the nursing activities. Windowed data for Study 2 are therefore provided separately for run 1 (baseline) and run 2 (stress). Please see README.md for file structure, data schema, label lists, and preprocessing details. This dataset is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0). You may share and adapt the data for non-commercial purposes, provided that you give appropriate credit and distribute contributions under the same license. The preprocessing code included in this record is licensed under the MIT License (see the corresponding LICENSE file in the code folder).",
+    "publishers": [
+        {
+            "publisher": "GRO.data"
+        }
+    ],
+    "subject_areas": [
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Computer and Information Science"
+        },
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Medicine, Health and Life Sciences"
+        }
+    ],
+    "resource_type": "Dataset",
+    "related_identifiers": [],
+    "tags": [
+        {
+            "display_name": "Computer and Information Science",
+            "name": "Computer and Information Science",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Medicine",
+            "name": "Medicine",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Health and Life Sciences",
+            "name": "Health and Life Sciences",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "human activity recognition",
+            "name": "human activity recognition",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "IMU",
+            "name": "IMU",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "thermal imaging",
+            "name": "thermal imaging",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "wearable sensors",
+            "name": "wearable sensors",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "authors": [
+        {
+            "author": "Hesselmann, Fenja Tjalda",
+            "givenName": "Fenja Tjalda",
+            "familyName": "Hesselmann",
+            "orcid": ""
+        },
+        {
+            "author": "Wallhoff, Frank",
+            "givenName": "Frank",
+            "familyName": "Wallhoff",
+            "orcid": ""
+        }
+    ],
+    "citation": [],
+    "doi_status": "True",
+    "owner_org": "goettingen",
+    "isopen": true,
+    "repository_name": "G\u00f6ttingen Research Online Data",
+    "type": "dataset",
+    "source_metadata_modified": "",
+    "url": "https://doi.org/10.25625/RFU04J",
+    "doi_publisher": "",
+    "resources": [
+        {}
+    ]
+}

@@ -1,0 +1,103 @@
+{
+    "authors": "Le Ren, Veenu Tripathi, Johannes Kr\u00f6ger, Jannes W\u00fcbbena, Stefano Caizzone, Steffen Sch\u00f6n",
+    "doi": "10.25835/z1wj9f2k",
+    "doi_date_published": "2025-10-30",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": false,
+    "license_id": "CC-BY-NC-SA-3.0",
+    "license_title": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "maintainer": "Johannes Kr\u00f6ger",
+    "maintainer_email": "kroeger@ife.uni-hannover.de",
+    "source_metadata_created": "2025-10-30T12:57:50.437108",
+    "source_metadata_modified": "2025-10-30T13:08:53.406416",
+    "metadata_modified": "2025-10-30T13:08:53.406416",
+    "name": "luh-calibrations-accurauto",
+    "notes": "This zip package contains multi-GNSS vehicle antenna calibration results generated within the __ACCURAUTO__ project (Accurate prediction of GNSS antenna performance in automotive scenarios). All results are provided in the ANTEX (Antenna Exchange) format and include:\r\n\r\n-   Phase center offsets and variations (PCO/PCV) per frequency block (entries under _START OF FREQUENCY_)\r\n-  Group delay variations for code measurements (GDV, also referred to as code\u2011phase center corrections, CPC; entries under _START OF GDV_)\r\n\r\n\r\nThe archive is organized into two top-level folders with results from DLR and Geopp:\r\n\r\n-  DLR: ANTEX files for multiple vehicle orientations relative to the calibration setup, including runs that incorporate the vehicle CAD model, as well as standalone antenna calibrations.\r\n-  Geopp: calibration results for the standalone antenna (folder \"Roboter\") and for the antenna mounted on the vehicle (folder \"Insitu\").\r\n\r\n\r\nFurther details on __ACCURAUTO__ are available in:\r\n\r\n-  Kr\u00f6ger, J., Ren, L., W\u00fcbbena, J., Tripathi, V., Caizzone, S., and Sch\u00f6n, S. (2024). _Impact of GNSS receivers on GNSS antenna performance prediction for automotive scenarios_. In: 11th ESA Workshop on Satellite Navigation Technologies and European Workshop on GNSS Signals and Signal Processing (NAVITEC), Noordwijk, The Netherlands. Presentation\r\n-  Tripathi, Veenu and Caizzone, Stefano (2025). _Hybrid GNSS Antenna Characterization for Automotive Scenarios_. European Conference on Antennas and Propagation (EuCAP) 2025, 2025-03-30 - 2025-04-04, Stockholm, Sweden",
+    "num_resources": 1,
+    "num_tags": 6,
+    "organization": {
+        "id": "f3436fa6-0bb5-48dc-9b23-5a05ac696df5",
+        "name": "institut-fuer-erdmessung",
+        "title": "Institut f\u00fcr Erdmessung",
+        "type": "organization",
+        "description": "Schneiderberg 50\r\n__30167 Hannover__\r\n\r\nhttps://www.ife.uni-hannover.de/",
+        "image_url": "https://www.ife.uni-hannover.de/fileadmin/site-templates/logos/ife/ife-Logo.png",
+        "created": "2018-07-05T11:09:58.311547",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "institut-fuer-erdmessung",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "Code Phase Variation",
+            "id": "0424ebf6-051e-4e48-bff3-48eadf63eec8",
+            "name": "Code Phase Variation",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "GNSS",
+            "id": "f4fd67d9-e6f5-449d-8c41-0c3c2bbcef0c",
+            "name": "GNSS",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "GPS",
+            "id": "8312afa6-263d-41e5-ae78-51383464348b",
+            "name": "GPS",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Group Delay Variation",
+            "id": "bf2e6ddf-4a86-4ebd-b51c-0c69f01cf221",
+            "name": "Group Delay Variation",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Phase Center Corrections",
+            "id": "6b97f003-581b-45bf-9a27-8022c9ac6e0e",
+            "name": "Phase Center Corrections",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "antenna calibration",
+            "id": "7e1a5166-8792-4b6b-92b3-c4d206bc4f2c",
+            "name": "antenna calibration",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "ACCURAUTO: GNSS Vehicle Antenna Calibration Results",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/calibrations-accurauto",
+    "version": "",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2025-10-30T13:00:50.975852",
+            "description": "",
+            "format": "atx",
+            "last_modified": "2025-10-30T13:00:50.929129",
+            "mimetype": "application/zip",
+            "name": "Accurauto_ANTEX.zip",
+            "position": 0,
+            "size": 5282259,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/ae6b3279-b55e-48f0-a7e3-74c4dc41001b/resource/ad6b5695-7f68-435b-8555-aea78e8445b2/download/accurauto_antex.zip",
+            "url_type": ""
+        }
+    ]
+}

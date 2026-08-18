@@ -1,0 +1,109 @@
+{
+    "authors": "Oliver Maas, Siegfried Raasch",
+    "doi": "10.25835/0004522",
+    "doi_date_published": "2021-07-30",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": true,
+    "license_id": "CC0-1.0",
+    "license_title": "CC0 1.0 Universal",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "maintainer": "Oliver Maas",
+    "maintainer_email": "maas@meteo.uni-hannover.de",
+    "source_metadata_created": "2021-07-30T09:18:57.963439",
+    "source_metadata_modified": "2022-02-28T08:36:25.341039",
+    "metadata_modified": "2022-02-28T08:36:25.341039",
+    "name": "luh-wake-properties-and-power-output-of-very-large-wind-farms-in-the-german-bight",
+    "notes": "# PALM input files and plot scripts\r\n\r\n## PALM input files\r\n\r\nThe input files for the precursor and main simulations can be found in the directory *SteeringFiles*. They include:\r\n\r\n- a steering file for the initial run (p3d) and the restart run (p3dr)\r\n- a file  that describes the aerodynamic blade properties of the IEA 15 MW wind turbine (_wtm)\r\n- a static driver (NetCDF file) that describes the wind turbine coordinates and other turbine parameters (_wtmpar)\r\n- In case SBL-300-7D a large scale forcing file that describes the temperature advection tendencies (_lsf)\r\n\r\nThe PALM code is available at https://palm.muk.uni-hannover.de\r\n\r\n## Plot scripts\r\n\r\nThe plot scripts are written in Python 3 and can be found in the directory *PlotScripts*.",
+    "num_resources": 2,
+    "num_tags": 5,
+    "organization": {
+        "id": "e746d647-a884-4438-90c7-5aeb491aa43f",
+        "name": "institut-fuer-meteorologie-und-klimatologie",
+        "title": "Institut fuer Meteorologie und Klimatologie ",
+        "type": "organization",
+        "description": "Herrenh\u00e4user Str. 2\r\n30419 Hannover \r\n\r\nhttps://www.muk.uni-hannover.de/\r\n\r\n",
+        "image_url": "2018-09-27-085555.012947headermuk-11-2017.png",
+        "created": "2018-09-27T10:55:55.034247",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "institut-fuer-meteorologie-und-klimatologie",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "German Bight",
+            "id": "30d00ae5-e1ab-49de-8039-1e043d939444",
+            "name": "German Bight",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Large-eddy simulation",
+            "id": "1e492122-964f-41a5-81e6-d3426640f7c8",
+            "name": "Large-eddy simulation",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "PALM",
+            "id": "aeec1f7e-7e5c-44df-bc16-fbcf432ba7c4",
+            "name": "PALM",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "stability",
+            "id": "cff79345-ab2c-4863-826d-d89391fb34c6",
+            "name": "stability",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "very large wind farms",
+            "id": "620dd5df-3cb0-479f-bf18-c98382a1ddb4",
+            "name": "very large wind farms",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "Wake properties and power output of very large wind farms in the German Bight",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/wake-properties-and-power-output-of-very-large-wind-farms-in-the-german-bight",
+    "version": "",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2022-02-28T08:35:28.024546",
+            "description": "# PALM input files\r\n\r\nThe input files for the precursor and main simulations can be found in the directory *SteeringFiles*. They include:\r\n\r\n- a steering file for the initial run (p3d) and the restart run (p3dr)\r\n- a file  that describes the aerodynamic blade properties of the IEA 15 MW wind turbine (_wtm)\r\n- a static driver (NetCDF file) that describes the wind turbine coordinates and other turbine parameters (_wtmpar)\r\n- In case SBL-300-7D a large scale forcing file that describes the temperature advection tendencies (_lsf)\r\n\r\n# Used PALM revisions\r\n\r\n| Case        | Revision |\r\n| ----------- | -------- |\r\n| NBL-700-7D  | 4550     |\r\n| NBL-700-5D  | 4550     |\r\n| CBL-700-7D  | 4573     |\r\n| CBL-1400-7D | 4573     |\r\n| SBL-300-7D  | 4625     |\r\n\r\nThe PALM code is available at https://palm.muk.uni-hannover.de",
+            "format": "zip",
+            "last_modified": "2022-02-28T08:35:27.939378",
+            "mimetype": "application/zip",
+            "name": "InputFiles.zip",
+            "position": 0,
+            "size": 84829,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/71b41e58-6733-4cc6-b9a5-6b111e1a7d42/resource/f4f14f56-257e-4a50-a65a-fd3a611e81e8/download/inputfiles.zip",
+            "url_type": ""
+        },
+        {
+            "created": "2022-02-28T08:36:25.360986",
+            "description": "The plot scripts for creating Figures 3 to 11 are written in Python 3.",
+            "format": "zip",
+            "last_modified": "2022-02-28T08:36:25.320360",
+            "mimetype": "application/zip",
+            "name": "plot_scripts.zip",
+            "position": 1,
+            "size": 24372,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/71b41e58-6733-4cc6-b9a5-6b111e1a7d42/resource/bb814ea2-1e89-4ae0-98ab-ad4e7e2fccab/download/plot_scripts.zip",
+            "url_type": ""
+        }
+    ]
+}

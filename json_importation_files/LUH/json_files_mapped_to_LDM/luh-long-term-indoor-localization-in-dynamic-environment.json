@@ -1,0 +1,171 @@
+{
+    "authors": "Faezeh Mortazavi, Junyi Wei, Tim Schimansky, Vinu Kamalasanan, Claus Brenner, Monika Sester",
+    "doi": "10.25835/gkytjesg",
+    "doi_date_published": "2025-11-14",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": true,
+    "license_id": "CC-BY-4.0",
+    "license_title": "Creative Commons Attribution 4.0 International",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "maintainer": "Faezeh Mortazavi",
+    "maintainer_email": "faezeh.mortazavi@ikg.uni-hannover.de",
+    "source_metadata_created": "2025-11-10T10:33:27.156416",
+    "source_metadata_modified": "2026-01-14T11:53:22.168108",
+    "metadata_modified": "2026-01-14T11:53:22.168108",
+    "name": "luh-long-term-indoor-localization-in-dynamic-environment",
+    "notes": "This dataset provides multi-scenario recordings for evaluating long-term indoor localization and pedestrian behavior analysis in dynamic environments. All data were collected in a 40\u00d710 m entrance hall at Leibniz University Hannover, using a mobile multi-sensor platform and four synchronized overhead cameras.\r\n\r\nThe same space was recorded several times while the environment was intentionally changed: structural modifications, movable walls, furniture rearrangement, and natural pedestrian activity. These controlled variations allow direct comparison of algorithm performance under different levels of occlusion, scene change, and human motion.\r\n\r\nThe dataset supports research on LiDAR-based localization and mapping, sensor fusion, dynamic-scene handling, pedestrian tracking, behavior analysis, and human\u2013robot interaction. Each sequence includes LiDAR data, multi-view camera recordings, and ground-truth trajectories.\r\n\r\n\r\n## Scenarios\r\n\r\nThe same physical space was recorded in three configurations:\r\n\r\n**1) Extreme occluded:** Eight poster walls were arranged to create a narrow corridor. Most original structures are hidden from the LiDAR sensors, and pedestrians introduce additional occlusions.\r\n\r\n**2) Semi occluded:** Several L-shaped poster walls, tables, and chairs partially block structural features but leave large parts of the room visible.\r\n\r\n**3) Free space:** No artificial obstacles were added. Around 15 pedestrians moved naturally, causing only short-term occlusions.\r\n\r\n![scenarios]( https://data.uni-hannover.de/dataset/feb93d47-4c31-42cd-937c-ca86e130e064/resource/f5633375-fd34-46f4-8bb1-db7e5b6f16e9/download/scenarios-dataset.jpg \"Scenarios\")\r\nFigure 1: Illustration of the three recording scenarios: extreme occluded, semi occluded, and free space. The left side shows the floor plan with sensor placement, pedestrian distribution, and ground-truth trajectory, while the right side provides sample views from the four fixed cameras.\r\n\r\n## Dataset Statistics\r\n\r\nEight sequences were recorded: 2 extreme occluded (S0\u2013S1), 3 semi occluded (S2\u2013S4), and 3 free space (S5\u2013S7). Each sequence includes LiDAR data, synchronized overhead camera recordings, and ground-truth data.\r\n\r\n![number-of-scans]( https://data.uni-hannover.de/dataset/feb93d47-4c31-42cd-937c-ca86e130e064/resource/bda1d9aa-1589-4bec-a7e1-03fcd844ec17/download/number-of-scans.png)\r\n\r\n![number-of-scans]( https://data.uni-hannover.de/dataset/feb93d47-4c31-42cd-937c-ca86e130e064/resource/e7933c7d-b446-46ca-92b2-21afa9d662a3/download/number-of-frames.png)\r\n\r\n## Sensor Platform\r\n\r\nThe mobile platform is a push-cart with a rigid frame carrying the following sensors:\r\n\r\n- **Ouster OS1 LiDAR**\r\n- **Hesai Pandar64 LiDAR**\r\n- **Ricoh Theta X 360\u00b0 camera** (Not part of the Dataset)\r\n- **IMU** (Not part of the Dataset)\r\n\r\nThe LiDAR data is recorded via ROS 1 as `rosbag` files on an onboard mini PC.\r\n\r\n### Data Structure\r\nThe LiDAR data is present in a single compressed `rosbag` file per sequence. The file contains 3 topics:\r\n\r\n- `/hesai/pandar`\r\n    - topic type: `sensor_msgs/PointCloud2`\r\n- `/ouster/imu`\r\n    - topic type: `sensor_msgs/Imu`\r\n- `/ouster/points`\r\n    - topic type: `sensor_msgs/PointCloud2`\r\n\r\n## Overhead Camera System \r\n(Work in progress)\r\n\r\nFour fixed cameras mounted in the corners of the hall record synchronized RGB video:\r\n\r\nResolution: 640\u00d7480 px\r\n\r\nAI processing: Raspberry Pi 5 + Sony IMX500 edge device running YOLOv8 for pedestrian detection\r\n\r\nRecording mode: Frames are saved only when pedestrians are detected to reduce storage load\r\n\r\nThe four cameras are timestamped with synchronized NTP clocks and GPS-based UTC time.\r\n\r\nThe images can be accessed via the following link:\r\nhttps://drive.google.com/drive/folders/1-gkseQ_2L3_ElLoS5NNMoO2YngLv-X0-?usp=sharing\r\n\r\n![pedestrian]( https://data.uni-hannover.de/dataset/feb93d47-4c31-42cd-937c-ca86e130e064/resource/99e95db8-9d5c-401e-b551-10a28025b0b9/download/pedestrian-detection-camera.jpg \"pedestrian\")\r\nFigure 2: Examples of pedestrian detection from the four fixed cameras under varying viewpoints and occlusion conditions.\r\n\r\n\r\n\r\n\r\n**Work in progress: data might be changed**\r\n",
+    "num_resources": 7,
+    "num_tags": 5,
+    "organization": {
+        "id": "9828c497-59fd-47a6-a39f-e9eec9bb8a66",
+        "name": "institut-fur-kartographie-und-geoinformatik",
+        "title": "Institut f\u00fcr Kartographie und Geoinformatik",
+        "type": "organization",
+        "description": "Appelstra\u00dfe 9 a, 30167 Hannover, https://www.ikg.uni-hannover.de/",
+        "image_url": "https://www.ikg.uni-hannover.de/fileadmin/site-templates/logos/ikg/IKG_Logo.png",
+        "created": "2018-02-15T09:03:10.899314",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "institut-fur-kartographie-und-geoinformatik",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "Dynamic Environments",
+            "id": "190ecc77-8b53-4d68-b421-6e53962a5732",
+            "name": "Dynamic Environments",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Indoor Localization",
+            "id": "b6ecbcce-69f8-4f42-b4c5-1981a169df1f",
+            "name": "Indoor Localization",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "LiDAR Dataset",
+            "id": "1e906ea1-24c7-4390-9ed2-dfadf76e2690",
+            "name": "LiDAR Dataset",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Long-Term Localization",
+            "id": "cc7f1571-3bff-4cec-8d05-fb8841ad3c33",
+            "name": "Long-Term Localization",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Pedestrian Behavior Analysis",
+            "id": "cc863b9f-69ae-4f52-83f1-55b96370c0c1",
+            "name": "Pedestrian Behavior Analysis",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "A Multi-Scenario Dataset for Long-Term Indoor Localization and Pedestrian Behavior Analysis in Dynamic Environments",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/long-term-indoor-localization-in-dynamic-environment",
+    "version": "",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2025-11-14T13:44:52.565347",
+            "description": "Illustration of the three recording scenarios: extreme occluded, semi occluded, and free space. The left side shows the floor plan with sensor placement, pedestrian distribution, and ground-truth trajectory, while the right side provides sample views from the four fixed cameras.",
+            "format": "jpeg",
+            "last_modified": "2025-11-14T13:44:52.536232",
+            "mimetype": "image/jpeg",
+            "name": "scenarios",
+            "position": 0,
+            "size": 6485517,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/feb93d47-4c31-42cd-937c-ca86e130e064/resource/f5633375-fd34-46f4-8bb1-db7e5b6f16e9/download/scenarios-dataset.jpg",
+            "url_type": ""
+        },
+        {
+            "created": "2025-11-14T13:51:58.440807",
+            "description": "",
+            "format": "png",
+            "last_modified": "2025-11-14T13:51:58.408462",
+            "mimetype": "image/png",
+            "name": "number of scans.png",
+            "position": 1,
+            "size": 53616,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/feb93d47-4c31-42cd-937c-ca86e130e064/resource/bda1d9aa-1589-4bec-a7e1-03fcd844ec17/download/number-of-scans.png",
+            "url_type": ""
+        },
+        {
+            "created": "2025-11-14T13:52:06.970448",
+            "description": "",
+            "format": "png",
+            "last_modified": "2025-11-14T13:52:06.936148",
+            "mimetype": "image/png",
+            "name": "number of frames.png",
+            "position": 2,
+            "size": 184966,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/feb93d47-4c31-42cd-937c-ca86e130e064/resource/e7933c7d-b446-46ca-92b2-21afa9d662a3/download/number-of-frames.png",
+            "url_type": ""
+        },
+        {
+            "created": "2025-11-14T14:11:29.922872",
+            "description": "",
+            "format": "png",
+            "last_modified": "2025-11-14T14:11:29.888034",
+            "mimetype": "image/png",
+            "name": "sensor-platform.png",
+            "position": 3,
+            "size": 895476,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/feb93d47-4c31-42cd-937c-ca86e130e064/resource/3b7a4e99-35f7-48b5-9cf6-49319589d3cc/download/sensor-platform.png",
+            "url_type": ""
+        },
+        {
+            "created": "2025-11-14T14:25:53.825280",
+            "description": "",
+            "format": "jpeg",
+            "last_modified": "2025-11-14T14:25:53.778854",
+            "mimetype": "image/jpeg",
+            "name": "pedestrian detection camera.jpg",
+            "position": 4,
+            "size": 6388426,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/feb93d47-4c31-42cd-937c-ca86e130e064/resource/99e95db8-9d5c-401e-b551-10a28025b0b9/download/pedestrian-detection-camera.jpg",
+            "url_type": ""
+        },
+        {
+            "created": "2025-11-28T13:00:26.760587",
+            "description": "",
+            "format": "",
+            "name": "Dataset",
+            "position": 5,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/vault/ikg/mortazavi/long-term-indoor-localization-in-dynamic-environment/",
+            "url_type": ""
+        },
+        {
+            "created": "2026-01-14T11:53:22.204368",
+            "description": "Paper",
+            "format": "pdf",
+            "last_modified": "2026-01-14T11:53:22.142940",
+            "mimetype": "application/pdf",
+            "name": "A_Multi-Scenario_Dataset_for_Long-Term_Indoor_Loca.pdf",
+            "position": 6,
+            "size": 16270081,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/feb93d47-4c31-42cd-937c-ca86e130e064/resource/8b0fcf4d-b7d7-468d-a3b6-0ccd8dfce851/download/a_multi-scenario_dataset_for_long-term_indoor_loca.pdf",
+            "url_type": ""
+        }
+    ]
+}

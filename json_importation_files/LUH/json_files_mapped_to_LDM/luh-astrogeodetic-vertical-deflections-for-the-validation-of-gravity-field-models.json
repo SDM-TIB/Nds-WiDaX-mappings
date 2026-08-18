@@ -1,0 +1,189 @@
+{
+    "authors": "Christian Voigt, Heiner Denker",
+    "doi": "10.25835/0092586",
+    "doi_date_published": "2018-08-16",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": false,
+    "license_id": "CC-BY-NC-3.0",
+    "license_title": "Creative Commons Attribution-NonCommercial 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/3.0/",
+    "maintainer": "Heiner Denker",
+    "maintainer_email": "denker@ife.uni-hannover.de",
+    "source_metadata_created": "2018-08-16T12:59:54.063333",
+    "source_metadata_modified": "2022-01-20T10:58:49.606358",
+    "metadata_modified": "2022-01-20T10:58:49.606358",
+    "name": "luh-astrogeodetic-vertical-deflections-for-the-validation-of-gravity-field-models",
+    "notes": "For high resolution gravity field modelling in Germany, global geopotential models are combined with terrestrial gravity field data and topographic information from high resolution digital terrain models. In this context, it is vitally important to assess the quality of recent global geopotential models from GOCE and other satellite missions, GPS-levelling data as well as high resolution gravimetric quasigeoid models with an aspired accuracy of 1 cm. Within these analyses, the differences of the existing gravity field data sets have to be enlightened.\r\n\r\nFor this purpose, a unique data set of astrogeodetic vertical deflections was observed in the period from 2006 to 2010 with the zenith camera system TZK2-D. The observations were carried out on 394 stations in total along two profiles in north-south and west-east direction with a spacing of 3-4 km between adjacent stations and total lengths of approx. 600 km. The method of astronomical-topographic levelling was used to compute quasigeoid heights. With regard to the aspired accuracy of 1 cm/100 km, systematic effects within the astrogeodetic gravity field modelling had to be analysed, i.e. particularly, the effects of the underlying reference frames as well as temporal variations of the observations. Commonly used approximations within astrogeodetic gravity field modelling were analysed using rigorous formulas.\r\n\r\nConsidering the identified systematic effects, the comparison between the astrogeodetic vertical deflections and corresponding values from the gravimetric quasigeoid model EGG2008 (Denker, 2013) reveals the stated accuracy of the astrogeodetic vertical deflections of 0.08\". By means of comparisons with the astrogeodetic data, the accuracy of vertical deflections from global geopotential models is estimated to be between 0.18\" and 0.40\" for the ultra-high resolution model EGM2008 and 0.20\" up to a spatial resolution of 100 km for the recent GOCE models of the third generation, being fully compatible with the relevant error estimates of the models. The comparisons between the height anomalies from the astronomical-topographic levellings and GPS-levelling data as well as high resolution gravimetric quasigeoid models in Germany show an agreement of 1.2 cm to 2.9 cm RMS. The short wavelength differences can be assigned to the ellipsoidal heights of the GPS-levelling data, while the analyses of the long wavelength differences of a few centimetres over several 100 km is very complex, as the differences include uncertainties of all involved data sets. In this context, the astrogeodetic quasigeoid solutions provide a valuable additional control. On the whole, the results reveal the high quality of the existing gravity field data sets in Germany, including the astrogeodetic data set determined by this research.\r\n\r\nThe astrodeodetic data set is part of Voigt (2013) and as such compiled in the appendix of this thesis. The digital archive includes the astrogeodetic data along two profiles (versions 2.0) in north-south and west-east direction (as ASCII text files), i.e.\r\n\r\n1. The files \"ns-2.0-obs.txt\" and \"wo-2.0-obs.txt\" include the original astronomical and ellipsoidal observations. The ellipsoidal coordinates refer to ETRS89, whereas the astronomical coordinates refer to ITRF2005 and the corresponding epochs.\r\n\r\n2. The files \"ns-2.0-red.txt\" and \"wo-2.0-red.txt\" include the reduced astronomical and ellipsoidal coordinates according to Figure 5.1 of Voigt (2013). Both ellipsoidal and astronomical coordinates refer to ETRS89 and the mean Earth's crust with the astronomical coordinates additionally referring to the zero-tide potential. This allows for the computation of the vertical deflections according to Helmert either by the widely used linear approximation or according to (3.43) of Voigt (2013) without losing accuracy. For the comparison with vertical deflections derived from the interpolation of quasigeoid models especially in rough terrain, the terrain inclination should be taken into account. For further details see section 7.1 of Voigt (2013).\r\n\r\n3. The files \"ns-2.0-zeta.txt\" and \"wo-2.0-zeta.txt\" include the astrogeodetic quasigeoid heights relative to the first station of each profile. These are computed from the reduced vertical deflections (\"ns-2.0-red.txt\" and \"wo-2.0-red.txt\") by astronomical-topographic levellings. The quasigeoid heights refer to the zero-tide potential.\r\n\r\nThis work was carried out at the Institut f\u00fcr Erdmessung of the Leibniz Universit\u00e4t Hannover within the framework of the project REAL GOCE as part of the R&D-Programme GEOTECHNOLOGIEN, funded by the German Ministry of Education and Research (BMBF) and the German Research Foundation (DFG) through Grant (03G0726C).\r\n\r\n__Selected publications:__\r\n\r\n* Denker, H. (2013) Regional gravity field modeling: Theory and practical results. Monograph in: Xu G. (ed.), Sciences of Geodesy \u2013 II, Chapter 5: 185-291, Springer Verlag, Berlin, Heidelberg, https://doi.org/10.1007/978-3-642-28000-9_5 \r\n\r\n* Voigt, C. (2013) Astrogeod\u00e4tische Lotabweichungen zur Validierung von Schwerefeldmodellen, PhD Thesis, Universit\u00e4t Hannover. Fachrichtung Geod\u00e4sie und Geoinformatik: Wissenschaftliche Arbeiten der Fachrichtung Geod\u00e4sie und Geoinformatik der Leibniz Universit\u00e4t Hannover 305, Fachrichtung Geod\u00e4sie und Geoinformatik der Leibniz-Universit\u00e4t Hannover, http://www.dgk.badw.de/fileadmin/user_upload/Files/DGK/docs/c-702.pdf\r\n\r\n* Voigt, C. and Denker, H. (2014) Regional Validation and Combination of GOCE Gravity Field Models and Terrestrial Data. In: Flechtner, F., Sneeuw, N., Schuh, W. D.(Eds.), Observation of the System Earth from Space - CHAMP, GRACE, GOCE and Future Missions, GEOTECHNOLOGIEN Science Report 20 (Advanced Technologies in Earth Sciences), Springer, pp. 139-145, https://doi.org/10.1007/978-3-642-32135-1_18\r\n\r\n* Voigt, C. and Denker, H. (2015) Validation of GOCE Gravity Field Models in Germany. Newton's Bulletin 5, http://www.isgeoid.polimi.it/Newton/Newton_5/05_Voigt_37_48.pdf",
+    "num_resources": 6,
+    "num_tags": 9,
+    "organization": {
+        "id": "f3436fa6-0bb5-48dc-9b23-5a05ac696df5",
+        "name": "institut-fuer-erdmessung",
+        "title": "Institut f\u00fcr Erdmessung",
+        "type": "organization",
+        "description": "Schneiderberg 50\r\n__30167 Hannover__\r\n\r\nhttps://www.ife.uni-hannover.de/",
+        "image_url": "https://www.ife.uni-hannover.de/fileadmin/site-templates/logos/ife/ife-Logo.png",
+        "created": "2018-07-05T11:09:58.311547",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "institut-fuer-erdmessung",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "EGM2008",
+            "id": "c3c82cab-d23f-4915-a6f0-eeca5906dd1a",
+            "name": "EGM2008",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "GOCE",
+            "id": "7b35b692-65f7-46b7-9a8f-2cdf4a151226",
+            "name": "GOCE",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "GPS-levelling",
+            "id": "37dfc196-6553-4782-9e8f-3a7562e1de65",
+            "name": "GPS-levelling",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "control surveys",
+            "id": "cd5f971b-462e-4d79-bac4-cb5ad8ff057d",
+            "name": "control surveys",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "global geopotential models",
+            "id": "76b5090d-73f9-41fe-b14b-bcf11a6d1445",
+            "name": "global geopotential models",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "gravity field",
+            "id": "6dc78c10-c504-4a9e-b492-4f8c437db287",
+            "name": "gravity field",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "height references surfaces",
+            "id": "c24801bd-fce1-40b9-8d5b-409022c1ab12",
+            "name": "height references surfaces",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "validation",
+            "id": "d6438993-e0d7-4218-9563-f76725886bee",
+            "name": "validation",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "vertical deflections",
+            "id": "c6f41939-c516-42b4-a2dc-dc51ee26603a",
+            "name": "vertical deflections",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "Astrogeodetic vertical deflections along two profiles in Germany for the validation of gravity field models",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/astrogeodetic-vertical-deflections-for-the-validation-of-gravity-field-models",
+    "version": "",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2018-08-16T13:04:38.349069",
+            "description": "",
+            "format": "ascii",
+            "last_modified": "2018-08-17T11:26:49.603619",
+            "mimetype": "text/plain",
+            "name": "ns-2.0-obs.txt",
+            "position": 0,
+            "size": 16420,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/d5d40105-3b64-4715-b788-bd61d225ff2f/resource/c2ee169b-8ff8-451a-a0dc-55efb662bcff/download/ns-2.0-obs.txt",
+            "url_type": ""
+        },
+        {
+            "created": "2018-08-16T13:04:52.439574",
+            "description": "",
+            "format": "ascii",
+            "last_modified": "2018-08-17T11:27:23.575491",
+            "mimetype": "text/plain",
+            "name": "wo-2.0-obs.txt",
+            "position": 1,
+            "size": 11768,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/d5d40105-3b64-4715-b788-bd61d225ff2f/resource/8036296b-bfe1-4756-a6bb-f9d853612be9/download/wo-2.0-obs.txt",
+            "url_type": ""
+        },
+        {
+            "created": "2018-08-16T13:05:08.111789",
+            "description": "",
+            "format": "ascii",
+            "last_modified": "2018-08-17T11:27:45.141479",
+            "mimetype": "text/plain",
+            "name": "ns-2.0-red.txt",
+            "position": 2,
+            "size": 14664,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/d5d40105-3b64-4715-b788-bd61d225ff2f/resource/58d80b02-ddc3-47b5-97c0-ab47fbd3d5b6/download/ns-2.0-red.txt",
+            "url_type": ""
+        },
+        {
+            "created": "2018-08-16T13:05:19.459445",
+            "description": "",
+            "format": "ascii",
+            "last_modified": "2018-08-17T11:28:01.125821",
+            "mimetype": "text/plain",
+            "name": "wo-2.0-red.txt",
+            "position": 3,
+            "size": 10510,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/d5d40105-3b64-4715-b788-bd61d225ff2f/resource/5be4d123-00dd-4d35-8b11-35f1c4077f38/download/wo-2.0-red.txt",
+            "url_type": ""
+        },
+        {
+            "created": "2018-08-16T13:05:34.323845",
+            "description": "",
+            "format": "ascii",
+            "last_modified": "2018-08-17T11:28:25.766090",
+            "mimetype": "text/plain",
+            "name": "ns-2.0-zeta.txt",
+            "position": 4,
+            "size": 11164,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/d5d40105-3b64-4715-b788-bd61d225ff2f/resource/c07ccc42-1e4c-4afa-bc93-d2ea4fbddf07/download/ns-2.0-zeta.txt",
+            "url_type": ""
+        },
+        {
+            "created": "2018-08-16T13:05:48.705166",
+            "description": "",
+            "format": "ascii",
+            "last_modified": "2018-08-17T11:28:43.882810",
+            "mimetype": "text/plain",
+            "name": "wo-2.0-zeta.txt",
+            "position": 5,
+            "size": 8002,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/d5d40105-3b64-4715-b788-bd61d225ff2f/resource/546e1c33-f737-49ef-9496-dc2155232f09/download/wo-2.0-zeta.txt",
+            "url_type": ""
+        }
+    ]
+}

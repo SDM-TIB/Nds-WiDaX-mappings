@@ -1,0 +1,89 @@
+{
+    "authors": "Damianos P. Melidis",
+    "doi": "10.25835/0039431",
+    "doi_date_published": "2020-10-03",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": true,
+    "license_id": "CC-BY-SA-3.0",
+    "license_title": "Creative Commons Attribution Share-Alike 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "maintainer": "Damianos P. Melidis",
+    "maintainer_email": "damianosmel@gmail.com",
+    "source_metadata_created": "2020-10-03T15:32:02.259053",
+    "source_metadata_modified": "2022-01-20T10:59:08.514445",
+    "metadata_modified": "2022-01-20T10:59:08.514445",
+    "name": "luh-dom2vec_pretrained",
+    "notes": "Pre-trained dom2vec protein domain embeddings used for downstream evaluation discussed in \r\n\"dom2vec: Capturing domain structure and function using self-supervision on protein domain architectures\" (bioRxiv manuscript: [link](https://www.biorxiv.org/content/10.1101/2020.03.17.995498v2)).\r\n\r\nThe domain embeddings were trained using the annotations of InterPro db version 75.0.\r\n\r\n",
+    "num_resources": 1,
+    "num_tags": 4,
+    "organization": {
+        "id": "00c8f767-81fd-41ae-9235-dd4d1d43221c",
+        "name": "l3s",
+        "title": "L3S",
+        "type": "organization",
+        "description": "# Forschungszentrum L3S\r\n\r\nhttps://www.l3s.de/",
+        "image_url": "https://www.l3s.de/wp-content/uploads/2024/11/LS3-Logo-2024.png",
+        "created": "2019-10-23T10:47:47.942041",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "l3s",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "bioinformatics",
+            "id": "26998f6f-951e-4843-b639-ece18c35a6d3",
+            "name": "bioinformatics",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "embeddings",
+            "id": "c2b95e89-b479-4b20-8720-43344c523ef1",
+            "name": "embeddings",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "protein_domains",
+            "id": "dc94e331-f2e9-4925-b9d7-fb0056e9b68e",
+            "name": "protein_domains",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "proteins",
+            "id": "a69cf2ce-1073-4bd1-ad4a-911c136b6cbb",
+            "name": "proteins",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "dom2vec: Protein domain embeddings",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/dom2vec_pretrained",
+    "version": "InterPro v. 75.0",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2020-10-03T15:57:24.151184",
+            "description": "# dom2vec pretrained embeddings\r\n \r\n* version: from protein annotations of Interpro db version 75.0.\r\n* domain annotations: non-redundant plus the GAP domains (for details see manuscript)\r\n* usage: please see the example downstream evaluation steps at [github](https://github.com/damianosmel/dom2vec#downstream-evaluation)",
+            "format": "targz",
+            "last_modified": "2020-10-03T15:57:24.112760",
+            "mimetype": "application/x-tar",
+            "name": "dom2vec_pretrained_interpro_v75",
+            "position": 0,
+            "size": 44440026,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/cf1be2a3-5c87-4c23-9e97-6b76ba7dc26c/resource/1de03f40-e8f5-47e6-bb97-efa6823d6c86/download/dom2vec_non_redundant_gap_interpro75.tar.gz",
+            "url_type": ""
+        }
+    ]
+}

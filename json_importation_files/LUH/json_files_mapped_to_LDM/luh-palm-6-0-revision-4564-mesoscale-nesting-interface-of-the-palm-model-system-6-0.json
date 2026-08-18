@@ -1,0 +1,128 @@
+{
+    "authors": "Kadasch and S\u00fchring",
+    "doi": "10.25835/0084787",
+    "doi_date_published": "2020-11-05",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": true,
+    "license_id": "CC0-1.0",
+    "license_title": "CC0 1.0 Universal",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "maintainer": "Matthias S\u00fchring",
+    "maintainer_email": "suehring@muk.uni-hannover.de",
+    "source_metadata_created": "2020-11-05T17:31:30.993582",
+    "source_metadata_modified": "2022-01-20T10:59:52.414668",
+    "metadata_modified": "2022-01-20T10:59:52.414668",
+    "name": "luh-palm-6-0-revision-4564-mesoscale-nesting-interface-of-the-palm-model-system-6-0",
+    "notes": "Source code, setup files and analysis scripts",
+    "num_resources": 4,
+    "num_tags": 4,
+    "organization": {
+        "id": "e746d647-a884-4438-90c7-5aeb491aa43f",
+        "name": "institut-fuer-meteorologie-und-klimatologie",
+        "title": "Institut fuer Meteorologie und Klimatologie ",
+        "type": "organization",
+        "description": "Herrenh\u00e4user Str. 2\r\n30419 Hannover \r\n\r\nhttps://www.muk.uni-hannover.de/\r\n\r\n",
+        "image_url": "2018-09-27-085555.012947headermuk-11-2017.png",
+        "created": "2018-09-27T10:55:55.034247",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "institut-fuer-meteorologie-und-klimatologie",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "Large-eddy simulation",
+            "id": "1e492122-964f-41a5-81e6-d3426640f7c8",
+            "name": "Large-eddy simulation",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Mesoscale nesting",
+            "id": "93e09ba4-24dc-4c75-aa28-d68f0197ef3c",
+            "name": "Mesoscale nesting",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "PALM",
+            "id": "aeec1f7e-7e5c-44df-bc16-fbcf432ba7c4",
+            "name": "PALM",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "PALM-4U",
+            "id": "542d556d-1fb6-4b8e-9e02-da7c9d6fa98b",
+            "name": "PALM-4U",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "Supplementary material to 'Mesoscale nesting interface of the PALM model system 6.0'",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/palm-6-0-revision-4564-mesoscale-nesting-interface-of-the-palm-model-system-6-0",
+    "version": "",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2020-11-05T17:42:09.980528",
+            "description": "# Mesoscale nesting interface of the PALM model system 6.0 \u2014 Simulation setups\r\n\r\nIn this document, we describe how to produce the simulation results and analyses documented in our article \"Mesoscale nesting interface of the PALM model system 6.0\" submitted to the journal Geoscientific Model Development. In particular, we explain how we configured the model, processed the mesoscale input, and produced the figures for the publication. Everything that is needed to run PALM and reproduce the simulations documented in our manuscript is contained in this package. \r\n\r\nEckhard Kadasch and Matthias S\u00fchring, November 2020\r\n\r\n\r\n## 1 Package contents\r\n\r\nFor the simulations, we used revision 4564 of the PALM model system 6.0, which we included in this package. To reproduce the simulations please download\r\n\r\n- PALM source code files (trunk.zip),\r\n- Analysis scripts (analysis_scripts.zip), and\r\n- Job configurations and dynamic driver (jobs.zip).\r\n\r\nAfter extracting them at a location of your choice using\r\n\r\n    unzip trunk.zip\r\n    unzip analysis_scripts.zip\r\n    unzip jobs.zip -d ./trunk\r\n\r\nyou will find the following contents:\r\n\r\n    ./analysis_scripts/ \u2014 post-processing and visualization scripts\r\n    ./trunk/\r\n        JOBS/\r\n            setup_LOD_1/ \u2014 PALM job directory for simulation with LOD-1 boundary conditions\r\n            setup_LOD_1/USERCODE/ \u2013 PALM usercode changes to enforce LOD-1 boundary conditions\r\n            setup_LOD_2/INPUT/ \u2014 PALM job directory for simulation with LOD-2 boundary conditions\r\n        SOURCE/ \u2014 PALM model code files\r\n        UTIL/\r\n            inifor/ \u2014 INIFOR preprocessor code files\r\n            ...\r\n        ...\r\n\r\nYou can find detailed instructions about the model installation in the [PALM installation manual](https://palm.muk.uni-hannover.de/trac/wiki/doc/install).\r\n\r\n\r\n## 2 Model setup and input data generation\r\n\r\nThis package includes the PALM and INIFOR setups used for our simulation runs under `trunk/JOBS/setup_LOD_1/INPUT` and `trunk/JOBS/setup_LOD_2/INPUT`. These folders contain, in particular, the two kinds of Namelist files, namely `setup_LOD_x_p3d` and `setup_LOD_x_inifor`, which control PALM and INIFOR, respectively. To reproduce the simulations, you need to carry out the following steps:\r\n\r\n1. Generate the dynamic driver file (already included) using INIFOR and\r\n2. Run PALM using the respective job configurations\r\n\r\n\r\n### 2.1 Generating dynamic drivers using INIFOR\r\n\r\nINIFOR computes dynamic boundary conditions from the output of the COSMO model. In the present case, we used COSMO analysis data by the German Meteorological Service (Deutscher Wetterdienst, DWD), which we obtained through DWD's [Pamore interface](https://www.dwd.de/DE/leistungen/pamore/pamore.html) (registration required). With this package, we provide both the generated dynamic driver (under `/trunk/JOBS/setup_LOD_2/INPUT/setup_LOD_2_dynamic`) as well as the steps to produce them. Hence, you may reproduce the simulations without obtaining the analysis data first. For generating the dynamic driver, the COSMO data has to be converted into the netCDF format as described in the [INIFOR documentation](https://palm.muk.uni-hannover.de/trac/wiki/doc/app/iofiles/inifor#RequirednetCDFvariables).\r\n\r\nFor the manuscript, we carried out a simulation with spatially heterogeneous boundary conditions, here referred to as `setup_LOD_2`, and a reference simulation with spatially averaged one-dimensional boundary conditions, which we refer to as `setup_LOD_1`. Here, LOD stands for the level of detail. For the simulation with LOD-1 boundary conditions, we carried out the averaging online within the PALM code. This functionality is contained within the user code files in the input directory `setup_LOD_1/USERCODE/`. (Meanwhile, we also added this averaging feature directly in INIFOR, which is available since PALM revision r4606.)\r\n\r\nTo use them for both simulations, link the LOD-2 driver to the LOD-1 setup:\r\n\r\n    ln -s {path to}/trunk/JOBS/setup_LOD_2/INPUT/setup_LOD_2_dynamic {path to}/trunk/JOBS/setup_LOD_1/INPUT/setup_LOD_1_dynamic\r\n\r\nWe generated the dynamic driver for both the LOD-1 and LOD-2 setup using:\r\n\r\n    inifor --path path/to/dataset --date 20160507 --hhl-file path/to/dataset/hhl.nc -o GMD_driver --init-mode profile --elevation 50.0 --namelist trunk/JOBS/setup_LOD_2/INPUT/setup_LOD_2_inifor\r\n\r\nNote that the final driver files need to follow the naming convention `{job name}_dynamic` for PALM to use the correct driver.\r\n\r\nYou can find a detailed description of all available command-line arguments in the [INIFOR documentation](https://palm.muk.uni-hannover.de/trac/wiki/doc/app/iofiles/inifor).\r\n\r\n\r\n### 2.2 Running PALM\r\n\r\nAfter you generated the dynamic driver(s) and copied them into the respective job directories, you may proceed with starting the PALM simulation runs using the `palmrun` command:\r\n\r\n    palmrun -c {host_identifier} -r {run_identifier} ...\r\n\r\nwhere `{host_identifier}` selects the configuration for the simulation computer and `{run_identifier}` refers to the particular mode setup, in our case either `setup_LOD_1` or `setup_LOD_2`.\r\n\r\nYou can learn more about the host and case configuration in the [`palmrun` documentation](https://palm.muk.uni-hannover.de/trac/wiki/doc/app/palmrun).\r\n\r\nAfter the successful run, you will find the simulation results in the output directory of the respective job, e.g. under `{path_to_output}/{run_identifier}/OUTPUT/`.  \r\n\r\n\r\n## 3 Analyzing and visualizing results\r\n\r\nIn the following, we give an overview of the analysis tools and plotting scripts we used to visualize the model results. The scripts are written in NCL (NCAR Command Language, version 6.6.2, 2019, [doi:10.5065/D6WD3XH5](http://dx.doi.org/10.5065/D6WD3XH5)) and can be found under `analysis_scripts/`.\r\n\r\n- Figure 7:  `Fig_7.ncl`  - dynamic input file (`setup_LOD_1`)\r\n- Figure 8:  `Fig_8.ncl`  - PALM 3D output for averaged quantities (`setup_LOD_1`)\r\n- Figure 9:  `Fig_9.ncl`  - PALM 3D output for instantaneous quantities (`setup_LOD_1`)\r\n- Figure 10: `Fig_10.ncl` - PALM time series file as well as COSMO output files for radiation\r\n- Figure 11: `Fig_11.ncl` - PALM 3D output for instantaneous quantities (LOD=1)\r\n- Figure 12: `Fig_12.ncl` - PALM 3D output for instantaneous quantities (LOD=1)\r\n- Figure 13: `Fig_13.ncl` - dynamic input file (`setup_LOD_1`)\r\n- Figure 14: `Fig_14.ncl` - PALM time series file, PALM 2D output for averaged quantities, PALM 3D output for averaged quantities (`setup_LOD_1`)\r\n- Figure 15: `Fig_15.ncl` - PALM time series file, PALM 2D output for averaged quantities, PALM 3D output for averaged quantities (`setup_LOD_1`)\r\n- Figure 16: `Fig_16.ncl` - PALM time series file, PALM 2D output for averaged quantities, PALM 3D output for averaged quantities (`setup_LOD_1`)\r\n- Figure 17: `Fig_17.ncl` - PALM time series file, PALM 2D output for averaged quantities, PALM 3D output for averaged quantities (`setup_LOD_1`)\r\n- Figure 18: `Fig_18.ncl` - PALM 3D output for averaged quantities (`setup_LOD_1` + `setup_LOD_2`), COSMO output files\r\n- Figure 19: `Fig_19.ncl` - PALM 3D output for averaged quantities (`setup_LOD_1`), COSMO output files\r\n- Figure 20: `Fig_20.ncl` - PALM monitoring files for CPU measurements\r\n",
+            "format": "txt",
+            "last_modified": "2020-11-09T09:45:05.716269",
+            "mimetype": "text/markdown",
+            "name": "README.md",
+            "position": 0,
+            "size": 6877,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/6bbd1e7a-3e40-445b-87bf-e775c1a09ee4/resource/1bd4e9d3-35a1-4912-a236-c4785288ed67/download/palm6_rev_4564.md",
+            "url_type": ""
+        },
+        {
+            "created": "2020-11-05T17:47:35.798804",
+            "description": "Source code files",
+            "format": "zip",
+            "last_modified": "2020-11-05T17:47:35.761099",
+            "mimetype": "application/zip",
+            "name": "PALM source code files",
+            "position": 1,
+            "size": 61120261,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/6bbd1e7a-3e40-445b-87bf-e775c1a09ee4/resource/222a6b39-d4ce-453f-a2f0-09a628223e03/download/trunk.zip",
+            "url_type": ""
+        },
+        {
+            "created": "2020-11-05T17:50:52.074767",
+            "description": "analysis scripts",
+            "format": "zip",
+            "last_modified": "2020-11-05T17:50:52.039283",
+            "mimetype": "application/zip",
+            "name": "Analysis scripts",
+            "position": 2,
+            "size": 37966,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/6bbd1e7a-3e40-445b-87bf-e775c1a09ee4/resource/18a97026-afe7-4cd3-8413-8186fd1f9f15/download/analysis_scripts.zip",
+            "url_type": ""
+        },
+        {
+            "created": "2020-11-05T18:19:54.822024",
+            "description": "Setup files for PALM and INIFOR, as well as user code ",
+            "format": "zip",
+            "last_modified": "2020-11-05T18:19:54.773335",
+            "mimetype": "application/zip",
+            "name": "Job configurations",
+            "position": 3,
+            "size": 1504506912,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/6bbd1e7a-3e40-445b-87bf-e775c1a09ee4/resource/b3858c40-6ada-4f0b-a687-fb622e351995/download/jobs.zip",
+            "url_type": ""
+        }
+    ]
+}

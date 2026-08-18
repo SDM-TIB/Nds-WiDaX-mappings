@@ -1,0 +1,101 @@
+{
+    "authors": "Vishwa Vijay Singh, Liliane Biskupek",
+    "doi": "10.25835/3h1r07a7",
+    "doi_date_published": "2022-01-20",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": false,
+    "license_id": "CC-BY-NC-3.0",
+    "license_title": "Creative Commons Attribution-NonCommercial 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/3.0/",
+    "maintainer": "Liliane Biskupek",
+    "maintainer_email": "biskupek@ife.uni-hannover.de",
+    "source_metadata_created": "2022-01-20T13:08:01.010222",
+    "source_metadata_modified": "2023-09-26T13:56:58.703217",
+    "metadata_modified": "2023-09-26T13:56:58.703217",
+    "name": "luh-erp-aut1-and-pole-offsets-from-llr-with-nps-for-timespan1970-2021",
+    "notes": "Lunar Laser Ranging (LLR) measures the distance between observatories on Earth and retro-reflectors on Moon since 1969. From the mesurements it is possible to estimate the Earth Rotation Parameters (ERP) using LLR data. For the determination of the published ERP data 28093 LLR normal points for the time span April 1970 - April 2021 were used. The analysis was done with the LUNAR software of the Insitute of Geodesy (IfE).\r\n\r\nThe data contains 32 files which show the estimated values and their 3-sigma uncertainties of the Earth Rotation Phase (\u0394UT1) and the terrestrial pole offsets (xp and yp). The data is devided in 3 subsets according to the minimum number of normal points (NPs) per night (e.g. 5, 10, or 15 NPs). Each subset contains files with ERPs calculated from NPs observed from either only APOLLO (USA), or only OCA (France), or all LLR observatories. For APOLLO, the case of 15 NPs per night was not considered. Each case has four individual files - one each for results of the estimation of \u0394UT1, xp, yp, and xp & yp. \r\n \r\nThe a-priori data used to estimate the ERP values is a combination of:\r\n\r\n 1. KEOF COMB2019 series (from JD 2440575.5 until JD 2445335.5) [Ratcliff, J. T., & Gross, R. S. (2020).Combinations of Earth Orientation Measurements: SPACE2019, COMB2019, and POLE2019. Technical Report JPLPublication 20-3 Jet Propulsion Laboratory.], and\r\n\r\n 2. IERS 14 C04 series (from JD 2445336.5 until JD 2458967.5) [IERS 14 C04 (IAU 2000A) series downloaded on 06.05.2021 from: https://www.iers.org/IERS/EN/DataProducts/EarthOrientationData/eop.html].\r\n \r\nThe given estimated ERP values are the differences to the ERP values from the a-priori time series (i.e. final ERP value on one night = the given value + ERP value from the a-priori time series). The error of these estimated values are given as 3-sigma uncertainties.\r\n \r\nA detailed analysis of the data sets is published as:\r\nSingh, V. V.; Biskupek, L.; M\u00fcller, J. & Zhang, M. (2022): Earth rotation parameter estimation from LLR, Advances in Space Research, 70, 2383-2398, http://doi.org/10.1016/j.asr.2022.07.038  \r\n\r\n",
+    "num_resources": 3,
+    "num_tags": 2,
+    "organization": {
+        "id": "f3436fa6-0bb5-48dc-9b23-5a05ac696df5",
+        "name": "institut-fuer-erdmessung",
+        "title": "Institut f\u00fcr Erdmessung",
+        "type": "organization",
+        "description": "Schneiderberg 50\r\n__30167 Hannover__\r\n\r\nhttps://www.ife.uni-hannover.de/",
+        "image_url": "https://www.ife.uni-hannover.de/fileadmin/site-templates/logos/ife/ife-Logo.png",
+        "created": "2018-07-05T11:09:58.311547",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "institut-fuer-erdmessung",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "ERP",
+            "id": "64dc3d55-e7ce-4516-b16c-24ec12cc65f0",
+            "name": "ERP",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "LLR",
+            "id": "b832510f-594c-4715-9f15-7c7df20567d2",
+            "name": "LLR",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "Earth Rotation Parameters from LLR with NPs for timespan 1970 - 2021",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/erp-aut1-and-pole-offsets-from-llr-with-nps-for-timespan1970-2021",
+    "version": "",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2022-01-20T13:17:11.623085",
+            "description": "12 files for ERPs estimated for nights with a minimum of 5 NPs. The ERPs components \u0394UT1, xp, yp, and xp & yp are given in individual files for APOLLO, OCA, or all LLR observatories. In each case the estimated values, their 3-sigma uncertainties and the number of used normal points for the determination are given for a specific time point.\r\n\r\n",
+            "format": "zip",
+            "last_modified": "2022-03-29T14:44:25.682587",
+            "mimetype": "application/zip",
+            "name": "IfE_LLR_ERP_05NP.zip",
+            "position": 0,
+            "size": 324228,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/3205a0f8-1308-4799-8043-a38bc92dcfde/resource/799aed87-4859-446d-8082-bc1ae53ea131/download/ife_llr_erp_05np.zip",
+            "url_type": ""
+        },
+        {
+            "created": "2022-01-20T13:17:34.268616",
+            "description": "12 files for ERPs estimated for nights with a minimum of 10 NPs. The ERPs components \u0394UT1, xp, yp, and xp & yp are given in individual files for APOLLO, OCA, or all LLR observatories. In each case the estimated values, their 3-sigma uncertainties and the number of used normal points for the determination are given for a specific time point.",
+            "format": "zip",
+            "last_modified": "2022-03-29T14:45:00.272438",
+            "mimetype": "application/zip",
+            "name": "IfE_LLR_ERP_10NP.zip",
+            "position": 1,
+            "size": 163328,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/3205a0f8-1308-4799-8043-a38bc92dcfde/resource/73c012b5-3203-45ec-a98e-1841a5c00a35/download/ife_llr_erp_10np.zip",
+            "url_type": ""
+        },
+        {
+            "created": "2022-01-20T13:18:21.801965",
+            "description": "8 files for ERPs estimated for nights with a minimum of 15 NPs. The ERPs components \u0394UT1, xp, yp, and xp & yp are given in individual files for OCA, or all LLR observatories. In each case the estimated values, their 3-sigma uncertainties and the number of used normal points for the determination are given for a specific time point.",
+            "format": "zip",
+            "last_modified": "2022-03-29T14:45:48.313000",
+            "mimetype": "application/zip",
+            "name": "IfE_LLR_ERP_15NP.zip",
+            "position": 2,
+            "size": 81296,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/3205a0f8-1308-4799-8043-a38bc92dcfde/resource/22078cb8-c0cb-4bf0-9c15-b896ef98967d/download/ife_llr_erp_15np.zip",
+            "url_type": ""
+        }
+    ]
+}

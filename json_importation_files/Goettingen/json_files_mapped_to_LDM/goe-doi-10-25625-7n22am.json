@@ -1,0 +1,64 @@
+{
+    "doi": "10.25625/7N22AM",
+    "identifier_type": "DOI",
+    "doi_date_published": "2024",
+    "source_metadata_created": "2024",
+    "publication_year": "2024",
+    "title": "Additional data that is needed for the r scripts",
+    "organization": {
+        "approval_status": "approved",
+        "description": "G\u00f6ttingen Research Online is an institutional repository for the publication of research data at the G\u00f6ttingen Campus. It is managed by the G\u00f6ttingen eResearch Alliance, a joint group of SUB and GWDG. .",
+        "display_name": "G\u00f6ttingenResearchOnline",
+        "image_display_url": "logo-goettingen.png",
+        "image_url": "logo-goettingen.png",
+        "is_organization": true,
+        "name": "goettingen",
+        "state": "active",
+        "title": "G\u00f6ttingenResearchOnline",
+        "type": "organization"
+    },
+    "name": "goe-doi-10-25625-7n22am",
+    "license_id": "http://creativecommons.org/publicdomain/zero/1.0",
+    "license_title": "Creative Commons Zero (CC0)",
+    "notes": "1. The dataset \"Percentage_Substratum_Quadrats\" is needed for the R Scripts \"BA_MDS_PERMANOVA_New.R\" and \"LM_Substrate.R\". It contains information about the percent coverage of different substrates in the tide pools. The columns of this dataset are: Tide pool (Survey site), Type of the Tide Pool, Month and Date of the Survey, Side of the Tide Pool (A or B), Quadrat Number, Substrate, Count of Quadrats in which the Substrate was present, Calculated Percentage of the Substrate. 2. The dataset \"Coordinates_Area_depth\" provides information about the geometric parameters with the following columns: Tide pool (Survey Site), Latitude and Longitude, Length, Width, Depth and Surface Area of the Tide Pool. This dataset is needed for the R Script \"Adjust_tables.R\". 3. The dataset \"Shannon_Evenness_Results\" contains information about the Shannon-Wiener Index and Evenness of the Tide Pools for the surveyed months. It was created in the R Script \"Shannon_Evenness.R\" and it is needed in the R Script \"Script_BA_MDS_PERMANOVA_NEW.R\".",
+    "publishers": [
+        {
+            "publisher": "GRO.data"
+        }
+    ],
+    "subject_areas": [
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Earth and Environmental Sciences"
+        }
+    ],
+    "resource_type": "Dataset",
+    "tags": [
+        {
+            "display_name": "Earth and Environmental Sciences",
+            "name": "Earth and Environmental Sciences",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "authors": [
+        {
+            "author": "Pages, Alicia",
+            "givenName": "Alicia",
+            "familyName": "Pages",
+            "orcid": ""
+        }
+    ],
+    "citation": [],
+    "doi_status": "True",
+    "owner_org": "goettingen",
+    "isopen": true,
+    "repository_name": "G\u00f6ttingen Research Online Data",
+    "type": "dataset",
+    "source_metadata_modified": "",
+    "url": "https://doi.org/10.25625/7N22AM",
+    "doi_publisher": "",
+    "resources": [
+        {}
+    ]
+}

@@ -1,0 +1,98 @@
+{
+    "doi": "10.25625/4CV4SW",
+    "identifier_type": "DOI",
+    "doi_date_published": "2024",
+    "source_metadata_created": "2024",
+    "publication_year": "2024",
+    "title": "Enhancing tree segmentation in large forest point clouds with synthetic data",
+    "organization": {
+        "approval_status": "approved",
+        "description": "G\u00f6ttingen Research Online is an institutional repository for the publication of research data at the G\u00f6ttingen Campus. It is managed by the G\u00f6ttingen eResearch Alliance, a joint group of SUB and GWDG. .",
+        "display_name": "G\u00f6ttingenResearchOnline",
+        "image_display_url": "logo-goettingen.png",
+        "image_url": "logo-goettingen.png",
+        "is_organization": true,
+        "name": "goettingen",
+        "state": "active",
+        "title": "G\u00f6ttingenResearchOnline",
+        "type": "organization"
+    },
+    "name": "goe-doi-10-25625-4cv4sw",
+    "license_id": "http://creativecommons.org/publicdomain/zero/1.0",
+    "license_title": "Creative Commons Zero (CC0)",
+    "notes": "Monitoring and preserving forests is becoming increasingly important due to the escalating effects of climate change and threats of deforestation. In the domain of forest science, three-dimensional data acquired through remote sensing technology has gained prominence for its ability to provide deep insights into the complex nature of forest environments. The process of identifying and segmenting individual trees in three-dimensional point clouds is a crucial yet challenging prerequisite for many forest analyses such as the classification of tree health and species. Tree segmentation is currently dominated by classical approaches that often rely on the forest\u2019s canopy height model to identify tree crowns, but with limited success in complex environments and in particular areas underneath the canopy. Recent deep learning models are adept at performing instance segmentation on point clouds, but the performance of these models relies on the quantity and quality of training data. The difficulty of obtaining forest data owing to the cost of technology and annotation process hinders the development of neural networks for tree segmentation in forest point clouds. In this thesis, a scalable workflow is presented to produce arbitrarily large quantities of synthetic forest point clouds, and its effectiveness in deep learning is demonstrated. It is shown that by applying large amounts of synthetic forest data to pretrain neural networks, the individual tree segmentation performance in synthetic and real forests is significantly improved, outperforming classical segmentation methods. It is concluded that this workflow is effective at producing large quantities of realistic forest data, and its incorporation in deep learning fosters progress in tackling tree segmentation in forest point clouds. Its efficiency and scalability further indicate its potential for the development of frameworks, benchmarking systems, high throughput data analysis, and other analytical tasks.",
+    "publishers": [
+        {
+            "publisher": "GRO.data"
+        }
+    ],
+    "subject_areas": [
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Computer and Information Science"
+        },
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Medicine, Health and Life Sciences"
+        }
+    ],
+    "resource_type": "Dataset",
+    "tags": [
+        {
+            "display_name": "Computer and Information Science",
+            "name": "Computer and Information Science",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Medicine",
+            "name": "Medicine",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Health and Life Sciences",
+            "name": "Health and Life Sciences",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Synthetic-data",
+            "name": "Synthetic-data",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "LIDAR",
+            "name": "LIDAR",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "tree-segmentation",
+            "name": "tree-segmentation",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "authors": [
+        {
+            "author": "Doosthosseini, Ali",
+            "givenName": "Ali",
+            "familyName": "Doosthosseini",
+            "orcid": ""
+        }
+    ],
+    "citation": [],
+    "doi_status": "True",
+    "owner_org": "goettingen",
+    "isopen": true,
+    "repository_name": "G\u00f6ttingen Research Online Data",
+    "type": "dataset",
+    "source_metadata_modified": "",
+    "url": "https://doi.org/10.25625/4CV4SW",
+    "doi_publisher": "",
+    "resources": [
+        {}
+    ]
+}

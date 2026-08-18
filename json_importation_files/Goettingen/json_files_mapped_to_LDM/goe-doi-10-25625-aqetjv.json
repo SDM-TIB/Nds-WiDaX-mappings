@@ -1,0 +1,65 @@
+{
+    "doi": "10.25625/AQETJV",
+    "identifier_type": "DOI",
+    "doi_date_published": "2024",
+    "source_metadata_created": "2024",
+    "publication_year": "2024",
+    "title": "Emulation of heterogeneous kubernetes clusters using qemu",
+    "organization": {
+        "approval_status": "approved",
+        "description": "G\u00f6ttingen Research Online is an institutional repository for the publication of research data at the G\u00f6ttingen Campus. It is managed by the G\u00f6ttingen eResearch Alliance, a joint group of SUB and GWDG. .",
+        "display_name": "G\u00f6ttingenResearchOnline",
+        "image_display_url": "logo-goettingen.png",
+        "image_url": "logo-goettingen.png",
+        "is_organization": true,
+        "name": "goettingen",
+        "state": "active",
+        "title": "G\u00f6ttingenResearchOnline",
+        "type": "organization"
+    },
+    "name": "goe-doi-10-25625-aqetjv",
+    "license_id": "http://creativecommons.org/publicdomain/zero/1.0",
+    "license_title": "Creative Commons Zero (CC0)",
+    "notes": "Kubernetes, as the current de-facto industry standard for container orchestration, is used for deploying and managing containerized applications in the cloud. It dynamically scales the amount of containers depending on demand. For this, the Kubernetes scheduler de- termines on which underlying hardware the additional resources should be placed. Most Kubernetes clusters run on homogeneous hardware in data centers, and for this scenario most scheduling algorithms are developed. When the underlying system becomes more heterogeneous, scheduling decisions become more complex and time intensive. For testing algorithms that are designed for heterogeneous hardware systems, respective environments are needed. An alternative to buying heterogeneous hardware and adding it to the compute resources is the simulation of clusters and workloads using tools like CloudSim or K8sSim. However, simulations suffer from a low level of detail. In this thesis we present Q8S which can be used to automatically set up a highly avail- able Kubernetes cluster based on user specifications in an OpenStack environment. It uses QEMU for emulating the Kubernetes node\u2019s hardware which offers a higher level of detail than simulations. This enables more thorough testing and analysis of the behavior of scheduling algorithms or applications in heterogeneous clusters. It may also provide training environments for Kubernetes scheduling algorithms using machine learning tech- niques. The evaluation of the bandwidth, CPU and RAM usage of Q8S nodes using the k8s- bench-suite shows that, while the nodes suffer from emulation overhead, the proposed application provides a working Kubernetes cluster with nodes running on heterogeneous, emulated hardware. Q8S is Open Source and can be customized to meet the needs regard- ing the node\u2019s system specifications or other functionalities that are provided by QEMU and libvirt.",
+    "publishers": [
+        {
+            "publisher": "GRO.data"
+        }
+    ],
+    "subject_areas": [
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Computer and Information Science"
+        }
+    ],
+    "resource_type": "Dataset",
+    "related_identifiers": [],
+    "tags": [
+        {
+            "display_name": "Computer and Information Science",
+            "name": "Computer and Information Science",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "authors": [
+        {
+            "author": "Hasse, Vincent Florens",
+            "givenName": "Vincent Florens",
+            "familyName": "Hasse",
+            "orcid": ""
+        }
+    ],
+    "citation": [],
+    "doi_status": "True",
+    "owner_org": "goettingen",
+    "isopen": true,
+    "repository_name": "G\u00f6ttingen Research Online Data",
+    "type": "dataset",
+    "source_metadata_modified": "",
+    "url": "https://doi.org/10.25625/AQETJV",
+    "doi_publisher": "",
+    "resources": [
+        {}
+    ]
+}

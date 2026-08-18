@@ -1,0 +1,89 @@
+{
+    "doi": "10.25625/AYGEUW",
+    "identifier_type": "DOI",
+    "doi_date_published": "2024",
+    "source_metadata_created": "2024",
+    "publication_year": "2024",
+    "title": "Adapting the qa catalogue quality assessment tool for unimarc library catalogue record analysis",
+    "organization": {
+        "approval_status": "approved",
+        "description": "G\u00f6ttingen Research Online is an institutional repository for the publication of research data at the G\u00f6ttingen Campus. It is managed by the G\u00f6ttingen eResearch Alliance, a joint group of SUB and GWDG. .",
+        "display_name": "G\u00f6ttingenResearchOnline",
+        "image_display_url": "logo-goettingen.png",
+        "image_url": "logo-goettingen.png",
+        "is_organization": true,
+        "name": "goettingen",
+        "state": "active",
+        "title": "G\u00f6ttingenResearchOnline",
+        "type": "organization"
+    },
+    "name": "goe-doi-10-25625-aygeuw",
+    "license_id": "http://creativecommons.org/publicdomain/zero/1.0",
+    "license_title": "Creative Commons Zero (CC0)",
+    "notes": "Quality assessment in library cataloguing is essential for maintaining data accuracy, integrity, and improving usability of the existing or new data. Despite the importance of the UNIMARC format, as per the knowledge of the author of the thesis, no tools exist that comprehensively support the quality assessment of records available in it. This thesis aims to extend the QA Catalogue - a tool originally developed for MARC21 and PICA formats - to support UNIMARC, attempting to first and foremost utilize different design principles to emphasize the readability and maintainability of the code. Several changes were made to allow for a cleaner and more successful integration of the UNIMARC-related stages of the assessment processes. These adjustments primarily focused on reducing code complexity and separating concerns, which were crucial given the potential issues that could arise from integrating UNIMARC changes into the existing codebase without prior modifications. The adaptations also introduced a new machine-readable UNIMARC schema representation - parsed, adjusted, and stored in JSON format in accordance with the Avram specification. Furthermore, the tool was extended to process UNIMARC records - to assess their validity, completeness, and other quality dimensions, and save the results in the same manner as previously implemented for MARC21 and PICA. These analysis processes were implemented for UNIMARC based primarily on existing approaches for MARC21 and PICA, with occasional references to the limited and scarce literature on UNIMARC. Validation of this adaptation included comparative analysis with the MARC21 format and manual evaluation of the produced results.",
+    "publishers": [
+        {
+            "publisher": "GRO.data"
+        }
+    ],
+    "subject_areas": [
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Computer and Information Science"
+        }
+    ],
+    "resource_type": "Dataset",
+    "related_identifiers": [],
+    "tags": [
+        {
+            "display_name": "Computer and Information Science",
+            "name": "Computer and Information Science",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "metadata quality",
+            "name": "metadata quality",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "UNIMARC",
+            "name": "UNIMARC",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "quality assesment",
+            "name": "quality assesment",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "library catalogue",
+            "name": "library catalogue",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "authors": [
+        {
+            "author": "Gegi\u0107, Haris",
+            "givenName": "Haris",
+            "familyName": "Gegi\u0107",
+            "orcid": ""
+        }
+    ],
+    "citation": [],
+    "doi_status": "True",
+    "owner_org": "goettingen",
+    "isopen": true,
+    "repository_name": "G\u00f6ttingen Research Online Data",
+    "type": "dataset",
+    "source_metadata_modified": "",
+    "url": "https://doi.org/10.25625/AYGEUW",
+    "doi_publisher": "",
+    "resources": [
+        {}
+    ]
+}

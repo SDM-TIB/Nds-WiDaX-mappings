@@ -1,0 +1,102 @@
+{
+    "authors": "Hinrich B. Winther, Hans Laser, Svetlana Gerbel, Sabine K. Maschke, Jan B. Hinrichs, Jens Vogel-Claussen, Frank K. Wacker, Marius M. H\u00f6per, Bernhard C. Meyer",
+    "doi": "10.25835/0090041",
+    "doi_date_published": "2021-06-10",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": true,
+    "license_id": "CC-BY-3.0",
+    "license_title": "Creative Commons Attribution 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "maintainer": "Hinrich B. Winther",
+    "maintainer_email": "winther.hinrich@mh-hannover.de",
+    "source_metadata_created": "2020-07-14T12:24:27.460839",
+    "source_metadata_modified": "2022-01-20T13:48:54.930323",
+    "metadata_modified": "2022-01-20T13:48:54.930323",
+    "name": "luh-cov-19-img",
+    "notes": "This project aims to create an anonymized data set of COVID-19 cases with a focus on radiological imaging. This includes images with extensive metadata, such as admission-, ICU-, laboratory-, and patient master-data.\r\n\r\nThis repository contains image data from the Institute for Diagnostic and Interventional Radiology, Hannover Medical School, Hannover, Germany.",
+    "num_resources": 2,
+    "num_tags": 4,
+    "organization": {
+        "id": "a01ba721-e71f-426d-84c5-1eb90fb9ffd1",
+        "name": "mhh",
+        "title": "MHH",
+        "type": "organization",
+        "description": "",
+        "image_url": "",
+        "created": "2020-07-14T14:11:47.891767",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "mhh",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "Knowledge Representation",
+            "id": "4892ce5b-94af-44c9-bcc4-d21788ac7a25",
+            "name": "Knowledge Representation",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Machine Learning",
+            "id": "9c154e28-ce76-4274-b834-af55fd3870fa",
+            "name": "Machine Learning",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Organ Imaging",
+            "id": "39f96809-3253-45a8-8926-8bfdb78cc099",
+            "name": "Organ Imaging",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Radiology",
+            "id": "27844932-9589-4f7d-b598-5bef6cf4b44d",
+            "name": "Radiology",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "COVID-19 Image Repository",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/cov-19-img",
+    "version": "2.0",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2020-07-15T12:05:55.847667",
+            "description": "The Dicom files have been converted to Nifti. We are currently working on making the Nifti files publicly available. Unfortunately, the files are too large to host them on Github. For the moment, please send us an EMail (see Contact Information), we will figure out a way to get the images to you.",
+            "format": "tar",
+            "last_modified": "2020-07-15T12:05:55.789516",
+            "mimetype": "application/x-tar",
+            "name": "V1.0 COVID-19 Nifti Data",
+            "position": 0,
+            "size": 3351005696,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/ca654807-033c-4650-a967-2d1641f49f0b/resource/562a5f31-efd0-4c76-bec4-250e52985d3a/download/v1_cov19_nii.tar",
+            "url_type": ""
+        },
+        {
+            "created": "2020-07-15T12:54:08.089273",
+            "description": "The Dicom files have been converted to Nifti. We are currently working on making the Nifti files publicly available. Unfortunately, the files are too large to host them on Github. For the moment, please send us an EMail (see Contact Information), we will figure out a way to get the images to you.\r\n\r\n2020-07-15",
+            "format": "tar",
+            "last_modified": "2020-07-15T12:54:08.042983",
+            "mimetype": "application/x-tar",
+            "name": "V2.0 COVID-19 Nifti Data",
+            "position": 1,
+            "size": 4670089728,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/ca654807-033c-4650-a967-2d1641f49f0b/resource/38e72a9b-30a9-422a-a481-c7491e655437/download/v2_cov19_nii.tar",
+            "url_type": ""
+        }
+    ]
+}

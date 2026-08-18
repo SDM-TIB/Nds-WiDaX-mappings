@@ -1,0 +1,85 @@
+{
+    "authors": "Tobias Ehlers",
+    "doi": "10.25835/0vlqu43y",
+    "doi_date_published": "2023-05-30",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": true,
+    "license_id": "CC-BY-3.0",
+    "license_title": "Creative Commons Attribution 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "maintainer": "Tobias Ehlers",
+    "maintainer_email": "ehlers@ipeg.uni-hannover.de",
+    "source_metadata_created": "2023-04-14T21:16:58.923294",
+    "source_metadata_modified": "2024-12-12T13:13:44.705777",
+    "metadata_modified": "2024-12-12T13:13:44.705777",
+    "name": "luh-characterization-of-hand-arm-vibration-hav-on-the-ducati-monster-796-abs-motorcycle",
+    "notes": "Dieser Datensatz beinhaltet f\u00fcnf experimentelle Versuchsdaten um Hand-Arm-Schwingungen am Motorrad zu charakterisieren. Die Versuchsdaten wurden durch Fahrversuche am Motorrad, einer Ducati Monster 796 ABS, erhoben. Zur Charakterisierung der HAV wird ein triaxialer Beschleunigungssensor (PCB 356A45) am Lenkerende mithilfe eines Sensorhalters nach den Vorgaben der ISO 5349-2 befestigt. Zur Messwerterfassung werden zwei mobile 4-Kanal-Messwerterfassungssysteme vom Modell DT9837C verwendet und mit einem Laptop (Dell Precision 7730) verbunden. Die Datenerfassung und Speicherung erfolgten \u00fcber ein Matlab-Skript. \r\n\r\nGem\u00e4\u00df den Vorgaben der Worldwide harmonized Light vehicles Test Procedure (WLTP) wurden sowohl Fahrten auf Stadtstra\u00dfen, Landstra\u00dfen und Autobahnen durchgef\u00fchrt. F\u00fcr jede Messfahrt wurde ein 60 min\u00fctiges Fahrsignal aufgenommen, aus dem die Fahrten f\u00fcr die Stadtstra\u00dfen, Landstra\u00dfen und Autobahnen extrahiert werden k\u00f6nnen.\r\n\r\nDer Datensatz weist folgende Struktur auf:\r\n\r\n\r\n* Rohdaten: F\u00fcr jede Versuchsfahrt wurden die Beschleunigungsdaten am triaxialen Beschleunigungssensor am Lenker mit einer Abtastrate von 9000 Hz bzw. 12000 Hz aufgezeichnet. Die Rohdaten liegen im .mat Format vor. Zus\u00e4tzlich werden die Geschwindigkeits- und GPS-Daten mittels der App phybox auf dem Handy OnePlus6, mit einer Abtastrate von 1 Hz aufgenommen.\r\n\r\n\r\n* Versuchsauswertung:  F\u00fcr die Auswertung der Daten wurden Matlab-Skripte hochgeladen. Dieses Skript berechnet die folgenden Parameter:\r\n\r\n    * Tages-Schwingungsbelastung *A*(8)\r\n    * Schwingungsgesamtwert *a*_hv\r\n    * Zeit *t*\r\n    * Strecke *s*\r\n    * Geschwindigkeit *v*\r\n\r\n\r\n    Die Parameter werden f\u00fcr die Stadt-, Land- und Autobahnfahrt berechnet. Des Weiteren wird der Streckenverlauf w\u00e4hrend der Versuchsfahrt graphisch in einer Landkarte dargestellt.\r\n\r\nDiese Forschungsdaten wurden in den folgenden Publikationen verwendet:\r\n\r\n* Ehlers, T.: Auslegung partikelged\u00e4mpfter Strukturbauteile f\u00fcr die Additive Fertigung. In: Berichte aus dem IPeG. Band 03/2023: Dissertation. TEWISS Verlag, 2023. DOI: [10.15488/13789](https://doi.org/10.15488/13789)\r\n\r\nInsbesondere wurde in diesen Ver\u00f6ffentlichungen der Versuchsaufbau und die Ergebnisse im Detail beschrieben.",
+    "num_resources": 2,
+    "num_tags": 2,
+    "organization": {
+        "id": "07fc393b-f95c-45a9-9eda-618c5a0db319",
+        "name": "institut-fur-produktentwicklung-und-geratebau",
+        "title": "Institut f\u00fcr Produktentwicklung und Ger\u00e4tebau",
+        "type": "organization",
+        "description": "Geb\u00e4ude 8143\r\n\r\nAn der Universit\u00e4t 1\r\n\r\n**30823 Garbsen**\r\n\r\nhttp://ipeg.uni-hannover.de/",
+        "image_url": "https://www.ipeg.uni-hannover.de/fileadmin/site-templates/logos/ipeg/IPeG_Logo.png",
+        "created": "2021-05-20T15:24:18.740575",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "institut-fur-produktentwicklung-und-geratebau",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "Hand-Arm-Vibration",
+            "id": "406d6b9b-71da-420c-97ca-b70caa7b8071",
+            "name": "Hand-Arm-Vibration",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Motorcycle",
+            "id": "53709503-e187-4ad7-8e7c-5735efba2f19",
+            "name": "Motorcycle",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "Characterization of hand-arm vibration (HAV) on the Ducati Monster 796 ABS motorcycle",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/characterization-of-hand-arm-vibration-hav-on-the-ducati-monster-796-abs-motorcycle",
+    "version": "",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2023-04-17T12:05:49.178008",
+            "description": "In dieser ZIP Datei befinden sich die Matlab-Skripte zur Versuchsauswertung sowie die Ergebnisse. Dieses Skript berechnet die folgenden Parameter:\r\n\r\n* Tages-Schwingungsbelastung *A*(8)\r\n* Schwingungsgesamtwert *a*_hv\r\n* Zeit *t*\r\n* Strecke *s*\r\n* Geschwindigkeit *v*\r\n\r\nDie Parameter werden f\u00fcr die Stadt-, Land- und Autobahnfahrt berechnet. Des Weiteren wird der Streckenverlauf w\u00e4hrend der Versuchsfahrt graphisch in einer Landkarte dargestellt.\r\n",
+            "format": "matlab",
+            "last_modified": "2023-04-17T12:05:49.117786",
+            "mimetype": "application/zip",
+            "name": "Auswerteskripte und Ergebnisse",
+            "position": 0,
+            "size": 65956686,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/98980cd3-0836-4846-9051-7e4f8525e899/resource/f6fc47da-5b48-4240-b559-99cf9930906d/download/auswerteskripte_und_ergebnisse.zip",
+            "url_type": ""
+        },
+        {
+            "created": "2023-05-10T15:40:48.600222",
+            "description": "F\u00fcr f\u00fcnf Versuchsfahrten wurden die Beschleunigungsdaten am triaxialen Beschleunigungssensor am Lenker mit einer Abtastrate von 9000 Hz bzw. 12000 Hz aufgezeichnet. Die Rohdaten liegen im .mat Format vor. Zus\u00e4tzlich wurden die Geschwindigkeits- und GPS-Daten mittels der App phybox auf dem Handy OnePlus6, mit einer Abtastrate von 1 Hz aufgenommen. F\u00fcr die Versuchsauswertung  wurde ein Matlab-Skripte hochgeladen. \r\n\r\nF\u00fcr jede Versuchsfahrt liegen die Rohdaten in einer ZIP-Datei vor. Die ZIP-Datei kann als Direktdownload unter den folgenden Links abgerufen werden:\r\n\r\n* Messfahrt vom 22.06.2022:\r\nhttps://data.uni-hannover.de/vault/ipeg/ehlers/characterization-of-hand-arm-vibration-hav-on-the-ducati-monster-796-abs-motorcycle/Messfahrt_22.06.2022.zip\r\n\r\n* Messfahrt vom 12.07.2022:\r\nhttps://data.uni-hannover.de/vault/ipeg/ehlers/characterization-of-hand-arm-vibration-hav-on-the-ducati-monster-796-abs-motorcycle/Messfahrt_12.07.2022.zip\r\n\r\n* Messfahrt vom 14.07.2022:\r\nhttps://data.uni-hannover.de/vault/ipeg/ehlers/characterization-of-hand-arm-vibration-hav-on-the-ducati-monster-796-abs-motorcycle/Messfahrt_14.07.2022.zip\r\n\r\n* Messfahrt vom 15.07.2022:\r\nhttps://data.uni-hannover.de/vault/ipeg/ehlers/characterization-of-hand-arm-vibration-hav-on-the-ducati-monster-796-abs-motorcycle/Messfahrt_15.07.2022.zip\r\n\r\n* Messfahrt vom 30.09.2022:\r\nhttps://data.uni-hannover.de/vault/ipeg/ehlers/characterization-of-hand-arm-vibration-hav-on-the-ducati-monster-796-abs-motorcycle/Messfahrt_30.09.2022_12kHz.zip",
+            "format": "matlab",
+            "name": "Rohdaten",
+            "position": 1,
+            "state": "active",
+            "url": "",
+            "url_type": ""
+        }
+    ]
+}

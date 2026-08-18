@@ -1,0 +1,110 @@
+{
+    "authors": "Jennifer D'Souza",
+    "doi": "10.25835/heyid7l7",
+    "doi_date_published": "2022-05-24",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": true,
+    "license_id": "CC-BY-SA-3.0",
+    "license_title": "Creative Commons Attribution Share-Alike 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "maintainer": "Jennifer D'Souza",
+    "maintainer_email": "jennifer.dsouza@tib.eu",
+    "source_metadata_created": "2022-05-24T07:41:50.698890",
+    "source_metadata_modified": "2022-05-24T13:26:08.956853",
+    "metadata_modified": "2022-05-24T13:26:08.956853",
+    "name": "luh-stem-ner-60k",
+    "notes": "##A Large-scale Dataset of STEM Science as PROCESS, METHOD, MATERIAL, and DATA Named Entities\r\n\r\n###This repository hosts data as a follow-up study to the following publications\r\n\r\nD'Souza, J., Hoppe, A., Brack, A., Jaradeh, M., Auer, S., & Ewerth, R. (2020). [The STEM-ECR Dataset: Grounding Scientific Entity References in STEM Scholarly Content to Authoritative Encyclopedic and Lexicographic Sources.](https://aclanthology.org/2020.lrec-1.268/) In Proceedings of The 12th Language Resources and Evaluation Conference (pp. 2192\u20132203). European Language Resources Association.\r\n\r\nBrack, A., D\u2019Souza, J., Hoppe, A., Auer, S., Ewerth, R. (2020). [Domain-Independent Extraction of Scientific Concepts from Research Articles](https://doi.org/10.1007/978-3-030-45439-5_17). In: , et al. Advances in Information Retrieval. ECIR 2020. Lecture Notes in Computer Science, vol 12035. Springer, Cham. https://doi.org/10.1007/978-3-030-45439-5_17\r\n\r\nSupporting dataset link [https://data.uni-hannover.de/dataset/stem-ecr-v1-0](https://data.uni-hannover.de/dataset/stem-ecr-v1-0)\r\n\r\n###Description\r\n\r\nRoughly 60,000 titles and abstracts of scholarly articles with the CC-BY redistributable license were downloaded from Elsevier. The articles spanned 10 STEM domains which were the most prolific on Elsevier viz., *Agriculture*, *Astronomy*, *Biology*, *Chemistry*, *Computer Science*, *Earth Science*, *Engineering*, *Material Science*, and *Mathematics*.\r\nThe STEM NER system reported in the publication above was applied on these articles. An automatically extracted dataset of 4 typed entities, viz., *Process*, *Method*, *Material*, and *Data* was created.\r\n\r\n### What this repository contains?\r\n\r\nAggregated lists of *Process*, *Method*, *Material*, and *Data* entities with respective occurrence counts extracted from 59,984 scholarly publications organized per the 10 STEM domains considered.\r\n\r\nAdditionally, the list of Elsevier CC-BY articles used in this study are provided in the `raw-data` directory of the repository.\r\n\r\n###Useful Links\r\n* https://github.com/elsevierlabs/OA-STM-Corpus/\r\n* https://orkg.org/orkg",
+    "num_resources": 1,
+    "num_tags": 7,
+    "organization": {
+        "id": "71f7bf65-eb79-43d5-bbb3-8bac53129eec",
+        "name": "tib",
+        "title": "TIB",
+        "type": "organization",
+        "description": "Technische Informationsbibliothek",
+        "image_url": "2018-01-23-104035.171142TIBWortBildmarkeBBRGB.PNG",
+        "created": "2018-01-23T11:36:35.480058",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "tib",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "NER",
+            "id": "7fc757a9-4bb7-49b1-a8b0-196b0f0563e3",
+            "name": "NER",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "evaluation corpus",
+            "id": "f389d061-f719-4628-a2cd-2bc516207f8b",
+            "name": "evaluation corpus",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "language resource",
+            "id": "62c920ee-823b-4279-bd78-fb04afa0228f",
+            "name": "language resource",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "named entity recognition",
+            "id": "c6397449-a4cd-4525-a68d-5c5b534e5c40",
+            "name": "named entity recognition",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "natural language processing",
+            "id": "2f4cc4e6-4b48-4abd-baa7-ba807c2817f0",
+            "name": "natural language processing",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "scholarly named entity recognition",
+            "id": "3e573f32-9e22-48ad-b5c4-a139424508fd",
+            "name": "scholarly named entity recognition",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "scientific named entity recognition",
+            "id": "fe37f4b1-0faa-4e25-a900-faa6ac540811",
+            "name": "scientific named entity recognition",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "STEM-NER-60k",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/stem-ner-60k",
+    "version": "",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2022-05-24T07:49:55.940431",
+            "description": "",
+            "format": "zip",
+            "last_modified": "2022-05-24T07:49:55.890558",
+            "mimetype": "application/zip",
+            "name": "STEM-NER-60k",
+            "position": 0,
+            "size": 36715541,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/f1c21fba-f548-4223-816b-e5c3e70dc75e/resource/f34d0e46-2821-451f-b483-1ecd6fff51f9/download/stem-ner-60k.zip",
+            "url_type": ""
+        }
+    ]
+}

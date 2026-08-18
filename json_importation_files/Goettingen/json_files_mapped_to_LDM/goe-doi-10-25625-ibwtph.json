@@ -1,0 +1,107 @@
+{
+    "doi": "10.25625/IBWTPH",
+    "identifier_type": "DOI",
+    "doi_date_published": "2025",
+    "source_metadata_created": "2025",
+    "publication_year": "2025",
+    "title": "Data for \"traction force microscopy for linear and nonlinear elastic materials as a parameter identi\ufb01cation inverse problem\"",
+    "organization": {
+        "approval_status": "approved",
+        "description": "G\u00f6ttingen Research Online is an institutional repository for the publication of research data at the G\u00f6ttingen Campus. It is managed by the G\u00f6ttingen eResearch Alliance, a joint group of SUB and GWDG. .",
+        "display_name": "G\u00f6ttingenResearchOnline",
+        "image_display_url": "logo-goettingen.png",
+        "image_url": "logo-goettingen.png",
+        "is_organization": true,
+        "name": "goettingen",
+        "state": "active",
+        "title": "G\u00f6ttingenResearchOnline",
+        "type": "organization"
+    },
+    "name": "goe-doi-10-25625-ibwtph",
+    "license_id": "http://creativecommons.org/publicdomain/zero/1.0",
+    "license_title": "Creative Commons Zero (CC0)",
+    "notes": "Data and code that support findings of the article. Regpy needs to be installed at version v.03. It can e.g. be installed via regpy @ https://github.com/regpy/regpy/releases/tag/v0.3. Furthermore the packages intel-openmp and mkl should be installed in version 2023.2.0 (see also requirements.txt). The jupyter notebooks generate the figures from the article. E.g. tfm_nonlinear2D_force1.ipynb generates the figures for nonlinear 2D TFM with force 1. In the files tfm_linear.py and tfm_nonlinear.py the linear and nonlinear forward operator is defined. The notebook tfm_2Dcomparison.ipynb and tfm2DcomparisonReco.ipynb generate figure 9 which compares the nonlinear and the linear forward model. At the beginning of most notebooks 'saving' can be set to 'True' or 'False'. If 'saving' is 'True', the .vtu files of the gridfunctions are saved in the directory 'VTU'. The directory 'real data' contains the measured displacement data and the computed FTTC solution. Our solution is computed in the notebook real_data.ipynb. The corresponding files are saved in 'VTU/real_data'.",
+    "publishers": [
+        {
+            "publisher": "GRO.data"
+        }
+    ],
+    "subject_areas": [
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Mathematical Sciences"
+        }
+    ],
+    "resource_type": "Dataset",
+    "related_identifiers": [],
+    "tags": [
+        {
+            "display_name": "Mathematical Sciences",
+            "name": "Mathematical Sciences",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "authors": [
+        {
+            "author": "Sarnighausen, Gesa",
+            "givenName": "Gesa",
+            "familyName": "Sarnighausen",
+            "orcid": ""
+        },
+        {
+            "author": "Nguyen, Tram Thi Ngoc",
+            "givenName": "Tram Thi Ngoc",
+            "familyName": "Nguyen",
+            "orcid": ""
+        },
+        {
+            "author": "Hohage, Thorsten",
+            "givenName": "Thorsten",
+            "familyName": "Hohage",
+            "orcid": ""
+        },
+        {
+            "author": "Sinha, Mangalika",
+            "givenName": "Mangalika",
+            "familyName": "Sinha",
+            "orcid": ""
+        },
+        {
+            "author": "K\u00f6ster, Sarah",
+            "givenName": "Sarah",
+            "familyName": "K\u00f6ster",
+            "orcid": ""
+        },
+        {
+            "author": "Betz, Timo",
+            "givenName": "Timo",
+            "familyName": "Betz",
+            "orcid": ""
+        },
+        {
+            "author": "Schwarz, Ulrich Sebastian",
+            "givenName": "Ulrich Sebastian",
+            "familyName": "Schwarz",
+            "orcid": ""
+        },
+        {
+            "author": "Wald, Anne",
+            "givenName": "Anne",
+            "familyName": "Wald",
+            "orcid": ""
+        }
+    ],
+    "citation": [],
+    "doi_status": "True",
+    "owner_org": "goettingen",
+    "isopen": true,
+    "repository_name": "G\u00f6ttingen Research Online Data",
+    "type": "dataset",
+    "source_metadata_modified": "",
+    "url": "https://doi.org/10.25625/IBWTPH",
+    "doi_publisher": "",
+    "resources": [
+        {}
+    ]
+}

@@ -1,0 +1,128 @@
+{
+    "authors": "Max Coenen",
+    "doi": "10.25835/bveo4v4l",
+    "doi_date_published": "2025-11-14",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": true,
+    "license_id": "CC-BY-4.0",
+    "license_title": "Creative Commons Attribution 4.0 International",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "maintainer": "Max Coenen",
+    "maintainer_email": "",
+    "source_metadata_created": "2025-11-14T13:02:37.665559",
+    "source_metadata_modified": "2025-12-16T13:08:13.968288",
+    "metadata_modified": "2025-12-16T13:08:13.968288",
+    "name": "luh-concrete-aggregate-psd-imaging-dataset",
+    "notes": "## Dataset Summary\r\nThis repository contains the data related to the paper \r\n\r\n**\"Coenen, M., Beyer, D., Mohammadi, S., Meyer, M., Heipke, C., and Haist, M. (2026): Automating Concrete Production Control with Computer Vision-based Aggregate Characterisation. In: Automation in Construction.\"**\r\n\r\nThis dataset provides image data of concrete aggregate for the task of **estimating particle size distributions (PSD)** using computer vision. The images were captured using a controlled camera setup installed above a conveyor belt in a concrete mixing research facility. Each image has a corresponding text file containing the ground-truth PSD obtained through mechanical sieving.\r\n\r\n---\r\n\r\n## Data Acquisition\r\nData was recorded at a medium-scale concrete mixing plant equipped with:\r\n\r\n- **Two Allied Vision Alvium 1800 C-508 cameras**\r\n  - 25 mm focal length \u2192 fine aggregate (0\u20132 mm)\r\n  - 12 mm focal length \u2192 coarse aggregate (>2 mm)\r\n- **Global shutter**, 1 ms exposure time  \r\n- **LED panel illumination** for motion-blur-free imaging  \r\n- A **sensor mount above the conveyor belt** transporting the aggregate\r\n\r\nThis setup enabled consistent imaging conditions with sufficient resolution for particle analysis.\r\n\r\n![Sensor setup used for data acquisition](https://data.uni-hannover.de/dataset/6f844e22-12ed-48a7-9ccb-b502f8121650/resource/adcf7049-3ad3-4e9c-bd8b-1be00d867f46/download/sensorsetup.jpg \" \")\r\n\r\n&nbsp;\r\n&nbsp;\r\n\r\n---\r\n\r\n## Datasets\r\n\r\nTwo datasets were created to cover common aggregate size ranges used in concrete production:\r\n\r\n### \ud835\udc40\u1da0\u2071\u207f\u1d49 \u2014 Fine Material (< 2 mm)\r\n- 16 material samples  \r\n- Natural river sand  \r\n- PSDs synthetically varied by mixing pre-fractionated material\r\n\r\n### \ud835\udc40\u1d9c\u1d52\u1d43\u02b3\u02e2\u1d49 \u2014 Coarse Material (2\u201316 mm)\r\n- 26 material samples  \r\n  - 16 natural river gravel  \r\n  - 10 recycled concrete aggregate (RCA)\r\n\r\nEach material sample weighs **150 kg**, and its PSD was systematically varied to cover a broad range of grading curves.\r\n\r\n> **Note:**  \r\n> This repository contains only a subset of the data set that was used in the paper. In order to receive the full data set, please reach out to the authors.\r\n> The dataset represents *controlled variability*. While this is ideal for benchmarking and model development, real industrial plants may exhibit additional stochastic variability.\r\n\r\n---\r\n\r\n## Reference PSD Measurement\r\n\r\nA **10 kg subsample** from each material batch was mechanically sieved to obtain the reference PSD.\r\n\r\nEach PSD is represented using **six particle size intervals (B = 6):**\r\n\r\n- **Fine dataset:**  \r\n  `0.063, 0.125, 0.25, 0.5, 1.0, 2.0 mm`\r\n- **Coarse dataset:**  \r\n  `0, 2, 4, 8, 11.2, 16 mm`\r\n\r\nEach `.txt` reference file contains six percentile values that sum to **1.0**.\r\n\r\n\r\n![Example images and grading curves of the data sets](https://data.uni-hannover.de/dataset/6f844e22-12ed-48a7-9ccb-b502f8121650/resource/2d5cae38-8ad7-4f82-9202-6ac807051c17/download/overview.png \" \")\r\n\r\n&nbsp;\r\n&nbsp;\r\n---\r\n\r\n## Use Cases\r\n\r\nThis dataset is intended for:\r\n\r\n- PSD estimation using deep learning or classical CV  \r\n- Regression and distribution prediction tasks  \r\n- Material characterization and granulometry research  \r\n- Benchmarking computer vision methods on granular material datasets\r\n\r\n---\r\n\r\n## Citation\r\n\r\nIf you use this dataset in academic or industrial research, please cite the corresponding paper:\r\n\r\n*Coenen, M., Beyer, D., Mohammadi, S., Meyer, M., Heipke, C., and Haist, M. (2026): Automating Concrete Production Control with Computer Vision-based Aggregate Characterisation. In: Automation in Construction.*\r\n\r\n\r\n---\r\n\r\n\r\n\r\n",
+    "num_resources": 4,
+    "num_tags": 4,
+    "organization": {
+        "id": "c5907647-9127-4a15-819b-9d61da4e3ec6",
+        "name": "institut-fur-baustoffe",
+        "title": "Institut f\u00fcr Baustoffe",
+        "type": "organization",
+        "description": "Appelstra\u00dfe 9a\r\n__30167 Hannover__\r\n\r\nTel.: +49 511762-3722 \r\n\r\nFax: +49 511762-4736 \r\n\r\nE-Mail: institut@baustoff.uni-hannover.de \r\n\r\nhttps://www.baustoff.uni-hannover.de/\r\n",
+        "image_url": "",
+        "created": "2020-12-02T14:05:34.335336",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "institut-fur-baustoffe",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "Computer Vision",
+            "id": "f041a8c1-df74-4811-b932-69131267a3d7",
+            "name": "Computer Vision",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Concrete aggregate",
+            "id": "23b4fbe3-14d0-4dca-b37d-835d4310adac",
+            "name": "Concrete aggregate",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Deep learning",
+            "id": "fb39da24-47ab-4be9-8e8e-1d7f1cdbbbba",
+            "name": "Deep learning",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Particle size distribution",
+            "id": "72f50435-7a00-4771-93b1-fbab743fdfc0",
+            "name": "Particle size distribution",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "Concrete Aggregate PSD Imaging Dataset",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/concrete-aggregate-psd-imaging-dataset",
+    "version": "",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2025-11-14T13:04:54.288641",
+            "description": "File containing the M_coarse aggregate data",
+            "format": "jpeg",
+            "last_modified": "2025-11-14T13:04:54.217244",
+            "mimetype": "application/zip",
+            "name": "M_coarse.zip",
+            "position": 0,
+            "size": 496850418,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/6f844e22-12ed-48a7-9ccb-b502f8121650/resource/ae8f74b2-dcbd-46f8-81f6-ec6aab979768/download/m_coarse.zip",
+            "url_type": ""
+        },
+        {
+            "created": "2025-11-14T13:06:57.317226",
+            "description": "File containing the M_fine aggregate data",
+            "format": "jpeg",
+            "last_modified": "2025-11-14T13:06:57.275221",
+            "mimetype": "application/zip",
+            "name": "M_fine.zip",
+            "position": 1,
+            "size": 517783975,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/6f844e22-12ed-48a7-9ccb-b502f8121650/resource/0544af00-d50b-4617-953c-76681e07bea0/download/m_fine.zip",
+            "url_type": ""
+        },
+        {
+            "created": "2025-11-14T13:23:46.942115",
+            "description": "",
+            "format": "png",
+            "last_modified": "2025-11-14T13:23:46.903470",
+            "mimetype": "image/png",
+            "name": "Overview.png",
+            "position": 2,
+            "size": 790030,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/6f844e22-12ed-48a7-9ccb-b502f8121650/resource/2d5cae38-8ad7-4f82-9202-6ac807051c17/download/overview.png",
+            "url_type": ""
+        },
+        {
+            "created": "2025-11-14T13:28:50.092176",
+            "description": "Sensor setup used for data acquisition",
+            "format": "jpeg",
+            "last_modified": "2025-11-14T13:28:50.047454",
+            "mimetype": "image/jpeg",
+            "name": "SensorSetup.jpg",
+            "position": 3,
+            "size": 268950,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/6f844e22-12ed-48a7-9ccb-b502f8121650/resource/adcf7049-3ad3-4e9c-bd8b-1be00d867f46/download/sensorsetup.jpg",
+            "url_type": ""
+        }
+    ]
+}

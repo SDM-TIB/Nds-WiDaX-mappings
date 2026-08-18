@@ -1,0 +1,82 @@
+{
+    "authors": "David Morris, Peichen Tang, and Ralph Ewerth",
+    "doi": "10.25835/0030443",
+    "doi_date_published": "2019-06-27",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": true,
+    "license_id": "CC-BY-3.0",
+    "license_title": "Creative Commons Attribution 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "maintainer": "David Morris, Peichen Tang, and Ralph Ewerth",
+    "maintainer_email": "",
+    "source_metadata_created": "2019-06-27T16:29:02.921892",
+    "source_metadata_modified": "2022-01-20T13:48:50.142253",
+    "metadata_modified": "2022-01-20T13:48:50.142253",
+    "name": "luh-a-neural-approach-for-text-extraction-from-scholarly-figures",
+    "notes": "# A Neural Approach for Text Extraction from Scholarly Figures\r\nThis is the readme for the supplemental data for our ICDAR 2019 paper.\r\n\r\nYou can read our paper via IEEE here: https://ieeexplore.ieee.org/document/8978202\r\n\r\nIf you found this dataset useful, please consider citing our paper:\r\n\r\n\t@inproceedings{DBLP:conf/icdar/MorrisTE19,\r\n\t  author    = {David Morris and\r\n\t\t\t\t   Peichen Tang and\r\n\t\t\t\t   Ralph Ewerth},\r\n\t  title     = {A Neural Approach for Text Extraction from Scholarly Figures},\r\n\t  booktitle = {2019 International Conference on Document Analysis and Recognition,\r\n\t\t\t\t   {ICDAR} 2019, Sydney, Australia, September 20-25, 2019},\r\n\t  pages     = {1438--1443},\r\n\t  publisher = {{IEEE}},\r\n\t  year      = {2019},\r\n\t  url       = {https://doi.org/10.1109/ICDAR.2019.00231},\r\n\t  doi       = {10.1109/ICDAR.2019.00231},\r\n\t  timestamp = {Tue, 04 Feb 2020 13:28:39 +0100},\r\n\t  biburl    = {https://dblp.org/rec/conf/icdar/MorrisTE19.bib},\r\n\t  bibsource = {dblp computer science bibliography, https://dblp.org}\r\n\t}\r\n\r\nThis work was financially supported by the German Federal Ministry of Education and Research (BMBF) and European Social Fund (ESF) (InclusiveOCW project, no. 01PE17004).\r\n## Datasets\r\nWe used different sources of data for testing, validation, and training. Our testing set was assembled by the work we cited by B\u00f6schen et al. We excluded the DeGruyter dataset, and use it as our validation dataset.\r\n### Testing\r\nThese datasets contain a readme with license information. Further information about the associated project can be found in the authors' published work we cited: https://doi.org/10.1007/978-3-319-51811-4_2\r\n### Validation\r\nThe DeGruyter dataset does not include the labeled images due to license restrictions. As of writing, the images can still be downloaded from DeGruyter via the links in the readme. Note that depending on what program you use to strip the images out of the PDF they are provided in, you may have to re-number the images.\r\n### Training\r\nWe used [label_generator](https://github.com/domoritz/label_generator)'s  generated dataset, which the author made available on a requester-pays [amazon s3 bucket](s3://escience.washington.edu.viziometrics).\r\nWe also used the Multi-Type Web Images dataset, which is mirrored [here](https://tianchi.aliyun.com/competition/introduction.htm?spm=5176.100066.0.0.3bcad780oQ9Ce4&raceId=231651).\r\n## Code\r\nWe have made our code available in `code.zip`. We will upload code, announce further news, and field questions via the [github repo](https://github.com/david-morris/Neural-Figure-Text).\r\n\r\nOur text detection network is adapted from [Argman's EAST implementation](https://github.com/argman/EAST). The `EAST/checkpoints/ours` subdirectory contains the trained weights we used in the paper.\r\n\r\nWe used a tesseract script to run text extraction from detected text rows. This is inside our code `code.tar` as `text_recognition_multipro.py`.\r\n\r\nWe used a java script provided by Falk B\u00f6schen and adapted to our file structure.  We included this as `evaluator.jar`.\r\n\r\nParameter sweeps are automated by `param_sweep.rb`. This file also shows how to invoke all of these components.",
+    "num_resources": 1,
+    "num_tags": 3,
+    "organization": {
+        "id": "71f7bf65-eb79-43d5-bbb3-8bac53129eec",
+        "name": "tib",
+        "title": "TIB",
+        "type": "organization",
+        "description": "Technische Informationsbibliothek",
+        "image_url": "2018-01-23-104035.171142TIBWortBildmarkeBBRGB.PNG",
+        "created": "2018-01-23T11:36:35.480058",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "tib",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "computer vision",
+            "id": "9dbceae2-53fb-48b5-a02c-6937578b0937",
+            "name": "computer vision",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "document analysis",
+            "id": "ebf6f3de-55ca-4d81-81ec-77fb86d692d8",
+            "name": "document analysis",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "machine learning",
+            "id": "dd7479bf-23fb-45f5-8685-ca8b7992d344",
+            "name": "machine learning",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "A Neural Approach for Text Extraction from Scholarly Figures",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/a-neural-approach-for-text-extraction-from-scholarly-figures",
+    "version": "",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2019-06-27T16:35:58.670413",
+            "description": "",
+            "format": "zip",
+            "last_modified": "2019-06-27T16:35:58.612669",
+            "mimetype": "application/zip",
+            "name": "code.zip",
+            "position": 0,
+            "size": 798357692,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/ef96d2db-9cbe-4738-b7bf-da556e12bdc2/resource/106f7149-6161-4117-893a-44990c05cbe4/download/code.zip",
+            "url_type": ""
+        }
+    ]
+}

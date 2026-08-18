@@ -1,0 +1,82 @@
+{
+    "authors": "Clemens Huebler",
+    "doi": "10.25835/0078042",
+    "doi_date_published": "2020-06-29",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": true,
+    "license_id": "CC-BY-3.0",
+    "license_title": "Creative Commons Attribution 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "maintainer": "Clemens Huebler",
+    "maintainer_email": "c.huebler@isd.uni-hannover.de",
+    "source_metadata_created": "2020-06-29T13:56:20.726566",
+    "source_metadata_modified": "2022-01-20T11:00:40.633402",
+    "metadata_modified": "2022-01-20T11:00:40.633402",
+    "name": "luh-windturbine-simulation-for-meta-modelling",
+    "notes": "This data set correlates environmental conditions acting on an offshore wind turbine (inputs) with fatigue loads of the turbine (outputs).\r\nThe investigated wind turbine is the NREL 5MW reference turbine and the OC3 monopile.\r\nEnvironmental conditions are based on FINO3 data (https://www.fino3.de/en/).\r\nTime series of bending moments and shear forces at mudline and blade root bending moments are computed using the FASTv8 simulation code by the NREL.\r\n10.000 simulations for varying environmental conditions (and varying random seeds) were conducted.\r\nShort-term damage equivalent loads (DELs) representing fatigue were calculated for several relevant positions (at mudline and at the blade root).\r\nFor further information, it is referred to \"Huebler, C., & Rolfes, R. (2020). Analysis of the influence of climate change on the fatigue lifetime of offshore wind turbines using imprecise probabilities. Wind Energy. 2020;1\u201315.\"",
+    "num_resources": 1,
+    "num_tags": 3,
+    "organization": {
+        "id": "3d4e7da1-a0ef-4af1-9c07-56cf5e35084d",
+        "name": "institut-fur-statik-und-dynamik",
+        "title": "Institut f\u00fcr Statik und Dynamik",
+        "type": "organization",
+        "description": "(Institute of Structural Analysis) \r\nAppelstra\u00dfe 9A \r\n__30167 Hannover (Germany)__\r\n\r\nhttps://www.isd.uni-hannover.de/en/institute/",
+        "image_url": "",
+        "created": "2020-06-26T14:14:27.727346",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "institut-fur-statik-und-dynamik",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "FAST",
+            "id": "2e16c0c2-5d69-4b4c-a980-361940ef9809",
+            "name": "FAST",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "meta-model",
+            "id": "be21f1e5-7b23-4315-8198-e6ae3d253c73",
+            "name": "meta-model",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "wind energy",
+            "id": "b8d291af-b256-473b-96b3-337650e22a85",
+            "name": "wind energy",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "Wind Turbine Simulation Data for Meta-Modelling",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/windturbine-simulation-for-meta-modelling",
+    "version": "",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2020-06-29T13:59:45.579275",
+            "description": "This data set correlates environmental conditions acting on an offshore wind turbine (inputs) with fatigue loads of the turbine (outputs).\r\nThe investigated wind turbine is the NREL 5MW reference turbine and the OC3 monopile.\r\nEnvironmental conditions are based on FINO3 data (https://www.fino3.de/en/).\r\nTime series of bending moments and shear forces at mudline and blade root bending moments are computed using the FASTv8 simulation code by the NREL.\r\n10.000 simulations for varying environmental conditions (and varying random seeds) were conducted.\r\nShort-term damage equivalent loads (DELs) representing fatigue were calculated for several relevant positions (at mudline and at the blade root).",
+            "format": "txt",
+            "last_modified": "2020-06-29T13:59:45.533215",
+            "mimetype": "text/plain",
+            "name": "Metamodeldata.txt",
+            "position": 0,
+            "size": 1142901,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/7e6929b4-0aa0-44b4-9a1c-29d42bb78aa3/resource/0f24dea1-53b3-4cb9-afa4-16b342524aa8/download/metamodeldata.txt",
+            "url_type": ""
+        }
+    ]
+}

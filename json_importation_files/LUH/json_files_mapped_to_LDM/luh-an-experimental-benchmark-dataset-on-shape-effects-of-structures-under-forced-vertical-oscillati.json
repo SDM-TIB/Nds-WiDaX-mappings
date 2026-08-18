@@ -1,0 +1,169 @@
+{
+    "authors": "Jannik Meyer, Christian Windt, Constantin Schweiger, Clemens Krautwald, Mario Welzel, Arndt Hildebrandt, Torsten Schlurmann, Nils Goseberg",
+    "doi": "10.25835/2dq7yipp",
+    "doi_date_published": "2024-12-05",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": false,
+    "license_id": "CC-BY-NC-4.0",
+    "license_title": "Creative Commons Attribution-NonCommercial 4.0 International",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "maintainer": "Jannik Meyer",
+    "maintainer_email": "meyer@lufi.uni-hannover.de",
+    "source_metadata_created": "2024-12-05T09:27:42.185516",
+    "source_metadata_modified": "2025-03-17T12:33:10.288699",
+    "metadata_modified": "2025-03-17T12:33:10.288699",
+    "name": "luh-an-experimental-benchmark-dataset-on-shape-effects-of-structures-under-forced-vertical-oscillati",
+    "notes": "A benchmark dataset that belongs to our manucsript \"An experimental benchmark study on shape effects of structures under forced vertical oscillation: Flow fields, wave radiation, and hydrodynamic coefficients\", which is currently submitted to Applied Ocean Research.",
+    "num_resources": 8,
+    "num_tags": 4,
+    "organization": {
+        "id": "e0375eb9-975b-4de4-b94f-68977d14697a",
+        "name": "ludwig-franzius-institut-fur-wasserbau-astuar-und-kusteningenieurwesen",
+        "title": "Ludwig-Franzius-Institut f\u00fcr Wasserbau, \u00c4stuar- und K\u00fcsteningenieurwesen",
+        "type": "organization",
+        "description": "Nienburger Str. 4\r\n\r\n30167 Hannover\r\n\r\nTel.\u00a0+49 511 762 - 2573\r\n\r\nFax\u00a0\u00a0+49 511 762 - 4002 \r\n\r\nhttps://www.lufi.uni-hannover.de",
+        "image_url": "https://www.lufi.uni-hannover.de/fileadmin/site-templates/logos/lufi/LuFI_logo.png",
+        "created": "2022-12-01T08:40:21.679246",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "ludwig-franzius-institut-fur-wasserbau-astuar-und-kusteningenieurwesen",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "flow field",
+            "id": "3ecf8c6c-0462-4fb1-bbef-63a28064881f",
+            "name": "flow field",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "fluid structure interaction",
+            "id": "c7ddb847-6549-4de3-885e-9f0e8529b84a",
+            "name": "fluid structure interaction",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "ocean engineering",
+            "id": "b50527df-4c9f-46ba-b96d-2cdf0bddf80d",
+            "name": "ocean engineering",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "ptv",
+            "id": "fd90cf14-7710-4f9a-877b-64de440cb25b",
+            "name": "ptv",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "An experimental benchmark dataset on shape effects of structures under forced vertical oscillation",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/an-experimental-benchmark-dataset-on-shape-effects-of-structures-under-forced-vertical-oscillation",
+    "version": "0.9",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2024-12-05T09:39:24.982435",
+            "description": "STL-file of the BC structure",
+            "format": "stl",
+            "last_modified": "2024-12-05T09:39:24.940104",
+            "mimetype": "model/stl",
+            "name": "Geometry file for BC structure",
+            "position": 0,
+            "size": 3231,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/180c4e80-ae65-43eb-bb09-30c66cec44ac/resource/39671815-218f-4816-8a48-a02ff316539c/download/bc.stl",
+            "url_type": ""
+        },
+        {
+            "created": "2024-12-05T09:39:49.153395",
+            "description": "STL-file of the RE structure",
+            "format": "stl",
+            "last_modified": "2024-12-05T09:41:28.451766",
+            "mimetype": "model/stl",
+            "name": "Geometry file for RE structure",
+            "position": 1,
+            "size": 294185,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/180c4e80-ae65-43eb-bb09-30c66cec44ac/resource/66997e50-2517-40ec-b70c-cbde712fc213/download/re.stl",
+            "url_type": ""
+        },
+        {
+            "created": "2024-12-05T09:41:55.027649",
+            "description": "STL-file of the HP structure",
+            "format": "stl",
+            "last_modified": "2024-12-05T09:41:54.986445",
+            "mimetype": "model/stl",
+            "name": "Geometry file for HP structure",
+            "position": 2,
+            "size": 7480,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/180c4e80-ae65-43eb-bb09-30c66cec44ac/resource/e9e932e3-10c4-49e6-bc09-b0f51cd4f3de/download/hp.stl",
+            "url_type": ""
+        },
+        {
+            "created": "2025-03-17T00:11:21.955544",
+            "description": "Wave elevation time series of the experimental tests",
+            "format": "mat",
+            "last_modified": "2025-03-17T00:11:21.786882",
+            "name": "USS.mat",
+            "position": 3,
+            "size": 9563273,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/180c4e80-ae65-43eb-bb09-30c66cec44ac/resource/10c55c25-72f2-424b-b6da-14533a15b950/download/uss.mat",
+            "url_type": ""
+        },
+        {
+            "created": "2025-03-17T00:11:48.038601",
+            "description": "Force time series of the experimental tests",
+            "format": "mat",
+            "last_modified": "2025-03-17T00:11:48.004428",
+            "name": "Force.mat",
+            "position": 4,
+            "size": 4640812,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/180c4e80-ae65-43eb-bb09-30c66cec44ac/resource/4d09164d-74f4-4e76-8273-59b26042402c/download/force.mat",
+            "url_type": ""
+        },
+        {
+            "created": "2025-03-17T12:32:03.575245",
+            "description": "PTV results of the BC structure",
+            "format": "",
+            "name": "PTV_BC",
+            "position": 5,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/vault/lufi/meyer/an-experimental-benchmark-dataset-on-shape-effects-of-structures-under-forced-vertical-oscillation/PTV_BC.mat",
+            "url_type": ""
+        },
+        {
+            "created": "2025-03-17T12:32:52.258430",
+            "description": "PTV results of the RE structure",
+            "format": "",
+            "name": "PTV_RE",
+            "position": 6,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/vault/lufi/meyer/an-experimental-benchmark-dataset-on-shape-effects-of-structures-under-forced-vertical-oscillation/PTV_RE.mat",
+            "url_type": ""
+        },
+        {
+            "created": "2025-03-17T12:33:10.305227",
+            "description": "PTV results of the HP structure",
+            "format": "",
+            "name": "PTV_HP",
+            "position": 7,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/vault/lufi/meyer/an-experimental-benchmark-dataset-on-shape-effects-of-structures-under-forced-vertical-oscillation/PTV_HP.mat",
+            "url_type": ""
+        }
+    ]
+}

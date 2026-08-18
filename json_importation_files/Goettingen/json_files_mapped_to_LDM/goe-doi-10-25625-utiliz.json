@@ -1,0 +1,111 @@
+{
+    "doi": "10.25625/UTILIZ",
+    "identifier_type": "DOI",
+    "doi_date_published": "2023",
+    "source_metadata_created": "2023",
+    "publication_year": "2023",
+    "title": "Micromodel simulation grid data",
+    "organization": {
+        "approval_status": "approved",
+        "description": "G\u00f6ttingen Research Online is an institutional repository for the publication of research data at the G\u00f6ttingen Campus. It is managed by the G\u00f6ttingen eResearch Alliance, a joint group of SUB and GWDG. .",
+        "display_name": "G\u00f6ttingenResearchOnline",
+        "image_display_url": "logo-goettingen.png",
+        "image_url": "logo-goettingen.png",
+        "is_organization": true,
+        "name": "goettingen",
+        "state": "active",
+        "title": "G\u00f6ttingenResearchOnline",
+        "type": "organization"
+    },
+    "name": "goe-doi-10-25625-utiliz",
+    "license_id": "http://creativecommons.org/licenses/by-nc/4.0",
+    "license_title": "Creative Commons Attribution-NonCommercial 4.0 International",
+    "notes": "This dataset contains the simulation grid data developed during the project \u201cMacro-scale modeling concepts for bacterial growth and transport in advective two-phase porous media systems\u201d (DFG Project number 433108788). To re-simulate the microfluidic experiments a 2D simulation grid at continuum scale was generated based on the pore structure of a micromodel. The 2D design of the micromodel can be found in the file \u201clinear_circle_micromodel.dxf\u201d. The height of the pore structure is 50 \u00b5m. For the grid a compromise between having a grid cell size larger than the representative elementary volume (REV) and certain spatial resolution had to be found. The REV is defined to be the smallest volume for which macroscopic properties can represent the measurements. For the pore structure of the micromodel the REV has been determined for the porosity on nine exemplary positions. Assuming that the REV for porosity can also be applied for other properties such as permeability, saturation or microbial density, a grid cell size of 1x1 mm was selected. This results in 9x50=450 elements for the continuum scale grid. For each element an image-analyzing algorithm using Matlab determined the porosity. To determine the permeability, the pore structure was cut out for each element and two pore scale simulations were performed to determine the permeability in x- and y-direction. This was done by using the single phase creeping flow model in COMSOL Multiphysics, which uses the Stokes equations. The model was solved stationary. A flow through the model was described by applying constant pressure boundaries on opposite sides with an inlet pressure of 1000Pa and an outlet pressure of 0Pa. All other boundaries were set to no slip conditions and fluid properties were related to water. The result of each simulation is the volumetric flow rate across the boundary, which was used to calculate the permeability. The resulting properties (porosity and permeability in x- and y-direction) of the simulation grid can be found in the files \u201cmm_porosity.txt\u201d, \u201c\u201cmm_permx.txt\u201d and \u201cmm_permy.txt\u201d. Ordering of the elements starts bottom left going to the right and line by line to the top.",
+    "publishers": [
+        {
+            "publisher": "GRO.data"
+        }
+    ],
+    "subject_areas": [
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Engineering"
+        },
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Physics"
+        }
+    ],
+    "resource_type": "Dataset",
+    "related_identifiers": [],
+    "tags": [
+        {
+            "display_name": "Engineering",
+            "name": "Engineering",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Physics",
+            "name": "Physics",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Microfluidics",
+            "name": "Microfluidics",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Microbiology",
+            "name": "Microbiology",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Numerical simulation",
+            "name": "Numerical simulation",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Computational fluid dynamics",
+            "name": "Computational fluid dynamics",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "authors": [
+        {
+            "author": "Hagemann, Birger",
+            "givenName": "Birger",
+            "familyName": "Hagemann",
+            "orcid": ""
+        },
+        {
+            "author": "Strobel, Gion",
+            "givenName": "Gion",
+            "familyName": "Strobel",
+            "orcid": ""
+        },
+        {
+            "author": "Wirth, Maximilian",
+            "givenName": "Maximilian",
+            "familyName": "Wirth",
+            "orcid": ""
+        }
+    ],
+    "citation": [],
+    "doi_status": "True",
+    "owner_org": "goettingen",
+    "isopen": true,
+    "repository_name": "G\u00f6ttingen Research Online Data",
+    "type": "dataset",
+    "source_metadata_modified": "",
+    "url": "https://doi.org/10.25625/UTILIZ",
+    "doi_publisher": "",
+    "resources": [
+        {}
+    ]
+}

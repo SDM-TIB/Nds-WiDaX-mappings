@@ -1,0 +1,105 @@
+{
+    "authors": "Susanne K\u00f6necke, Clemens Jonscher, Tobias Bohne, Raimund Rolfes ",
+    "doi": "10.25835/nu70ehxy",
+    "doi_date_published": "2026-02-16",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": false,
+    "license_id": "CC-BY-NC-SA-4.0",
+    "license_title": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "maintainer": "Susanne K\u00f6necke",
+    "maintainer_email": "",
+    "source_metadata_created": "2026-02-16T13:16:03.658097",
+    "source_metadata_modified": "2026-02-16T13:27:04.195561",
+    "metadata_modified": "2026-02-16T13:27:04.195561",
+    "name": "luh-wtn-identification",
+    "notes": "The reliable identification of acoustically dominant wind turbine noise (WTN) in long-term field measurements is a key prerequisite for analysing source-specific noise characteristics and sound propagation under real atmospheric conditions. To address this requirement, a two-stage framework for identifying WTN-dominated time periods and specific WTN-components was developed.\r\n\r\nIn Stage 1, time intervals dominated by wind turbine noise are identified by combining statistical preselection criteria, turbine operating data, and a physics-based signal analysis that relates detected modulation frequencies to blade-passing harmonics. In Stage 2, the selected intervals are further analysed to identify specific WTN components, including rotor-induced amplitude modulation, tonal components, and high-frequency whistling noise. For validation, a structured listening test was designed in which WTN components and relevant competing noise sources can be classified. Based on the listening-test results, a perceptual, consensus-based reference dataset can be derived and used for comparison with identification methods. \r\n\r\nTo support further research, the two-stage framework and the listening-test platform are provided in accordance with the FAIR data principles (Findable, Accessible, Interoperable, Reusable). Due to legal restrictions, the authors are not permitted to publish the original measured sound pressure levels or unmodified audio recordings. However, anonymized and level-modified audio signals are provided for demonstration purposes. It is explicitly emphasized that these signals do not represent the original measured sound pressure levels. To conduct a comprehensive listening test, users must provide their own audio recordings and adapt them to the listening test framework.\r\n\r\nFor further information, it is referred to \"K\u00f6necke, S., Jonscher, C., Bohne, T. and Rolfes, R. (2026): A Two-Stage Framework for Identifying and Characterising Wind Turbine Noise Data and Its Validation by Listening Tests. Submitted to Wind Energy Science.\" \r\n\r\nThe project WEA-Akzeptanz (FKZ 0324134A) and WEA-Akzeptanz-Data (FKZ 03EE3062) was funded by the German Federal Ministry for Economic Affairs and Energy (BMWi). \r\n",
+    "num_resources": 3,
+    "num_tags": 3,
+    "organization": {
+        "id": "3d4e7da1-a0ef-4af1-9c07-56cf5e35084d",
+        "name": "institut-fur-statik-und-dynamik",
+        "title": "Institut f\u00fcr Statik und Dynamik",
+        "type": "organization",
+        "description": "(Institute of Structural Analysis) \r\nAppelstra\u00dfe 9A \r\n__30167 Hannover (Germany)__\r\n\r\nhttps://www.isd.uni-hannover.de/en/institute/",
+        "image_url": "",
+        "created": "2020-06-26T14:14:27.727346",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "institut-fur-statik-und-dynamik",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "Identification Framework",
+            "id": "5e9edf5b-2959-4e20-a585-91bd109123b5",
+            "name": "Identification Framework",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Listening-Test",
+            "id": "a1c8c1ac-8021-412c-9692-c46bfcc7ecc4",
+            "name": "Listening-Test",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Wind Turbine Noise Detection",
+            "id": "9470c4cd-5272-4b17-bbf2-be54d1654ff4",
+            "name": "Wind Turbine Noise Detection",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "Detection Framework and Listening-Test Platform for the Identification of Wind Turbine Noise in Long-Term Field Measurements",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/wtn-identification",
+    "version": "",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2026-02-16T13:17:29.698401",
+            "description": "This documentation contains relevant information about the uploaded data and scripts.",
+            "format": "pdf",
+            "name": "ReadMe",
+            "position": 0,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/492a0569-073b-4e68-b61b-bf8f89becd53/resource/6a67cbca-c66a-4fa2-bf48-a215212de8d5/download/___",
+            "url_type": ""
+        },
+        {
+            "created": "2026-02-16T13:20:27.485016",
+            "description": "This folder contains all matlab scripts required to run the framework.",
+            "format": "zip",
+            "last_modified": "2026-02-16T13:20:27.434230",
+            "mimetype": "application/zip",
+            "name": "Framework",
+            "position": 1,
+            "size": 24569,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/492a0569-073b-4e68-b61b-bf8f89becd53/resource/b4272212-a58d-4ace-b5d5-ee60644e34f3/download/framework.zip",
+            "url_type": ""
+        },
+        {
+            "created": "2026-02-16T13:23:13.047609",
+            "description": "This folder contains the graphical user interface (GUI) for conducting the complete hearing test, as well as instructions for the test and questionnaires for participants. In addition, anonymized sample audio files are included.",
+            "format": "zip",
+            "last_modified": "2026-02-16T13:23:13.015540",
+            "mimetype": "application/zip",
+            "name": "Listening Test",
+            "position": 2,
+            "size": 28977095,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/492a0569-073b-4e68-b61b-bf8f89becd53/resource/fa481194-0f38-419f-813f-cd2db9d386dd/download/listeningtest.zip",
+            "url_type": ""
+        }
+    ]
+}

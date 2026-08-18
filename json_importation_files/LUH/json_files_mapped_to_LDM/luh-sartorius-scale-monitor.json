@@ -1,0 +1,68 @@
+{
+    "authors": "Ferdinand Lange",
+    "doi": "10.25835/hg4blboq",
+    "doi_date_published": "2022-10-04",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": true,
+    "license_id": "CC0-1.0",
+    "license_title": "CC0 1.0 Universal",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "maintainer": "Ferdinand Lange",
+    "maintainer_email": "lange@iftc.uni-hannover.de",
+    "source_metadata_created": "2022-10-04T14:33:52.263588",
+    "source_metadata_modified": "2022-10-04T16:02:14.658351",
+    "metadata_modified": "2022-10-04T16:02:14.658351",
+    "name": "luh-sartorius-scale-monitor",
+    "notes": "The Sartorius Scale Monitor software has three goals. First, the software communicates with Sartorius scales that support the SBI protocol to query and convert the scale values in real-time, monitoring the calculated values and triggering an alarm in case of an unexpected event.\r\nThe second goal is to provide the user with a web-based interface that provides alarm settings and an overview of the measured and calculated values.\r\nThe third goal deals with notifying the user about alarms that occur. Here, a Telegram bot was integrated that provides all user information and interactions in a group channel. The bot can inform the users about the current status, as well as about occurring alarms, in addition, simple user interaction with the bot is possible to set the alarms on or off. The integration with the Telegram bot requires an existing bot and a Telegram channel.",
+    "num_resources": 1,
+    "num_tags": 1,
+    "organization": {
+        "id": "dd49f83e-2c83-43fd-ad9d-b4b22ee6e968",
+        "name": "institut-fur-technische-chemie",
+        "title": "Institut f\u00fcr Technische Chemie",
+        "type": "organization",
+        "description": "https://www.tci.uni-hannover.de/",
+        "image_url": "",
+        "created": "2018-02-13T16:16:22.317630",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "institut-fur-technische-chemie",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "csharp",
+            "id": "bf97f613-e2a0-4e7d-ba77-00267b2c3fd8",
+            "name": "csharp",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "Sartorius-Scale-Monitor",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/sartorius-scale-monitor",
+    "version": "",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2022-10-04T14:34:43.728168",
+            "description": "",
+            "format": "zip",
+            "last_modified": "2022-10-04T14:34:43.695500",
+            "mimetype": "application/zip",
+            "name": "Sartorius-Scale-Monitor.zip",
+            "position": 0,
+            "size": 217619,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/d005bce5-b9c4-4b29-b179-16ce59a4f8a0/resource/a316fc19-28f3-421d-a342-5ca77336afdc/download/sartorius-scale-monitor.zip",
+            "url_type": ""
+        }
+    ]
+}

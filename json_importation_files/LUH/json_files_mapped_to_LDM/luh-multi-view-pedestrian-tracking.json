@@ -1,0 +1,161 @@
+{
+    "authors": "Uyen Nguyen",
+    "doi": "10.25835/0082741",
+    "doi_date_published": "2020-07-14",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": false,
+    "license_id": "CC-BY-NC-3.0",
+    "license_title": "Creative Commons Attribution-NonCommercial 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/3.0/",
+    "maintainer": "Uyen Nguyen",
+    "maintainer_email": "",
+    "source_metadata_created": "2020-06-23T14:53:12.628944",
+    "source_metadata_modified": "2024-12-12T11:50:39.191321",
+    "metadata_modified": "2024-12-12T11:50:39.191321",
+    "name": "luh-multi-view-pedestrian-tracking",
+    "notes": "This dataset was acquired for the purpose of collaborative pedestrian tracking from multiple viewpoints. This dataset consists of 29 image sequences which capture trajectories of pedestrians from three different viewpoints with three stereo camera pairs. Each captured image pair(left and right) has a global timestamp. The coressponding image sequences in different views have the same sequence number. The identity number of a pedestrian is unique and identical across viewpoints.\r\n\r\nExample tracking results in the first viewpoint and the annotated pedestrians from the other two views:\r\n![example](https://data.uni-hannover.de/dataset/733e368e-a481-4f85-8aac-2abcc35a0673/resource/ae60e256-a8a9-4f83-ad47-2c8824da7bc2/download/eaxmple_tracking_result.png \"example tracking results\")\r\n\r\nThe following \".zip\" packets are provided for data set usage:\r\n<ol>\r\n<li> 1. Rectified stereo images captured from three viewpoints, each image has a global timestamp. </li>\r\n<li> 2. The calibration parameters (both intrinsic and extrinsic) of each stereo camera pairs are stored in \"calibration.zip\" which allows computing the 3D position in the global coordinate of a pixel in image space. </li>\r\n<li> 3. Ground truth annotations of pedestrians appearing in the left image of a stereo are provided for a number of image sequences. </li>\r\n</ol>\r\n\r\nThe details of how to use all these data and information are described in the \"read_me.txt\" of each \".zip\" packet\r\n",
+    "num_resources": 7,
+    "num_tags": 4,
+    "organization": {
+        "id": "f2179c7d-7869-4ba0-bceb-761eb0f912d3",
+        "name": "i-c-sens",
+        "title": "i.c.sens",
+        "type": "organization",
+        "description": "Graduiertenkolleg 2159 \r\nhttps://www.icsens.uni-hannover.de/",
+        "image_url": "https://www.icsens.uni-hannover.de/fileadmin/site-templates/logos/icsens/ICSENS_logo.png",
+        "created": "2018-02-09T11:33:42.980508",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "i-c-sens",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "collaboration",
+            "id": "290aee87-8842-46d9-80c8-99bc086b6ffd",
+            "name": "collaboration",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "multi-view",
+            "id": "82beda77-0773-49bb-a1b3-ea2ceb12c3e0",
+            "name": "multi-view",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "pedestrian detection",
+            "id": "c2f8029c-0e11-41c8-9c99-b57e17ee15ce",
+            "name": "pedestrian detection",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "pedestrian tracking",
+            "id": "8d65cd65-2533-405d-904a-f3a8f32e3274",
+            "name": "pedestrian tracking",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "i.c.sens Multi-view pedestrian tracking dataset",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/multi-view-pedestrian-tracking",
+    "version": "",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2020-07-01T10:46:00.763708",
+            "description": "calibration parameters (both intrinsic and extrinsic) of each stereo camera pair",
+            "format": "zip",
+            "last_modified": "2020-07-01T10:46:00.718181",
+            "mimetype": "application/zip",
+            "name": "calibration.zip",
+            "position": 0,
+            "size": 24154,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/733e368e-a481-4f85-8aac-2abcc35a0673/resource/095d3cc2-0ee2-4793-8b38-749bb4ea91a3/download/calibration.zip",
+            "url_type": ""
+        },
+        {
+            "created": "2020-07-03T14:45:56.754849",
+            "description": "rectified stereo images captured from viewpoint 1",
+            "format": "zip",
+            "mimetype": "application/zip",
+            "name": "view1.zip",
+            "position": 1,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/vault/icsens/nguyen/multi-view-pedestrian-tracking/view1.zip",
+            "url_type": ""
+        },
+        {
+            "created": "2020-07-03T14:46:16.824185",
+            "description": "rectified stereo images captured from viewpoint 2",
+            "format": "zip",
+            "mimetype": "application/zip",
+            "name": "view2.zip",
+            "position": 2,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/vault/icsens/nguyen/multi-view-pedestrian-tracking/view2.zip",
+            "url_type": ""
+        },
+        {
+            "created": "2020-07-03T14:48:12.254535",
+            "description": "rectified stereo images captured from viewpoint 3",
+            "format": "zip",
+            "mimetype": "application/zip",
+            "name": "view3.zip",
+            "position": 3,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/vault/icsens/nguyen/multi-view-pedestrian-tracking/view3.zip",
+            "url_type": ""
+        },
+        {
+            "created": "2020-07-07T13:28:48.333840",
+            "description": "ground truth annotations of pedestrians (image coordinates of left image)",
+            "format": "zip",
+            "last_modified": "2020-07-07T13:28:48.281840",
+            "mimetype": "application/zip",
+            "name": "ground_truth.zip",
+            "position": 4,
+            "size": 1376431,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/733e368e-a481-4f85-8aac-2abcc35a0673/resource/bef2b16c-e8cc-4461-a63f-0be46239d5e0/download/ground_truth.zip",
+            "url_type": ""
+        },
+        {
+            "created": "2020-07-27T15:09:20.820847",
+            "description": "example tracking results from viewpoint 1 and the corresponding annotation of pedestrians in the two other views",
+            "format": "png",
+            "last_modified": "2020-07-27T15:18:44.419797",
+            "mimetype": "image/png",
+            "name": "example_tracking_results",
+            "position": 5,
+            "size": 1043605,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/733e368e-a481-4f85-8aac-2abcc35a0673/resource/ae60e256-a8a9-4f83-ad47-2c8824da7bc2/download/eaxmple_tracking_result.png",
+            "url_type": ""
+        },
+        {
+            "created": "2020-08-04T20:38:32.454271",
+            "description": "A general description of the dataset and how to use it",
+            "format": "pdf",
+            "last_modified": "2020-08-04T20:38:32.324074",
+            "mimetype": "application/pdf",
+            "name": "Documentation",
+            "position": 6,
+            "size": 2754704,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/733e368e-a481-4f85-8aac-2abcc35a0673/resource/a4eadd41-05ea-4b69-bb78-2f804f1d0877/download/documentation.pdf",
+            "url_type": ""
+        }
+    ]
+}

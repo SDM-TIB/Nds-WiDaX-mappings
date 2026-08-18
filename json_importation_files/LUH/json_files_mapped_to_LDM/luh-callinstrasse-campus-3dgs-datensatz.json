@@ -1,0 +1,107 @@
+{
+    "authors": "Tim Schimansky",
+    "doi": "10.25835/nz9zlhkh",
+    "doi_date_published": "2026-06-24",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": true,
+    "license_id": "MIT",
+    "license_title": "MIT License",
+    "license_url": "https://opensource.org/licenses/MIT",
+    "maintainer": "Tim Schimansky",
+    "maintainer_email": "tim.schimansky@ikg.uni-hannover.de",
+    "source_metadata_created": "2026-06-24T12:18:21.998769",
+    "source_metadata_modified": "2026-06-24T12:48:03.447066",
+    "metadata_modified": "2026-06-24T12:48:03.447066",
+    "name": "luh-callinstrasse-campus-3dgs-datensatz",
+    "notes": "Dieser Datensatz umfasst einen 3D-Gaussian-Splatting-Datensatz, ein zugeh\u00f6riges Bildset sowie eine COLMAP-Datenbank mit den Ground-Truth-Posen der aufgenommenen Bilder. Die Aufnahmen zeigen den Parkplatzbereich zwischen dem Hochhaus und der Callinstra\u00dfe rund um den Einsteinelevator. Die Bilder wurden mit zwei unterschiedlichen Kamerasystemen erfasst; zus\u00e4tzlich enth\u00e4lt der Datensatz ein kleines Teilset mit schneebedeckter Szene. Der Datensatz eignet sich f\u00fcr die Evaluierung und Entwicklung von Verfahren zur Lokalisierung.",
+    "num_resources": 3,
+    "num_tags": 3,
+    "organization": {
+        "id": "9828c497-59fd-47a6-a39f-e9eec9bb8a66",
+        "name": "institut-fur-kartographie-und-geoinformatik",
+        "title": "Institut f\u00fcr Kartographie und Geoinformatik",
+        "type": "organization",
+        "description": "Appelstra\u00dfe 9 a, 30167 Hannover, https://www.ikg.uni-hannover.de/",
+        "image_url": "https://www.ikg.uni-hannover.de/fileadmin/site-templates/logos/ikg/IKG_Logo.png",
+        "created": "2018-02-15T09:03:10.899314",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "institut-fur-kartographie-und-geoinformatik",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "gaussian splatting",
+            "id": "45c11021-e679-4b38-b48b-3a49506c82fa",
+            "name": "gaussian splatting",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "localization",
+            "id": "dacd2c14-bcdb-4a57-a1c2-f7bfed52bfa6",
+            "name": "localization",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "photogrammetry",
+            "id": "d315e5eb-ee81-47d2-ad2d-3b6aa1d27f96",
+            "name": "photogrammetry",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "Callinstrasse Campus 3DGS Datensatz",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/callinstrasse-campus-3dgs-datensatz",
+    "version": "",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2026-06-24T12:20:49.378845",
+            "description": "3D Gaussian Splatting Data",
+            "format": "ply",
+            "last_modified": "2026-06-24T12:20:49.358349",
+            "name": "3dgs_data.ply",
+            "position": 0,
+            "size": 511469292,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/44f549e9-4893-4a91-9883-0ca512c07534/resource/fff5bdd6-4411-4064-8aec-798e762e34fc/download/3dgs_data.ply",
+            "url_type": ""
+        },
+        {
+            "created": "2026-06-24T12:42:37.689256",
+            "description": "Bilddaten",
+            "format": "jpeg",
+            "last_modified": "2026-06-24T12:42:37.668595",
+            "mimetype": "application/zip",
+            "name": "images.zip",
+            "position": 1,
+            "size": 1081567968,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/44f549e9-4893-4a91-9883-0ca512c07534/resource/efeaa1bf-74f2-4974-b824-69521321c00b/download/images.zip",
+            "url_type": ""
+        },
+        {
+            "created": "2026-06-24T12:48:03.453049",
+            "description": "Contains:\r\ncameras.bin\r\nframes.bin\r\nimages.bin",
+            "format": "bin",
+            "last_modified": "2026-06-24T12:48:03.438987",
+            "mimetype": "application/zip",
+            "name": "COLMAP data",
+            "position": 2,
+            "size": 90360608,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/44f549e9-4893-4a91-9883-0ca512c07534/resource/8c59304e-ffd3-4637-98c9-54f03bc63f23/download/colmap.zip",
+            "url_type": ""
+        }
+    ]
+}

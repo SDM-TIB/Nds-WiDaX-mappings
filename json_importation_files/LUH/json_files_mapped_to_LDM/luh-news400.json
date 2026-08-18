@@ -1,0 +1,122 @@
+{
+    "authors": "Eric M\u00fcller-Budack, Jonas Theiner, Sebastian Diering, Maximilian Idahl, Ralph Ewerth",
+    "doi": "10.25835/0084897",
+    "doi_date_published": "2020-06-04",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": false,
+    "license_id": "CC-BY-NC-3.0",
+    "license_title": "Creative Commons Attribution-NonCommercial 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/3.0/",
+    "maintainer": "Eric M\u00fcller-Budack",
+    "maintainer_email": "eric.mueller@tib.eu",
+    "source_metadata_created": "2020-06-04T13:53:33.217406",
+    "source_metadata_modified": "2022-01-20T10:59:42.198563",
+    "metadata_modified": "2022-01-20T10:59:42.198563",
+    "name": "luh-news400",
+    "notes": "# Multimodal Analytics for Real-world News using Measures of Cross-modal Entity Consistency\r\n\r\nThis repository contains the *News400* dataset introduced in the paper:\r\n\r\n> Eric M\u00fcller-Budack, Jonas Theiner, Sebastian Diering, Maximilian Idahl, and Ralph Ewerth. 2020. \r\nMultimodal Analytics for Real-world News using Measures of Cross-modal Entity Consistency. \r\nIn Proceedings of the 2020 International Conference on Multimedia Retrieval (ICMR '20). Association for Computing Machinery, New York, NY, USA, 16\u201325. DOI: https://doi.org/10.1145/3372278.3390670\r\n\r\n## Content\r\n\r\n- **news400.tar.gz**:\r\n    - ```dataset.jsonl``` containing:\r\n        - Web links to the news texts\r\n        - Web links to the news image\r\n        - Outputs of the named entity recognition and disambiguation (NERD) approach\r\n        - Untampered and tampered entities\r\n    - ```<entity>.jsonl``` file for each entity type containing the following information for each entity:\r\n        - Wikidata ID\r\n        - Wikidata label\r\n        - Meta information used for tampering\r\n        - Web links to all reference images crawled from Google, Bing, and Wikidata\r\n    - splits for testing and validation\r\n- **news400_features.tar.gz**:\r\n    - Visual features of the news images for persons, locations, and scenes\r\n    - Visual features of the reference images for persons, locations, and scenes\r\n- **news400_wordembeddings.tar.gz**: Word embeddings of all nouns in the news texts\r\n\r\n## Source Code\r\n\r\nThe source code to reproduce our results as well as download scripts to crawl news texts and images can be found on our GitHub page: https://github.com/TIBHannover/cross-modal_entity_consistency\r\n",
+    "num_resources": 3,
+    "num_tags": 5,
+    "organization": {
+        "id": "71f7bf65-eb79-43d5-bbb3-8bac53129eec",
+        "name": "tib",
+        "title": "TIB",
+        "type": "organization",
+        "description": "Technische Informationsbibliothek",
+        "image_url": "2018-01-23-104035.171142TIBWortBildmarkeBBRGB.PNG",
+        "created": "2018-01-23T11:36:35.480058",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "tib",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "Cross-modal consistency",
+            "id": "161db1b6-ef32-4bdc-8b36-befe78f7ebf3",
+            "name": "Cross-modal consistency",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "cross-modal entity verification",
+            "id": "d4d288aa-004f-4f70-bb32-2209714b478e",
+            "name": "cross-modal entity verification",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "deep learning",
+            "id": "ea57d5aa-102a-4623-83b5-edda4f7ccd12",
+            "name": "deep learning",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "image repurposing detection",
+            "id": "ac942537-3f70-41bb-a736-b1b603898cff",
+            "name": "image repurposing detection",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "multimodal retrieval",
+            "id": "d546a4ac-33aa-4682-abe1-75a6f214d5f4",
+            "name": "multimodal retrieval",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "News400 Dataset",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/news400",
+    "version": "",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2020-06-04T13:54:05.550568",
+            "description": "",
+            "format": "tar",
+            "last_modified": "2020-06-04T13:54:05.503139",
+            "mimetype": "application/x-tar",
+            "name": "news400.tar.gz",
+            "position": 0,
+            "size": 7478569,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/c729ffd9-8be1-49a9-8c43-dab2f8a87753/resource/af85e355-88e1-4d4d-91ec-785e1801dd47/download/news400.tar.gz",
+            "url_type": ""
+        },
+        {
+            "created": "2020-06-04T14:00:14.775286",
+            "description": "",
+            "format": "tar",
+            "last_modified": "2020-06-04T14:00:14.728423",
+            "mimetype": "application/x-tar",
+            "name": "news400_features.tar.gz",
+            "position": 1,
+            "size": 471094303,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/c729ffd9-8be1-49a9-8c43-dab2f8a87753/resource/23365241-435b-4dda-921c-09bd5f908010/download/news400_features.tar.gz",
+            "url_type": ""
+        },
+        {
+            "created": "2020-06-04T14:02:51.017611",
+            "description": "",
+            "format": "tar",
+            "last_modified": "2020-06-04T14:02:50.971063",
+            "mimetype": "application/x-tar",
+            "name": "news400_wordembeddings.tar.gz",
+            "position": 2,
+            "size": 43316706,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/c729ffd9-8be1-49a9-8c43-dab2f8a87753/resource/5500907c-2e5c-4967-a99d-4d64b6cde975/download/news400_wordembeddings.tar.gz",
+            "url_type": ""
+        }
+    ]
+}

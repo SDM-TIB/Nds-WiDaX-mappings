@@ -1,0 +1,64 @@
+{
+    "doi": "10.25625/6GSJSE",
+    "identifier_type": "DOI",
+    "doi_date_published": "2022",
+    "source_metadata_created": "2022",
+    "publication_year": "2022",
+    "title": "The potential of serverless kubernetes-based faas platforms for scientific computing workloads",
+    "organization": {
+        "approval_status": "approved",
+        "description": "G\u00f6ttingen Research Online is an institutional repository for the publication of research data at the G\u00f6ttingen Campus. It is managed by the G\u00f6ttingen eResearch Alliance, a joint group of SUB and GWDG. .",
+        "display_name": "G\u00f6ttingenResearchOnline",
+        "image_display_url": "logo-goettingen.png",
+        "image_url": "logo-goettingen.png",
+        "is_organization": true,
+        "name": "goettingen",
+        "state": "active",
+        "title": "G\u00f6ttingenResearchOnline",
+        "type": "organization"
+    },
+    "name": "goe-doi-10-25625-6gsjse",
+    "license_id": "http://creativecommons.org/publicdomain/zero/1.0",
+    "license_title": "Creative Commons Zero (CC0)",
+    "notes": "Serverless computing has emerged as a new execution model for cloud computing with many advantages such as improved resource sharing and utilization as well as reduced complexity for developers that under serverless only need to write function code without worrying about server infrastructure. These advantages are also interesting for other fields of computing, for instance, High-Performance Computing (HPC) as improving resource sharing on expensive compute clusters would be a great benefit and serverless could even work as a drop-in replacement for existing HPC function. In order to utilize serverless on-premise, one needs to choose a serverless platform to deploy from the various, avail- able open source platforms, however, with so many rapidly evolving open source serverless platforms, it has become difficult to draw comparisons between them. Furthermore, there are no standardized benchmarks for serverless platforms, therefore, in order to perform a systematic analysis, three workloads inspired by scientific computing were designed and implemented in this thesis to compare the performance and usability of three representa- tive open source Kubernetes-based serverless platforms. The workloads include an image processing task as well as an adaption of dgemm() for HPL and were developed and tested on a cluster of Virtual Machines (VMs) provided by the Gesellschaft f\u00fcr wissenschaftliche Datenverarbeitung mbH G\u00f6ttingen (GWDG)1. It was observed that the performance of these platforms can be adequate when compared to expected hardware limits, but overall there are still many opportunities for improvements in terms of performance and usability. The thesis was submitted in partial fulfillment of the requirements for the course \u201cApplied Computer Science\u201d and was supervised by Prof. Julian Kunkel (GWDG) and Dr. Sven Bingert (GWDG).",
+    "publishers": [
+        {
+            "publisher": "GRO.data"
+        }
+    ],
+    "subject_areas": [
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Computer and Information Science"
+        }
+    ],
+    "resource_type": "Dataset",
+    "tags": [
+        {
+            "display_name": "Computer and Information Science",
+            "name": "Computer and Information Science",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "authors": [
+        {
+            "author": "Decker, Jonathan",
+            "givenName": "Jonathan",
+            "familyName": "Decker",
+            "orcid": ""
+        }
+    ],
+    "citation": [],
+    "doi_status": "True",
+    "owner_org": "goettingen",
+    "isopen": true,
+    "repository_name": "G\u00f6ttingen Research Online Data",
+    "type": "dataset",
+    "source_metadata_modified": "",
+    "url": "https://doi.org/10.25625/6GSJSE",
+    "doi_publisher": "",
+    "resources": [
+        {}
+    ]
+}

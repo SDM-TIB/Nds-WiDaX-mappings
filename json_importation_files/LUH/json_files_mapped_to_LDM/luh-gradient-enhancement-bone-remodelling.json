@@ -1,0 +1,88 @@
+{
+    "authors": "Fynn Bensel, Marlis Reiber",
+    "doi": "10.25835/th2mqzom",
+    "doi_date_published": "2022-11-14",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": false,
+    "license_id": "CC-BY-NC-3.0",
+    "license_title": "Creative Commons Attribution-NonCommercial 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/3.0/",
+    "maintainer": "Fynn Bensel",
+    "maintainer_email": "fynn.bensel@ibnm.uni-hannover.de",
+    "source_metadata_created": "2022-11-14T13:23:49.864667",
+    "source_metadata_modified": "2023-11-28T08:15:06.796615",
+    "metadata_modified": "2023-11-28T08:15:06.796615",
+    "name": "luh-gradient-enhancement-bone-remodelling",
+    "notes": "Abaqus User Element (UEL) subroutine from the paper:\r\nBensel, Reiber et al. (2023) \"A gradient-enhanced bone remodelling approach to avoid the checkerboard phenomenon\", Computational Mechanics, Springer, https://doi.org/10.1007/s00466-023-02413-9\r\n \r\nThe subroutine includes: adapted C3D4 implementation with an additional degree of freedom, stress adaptive bone remodelling material with gradient enhancement regularisation and User Material subroutine for visualization. ",
+    "num_resources": 1,
+    "num_tags": 4,
+    "organization": {
+        "id": "b185ed45-5516-40fa-a41e-5119ae2de85e",
+        "name": "grk-2657",
+        "title": "GRK 2657",
+        "type": "organization",
+        "description": "Internationales GRK 2657: Methoden der Numerischen Mechanik in h\u00f6heren Dimensionen\r\n\r\nSprecher: Prof. Dr.-Ing. Udo Nackenhorst\r\n\r\nhttps://www.uni-hannover.de/de/forschung/profil/herausragende-projekte/dfg/graduiertenkollegs/",
+        "image_url": "2022-11-21-085346.420217IRTGLogo.png",
+        "created": "2022-11-21T09:31:36.842459",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "grk-2657",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "abaqus",
+            "id": "9461ee2e-fa96-4685-a72b-c02ddd97336c",
+            "name": "abaqus",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "bone remodelling",
+            "id": "d1ba3e46-24b6-495c-96c4-a0a42a6e4157",
+            "name": "bone remodelling",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "finite element",
+            "id": "de2f041e-489e-4b50-bf75-3ec9ed0b6fb4",
+            "name": "finite element",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "gradient enhancement",
+            "id": "5aa88130-77a6-4ad1-88bd-229a3a8be861",
+            "name": "gradient enhancement",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "A gradient-enhanced bone remodelling approach to avoid the checkerboard phenomenon",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/gradient-enhancement-bone-remodelling",
+    "version": "1.0",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2022-11-14T13:25:31.825736",
+            "description": "Abaqus User Element (UEL) subroutine from the paper:\r\nBensel, Reiber et al. (2023) A gradient enhancement bone remodelling approach to avoid\r\nthe checkerboard phenomenon,\r\nThe subroutine includes adapted C3D4 implementation with an additional degree of freedom, bone remodelling material with gradient enhancement regularisation and User Material subroutine for visualization. ",
+            "format": "fortran",
+            "last_modified": "2023-04-26T08:10:59.054066",
+            "name": "uel_br_w_ge.f",
+            "position": 0,
+            "size": 48678,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/f36eacd7-eb5b-4651-86f6-07ff3b806439/resource/631fd1fe-942c-48ab-88ec-6b5173a3ebf4/download/uel_br_w_ge.f",
+            "url_type": ""
+        }
+    ]
+}

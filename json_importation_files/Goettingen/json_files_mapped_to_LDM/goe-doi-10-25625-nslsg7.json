@@ -1,0 +1,64 @@
+{
+    "doi": "10.25625/NSLSG7",
+    "identifier_type": "DOI",
+    "doi_date_published": "2025",
+    "source_metadata_created": "2025",
+    "publication_year": "2025",
+    "title": "Hpc-native 5-safe trusted research environment for scalable medical data science",
+    "organization": {
+        "approval_status": "approved",
+        "description": "G\u00f6ttingen Research Online is an institutional repository for the publication of research data at the G\u00f6ttingen Campus. It is managed by the G\u00f6ttingen eResearch Alliance, a joint group of SUB and GWDG. .",
+        "display_name": "G\u00f6ttingenResearchOnline",
+        "image_display_url": "logo-goettingen.png",
+        "image_url": "logo-goettingen.png",
+        "is_organization": true,
+        "name": "goettingen",
+        "state": "active",
+        "title": "G\u00f6ttingenResearchOnline",
+        "type": "organization"
+    },
+    "name": "goe-doi-10-25625-nslsg7",
+    "license_id": "http://creativecommons.org/publicdomain/zero/1.0",
+    "license_title": "Creative Commons Zero (CC0)",
+    "notes": "The increasing digitalization of healthcare in Germany presents significant opportuni- ties for data-driven medical research, as more and more data is available to researchers. However, traditional data export models pose substantial security risks once the data leaves the clinical premises. As regularity pressure increases, with the European Health Data Space (EHDS) mandating secure processing environments for secondary data use, so-called Trusted Research Environments (TREs) have emerged as a solution. TREs represent a fundamental shift: instead of providing researchers with direct data downloads, they grant access to a highly secure remote computing environment. Here, sensitive data can be analyzed safely, and no data can be exported without manual review. Simultaneously, the adoption of machine learning in medical research demands significant computational power. Classical High-Performance Computing (HPC) environments, however, lack the security and isolation required for sensitive medical data. This thesis bridges that gap by presenting the design, implementation, and operation of a new HPC-native TRE. Researchers access the environment through a secure, browser-based Linux Virtual Desktop Infrastructure (VDI). Standard programming environments such as JupyterLab (Python) and RStudio are pre-installed, and the environment can be extended with additional software if needed. No internet access is available. The architecture is built upon the Five Safes framework and guided by a zero-trust security model, ensuring that sensitive data remains permanently and end-to-end encrypted. This thesis provides not only the technical implementation for an HPC-based TRE but also the organizational framework for implementing the Five Safes within the unique context of HPC using Germany\u2019s medical data infrastructure. Technical key contributions for the Safe Settings environment include a streaming, client-side encrypting uploader for resumable terabyte-scale uploads, a purpose-built Key Management System (KMS) using an envelope encryption scheme that stores data protected, even from administrators, and an extended fork of the gocryptfs filesystem that enables per-file, multi-user cryptographic access control and a full audit-log. Organizational contributions include defined workflows for data ingestion (Safe Data, Safe Projects), outlines for user agreements and training curricula (Safe People), and output review that integrates directly with existing German Data Integration Centers (DIZ). Finally, this work provides an in-depth security analysis covering standard threat models and worstcase disaster scenarios. As the first HPC-native TREs in Germany and, to our knowledge, the first to implement a user-exclusive, end-to-end envelope encryption scheme, this work provides a valuable blueprint for the design of similar high-security research environments for computeintensive workloads. By centralizing the administrative and technical load, this TRE offers a more productive environment, equipping scientists with powerful computational resources and GPU access for more machine learning. This ultimately enables better medical data science, accelerating progress and enabling greater research.",
+    "publishers": [
+        {
+            "publisher": "GRO.data"
+        }
+    ],
+    "subject_areas": [
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Computer and Information Science"
+        }
+    ],
+    "resource_type": "Dataset",
+    "tags": [
+        {
+            "display_name": "Computer and Information Science",
+            "name": "Computer and Information Science",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "authors": [
+        {
+            "author": "Quentin, Lars",
+            "givenName": "Lars",
+            "familyName": "Quentin",
+            "orcid": ""
+        }
+    ],
+    "citation": [],
+    "doi_status": "True",
+    "owner_org": "goettingen",
+    "isopen": true,
+    "repository_name": "G\u00f6ttingen Research Online Data",
+    "type": "dataset",
+    "source_metadata_modified": "",
+    "url": "https://doi.org/10.25625/NSLSG7",
+    "doi_publisher": "",
+    "resources": [
+        {}
+    ]
+}

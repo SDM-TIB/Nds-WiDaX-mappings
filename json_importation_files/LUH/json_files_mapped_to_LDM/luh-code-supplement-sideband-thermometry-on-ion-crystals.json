@@ -1,0 +1,102 @@
+{
+    "authors": "Ivan Vybornyi, Klemens Hammerer",
+    "doi": "10.25835/662v76zo",
+    "doi_date_published": "2023-06-09",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": true,
+    "license_id": "CC-BY-3.0",
+    "license_title": "Creative Commons Attribution 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "maintainer": "Ivan Vybornyi",
+    "maintainer_email": "ivan.vybornyi@gmail.com",
+    "source_metadata_created": "2023-02-28T11:29:43.400884",
+    "source_metadata_modified": "2023-06-09T09:10:08.081334",
+    "metadata_modified": "2023-06-09T09:10:08.081334",
+    "name": "luh-code-supplement-sideband-thermometry-on-ion-crystals",
+    "notes": "Contents:\r\n1. Python file. Given the motional mode of an ion crystal calculates the mode-dependent coefficients (A,B-,C-,D-). Given the experimental parameters and sideband probability measurement, calculates the mean phonon number by solving the quartic equation derived in the paper.\r\n2. Wolfram Mathematica notebook. Given the relevant Hamiltonian matrix elements calculates the explicit expressions for the crystal's ground state probabilities. By thermal averaging the ground state probabilities derives the full form of the equation connecting the sideband excitation probabilities with the mean phonon number.",
+    "num_resources": 2,
+    "num_tags": 4,
+    "organization": {
+        "id": "30a0b89a-7d12-4e96-8777-dcacb992df56",
+        "name": "institut-fur-theoretische-physik",
+        "title": "Institut f\u00fcr Theoretische Physik",
+        "type": "organization",
+        "description": "__Appelstra\u00dfe 2, 30167 Hannover__\r\nTelefon\t+49 511 762-3267, -2244\r\nFax\t+49 511 762-3023\r\nE-Mail\toffice@itp.uni-hannover.de\r\n\r\nhttps://www.itp.uni-hannover.de/",
+        "image_url": "",
+        "created": "2019-03-12T11:19:49.163554",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "institut-fur-theoretische-physik",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "ion crystals",
+            "id": "11db396c-0f76-4a67-8cf4-01ab6d329d6d",
+            "name": "ion crystals",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "quantum metrology",
+            "id": "55c5dcbe-fb5c-4fd9-8808-0a8b5fae2975",
+            "name": "quantum metrology",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "quantum optics",
+            "id": "62e12b73-b919-4e64-a98c-c47d237e8532",
+            "name": "quantum optics",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "trapped ions",
+            "id": "bd5be9da-7b2d-4e44-b6d1-a62cd1f5d500",
+            "name": "trapped ions",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "Code Supplement: Sideband Thermometry on Ion Crystals",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/code-supplement-sideband-thermometry-on-ion-crystals",
+    "version": "1.0",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2023-02-28T11:30:58.570176",
+            "description": "Python code file",
+            "format": "python",
+            "last_modified": "2023-02-28T11:30:58.490312",
+            "mimetype": "text/x-python",
+            "name": "EqSolver+Coefficients.py",
+            "position": 0,
+            "size": 6037,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/5903fd04-39d7-4f4a-b690-176a33ad1fe0/resource/37c0e42a-fec4-4618-be57-8bece8343711/download/eqsolvercoefficients.py",
+            "url_type": ""
+        },
+        {
+            "created": "2023-02-28T11:32:25.564478",
+            "description": "Wolfram Notebook file",
+            "format": "mathematica notebook",
+            "last_modified": "2023-02-28T11:32:25.524159",
+            "mimetype": "application/vnd.wolfram.mathematica",
+            "name": "Estimator derivation.nb",
+            "position": 1,
+            "size": 32541,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/5903fd04-39d7-4f4a-b690-176a33ad1fe0/resource/395927fe-c7a4-4091-b68d-7b2462fb2140/download/estimator-derivation.nb",
+            "url_type": ""
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "authors": "David Morris, Eric M\u00fcller-Budack, Ralph Ewerth",
+    "doi": "10.25835/0037153",
+    "doi_date_published": "2020-12-23",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": true,
+    "license_id": "CC-BY-SA-3.0",
+    "license_title": "Creative Commons Attribution Share-Alike 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "maintainer": "David Morris, Eric M\u00fcller-Budack, Ralph Ewerth",
+    "maintainer_email": "",
+    "source_metadata_created": "2020-12-17T15:07:54.988836",
+    "source_metadata_modified": "2022-01-20T13:49:30.998047",
+    "metadata_modified": "2022-01-20T13:49:30.998047",
+    "name": "luh-slideimages",
+    "notes": "Please note: this archive requires support for dangling symlinks, which excludes the Windows operating system.\r\n\r\nTo use this dataset, you will need to download the MS COCO 2017 detection images and expand them to a folder called coco17 in the train_val_combined directory.\r\nThe download can be found here: https://cocodataset.org/#download\r\nYou will also need to download the AI2D image description dataset and expand them to a folder called ai2d in the train_val_combined directory.\r\nThe download can be found here: https://prior.allenai.org/projects/diagram-understanding\r\n\r\nLicense Notes for Train and Val:\r\nSince the images in this dataset come from different sources, they are bound by different licenses.\r\n\r\nImages for bar charts, x-y plots, maps, pie charts, tables, and technical drawings were downloaded directly from wikimedia commons.\r\nLicense and authorship information is stored independently for each image in these categories in the wikimedia_commons_licenses.csv file. Each row (note: some rows are multi-line) is formatted so:\r\n<filename>,<uploading wiki account>,<credited image author>,<license>;\r\n\r\nImages in the slides category were taken from presentations which were downloaded from Wikimedia Commons. \r\nThe names of the presentations on Wikimedia Commons omits the trailing underscore, number, and file extension, and ends with .pdf instead. \r\nThe source materials' licenses are shown in source_slices_licenses.csv.\r\n\r\nWikimedia commons photos' information page can be found at \"https://commons.wikimedia.org/wiki/File:<filename, including extension>\".\r\n\r\n\r\nLicense Notes for Testing:\r\nThe testing images have been uploaded to SlideWiki by SlideWiki users.  The image authorship and copyright information is available in authors.csv.\r\n\r\nFurther information can be found for each image using the SlideWiki file service.  Documentation is available at https://fileservice.slidewiki.org/documentation#/ and in particular:\r\nmetadata is available at \"https://fileservice.slidewiki.org/metadata/<filename, including extension>\",\r\nand the image can be accessed at \"https://fileservice.slidewiki.org/picture/<filename, including extension>\".\r\n\r\nThis is the SlideImages dataset, which has been assembled for the SlideImages paper.\r\nIf you find the dataset useful, please cite our paper: https://doi.org/10.1007/978-3-030-45442-5_36",
+    "num_resources": 2,
+    "num_tags": 3,
+    "organization": {
+        "id": "71f7bf65-eb79-43d5-bbb3-8bac53129eec",
+        "name": "tib",
+        "title": "TIB",
+        "type": "organization",
+        "description": "Technische Informationsbibliothek",
+        "image_url": "2018-01-23-104035.171142TIBWortBildmarkeBBRGB.PNG",
+        "created": "2018-01-23T11:36:35.480058",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "tib",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "classification dataset",
+            "id": "fd7a7b40-e7b7-47eb-ad12-5a8eedfdf522",
+            "name": "classification dataset",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "document figure classification",
+            "id": "4abf75ce-0ee0-47bb-9982-259cba254ea8",
+            "name": "document figure classification",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "educational documents",
+            "id": "7ec69dfe-2ad5-4f07-b0e9-ecfa632fa16f",
+            "name": "educational documents",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "SlideImages",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/slideimages",
+    "version": "",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2020-12-17T15:19:00.073505",
+            "description": "",
+            "format": "tar",
+            "last_modified": "2020-12-22T15:40:49.502073",
+            "mimetype": "application/x-tar",
+            "name": "slideimages.tar.gz",
+            "position": 0,
+            "size": 1360140103,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/4f3d3a68-3c1d-467c-9d82-4bed6d9b8aff/resource/f0e53f21-dcbb-46cb-8149-85c09010d130/download/slideimages.tar.gz",
+            "url_type": ""
+        },
+        {
+            "created": "2021-01-06T16:03:20.600504",
+            "description": "Weights file for the neural network code found on the github page: https://github.com/david-morris/SlideImages",
+            "format": "zip",
+            "last_modified": "2021-01-06T16:03:20.564132",
+            "mimetype": "application/zip",
+            "name": "Neural Network Weights",
+            "position": 1,
+            "size": 107220518,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/4f3d3a68-3c1d-467c-9d82-4bed6d9b8aff/resource/01b5db09-7eb6-4b19-9cd5-f97d9d64dd18/download/current_best_weights.zip",
+            "url_type": ""
+        }
+    ]
+}

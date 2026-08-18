@@ -1,0 +1,151 @@
+{
+    "authors": "Stefan Siemens",
+    "doi": "10.25835/pngok8op",
+    "doi_date_published": "2023-01-25",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": false,
+    "license_id": "CC-BY-NC-3.0",
+    "license_title": "Creative Commons Attribution-NonCommercial 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/3.0/",
+    "maintainer": "Stefan Siemens",
+    "maintainer_email": "stefan.siemens@imr.uni-hannover.de",
+    "source_metadata_created": "2023-01-11T13:24:21.276622",
+    "source_metadata_modified": "2024-12-12T11:51:05.134547",
+    "metadata_modified": "2024-12-12T11:51:05.134547",
+    "name": "luh-micro-topo",
+    "notes": "This dataset contains microscopic RGB-D measurements of various topographies.\r\nThe data was acquired using a Keyence VK-X210 confocal laser scanning microscope.\r\nA CSV file contains the metadata for all measurements, while the raw data for each measurement is stored as an npy file. Furthermore, each measurement contains the following:\r\n* a height image\r\n* a laser intensity image\r\n* an RGB image\r\n* a combined laser intensity + RGB image.\r\nLastly, display_dataset.ipynb is included as a demo to load the CSV and display measurement data.",
+    "num_resources": 5,
+    "num_tags": 6,
+    "organization": {
+        "id": "df73f90c-533b-40de-8c85-543735943274",
+        "name": "institut-fuer-mess-und-regelungstechnik",
+        "title": "Institut f\u00fcr Mess- und Regelungstechnik",
+        "type": "organization",
+        "description": "An der Universit\u00e4t 1, 30823 Garbsen\r\nhttp://www.imr.uni-hannover.de\r\n",
+        "image_url": "https://www.imr.uni-hannover.de/fileadmin/site-templates/logos/imr/logo_imr_farbig.png",
+        "created": "2022-08-12T17:23:46.279994",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "institut-fuer-mess-und-regelungstechnik",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "Confocal laser scanning microscopy",
+            "id": "fd090f52-82de-46fa-a74b-8f27c4dd5ed8",
+            "name": "Confocal laser scanning microscopy",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Microtopography",
+            "id": "9725effb-8b1c-4e87-841a-66622a0a7dad",
+            "name": "Microtopography",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Optical metrology",
+            "id": "142a728d-54c7-4f81-882b-038e5d87131a",
+            "name": "Optical metrology",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "RGB-D",
+            "id": "f4c2f447-32f7-49c1-af43-d0a883a30252",
+            "name": "RGB-D",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Surface metrology",
+            "id": "ed6d5486-5bda-4c34-8b48-b737b3881976",
+            "name": "Surface metrology",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Surface roughness",
+            "id": "10bee39d-8d47-41f0-8c5d-140d07b5e5bb",
+            "name": "Surface roughness",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "Micro-Topo-Dataset",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/micro-topo",
+    "version": "",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2023-01-17T14:55:19.561436",
+            "description": "This file contains the metadata for each measurement and the paths to the corresponding npy files",
+            "format": "csv",
+            "last_modified": "2023-01-17T15:17:27.824525",
+            "mimetype": "text/csv",
+            "name": "dataset.csv",
+            "position": 0,
+            "size": 5540869,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/89bc917c-038e-445e-ba9a-b95dd87c0515/resource/6d7b61e8-5e11-474a-a7b4-bc3da323cd31/download/dataset.csv",
+            "url_type": ""
+        },
+        {
+            "created": "2023-01-20T08:23:19.310656",
+            "description": "",
+            "format": "",
+            "name": "Measuments as ZIP-Archives",
+            "position": 1,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/vault/imr/siemens/micro-topo/",
+            "url_type": ""
+        },
+        {
+            "created": "2023-01-25T09:34:45.658600",
+            "description": "Example figures from the dataset",
+            "format": "zip",
+            "last_modified": "2023-01-25T09:34:45.612983",
+            "mimetype": "application/zip",
+            "name": "Figures",
+            "position": 2,
+            "size": 29882271,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/89bc917c-038e-445e-ba9a-b95dd87c0515/resource/b8e6f750-b8f5-486d-8823-c3334a4de9d9/download/figures.zip",
+            "url_type": ""
+        },
+        {
+            "created": "2023-01-25T09:36:49.313122",
+            "description": "Jupyter notebook to load and display metadata and images.\r\nWritten in Python 3.9",
+            "format": "",
+            "last_modified": "2023-01-25T09:36:49.266251",
+            "name": "Demo script",
+            "position": 3,
+            "size": 1193923,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/89bc917c-038e-445e-ba9a-b95dd87c0515/resource/85bcc2a2-e168-446a-a697-4bf25aade652/download/display_dataset.ipynb",
+            "url_type": ""
+        },
+        {
+            "created": "2023-01-25T10:25:05.069519",
+            "description": "Meaning and definition of all metadata entries in dataset.csv",
+            "format": "xlsx",
+            "last_modified": "2023-01-25T10:25:05.028161",
+            "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "name": "Dataset layout",
+            "position": 4,
+            "size": 19656,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/89bc917c-038e-445e-ba9a-b95dd87c0515/resource/61942503-c4cc-4ed8-89c7-8f9e8083d858/download/dataset-layout.xlsx",
+            "url_type": ""
+        }
+    ]
+}

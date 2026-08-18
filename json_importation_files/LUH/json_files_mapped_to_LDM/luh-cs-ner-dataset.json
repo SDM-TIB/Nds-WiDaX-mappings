@@ -1,0 +1,86 @@
+{
+    "authors": "Jennifer D'Souza",
+    "doi": "10.25835/hodc41f5",
+    "doi_date_published": "2022-10-07",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": true,
+    "license_id": "CC-BY-SA-3.0",
+    "license_title": "Creative Commons Attribution Share-Alike 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "maintainer": "Jennifer D'Souza",
+    "maintainer_email": "",
+    "source_metadata_created": "2022-10-07T06:56:39.680761",
+    "source_metadata_modified": "2022-10-07T07:02:56.838704",
+    "metadata_modified": "2022-10-07T07:02:56.838704",
+    "name": "luh-cs-ner-dataset",
+    "notes": "# Computer Science Named Entity Recognition in the Open Research Knowledge Graph\r\n\r\n### 1) About\r\n\r\nThis work proposes a standardized CS-NER task by defining a set of seven _contribution-centric_ scholarly\r\nentities for CS NER viz., _research problem_ , _solution_ , _resource_ , _language_ ,\r\n_tool_ , _method_ , and _dataset_ . \r\n\r\nThe main contributions are:\r\n\r\n1) Merges annotations for contribution-centric named entities from related work as the following datasets: \r\n   \r\n- The dataset proposed in [Analyzing the Dynamics of Research by Extracting Key Aspects of Scientific Papers](https://aclanthology.org/I11-1001/) (Gupta & Manning, IJCNLP 2011) is the source for [ftd](https://github.com/jd-coderepos/contributions-ner-cs/tree/main/ftd), annotated for both titles and abstracts for the following select entities mapped to our standardized types _focus_ -> _solution_ ; _domain_ -> _research problem_ ; and _technique_ -> _method_ \r\n   \r\n- The dataset proposed in [Multi-Task Identification of Entities, Relations, and Coreference for Scientific Knowledge Graph Construction](https://aclanthology.org/D18-1360/) (Luan et al., EMNLP 2018) is the source for [scierc](https://github.com/jd-coderepos/contributions-ner-cs/tree/main/scierc), annotated for abstracts for the following select entities with mappings _task_ -> _research problem_\r\n\r\n   - The dataset proposed in [SemEval-2021 Task 11: NLPContributionGraph - Structuring Scholarly NLP Contributions for a Research Knowledge Graph](https://aclanthology.org/2021.semeval-1.44/) (D\u2019Souza et al., SemEval 2021) is the source for [ncg](https://github.com/jd-coderepos/contributions-ner-cs/tree/main/ncg), annotated for both titles and abstracts for _research problem_\r\n\r\n   - https://paperswithcode.com/ as the [pwc](https://github.com/jd-coderepos/contributions-ner-cs/tree/main/pwc) annotated for both titles and abstracts for _task_ -> _research problem_ and _method_ entities.\r\n\r\n2) Additionally, supplies a new annotated dataset for the titles in the ACL anthology in the [acl repository](https://github.com/jd-coderepos/contributions-ner-cs/tree/main/acl) \r\nwhere titles are annotated with all seven entities.\r\n\r\n\r\n### 2) Dataset Statistics for [full dataset](https://github.com/jd-coderepos/contributions-ner-cs/tree/main/full%20dataset)\r\n\r\n#### Titles\r\n\r\n`train.data`\r\n\r\n| NER | Count |\r\n\r\n| --- | --- |\r\n\r\n| solution | 65,213 |\r\n\r\n| research problem | 43,033 |\r\n\r\n| resource | 19,759 |\r\n\r\n| method | 19,645 |\r\n\r\n| tool | 4,856 |\r\n\r\n| dataset | 4,062 |\r\n\r\n| language | 1,704 |\r\n\r\n`dev.data`\r\n\r\n| NER | Count |\r\n\r\n| --- | --- |\r\n\r\n| solution | 3,685 |\r\n\r\n| research problem | 2,717 |\r\n\r\n| resource | 1,224 |\r\n\r\n| method | 1,172 |\r\n\r\n| tool | 264 |\r\n\r\n| dataset | 191 |\r\n\r\n| language | 79 |\r\n\r\n`test.data`\r\n\r\n| NER | Count |\r\n\r\n| --- | --- |\r\n\r\n| solution | 29,287 |\r\n\r\n| research problem | 11,093 |\r\n\r\n| resource | 8,511 |\r\n\r\n| method | 7,009 |\r\n\r\n| tool | 2,272 |\r\n\r\n| dataset | 947 |\r\n\r\n| language | 690 |\r\n\r\n\r\n#### Abstracts\r\n\r\n`train-abs.data`\r\n\r\n| NER | Count |\r\n\r\n| --- | --- |\r\n\r\n| research problem | 15,498 |\r\n\r\n| method | 12,932 |\r\n\r\n`dev-abs.data`\r\n\r\n| NER | Count |\r\n\r\n| --- | --- |\r\n\r\n| research problem | 1,450 |\r\n\r\n| method | 839 |\r\n\r\n`test-abs.data`\r\n\r\n| NER | Count |\r\n\r\n| --- | --- |\r\n\r\n| research problem | 4,123 |\r\n\r\n| method | 3,170 |\r\n\r\nThe reamining repositories have specialized README files with the respective dataset statistics.\r\n\r\n### 3) Citation\r\n\r\nAccepted for publication in [ICADL 2022](https://icadl.net/icadl2022/) proceedings.\r\n\r\n`Citation information forthcoming`\r\n\r\n\r\nPreprint\r\n\r\n```\r\n@article{d2022computer,\r\n  title={Computer Science Named Entity Recognition in the Open Research Knowledge Graph},\r\n  author={D'Souza, Jennifer and Auer, S{\\\"o}ren},\r\n  journal={arXiv preprint arXiv:2203.14579},\r\n  year={2022}\r\n}\r\n```\r\n\r\n### 4) Additional resources\r\n\r\n#### CS NER Software trained on the dataset in this repository\r\n\r\nCodebase: https://gitlab.com/TIBHannover/orkg/nlp/orkg-nlp-experiments/-/tree/master/orkg_cs_ner\r\n\r\nService URL - REST API: https://orkg.org/nlp/api/docs#/annotation/annotates_paper_annotation_csner_post\r\n\r\nService URL - PyPi: https://orkg-nlp-pypi.readthedocs.io/en/latest/services/services.html#cs-ner-computer-science-named-entity-recognition \r\n\r\n",
+    "num_resources": 1,
+    "num_tags": 4,
+    "organization": {
+        "id": "71f7bf65-eb79-43d5-bbb3-8bac53129eec",
+        "name": "tib",
+        "title": "TIB",
+        "type": "organization",
+        "description": "Technische Informationsbibliothek",
+        "image_url": "2018-01-23-104035.171142TIBWortBildmarkeBBRGB.PNG",
+        "created": "2018-01-23T11:36:35.480058",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "tib",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "information retrieval",
+            "id": "d69f39bb-77c1-486b-b015-0b0c54f3746e",
+            "name": "information retrieval",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "named entity recognition",
+            "id": "c6397449-a4cd-4525-a68d-5c5b534e5c40",
+            "name": "named entity recognition",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "natural language processing",
+            "id": "2f4cc4e6-4b48-4abd-baa7-ba807c2817f0",
+            "name": "natural language processing",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "scientific named entity recognition",
+            "id": "fe37f4b1-0faa-4e25-a900-faa6ac540811",
+            "name": "scientific named entity recognition",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "CS-NER",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/cs-ner-dataset",
+    "version": "",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2022-10-07T06:57:34.111351",
+            "description": "",
+            "format": "txt",
+            "name": "CS-NER dataset",
+            "position": 0,
+            "state": "active",
+            "url": "https://github.com/jd-coderepos/contributions-ner-cs",
+            "url_type": ""
+        }
+    ]
+}

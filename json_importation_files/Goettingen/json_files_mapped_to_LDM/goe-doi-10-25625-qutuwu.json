@@ -1,0 +1,106 @@
+{
+    "doi": "10.25625/QUTUWU",
+    "identifier_type": "DOI",
+    "doi_date_published": "2024",
+    "source_metadata_created": "2024",
+    "publication_year": "2024",
+    "title": "Extended version of wytham and lautx",
+    "organization": {
+        "approval_status": "approved",
+        "description": "G\u00f6ttingen Research Online is an institutional repository for the publication of research data at the G\u00f6ttingen Campus. It is managed by the G\u00f6ttingen eResearch Alliance, a joint group of SUB and GWDG. .",
+        "display_name": "G\u00f6ttingenResearchOnline",
+        "image_display_url": "logo-goettingen.png",
+        "image_url": "logo-goettingen.png",
+        "is_organization": true,
+        "name": "goettingen",
+        "state": "active",
+        "title": "G\u00f6ttingenResearchOnline",
+        "type": "organization"
+    },
+    "name": "goe-doi-10-25625-qutuwu",
+    "license_id": "http://creativecommons.org/licenses/by/4.0",
+    "license_title": "Creative Commons Attribution 4.0 International",
+    "notes": "Note: To better find the files to download, select \"Change View: Tree\". This dataset is associated with the paper \"TreeLearn: A deep learning method for segmenting individual trees from ground-based LiDAR forest point clouds\" published in Ecological Informatics and the ML4RS workshop paper \"Towards general deep-learning-based tree instance segmentation models\" presented at ICLR 2024. It extends the publicly available segmented tree data that was introduced by Calders et al. [1] and Tockner et al. [2]. These two publications only provide segmented trees. For this dataset, these tree labels were propagated to the original point clouds and the remaining points were automatically classified as either \"non-tree points\" or \"unlabeled\". Furthermore, some manual correction of the segmented trees was conducted, especially for the tree bases in Tockner et al. [2]. A more comprehensive description of the dataset is given in the linked publications. We provide the laser scans in the original resolution as well as in a voxelized form where the point cloud has been subsampled to contain only one point within a cube with edge length 0.1m. We provide the forest laser scans in the .laz format and follow the same labeling scheme proposed by Puliti et al. [3]. Specifically, a unique identifier is stored as an additional field named \"treeID\" in the .laz files. Trees are labeled starting from 1 and all non-tree points have the label 0 in the treeID field. The dataset comes with a classification into the three semantic categories \"non-tree-points\" (label=2), \"unlabeled\" (label=3) and \"tree-points\" (label=4) that is saved in the classification field of the .laz file. The .laz format is compatible with popular point cloud processing tools like CloudCompare and can also be loaded in python using the laspy package. Example code for opening .laz files in python as numpy arrays is provided in the open_files.ipynb notebook. References [1] Calders, K., Origo, N., Burt, A., Disney, M., Nightingale, J., Raumonen, P., ... & Lewis, P. (2018). Realistic forest stand reconstruction from terrestrial LiDAR for radiative transfer modelling. Remote Sensing, 10(6), 933. [2] Tockner, A., Gollob, C., Kra\u00dfnitzer, R., Ritter, T., & Nothdurft, A. (2022). Automatic tree crown segmentation using dense forest point clouds from Personal Laser Scanning (PLS). International Journal of Applied Earth Observation and Geoinformation, 114, 103025. [3] Puliti, S., Pearse, G., Surov\u00fd, P., Wallace, L., Hollaus, M., Wielgosz, M., & Astrup, R. (2023). FOR-instance: a UAV laser scanning benchmark dataset for semantic and instance segmentation of individual trees. arXiv preprint arXiv:2309.01279.",
+    "publishers": [
+        {
+            "publisher": "GRO.data"
+        }
+    ],
+    "subject_areas": [
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Computer and Information Science"
+        },
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Earth and Environmental Sciences"
+        }
+    ],
+    "resource_type": "Dataset",
+    "related_identifiers": [
+        {
+            "identifier": "https://arxiv.org/pdf/2405.02061",
+            "identifier_type": "URL",
+            "relation_type": "IsPublishedIn",
+            "title": "1. Henrich, J., van Delden, J., Seidel, D., Kneib, T., &amp; Ecker, A. (2024). TreeLearn: A deep learning method for segmenting individual trees from ground-based LiDAR forest point clouds. Ecological Informatics, 102888. <br> 2. Henrich, J. &amp; van Delden, J. (2024). Towards general deep-learning-based tree instance segmentation models. https://arxiv.org/abs/2405.02061"
+        }
+    ],
+    "tags": [
+        {
+            "display_name": "Computer and Information Science",
+            "name": "Computer and Information Science",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Earth and Environmental Sciences",
+            "name": "Earth and Environmental Sciences",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Forest Inventory",
+            "name": "Forest Inventory",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "MLSTLS point clouds",
+            "name": "MLSTLS point clouds",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Forest Laser Scans",
+            "name": "Forest Laser Scans",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "authors": [
+        {
+            "author": "Henrich, Jonathan",
+            "givenName": "Jonathan",
+            "familyName": "Henrich",
+            "orcid": ""
+        },
+        {
+            "author": "van Delden, Jan",
+            "givenName": "Jan",
+            "familyName": "van Delden",
+            "orcid": ""
+        }
+    ],
+    "citation": [],
+    "doi_status": "True",
+    "owner_org": "goettingen",
+    "isopen": true,
+    "repository_name": "G\u00f6ttingen Research Online Data",
+    "type": "dataset",
+    "source_metadata_modified": "",
+    "url": "https://doi.org/10.25625/QUTUWU",
+    "doi_publisher": "",
+    "resources": [
+        {}
+    ]
+}

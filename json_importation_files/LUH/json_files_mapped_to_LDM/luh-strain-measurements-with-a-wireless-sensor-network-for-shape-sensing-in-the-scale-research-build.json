@@ -1,0 +1,140 @@
+{
+    "authors": "S\u00f6ren Meyer zu Westerhausen, Imed Hichri, Roland Lachmayer",
+    "doi": "10.25835/oakhkxtm",
+    "doi_date_published": "2025-08-06",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": false,
+    "license_id": "CC-BY-NC-4.0",
+    "license_title": "Creative Commons Attribution-NonCommercial 4.0 International",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "maintainer": "S\u00f6ren Meyer zu Westerhausen",
+    "maintainer_email": "meyer-zu-westerhausen@ipeg.uni-hannover.de",
+    "source_metadata_created": "2025-07-30T08:20:02.887598",
+    "source_metadata_modified": "2025-08-06T06:52:04.013087",
+    "metadata_modified": "2025-08-06T06:52:04.013087",
+    "name": "luh-strain-measurements-with-a-wireless-sensor-network-for-shape-sensing-in-the-scale-research-build",
+    "notes": "The datasets are uploaded for the publication \"Optimization of Sensor and Sensor Node Positions for Shape Sensing with a Wireless Sensor Network \u2013 A Case Study using the Modal Method and a Physics-informed Neural Network\" in MDPI Journal of Sensors. These datasets result from strain measurements for shape sensing (displacement field reconstruction) using a wireless sensor network. As specimen, an aluminium rectangular tube with 2000 mm length, 120 mm x 60 mm cross section and 4 mm thickness is used, which is clamped at one end for a length of 120 mm. On the other end, a load in form of a displacement is applied with a servo-hydraulic test cylinder.\r\n\r\nThe load case is simulated in Abaqus CAE Standard/Explicit 2024 to generate data for optimal sensor placement. The picture \"Setup_of_Test_and_FE-Model.jpg\" depicts the setup on the SCALE multi-axial, dynamic test bench and the resulting FE model of it. The data from this simulation is available in the two *.zip files. The file \"Modal_Method_Simulation_Data.zip\" contains data for the load case with additional simulation data on the eigenmodes, which is required to apply the modal method for shape sensing for this part. In the file \"iPINN_Training_Data.zip\" additional simulation data is available with a variation of the applied force to generate data for training a physics-informed neural network for solving inverse problems in shape sensing (iPINN).\r\n\r\nFrom the optimal sensor placement with this simulation data, a sensor configuration is derived. For this configuration, a sensor node position optimization is carried out. The resulting WSN configuration is available in the sheet \"WSN Configuration\" in the file \"2025-07-25_Test-Data_WSN_Strain-Measurements.xlsx\". It is realized with ten HBM 1-LY11-6/120 strain gauges, self-soldered quarter bridge completions, HX711 A/D converters and amplifiers and Arduino Nano 33 IoT microprocessors. Installed on the specimen, the test is carried out by applying the displacement-over-time from the sheet \"Test Setup - Displacement\" in the file \"2025-07-25_Test-Data_WSN_Strain-Measurements.xlsx\". This is repeated three times and the strain over measurement time results logged by the sensor nodes is available in the other three datasheets \"Test Run 1\", \"Test Run 2\" and \"Test Run 3\" in the file \"2025-07-25_Test-Data_WSN_Strain-Measurements.xlsx\".",
+    "num_resources": 4,
+    "num_tags": 6,
+    "organization": {
+        "id": "07fc393b-f95c-45a9-9eda-618c5a0db319",
+        "name": "institut-fur-produktentwicklung-und-geratebau",
+        "title": "Institut f\u00fcr Produktentwicklung und Ger\u00e4tebau",
+        "type": "organization",
+        "description": "Geb\u00e4ude 8143\r\n\r\nAn der Universit\u00e4t 1\r\n\r\n**30823 Garbsen**\r\n\r\nhttp://ipeg.uni-hannover.de/",
+        "image_url": "https://www.ipeg.uni-hannover.de/fileadmin/site-templates/logos/ipeg/IPeG_Logo.png",
+        "created": "2021-05-20T15:24:18.740575",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "institut-fur-produktentwicklung-und-geratebau",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "FE-simulation",
+            "id": "1376f036-9fa2-471d-b442-ed497551b0d1",
+            "name": "FE-simulation",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Measurement",
+            "id": "38960a82-7bc7-45d3-b3aa-662c2667a5ec",
+            "name": "Measurement",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Shape Sensing",
+            "id": "1b916777-f64d-4ddc-b7da-f35866a5afbc",
+            "name": "Shape Sensing",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Strain",
+            "id": "c0f97e1c-6e2c-43d6-83db-88e23a296012",
+            "name": "Strain",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Structural Health Monitoring",
+            "id": "6fd3097a-611e-4551-a33f-7744b3dbfe9b",
+            "name": "Structural Health Monitoring",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Wireless Sensor Network",
+            "id": "3070be50-23ce-4089-bd0b-4e39805cb1fc",
+            "name": "Wireless Sensor Network",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "Strain Measurements with a Wireless Sensor Network for Shape Sensing in the SCALE research building",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/strain-measurements-with-a-wireless-sensor-network-for-shape-sensing-in-the-scale-research-building",
+    "version": "",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2025-07-30T10:22:58.864500",
+            "description": "Dataset containing sheets for the WSN configuration, the applied loads and the strain measurements for the three test runs.",
+            "format": "xlsx",
+            "last_modified": "2025-07-30T10:22:58.826369",
+            "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "name": "2025-07-25_Test-Data_WSN_Strain-Measurements.xlsx",
+            "position": 0,
+            "size": 10399618,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/1035c19e-40cf-41d7-8ac4-61cc8e86de0a/resource/afc4bafd-738b-40d6-9855-86abec3875c4/download/2025-07-25_test-data_wsn_strain-measurements.xlsx",
+            "url_type": ""
+        },
+        {
+            "created": "2025-07-30T11:00:19.307900",
+            "description": "FEM Simulation Data of the considered Load Case with the exported report data for creating the modal shape matrices for application of the modal method.",
+            "format": "zip",
+            "last_modified": "2025-07-30T11:00:19.273043",
+            "mimetype": "application/zip",
+            "name": "Modal_Method_Simulation_Data.zip",
+            "position": 1,
+            "size": 25463989,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/1035c19e-40cf-41d7-8ac4-61cc8e86de0a/resource/e76d1563-e41e-41c0-8df7-5d50a777638a/download/modal_method_simulation_data.zip",
+            "url_type": ""
+        },
+        {
+            "created": "2025-07-30T11:04:31.222267",
+            "description": "Figures visualizing the test setup on the test bench and a sketch of the FEM model for creating the FEM simulation data for the OSP, Modal Method and the iPINN.",
+            "format": "jpeg",
+            "last_modified": "2025-07-30T11:04:31.187759",
+            "mimetype": "image/jpeg",
+            "name": "Test Setup and FE model",
+            "position": 2,
+            "size": 1091550,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/1035c19e-40cf-41d7-8ac4-61cc8e86de0a/resource/9890cc04-ba06-498d-b6e3-95491ed86ec4/download/setup_of_test_and_fe-model.jpg",
+            "url_type": ""
+        },
+        {
+            "created": "2025-08-06T06:51:26.014811",
+            "description": "FEM simulation data of the aluminium rectangular tube under bending load with a random variation of the load in range of the applied loads in the test to generate training data for the physics-informed neural network for solving inverse problems (iPINN).",
+            "format": "zip",
+            "mimetype": "application/zip",
+            "name": "iPINN_Training_Data",
+            "position": 3,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/vault/ipeg/meyer_zu_westerhausen/iPINN_Training_Data.zip",
+            "url_type": ""
+        }
+    ]
+}

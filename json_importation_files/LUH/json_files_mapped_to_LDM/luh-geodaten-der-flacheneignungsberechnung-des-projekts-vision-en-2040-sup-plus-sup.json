@@ -1,0 +1,114 @@
+{
+    "authors": "Janine Wagenfeld, Julia Thiele, Daniel Schmedes, Christina von Haaren ",
+    "doi": "10.25835/jfhql31a",
+    "doi_date_published": "2023-10-20",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": true,
+    "license_id": "CC-BY-3.0",
+    "license_title": "Creative Commons Attribution 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "maintainer": "Janine Wagenfeld",
+    "maintainer_email": "",
+    "source_metadata_created": "2023-10-19T14:22:32.697596",
+    "source_metadata_modified": "2024-12-12T11:51:20.523028",
+    "metadata_modified": "2024-12-12T11:51:20.523028",
+    "name": "luh-geodaten-der-flacheneignungsberechnung-des-projekts-vision-en-2040-sup-plus-sup",
+    "notes": "# Geodata of the area suitability calculation of the project Vision:En 2040 PLUS (English version is below)\r\n\r\nMit dem Dialogtool Vision:En 2040 simulieren Gemeindemitglieder in Kleingruppen die Energiewende f\u00fcr das Jahr 2040 in ihrer Gemeinde bzw. Stadt, indem sie Standorte f\u00fcr zwei verschiedene Windenergieanlagen-Typen ausw\u00e4hlen, Fl\u00e4chen f\u00fcr Freifl\u00e4chen-Photovoltaik festlegen und Dachfl\u00e4chen zu einem bestimmten Prozentsatz mit Photovoltaik-Modulen belegen (Anlagenkennzahlen vgl. Tab. 1 und 2 in Thiele et al. 2022). Bei der Standortsuche werden die anlagenspezifischen Fl\u00e4cheneignungen auf einer interaktiven Karte visualisiert. \r\nDie Fl\u00e4cheneignung beschreibt die Empfindlichkeit einer Fl\u00e4che gegen\u00fcber ihrer mensch- und naturvertr\u00e4glichen Nutzung f\u00fcr Windenergie an Land bzw. Freifl\u00e4chen-Photovoltaik. Die Geodaten zeigen die Ergebnisse der Fl\u00e4cheneignungsberechnung f\u00fcr zwei Windenergieanlagen und die Freifl\u00e4chen-Photovoltaik in Niedersachsen. Die Fl\u00e4cheneignung bildet ein Gamification-Element des digitalen Dialogtools Vision:En 2040, zu dem auch ein Veranstaltungskonzept geh\u00f6rt.\r\nSie wird in vier Klassen eingeteilt (geeignet, bedingt geeignet, nicht geeignet und ausgeschlossen):\r\n\r\n * geeignet: Die Nutzung ist entsprechend bundesweit einheitlicher Bewertungskriterien mensch- und naturvertr\u00e4glich m\u00f6glich.\r\n* bedingt geeignet: Die Nutzung ist entsprechend bundesweit einheitlicher Bewertungskriterien mit Einschr\u00e4nkungen mensch- und naturvertr\u00e4glich m\u00f6glich.\r\n* nicht geeignet: Die Nutzung ist aufgrund von bundesweiten rechtlichen Regelungen und abgeleiteten fachlichen Vorgaben nicht mensch- und naturvertr\u00e4glich.\r\n* ausgeschlossen: Die Nutzung ist aus technischen Gr\u00fcnden, aufgrund bundesweiter rechtlicher Regelungen und abgeleiteter fachlicher Vorgaben nicht mensch- und naturvertr\u00e4glich [Thiele et al. 2022](https://www.researchgate.net/publication/364343397_Lokaler_Energiewendedialog_Schlussbericht).\r\n\r\nDie Schritte zur Berechnung der Fl\u00e4cheneignungsklasse, die Zuordnung der Fl\u00e4chenkategorien und deren Grundlagendaten, z. B. Digitales Gel\u00e4ndemodell 50 m (LGLN), Basis-DLM (LGLN), Schutzgebiete (NLWKN, BfN) sind in Kapitel 3.3 in Thiele et al. 2022 dargestellt. Zus\u00e4tzlich wurden die bundesweiten Daten aus dem Forschungsprojekt EE100-konkret, Variante 3 Mittelwindanlagen (Thiele et al. 2021) herangezogen, um Fl\u00e4chenkategorien au\u00dferhalb des Landes zu ber\u00fccksichtigen, die Einfluss auf die niedersachsenweite Fl\u00e4cheneignung haben. Die Berechnung basiert auf den Ergebnissen der Forschungsprojekte EE100, EE100-konkret und INSIDE.\r\n\r\n\r\n\r\n__Struktur der bereitgestellten Daten__\r\n\r\nF\u00fcr jeden EE-Anlagentyp, der in das Tool mit einer Fl\u00e4cheneignungsberechnung integriert ist, steht ein Ordner zum Download zur Verf\u00fcgung:\r\n\r\n * Ordner \u201eWind_hohe_Shp_042023\u201c: Shapefiles der Fl\u00e4cheneignungsberechnung der h\u00f6heren Windenergieanlage\r\n* Ordner \u201eWind_klein_Shp_042023\u201c: Shapefiles der Fl\u00e4cheneignungsberechnung der niedrigeren Windenergieanlage\r\n* Ordner \u201effvp_Shp_042023\u201c: Shapefiles der Fl\u00e4cheneignungsberechnung der Freifl\u00e4chen-Photovoltaik (Anlagenkennzahlen vgl. Tab. 1 und 2 in Thiele et al. 2022).\r\n\r\nIn den Ordnern (\u201eWind_hohe_Shp_042023\u201c und \u201eWind_klein_Shp_042023\u201c) werden je Gemeinde/Stadt eine Shapefile pro Fl\u00e4cheneignungsklasse gelistet, dabei steht RWS1 f\u00fcr \u201egeeignet\u201c, RWS2 f\u00fcr \u201ebedingt geeignet\u201c, RWS3 f\u00fcr \u201enicht geeignet\u201c und RWS4 f\u00fcr die Fl\u00e4cheneignungsklasse \u201eausgeschlossen\u201c. Die Bezeichnung der Shapefile zeigt anschlie\u00dfend den EE-Anlagentyp (wkg bedeutet h\u00f6here Windenergieanlage, wkk bedeutet niedrigere Windenergieanlage) und endet mit der Bezeichnung der Gemeinde/Stadt. Das Attributfeld \u201erws_class\u201c zeigt die Zuordnung zu den Fl\u00e4cheneignungsklassen (1 = geeignet, 2 = bedingt geeignet, 3 = nicht geeignet und 4 = ausgeschlossen). Das Feld \u201eSCH\u201c enth\u00e4lt den Gemeindeschl\u00fcssel und das Feld \u201eBEZ-GEM\u201c die Bezeichnung der Gemeinde/Stadt. Der Ordner \u201effvp_Shp_042023\u201c zeigt f\u00fcr jede Fl\u00e4cheneignungsklasse eine Shapefile.\r\n\r\nDas Projekt wird von einem Projektteam \u2013 bestehend aus Mitgliedern des Instituts f\u00fcr Umweltplanung der Leibniz Universit\u00e4t Hannover, der Klimaschutzagentur Region Hannover und der IP SYSCON GmbH \u2013 bearbeitet.\r\n\r\n__Story-Map von Vision:En 2040:__ https://story-visionen2040.ipsyscon.de/\r\n\r\n## English version\r\n\r\nUsing the dialogue tool Vision:En 2040, municipality members simulate the energy transition for the year 2040 in their municipality in focus groups by selecting sites for two different wind turbine types, determining areas for ground-mounted photovoltaics, and assigning a certain percentage of roof surfaces with photovoltaic modules (for RE plant characteristics, see tables 1 and 2 in Thiele et al. 2022). During the location search, the plant-specific area suitability is visualized on an interactive map.\r\nThe area suitability describes the sensitivity of an area towards its human- and nature-compatible use for onshore wind energy or ground-mounted photovoltaics. The geodata show the results of the area suitability calculation for two wind energy plants and ground-mounted photovoltaics in Lower Saxony. The area suitability represent a gamification element of the digital dialogue tool Vision:En 2040, which also includes a participation concept.\r\n\r\nIt is divided into four classes (suitable, partly suitable, not suitable and excluded):\r\n\r\n * Suitable: According to consistent nationwide evaluation criteria, the area can be used in a way compatible with human well-being and nature.\r\n* Partly suitable: The area can be used in a way that is compatible with humans and nature, with restrictions, according to consistent nationwide evaluation criteria.\r\n* Not suitable: The use is incompatible with human well-being and nature due to legal regulations and requirements.\r\n* Excluded: The use is not compatible with humans and nature for technical reasons, legal regulations and requirements.\r\n\r\nThe steps to calculate the area suitability class, the assignment of the area categories and their basic data, e.g. digital elevation model 50 m (LGLN), Basis DLM (LGLN), conservation areas (NLWKN, BfN) are described in chapter 3.3 in Thiele et al. 2022. In addition, the nationwide data from the research project EE100-konkret, variant 3 mid-wind turbines (Thiele et al. 2021) were used to consider land categories outside the state that have an influence on the Lower Saxony-wide area suitability. The calculation is based on the results of the research projects EE100, EE100-konkret and INSIDE.\r\n\r\n__Structure of the provided data__\r\n\r\nA folder is available for download for each RE plant type that is integrated into the tool with an area suitability calculation:\r\n\r\n * Folder \u201cWind_hohe_Shp_042023\u201d: Shapefiles of the area suitability calculation of the higher wind turbine. \r\n* Folder \u201cWind_klein_Shp_042023\u201d: Shapefiles of the area suitability calculation of the lower wind turbine. \r\n* Folder \u201cffvp_Shp_042023\u201d: Shapefiles of the area suitability calculation of the ground-mounted photovoltaics (for plant characteristics, see Tables 1 and 2 in Thiele et al. 2022).\r\n\r\nIn the folders (\u201cWind_hohe_Shp_042023\u201d and \u201cWind_klein_Shp_042023\u201d), one shapefile per area suitability class is listed for each municipality, where RWS1 stands for \u201csuitable\u201d, RWS2 for \u201cpartly suitable\u201d, RWS3 for \u201cnot suitable\u201d and RWS4 for the area suitability class \u201cexcluded\u201d. The name of the shapefile then shows the RE plant type (wkg means higher wind turbine, wkk means lower wind turbine) and ends with the name of the municipality. The attribute field \"rws_class\" shows the assignment to the area suitability classes (1 = suitable, 2 = partly suitable, 3 = not suitable, and 4 = excluded). The field \"SCH\" contains the municipality key and the field \"BEZ-GEM\" displays the name of the municipality. The folder \"ffvp_Shp_042023\" shows a shapefile for each area suitability class.\r\nThe project is run by a project team consisting of members of the Institute of Environmental Planning of the Leibniz University of Hannover, the Climate Protection Agency Hannover Region and IP SYSCON GmbH.\r\n\r\n__Story map of Vision:En 2040:__ https://story-visionen2040.ipsyscon.de/\r\n\r\n__Projected Coordinate System:__ ETRS 1989 UTM Zone 32N (EPSG 4258)\r\n\r\n__Referenzen / References:__\r\n\r\n * Thiele, J; Wiehe, J.; Wagenfeld, J.; Westenberger, F.; M\u00fcller, E.; Ludwig, D.; Ott, S. und Haaren von, C. (2022): Lokaler Energiewende-Dialog (Schlussbericht). Hannover. DOI: 10.2314/KXP:1818516713.\r\n* Thiele J., Wiehe J. et al. (2021b): Konkretisierung von Ansatzpunkten einer naturvertr\u00e4glichen Ausgestaltung der Energiewende, mit Blick auf strategische Stellschrauben. \u201eNaturvertr\u00e4gliche Ausgestaltung der Energiewende\u201c (EE100-konkret). BfN-Skripten 614. Bonn. DOI: 10.19217/skr614.\r\n\r\n__F\u00f6rderung / Funding:__\r\nDieser Beitrag wurde im Rahmen des Projekts \u201eVision:En 2040PLUS\u201c erstellt, das vom Nieders\u00e4chsischen Ministerium f\u00fcr Umwelt, Energie und Klimaschutz gef\u00f6rdert wird (ZW6-80160902). \r\nThis contribution was created as part of the project \"Vision:En 2040PLUS\", which is funded by the Lower Saxony Ministry for the Environment, Energy and Climate Protection (ZW6-80160902).\r\n\r\n\r\n__Autorenzugeh\u00f6rigkeit / Author affiliation:__\r\n\r\n * Janine Wagenfeld, Daniel Schmedes: IP SYSCON GmbH\r\n* Julia Thiele, Christina von Haaren: Institute of Environmental Planning (IUP), Leibniz University Hannover\r\n",
+    "num_resources": 2,
+    "num_tags": 6,
+    "organization": {
+        "id": "a6ac49d3-2eff-4f4d-bb17-709595cf72d7",
+        "name": "institut-fur-umweltplanung",
+        "title": "Institut f\u00fcr Umweltplanung ",
+        "type": "organization",
+        "description": "Institute of Environmental Planning\r\nHerrenh\u00e4user Str. 2, 30419 Hannover\r\n\r\nhttps://www.umwelt.uni-hannover.de ",
+        "image_url": "2021-08-05-071444.382087IUPbildmarke.png",
+        "created": "2020-10-07T11:44:50.728996",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "institut-fur-umweltplanung",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "GIS modeling",
+            "id": "132fdd5b-fcea-400f-a323-8488b54d395e",
+            "name": "GIS modeling",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "energy transition",
+            "id": "469e0c4b-8b71-4a3b-b37b-90593abae855",
+            "name": "energy transition",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "gamification",
+            "id": "94fca505-9c4a-4b6c-b1b4-34ee64e17cc0",
+            "name": "gamification",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "renewable energy potentials",
+            "id": "cf8bda4e-ce3e-4a24-bf56-7cf6f3e832c8",
+            "name": "renewable energy potentials",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "solar power",
+            "id": "10b0fb11-da18-4e51-8c5f-74095a71b6b9",
+            "name": "solar power",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "wind energy",
+            "id": "b8d291af-b256-473b-96b3-337650e22a85",
+            "name": "wind energy",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "Geodaten der Fl\u00e4cheneignungsberechnung des Projekts Vision:En 2040 PLUS",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/geodaten-der-flacheneignungsberechnung-des-projekts-vision-en-2040-sup-plus-sup",
+    "version": "",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2023-10-20T06:36:16.944495",
+            "description": "",
+            "format": "",
+            "mimetype": "application/zip",
+            "name": "Flaecheneignungsberechnung_VisionEn2040_042023.zip",
+            "position": 0,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/vault/umwelt/wagenfeld/geodaten-der-flacheneignungsberechnung-des-projekts-vision-en-2040-sup-plus-sup/Flaecheneignungsberechnung_VisionEn2040_042023.zip",
+            "url_type": ""
+        },
+        {
+            "created": "2023-11-07T15:22:10.441052",
+            "description": "",
+            "format": "pdf",
+            "last_modified": "2023-11-07T15:22:10.402226",
+            "mimetype": "application/pdf",
+            "name": "Fl\u00e4cheneignungsklassen.pdf",
+            "position": 1,
+            "size": 107418,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/26f12f74-b97c-4698-8162-b3064adfa28e/resource/32287a18-3697-45dd-90bb-17464378ffc2/download/flacheneignung-und-flacheneignungsklassen.pdf",
+            "url_type": ""
+        }
+    ]
+}

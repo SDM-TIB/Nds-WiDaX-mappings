@@ -1,0 +1,127 @@
+{
+    "authors": "Tim P. J. Schimansky, Oskar Wage, Jens Golze, Udo Feuerhake",
+    "doi": "10.25835/e6iagxo9",
+    "doi_date_published": "2023-06-20",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": false,
+    "license_id": "CC-BY-NC-3.0",
+    "license_title": "Creative Commons Attribution-NonCommercial 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/3.0/",
+    "maintainer": "Malte Jan Schulze",
+    "maintainer_email": "maltejan.schulze@ikg.uni-hannover.de",
+    "source_metadata_created": "2023-06-20T07:20:27.587225",
+    "source_metadata_modified": "2026-04-20T13:27:13.811402",
+    "metadata_modified": "2026-04-20T13:27:13.811402",
+    "name": "luh-bike-sensor-dataset-for-vehicle-encounters-a-comprehensive-open-data-resource",
+    "notes": "# Description:\r\nThe Bike Sensor Data Set for Vehicle Encounters is a comprehensive collection of open data aimed at studying and analyzing encounter between bicycles and vehicles in urban environments. This dataset combines data captured by a sensor platform integrated with a smartphone mounted on a bike. By including various smartphone sensors and timestamps for overtaking events, this dataset offers a rich source of information for investigating and understanding the dynamics of vehicle encounters from the perspective of cyclists.\r\n\r\n![Photo of the measurement setup of the prototype sensor platform on a bicycle. The logging unit is located on the luggage rack and the side sensor below it at the height of the rear wheel.](https://data.uni-hannover.de/dataset/98d83b12-493d-40af-8c4e-58e8064795c5/resource/3d19a3a2-73fc-408b-9d1c-87800b7d4b79/download/mounted_platform.png)\r\n\r\nThe dataset contains sensor streams recorded during vehicle encounters, including:\r\n\r\n* inertial measurement unit\r\n* magnetic field sesnor\r\n* GNSS\r\n* illuminance sensor\r\n* barometric pressure sensor\r\n* side viewing range sensor\r\n\r\nThese sensors provide a multidimensional view of the cyclist's environment, capturing physical movements, orientation, environmental conditions, and the proximity of vehicles alongside the cyclist. This data enables researchers to analyze overtaking positions, distance statistics, and potential collision scenarios, enhancing our understanding of vehicle encounters and supporting interventions for cyclist safety.\r\n\r\n# Key Features of the Bike Sensor Data Set:\r\n* Sensor Streams: The data set provides synchronized streams of data from the smartphone sensors, offering valuable insights into the cyclist's experiences during vehicle encounters.\r\n* Timestamps: Each overtaking event is annotated with a timestamp, allowing for temporal analysis and correlation with the other provided data sources.\r\n* Comprehensive Smartphone Sensor Data: The data set encompasses data from a wide array of privacy preserving smartphone sensors, enabling researchers to explore different dimensions of the vehicle encounter experience, such as speed, acceleration, heading, ambient conditions, and sound levels.\r\n* Trajectory Metadata: Each trajectory is accompanied by a JSON file containing metadata such as date, time, location, duration, as well as metadata for each sensor stream. The inclusion of weather information from the Bright Sky API adds an environmental dimension to the dataset.\r\n\r\n# Potential Applications:\r\nThe Bike Sensor Data Set for Vehicle Encounters holds significant potential for a variety of applications, including but not limited to:\r\n\r\n* Transportation and urban planning research\r\n* Machine learning and data mining algorithms for cyclist safety prediction\r\n* Human factors research in transportation and mobility\r\n* Development and testing of cyclist-oriented mobile applications\r\n\r\nBy utilizing this data set, researchers and practitioners can gain valuable insights into the dynamics of vehicle encounters from a cyclist's perspective. This, in turn, can contribute to the development of safer and more cyclist-friendly urban environments, promoting sustainable and active transportation alternatives.",
+    "num_resources": 4,
+    "num_tags": 4,
+    "organization": {
+        "id": "9828c497-59fd-47a6-a39f-e9eec9bb8a66",
+        "name": "institut-fur-kartographie-und-geoinformatik",
+        "title": "Institut f\u00fcr Kartographie und Geoinformatik",
+        "type": "organization",
+        "description": "Appelstra\u00dfe 9 a, 30167 Hannover, https://www.ikg.uni-hannover.de/",
+        "image_url": "https://www.ikg.uni-hannover.de/fileadmin/site-templates/logos/ikg/IKG_Logo.png",
+        "created": "2018-02-15T09:03:10.899314",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "institut-fur-kartographie-und-geoinformatik",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "cycling",
+            "id": "3c93efcf-8521-480c-a835-b0cec11a896a",
+            "name": "cycling",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "instrumented bicycle",
+            "id": "09aab1a9-9292-4137-a81c-f49a76537eb7",
+            "name": "instrumented bicycle",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "overtaking distance",
+            "id": "42fa823f-e503-43a0-bccc-211c9cddce94",
+            "name": "overtaking distance",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "traffic safety",
+            "id": "3382e1d3-e9c8-468a-acd8-1e558a500599",
+            "name": "traffic safety",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "Bike Sensor Data Set for Vehicle Encounters: A Comprehensive Open Data Resource",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/bike-sensor-dataset-for-vehicle-encounters-a-comprehensive-open-data-resource",
+    "version": "",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2023-06-20T07:59:58.053747",
+            "description": "",
+            "format": "png",
+            "last_modified": "2023-06-20T07:59:58.017072",
+            "mimetype": "image/png",
+            "name": "mounted_platform.png",
+            "position": 0,
+            "size": 201222,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/98d83b12-493d-40af-8c4e-58e8064795c5/resource/3d19a3a2-73fc-408b-9d1c-87800b7d4b79/download/mounted_platform.png",
+            "url_type": ""
+        },
+        {
+            "created": "2023-06-20T09:56:53.425560",
+            "description": "",
+            "format": "feather",
+            "last_modified": "2023-06-20T09:56:53.373017",
+            "name": "vehicle_encounters.feather",
+            "position": 1,
+            "size": 41866,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/98d83b12-493d-40af-8c4e-58e8064795c5/resource/931a5a8d-c195-4d47-b2ab-4051856d0050/download/vehicle_encounters.feather",
+            "url_type": ""
+        },
+        {
+            "created": "2023-06-20T09:57:31.569392",
+            "description": "",
+            "format": "zip",
+            "last_modified": "2023-06-20T09:57:31.511536",
+            "mimetype": "application/zip",
+            "name": "all_sensor_data.zip",
+            "position": 2,
+            "size": 102916266,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/98d83b12-493d-40af-8c4e-58e8064795c5/resource/97e80b2f-dac3-4b7d-8156-3afcd640c8fc/download/all_sensor_data.zip",
+            "url_type": ""
+        },
+        {
+            "created": "2023-06-20T09:57:48.668037",
+            "description": "",
+            "format": "zip",
+            "last_modified": "2023-06-20T09:57:48.598782",
+            "mimetype": "application/zip",
+            "name": "example_sensor_data.zip",
+            "position": 3,
+            "size": 50492,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/98d83b12-493d-40af-8c4e-58e8064795c5/resource/f7b6de15-0727-4c23-8724-0c8466f41d58/download/example_sensor_data.zip",
+            "url_type": ""
+        }
+    ]
+}

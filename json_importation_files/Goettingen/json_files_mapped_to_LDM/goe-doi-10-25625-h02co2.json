@@ -1,0 +1,117 @@
+{
+    "doi": "10.25625/H02CO2",
+    "identifier_type": "DOI",
+    "doi_date_published": "2022",
+    "source_metadata_created": "2022",
+    "publication_year": "2022",
+    "title": "Evapotranspiration bee",
+    "organization": {
+        "approval_status": "approved",
+        "description": "G\u00f6ttingen Research Online is an institutional repository for the publication of research data at the G\u00f6ttingen Campus. It is managed by the G\u00f6ttingen eResearch Alliance, a joint group of SUB and GWDG. .",
+        "display_name": "G\u00f6ttingenResearchOnline",
+        "image_display_url": "logo-goettingen.png",
+        "image_url": "logo-goettingen.png",
+        "is_organization": true,
+        "name": "goettingen",
+        "state": "active",
+        "title": "G\u00f6ttingenResearchOnline",
+        "type": "organization"
+    },
+    "name": "goe-doi-10-25625-h02co2",
+    "license_id": "http://creativecommons.org/publicdomain/zero/1.0",
+    "license_title": "Creative Commons Zero (CC0)",
+    "notes": "Evapotranspiration at EFForTS-BEE: We recorded land and canopy surface temperatures at the 56 BEE plots in August and September 2017 using a radiometric thermal camera (FLIR Tau 2 640, FLIR Systems Inc., Wilsonville, OR, USA) attached to a TeAx ThermalCapture module (TeAx Technology GmbH, Wilnsdorf, Germany) mounted on a multicopter drone (MK EASY Okto V3; HiSystems, Moormerland, Germany). The thermal images were recorded around noon, covering each plot once over a nine day period encompassing varying weather conditions. The land and canopy surface temperatures were the main input for modeling latent heat flux (in W m-2) and deriving evapotranspiration (ET, mm h-1) using the QGIS3 Plugin 'QWaterModel' (Ells\u00e4\u00dfer et al., 2020), which bases on the DATTUTDUT energy balance model. Measured short-wave radiation and relative humidity were used as further input variables to support the prediction of evapotranspiration with QWaterModel. The dataset consists of the following files: 1.) Results table of evapotranspiration (ET, mm h-1) at the 56 BEE plots (Evapotranspiration_BEE.xlmx), including auxiliary variables needed for the calculation of ET with QWaterModel: plot ID, input and output filenames, number of pixels per plot, longitude and latitude, date and time of drone flight, the minimum and maximum temperature thresholds in QWaterModel (tmin_threshold, max_threshold, in \u00b0C), observed minimum and maximum temperature (Tmin, Tmax, in degrees K), the QWaterModel settings atm_transmissivity, atm_emissivity and surface_emissivity, the measured short wave irradiance (sw_irradiance_measured, in W m-2), the measured relative humidity (RH, in %), along with the mean QWaterModel outputs per plot, i.e. mean latent heat flux (W m-2), mean evaporative fraction and mean evapotranspiration (ET, mm h-1). 2.) The land surface temperature maps of the 56 plots as key input files for QWaterModel. For each plot, there is a .tif image file along with a .xml info file. The files are labeled as 'Plot_[plot nr.].tif'. 3.) The evapotranspiration (ET) maps of the 56 plots as key output files of QWaterModel. For each plot, there is a unix executable file along with a .xml info file. The files are labeled as 'Plot_[plot nr.]_DATTUTDUT'. From these ET maps, the mean ET was calculated for each plot, as presented in the Evapotranspiration_BEE.xlmx results file. ---------- More details on the applied methods can be found in the following publications: 1.) Ells\u00e4\u00dfer, F., A. R\u00f6ll, C. Stiegler, Hendrayanto & D. H\u00f6lscher, 2020. Introducing QWaterModel, a QGIS plugin for predicting evapotranspiration from land surface temperatures. Environmental Modelling & Software, 104739. 2.) Ells\u00e4\u00dfer, F., A. R\u00f6ll, J. Ahongshangbam, P.-A. Waite, Hendrayanto, B. Schuldt & D. H\u00f6lscher, 2020. Predicting tree sap flux and stomatal conductance from drone-recorded surface temperatures in a mixed agroforestry system \u2013 a machine learning approach. Remote Sensing 12, 4070. 3.) Ells\u00e4\u00dfer, F., C. Stiegler, A. R\u00f6ll, T. June, Hendrayanto, A. Knohl & D. H\u00f6lscher, 2021. Predicting evapotranspiration from drone-based thermography - a method comparison in a tropical oil palm plantation. Biogeosciences 18, 861-872.",
+    "publishers": [
+        {
+            "publisher": "GRO.data"
+        }
+    ],
+    "subject_areas": [
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Agricultural Sciences"
+        },
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Earth and Environmental Sciences"
+        }
+    ],
+    "resource_type": "Dataset",
+    "related_identifiers": [],
+    "tags": [
+        {
+            "display_name": "Agricultural Sciences",
+            "name": "Agricultural Sciences",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Earth and Environmental Sciences",
+            "name": "Earth and Environmental Sciences",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "evapotranspiration",
+            "name": "evapotranspiration",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "authors": [
+        {
+            "author": "Ells\u00e4\u00dfer, Florian",
+            "givenName": "Florian",
+            "familyName": "Ells\u00e4\u00dfer",
+            "orcid": ""
+        },
+        {
+            "author": "R\u00f6ll, Alexander",
+            "givenName": "Alexander",
+            "familyName": "R\u00f6ll",
+            "orcid": ""
+        },
+        {
+            "author": "Stiegler, Christian",
+            "givenName": "Christian",
+            "familyName": "Stiegler",
+            "orcid": ""
+        },
+        {
+            "author": "Hendrayanto",
+            "givenName": "",
+            "familyName": "",
+            "orcid": ""
+        },
+        {
+            "author": "June, Tania",
+            "givenName": "Tania",
+            "familyName": "June",
+            "orcid": ""
+        },
+        {
+            "author": "Knohl, Alexander",
+            "givenName": "Alexander",
+            "familyName": "Knohl",
+            "orcid": ""
+        },
+        {
+            "author": "H\u00f6lscher, Dirk",
+            "givenName": "Dirk",
+            "familyName": "H\u00f6lscher",
+            "orcid": ""
+        }
+    ],
+    "citation": [],
+    "doi_status": "True",
+    "owner_org": "goettingen",
+    "isopen": true,
+    "repository_name": "G\u00f6ttingen Research Online Data",
+    "type": "dataset",
+    "source_metadata_modified": "",
+    "url": "https://doi.org/10.25625/H02CO2",
+    "doi_publisher": "",
+    "resources": [
+        {}
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "authors": "Malte Nagel, Dennis Schmiele, Niyazi Ayaz, Lennart Hinz, Richard Krimm, Bernd-Arno Behrens",
+    "doi": "10.25835/r9yt5ut7",
+    "doi_date_published": "2026-01-21",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": true,
+    "license_id": "CC-BY-3.0",
+    "license_title": "Creative Commons Attribution 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "maintainer": "Malte Nagel",
+    "maintainer_email": "malte.nagel@imr.uni-hannover.de",
+    "source_metadata_created": "2026-01-07T12:46:01.962983",
+    "source_metadata_modified": "2026-01-30T12:40:58.281064",
+    "metadata_modified": "2026-01-30T12:40:58.281064",
+    "name": "luh-press-set",
+    "notes": "The dataset comprises experimental data acquired from a multi-stage sheet metal forming process conducted on a transfer press. It is intended to capture the effects of systematic setup variations on process behavior and the resulting part geometry. The dataset contains stage-specific force and displacement measurements as well as point clouds representing the geometry of the formed parts. Each measurement is stored in an individual HDF5 file, named according to the date of acquisition and a sequential identifier.",
+    "num_resources": 2,
+    "num_tags": 2,
+    "organization": {
+        "id": "df73f90c-533b-40de-8c85-543735943274",
+        "name": "institut-fuer-mess-und-regelungstechnik",
+        "title": "Institut f\u00fcr Mess- und Regelungstechnik",
+        "type": "organization",
+        "description": "An der Universit\u00e4t 1, 30823 Garbsen\r\nhttp://www.imr.uni-hannover.de\r\n",
+        "image_url": "https://www.imr.uni-hannover.de/fileadmin/site-templates/logos/imr/logo_imr_farbig.png",
+        "created": "2022-08-12T17:23:46.279994",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "institut-fuer-mess-und-regelungstechnik",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "forming",
+            "id": "857cee84-961c-4757-b98c-3921e4b36dfc",
+            "name": "forming",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "sheet metal",
+            "id": "2ae4020a-7826-45d3-b9b7-65edfb9c1d14",
+            "name": "sheet metal",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "Multi-stage transfer press setup dataset",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/press-set",
+    "version": "1.0",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2026-01-15T13:57:55.470542",
+            "description": "",
+            "format": "h5",
+            "name": "Processed Measurements as HDF5 Files",
+            "position": 0,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/vault/imr/nagel/press-set/",
+            "url_type": ""
+        },
+        {
+            "created": "2026-01-21T18:41:11.205598",
+            "description": "Description of the HDF5 dataset structure in markdown formatting.",
+            "format": "md",
+            "last_modified": "2026-01-21T18:41:11.158709",
+            "name": "Dataset Format Description",
+            "position": 1,
+            "size": 4070,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/bf18e702-7d9b-4da4-bca4-8de09ce875ea/resource/bb3181c1-1b5e-4cec-a373-411e5f2dc009/download/dataset_description.md",
+            "url_type": ""
+        }
+    ]
+}

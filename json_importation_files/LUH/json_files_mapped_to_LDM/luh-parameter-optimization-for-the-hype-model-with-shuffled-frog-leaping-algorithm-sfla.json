@@ -1,0 +1,89 @@
+{
+    "authors": "Prajna Kasargodu Anebagilu, Xinyu Li",
+    "doi": "10.25835/u0wna7hm",
+    "doi_date_published": "2022-04-27",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": true,
+    "license_id": "CC-BY-3.0",
+    "license_title": "Creative Commons Attribution 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "maintainer": "J\u00f6rg Dietrich",
+    "maintainer_email": "dietrich@iww.uni-hannover.de",
+    "source_metadata_created": "2022-04-27T19:27:24.710168",
+    "source_metadata_modified": "2022-04-28T09:36:47.706136",
+    "metadata_modified": "2022-04-28T09:36:47.706136",
+    "name": "luh-parameter-optimization-for-the-hype-model-with-shuffled-frog-leaping-algorithm-sfla",
+    "notes": "Python scripts for controlling parameter optimization for the hydrological model HYPE. The scripts can be used to optimize model parameters with the Shuffled Frog Leaping Algorithm (SFLA). Additionally, there is a modification of the Differential Evolution Markov Chain (DEMC) algorithm, which has been previously applied for HYPE.\r\nIn this first version, all parameters of SFLA as well as of HYPE are hard coded within one script. HYPE version 5.8.0 was used without modifications of the code. At the end of each simulation, HYPE opens a window and asks for a confirmation to exit this window. We have used an auto-clicker to overcome that step. However, modifying the HYPE code would be a better solution for future releases.",
+    "num_resources": 1,
+    "num_tags": 4,
+    "organization": {
+        "id": "41bf3553-85fb-4fef-bd21-5ce577e837b3",
+        "name": "institut-fur-hydrologie-und-wasserwirtschaft",
+        "title": "Institut f\u00fcr Hydrologie und Wasserwirtschaft",
+        "type": "organization",
+        "description": "Appelstr. 9A\r\nD-30167 Hannover, Germany\r\n\r\nTel.: +49-(0)511-762--2237, Fax: -3731\r\n\r\nhttp://www.iww.uni-hannover.de",
+        "image_url": "",
+        "created": "2019-06-05T17:35:16.922746",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "institut-fur-hydrologie-und-wasserwirtschaft",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "HYPE",
+            "id": "4c979423-356e-4698-b951-fd9f75ac4366",
+            "name": "HYPE",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "metaheuristics",
+            "id": "6c9a9571-8b42-4ced-8153-9d066e26d816",
+            "name": "metaheuristics",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "optimization",
+            "id": "ffc1e860-b9f3-4c71-b6c5-99b4b7517e05",
+            "name": "optimization",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "shuffled frog leaping algorithm",
+            "id": "249804ac-bef7-4ee5-875d-0c4af1d88046",
+            "name": "shuffled frog leaping algorithm",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "Parameter Optimization for the HYPE model with Shuffled Frog Leaping Algorithm (SFLA)",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/parameter-optimization-for-the-hype-model-with-shuffled-frog-leaping-algorithm-sfla",
+    "version": "0.8",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2022-04-27T19:28:39.830009",
+            "description": "Python scripts for controlling parameter optimization for the hydrological model HYPE. The scripts can be used to optimize model parameters with the Shuffled Frog Leaping Algorithm (SFLA). Additionally, there is a modification of the Differential Evolution Markov Chain (DEMC) algorithm, which has been previously applied for HYPE. In this first version, all parameters of SFLA as well as of HYPE are hard coded within one script. HYPE version 5.8.0 was used without modifications of the code. At the end of each simulation, HYPE opens a window and asks for a confirmation to exit this window. We have used an auto-clicker to overcome that step. However, modifying the HYPE code would be a better solution for future releases.",
+            "format": "zip",
+            "last_modified": "2022-04-27T19:28:39.786393",
+            "mimetype": "application/zip",
+            "name": "Parameter_optimization_SFLA_HYPE.zip",
+            "position": 0,
+            "size": 16564,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/2ff0934d-3c69-4a1f-926b-d61a332a1f54/resource/eb7f465b-8500-425e-93a4-3fc56a05a825/download/parameter_optimization_sfla_hype.zip",
+            "url_type": ""
+        }
+    ]
+}

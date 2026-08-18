@@ -1,0 +1,88 @@
+{
+    "authors": "Gleb A. Kotousov, Sergei L. Lukyanov, Daria A. Shabetnik",
+    "doi": "10.25835/c00z8k7d",
+    "doi_date_published": "2025-11-25",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": false,
+    "license_id": "CC-BY-NC-SA-4.0",
+    "license_title": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "maintainer": "Gleb Kotousov",
+    "maintainer_email": "gleb.kotousov@itp.uni-hannover.de",
+    "source_metadata_created": "2025-11-25T10:53:19.979843",
+    "source_metadata_modified": "2025-11-28T14:56:30.834722",
+    "metadata_modified": "2025-11-28T14:56:30.834722",
+    "name": "luh-numerical-data-for-the-inhomogeneous-z_r-invariant-xxz-spin-1-2-chain",
+    "notes": "Here we provide numerical data used to produce both figures in the paper arXiv:2511.20530. The first file contains the solution sets to the Bethe Anstatz equations (2.3) for different system size N corresponding to the constructed RG trajectory. In the second file, one can find the solution to the algebraic system (2.17) and its barred counterpart, which label the state appearing in its scaling limit.",
+    "num_resources": 2,
+    "num_tags": 2,
+    "organization": {
+        "id": "5bb3488c-e223-4283-a276-5697b2c526e9",
+        "name": "ag-frahm",
+        "title": "AG Frahm",
+        "type": "organization",
+        "description": "https://www.itp.uni-hannover.de/de/ag/frahm",
+        "image_url": "",
+        "created": "2019-03-12T11:21:01.576922",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "ag-frahm",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "Bethe Ansatz",
+            "id": "0e39f88e-1a7c-4c94-8e7c-dfae60cee865",
+            "name": "Bethe Ansatz",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Exactly solvable models",
+            "id": "4228bd1f-485c-49ff-941a-9f2816c17504",
+            "name": "Exactly solvable models",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "Numerical data for the inhomogeneous Z_r invariant XXZ spin-1/2 chain",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/numerical-data-for-the-inhomogeneous-z_r-invariant-xxz-spin-1-2-chain",
+    "version": "",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2025-11-25T10:54:24.805978",
+            "description": "Bethe roots for the RG trajectory with r = 5,  \\delta = 1/15, k = 1/50, Sz = 3/2, w = 0, m = 1, L = 2, Lbar = 1 and N=155,305,455, ..., 2405.",
+            "format": "txt",
+            "last_modified": "2025-11-28T14:48:35.032504",
+            "mimetype": "text/plain",
+            "name": "rts.txt",
+            "position": 0,
+            "size": 407449,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/d2ed8857-de05-4419-8051-606569866582/resource/d711718a-7907-4ece-881e-8f7d68b1d5b5/download/rts.txt",
+            "url_type": ""
+        },
+        {
+            "created": "2025-11-28T14:29:14.404313",
+            "description": "Solution sets to the algebraic system (2.3) and its barred counterpart which label the state appearing in the scaling limit of the RG trajectory.",
+            "format": "txt",
+            "last_modified": "2025-11-28T14:56:30.822473",
+            "mimetype": "text/plain",
+            "name": "sols",
+            "position": 1,
+            "size": 997,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/d2ed8857-de05-4419-8051-606569866582/resource/c77eb1cf-ba0c-47c6-826a-60d9492aa87b/download/sols.txt",
+            "url_type": ""
+        }
+    ]
+}

@@ -1,0 +1,161 @@
+{
+    "authors": "Gronemeier, T., Surm, K., Harms, F., Leitl, B., Maronga, B., and Raasch, S.",
+    "doi": "10.25835/0015082",
+    "doi_date_published": "2020-05-29",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": true,
+    "license_id": "CC-BY-3.0",
+    "license_title": "Creative Commons Attribution 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "maintainer": "Gronemeier, T.",
+    "maintainer_email": "gronemeier@muk.uni-hannover.de",
+    "source_metadata_created": "2020-05-29T16:34:12.473053",
+    "source_metadata_modified": "2021-03-10T16:05:27.926220",
+    "metadata_modified": "2021-03-10T16:05:27.926220",
+    "name": "luh-evaluation-of-the-palm-model-system-6-0-simulation-input-data-and-measurement-data",
+    "notes": "The published data contain input data and simulation output of the PALM Model System 6.0 (Maronga et al., 2020, https://doi.org/10.5194/gmd-13-1335-2020) as well as wind-tunnel measurements created at the Environmental Wind Tunnel Laboratory (EWTL), Universit\u00e4t Hamburg, Hamburg, Germany. Simulation data was used in Gronemeier et al. (Evaluation of the Dynamic Core of the PALM Model System 6.0 in a Neutrally Stratified Urban Environment: Comparison between LES and Wind-tunnel Experiments, Geosci. Model Dev. Discuss., 2020) where a detailed description of the experiments and their results is given. The PALM source code, revision 3921, used for the simulation is published in Gronemeier et al. (2020, https://doi.org/10.25835/0046914).\r\n",
+    "num_resources": 6,
+    "num_tags": 5,
+    "organization": {
+        "id": "e746d647-a884-4438-90c7-5aeb491aa43f",
+        "name": "institut-fuer-meteorologie-und-klimatologie",
+        "title": "Institut fuer Meteorologie und Klimatologie ",
+        "type": "organization",
+        "description": "Herrenh\u00e4user Str. 2\r\n30419 Hannover \r\n\r\nhttps://www.muk.uni-hannover.de/\r\n\r\n",
+        "image_url": "2018-09-27-085555.012947headermuk-11-2017.png",
+        "created": "2018-09-27T10:55:55.034247",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "institut-fuer-meteorologie-und-klimatologie",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "Large-eddy simulation",
+            "id": "1e492122-964f-41a5-81e6-d3426640f7c8",
+            "name": "Large-eddy simulation",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "PALM",
+            "id": "aeec1f7e-7e5c-44df-bc16-fbcf432ba7c4",
+            "name": "PALM",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "urban climate",
+            "id": "3b94f172-bf31-46ed-a269-bd76f71f65a0",
+            "name": "urban climate",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "validation",
+            "id": "d6438993-e0d7-4218-9563-f76725886bee",
+            "name": "validation",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "wind tunnel",
+            "id": "1a0faa55-10e4-4288-b515-344a61ef38cb",
+            "name": "wind tunnel",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "Evaluation of the Dynamic Core of the PALM Model System 6.0 in a Neutrally Stratified Urban Environment: Simulation Input Data and Measurement Data",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/evaluation-of-the-palm-model-system-6-0-simulation-input-data-and-measurement-data",
+    "version": "2.0",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2020-05-29T16:40:37.683085",
+            "description": "Simulation input data to steer the PALM model.",
+            "format": "zip",
+            "last_modified": "2021-03-10T15:26:15.194026",
+            "mimetype": "application/zip",
+            "name": "simulation_input_data_palm6_evaluation_gmd_2021.zip",
+            "position": 0,
+            "size": 41780327,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/6687444f-a3a7-45b8-8453-a39995b8e4d4/resource/c8846b16-fa49-4694-897a-a19e61fa69de/download/simulation_input_data_palm6_evaluation_gmd_2021.zip",
+            "url_type": ""
+        },
+        {
+            "created": "2020-05-29T16:43:01.853212",
+            "description": "Measurement data recorded at several measurement positions within the wind-tunnel experiment.",
+            "format": "zip",
+            "last_modified": "2021-03-10T15:09:57.652946",
+            "mimetype": "application/zip",
+            "name": "measurement_data_wind_tunnel_palm6_evaluation_gmd_2021.zip",
+            "position": 1,
+            "size": 113999992,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/6687444f-a3a7-45b8-8453-a39995b8e4d4/resource/db138e96-3a56-45cf-90b3-f82de242c2bb/download/measurement_data_wind_tunnel_palm6_evaluation_gmd_2021.zip",
+            "url_type": ""
+        },
+        {
+            "created": "2020-05-29T16:55:18.180921",
+            "description": "Measurement data recorded at several measurement positions within the PALM simulation domain.",
+            "format": "zip",
+            "last_modified": "2021-03-10T16:05:27.907709",
+            "mimetype": "application/zip",
+            "name": "measurement_data_palm_palm6_evaluation_gmd_2021.zip",
+            "position": 2,
+            "size": 2716869031,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/6687444f-a3a7-45b8-8453-a39995b8e4d4/resource/919a39b6-d96b-43b4-8aa7-23089e3193a5/download/measurement_data_palm_palm6_evaluation_gmd_2021.zip",
+            "url_type": ""
+        },
+        {
+            "created": "2020-06-08T13:24:12.000089",
+            "description": "",
+            "format": "zip",
+            "last_modified": "2020-06-08T13:24:11.834152",
+            "mimetype": "application/zip",
+            "name": "All resource data",
+            "position": 3,
+            "size": 744670461,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/6687444f-a3a7-45b8-8453-a39995b8e4d4/resource/005c8b46-068f-4b82-aadc-8317173e7599/download/validation-of-the-palm-model-system-6-0-simulation-input-data-and-measurement-data-azigvf.zip",
+            "url_type": ""
+        },
+        {
+            "created": "2020-07-06T22:24:47.786271",
+            "description": "Output data of the PALM simulation.",
+            "format": "zip",
+            "last_modified": "2021-03-10T15:16:54.276741",
+            "mimetype": "application/zip",
+            "name": "simulation_output_data_palm6_evaluation_gmd_2021.zip",
+            "position": 4,
+            "size": 235398899,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/6687444f-a3a7-45b8-8453-a39995b8e4d4/resource/64b8a3d4-3186-4ebe-b3bd-1357938398e0/download/simulation_output_data_palm6_evaluation_gmd_2021.zip",
+            "url_type": ""
+        },
+        {
+            "created": "2020-07-06T22:27:10.833839",
+            "description": "Collection of script to analyze and plot the contained data.",
+            "format": "zip",
+            "last_modified": "2021-03-10T15:11:19.002684",
+            "mimetype": "application/zip",
+            "name": "plot_scripts_palm6_evaluation_gmd_2021.zip",
+            "position": 5,
+            "size": 27947,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/6687444f-a3a7-45b8-8453-a39995b8e4d4/resource/6af42969-acfa-4c4a-be40-b30414e20c0e/download/plot_scripts_palm6_evaluation_gmd_2021.zip",
+            "url_type": ""
+        }
+    ]
+}

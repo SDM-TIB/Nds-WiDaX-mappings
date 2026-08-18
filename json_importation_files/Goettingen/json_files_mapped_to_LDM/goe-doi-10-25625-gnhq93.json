@@ -1,0 +1,105 @@
+{
+    "doi": "10.25625/GNHQ93",
+    "identifier_type": "DOI",
+    "doi_date_published": "2023",
+    "source_metadata_created": "2023",
+    "publication_year": "2023",
+    "title": "Data for: hyuspre - work package 6 - validated open-source reservoir modelling software that can simulate coupled flow, geochemical and microbiological processes in a porous reservoir under operational hydrogen storage conditions",
+    "organization": {
+        "approval_status": "approved",
+        "description": "G\u00f6ttingen Research Online is an institutional repository for the publication of research data at the G\u00f6ttingen Campus. It is managed by the G\u00f6ttingen eResearch Alliance, a joint group of SUB and GWDG. .",
+        "display_name": "G\u00f6ttingenResearchOnline",
+        "image_display_url": "logo-goettingen.png",
+        "image_url": "logo-goettingen.png",
+        "is_organization": true,
+        "name": "goettingen",
+        "state": "active",
+        "title": "G\u00f6ttingenResearchOnline",
+        "type": "organization"
+    },
+    "name": "goe-doi-10-25625-gnhq93",
+    "license_id": "http://creativecommons.org/licenses/by/4.0",
+    "license_title": "Creative Commons Attribution 4.0 International",
+    "notes": "Numerical reservoir modeling is a popular method to simulate (and reproduce) the operational history of an underground gas storage. The underlying aim is to validate and improve these models such that they can be applied to predict the efficiency of the future operation process for the purpose of efficiency optimization and de-risking. This workflow can also be applied to simulate, optimize and de-risk underground hydrogen storage (UHS) operations, the learnings of which are of key importance for the safe, robust, and affordable implementation of UHS on field scale. However, existing commercial simulators developed for hydrocarbon production and CO2 storage do not properly cover unique processes that may occur when hydrogen is injected into reservoirs, such as bio- and geochemical reactions. To close this gap, the open-source simulator DuMux was extended with functionality to simulate hydrogen-induced processes and then calibrated to laboratory observations. The newly developed implementation enables users to model two-phase n-component transport of gaseous hydrogen-rich mixtures in porous media coupled with bio- and geochemical reactions. The consumption of hydrogen by methanogenic and sulfate-reducing microorganisms is implemented, which produces methane and hydrogen sulfide (H2S) respectively. Furthermore, the pyrite-to-pyrrhotite reduction reaction is implemented, which also generates H2S. Additionally, adaptations within the diffusion modeling based on experimental observations are performed. With the new functionalty, this model is able to reproduce laboratory experiments of hydrogen-related processes and can be used to simulate field-scale UHS operational scenarios. The developed implementation is available as a separate module of DuMux, including examples in the Gitlab repository and a persistent dataverse.",
+    "publishers": [
+        {
+            "publisher": "GRO.data"
+        }
+    ],
+    "subject_areas": [
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Earth and Environmental Sciences"
+        },
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Engineering"
+        }
+    ],
+    "resource_type": "Dataset",
+    "related_identifiers": [],
+    "tags": [
+        {
+            "display_name": "Earth and Environmental Sciences",
+            "name": "Earth and Environmental Sciences",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Engineering",
+            "name": "Engineering",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Underground Hydrogen Storage",
+            "name": "Underground Hydrogen Storage",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Reservoir Simulation",
+            "name": "Reservoir Simulation",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "DuMux",
+            "name": "DuMux",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "authors": [
+        {
+            "author": "Hogeweg, Sebastian",
+            "givenName": "Sebastian",
+            "familyName": "Hogeweg",
+            "orcid": ""
+        },
+        {
+            "author": "Hagemann, Birger",
+            "givenName": "Birger",
+            "familyName": "Hagemann",
+            "orcid": ""
+        },
+        {
+            "author": "Ganzer, Leonhard",
+            "givenName": "Leonhard",
+            "familyName": "Ganzer",
+            "orcid": ""
+        }
+    ],
+    "citation": [],
+    "doi_status": "True",
+    "owner_org": "goettingen",
+    "isopen": true,
+    "repository_name": "G\u00f6ttingen Research Online Data",
+    "type": "dataset",
+    "source_metadata_modified": "",
+    "url": "https://doi.org/10.25625/GNHQ93",
+    "doi_publisher": "",
+    "resources": [
+        {}
+    ]
+}

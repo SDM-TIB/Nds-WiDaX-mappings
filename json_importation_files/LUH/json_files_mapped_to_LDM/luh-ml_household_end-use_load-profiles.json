@@ -1,0 +1,147 @@
+{
+    "authors": "Marlon Schlemminger",
+    "doi": "10.25835/0043305",
+    "doi_date_published": "2021-03-08",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": true,
+    "license_id": "CC-BY-3.0",
+    "license_title": "Creative Commons Attribution 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "maintainer": "Marlon Schlemminger",
+    "maintainer_email": "",
+    "source_metadata_created": "2021-03-04T12:06:42.675461",
+    "source_metadata_modified": "2022-01-20T13:49:18.455161",
+    "metadata_modified": "2022-01-20T13:49:18.455161",
+    "name": "luh-ml_household_end-use_load-profiles",
+    "notes": "Synthetic end-use specific electric household load profiles for four weather years in 29 European countries. For 2011, the profiles are normalized to an annual sum of 1000 to enable the user to scale them to a preferred annual consumption. For other years, a value other than  1000 is caused by the influence of weather and indicates  a higher or lower consumption (e.g. higher consumption  for space heating in cold years). For user convenience,  we provide heatpump COPs and annual consumption values.",
+    "num_resources": 4,
+    "num_tags": 7,
+    "organization": {
+        "id": "0f9a7720-cce1-4b0c-b4ec-59b452ac9777",
+        "name": "institut-fur-festkorperphysik",
+        "title": "Institut f\u00fcr Festk\u00f6rperphysik",
+        "type": "organization",
+        "description": "Institut f\u00fcr Festk\u00f6rperphysik\r\n\r\nhttps://www.fkp.uni-hannover.de/\r\n\r\n",
+        "image_url": "",
+        "created": "2021-03-04T12:08:30.329548",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "institut-fur-festkorperphysik",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "consumer behaviour",
+            "id": "0b64a3d8-28da-45f1-be89-ec100dc22a1b",
+            "name": "consumer behaviour",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "cross-country",
+            "id": "9a201ed3-6366-4135-9047-7e320e83ecc8",
+            "name": "cross-country",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "end-uses",
+            "id": "8d92fbc4-edec-41ad-aab4-088a78625748",
+            "name": "end-uses",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "energy system modelling",
+            "id": "616a613f-7b43-474d-8d53-4ecbf02a8df9",
+            "name": "energy system modelling",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "household load profile",
+            "id": "e5520d3f-fcb4-48c1-8cf5-6715d84ab550",
+            "name": "household load profile",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "neural network",
+            "id": "b454f386-6791-4bd3-864b-7bf8d4fe8d81",
+            "name": "neural network",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "open data",
+            "id": "a50d139c-06a0-4037-a9cd-7f95a6916d05",
+            "name": "open data",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "ML_Household_End-use_Load-profiles",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/ml_household_end-use_load-profiles",
+    "version": "1.0",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2021-03-08T13:45:22.675153",
+            "description": "",
+            "format": "",
+            "last_modified": "2021-03-10T09:20:47.541707",
+            "name": "loadprofiles.hdf5",
+            "position": 0,
+            "size": 164047432,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/41a7eb88-0205-4c8b-9827-f39a9af5c51b/resource/62f6724f-da80-4b6c-874e-494c7a6418bc/download/loadprofiles.hdf5",
+            "url_type": ""
+        },
+        {
+            "created": "2021-03-08T13:46:15.653553",
+            "description": "",
+            "format": "",
+            "last_modified": "2021-03-10T09:22:22.946223",
+            "name": "cops.hdf5",
+            "position": 1,
+            "size": 23426760,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/41a7eb88-0205-4c8b-9827-f39a9af5c51b/resource/bccc263f-a4b5-49cd-b59f-77d6fc2c392c/download/cops.hdf5",
+            "url_type": ""
+        },
+        {
+            "created": "2021-03-08T13:46:30.367741",
+            "description": "",
+            "format": "csv",
+            "last_modified": "2021-03-10T09:23:01.782014",
+            "mimetype": "text/csv",
+            "name": "annual_consumption.csv",
+            "position": 2,
+            "size": 3611,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/41a7eb88-0205-4c8b-9827-f39a9af5c51b/resource/7e31cb14-adfa-46e8-924f-699903c2b893/download/annual_consumption.csv",
+            "url_type": ""
+        },
+        {
+            "created": "2021-03-08T13:46:36.146511",
+            "description": "",
+            "format": "json",
+            "last_modified": "2021-03-10T09:23:15.592935",
+            "mimetype": "application/json",
+            "name": "datapackage.json",
+            "position": 3,
+            "size": 337926,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/41a7eb88-0205-4c8b-9827-f39a9af5c51b/resource/6516a2fd-e865-4b66-a7e0-6828d0596e1e/download/datapackage.json",
+            "url_type": ""
+        }
+    ]
+}

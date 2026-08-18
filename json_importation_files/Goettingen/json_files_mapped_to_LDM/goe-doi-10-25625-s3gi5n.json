@@ -1,0 +1,112 @@
+{
+    "doi": "10.25625/S3GI5N",
+    "identifier_type": "DOI",
+    "doi_date_published": "2021",
+    "source_metadata_created": "2021",
+    "publication_year": "2021",
+    "title": "Design and implementation of an api to ease the use of hpc systems",
+    "organization": {
+        "approval_status": "approved",
+        "description": "G\u00f6ttingen Research Online is an institutional repository for the publication of research data at the G\u00f6ttingen Campus. It is managed by the G\u00f6ttingen eResearch Alliance, a joint group of SUB and GWDG. .",
+        "display_name": "G\u00f6ttingenResearchOnline",
+        "image_display_url": "logo-goettingen.png",
+        "image_url": "logo-goettingen.png",
+        "is_organization": true,
+        "name": "goettingen",
+        "state": "active",
+        "title": "G\u00f6ttingenResearchOnline",
+        "type": "organization"
+    },
+    "name": "goe-doi-10-25625-s3gi5n",
+    "license_id": "http://creativecommons.org/publicdomain/zero/1.0",
+    "license_title": "Creative Commons Zero (CC0)",
+    "notes": "High Performance Computing (HPC) is a practice of aggregating computing power such that it delivers high performance in order to solve large scale problems, typically in science or engineering. The classical approach that facilitates solving these complex problems by scientists and engineers does not scale very well due to the manual executions of jobs. Our work facilitate such use cases and works with GitLab (a web based DevOps life-cycle tool), Continuous Integration(CI) pipeline and CI runners to automate parameterized jobs execution over the HPC system for different use cases such as compile, build, analyse and HPC-enabled workflows. Our envisioned architecture accepts jobs as part of a workflow using our RESTful API for GitLab\u2019s CI pipeline and schedules the jobs over the HPC system using our Cron Job while ensuring no unauthorized extraction and modification of personal or research data as well as no abuse of HPC resources by injecting jobs from API or Cron Job by building a security model on top. The final thesis was submitted in partial fulfilment of the requirements for the course \u201cInternet Technologies and Information Systems\u201d, supervised by Prof. Ramin Yahyapour and Dr. Sven Bingert.",
+    "publishers": [
+        {
+            "publisher": "GRO.data"
+        }
+    ],
+    "subject_areas": [
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Computer and Information Science"
+        }
+    ],
+    "resource_type": "Dataset",
+    "tags": [
+        {
+            "display_name": "Computer and Information Science",
+            "name": "Computer and Information Science",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "HPC",
+            "name": "HPC",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Job Scheduling",
+            "name": "Job Scheduling",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "RESTful API",
+            "name": "RESTful API",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Cron Job",
+            "name": "Cron Job",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "GitLab",
+            "name": "GitLab",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Flowable",
+            "name": "Flowable",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Continuous Integration",
+            "name": "Continuous Integration",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Job Automation",
+            "name": "Job Automation",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "authors": [
+        {
+            "author": "Alamgir, Waqar",
+            "givenName": "Waqar",
+            "familyName": "Alamgir",
+            "orcid": ""
+        }
+    ],
+    "citation": [],
+    "doi_status": "True",
+    "owner_org": "goettingen",
+    "isopen": true,
+    "repository_name": "G\u00f6ttingen Research Online Data",
+    "type": "dataset",
+    "source_metadata_modified": "",
+    "url": "https://doi.org/10.25625/S3GI5N",
+    "doi_publisher": "",
+    "resources": [
+        {}
+    ]
+}

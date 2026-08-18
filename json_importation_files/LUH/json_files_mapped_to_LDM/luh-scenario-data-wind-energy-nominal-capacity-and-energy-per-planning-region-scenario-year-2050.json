@@ -1,0 +1,75 @@
+{
+    "authors": "Philip Gauglitz, Carsten Pape, David Geiger ",
+    "doi": "10.25835/0078894",
+    "doi_date_published": "2021-11-12",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": true,
+    "license_id": "CC-BY-3.0",
+    "license_title": "Creative Commons Attribution 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "maintainer": "Philip Gauglitz",
+    "maintainer_email": "philip.gauglitz@iee.fraunhofer.de",
+    "source_metadata_created": "2021-11-12T13:26:34.101927",
+    "source_metadata_modified": "2022-01-20T13:49:27.862261",
+    "metadata_modified": "2022-01-20T13:49:27.862261",
+    "name": "luh-scenario-data-wind-energy-nominal-capacity-and-energy-per-planning-region-scenario-year-2050",
+    "notes": "# Szenariendaten Windenergie: Nennleistung und Energieerzeugung je Planungsregion, Szenarienjahr 2050 (English version is below) #\r\n\r\nAbgebildet wird die Szenario-Variante 2 aus dem Forschungsprojekt \u201eKonkretisierung von Ansatzpunkten einer naturvertr\u00e4glichen Ausgestaltung der Energiewende, mit Blick auf strategische Stellschrauben (EE100-konkret)\u201c, in dessen Bericht (siehe Referenzen) ausf\u00fchrlich auf die genutzten Daten und Methodiken eingegangen wird. Die Shapefiles zeigen die Windenergie-Nennleistungen und Jahresenergieertr\u00e4ge f\u00fcr das Szenarienjahr 2050 auf Ebene der Planungsregionen.\r\n\r\nF\u00fcr eine \u00dcbersicht des zugrundeliegenden Modells sei auf die folgenden, wichtigsten Schritte verwiesen:\r\nNutzung der Potenzialfl\u00e4chen f\u00fcr einen mensch- und naturvertr\u00e4glichen Ausbau der Windenergie (geringer Raumwiderstand, [Thiele et al. 2021c](https://data.uni-hannover.de/dataset/dataset-areas-with-low-and-medium-spatial-vulnerability-to-a-prototype-wind-turbine)):\r\n\r\n* Annahme einer progressiven Technikentwicklung der Windenergieanlagen, insbesondere einer Steigerung der Nabenh\u00f6hen (siehe [Thiele et al. 2021b](https://www.bfn.de/sites/default/files/2021-09/Skript614.pdf))\r\n* Simulation eines iterativen Zubaus ausgehend vom \u201eRand\u201c der Fl\u00e4chen, um eine maximale Ausnutzung der Fl\u00e4chenpotentiale zu erreichen\r\n* Zusammenfassung der Anlagenleistungen in ein Raster, f\u00fcr das Windzeitreihen vorliegen\r\n* Modellierung einer Einspeisezeitreihe. F\u00fcr die Modellierung (Szenarienjahr 2050) wurden Windverh\u00e4ltnisse von 2012 (durchschnittliches Wetterjahr) genutzt.\r\n* Summierung und Darstellung der Energieertr\u00e4ge und Nennleistungen je Planungsregion \r\n\r\nDie verwendeten **Grundlagendaten** und die Methodik zur Erstellung des Datensatzes k\u00f6nnen aus Thiele et al. (2021a, [2021b](https://www.bfn.de/sites/default/files/2021-09/Skript614.pdf)) entnommen werden. F\u00fcr die Fl\u00e4chen  der Planungsregionen sind insbesondere zu nennen: GeoBasis-DE/BKG 2018 (Nutzungsbedingungen: https://sg.geodatenzentrum.de/web_public/nutzungsbedingungen.pdf);\r\n\r\nFelder der Shapedatei:\r\n\r\n* leistung: Leistung in MW\r\n* energy: Energieertrag (Szenarienjahr 2050, Wetterjahr 2012) in MWh/a \r\n* name: Name der Planungsregion\r\n\r\nInhaltliche R\u00fcckfragen zur Simulation der Windenergie: Philip Gauglitz philip.gauglitz@iee.fraunhofer.de\r\nR\u00fcckfragen zum Forschungsprojekt \u201eEE100-konkret\u201c: energie@umwelt.uni-hannover.de\r\n\r\n## English version ##\r\n\r\nThe scenario variant 2 from the research project \"Konkretisierung von Ansatzpunkten einer naturvertr\u00e4glichen Ausgestaltung der Energiewende, mit Blick auf strategische Stellschrauben (EE100-konkret)\" is shown, in whose report (see references) the used data and methodologies are described in detail. The shapefiles show the nominal power and produced energy of windturbines for the scenario year 2050 at the level of the planning regions.\r\n\r\nFor an overview of the underlying model, see the following, most important steps:\r\n\r\n* Using of potential areas with consideration of nature conservation.\r\n* Assumption of a progressive technology development of wind turbines, especially an increase of hub heights\r\n* Simulation of an iterative expansion from the \"edge\" of the areas, which leads to a good utilization of the area potentials\r\n* Summary of the turbine capacities in grid areas\r\n* Modeling of a feed-in time series for the scenario year 2050, using wind conditions from 2012 (average weather year)\r\n* Summation per planning region \r\n\r\nFields of the shapefile:\r\n\r\n* power: power in MW\r\n* energy: energy (scenario year 2050, weather year 2012) in MWh/a \r\n* name: Name of the planning region\r\n\r\nBasic data, see [Thiele et al. 2021b](https://www.bfn.de/sites/default/files/2021-09/Skript614.pdf) and GeoBasis-DE/BKG 2018 (Conditions of use: https://sg.geodatenzentrum.de/web_public/nutzungsbedingungen.pdf) \r\n\r\nQuestions regarding the content of the wind energy simulation: Philip Gauglitz philip.gauglitz@iee.fraunhofer.de\r\nQuestions regarding the content of the research project \u201cEE100-konkret\u201d: energie@umwelt.uni-hannover.de\r\n\r\n**Projected Coordinate System:** EPSG: 32632 \u2013 WGS 84 / UTM zone 32N, \r\n\r\n**Bounding Box:**\r\n280373.2005990038742311,5235855.4493043674156070 : 921293.4349051286699250,6101441.9262483771890402\r\n\r\n**Referenzen / References:**\r\n\r\n* Thiele, J.; Wiehe, J.; Gauglitz, P.; Lohr, C.; Bensmann, A.; Hanke-Rauschenbach, R.; Haaren, C. von (2021a): EE100 in Deutschland: Kann der Energiebedarf 2050 mensch- und naturvertr\u00e4glich gedeckt werden? In: Natur und Landschaft 96 (11): 517\u2013525. doi:10.19217/NuL2021-11-02\r\n* Thiele, J.; Wiehe, J.; Gauglitz, P.; Pape, C.; Lohr, C.; Bensmann, A. et al. (2021b): Konkretisierung von Ansatzpunkten einer naturvertr\u00e4glichen Ausgestaltung der Energiewende, mit Blick auf strategische Stellschrauben. \u201eNaturvertr\u00e4gliche Ausgestaltung der Energiewende\u201c (EE100-konkret). Bonn (BfN-Skripten, 614). Online verf\u00fcgbar unter https://www.bfn.de/sites/default/files/2021-09/Skript614.pdf, zuletzt gepr\u00fcft am 08.11.2021. DOI: 10.19217/skr614\r\n* Julia Thiele, Julia Wiehe, Christina von Haaren (2021c). Dataset: Areas with low and medium spatial vulnerability to a prototype wind turbine. https://doi.org/10.25835/0072778 \r\n\r\n**F\u00f6rderung / Funding:** \r\nDer Datensatz resultiert aus dem Forschungsprojekt \u201eKonkretisierung von Ansatzpunkten einer naturvertr\u00e4glichen Ausgestaltung der Energiewende, mit Blick auf strategische Stellschrauben (EE100-konkret)\u201c, das vom Bundesamt f\u00fcr Naturschutz aus Mitteln des Bundesumweltministeriums gef\u00f6rdert wurde (FKZ 3515 82 4300). The dataset resulted from the research project \"Konkretisierung von Ansatzpunkten einer naturvertr\u00e4glichen Ausgestaltung der Energiewende, mit Blick auf strategische Stellschrauben (EE100-konkret)\". \r\nThe project was funded by the Federal Agency for Nature Conservation (BfN) with funds from the Federal Ministry for the Environment, Nature Conservation and Nuclear Safety (BMU) (FKZ: 3517 86 0100).\r\n",
+    "num_resources": 1,
+    "num_tags": 2,
+    "organization": {
+        "id": "a6ac49d3-2eff-4f4d-bb17-709595cf72d7",
+        "name": "institut-fur-umweltplanung",
+        "title": "Institut f\u00fcr Umweltplanung ",
+        "type": "organization",
+        "description": "Institute of Environmental Planning\r\nHerrenh\u00e4user Str. 2, 30419 Hannover\r\n\r\nhttps://www.umwelt.uni-hannover.de ",
+        "image_url": "2021-08-05-071444.382087IUPbildmarke.png",
+        "created": "2020-10-07T11:44:50.728996",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "institut-fur-umweltplanung",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "energy transition",
+            "id": "469e0c4b-8b71-4a3b-b37b-90593abae855",
+            "name": "energy transition",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "wind energy",
+            "id": "b8d291af-b256-473b-96b3-337650e22a85",
+            "name": "wind energy",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "Scenario data wind energy: nominal capacity and energy per planning region, scenario year 2050",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/scenario-data-wind-energy-nominal-capacity-and-energy-per-planning-region-scenario-year-2050",
+    "version": "",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2021-11-12T13:30:51.825855",
+            "description": "Szenariendaten Windenergie (Variante 2, [EE100-konkret](https://www.bfn.de/sites/default/files/2021-09/Skript614.pdf)): Nennleistung und Energieerzeugung je Planungsregion, Szenarienjahr 2050 \r\n\r\nFelder der Shapedatei:\r\n* \u201eleistung\u201c: Leistung in MW\r\n* \u201eenergy\u201c: Energieertrag (Szenarienjahr 2050, Wetterjahr 2012) in MWh/a \r\n* \u201ename\u201c: Name der Planungsregion\r\n",
+            "format": "zip",
+            "last_modified": "2021-11-12T13:30:51.794765",
+            "mimetype": "application/zip",
+            "name": "Ergebnisse je Planungsregion.zip",
+            "position": 0,
+            "size": 4000808,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/8131e044-285a-48f1-845f-49e1771af086/resource/1699584a-0e91-42d5-9927-bd7c4b7e0b86/download/ergebnisse-je-planungsregion.zip",
+            "url_type": ""
+        }
+    ]
+}

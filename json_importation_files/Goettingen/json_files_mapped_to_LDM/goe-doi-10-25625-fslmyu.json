@@ -1,0 +1,151 @@
+{
+    "doi": "10.25625/FSLMYU",
+    "identifier_type": "DOI",
+    "doi_date_published": "2023",
+    "source_metadata_created": "2023",
+    "publication_year": "2023",
+    "title": "Quantitative magnetic resonance imaging of the nist phantom",
+    "organization": {
+        "approval_status": "approved",
+        "description": "G\u00f6ttingen Research Online is an institutional repository for the publication of research data at the G\u00f6ttingen Campus. It is managed by the G\u00f6ttingen eResearch Alliance, a joint group of SUB and GWDG. .",
+        "display_name": "G\u00f6ttingenResearchOnline",
+        "image_display_url": "logo-goettingen.png",
+        "image_url": "logo-goettingen.png",
+        "is_organization": true,
+        "name": "goettingen",
+        "state": "active",
+        "title": "G\u00f6ttingenResearchOnline",
+        "type": "organization"
+    },
+    "name": "goe-doi-10-25625-fslmyu",
+    "license_id": "http://creativecommons.org/licenses/by/4.0",
+    "license_title": "Creative Commons Attribution 4.0 International",
+    "notes": "Magnetic resonance imaging dataset of the T1 layer of the NIST Phantom Model 106 (https://doi.org/10.1002/mrm.28779) acquired with inversion-recovery balanced steady-state free-precession (IR-bSSFP), inversion-recovery fast low angle shot (IR-FLASH) sequences, inversion-recovery single-echo spin echo, single-echo spin echo, gradient echo and FLASH-based B1 mapping sequence with preconditioning RF pulse. The files are intended to be used with the Berkeley Advanced Reconstruction Toolbox (https://doi.org/10.5281/zenodo.592960). Each dataset consists of a ASCII Text-encoded header (.hdr) and a binary-encoded complex float file (.cfl).\ndata_GSM_t1 Type: Gold-Standard T1 measurement Object: Single-slice of the T1 spheres of the NIST phantom (Model 106) Sequence: IR Single-Echo Spin-Echo TR|TE [ms]: 10000|12 T_INV [ms]: 35 75 100 125 150 250 1000 1500 2000 3000 Inversion: Slice Selective Dimensions: 2 FOV [mm]: 192 Matrix size: 256x256 Receiver Bandwidth: 130 Hz/Px data_GSM_t2 Type: Gold-Standard T2 measurement Object: Single-slice of the T1 spheres of the NIST phantom (Model 106) Sequence: Single-Echo Spin-Echo TR|TE [ms]: 10000|(12 20 30 40 70 100 150 200 250 350) Dimensions: 2 FOV [mm]: 192 Matrix size: 256x256 Receiver Bandwidth: 130Hz/Px data_b0_gre Type: B0 Map Object: Single-slice of the T1 spheres of the NIST phantom (Model 106) Sequence: Two GRE Acquisitions with different TE, \"gre_field_mapping\" Sequence TR|TE1|TE2 [ms]: 400|4.92|7.38 Flipangle [deg]: 60 Dimensions: 2 FOV [mm]: 220 Matrix size: 256x256 Receiver Bandwidth: 849 Hz/Px data_b1_precond Type: B1 Map Object: Single-slice of the T1 spheres of the NIST phantom (Model 106) Sequence: Preconditioned RF pulse with TurboFLASH Readout TR|TE [ms]: 6830|2.25 FA [deg]: 8 FA preconditioning pulse [deg]: 80 Dimensions: 2 FOV [mm]: 220 Matrix size: 256x256 Receiver Bandwidth: 490 Hz/Px data_irflash Type: Radial Single-Shot Inversion-Recovery FLASH Object: Single-slice of the T1 spheres of the NIST phantom (Model 106) Sequence: IR FLASH TR|TE [ms]: 3.8|2.26 FA [deg]: 8 T_RF [ms]: 1 BWTP: 4 Inversion Block Length [ms]: 15 #Tiny GA: 7 Number of Radial Spokes: 1200 Inversion: Non-Selective Spoiling: Random RF Dimensions: 2 FOV [mm]: 220 Matrix size: 256x256 Receiver Bandwidth: 720 Hz/Px data_irbssfp Type: Radial Single-Shot Inversion-Recovery bSSFP Object: Single-slice of the T1 spheres of the NIST phantom (Model 106) Sequence: IR bSSFP TR|TE [ms]: 4.5|2.25 FA [deg]: 45 T_RF [ms]: 1 Inversion Block Length [ms]: 15 BWTP: 4 #Tiny GA: 7 Number of Radial Spokes: 1000 Inversion: Non-Selective Dimensions: 2 FOV [mm]: 220 Matrix size: 256x256 Receiver Bandwidth: 720 Hz/Px",
+    "publishers": [
+        {
+            "publisher": "GRO.data"
+        }
+    ],
+    "subject_areas": [
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Mathematical Sciences"
+        },
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Medicine, Health and Life Sciences"
+        },
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Physics"
+        }
+    ],
+    "resource_type": "Dataset",
+    "related_identifiers": [],
+    "tags": [
+        {
+            "display_name": "Mathematical Sciences",
+            "name": "Mathematical Sciences",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Medicine",
+            "name": "Medicine",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Health and Life Sciences",
+            "name": "Health and Life Sciences",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Physics",
+            "name": "Physics",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Model-Based Reconstruction",
+            "name": "Model-Based Reconstruction",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Magnetic Resonance Imaging",
+            "name": "Magnetic Resonance Imaging",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Multi-Parameter Mapping",
+            "name": "Multi-Parameter Mapping",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Single-Shot Acquisition",
+            "name": "Single-Shot Acquisition",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "QMRI",
+            "name": "QMRI",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Computational MRI",
+            "name": "Computational MRI",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Radial IR bSSFP",
+            "name": "Radial IR bSSFP",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Radial IR FLASH",
+            "name": "Radial IR FLASH",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "authors": [
+        {
+            "author": "Heide, Martin",
+            "givenName": "Martin",
+            "familyName": "Heide",
+            "orcid": ""
+        },
+        {
+            "author": "Scholand, Nick",
+            "givenName": "Nick",
+            "familyName": "Scholand",
+            "orcid": ""
+        },
+        {
+            "author": "Uecker, Martin",
+            "givenName": "Martin",
+            "familyName": "Uecker",
+            "orcid": ""
+        }
+    ],
+    "citation": [],
+    "doi_status": "True",
+    "owner_org": "goettingen",
+    "isopen": true,
+    "repository_name": "G\u00f6ttingen Research Online Data",
+    "type": "dataset",
+    "source_metadata_modified": "",
+    "url": "https://doi.org/10.25625/FSLMYU",
+    "doi_publisher": "",
+    "resources": [
+        {}
+    ]
+}

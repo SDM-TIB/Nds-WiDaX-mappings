@@ -1,0 +1,108 @@
+{
+    "doi": "10.25625/MCTZKS",
+    "identifier_type": "DOI",
+    "doi_date_published": "2024",
+    "source_metadata_created": "2024",
+    "publication_year": "2024",
+    "title": "An alternative grace-fo k-band ranging system level-1b dataset: aei- kbr1b v50",
+    "organization": {
+        "approval_status": "approved",
+        "description": "G\u00f6ttingen Research Online is an institutional repository for the publication of research data at the G\u00f6ttingen Campus. It is managed by the G\u00f6ttingen eResearch Alliance, a joint group of SUB and GWDG. .",
+        "display_name": "G\u00f6ttingenResearchOnline",
+        "image_display_url": "logo-goettingen.png",
+        "image_url": "logo-goettingen.png",
+        "is_organization": true,
+        "name": "goettingen",
+        "state": "active",
+        "title": "G\u00f6ttingenResearchOnline",
+        "type": "organization"
+    },
+    "name": "goe-doi-10-25625-mctzks",
+    "license_id": "http://creativecommons.org/publicdomain/zero/1.0",
+    "license_title": "Creative Commons Zero (CC0)",
+    "notes": "The Gravity Recovery and Climate Experiment (GRACE) and its Follow-On (GRACE-FO) satellite missions consist of two satellites for global time-varying gravity field detection, which adopted the K-Band Ranging System (KBR) as the key payload to measure the inter-satellite distance variations with the accuracy of micrometer level. The process of converting the raw phase data (KBR Level-1A) to the inter-satellite range (KBR Level-1B) is operationally completed by the Science Data System (SDS). SDS data products such as the KBR1B RL04 datasets are publicly available (e.g. ftps://isdcftp.gfz-potsdam.de). After re-analysing the measurement principles of the KBR system, the AEI team reprocessed the data from KBR1A to KBR1B based on the SDS release of KBR1A, CLK1B, GNI1B, SCA1B, and auxiliary files. This alternative KBR1B product is called KBR1B v50 and is provided in this repository. The data product uses the same YAML format as the SDS ( Wen et al, 2019. https://podaac-tools.jpl.nasa.gov/drive/files/allData/gracefo/docs/GRACE-FO_L1_Handbook.pdf). Compared to the SDS KBR1B data, KBR1B v50 incorporates the so-called (carrier) frequency variation correction (FVC) in biased distances, an improved light-time correction with less noise, and satellite center-of-mass shifts are taken into account in the antenna-offset correction. More details can be found in the related publication. The AEI-KBR1B v50 can be used for scale factor estimation of the Laser Ranging Interferometer (LRI) and gravity signals recovery.",
+    "publishers": [
+        {
+            "publisher": "GRO.data"
+        }
+    ],
+    "subject_areas": [
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Earth and Environmental Sciences"
+        }
+    ],
+    "resource_type": "Dataset",
+    "related_identifiers": [
+        {
+            "identifier": "https://podaac-tools.jpl.nasa.gov/drive/files/allData/gracefo/docs/GRACE-FO_L1_Handbook.pdf",
+            "identifier_type": "URL",
+            "relation_type": "IsPublishedIn",
+            "title": "Wen H, Gerhard K, William B, Meegyeong P, Carly S, Felix L (2019) Gravity recovery and climate experiment (GRACE) Follow-On (GRACE-FO) Level-1 data product user handbook. JPL D-56935"
+        }
+    ],
+    "tags": [
+        {
+            "display_name": "Earth and Environmental Sciences",
+            "name": "Earth and Environmental Sciences",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "GRACE Follow-On",
+            "name": "GRACE Follow-On",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "k-band ranging system",
+            "name": "k-band ranging system",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Level-1B",
+            "name": "Level-1B",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Albert-Einstein-Institut",
+            "name": "Albert-Einstein-Institut",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "authors": [
+        {
+            "author": "Yan, Yihao",
+            "givenName": "Yihao",
+            "familyName": "Yan",
+            "orcid": ""
+        },
+        {
+            "author": "Vitali M\u00fcller",
+            "givenName": "Vitali",
+            "familyName": "M\u00fcller",
+            "orcid": ""
+        },
+        {
+            "author": "Gerhard Heinzel",
+            "givenName": "Gerhard",
+            "familyName": "Heinzel",
+            "orcid": ""
+        }
+    ],
+    "citation": [],
+    "doi_status": "True",
+    "owner_org": "goettingen",
+    "isopen": true,
+    "repository_name": "G\u00f6ttingen Research Online Data",
+    "type": "dataset",
+    "source_metadata_modified": "",
+    "url": "https://doi.org/10.25625/MCTZKS",
+    "doi_publisher": "",
+    "resources": [
+        {}
+    ]
+}

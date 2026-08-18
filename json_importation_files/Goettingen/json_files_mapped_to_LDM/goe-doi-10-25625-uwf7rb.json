@@ -1,0 +1,121 @@
+{
+    "doi": "10.25625/UWF7RB",
+    "identifier_type": "DOI",
+    "doi_date_published": "2023",
+    "source_metadata_created": "2023",
+    "publication_year": "2023",
+    "title": "Vibrating plates dataset",
+    "organization": {
+        "approval_status": "approved",
+        "description": "G\u00f6ttingen Research Online is an institutional repository for the publication of research data at the G\u00f6ttingen Campus. It is managed by the G\u00f6ttingen eResearch Alliance, a joint group of SUB and GWDG. .",
+        "display_name": "G\u00f6ttingenResearchOnline",
+        "image_display_url": "logo-goettingen.png",
+        "image_url": "logo-goettingen.png",
+        "is_organization": true,
+        "name": "goettingen",
+        "state": "active",
+        "title": "G\u00f6ttingenResearchOnline",
+        "type": "organization"
+    },
+    "name": "goe-doi-10-25625-uwf7rb",
+    "license_id": "http://creativecommons.org/licenses/by-nc/4.0",
+    "license_title": "Creative Commons Attribution-NonCommercial 4.0 International",
+    "notes": "Dataset accompanying \"Learning to Predict Structural Vibrations\". Note: To have an initial look at the dataset, we recommend downloading the file G5000_BCFP_1000_test.h5. It contains only 1000 samples which reduces the file size. To better locate the files to download select change view: Tree. The dataset features a total of 12,000 plate geometries, each with an associated numerical solution for 300 frequencies. It is composed of two settings, V-5000 and G-5000. Each setting contains 5,000 training samples and 1,000 test samples. The accompanying paper describes the evaluation procedure for quantifying prediction quality, as well as the mechanical model and process used to generate the dataset. In addition, a dataset with 50,000 plate geometries and associated solutions for only 15 randomly selected frequencies is provided. The data is saved in the hdf5 file format and compressed with the \"Blosc\" compression filter from the hdf5plugin python package. Include \"import hdf5plugin\" to be able to read the files. [\"bead_patterns\", z_vel_mean_sq\", \"z_vel_abs\", \"phy_para\", \"frequencies\"] are the keys to access the mesh geometry, the frequency response, velocity fields, the scalar properties and the frequencies for frequency response and velocity fields respectively.",
+    "publishers": [
+        {
+            "publisher": "GRO.data"
+        }
+    ],
+    "subject_areas": [
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Computer and Information Science"
+        },
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Engineering"
+        },
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Physics"
+        }
+    ],
+    "resource_type": "Dataset",
+    "related_identifiers": [],
+    "tags": [
+        {
+            "display_name": "Computer and Information Science",
+            "name": "Computer and Information Science",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Engineering",
+            "name": "Engineering",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Physics",
+            "name": "Physics",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Vibroacoustics",
+            "name": "Vibroacoustics",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Vibrating plates",
+            "name": "Vibrating plates",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "authors": [
+        {
+            "author": "van Delden, Jan",
+            "givenName": "Jan",
+            "familyName": "van Delden",
+            "orcid": ""
+        },
+        {
+            "author": "Schultz, Julius",
+            "givenName": "Julius",
+            "familyName": "Schultz",
+            "orcid": ""
+        },
+        {
+            "author": "Blech, Christopher",
+            "givenName": "Christopher",
+            "familyName": "Blech",
+            "orcid": ""
+        },
+        {
+            "author": "Langer, Sabine C.",
+            "givenName": "Sabine C.",
+            "familyName": "Langer",
+            "orcid": ""
+        },
+        {
+            "author": "L\u00fcddecke, Timo",
+            "givenName": "Timo",
+            "familyName": "L\u00fcddecke",
+            "orcid": ""
+        }
+    ],
+    "citation": [],
+    "doi_status": "True",
+    "owner_org": "goettingen",
+    "isopen": true,
+    "repository_name": "G\u00f6ttingen Research Online Data",
+    "type": "dataset",
+    "source_metadata_modified": "",
+    "url": "https://doi.org/10.25625/UWF7RB",
+    "doi_publisher": "",
+    "resources": [
+        {}
+    ]
+}

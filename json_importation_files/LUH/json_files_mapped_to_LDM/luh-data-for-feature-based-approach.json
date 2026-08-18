@@ -1,0 +1,117 @@
+{
+    "authors": "Mariem Ben Salem, Alfred Jose Puthoor, Kristin Miriam de Payrebrune, and Volker Boess",
+    "doi": "10.25835/qadnua03",
+    "doi_date_published": "2026-07-10",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": false,
+    "license_id": "CC-BY-NC-SA-4.0",
+    "license_title": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "maintainer": "Volker Boess",
+    "maintainer_email": "Boess@ifw.uni-hannover.de",
+    "source_metadata_created": "2026-07-09T07:23:15.752806",
+    "source_metadata_modified": "2026-07-10T14:08:33.555897",
+    "metadata_modified": "2026-07-10T14:08:33.555897",
+    "name": "luh-data-for-feature-based-approach",
+    "notes": "This Set provides supplementary data for the paper \"A feature-based approach for efficient residual stress prediction in additively manufactured components\". The Dataset contains the simulated residual stress fields of 21 3 \u00d7 3 neighborhood configurations (features), the residual stress field of a full reference workpiece, and a Jupyter notebook demonstrating data import, analysis, and plotting.\r\n\r\nAll results were obtained from macro-scale thermo-mechanically coupled PBF-LB simulations in Julia, performed on the LUIS computing cluster of Leibniz University Hannover. The model couples a transient heat conduction problem with a temperature-dependent elasto-plastic mechanical formulation for Ti-6Al-4V. The scan strategy is neglected; the entire layer is heated uniformly to melt temperature and subsequently cooled to room temperature. The results are provided as VTK files (.vtr, readable e.g. with ParaView) containing the stress tensor (S, 6 components), total and plastic strain (E, pE), displacement (U), von Mises equivalent stress (J2), temperature (T), and material state (M_cur).\r\n\r\nThe 21 feature datasets (folder \"small_shapes\") contain the simulation results of the 3 \u00d7 3 neighborhood configurations occurring in the reference workpiece. Each shape is named by a 9-character code of I (filled) and O (empty), describing the 3 \u00d7 3 grid of cells read row by row, with the always-filled center cell as the 5th character (e.g. \"IIIIIIIII\" for the fully filled configuration). Each cell measures 1.5 mm (100 \u00d7 100 grid points at 15 \u00b5m spacing), resulting in a 300 \u00d7 300 in-plane footprint on a mesh of 369 \u00d7 370 \u00d7 6 cells. Results are stored per shape and time frame, where the 9-digit frame number is an increasing timestamp. For evaluation, only time stamp 001117469 is used, for which the temperature is again cooled down to room temperature. The central cell, whose stress state is extracted for the feature lookup table, is located at the in-plane corner indices (x, y) = (137\u2013236, 138\u2013237) (1-indexed, part layer z = 2) in all shapes.\r\n\r\nThe reference dataset (\"big_shape_001117469.vtr\") contains the simulation result of the full reference workpiece, computed directly with the identical model and boundary conditions for comparison. The mesh comprises 969 \u00d7 869 \u00d7 6 cells; the printed part occupies 600 \u00d7 700 grid points (a 6 \u00d7 7 grid of the same 100 \u00d7 100 cells), starting at in-plane index x = 136, y = 136 (0-indexed).\r\n\r\nThe Jupyter notebook \"viewresults.ipynb\" demonstrates the data import, the extraction of the central cell from the feature simulations, its rotation and mirroring according to the local neighborhood configuration, and the assembly of the stress field into the geometry of the reference workpiece. Additional functions are stored in the file bitmaphelper.py. Required Python modules are listed in \"requirements.txt\" (Python 3.12.10).\r\n\r\nThis work was funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) \u2013 Project-ID 511263698 \u2013 TRR 375.",
+    "num_resources": 1,
+    "num_tags": 8,
+    "organization": {
+        "id": "29bdcb44-4764-4e37-b917-9b6655124a70",
+        "name": "sfb-trr-375",
+        "title": "SFB/TRR 375",
+        "type": "organization",
+        "description": "HyPoSonderforschungsbereich-Transregio 375: Multifunktionale Hochleistungskomponenten aus hybriden por\u00f6sen Werkstoffen\r\n",
+        "image_url": "",
+        "created": "2026-02-19T12:06:52.924092",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "sfb-trr-375",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "AM",
+            "id": "6da75f08-29bd-4381-9d94-b327e4d4beba",
+            "name": "AM",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Additive manufacturing",
+            "id": "b752f966-8b40-4a18-a791-53efcc1fc155",
+            "name": "Additive manufacturing",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Computational efficiency",
+            "id": "8b592628-be88-4051-8c4e-4c46ea965231",
+            "name": "Computational efficiency",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Feature-based simulation",
+            "id": "8da8c21b-e9bd-4121-90cb-a7d3f2707e1a",
+            "name": "Feature-based simulation",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "PBF-LB",
+            "id": "8ecce870-b046-4d14-b8b2-a53b9bd4aefa",
+            "name": "PBF-LB",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Powder Bed Fusion",
+            "id": "940accae-a382-437d-b9f3-610296e87fbf",
+            "name": "Powder Bed Fusion",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Residual stress",
+            "id": "2fad91da-d6ae-4849-8359-5ce40f668fbb",
+            "name": "Residual stress",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Thermo-mechanical model",
+            "id": "30fb2aa7-9bd8-496e-8473-e25d3fda25a0",
+            "name": "Thermo-mechanical model",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "Data for \"A feature-based approach for efficient residual stress prediction in additively manufactured components\"",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/data-for-feature-based-approach",
+    "version": "",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2026-07-10T14:08:33.565909",
+            "description": "",
+            "format": "zip",
+            "last_modified": "2026-07-10T14:08:33.545516",
+            "mimetype": "application/zip",
+            "name": "Data for \"A feature-based approach for efficient residual stress prediction in additively manufactured components\"",
+            "position": 0,
+            "size": 938728394,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/de/dataset/f24414ed-ca51-4f3a-b8cc-08d5d45f76ed/resource/c5f72569-6d1d-43e3-9a35-1c9a232c3412/download/data_for_featurebasedstress_method.zip",
+            "url_type": ""
+        }
+    ]
+}

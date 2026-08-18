@@ -1,0 +1,100 @@
+{
+    "doi": "10.25625/BWYBNK",
+    "identifier_type": "DOI",
+    "doi_date_published": "2018",
+    "source_metadata_created": "2018",
+    "publication_year": "2018",
+    "title": "Meta-analysis data extracted from iqwig publications",
+    "organization": {
+        "approval_status": "approved",
+        "description": "G\u00f6ttingen Research Online is an institutional repository for the publication of research data at the G\u00f6ttingen Campus. It is managed by the G\u00f6ttingen eResearch Alliance, a joint group of SUB and GWDG. .",
+        "display_name": "G\u00f6ttingenResearchOnline",
+        "image_display_url": "logo-goettingen.png",
+        "image_url": "logo-goettingen.png",
+        "is_organization": true,
+        "name": "goettingen",
+        "state": "active",
+        "title": "G\u00f6ttingenResearchOnline",
+        "type": "organization"
+    },
+    "name": "goe-doi-10-25625-bwybnk",
+    "license_id": "http://creativecommons.org/publicdomain/zero/1.0",
+    "license_title": "Creative Commons Zero (CC0)",
+    "notes": "This data set contains data on 40 meta-analyses extracted from publications by the German Institute for Quality and Efficiency in Health Care (Institut f\u00fcr Qualit\u00e4t und Wirtschaftlichkeit im Gesundheitswesen; IQWiG). In April 2017, IQWiG publications were screened chronologically, starting with the most recent one. Each publication was searched for reported meta-analyses involving binary endpoints, and non-zero event counts in all study arms, and the first qualifying analysis within each report was entered into the database. The search was continued (going back to March 2012) until a total of 40 analyses had been found. For more details see also the related publication referenced below (Seide et al., 2018). The data set consists of two CSV files; the first one, IQWiG-metadata.csv, contains metadata regarding each of the 40 meta-analyses; these are in particular the following variables (columns): no: running number identifier: IQWiG project identifier date: publication date of IQWiG project report endpoint: name of endpoint page: page number in IQWiG project report studies: number of studies included in the meta-analysis effect.measure: effect measure used The second file, IQWiG-data.csv, contains the actual count data from 131 individual studies that went into the 40 meta-analyses (each row corresponding to a study that was meta-analysed, and several rows corresponding to each meta-analysis). It contains the following variables (columns): no: running number identifier: IQWiG project identifier study: study label treat.events: number of events in the treatment group treat.total: total number of cases in the treatment group control.events: number of events in the control group control.total: total number of cases in the control group Running number and identifier allow to match the entries from both files.",
+    "publishers": [
+        {
+            "publisher": "GRO.data"
+        }
+    ],
+    "subject_areas": [
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Mathematical Sciences"
+        },
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Medicine, Health and Life Sciences"
+        }
+    ],
+    "resource_type": "Dataset",
+    "related_identifiers": [
+        {
+            "identifier": "https://doi.org/10.1186/s12874-018-0618-3",
+            "identifier_type": "URL",
+            "relation_type": "IsPublishedIn",
+            "title": "S. E. Seide, C. R\u00f6ver, T. Friede. Likelihood-based random-effects meta-analysis with few studies: Empirical and simulation studies. BMC Medical Research Methodology 19:16, 2019."
+        }
+    ],
+    "tags": [
+        {
+            "display_name": "Mathematical Sciences",
+            "name": "Mathematical Sciences",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Medicine",
+            "name": "Medicine",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Health and Life Sciences",
+            "name": "Health and Life Sciences",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "authors": [
+        {
+            "author": "Seide, Svenja E.",
+            "givenName": "Svenja E.",
+            "familyName": "Seide",
+            "orcid": ""
+        },
+        {
+            "author": "R\u00f6ver, Christian",
+            "givenName": "Christian",
+            "familyName": "R\u00f6ver",
+            "orcid": ""
+        },
+        {
+            "author": "Friede, Tim",
+            "givenName": "Tim",
+            "familyName": "Friede",
+            "orcid": ""
+        }
+    ],
+    "citation": [],
+    "doi_status": "True",
+    "owner_org": "goettingen",
+    "isopen": true,
+    "repository_name": "G\u00f6ttingen Research Online Data",
+    "type": "dataset",
+    "source_metadata_modified": "",
+    "url": "https://doi.org/10.25625/BWYBNK",
+    "doi_publisher": "",
+    "resources": [
+        {}
+    ]
+}

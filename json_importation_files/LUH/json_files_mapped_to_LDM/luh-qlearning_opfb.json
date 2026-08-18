@@ -1,0 +1,102 @@
+{
+    "authors": "Mohammad Alsalti, Victor G. Lopez, Matthias A. M\u00fcller",
+    "doi": "10.25835/zmlriehg",
+    "doi_date_published": "2023-12-06",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": false,
+    "license_id": "CC-BY-NC-3.0",
+    "license_title": "Creative Commons Attribution-NonCommercial 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/3.0/",
+    "maintainer": "Mohammad Alsalti",
+    "maintainer_email": "",
+    "source_metadata_created": "2023-12-06T08:53:55.550673",
+    "source_metadata_modified": "2023-12-06T12:31:37.199480",
+    "metadata_modified": "2023-12-06T12:31:37.199480",
+    "name": "luh-qlearning_opfb",
+    "notes": "We provide supplementary code material to our recent paper \"An efficient data-based off-policy Q-learning algorithm for optimal output feedback control of linear systems\".\r\n\r\nThe provided matlab codes contain a comparison between our proposed Qlearning algorithm and an existing SDP-based method. To reproduce the results of Table I, you can run the file 'comparison_QL_SDP.m'. Note that CVX is required to run the SDP-based method, see (http://cvxr.com/cvx/) for details.",
+    "num_resources": 2,
+    "num_tags": 4,
+    "organization": {
+        "id": "e0b4ad00-c048-4a29-9d1f-909464f66a96",
+        "name": "institut-fur-regelungstechnik",
+        "title": "Institut f\u00fcr Regelungstechnik",
+        "type": "organization",
+        "description": "# Leibniz Universit\u00e4t Hannover\r\n\r\n## Institut f\u00fcr Regelungstechnik\r\n\r\nAppelstr. 11 (2. OG)\r\n\r\n30167 Hannover\r\n\r\nTel. +49 511 762-4512\r\nFax +49 511 762-4536\r\noffice@irt.uni-hannover.de\r\n",
+        "image_url": "",
+        "created": "2021-07-09T09:37:06.515819",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "institut-fur-regelungstechnik",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "Data-based control",
+            "id": "04a04577-3e67-453e-af4f-323c4d6cca81",
+            "name": "Data-based control",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Q-learning",
+            "id": "2440c546-2125-4172-8038-3b455e4d1145",
+            "name": "Q-learning",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "optimal output regulation",
+            "id": "c11f4a38-de3c-47f8-847a-2608589f1c79",
+            "name": "optimal output regulation",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "reinforcement learning",
+            "id": "e22c22c7-d98e-4bbd-bd09-5e59e9452168",
+            "name": "reinforcement learning",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "An efficient data-based off-policy Q-learning algorithm for optimal output feedback control of linear systems",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/qlearning_opfb",
+    "version": "",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2023-12-06T08:55:24.578390",
+            "description": "",
+            "format": "zip",
+            "last_modified": "2023-12-06T08:55:24.547481",
+            "mimetype": "application/zip",
+            "name": "Qlearning_OPFB",
+            "position": 0,
+            "size": 19723,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/94744189-38c4-49fc-979c-ceb9c5e2d886/resource/d638ca24-51c7-42b6-a06b-8a3c86784690/download/qlearning_code.zip",
+            "url_type": ""
+        },
+        {
+            "created": "2023-12-06T12:31:37.216713",
+            "description": "",
+            "format": "pdf",
+            "last_modified": "2023-12-06T12:31:37.180405",
+            "mimetype": "application/pdf",
+            "name": "QlearningOF_preprint.pdf",
+            "position": 1,
+            "size": 253879,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/94744189-38c4-49fc-979c-ceb9c5e2d886/resource/21b81b91-05ad-4528-ba07-dc8e6689bf70/download/qlearning_of.pdf",
+            "url_type": ""
+        }
+    ]
+}

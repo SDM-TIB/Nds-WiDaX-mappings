@@ -1,0 +1,70 @@
+{
+    "doi": "10.25625/IWHFEY",
+    "identifier_type": "DOI",
+    "doi_date_published": "2026",
+    "source_metadata_created": "2026",
+    "publication_year": "2026",
+    "title": "Application-agnostic provenance auditing for hpc systems using libc interposition",
+    "organization": {
+        "approval_status": "approved",
+        "description": "G\u00f6ttingen Research Online is an institutional repository for the publication of research data at the G\u00f6ttingen Campus. It is managed by the G\u00f6ttingen eResearch Alliance, a joint group of SUB and GWDG. .",
+        "display_name": "G\u00f6ttingenResearchOnline",
+        "image_display_url": "logo-goettingen.png",
+        "image_url": "logo-goettingen.png",
+        "is_organization": true,
+        "name": "goettingen",
+        "state": "active",
+        "title": "G\u00f6ttingenResearchOnline",
+        "type": "organization"
+    },
+    "name": "goe-doi-10-25625-iwhfey",
+    "license_id": "http://creativecommons.org/publicdomain/zero/1.0",
+    "license_title": "Creative Commons Zero (CC0)",
+    "notes": "Reproducibility is fundamental to scientific integrity, and as computational experiments grow in complexity, systematically recording the data consumed, software invoked, and environment in which execution occurred becomes increasingly critical. This challenge is especially pronounced in High-Performance Computing environments, where workflows span multiple nodes, coordinated through job schedulers, and operate at a scale that makes manual documentation entirely infeasible. Existing Provenance Auditing Tools were designed for general-purpose systems and fail to meet the combined requirements of HPC deployment, namely low overhead, transparency to the user, integration with job schedulers, applicability across a broad spectrum of computations, and compatibility with data lake storage for long-term artifact preservation. A gap analysis of thirty existing tools conducted in earlier work found that no publicly available system satisfies all of these criteria simultaneously. This thesis presents the design and implementation of a Provenance Auditing Tool purpose-built for HPC. The tool uses libc interposition via LD_PRELOAD to transparently capture file access operations and process relationships across entire jobs without requiring modifications to user code or applications. Provenance data is stored in a database and made accessible through interfaces for querying prior jobs, generating graphical dependency overviews, and restoring earlier file states to enable rerunning of previous computations, with artifacts preserved in a data lake. Validation demonstrates correct behavior for C and Python workloads including com- plex process trees, but also reveals that even minimal instrumentation causes reproducible crashes in highly concurrent applications, indicating that libc interposition cannot be assumed universally safe in production HPC environments. Performance evaluation identifies file descriptor path resolution as the dominant source of overhead, a bottleneck shared by comparable tools and addressable by delegating resolution to a background thread. The results motivate a transition toward modern kernel instrumentation as the most promising direction for future work. While kernel instrumentation has been used numerous times for provenance auditing, publicly available approaches were not developed with the specific constraints of HPC environments in mind. Modern mechanisms in this area offer universal applicability and do not interfere with host processes, and could be integrated directly into the processing and storage architecture developed in this thesis.",
+    "publishers": [
+        {
+            "publisher": "GRO.data"
+        }
+    ],
+    "subject_areas": [
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Computer and Information Science"
+        }
+    ],
+    "resource_type": "Dataset",
+    "tags": [
+        {
+            "display_name": "Computer and Information Science",
+            "name": "Computer and Information Science",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "HPC",
+            "name": "HPC",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "authors": [
+        {
+            "author": "Barnsorf, Maxim",
+            "givenName": "Maxim",
+            "familyName": "Barnsorf",
+            "orcid": ""
+        }
+    ],
+    "citation": [],
+    "doi_status": "True",
+    "owner_org": "goettingen",
+    "isopen": true,
+    "repository_name": "G\u00f6ttingen Research Online Data",
+    "type": "dataset",
+    "source_metadata_modified": "",
+    "url": "https://doi.org/10.25625/IWHFEY",
+    "doi_publisher": "",
+    "resources": [
+        {}
+    ]
+}

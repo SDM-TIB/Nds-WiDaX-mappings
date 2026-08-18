@@ -1,0 +1,85 @@
+{
+    "authors": "Fritz Webering, Nils Stanislawski",
+    "doi": "10.25835/oimsodoy",
+    "doi_date_published": "2023-07-14",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": true,
+    "license_id": "CC0-1.0",
+    "license_title": "CC0 1.0 Universal",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "maintainer": "Fritz Webering",
+    "maintainer_email": "fritz.webering@ims.uni-hannover.de",
+    "source_metadata_created": "2023-07-14T09:41:15.175324",
+    "source_metadata_modified": "2023-07-24T11:17:31.772865",
+    "metadata_modified": "2023-07-24T11:17:31.772865",
+    "name": "luh-openaxes-example-calibration-dataset",
+    "notes": "**This is an example dataset recorded using version 1.0 of the [open-source-hardware OpenAXES IMU](https://github.com/OpenAXES-IMU/OpenAXES). Please see the github repository for more information on the hardware and firmware.**\r\n\r\nThis dataset contains calibration sequences of four OpenAXES IMUs, which were performed using the icosahedral calibration fixture described in the OpenAXES repository and paper.\r\nFor each IMU, five logs were recorded using the icosahedral calibration fixture according to the procedure described [below](#dataset-recording).\r\nThese can be found in the `logs` subdirectory.\r\n\r\nAdditionally, the `cuboid_logs` directory contains two logs for each IMU in which the device was only placed on the flat faces of the 3D-printed case.\r\nAs stated in the preprint, these are not useful for calibration and yield no usable calibration results.\r\nThey are only provided for completeness.\r\n\r\nThe `openaxes_example_calibration_dataset` subdirectory also contains the MATLAB scripts which were used to evaluate the dataset for [our preprint][3].\r\nThe script `coefficients-from-mat-files.py` can be used to extract the calibration coefficients from the `.mat` files.\r\n\r\n\r\n## Evaluation\r\n\r\nThe `matlab_eval` subdirectory contains the scripts used to calculate the evaluation data presented in [our preprint][3].\r\nTo run it, you need the patched `imu_tk_matlab` code from the [OpenAXES repository](https://github.com/OpenAXES-IMU/OpenAXES) see the file [`/calibration/README.md`](https://github.com/OpenAXES-IMU/OpenAXES/blob/main/calibration/README.md) there.\r\n\r\n\r\n## Dataset Recording\r\n\r\nThe example dataset was recorded for all four IMUs according to the procedure detailed below.\r\n\r\n1. Make the environment as still as possible, for example:\r\n   1. Choose a stury surface on which to perform the calibration, i.e. not a flimsy table that vibrates and sways with each touch.\r\n   2. Avoid touching the surface on which you are working during the whole calibration procedure.\r\n   3. Avoid walking around or moving on your chair during the whole calibration procedure.\r\n   4. Remove all other people and other sources of movement from the room.\r\n2. Insert the IMU into the 3D-printed case\r\n3. Insert the case fully into the calibration fixture\r\n4. Place the fixture on a flat surface in front of the operator who will perform the calibration movements\r\n   A. Place the face with digit 1 facing upwards toward the ceiling\r\n   B. Orient the digit 1 such that the operator can read it naturally (top side of the digit facing away from the operator).\r\n5. Start recording the data with the following command:\r\n   ```\r\n   imu_control.py  imuX -b --still=3 --reset --skip=50 --mode=INDEX,ACCEL_ADXL355,ACCEL_BMI160,GYRO\r\n   ```\r\n   This command will start recording the raw accelerometer and gyroscope data from both inertial sensor chips on the IMU, along with an increasing 16 bit counter.\r\n   * The argument `imuX` must be substituted with the designator of the IMU that is to be calibrated.\r\n   * The flag `-b` will print battery state information to the console before the measurement starts.\r\n   * The flag `--reset` will reset the internal state of the IMU before starting the measurement, specifically: *\r\n     * Re-initialize the sensor ICs, e.g. performing gyroscope offset compensation\r\n     * Reset the quaternion by calculating a new initial quaternion from the accelerometer data.\r\n     * Reset the 16 bit INDEX counter\r\n   * The argument `--still=3` emit a beeping sound when the IMU has lain still for 3 seconds after the last detected movement, prompting the operator to perform the next movement.\r\n   * The argument `--skip=50` will discard the first 50 GATT notifications received, which corresponds to about half a second of data.\r\n     This is necessary because the likelihood of packet loss is far greater at the beginning of the transmission due to unknown reasons.\r\n6. Leave the IMU still on the surface for 40 seconds\r\n7. Rotate the icosahedron such that the next numbered side faces up and is oriented correctly readable for the operator.\r\n   * (_note:_ face number 2 contains the cutout for the IMU case and has no number)\r\n   * It is helpful to draw a small arrow on each face, which points in the general direction of the next number, to speed up the time needed to find the correct face.\r\n   * The movements should be practiced a few times to ensure smooth execution, because long periods of fumbling will increase the total calibration time, which might decrease the accuracy of the method.\r\n8. Place the rotated icosahedron back on the flat surface and let it rest completely motionless until the beeping sound indicates that the static phase has been detected.\r\n9. Again, make sure not to touch the table, walk around, or move on your chair during the still phase.\r\n10. Repeat steps 7-9 for the next numbered face up until number 20.\r\n11. After the first 20 faces, repeat steps 6-7 another 17-20 times, but rotate the icosahedron to a random face instead of the next numbered face.\r\n12. After 37-40 faces, stop the recording by pressing `Ctrl+C` in the terminal running `imu_control.py`.\r\n\r\n[1]: https://doi.org/10.1109/ICRA.2014.6907297 \"Paper 'A robust and easy to implement method for IMU calibration without external equipments' by Tedaldi et al.\"\r\n[2]: https://github.com/JzHuai0108/imu_tk_matlab \"Matlab scripts of David Tedaldi's ICRA14 paper, a robust and easy to implement method for IMU calibration by Jianzhu Huai\"\r\n[3]: https://arxiv.org/pdf/2207.04801.pdf \"Preprint 'Improved Calibration Procedure for Wireless Inertial\r\nMeasurement Units without Precision Equipment' by Webering et al.\"\r\n[4]: https://bitbucket.org/alberto_pretto/imu_tk \"The original imu_tk C++ implementation\"",
+    "num_resources": 2,
+    "num_tags": 2,
+    "organization": {
+        "id": "0ec324c0-e852-4ac9-a19b-5dd307b8a8bd",
+        "name": "institut-fuer-mikroelektronische-systeme",
+        "title": "Institut fuer Mikroelektronische Systeme",
+        "type": "organization",
+        "description": "Institut f\u00fcr Mikroelektronische Systeme\r\nAppelstra\u00dfe 4\r\n30167 Hannover\r\nhttps://www.ims.uni-hannover.de/",
+        "image_url": "",
+        "created": "2018-07-24T14:10:06.799492",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "institut-fuer-mikroelektronische-systeme",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "imu",
+            "id": "5de2c742-e817-4fd7-8221-e8398c135014",
+            "name": "imu",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "sensors",
+            "id": "9707ce98-3e84-42ca-83f2-9ed8501a0e80",
+            "name": "sensors",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "OpenAXES Example Calibration Dataset",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/openaxes-example-calibration-dataset",
+    "version": "1.0",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2023-07-14T09:42:06.937545",
+            "description": "The hardware and firmware source files for the OpenAXES IMUs used for recording this dataset.",
+            "format": "",
+            "name": "OpenAXES Repository",
+            "position": 0,
+            "state": "active",
+            "url": "https://github.com/OpenAXES-IMU/OpenAXES",
+            "url_type": ""
+        },
+        {
+            "created": "2023-07-14T09:45:02.771507",
+            "description": "The calibration dataset itself.",
+            "format": "zip,csv,mat",
+            "last_modified": "2023-07-14T09:45:02.723926",
+            "mimetype": "application/zip",
+            "name": "openaxes_example_calibration_dataset.zip",
+            "position": 1,
+            "size": 14747637,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/655d937b-8368-4cdc-8e7c-2403bddf93d5/resource/3c25cbc1-cab7-4107-907c-9198ef6f0334/download/openaxes_example_calibration_dataset.zip",
+            "url_type": ""
+        }
+    ]
+}

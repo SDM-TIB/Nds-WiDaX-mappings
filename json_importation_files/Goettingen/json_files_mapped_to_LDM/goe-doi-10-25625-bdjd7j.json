@@ -1,0 +1,105 @@
+{
+    "doi": "10.25625/BDJD7J",
+    "identifier_type": "DOI",
+    "doi_date_published": "2021",
+    "source_metadata_created": "2021",
+    "publication_year": "2021",
+    "title": "Learned ie thesis: docker image",
+    "organization": {
+        "approval_status": "approved",
+        "description": "G\u00f6ttingen Research Online is an institutional repository for the publication of research data at the G\u00f6ttingen Campus. It is managed by the G\u00f6ttingen eResearch Alliance, a joint group of SUB and GWDG. .",
+        "display_name": "G\u00f6ttingenResearchOnline",
+        "image_display_url": "logo-goettingen.png",
+        "image_url": "logo-goettingen.png",
+        "is_organization": true,
+        "name": "goettingen",
+        "state": "active",
+        "title": "G\u00f6ttingenResearchOnline",
+        "type": "organization"
+    },
+    "name": "goe-doi-10-25625-bdjd7j",
+    "license_id": "http://creativecommons.org/publicdomain/zero/1.0",
+    "license_title": "Creative Commons Zero (CC0)",
+    "notes": "This dataset contains a Docker image for reproducing the numerical experiments in the PhD thesis Title: Learned infinite elements for helioseismology Author: Janosch Preu\u00df Advisors: Prof. Christoph Lehrenfeld, Prof. Thorsten Hohage, Dr. Damien Fournier Doctoral programme: Georg-August University School of Science (GAUSS) It includes all software and most of the data for the reproduction. To keep the image of a reasonable size, the remaining data has been uploaded in the following datasets on GRO.data: Learned IE thesis: Comparison of different atmospheric models for helioseismology Learned IE thesis: Comparison of transparent boundary conditions for the Atmo model Learned IE thesis: Transparent boundary conditions for the VAL-C model There is no need for action from the user here since the docker image contains scripts which automatically download this data for further postprocessing if required. The image was built based on the github repository https://gitlab.gwdg.de/learned_infinite_elements/diss_jp_repro at commit: ac895f4a341444e5eb186d93276345578ef765a1. The tarball diss_jp_repro.tar.gz contains an archive of this repository. A README file is included in the repository as well as in the docker image learnedIE_diss_repro.tar, which contains detailed instructions (which commands to execute and so on) on how to obtain the results given in the thesis. An online version of the README file can be found here. The image can additionally be found on Docker Hub: janosch2888/diss_jp:191021. Important note: If you have a problem with downloading the docker image, please use the alternative URL https://data.goettingen-research-online.de/download/learnedIE_diss_repro.tar .",
+    "publishers": [
+        {
+            "publisher": "GRO.data"
+        }
+    ],
+    "subject_areas": [
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Astronomy and Astrophysics"
+        },
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Mathematical Sciences"
+        }
+    ],
+    "resource_type": "Dataset",
+    "related_identifiers": [],
+    "tags": [
+        {
+            "display_name": "Astronomy and Astrophysics",
+            "name": "Astronomy and Astrophysics",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Mathematical Sciences",
+            "name": "Mathematical Sciences",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "65N30",
+            "name": "65N30",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "35L05",
+            "name": "35L05",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "35J05",
+            "name": "35J05",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "33C10",
+            "name": "33C10",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "85-08",
+            "name": "85-08",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "authors": [
+        {
+            "author": "Preu\u00df, Janosch",
+            "givenName": "Janosch",
+            "familyName": "Preu\u00df",
+            "orcid": ""
+        }
+    ],
+    "citation": [],
+    "doi_status": "True",
+    "owner_org": "goettingen",
+    "isopen": true,
+    "repository_name": "G\u00f6ttingen Research Online Data",
+    "type": "dataset",
+    "source_metadata_modified": "",
+    "url": "https://doi.org/10.25625/BDJD7J",
+    "doi_publisher": "",
+    "resources": [
+        {}
+    ]
+}

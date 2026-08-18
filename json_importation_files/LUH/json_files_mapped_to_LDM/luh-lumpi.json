@@ -1,0 +1,122 @@
+{
+    "authors": "Steffen Busch, Christian Koetsier, Jeldrik Axmann",
+    "doi": "10.25835/z54qcu1b",
+    "doi_date_published": "2022-02-01",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": false,
+    "license_id": "CC-BY-NC-3.0",
+    "license_title": "Creative Commons Attribution-NonCommercial 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/3.0/",
+    "maintainer": "Steffen Busch",
+    "maintainer_email": "steffen.busch@ikg.uni-hannover.de",
+    "source_metadata_created": "2022-01-27T12:15:38.467204",
+    "source_metadata_modified": "2025-01-22T09:38:39.982465",
+    "metadata_modified": "2025-01-22T09:38:39.982465",
+    "name": "luh-lumpi",
+    "notes": "##Abstract \r\nIncreasing improvements in sensor technologies as well as machine learning methods allow an efficient collection, processing and analysis of the dynamic environment, which can be used for detection and tracking of traffic participants. Current datasets in this domain mostly present a single view, preventing high accurate pose estimations by occlusions. \r\nThe integration of different, simultaneously acquired data allows to exploit and develop collaboration principles to increase the quality, reliability and integrity of the derived information.\r\nThis work addresses this problem by providing a multi-view dataset, including 2D image information (videos) and 3D point clouds with labels of the traffic participants in the scene. The dataset was recorded during different weather and light conditions on several days at a large junction in Hanover, Germany. \r\n[Paper](https://ieeexplore.ieee.org/abstract/document/9827157)\r\n\r\n[![data-preview](https://data.uni-hannover.de/de/dataset/bc9f0cfc-3886-4f65-ac86-0ffac631c9ff/resource/74dd33b8-61a0-4491-ad2a-ec32d4ba1435/download/data_preview.png)](https://www.youtube.com/watch?v=elwFdCu5IFo)\r\n\r\n**Dataset teaser video: ** https://youtu.be/elwFdCu5IFo\r\n\r\n**Dataset download path:** https://data.uni-hannover.de/vault/ikg/busch/LUMPI/\r\n\r\n**Labeling process pipeline video:** https://youtu.be/Ns6qsHsb06E\r\n\r\n**Python-SDK:** https://github.com/St3ff3nBusch/LUMPI-SDK-Python\r\n\r\n**Labeling Tool/ C++ SDK:** https://github.com/St3ff3nBusch/LUMPI-Labeling\r\n##Citation\r\nIf you use LUMPI for your work, please cite our paper:\r\n\r\n*Busch, Steffen, et al. \"LUMPI: The Leibniz University Multi-Perspective Intersection Dataset.\" 2022 IEEE Intelligent Vehicles Symposium (IV). IEEE, 2022.\r\n\r\n    @inproceedings{busch2022lumpi,\r\n    title={LUMPI: The Leibniz University Multi-Perspective Intersection Dataset},\r\n    author={Busch, Steffen and Koetsier, Christian and Axmann, Jeldrik and Brenner, Claus},\r\n    booktitle={2022 IEEE Intelligent Vehicles Symposium (IV)},\r\n    pages={1127--1134},\r\n    year={2022},\r\n    organization={IEEE}\r\n    }\r\n\r\n\r\n##Newsletter\r\nYou can register for the newsletter if you want to be notified when new data or labels are available: https://listserv.uni-hannover.de/cgi-bin/wa?SUBED1=LUMPI-IKG&A=1",
+    "num_resources": 3,
+    "num_tags": 5,
+    "organization": {
+        "id": "9828c497-59fd-47a6-a39f-e9eec9bb8a66",
+        "name": "institut-fur-kartographie-und-geoinformatik",
+        "title": "Institut f\u00fcr Kartographie und Geoinformatik",
+        "type": "organization",
+        "description": "Appelstra\u00dfe 9 a, 30167 Hannover, https://www.ikg.uni-hannover.de/",
+        "image_url": "https://www.ikg.uni-hannover.de/fileadmin/site-templates/logos/ikg/IKG_Logo.png",
+        "created": "2018-02-15T09:03:10.899314",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "institut-fur-kartographie-und-geoinformatik",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "Camera",
+            "id": "3518eb57-a1a1-42c2-be09-7df4c5a414f3",
+            "name": "Camera",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Detection",
+            "id": "d0eb5305-373c-4304-9f62-7742bd9be994",
+            "name": "Detection",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "LiDAR",
+            "id": "1c5e08c1-e7b8-4fb1-8c72-7537a42556b2",
+            "name": "LiDAR",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Mutli-Perspective",
+            "id": "f45a7fe0-445a-4e95-8e89-8b535707bfd4",
+            "name": "Mutli-Perspective",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Tracking",
+            "id": "f06c38d3-568e-4f1e-b91c-c4071ced78d4",
+            "name": "Tracking",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "LUMPI: The Leibniz University Multi-Perspective Intersection Dataset",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/lumpi",
+    "version": "",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2022-02-10T16:02:24.986500",
+            "description": "",
+            "format": "png",
+            "last_modified": "2022-02-10T16:02:24.942121",
+            "mimetype": "image/png",
+            "name": "data_preview.png",
+            "position": 0,
+            "size": 684117,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/bc9f0cfc-3886-4f65-ac86-0ffac631c9ff/resource/74dd33b8-61a0-4491-ad2a-ec32d4ba1435/download/data_preview.png",
+            "url_type": ""
+        },
+        {
+            "created": "2022-06-03T12:18:32.226625",
+            "description": "Project the point clouds into the camera views",
+            "format": "py",
+            "last_modified": "2022-06-03T13:08:22.313463",
+            "mimetype": "text/x-python",
+            "name": "Simple Data Vizualization",
+            "position": 1,
+            "size": 5421,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/bc9f0cfc-3886-4f65-ac86-0ffac631c9ff/resource/15c4aff6-c90d-47dd-a49e-b5ac8a524022/download/simple_data_visualization.py",
+            "url_type": ""
+        },
+        {
+            "created": "2022-06-03T13:05:19.341957",
+            "description": "Description of file format and structure",
+            "format": "pdf",
+            "last_modified": "2023-06-05T07:22:53.251285",
+            "mimetype": "application/pdf",
+            "name": "README.pdf",
+            "position": 2,
+            "size": 2478145,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/bc9f0cfc-3886-4f65-ac86-0ffac631c9ff/resource/0c5e27d1-8ad3-425f-832a-5a248f5a0031/download/lumpi_readme.pdf",
+            "url_type": ""
+        }
+    ]
+}

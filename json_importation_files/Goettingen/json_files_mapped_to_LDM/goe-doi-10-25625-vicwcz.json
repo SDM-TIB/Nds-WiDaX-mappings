@@ -1,0 +1,99 @@
+{
+    "doi": "10.25625/VICWCZ",
+    "identifier_type": "DOI",
+    "doi_date_published": "2023",
+    "source_metadata_created": "2023",
+    "publication_year": "2023",
+    "title": "Simulations of the motility-matrix production switch in bacillus subtilis",
+    "organization": {
+        "approval_status": "approved",
+        "description": "G\u00f6ttingen Research Online is an institutional repository for the publication of research data at the G\u00f6ttingen Campus. It is managed by the G\u00f6ttingen eResearch Alliance, a joint group of SUB and GWDG. .",
+        "display_name": "G\u00f6ttingenResearchOnline",
+        "image_display_url": "logo-goettingen.png",
+        "image_url": "logo-goettingen.png",
+        "is_organization": true,
+        "name": "goettingen",
+        "state": "active",
+        "title": "G\u00f6ttingenResearchOnline",
+        "type": "organization"
+    },
+    "name": "goe-doi-10-25625-vicwcz",
+    "license_id": "http://creativecommons.org/licenses/by-nc/4.0",
+    "license_title": "Creative Commons Attribution-NonCommercial 4.0 International",
+    "notes": "This data set contains data and code of simulations of the motility-matrix production switch in Bacillus subtilis. The folders is structured using the numbering of the individual Figures in the corresponding publication. The Methods are described in the paper and the code to create the plots can be found in the corresponding folders. Some collections of data that consist of many small files are provided as tar archives. bistability Fig 1 and Fig 2: Includes the code to create the bistability plots 1b and 2c. Fig_1_stochastic contains the code to generate Fig 1c. The entire parameter sweep was created using our local cluster. To facilitate the understanding of the code, two subfolders are included the first one which can be used to create individual trajectories. This is can be done via the python file \"create_trajectory.py\". The exact input parameters can be changed using the in put file which is read in via the function \"getinput\". The created trajectories can be plotted and analysed using \"plot.py\". Fig_2 follows a similar structure. The first folder allows the creation of individual curves. While the second one provides the results if a parameter sweep is done and the corresponding analysis. The code was also used to create the comparasion of analytical and numerical results in the supplements (Fig. S2). Fig_3_4 contains the code and data for the minimal stochastic competition model. gillespie.py is the program containing the Gillespie algorithm and is linked to all other programs in this file. Data for Figures 3A and 3B was computed using the program bursting.py. Fig_5 contains two subfolders. The first one containing the code for the two deterministic cases. The second one for the stochastic case. Since the calculation shown in the paper, takes some calculational time. There are two options to run the file: Either create a new trajectory. For that the parameters of the simulation can be adjusted in the function \"runparameters\" e.g. maximal time etc. Or one can analyse and plot the figures seen in Fig 6. The values for alpha_r and alpha_s are each 30 molecules per minute. The same code was used to create the Supplement figure of Spo0Ap (Fig. S3). Fig_6 contains the code for the figure. Again depending on what is commented out in the main function one can either plot our results and recreate the figure or create a new one with different parameters Fig_S1 contains the code for the reporter protein concentrations in the steady state. by changing the number of seeds used in the root finding algorithm the algorithms success is increased.",
+    "publishers": [
+        {
+            "publisher": "GRO.data"
+        }
+    ],
+    "subject_areas": [
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Medicine, Health and Life Sciences"
+        },
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Physics"
+        }
+    ],
+    "resource_type": "Dataset",
+    "related_identifiers": [],
+    "tags": [
+        {
+            "display_name": "Medicine",
+            "name": "Medicine",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Health and Life Sciences",
+            "name": "Health and Life Sciences",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Physics",
+            "name": "Physics",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "authors": [
+        {
+            "author": "Dannenberg, Simon",
+            "givenName": "Simon",
+            "familyName": "Dannenberg",
+            "orcid": ""
+        },
+        {
+            "author": "Penning, Jonas",
+            "givenName": "Jonas",
+            "familyName": "Penning",
+            "orcid": ""
+        },
+        {
+            "author": "Simm, Alexander",
+            "givenName": "Alexander",
+            "familyName": "Simm",
+            "orcid": ""
+        },
+        {
+            "author": "Klumpp, Stefan",
+            "givenName": "Stefan",
+            "familyName": "Klumpp",
+            "orcid": ""
+        }
+    ],
+    "citation": [],
+    "doi_status": "True",
+    "owner_org": "goettingen",
+    "isopen": true,
+    "repository_name": "G\u00f6ttingen Research Online Data",
+    "type": "dataset",
+    "source_metadata_modified": "",
+    "url": "https://doi.org/10.25625/VICWCZ",
+    "doi_publisher": "",
+    "resources": [
+        {}
+    ]
+}

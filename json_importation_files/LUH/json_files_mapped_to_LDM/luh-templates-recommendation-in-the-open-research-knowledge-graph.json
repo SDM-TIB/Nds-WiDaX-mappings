@@ -1,0 +1,148 @@
+{
+    "authors": "Omar Arab Oghli",
+    "doi": "10.25835/qi8a8xpz",
+    "doi_date_published": "2022-06-03",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": true,
+    "license_id": "CC-BY-3.0",
+    "license_title": "Creative Commons Attribution 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "maintainer": "Omar Arab Oghli",
+    "maintainer_email": "omar.araboghli@tib.eu",
+    "source_metadata_created": "2022-06-03T06:48:01.759905",
+    "source_metadata_modified": "2022-06-03T06:58:19.496068",
+    "metadata_modified": "2022-06-03T06:58:19.496068",
+    "name": "luh-templates-recommendation-in-the-open-research-knowledge-graph",
+    "notes": "This dataset has been created for implementing a content-based recommender system in the context of the Open Research Knowledge Graph (ORKG). The recommender system accepts research paper's title and abstracts as input and recommends existing templates in the ORKG semantically relevant to the given paper.\r\n\r\nTwo approaches have been trained on this dataset in the context of this https://doi.org/10.15488/11834 master's thesis, namely a Natural Language Inference (NLI) approach based on SciBERT embeddings and an unsupervised approach based on ElasticSearch.\r\n\r\nThis publication consists therefore of one general dataset, two training sets for each approach, validation set for the supervised approach and a test set for both approaches.\r\n\r\n",
+    "num_resources": 5,
+    "num_tags": 5,
+    "organization": {
+        "id": "71f7bf65-eb79-43d5-bbb3-8bac53129eec",
+        "name": "tib",
+        "title": "TIB",
+        "type": "organization",
+        "description": "Technische Informationsbibliothek",
+        "image_url": "2018-01-23-104035.171142TIBWortBildmarkeBBRGB.PNG",
+        "created": "2018-01-23T11:36:35.480058",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "tib",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "Artificial Intelligence",
+            "id": "f93349fd-242e-4906-8d6c-6eb23c023891",
+            "name": "Artificial Intelligence",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Content-based recommender system",
+            "id": "4b2fc3f3-4022-4ef6-8065-9034d4a55439",
+            "name": "Content-based recommender system",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "ElasticSearch",
+            "id": "65b79de4-747b-4dc3-8d90-bb41d548716e",
+            "name": "ElasticSearch",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Natural Language Inference",
+            "id": "b860cb60-1503-4c48-bc3a-2eaa8bf6b0ec",
+            "name": "Natural Language Inference",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "open research knowledge graph",
+            "id": "a37af46b-5734-43f8-9893-5fdb8be85183",
+            "name": "open research knowledge graph",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "Templates Recommendation in the Open Research Knowledge Graph",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/templates-recommendation-in-the-open-research-knowledge-graph",
+    "version": "",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2022-06-03T06:52:58.915073",
+            "description": "The main JSON object consists of a list of templates and a list of neutral papers.\r\n\r\nEach template object has an ID, label, list of research fields, list of properties and list of papers using that template, whereas each paper object has ID, label, DOI, research field and abstract.\r\n\r\nEach neutral paper object has the same schema of a paper object using that template.",
+            "format": "json",
+            "last_modified": "2022-06-03T06:52:58.875508",
+            "mimetype": "application/json",
+            "name": "Dataset",
+            "position": 0,
+            "size": 896976,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/5a34c82b-fdb3-4058-a98e-004f14e19bd1/resource/8f903b26-c743-4b25-965a-b282e1690b1f/download/dataset.json",
+            "url_type": ""
+        },
+        {
+            "created": "2022-06-03T06:54:11.984878",
+            "description": "This file has been used to fine-tune a SciBERT model.\r\n\r\nThe main JSON object consists of a list of entailments, a list of contradiction and a list of neutrals.\r\n\r\nEach object of the above mentioned lists has the same schema. An instance_id created by concatenating the template_id (when exists) with the paper_id, a template_id, a paper_id, premise (representing the paper's title), hypthesis (representing the paper's abstract), their concatenation in sequence and the target class.",
+            "format": "json",
+            "last_modified": "2022-06-03T06:54:11.938034",
+            "mimetype": "application/json",
+            "name": "bert_training_set.json",
+            "position": 1,
+            "size": 3666489,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/5a34c82b-fdb3-4058-a98e-004f14e19bd1/resource/dd0fd6cd-284c-4a10-af4b-ff0e4ee8ae46/download/bert_training_set.json",
+            "url_type": ""
+        },
+        {
+            "created": "2022-06-03T06:54:42.970757",
+            "description": "This file has been used to validate a SciBERT model during training.\r\n\r\nThe main JSON object consists of a list of entailments, a list of contradiction and a list of neutrals.\r\n\r\nEach object of the above mentioned lists has the same schema. An instance_id created by concatenating the template_id (when exists) with the paper_id, a template_id, a paper_id, premise (representing the paper's title), hypthesis (representing the paper's abstract), their concatenation in sequence and the target class.",
+            "format": "json",
+            "last_modified": "2022-06-03T06:54:42.922349",
+            "mimetype": "application/json",
+            "name": "bert_validation_set.json",
+            "position": 2,
+            "size": 414787,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/5a34c82b-fdb3-4058-a98e-004f14e19bd1/resource/ee498573-cb2d-4e71-8413-acf3677de45b/download/bert_validation_set.json",
+            "url_type": ""
+        },
+        {
+            "created": "2022-06-03T06:55:06.458716",
+            "description": "This file has been used to create the ElasticSearch index.\r\n\r\nThe main JSON object consists of a list of entailments, a list of contradiction and a list of neutrals.\r\n\r\nEach object of the above mentioned lists has the same schema. An instance_id created by concatenating the template_id (when exists) with the paper_id, a template_id, a paper_id, premise (representing the paper's title), hypthesis (representing the paper's abstract), their concatenation in sequence and the target class.",
+            "format": "json",
+            "last_modified": "2022-06-03T06:55:06.415563",
+            "mimetype": "application/json",
+            "name": "es_training_set.json",
+            "position": 3,
+            "size": 4081193,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/5a34c82b-fdb3-4058-a98e-004f14e19bd1/resource/c4101938-433b-4a27-8c90-4bfba29cf75a/download/es_training_set.json",
+            "url_type": ""
+        },
+        {
+            "created": "2022-06-03T06:55:29.106385",
+            "description": "This file has been used to evaluate both approaches.\r\n\r\nThe main JSON object consists of a list of entailments, a list of contradiction and a list of neutrals.\r\n\r\nEach object of the above mentioned lists has the same schema. An instance_id created by concatenating the template_id (when exists) with the paper_id, a template_id, a paper_id, premise (representing the paper's title), hypthesis (representing the paper's abstract), their concatenation in sequence and the target class.",
+            "format": "json",
+            "last_modified": "2022-06-03T06:55:29.062871",
+            "mimetype": "application/json",
+            "name": "test_set.json",
+            "position": 4,
+            "size": 351327,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/5a34c82b-fdb3-4058-a98e-004f14e19bd1/resource/1bebeb88-524b-4cc8-bf79-e9bd73e84d3c/download/test_set.json",
+            "url_type": ""
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "doi": "10.25625/L6J3DM",
+    "identifier_type": "DOI",
+    "doi_date_published": "2023",
+    "source_metadata_created": "2023",
+    "publication_year": "2023",
+    "title": "Replication data for: embedded trefftz trace dg methods for pdes on unfitted surfaces",
+    "organization": {
+        "approval_status": "approved",
+        "description": "G\u00f6ttingen Research Online is an institutional repository for the publication of research data at the G\u00f6ttingen Campus. It is managed by the G\u00f6ttingen eResearch Alliance, a joint group of SUB and GWDG. .",
+        "display_name": "G\u00f6ttingenResearchOnline",
+        "image_display_url": "logo-goettingen.png",
+        "image_url": "logo-goettingen.png",
+        "is_organization": true,
+        "name": "goettingen",
+        "state": "active",
+        "title": "G\u00f6ttingenResearchOnline",
+        "type": "organization"
+    },
+    "name": "goe-doi-10-25625-l6j3dm",
+    "license_id": "http://creativecommons.org/publicdomain/zero/1.0",
+    "license_title": "Creative Commons Zero (CC0)",
+    "notes": "Masterthesis \"Embedded Trefftz Trace DG Methods for PDEs on unfitted Surfaces\" These are the files to reproduce the results of the master thesis \"Embedded Trefftz Trace DG Methods for PDEs on unfitted Surfaces\" of Erik Schlesinger (examiner and co-examiner: Christoph Lehrenfeld & Paul Stocker) (2023-04-04). Documentation: The masterthesis document can be found in the 00_Text-directory Numerical Experiments and Implementations: Numerical Experiments of the Laplace-Beltrami problem in chapter 7 can be found in the ./01_Laplace-Beltrami/3D-directory. The hierarchy of the files is as follows: In run_LaplaceBeltr_3D.sh. In this file all runs for the cluster are recorded. The flags are set in run_LaplaceBeltr_3D.py itself using argparse. Moreover in run_LaplaceBeltr_3D.py the convergence test file ConvTest_LaplaceBeltr.py is called. In ConvTest_LaplaceBeltr.py in turn depending on the method flag, one of the solvers Solve_DG_TraceFEM_unfitted_3D.py, Solve_ProjDG_TraceFEM_unfitted_3D.py, Solve_TrefftzDG_TraceFEM_unfitted_3D.py is called. Further you can run Solve_CG_TraceFEM_unfitted_3D.py independent of this hierachy. The results will end up in the ./01_Laplace_Beltrami/3D/numerical_experiments-directory. Numerical Experiments of the Surface Vector-Laplace problem in chapter 8 can be found in the ./02_Surface-Vector-Laplace-directory with same hierarchy. Used libraries: Netgen/NGSolve: Netgen/NGSolve Netgen/NGSolve-add-on ngsxfem: ngsxfem Netgen/NGSolve-add-on ngstrefftz: ngstrefftz HPC Cluster: For computations on the HPC-cluster of the GWDG we recommend also the Instruction for HPC setup in G\u00f6ttingen. Shortcut installtion setups of the libraries above are in the ./10_Install_Cluster-directory.",
+    "publishers": [
+        {
+            "publisher": "GRO.data"
+        }
+    ],
+    "subject_areas": [
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Mathematical Sciences"
+        }
+    ],
+    "resource_type": "Dataset",
+    "related_identifiers": [],
+    "tags": [
+        {
+            "display_name": "Mathematical Sciences",
+            "name": "Mathematical Sciences",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "authors": [
+        {
+            "author": "Schlesinger, Erik",
+            "givenName": "Erik",
+            "familyName": "Schlesinger",
+            "orcid": ""
+        }
+    ],
+    "citation": [],
+    "doi_status": "True",
+    "owner_org": "goettingen",
+    "isopen": true,
+    "repository_name": "G\u00f6ttingen Research Online Data",
+    "type": "dataset",
+    "source_metadata_modified": "",
+    "url": "https://doi.org/10.25625/L6J3DM",
+    "doi_publisher": "",
+    "resources": [
+        {}
+    ]
+}

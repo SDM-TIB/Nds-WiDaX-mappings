@@ -1,0 +1,127 @@
+{
+    "authors": "Jennifer D'Souza and S\u00f6ren Auer and Ted Pedersen",
+    "doi": "10.25835/0022787",
+    "doi_date_published": "2021-02-25",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": true,
+    "license_id": "CC-BY-SA-3.0",
+    "license_title": "Creative Commons Attribution Share-Alike 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "maintainer": "Jennifer D'Souza",
+    "maintainer_email": "jennifer.dsouza@tib.eu",
+    "source_metadata_created": "2021-02-25T11:15:38.669995",
+    "source_metadata_modified": "2022-01-20T11:00:03.804185",
+    "metadata_modified": "2022-01-20T11:00:03.804185",
+    "name": "luh-semeval-2021-task-11-shared-task-dataset",
+    "notes": "## NLPContributionGraph - Structuring Scholarly NLP Contributions in the Open Research Knowledge Graph\r\n\r\n### Background\r\n\r\n[__NLPContributionGraph__](https://ncg-task.github.io/) was introduced as Task 11 at [SemEval 2021](https://semeval.github.io/SemEval2021/tasks) for the first time. The task is defined on a dataset of Natural Language Processing (NLP) scholarly articles with their contributions structured to be integrable within Knowledge Graph infrastructures such as the [Open Research Knowledge Graph](https://www.orkg.org/). The structured contribution annotations are provided as (1) __Contribution sentences__ : a set of sentences about the contribution in the article; (2) __Scientific terms and relations__: a set of scientific terms and relational cue phrases extracted from the contribution sentences; and (3) __Triples__: semantic statements that pair scientific terms with a relation, modeled toward subject-predicate-object RDF statements for KG building. The Triples are organized under three (mandatory) or more of twelve total information units (viz., _ResearchProblem_, _Approach_, _Model_, _Code_, _Dataset_, _ExperimentalSetup_, _Hyperparameters_, _Baselines_, _Results_, _Tasks_, _Experiments_, and _AblationAnalysis_).\r\n\r\n### The Shared Task\r\n\r\nAs a complete submission for the Shared Task, given NLP scholarly articles in plaintext format, systems had to automatically extract the following information:\r\n* contribution sentences;\r\n* scientific term and predicate phrases from the sentences; and\r\n* (subject,predicate,object) triple statements toward KG building organized under three or more of twelve total information units.",
+    "num_resources": 3,
+    "num_tags": 7,
+    "organization": {
+        "id": "71f7bf65-eb79-43d5-bbb3-8bac53129eec",
+        "name": "tib",
+        "title": "TIB",
+        "type": "organization",
+        "description": "Technische Informationsbibliothek",
+        "image_url": "2018-01-23-104035.171142TIBWortBildmarkeBBRGB.PNG",
+        "created": "2018-01-23T11:36:35.480058",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "tib",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "dataset",
+            "id": "cf080a26-5674-4ffa-b802-b998e16847e8",
+            "name": "dataset",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "language resource",
+            "id": "62c920ee-823b-4279-bd78-fb04afa0228f",
+            "name": "language resource",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "natural language processing",
+            "id": "2f4cc4e6-4b48-4abd-baa7-ba807c2817f0",
+            "name": "natural language processing",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "open research knowledge graph",
+            "id": "a37af46b-5734-43f8-9893-5fdb8be85183",
+            "name": "open research knowledge graph",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "scholarly knowledge graphs",
+            "id": "cf7cc499-a684-4452-bba7-34d65179d41e",
+            "name": "scholarly knowledge graphs",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "semeval",
+            "id": "56d3ed34-0730-4671-9f7c-93b234bbda6e",
+            "name": "semeval",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "shared task",
+            "id": "a6087cc4-3ca9-4940-962e-8c38af68c257",
+            "name": "shared task",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "SemEval-2021 Task 11 Shared Task Dataset",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/semeval-2021-task-11-shared-task-dataset",
+    "version": "1.0",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2021-02-25T11:18:20.853798",
+            "description": "`Training Data` for the NLPContributionGraph Shared Task 11 at SemEval-2021\r\n\r\nThe repository is organized as follows:\r\n\r\n    README.md                            \r\n    [task-name-folder]/                                # natural_language_inference, paraphrase_generation, question_answering, relation_extraction, topic_models\r\n        \u251c\u2500\u2500 [article-counter-folder]/                  # ranges between 0 to 100 since we annotated varying numbers of articles per task\r\n        \u2502   \u251c\u2500\u2500 [articlename].pdf                      # scholarly article pdf\r\n        \u2502   \u251c\u2500\u2500 [articlename]-Grobid-out.txt           # plaintext output from the [Grobid parser](https://github.com/kermitt2/grobid)\r\n        \u2502   \u251c\u2500\u2500 [articlename]-Stanza-out.txt           # plaintext preprocessed output from [Stanza](https://github.com/stanfordnlp/stanza)\r\n        \u2502   \u251c\u2500\u2500 sentences.txt                          # annotated Contribution sentences in the file\r\n        \u2502   \u251c\u2500\u2500 entities.txt                           # annotated entities in the Contribution sentences\r\n        \u2502   \u2514\u2500\u2500 info-units/                            # the folder containing information units in JSON format\r\n        \u2502   \u2502   \u2514\u2500\u2500 research-problem.json              # `research problem` mandatory information unit in json format\r\n        \u2502   \u2502   \u2514\u2500\u2500 model.json                         # `model` information unit in json format; in some articles it is called `approach`\r\n        \u2502   \u2502   \u2514\u2500\u2500 ...                                # there are 12 information units in all and each article may be annotated by 3 or 6\r\n        \u2502   \u2514\u2500\u2500 triples/                               # the folder containing information unit triples one per line\r\n        \u2502   \u2502   \u2514\u2500\u2500 research-problem.txt               # `research problem` triples (one research problem statement per line)\r\n        \u2502   \u2502   \u2514\u2500\u2500 model.txt                          # `model` triples (one statement per line)\r\n        \u2502   \u2502   \u2514\u2500\u2500 ...                                # there are 12 information units in all and each article may be annotated by 3 or 6\r\n        \u2502   \u2514\u2500\u2500 ...                                    # there are between 1 to 100 articles annotated for each task, so this repeats for the remaining annotated articles\r\n        \u2514\u2500\u2500 ...                                        # there are 24 tasks selected overall, so this repeats 23 more times",
+            "format": "json, pdf, txt",
+            "name": "Training Dataset",
+            "position": 0,
+            "state": "active",
+            "url": "https://github.com/ncg-task/training-data",
+            "url_type": ""
+        },
+        {
+            "created": "2021-02-25T11:20:11.511480",
+            "description": "Trial data for the NLPContributionGraph Shared Task 11 at SemEval-2021.",
+            "format": "json, pdf, txt",
+            "name": "Trial Dataset",
+            "position": 1,
+            "state": "active",
+            "url": "https://github.com/ncg-task/trial-data",
+            "url_type": ""
+        },
+        {
+            "created": "2021-03-08T13:09:35.677305",
+            "description": "Test Data for the NLPContributionGraph Shared Task 11 at SemEval-2021",
+            "format": "json, pdf, txt",
+            "name": "Test Dataset",
+            "position": 2,
+            "state": "active",
+            "url": "https://github.com/ncg-task/test-data",
+            "url_type": ""
+        }
+    ]
+}

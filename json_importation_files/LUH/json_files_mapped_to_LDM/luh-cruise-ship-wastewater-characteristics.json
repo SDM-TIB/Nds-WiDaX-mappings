@@ -1,0 +1,129 @@
+{
+    "authors": "Stephan K\u00f6ster, Lena Westhof, Luca Keller, Kai Schum\u00fcller, Dagmar Pohl",
+    "doi": "10.25835/0062894",
+    "doi_date_published": "2025-09-20",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": true,
+    "license_id": "CC-BY-3.0",
+    "license_title": "Creative Commons Attribution 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "maintainer": "Dagmar Pohl",
+    "maintainer_email": "pohl@isah.uni-hannover.de",
+    "source_metadata_created": "2021-09-29T10:12:28.947295",
+    "source_metadata_modified": "2025-09-20T12:14:07.626202",
+    "metadata_modified": "2025-09-20T12:14:07.626202",
+    "name": "luh-cruise-ship-wastewater-characteristics",
+    "notes": "The design and optimisation of wastewater treatment plants requires information on the wastewater composition. This dataset contains __pollutant concentrations and physico-chemical parameters of various wastewater streams on cruise ships__ from 75 grab samples. The data was collected on 7 different ships during several sampling campaigns in the projects NAUTEK (\u201cSustainable treatment technologies for wastewater treatment and reuse on-board cruise ships\u201d, Grant 03SX360A), CLEAN (\u201cCruise liners: Efficient on-board anaerobic digestion of organic wastes for energy recovery\u201d, Grant 03SX437C) and OSCAR (\"Online Modeling, Simulation and Remote Control System for Environmental Technologies on board (Cruise) Ships\", Grant 03SX486C). All projects were funded by the German Federal Ministry for Economic Affairs and Energy (BMWi).\r\n\r\n__Additional information on the sampling campaigns, the sampled wastewater streams and analysis methods can be found in the accompanying document \"Dataset description and background information\".__\r\n\r\n\r\n# Description of the data files\r\nThe data is provided in .xlsx and .csv format (delimiter: \";\"). Each row contains one measurement. Following information is stored in the columns:\r\n\r\n* __sample_ID__ unique ID of the grab sample (can be used e.g. to calculate parameter ratios of the same sample such as COD/TN)\r\n\r\n* __wastewater_type__ part stream from which the sample was taken (see \"Dataset description and background information\" for description of part streams)\r\n\r\n* __ship__ ship on which the sample was taken (see \"Dataset description and background information\" for more information on the ships)\r\n\r\n* __parameter__ pollutant concentration or other physico-chemical parameter (see \"Dataset description and background information\" for list of abbreviations and measurement methods)\r\n\r\n* __unit__ measurement unit\r\n\r\n* __n_measurements__ number of measurements for the same parameter and sample\r\n\r\n* __relational_operator_min__ \"&gt;\" indicates measurement above detection limit, \"&lt;\" indicates measurement below detection limit, otherwise \"=\"\r\n\r\n* __min__ smallest measured value (in case of multiple measurements)\r\n\r\n* __relational_operator_max__ \"&gt;\" indicates measurement above detection limit, \"&lt;\" indicates measurement below detection limit, otherwise \"=\"\r\n\r\n* __max__ largest measured value (in case of multiple measurements)\r\n\r\n* __relational_operator_mean__ \"&gt;\" indicates at least one measurement above detection limit, \"&lt;\" indicates at least one measurement below detection limit, \"=\" if all measurements were in range\r\n\r\n* __mean__ mean of measurement values\r\n\r\n* __operating_mode__ cruise day (at sea), port day (land excursion during cruise) or change-over day (embarking and disembarking of passengers)\r\n\r\n* __project__ NAUTEK or CLEAN (see above)\r\n\r\n\r\n# Acknowledgements\r\nWe would like to express our gratitude to our project partners who made the sampling campaigns possible. Special thanks also go to Amelie Edler and Fabian Bergmann-Reichert for their support in the sampling and analyses.\r\n\r\n\r\nThis research has been funded by the German Federal Ministry for Economic Affairs and Energy (BMWi) within the projects \u201cSustainable treatment technologies for wastewater treatment and reuse on-board cruise ships (NAUTEK)\u201d (Grant 03SX360A), \u201cCruise liners: Efficient onboard anaerobic digestion of organic wastes for energy recovery (CLEAN)\u201d (Grant 03SX437C) and OSCAR (\"Online Modeling, Simulation and Remote Control System for Environmental Technologies on board (Cruise) Ships\", Grant 03SX486C). We thank the funding body and the Projekttr\u00e4ger J\u00fclich for the opportunity to carry out the work described here.\r\n\r\n\r\n# Authors' contributions\r\n__Stephan K\u00f6ster__ project conceptualisation and management\r\n\r\n__Lena Westhof__ planning and execution of NAUTEK measurement campaigns\r\n\r\n__Luca Keller__ planning and execution of NAUTEK measurement campaigns\r\n\r\n__Kai Schum\u00fcller__ planning and execution of CLEAN measurement campaigns\r\n\r\n__Dagmar Pohl__ planning and execution of OSCAR measurement, data compilation and preparation of dataset for publishing",
+    "num_resources": 3,
+    "num_tags": 6,
+    "organization": {
+        "id": "478c5745-62e8-45cc-b8c0-1df056efb160",
+        "name": "institut-fur-siedlungswasserwirtschaft-und-abfalltechnik",
+        "title": "Institut f\u00fcr Siedlungswasserwirtschaft und Abfalltechnik",
+        "type": "organization",
+        "description": "https://www.isah.uni-hannover.de/",
+        "image_url": "",
+        "created": "2018-01-12T14:55:02.435271",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "institut-fur-siedlungswasserwirtschaft-und-abfalltechnik",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "CLEAN",
+            "id": "58824fc6-897a-4cd5-b170-58e4e4b6fe79",
+            "name": "CLEAN",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "NAUTEK",
+            "id": "cc273d80-f2a6-4e11-8a69-7989bd14cefa",
+            "name": "NAUTEK",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "OSCAR",
+            "id": "654df3eb-9be8-45bd-8cec-864c2bbd45ca",
+            "name": "OSCAR",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "cruise ships",
+            "id": "bb10d362-ffd5-45ea-bf76-511aa96829be",
+            "name": "cruise ships",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "maritime environmental protection",
+            "id": "33363b5c-fb90-42d6-95f6-cfee4ae8f348",
+            "name": "maritime environmental protection",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "wastewater",
+            "id": "b2f2b688-f2b8-4a30-b0e2-1a94a6f2d31d",
+            "name": "wastewater",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "Cruise ship wastewater characteristics",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/cruise-ship-wastewater-characteristics",
+    "version": "",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2021-09-29T10:13:46.950378",
+            "description": "Description of the dataset including additional information on the sampling campaigns, the sampled wastewater streams and analysis methods.",
+            "format": "pdf",
+            "last_modified": "2024-12-28T17:10:12.342833",
+            "mimetype": "application/pdf",
+            "name": "Dataset description and background information",
+            "position": 0,
+            "size": 89881,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/28c0c2d1-5d5c-47e3-88a0-ad38173ca09d/resource/1e3d55ad-7f56-4adc-b94f-02b7cd6f0057/download/description_and_background_information.pdf",
+            "url_type": ""
+        },
+        {
+            "created": "2021-09-29T10:14:06.778909",
+            "description": "Dataset in .xlsx format.",
+            "format": "xlsx",
+            "last_modified": "2024-12-28T17:11:46.789678",
+            "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "name": "Cruise ship wastewater data (.xlsx)",
+            "position": 1,
+            "size": 35005,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/28c0c2d1-5d5c-47e3-88a0-ad38173ca09d/resource/46e35f52-7989-48bb-bdf6-103040b182a8/download/nautek_clean_oscar_sampling_data.xlsx",
+            "url_type": ""
+        },
+        {
+            "created": "2021-09-29T10:14:44.020030",
+            "description": "Dataset in .csv format (delimiter: \";\").",
+            "format": "csv",
+            "last_modified": "2024-12-28T17:13:21.736963",
+            "mimetype": "text/csv",
+            "name": "Cruise ship wastewater data (.csv)",
+            "position": 2,
+            "size": 41469,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/28c0c2d1-5d5c-47e3-88a0-ad38173ca09d/resource/af4127b2-8a5d-4dd4-ba64-d5fba7e385ab/download/nautek_clean_oscar_sampling_data.csv",
+            "url_type": ""
+        }
+    ]
+}

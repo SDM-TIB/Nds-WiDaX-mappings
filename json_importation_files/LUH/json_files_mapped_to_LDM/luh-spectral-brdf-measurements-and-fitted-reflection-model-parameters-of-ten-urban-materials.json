@@ -1,0 +1,155 @@
+{
+    "authors": "Christian Schl\u00e4ger, Dennis Bredemeier, Arne Dittrich, Jan Hendrik Pfau, Rolf Brendel",
+    "doi": "10.25835/aq5cdmx7",
+    "doi_date_published": "2026-07-29",
+    "doi_publisher": "LUIS",
+    "doi_status": true,
+    "domain": "https://data.uni-hannover.de",
+    "have_copyright": "Yes",
+    "isopen": true,
+    "license_id": "CC-BY-4.0",
+    "license_title": "Creative Commons Attribution 4.0 International",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "maintainer": "Christian Schl\u00e4ger",
+    "maintainer_email": "schlaeger@solar.uni-hannover.de",
+    "source_metadata_created": "2026-07-28T10:16:16.940339",
+    "source_metadata_modified": "2026-07-29T13:39:15.308879",
+    "metadata_modified": "2026-07-29T13:39:15.308879",
+    "name": "luh-spectral-brdf-measurements-and-fitted-reflection-model-parameters-of-ten-urban-materials",
+    "notes": "This dataset provides laboratory BRDF measurements of ten materials representing common surface types in a Central European urban environment: flat roofing tiles, roofing felt, asphalt, four types of clinker brick slips, and three types of render. Measurements were performed with a gonioreflectometer at the Institute for Solar Energy Research Hamelin (ISFH), sampling each material at 1264 angular configurations over the wavelength range 400\u20131030 nm. The samples are treated as isotropic, which motivates an asymmetric sampling scheme with a small set of incident directions, each combined with a large number of outgoing directions.\r\nThe dataset comprises spectrally resolved and AM1.5G-weighted BRDF values, the numerically calculated surface albedo, and the fitted parameters of three energy-normalized analytical reflection models (Lambertian, Phong, and energy-preserving Oren-Nayar), which allow the measured reflectance to be used directly in ray-tracing simulations.\r\n\r\n### Related publication\r\n\"Spectral BRDF measurements and reflectance modeling of urban materials: An open dataset\", submitted to _Advances in Applied Energy_. For a detailed description of the measurement setup, data processing, model fitting, and findings, see the publication. Please cite this dataset when using the data, and the publication when referring to the methodology or reported findings.\r\n\r\n### Dataset structure\r\nThe data are organized as four CSV files: the spectrally resolved BRDF, the AM1.5G-weighted BRDF, the fitted reflection model parameters, and a materials table listing the sample names, descriptions, and categories. All BRDF values are given in 1/sr, all reflection model parameters are dimensionless, and all angles are given in degrees. Photographs of the material samples are provided in the material_pictures folder.\r\n\r\n### Acknowledgements\r\nThis work was financially supported by the German Federal Ministry of Economic Affairs and Energy (BMWE) under the grant number 03EE1187D (DIGI-PV).\r\n",
+    "num_resources": 5,
+    "num_tags": 6,
+    "organization": {
+        "id": "0f9a7720-cce1-4b0c-b4ec-59b452ac9777",
+        "name": "institut-fur-festkorperphysik",
+        "title": "Institut f\u00fcr Festk\u00f6rperphysik",
+        "type": "organization",
+        "description": "Institut f\u00fcr Festk\u00f6rperphysik\r\n\r\nhttps://www.fkp.uni-hannover.de/\r\n\r\n",
+        "image_url": "",
+        "created": "2021-03-04T12:08:30.329548",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+    },
+    "owner_org": "institut-fur-festkorperphysik",
+    "private": false,
+    "state": "active",
+    "tags": [
+        {
+            "display_name": "BRDF",
+            "id": "2a6e5faf-abe1-4e30-9241-5871b8b46483",
+            "name": "BRDF",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "angular reflectance",
+            "id": "d2196f5f-e3f9-4b28-83a4-9ff50b671d8b",
+            "name": "angular reflectance",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "bidirectional reflectance distribution function",
+            "id": "2e900703-cfd4-4b8d-93d1-92d5ab59c12d",
+            "name": "bidirectional reflectance distribution function",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "building-integrated photovoltaics",
+            "id": "feae94cd-4dc1-429c-a8bb-340a5a3e29d1",
+            "name": "building-integrated photovoltaics",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "ray tracing",
+            "id": "525de633-1f1a-4e67-987b-2a38ed21c376",
+            "name": "ray tracing",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "reflectance modeling",
+            "id": "b07bb7b0-908f-475e-bffa-89dbb65ad88a",
+            "name": "reflectance modeling",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "terms_of_usage": "Yes",
+    "title": "Spectral BRDF measurements and fitted reflection model parameters of ten urban materials",
+    "type": "dataset",
+    "url": "https://data.uni-hannover.de/dataset/spectral-brdf-measurements-and-fitted-reflection-model-parameters-of-ten-urban-materials",
+    "version": "1.0",
+    "repository_name": "Leibniz University Hannover",
+    "citation": [],
+    "resources": [
+        {
+            "created": "2026-07-28T11:22:29.287111",
+            "description": "Overview of the measured materials, listing for each the sample name, the category (ground, roof, or facade), a short description, and the measurement date.",
+            "format": "csv",
+            "last_modified": "2026-07-29T08:37:00.020003",
+            "mimetype": "text/csv",
+            "name": "materials.csv",
+            "position": 0,
+            "size": 2703,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/aa433cef-c6e3-470a-9e28-a7181fd94f42/resource/57276ffe-eddf-4dd2-a89e-1bb9ae6cd6da/download/materials.csv",
+            "url_type": ""
+        },
+        {
+            "created": "2026-07-28T11:30:20.186707",
+            "description": "AM1.5G-weighted broadband BRDF values in inverse steradian (1/sr). Each row is a measured combination of incident and outgoing direction, given by their polar (\u03b8) and azimuthal (\u03c6) angles in degrees, together with the material key.",
+            "format": "csv",
+            "last_modified": "2026-07-28T11:30:20.158171",
+            "mimetype": "text/csv",
+            "name": "brdf_data_am15g.csv",
+            "position": 1,
+            "size": 560553,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/aa433cef-c6e3-470a-9e28-a7181fd94f42/resource/7d811a0d-54e0-4436-afb4-cc41e47fd5b1/download/brdf_data_am15g.csv",
+            "url_type": ""
+        },
+        {
+            "created": "2026-07-28T11:39:10.765926",
+            "description": "Spectrally resolved BRDF values in inverse steradian (1/sr) in wide format. Each row is a measured combination of incident and outgoing direction, given by their polar (\u03b8) and azimuthal (\u03c6) angles in degrees together with the material key. Spectral BRDF data are given in multiple columns with each wavelength bin being a separate column. The 99 bin columns are named by their center wavelength in nanometers (e.g., w500 covers 497.5\u2013502.5 nm), with a bin width of 5 nm below 750 nm and 10 nm above.",
+            "format": "csv",
+            "last_modified": "2026-07-28T11:39:10.734783",
+            "mimetype": "text/csv",
+            "name": "brdf_data_spectral.csv",
+            "position": 2,
+            "size": 9087189,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/aa433cef-c6e3-470a-9e28-a7181fd94f42/resource/85b65c49-67de-41d1-8d1b-6647de388c2b/download/brdf_data_spectral.csv",
+            "url_type": ""
+        },
+        {
+            "created": "2026-07-28T12:25:33.967390",
+            "description": "Per-material reflection model parameters, with one row per material. The surface albedo \u03c1 is computed directly from the measurements by numerical integration, while the model parameters are fitted by minimizing the weighted normalized RMSE (NRMSEw). Model parameters are given for the Lambertian model (fitting error only), the Phong model (diffuse albedo \u03c1_d, specular albedo \u03c1_s, and specular exponent n), the energy-preserving Oren-Nayar model (roughness r), and the Phong+Oren-Nayar superposition (\u03c1_s, n, \u03c1_eon, r), each with its associated NRMSEw. The albedo and all model parameters are dimensionless; the NRMSEw is given in inverse steradian (1/sr).",
+            "format": "csv",
+            "last_modified": "2026-07-28T12:25:33.935624",
+            "mimetype": "text/csv",
+            "name": "reflection_model_parameters.csv",
+            "position": 3,
+            "size": 1131,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/aa433cef-c6e3-470a-9e28-a7181fd94f42/resource/e88bba42-4447-4f2f-a528-03a65b32c41c/download/reflection_model_parameters.csv",
+            "url_type": ""
+        },
+        {
+            "created": "2026-07-29T11:08:34.208964",
+            "description": "Photographs of each measured material sample, provided as 2\u20133 images per material under varying viewing angles and lighting to convey its visual appearance. Images are grouped in per-material subfolders named by the material_name.",
+            "format": "zip",
+            "last_modified": "2026-07-29T11:08:34.149183",
+            "mimetype": "application/zip",
+            "name": "material_pictures",
+            "position": 4,
+            "size": 83134943,
+            "state": "active",
+            "url": "https://data.uni-hannover.de/dataset/aa433cef-c6e3-470a-9e28-a7181fd94f42/resource/a644e384-1c4e-4a82-9393-d17dbed04637/download/material_pictures.zip",
+            "url_type": ""
+        }
+    ]
+}

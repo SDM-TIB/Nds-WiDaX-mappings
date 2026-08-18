@@ -1,0 +1,92 @@
+{
+    "doi": "10.25625/BZCLYZ",
+    "identifier_type": "DOI",
+    "doi_date_published": "2024",
+    "source_metadata_created": "2024",
+    "publication_year": "2024",
+    "title": "Dumux code for structured microbial transport",
+    "organization": {
+        "approval_status": "approved",
+        "description": "G\u00f6ttingen Research Online is an institutional repository for the publication of research data at the G\u00f6ttingen Campus. It is managed by the G\u00f6ttingen eResearch Alliance, a joint group of SUB and GWDG. .",
+        "display_name": "G\u00f6ttingenResearchOnline",
+        "image_display_url": "logo-goettingen.png",
+        "image_url": "logo-goettingen.png",
+        "is_organization": true,
+        "name": "goettingen",
+        "state": "active",
+        "title": "G\u00f6ttingenResearchOnline",
+        "type": "organization"
+    },
+    "name": "goe-doi-10-25625-bzclyz",
+    "license_id": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+    "license_title": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+    "notes": "The present repository contains the source code of the numerical model for microbial growth and transport in two-phase porous media systems developed in the project \"Macro-scale modeling concepts for bacterial growth and transport in advective two-phase porous media systems\" (DFG Project number 433108788). The repository consists of two mathematical models (\u201cdumux/porousmediumflow/2pncbiostructured\u201c and \u201edumux/porousmediumflow/2pncbio\u201c). In the 2pncbiostructured model the present microbes are separated into two microbial structures. The first structure includes all mobile microorganisms which are suspended in the water phase. Mobile microorganisms emerge by growth from mobile and immobile microorganisms. A growth limiting function is used as a multiplier to the double Monod equation. They are transported with the flow of water and can be immobilized by adhering to solid surfaces. The second structure includes all immobile microorganisms which are attached to solid surfaces. Immobile microorganisms only arise by immobilization/attachment of mobile microorganisms. A re-mobilization is not considered as this was not observed during the experiments. The function of attachment is defined to be irreversible. In addition, the model includes the transport of chemical components. For this, the flow of both phases, the diffusive transport, and the reaction kinetics are taken into account. The microbial reaction rate is proportional to the sum of microbes in both structures and to the rate of microbial growth. In addition, a maintenance consumption is considered. The model is accompanied by a test case (\u201cappl/mmstudy\u201d). The test case simulates a laboratory experiment in which a H2\u200b-CO2\u200b-gas mixture is injected into a micromodel. In the 2pncbio model both microbial structures are merged and microbes are assumed to be immobile. This model is also accompanied by a test case (\u201cappl/umr3d\u201d). This test case at field scale simulates the injection of a H2\u200b-CO2\u200b-gas mixture into a simplified geological structure.",
+    "publishers": [
+        {
+            "publisher": "GRO.data"
+        }
+    ],
+    "subject_areas": [
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Earth and Environmental Sciences"
+        },
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Engineering"
+        }
+    ],
+    "resource_type": "Dataset",
+    "tags": [
+        {
+            "display_name": "Earth and Environmental Sciences",
+            "name": "Earth and Environmental Sciences",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Engineering",
+            "name": "Engineering",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Underground Hydrogen Storage",
+            "name": "Underground Hydrogen Storage",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Underground Methanation Reactor",
+            "name": "Underground Methanation Reactor",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Microfluidics",
+            "name": "Microfluidics",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "authors": [
+        {
+            "author": "Hagemann, Birger",
+            "givenName": "Birger",
+            "familyName": "Hagemann",
+            "orcid": ""
+        }
+    ],
+    "citation": [],
+    "doi_status": "True",
+    "owner_org": "goettingen",
+    "isopen": true,
+    "repository_name": "G\u00f6ttingen Research Online Data",
+    "type": "dataset",
+    "source_metadata_modified": "",
+    "url": "https://doi.org/10.25625/BZCLYZ",
+    "doi_publisher": "",
+    "resources": [
+        {}
+    ]
+}

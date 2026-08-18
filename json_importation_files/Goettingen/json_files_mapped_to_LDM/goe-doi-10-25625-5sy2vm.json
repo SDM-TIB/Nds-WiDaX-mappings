@@ -1,0 +1,110 @@
+{
+    "doi": "10.25625/5SY2VM",
+    "identifier_type": "DOI",
+    "doi_date_published": "2025",
+    "source_metadata_created": "2025",
+    "publication_year": "2025",
+    "title": "Data for \"determination of active forces in actomyosin systems as inverse source problems for the stokes equation\"",
+    "organization": {
+        "approval_status": "approved",
+        "description": "G\u00f6ttingen Research Online is an institutional repository for the publication of research data at the G\u00f6ttingen Campus. It is managed by the G\u00f6ttingen eResearch Alliance, a joint group of SUB and GWDG. .",
+        "display_name": "G\u00f6ttingenResearchOnline",
+        "image_display_url": "logo-goettingen.png",
+        "image_url": "logo-goettingen.png",
+        "is_organization": true,
+        "name": "goettingen",
+        "state": "active",
+        "title": "G\u00f6ttingenResearchOnline",
+        "type": "organization"
+    },
+    "name": "goe-doi-10-25625-5sy2vm",
+    "license_id": "http://creativecommons.org/publicdomain/zero/1.0",
+    "license_title": "Creative Commons Zero (CC0)",
+    "notes": "This dataset contains supplementary information and code. \"Methods_and_Materials.pdf\" contains supplementary information about the experimental process and data generation. All the code can be found in the folder \"Code\". The code is written in python partly using jupyter notebooks. Additionally to standard python libraries, the package \"NGSolve\" (https://ngsolve.org/installation.html, Version 6.2.2504.) is needed. GENERAL CODE - algorithm.py | Landweber iteration and backtracking line search - pde.py | Implementation of the Stokes problem and its adjoined with Robin and Dirichlet boundary conditions - tools.py | general help functions DATA FOLDERS AND CORRESPONDING FIGURES Every data folder contains a uniquely named jupyter notebook in which the data is generated or loaded in and reconstructs the forces. In relevant folders real data can be found in the sub-folder 'experimental data' as raw data in the Olympus data formats .oib or .oir, as a .avi, and as a flow field after the PIV as a .csv file. Fig. 6 | droplet_synthetic Fig. 7 | bulk_synthetic Fig. 8 | droplet_noisy Fig. 9 | droplet_real_data Fig. 10 | bulk_real_data_45 Fig. 11 | bulk_real_data_40",
+    "publishers": [
+        {
+            "publisher": "GRO.data"
+        }
+    ],
+    "subject_areas": [
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Mathematical Sciences"
+        },
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Physics"
+        }
+    ],
+    "resource_type": "Dataset",
+    "tags": [
+        {
+            "display_name": "Mathematical Sciences",
+            "name": "Mathematical Sciences",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Physics",
+            "name": "Physics",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "authors": [
+        {
+            "author": "Klass, Emily",
+            "givenName": "Emily",
+            "familyName": "Klass",
+            "orcid": ""
+        },
+        {
+            "author": "Nguyen, Tram Thi Ngoc",
+            "givenName": "Tram Thi Ngoc",
+            "familyName": "Nguyen",
+            "orcid": ""
+        },
+        {
+            "author": "Cicek, Nilay",
+            "givenName": "Nilay",
+            "familyName": "Cicek",
+            "orcid": ""
+        },
+        {
+            "author": "Pollack, Yoav G.",
+            "givenName": "Yoav G.",
+            "familyName": "Pollack",
+            "orcid": ""
+        },
+        {
+            "author": "K\u00f6ster, Sarah",
+            "givenName": "Sarah",
+            "familyName": "K\u00f6ster",
+            "orcid": ""
+        },
+        {
+            "author": "Janshoff, Andreas",
+            "givenName": "Andreas",
+            "familyName": "Janshoff",
+            "orcid": ""
+        },
+        {
+            "author": "Wald, Anne",
+            "givenName": "Anne",
+            "familyName": "Wald",
+            "orcid": ""
+        }
+    ],
+    "citation": [],
+    "doi_status": "True",
+    "owner_org": "goettingen",
+    "isopen": true,
+    "repository_name": "G\u00f6ttingen Research Online Data",
+    "type": "dataset",
+    "source_metadata_modified": "",
+    "url": "https://doi.org/10.25625/5SY2VM",
+    "doi_publisher": "",
+    "resources": [
+        {}
+    ]
+}

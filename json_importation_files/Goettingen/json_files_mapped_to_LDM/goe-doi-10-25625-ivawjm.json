@@ -1,0 +1,64 @@
+{
+    "doi": "10.25625/IVAWJM",
+    "identifier_type": "DOI",
+    "doi_date_published": "2021",
+    "source_metadata_created": "2021",
+    "publication_year": "2021",
+    "title": "On a discontinuous galerkin discretization for a degenerate diffusion equation",
+    "organization": {
+        "approval_status": "approved",
+        "description": "G\u00f6ttingen Research Online is an institutional repository for the publication of research data at the G\u00f6ttingen Campus. It is managed by the G\u00f6ttingen eResearch Alliance, a joint group of SUB and GWDG. .",
+        "display_name": "G\u00f6ttingenResearchOnline",
+        "image_display_url": "logo-goettingen.png",
+        "image_url": "logo-goettingen.png",
+        "is_organization": true,
+        "name": "goettingen",
+        "state": "active",
+        "title": "G\u00f6ttingenResearchOnline",
+        "type": "organization"
+    },
+    "name": "goe-doi-10-25625-ivawjm",
+    "license_id": "http://creativecommons.org/publicdomain/zero/1.0",
+    "license_title": "Creative Commons Zero (CC0)",
+    "notes": "Bachelor\u2019s thesis document \"On a Discontinuous Galerkin discretization for a degenerate diffusion equation\" written by Tim van Beeck (examiner and co-examiner: Christoph Lehrenfeld and Gert Lube) (2021-12-03) and replication data for the numerical experiments. Instructions for the replication data: The file DegDif_data.tar.gz provides the code and the data that can be used the replicate the numerical experiments. To run the code, you need a current version of NGSolve (which will require at least python 3.8) and matplotlib to generate the plots. Executing ConvergenceStudies.py will solve the problem and write the errors into data/SquareGeometry/ConstantDensity, while MakePlots.py will read data from data/CircleGeometry/NonConstantDensity. To replicate the respective other experiment, some slight adjustments have to be made (the files purposely use different experiments to showcase the necessary adjustments). Finally, the file CondNumbers.py calculates the condition numbers for different penalization parameters and writes the results to data/SquareGeometry/ConditionNumbers.",
+    "publishers": [
+        {
+            "publisher": "GRO.data"
+        }
+    ],
+    "subject_areas": [
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Mathematical Sciences"
+        }
+    ],
+    "resource_type": "Dataset",
+    "tags": [
+        {
+            "display_name": "Mathematical Sciences",
+            "name": "Mathematical Sciences",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "authors": [
+        {
+            "author": "van Beeck, Tim",
+            "givenName": "Tim",
+            "familyName": "van Beeck",
+            "orcid": ""
+        }
+    ],
+    "citation": [],
+    "doi_status": "True",
+    "owner_org": "goettingen",
+    "isopen": true,
+    "repository_name": "G\u00f6ttingen Research Online Data",
+    "type": "dataset",
+    "source_metadata_modified": "",
+    "url": "https://doi.org/10.25625/IVAWJM",
+    "doi_publisher": "",
+    "resources": [
+        {}
+    ]
+}

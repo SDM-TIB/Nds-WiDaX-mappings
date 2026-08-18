@@ -1,0 +1,176 @@
+{
+    "doi": "10.25625/WRYGL6",
+    "identifier_type": "DOI",
+    "doi_date_published": "2025",
+    "source_metadata_created": "2025",
+    "publication_year": "2025",
+    "title": "Dbd plasma discharges in air at atmospheric pressure: photographs and electrical waveforms",
+    "organization": {
+        "approval_status": "approved",
+        "description": "G\u00f6ttingen Research Online is an institutional repository for the publication of research data at the G\u00f6ttingen Campus. It is managed by the G\u00f6ttingen eResearch Alliance, a joint group of SUB and GWDG. .",
+        "display_name": "G\u00f6ttingenResearchOnline",
+        "image_display_url": "logo-goettingen.png",
+        "image_url": "logo-goettingen.png",
+        "is_organization": true,
+        "name": "goettingen",
+        "state": "active",
+        "title": "G\u00f6ttingenResearchOnline",
+        "type": "organization"
+    },
+    "name": "goe-doi-10-25625-wrygl6",
+    "license_id": "http://creativecommons.org/licenses/by/4.0",
+    "license_title": "Creative Commons Attribution 4.0 International",
+    "notes": "Description This dataset contains paired photographs and oscilloscope measurements of DBD plasmas generated in air at atmospheric pressure. The measurements span a wide parameter grid of excitation frequencies, transformer drive levels (\u201cvoltage [%]\u201d), camera exposure times, and discharge gap widths. Electrical and optical measurements were acquired quasi-automatically over ~3 weeks, with randomized sequencing to reduce time-dependent biases. Optical data were post-processed into a quantitative table with statistics, texture, and ISO 25178 surface parameters, and each operating point was manually labeled by discharge coverage.\nPlasma Source Properties The plasma source consists of an aluminum oxide electrode filled with bronze powder with a diameter of 40\u00a0mm and a wall thickness of 2\u00a0mm and an ITO coated quartz glass with 100 x 100 x 2\u00a0mm. The ITO layer faces away from the discharge side and has a surface conductivity of 12\u00a0Ohm/q. The discharge gap was varied between 0.5 - 10\u00a0mm. A Cofi TRS812C/18 with an H-bridge and rectified mains voltage was used as the high-voltage source. The electronics are published here: 10.17605/OSF.IO/429TK 10.17605/OSF.IO/M8ZQK 10.17605/OSF.IO/C6GZ5 10.17605/OSF.IO/675X2 10.17605/OSF.IO/G8J2Q The transformer drive level 25 - 100% and the frequency 50 - 850\u00a0Hz were also varied. The transformer drive level is called here voltage in percent. The switching signal curves are described here: 10.21268/20250507-10. The plasma power reached up to 13.3\u00a0W.\nDiagnostic Procedure The experimental procedure was performed almost entirely automatically. Data were collected in blocks of 8\u201312\u00a0hours per day over a period of approximately three\u00a0weeks. Key Parameters Excitation frequency [Hz] 50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850 Voltage (transformer drive level) [%] 25, 50, 75, 100 Exposure time [s] 0.05, 0.1, 0.5, 1, 2, 3.2, 5, 10 Gap width [mm] 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 6.0, 8.0, 10.0 Randomization Strategy A randomization strategy was employed to minimize systematic, time-dependent errors. The gap width was set manually to avoid setting deviations. Frequency and voltage were randomized independently. The resulting random sequence of measurement points, uniquely generated, was retained for each manually set gap width. Because the camera was controlled via a user interface with click simulation, the exposure-time sequence was randomly generated once and reused for each measurement. Instrumentation & Derived Quantities Voltage & current measured using two Tektronix P6015A probes (one per transformer pole) and a Pearson 411 current monitor via a Rohde & Schwarz RTM3004. The plasma-electrode voltage was computed as the difference between the two HV signals (internal math channels). Instantaneous power was computed as voltage \u00d7 current. Reported metrics (with standard deviations): RMS voltage, RMS plasma power, frequency, average plasma power, phase (current vs. voltage), peak voltage+ / peak voltage\u2212, and duty cycle (the dependent variable for percentage voltage). Automated Process per Gap Width Parameter Setting: The system stepped through the randomized (frequency, voltage) list and set values digitally via an ESP32 microcontroller at the plasma source. Camera Recordings: For each parameter combination, the camera captured a series of images while traversing exposure times in a predefined random order. At least five images were taken per exposure time. The system verified in real time that the minimum of five correctly exposed images was captured before saving. With short exposures (< 0.5\u00a0s), simulated click duration could exceed recording time, so more than five images were often captured automatically. Oscilloscope Measurements: Electrical data were recorded asynchronously to imaging. Five oscilloscope acquisitions were performed for each (gap, frequency, voltage) combination. Because exposure time does not affect plasma electrical properties, oscilloscope measurements (\u2265 50 data points each) were decoupled from imaging. Waveform data, screenshots, and statistical summaries were saved for each acquisition. This cycle was repeated until all frequency\u2013voltage combinations for a given gap width were recorded. The gap was then changed manually, and the process repeated until the entire parameter space was covered. Image Data Post-processing & Software Image data were post-processed into a quantitative CSV using Python. Libraries: os, re, time, concurrent.futures, gc (system/file ops); pandas (data management); rawpy and exifread (RAW & metadata); numpy (numerics); surfalize (surface parameters; https://doi.org/10.3390/nano14131076); cv2 (OpenCV; image processing); and tqdm (progress visualization). Online Ignition Check To streamline acquisition, the first image of each series (10\u00a0s exposure) was analyzed in real time to detect plasma ignition. If no ignition was detected, the run for that parameter set was aborted and the...",
+    "publishers": [
+        {
+            "publisher": "GRO.data"
+        }
+    ],
+    "subject_areas": [
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Computer and Information Science"
+        },
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Engineering"
+        },
+        {
+            "subject_area_additional": "",
+            "subject_area_name": "Physics"
+        }
+    ],
+    "resource_type": "Dataset",
+    "related_identifiers": [
+        {
+            "identifier": "https://doi.org/10.3390/nano14131076",
+            "identifier_type": "URL",
+            "relation_type": "IsPublishedIn",
+            "title": "Schell F, Zwahr C, Lasagni AF. Surfalize: A Python Library for Surface Topography and Roughness Analysis Designed for Periodic Surface Structures. Nanomaterials. 2024; 14(13):1076."
+        },
+        {
+            "identifier": "https://doi.org/10.21268/20250507-10",
+            "identifier_type": "URL",
+            "relation_type": "IsPublishedIn",
+            "title": "Schulz, J., Hirschmann, T., Schn\u00fcll, K., Vi\u00f6l, C., Helmke, A., Deutsch, B., Landmann, N., Augustin, D., Vi\u00f6l, W., 2025. Ozone production of low-frequency plasma using high-impedance high-voltage transformers for volume plasma generation for plasma-based air purification. Tagungsband 6. Symposium Materialtechnik"
+        },
+        {
+            "identifier": "https://doi.org/10.17605/OSF.IO/429TK",
+            "identifier_type": "URL",
+            "relation_type": "IsPublishedIn",
+            "title": "J. Schulz and W. Vi\u00f6l, \u201cPCB System for Plasma Generation,\u201d 2024, OSF"
+        },
+        {
+            "identifier": "https://doi.org/10.17605/OSF.IO/M8ZQK",
+            "identifier_type": "URL",
+            "relation_type": "IsPublishedIn",
+            "title": "J. Schulz, F. Bauer, and W. Vi\u00f6l, \u201cMains Voltage Rectifier Unit"
+        },
+        {
+            "identifier": "https://doi.org/10.17605/OSF.IO/C6GZ5",
+            "identifier_type": "URL",
+            "relation_type": "IsPublishedIn",
+            "title": "J. Schulz, F. Bauer, and W. Vi\u00f6l, \u201c\u00b5c Control Unit,\u201d 2024, OSF"
+        },
+        {
+            "identifier": "https://doi.org/10.17605/OSF.IO/675X2",
+            "identifier_type": "URL",
+            "relation_type": "IsPublishedIn",
+            "title": "J. Schulz, F. Bauer, R. Damm, and W. Vi\u00f6l, \u201cLow Voltage Supply Unit"
+        },
+        {
+            "identifier": "https://doi.org/10.17605/OSF.IO/G8J2Q",
+            "identifier_type": "URL",
+            "relation_type": "IsPublishedIn",
+            "title": "J. Schulz and W. Vi\u00f6l, \u201cFrequency Generator Unit,\u201d 2024, OSF"
+        }
+    ],
+    "tags": [
+        {
+            "display_name": "Computer and Information Science",
+            "name": "Computer and Information Science",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Engineering",
+            "name": "Engineering",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "Physics",
+            "name": "Physics",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "dielectric barrier discharge",
+            "name": "dielectric barrier discharge",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "cold atmospheric plasma",
+            "name": "cold atmospheric plasma",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "plasma",
+            "name": "plasma",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "photography",
+            "name": "photography",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "plasma propagation",
+            "name": "plasma propagation",
+            "state": "active",
+            "vocabulary_id": null
+        },
+        {
+            "display_name": "discharge pattern",
+            "name": "discharge pattern",
+            "state": "active",
+            "vocabulary_id": null
+        }
+    ],
+    "authors": [
+        {
+            "author": "Schn\u00fcll, Katharina",
+            "givenName": "Katharina",
+            "familyName": "Schn\u00fcll",
+            "orcid": ""
+        },
+        {
+            "author": "Schulz, Jannik",
+            "givenName": "Jannik",
+            "familyName": "Schulz",
+            "orcid": ""
+        },
+        {
+            "author": "Vi\u00f6l, Wolfgang",
+            "givenName": "Wolfgang",
+            "familyName": "Vi\u00f6l",
+            "orcid": ""
+        }
+    ],
+    "citation": [],
+    "doi_status": "True",
+    "owner_org": "goettingen",
+    "isopen": true,
+    "repository_name": "G\u00f6ttingen Research Online Data",
+    "type": "dataset",
+    "source_metadata_modified": "",
+    "url": "https://doi.org/10.25625/WRYGL6",
+    "doi_publisher": "",
+    "resources": [
+        {}
+    ]
+}
