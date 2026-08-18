@@ -12,7 +12,8 @@ The **Nds-WiDaX** project aims to sustainably network research data infrastructu
 
 Recognizing that effective research data management (RDM) is a collaborative challenge requiring cooperation and technical interoperability across disciplinary and institutional boundaries, Nds-WiDaX builds on the [**Leibniz Data Manager (LDM)**](https://github.com/SDM-TIB/LDM_Docker) – an open, semantics-oriented software service – to enable machine-readable, contextually rich indexing of heterogeneous (meta)data from research data repositories across Lower Saxony.
 
-The resulting knowledge graph semantically links digital research objects using ontologies, controlled vocabularies, and named entity recognition (NER). It supports the exploration, comparability, and reuse of research data through user-friendly, federated interfaces.
+The resulting knowledge graph semantically links digital research objects using ontologies, controlled vocabularies, and named entity recognition (NER).
+It supports the exploration, comparability, and reuse of research data through user-friendly, federated interfaces.
 
 ![Project overview and work packages](./docs/images/graphical_abstract.png)
 
@@ -31,6 +32,17 @@ The resulting knowledge graph semantically links digital research objects using 
    - Contribution to the implementation of the **FAIR principles** (Findable, Accessible, Interoperable, Reusable)  
    - Establishment of an open, intelligently searchable data ecosystem
 
+4. **Data infrastructures**
+   - Automated mapping and enrichment of metadata with semantic annotations; reduced manual metadata maintenance effort
+   - Possible infrastructure target groups include:
+      - Universities and research institutions with their own (domain-specific) data repositories
+      - State and municipal research centers
+      - Libraries and information centers
+
+5. **Data Service Providers**
+   - Use of SPARQL endpoints and REST APIs for integration into external systems
+   - Connection to data management and service providers, e.g., [ORKG](https://orkg.org/), [Wikibase](https://wikiba.se/), [DBpedia](https://www.dbpedia.org/)
+
 ## Repository structure
 
 <!-- TODO: Add table of repo paths and their purposes -->
@@ -38,7 +50,8 @@ The resulting knowledge graph semantically links digital research objects using 
 
 **Current Status**
 
-This repository currently contains metadata mappings from a selection of research data repositories in Lower Saxony. These mappings serve as the foundation for building a unified knowledge graph and will be expanded to include:
+This repository currently contains metadata mappings from a selection of research data repositories in Lower Saxony.
+These mappings serve as the foundation for building a unified knowledge graph and will be expanded to include:
 
 - Full data harvesting pipeline (incl. open source code for all steps)  
 - Semantic enrichment workflows (NER, ontology alignment)  
@@ -63,11 +76,15 @@ The metadata of the following research data repositories in Lower Saxony is bein
 ## Participating Institutions
 
 - **Lead**: [Technische Informationsbibliothek (TIB)](https://www.tib.eu), Hannover  
-- **Project Lead**: Säule 3 of the [FDM-NDS](https://fdm-nds.de/) initiative (Research Data Management Lower Saxony)  
+- **Project Lead**:
+   - Angelina Kraft ([@kraftalin](https://github.com/kraftalin))
+   - Maria-Esther Vidal ([@mevs](https://github.com/mevs))
+- This is a "Säule 3" project of the [FDM-NDS](https://fdm-nds.de/) initiative (Research Data Management Lower Saxony)  
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+- Graphics and diagrams: [CC BY 4.0](LICENSE-CC-BY-4.0)
+- Software and all other files in this repository: [MIT License](LICENSE).
 
 ## Contact
 
