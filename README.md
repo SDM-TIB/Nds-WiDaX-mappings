@@ -1,10 +1,10 @@
-# Nds-WiDaX: Semantically Enriched Knowledge Graph for Research Data Networking in Lower Saxony
+# Nds-WiDaX: Semantically Enriched Knowledge Graph for Linking Research Data Repositories in Lower Saxony
 
 ![Nds-WiDaX Logo](./docs/images/logo_nds_widax.png)
 
 > [**"Why it takes a village to do FAIR Data Management"**](https://doi.org/10.1162/99608f92.42eec111) – Nds-WiDaX brings together Lower Saxony’s research data infrastructures into a unified, semantically enriched knowledge graph.
 
-## 🌐 Project Overview
+## Project Overview
 
 The **Nds-WiDaX** project aims to sustainably network research data infrastructures in Lower Saxony by developing a domain-specific, semantically enriched knowledge graph.
 
@@ -14,7 +14,7 @@ The resulting knowledge graph semantically links digital research objects using 
 
 ![Project overview and work packages](./docs/images/graphical_abstract.png)
 
-## 🎯 Target Groups
+## Target Groups
 
 1. **Researchers**  
    - Direct access to relevant, interoperable datasets via semantic search  
@@ -29,18 +29,9 @@ The resulting knowledge graph semantically links digital research objects using 
    - Contribution to the implementation of the **FAIR principles** (Findable, Accessible, Interoperable, Reusable)  
    - Establishment of an open, intelligently searchable data ecosystem
 
-## 🔗 Technical Foundation
+## Current Status
 
-- [**Leibniz Data Manager (LDM)**](https://service.tib.eu/ldmservice) – Open-source service for managing, analyzing, and evaluating scientific data  
-- **Semantic Web Technologies**: RDF, OWL, SPARQL  
-- **Ontologies & Controlled Vocabularies** (e.g., from [TIB Terminology Service](https://terminology.tib.eu/))  
-- **Named Entity Recognition (NER)** for semantic enrichment  
-- **Federated Architecture** for scalable, decentralized data integration  
-- **Open-Source Stack**: Python, RDFLib, SPARQL endpoints
-
-## 📌 Current Status
-
-This repository currently contains **metadata mappings** from a selection of research data repositories in Lower Saxony. These mappings serve as the foundation for building a unified knowledge graph and will be expanded to include:
+This repository currently contains metadata mappings from a selection of research data repositories in Lower Saxony. These mappings serve as the foundation for building a unified knowledge graph and will be expanded to include:
 
 - Full data harvesting pipeline (incl. open source code for all steps)  
 - Semantic enrichment workflows (NER, ontology alignment)  
@@ -48,12 +39,12 @@ This repository currently contains **metadata mappings** from a selection of res
 - Documentation of ontologies, mappings, and best practices
 - Example SPARQL queries
 
-## 📂 Repository structure
+## Repository structure
 
 <!-- TODO: Add table of repo paths and their purposes -->
 *Coming soon*
 
-## 📊 Data Sources
+## Data Sources
 
 The metadata of the following research data repositories in Lower Saxony is being included in Nds-WiDaX:
 
@@ -67,12 +58,12 @@ The metadata of the following research data repositories in Lower Saxony is bein
 
 ![map of included research data repositories in Lower Saxony](./docs/images/map_lower_saxony.png)
 
-## 🤝 Participating Institutions
+## Participating Institutions
 
 - **Lead**: [Technische Informationsbibliothek (TIB)](https://www.tib.eu), Hannover  
-- **Project Lead**: Säule 3 of the [**FDM-NDS**](https://fdm-nds.de/) initiative (Research Data Management Lower Saxony)  
+- **Project Lead**: Säule 3 of the [FDM-NDS](https://fdm-nds.de/) initiative (Research Data Management Lower Saxony)  
 
-## 📬 Contact
+## Contact
 
 Developed by [Mauricio Brunet](https://github.com/Rmbruno11) and [Jasmin Frangenberg](https://github.com/jasmezz). We acknowledge all members of the TIB-SDM group for their helpful feedback and support.
 
@@ -82,6 +73,6 @@ Developed by [Mauricio Brunet](https://github.com/Rmbruno11) and [Jasmin Frangen
 **We welcome feedback, requests and bug reports!**
 
 
-## 📜 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
