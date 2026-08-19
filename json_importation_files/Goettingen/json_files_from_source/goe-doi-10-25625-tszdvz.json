@@ -1,0 +1,163 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/TSZDVZ",
+    "identifier": "https://doi.org/10.25625/TSZDVZ",
+    "name": "Clausthal University of Technology Weather Station data",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Niels",
+            "familyName": "Neumann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Technische Universit\u00e4t Clausthal, Institut f\u00fcr Elektrische Informationstechnik"
+            },
+            "name": "Neumann, Niels"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Niels",
+            "familyName": "Neumann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Technische Universit\u00e4t Clausthal, Institut f\u00fcr Elektrische Informationstechnik"
+            },
+            "name": "Neumann, Niels"
+        }
+    ],
+    "datePublished": "2026-05-04",
+    "dateModified": "2026-05-04",
+    "version": "1",
+    "description": "weather data in CSV format, one file per year, starting 2015 available fields: id: measurement ID date: YYYY-MM-DD hh:mm:ss format wind_velocity: in m/s wind_direction: in degree temperature: in \u00b0C humidity: relative humidity in % pressure: in hPa, corrected for sea level radiation: global radiation in W/m^2 precipitation: in mm",
+    "keywords": [
+        "Other"
+    ],
+    "temporalCoverage": [
+        "2015-06-14/"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "mean2015.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 22125630,
+            "@id": "https://doi.org/10.25625/TSZDVZ/JQF476",
+            "identifier": "https://doi.org/10.25625/TSZDVZ/JQF476",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167884"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "mean2016.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 40649217,
+            "@id": "https://doi.org/10.25625/TSZDVZ/T0L842",
+            "identifier": "https://doi.org/10.25625/TSZDVZ/T0L842",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167885"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "mean2017.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 40461252,
+            "@id": "https://doi.org/10.25625/TSZDVZ/PHK8MU",
+            "identifier": "https://doi.org/10.25625/TSZDVZ/PHK8MU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167894"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "mean2018.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 41050505,
+            "@id": "https://doi.org/10.25625/TSZDVZ/Z4UX3J",
+            "identifier": "https://doi.org/10.25625/TSZDVZ/Z4UX3J",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167890"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "mean2019.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 41021550,
+            "@id": "https://doi.org/10.25625/TSZDVZ/IN8EKH",
+            "identifier": "https://doi.org/10.25625/TSZDVZ/IN8EKH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167893"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "mean2020.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 41121275,
+            "@id": "https://doi.org/10.25625/TSZDVZ/AYIR13",
+            "identifier": "https://doi.org/10.25625/TSZDVZ/AYIR13",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167887"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "mean2021.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 41047570,
+            "@id": "https://doi.org/10.25625/TSZDVZ/B5ZUVE",
+            "identifier": "https://doi.org/10.25625/TSZDVZ/B5ZUVE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167889"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "mean2022.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 41059317,
+            "@id": "https://doi.org/10.25625/TSZDVZ/XBN4HX",
+            "identifier": "https://doi.org/10.25625/TSZDVZ/XBN4HX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167886"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "mean2023.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 41015590,
+            "@id": "https://doi.org/10.25625/TSZDVZ/TAO4FV",
+            "identifier": "https://doi.org/10.25625/TSZDVZ/TAO4FV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167891"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "mean2024.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 22843616,
+            "@id": "https://doi.org/10.25625/TSZDVZ/QVJ9KU",
+            "identifier": "https://doi.org/10.25625/TSZDVZ/QVJ9KU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167892"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "mean2025.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 4102300,
+            "@id": "https://doi.org/10.25625/TSZDVZ/I80HPT",
+            "identifier": "https://doi.org/10.25625/TSZDVZ/I80HPT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167888"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Other"
+    ],
+    "publications": [
+        {}
+    ]
+}

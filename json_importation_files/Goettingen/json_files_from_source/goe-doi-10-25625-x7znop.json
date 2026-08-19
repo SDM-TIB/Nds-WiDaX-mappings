@@ -1,0 +1,72 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/X7ZNOP",
+    "identifier": "https://doi.org/10.25625/X7ZNOP",
+    "name": "Water Phantom",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Vitali",
+            "familyName": "Telezki",
+            "name": "Telezki, Vitali"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Vitali",
+            "familyName": "Telezki",
+            "name": "Telezki, Vitali"
+        }
+    ],
+    "datePublished": "2026-04-21",
+    "dateModified": "2026-04-21",
+    "version": "1",
+    "description": "Single slice extracted from t1_fl3d acquisition, with resolution 128x128, head coil, 20 channels, no acceleration",
+    "keywords": [
+        "Medicine, Health and Life Sciences",
+        "Physics"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "ksp.cfl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 5242880,
+            "description": "ksp file",
+            "@id": "https://doi.org/10.25625/X7ZNOP/ZDAFJC",
+            "identifier": "https://doi.org/10.25625/X7ZNOP/ZDAFJC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167375"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "ksp.hdr",
+            "encodingFormat": "image/x-hdr",
+            "contentSize": 138,
+            "description": "header file",
+            "@id": "https://doi.org/10.25625/X7ZNOP/F0GHWB",
+            "identifier": "https://doi.org/10.25625/X7ZNOP/F0GHWB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167376"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Medicine, Health and Life Sciences",
+        "Physics"
+    ]
+}

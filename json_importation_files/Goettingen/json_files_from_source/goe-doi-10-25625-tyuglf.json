@@ -1,0 +1,130 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/TYUGLF",
+    "identifier": "https://doi.org/10.25625/TYUGLF",
+    "name": "Polarity Word Lists for Financial Analyst Communication",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Matthias",
+            "familyName": "Palmer",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Goettingen, Chair of Electronic Finance and Digital Markets"
+            },
+            "name": "Palmer, Matthias"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Jan",
+            "familyName": "Roeder",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Goettingen, Chair of Electronic Finance and Digital Markets"
+            },
+            "name": "Roeder, Jan"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Jan",
+            "familyName": "Muntermann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Goettingen, Chair of Electronic Finance and Digital Markets"
+            },
+            "name": "Muntermann, Jan"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Matthias",
+            "familyName": "Palmer",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Goettingen, Chair of Electronic Finance and Digital Markets"
+            },
+            "name": "Palmer, Matthias"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Jan",
+            "familyName": "Roeder",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Goettingen, Chair of Electronic Finance and Digital Markets"
+            },
+            "name": "Roeder, Jan"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Jan",
+            "familyName": "Muntermann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Goettingen, Chair of Electronic Finance and Digital Markets"
+            },
+            "name": "Muntermann, Jan"
+        }
+    ],
+    "datePublished": "2020-03-26",
+    "dateModified": "2020-04-15",
+    "version": "2",
+    "description": "This dataset contains polarity word lists that have been specifically induced for dictionary-based sentiment analysis of the communication of financial analysts. For details on the preparation of the polarity word lists, please refer to the publication listed below.",
+    "keywords": [
+        "Business and Management",
+        "Computer and Information Science",
+        "Sentiment Analysis, Dictionary Induction, Financial Analysts, Analyst Reports"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "Palmer, M., Roeder, J., and Muntermann, J. \u201eTowards Automated Analysis of Financial Analyst Communication: The Induction of a Domain-Specific Sentiment Dictionary,\u201c in: Proceedings of the 28th European Conference on Information Systems, Marrakech, Morocco, Forthcoming."
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "analyst_dictionary_negative_words.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 3916,
+            "@id": "https://doi.org/10.25625/TYUGLF/SZLUWX",
+            "identifier": "https://doi.org/10.25625/TYUGLF/SZLUWX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/17615"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "analyst_dictionary_positive_words.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 6001,
+            "@id": "https://doi.org/10.25625/TYUGLF/RQVEBL",
+            "identifier": "https://doi.org/10.25625/TYUGLF/RQVEBL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/17614"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Business and Management",
+        "Computer and Information Science"
+    ],
+    "publications": [
+        {
+            "citation": "Palmer, M., Roeder, J., and Muntermann, J. \u201eTowards Automated Analysis of Financial Analyst Communication: The Induction of a Domain-Specific Sentiment Dictionary,\u201c in: Proceedings of the 28th European Conference on Information Systems, Marrakech, Morocco, Forthcoming."
+        }
+    ]
+}

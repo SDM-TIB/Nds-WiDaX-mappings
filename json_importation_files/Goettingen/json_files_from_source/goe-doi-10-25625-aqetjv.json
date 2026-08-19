@@ -1,0 +1,70 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/AQETJV",
+    "identifier": "https://doi.org/10.25625/AQETJV",
+    "name": "Emulation of Heterogeneous Kubernetes Clusters Using QEMU",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Vincent Florens",
+            "familyName": "Hasse",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Gesellschaft f\u00fcr wissenschaftliche Datenverarbeitung mbH G\u00f6ttingen"
+            },
+            "name": "Hasse, Vincent Florens"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Vincent Florens",
+            "familyName": "Hasse",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Gesellschaft f\u00fcr wissenschaftliche Datenverarbeitung mbH G\u00f6ttingen"
+            },
+            "name": "Hasse, Vincent Florens"
+        }
+    ],
+    "datePublished": "2024-11-13",
+    "dateModified": "2025-08-27",
+    "version": "1",
+    "description": "Kubernetes, as the current de-facto industry standard for container orchestration, is used for deploying and managing containerized applications in the cloud. It dynamically scales the amount of containers depending on demand. For this, the Kubernetes scheduler de- termines on which underlying hardware the additional resources should be placed. Most Kubernetes clusters run on homogeneous hardware in data centers, and for this scenario most scheduling algorithms are developed. When the underlying system becomes more heterogeneous, scheduling decisions become more complex and time intensive. For testing algorithms that are designed for heterogeneous hardware systems, respective environments are needed. An alternative to buying heterogeneous hardware and adding it to the compute resources is the simulation of clusters and workloads using tools like CloudSim or K8sSim. However, simulations suffer from a low level of detail. In this thesis we present Q8S which can be used to automatically set up a highly avail- able Kubernetes cluster based on user specifications in an OpenStack environment. It uses QEMU for emulating the Kubernetes node\u2019s hardware which offers a higher level of detail than simulations. This enables more thorough testing and analysis of the behavior of scheduling algorithms or applications in heterogeneous clusters. It may also provide training environments for Kubernetes scheduling algorithms using machine learning tech- niques. The evaluation of the bandwidth, CPU and RAM usage of Q8S nodes using the k8s- bench-suite shows that, while the nodes suffer from emulation overhead, the proposed application provides a working Kubernetes cluster with nodes running on heterogeneous, emulated hardware. Q8S is Open Source and can be customized to meet the needs regard- ing the node\u2019s system specifications or other functionalities that are provided by QEMU and libvirt.",
+    "keywords": [
+        "Computer and Information Science"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Emulation_of_Heterogeneous_Kubernetes_Clusters_Using_QEMU.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 3328246,
+            "@id": "https://doi.org/10.25625/AQETJV/LX1NON",
+            "identifier": "https://doi.org/10.25625/AQETJV/LX1NON",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/116992"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Computer and Information Science"
+    ],
+    "publications": [
+        {}
+    ]
+}

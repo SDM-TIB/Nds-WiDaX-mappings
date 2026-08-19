@@ -1,0 +1,88 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/XFQT0J",
+    "identifier": "https://doi.org/10.25625/XFQT0J",
+    "name": "Training Data for Eye states",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Muhammad Owais",
+            "familyName": "Raza",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Sakarya University of Applied Sciences, Department of Electrical-Electronic Engineering"
+            },
+            "name": "Raza, Muhammad Owais"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Muhammad Owais",
+            "familyName": "Raza",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Sakarya University of Applied Sciences, Department of Electrical-Electronic Engineering"
+            },
+            "name": "Raza, Muhammad Owais"
+        }
+    ],
+    "datePublished": "2025-11-11",
+    "dateModified": "2025-11-12",
+    "version": "2",
+    "description": "Datasets of open, closed or partially open eyes",
+    "keywords": [
+        "Computer and Information Science"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "closed.tar",
+            "encodingFormat": "application/x-tar",
+            "contentSize": 5533696,
+            "description": "Images of closed eyes",
+            "@id": "https://doi.org/10.25625/XFQT0J/VTD67R",
+            "identifier": "https://doi.org/10.25625/XFQT0J/VTD67R",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/141957"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "open.tar",
+            "encodingFormat": "application/x-tar",
+            "contentSize": 6406656,
+            "description": "Images of open eyes",
+            "@id": "https://doi.org/10.25625/XFQT0J/LERTEK",
+            "identifier": "https://doi.org/10.25625/XFQT0J/LERTEK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/141959"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "partially open.tar",
+            "encodingFormat": "application/x-tar",
+            "contentSize": 6000640,
+            "description": "Images of partially open eyes",
+            "@id": "https://doi.org/10.25625/XFQT0J/1Y5DJE",
+            "identifier": "https://doi.org/10.25625/XFQT0J/1Y5DJE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/141958"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Computer and Information Science"
+    ]
+}

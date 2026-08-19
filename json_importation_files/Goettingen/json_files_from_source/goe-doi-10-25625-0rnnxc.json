@@ -1,0 +1,195 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/0RNNXC",
+    "identifier": "https://doi.org/10.25625/0RNNXC",
+    "name": "Code and data for: Regularization for time-dependent inverse problems: Geometry of Lebesgue-Bochner spaces and algorithms",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Gesa",
+            "familyName": "Sarnighausen",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for Numerical and Applied Mathematics, University of G\u00f6ttingen"
+            },
+            "name": "Sarnighausen, Gesa"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Thorsten",
+            "familyName": "Hohage",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for Numerical and Applied Mathematics, University of G\u00f6ttingen"
+            },
+            "name": "Hohage, Thorsten"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Martin",
+            "familyName": "Burger",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Helmholtz Imaging, Deutsches Elektronen-Synchrotron DESY,"
+            },
+            "name": "Burger, Martin"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Andreas",
+            "familyName": "Hauptmann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Research Unit of Mathematical Sciences, University of Oulu; Department of Computer Science, University College London"
+            },
+            "name": "Hauptmann, Andreas"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Anne",
+            "familyName": "Wald",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for Numerical and Applied Mathematics, University of G\u00f6ttingen"
+            },
+            "name": "Wald, Anne"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Gesa",
+            "familyName": "Sarnighausen",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for Numerical and Applied Mathematics, University of G\u00f6ttingen"
+            },
+            "name": "Sarnighausen, Gesa"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Thorsten",
+            "familyName": "Hohage",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for Numerical and Applied Mathematics, University of G\u00f6ttingen"
+            },
+            "name": "Hohage, Thorsten"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Martin",
+            "familyName": "Burger",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Helmholtz Imaging, Deutsches Elektronen-Synchrotron DESY,"
+            },
+            "name": "Burger, Martin"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Andreas",
+            "familyName": "Hauptmann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Research Unit of Mathematical Sciences, University of Oulu; Department of Computer Science, University College London"
+            },
+            "name": "Hauptmann, Andreas"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Anne",
+            "familyName": "Wald",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for Numerical and Applied Mathematics, University of G\u00f6ttingen"
+            },
+            "name": "Wald, Anne"
+        }
+    ],
+    "datePublished": "2025-07-10",
+    "dateModified": "2025-07-10",
+    "version": "1",
+    "description": "Data and code that support findings of the article \"Regularization for time-dependent inverse problems: Geometry of Lebesgue-Bochner spaces and algorithms\" (https://arxiv.org/abs/2506.11291) Getting started You can find the required packages in 'requirementsDIP.txt' or use the conda environment 'DIP.yaml'. Tikhonov regularization in Banach spaces The codes for the dual method (Tikhonov regularization in Banach spaces) can be found in the directory ```Tikhonov```. The files '_rec_Tikhonov_dynamic/static' construct the phantoms, data and reconstructions. The files '_error_plot_Tikhonov_dynamic/static' construct the figures using the data in 'results'. Temporal variational regularization The codes for temporal variational regularization can be found in the directory 'TemporalVariationalRegularization'. As before the files starting with '_Reconstruct...' construct phantoms, data and reconstructions for the time or intensity preserving phantom or the emoji data. The files starting with '_error_plot...' produce the figures using the data in 'results'. For the emoji data, we first need to do preprocessing in matlab to start with the original data from https://fips.fi/open-datasets/x-ray-tomographic-datasets/tomographic-x-ray-data-of-a-time-dependent-emoji-phantom/ . This is done by 'DataToParallel.m'.",
+    "keywords": [
+        "Mathematical Sciences"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "DIP.yaml",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 3620,
+            "@id": "https://doi.org/10.25625/0RNNXC/4B4S6X",
+            "identifier": "https://doi.org/10.25625/0RNNXC/4B4S6X",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/130790"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "README.md",
+            "encodingFormat": "text/markdown",
+            "contentSize": 1210,
+            "@id": "https://doi.org/10.25625/0RNNXC/PJDFMH",
+            "identifier": "https://doi.org/10.25625/0RNNXC/PJDFMH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/130788"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "requirementsDIP.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1563,
+            "@id": "https://doi.org/10.25625/0RNNXC/Z29VKR",
+            "identifier": "https://doi.org/10.25625/0RNNXC/Z29VKR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/130789"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TemporalVariationalRegularization.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 2010831764,
+            "@id": "https://doi.org/10.25625/0RNNXC/VA7AN9",
+            "identifier": "https://doi.org/10.25625/0RNNXC/VA7AN9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/130798"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Tikhonov.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 1325179484,
+            "@id": "https://doi.org/10.25625/0RNNXC/J1OOYY",
+            "identifier": "https://doi.org/10.25625/0RNNXC/J1OOYY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/130799"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "utils.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 46040,
+            "@id": "https://doi.org/10.25625/0RNNXC/RJAXTX",
+            "identifier": "https://doi.org/10.25625/0RNNXC/RJAXTX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/130797"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Mathematical Sciences"
+    ],
+    "publications": [
+        {}
+    ]
+}

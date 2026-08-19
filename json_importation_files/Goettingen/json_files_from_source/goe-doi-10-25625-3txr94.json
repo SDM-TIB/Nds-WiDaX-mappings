@@ -1,0 +1,754 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/3TXR94",
+    "identifier": "https://doi.org/10.25625/3TXR94",
+    "name": "GTP_MT_C36M",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Maxim",
+            "familyName": "Igaev",
+            "name": "Igaev, Maxim"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Maxim",
+            "familyName": "Igaev",
+            "name": "Igaev, Maxim"
+        }
+    ],
+    "datePublished": "2025-02-17",
+    "dateModified": "2025-02-17",
+    "version": "1",
+    "description": "This Dataset contains MD trajectories of the GTP-MT tip (only solute atoms) simulated using CHARMM36m.",
+    "keywords": [
+        "Physics"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "Due to constraints on the file size, each trajectory file TRAJ_FILE.xtc was fragmented as follows: split -b 1024M TRAJ_FILE.xtc traj_fragment.. The original file can be recovered using cat traj_fragment.?? > TRAJ_FILE.xtc."
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_1.pdb",
+            "encodingFormat": "application/x-aportisdoc",
+            "contentSize": 86475902,
+            "@id": "https://doi.org/10.25625/3TXR94/DD63C3",
+            "identifier": "https://doi.org/10.25625/3TXR94/DD63C3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103758"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_1_fragment.aa",
+            "encodingFormat": "audio/x-pn-audibleaudio",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/4UU4PZ",
+            "identifier": "https://doi.org/10.25625/3TXR94/4UU4PZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103760"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_1_fragment.ab",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/YQTDSN",
+            "identifier": "https://doi.org/10.25625/3TXR94/YQTDSN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103771"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_1_fragment.ac",
+            "encodingFormat": "application/pkix-attr-cert",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/XKDD18",
+            "identifier": "https://doi.org/10.25625/3TXR94/XKDD18",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103763"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_1_fragment.ad",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/XOARGD",
+            "identifier": "https://doi.org/10.25625/3TXR94/XOARGD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103768"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_1_fragment.ae",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/XIC8NJ",
+            "identifier": "https://doi.org/10.25625/3TXR94/XIC8NJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103775"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_1_fragment.af",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/J3QZJF",
+            "identifier": "https://doi.org/10.25625/3TXR94/J3QZJF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103774"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_1_fragment.ag",
+            "encodingFormat": "image/x-applix-graphics",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/RKRDST",
+            "identifier": "https://doi.org/10.25625/3TXR94/RKRDST",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103766"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_1_fragment.ah",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/3ZF2Y5",
+            "identifier": "https://doi.org/10.25625/3TXR94/3ZF2Y5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103773"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_1_fragment.ai",
+            "encodingFormat": "application/illustrator",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/HAUTH7",
+            "identifier": "https://doi.org/10.25625/3TXR94/HAUTH7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103761"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_1_fragment.aj",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/QBUBYG",
+            "identifier": "https://doi.org/10.25625/3TXR94/QBUBYG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103762"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_1_fragment.ak",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/C9CPMD",
+            "identifier": "https://doi.org/10.25625/3TXR94/C9CPMD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103772"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_1_fragment.al",
+            "encodingFormat": "application/x-perl",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/FZN4Z7",
+            "identifier": "https://doi.org/10.25625/3TXR94/FZN4Z7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103770"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_1_fragment.am",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/PTUV2H",
+            "identifier": "https://doi.org/10.25625/3TXR94/PTUV2H",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103765"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_1_fragment.an",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/OME10T",
+            "identifier": "https://doi.org/10.25625/3TXR94/OME10T",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103767"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_1_fragment.ao",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/WSSLXA",
+            "identifier": "https://doi.org/10.25625/3TXR94/WSSLXA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103764"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_1_fragment.ap",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 688822588,
+            "@id": "https://doi.org/10.25625/3TXR94/MFF7SH",
+            "identifier": "https://doi.org/10.25625/3TXR94/MFF7SH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103769"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_2.pdb",
+            "encodingFormat": "application/x-aportisdoc",
+            "contentSize": 86475902,
+            "@id": "https://doi.org/10.25625/3TXR94/1SBGUQ",
+            "identifier": "https://doi.org/10.25625/3TXR94/1SBGUQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103796"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_2_fragment.aa",
+            "encodingFormat": "audio/x-pn-audibleaudio",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/AQW04X",
+            "identifier": "https://doi.org/10.25625/3TXR94/AQW04X",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103799"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_2_fragment.ab",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/IQRKXL",
+            "identifier": "https://doi.org/10.25625/3TXR94/IQRKXL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103797"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_2_fragment.ac",
+            "encodingFormat": "application/pkix-attr-cert",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/GIWVHY",
+            "identifier": "https://doi.org/10.25625/3TXR94/GIWVHY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103809"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_2_fragment.ad",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/OWKV6U",
+            "identifier": "https://doi.org/10.25625/3TXR94/OWKV6U",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103810"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_2_fragment.ae",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/WOVWVN",
+            "identifier": "https://doi.org/10.25625/3TXR94/WOVWVN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103803"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_2_fragment.af",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/NWP8L1",
+            "identifier": "https://doi.org/10.25625/3TXR94/NWP8L1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103800"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_2_fragment.ag",
+            "encodingFormat": "image/x-applix-graphics",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/PWMDSJ",
+            "identifier": "https://doi.org/10.25625/3TXR94/PWMDSJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103805"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_2_fragment.ah",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/BUNATI",
+            "identifier": "https://doi.org/10.25625/3TXR94/BUNATI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103798"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_2_fragment.ai",
+            "encodingFormat": "application/illustrator",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/AE0C0S",
+            "identifier": "https://doi.org/10.25625/3TXR94/AE0C0S",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103806"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_2_fragment.aj",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/QHNM19",
+            "identifier": "https://doi.org/10.25625/3TXR94/QHNM19",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103807"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_2_fragment.ak",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/THEF0L",
+            "identifier": "https://doi.org/10.25625/3TXR94/THEF0L",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103801"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_2_fragment.al",
+            "encodingFormat": "application/x-perl",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/16HDHQ",
+            "identifier": "https://doi.org/10.25625/3TXR94/16HDHQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103804"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_2_fragment.am",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/A76JEC",
+            "identifier": "https://doi.org/10.25625/3TXR94/A76JEC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103802"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_2_fragment.an",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 534027120,
+            "@id": "https://doi.org/10.25625/3TXR94/RL6OGR",
+            "identifier": "https://doi.org/10.25625/3TXR94/RL6OGR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103808"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_3.pdb",
+            "encodingFormat": "application/x-aportisdoc",
+            "contentSize": 86475902,
+            "@id": "https://doi.org/10.25625/3TXR94/E9BWJW",
+            "identifier": "https://doi.org/10.25625/3TXR94/E9BWJW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103812"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_3_fragment.aa",
+            "encodingFormat": "audio/x-pn-audibleaudio",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/8PW5FV",
+            "identifier": "https://doi.org/10.25625/3TXR94/8PW5FV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103824"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_3_fragment.ab",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/WKV6GP",
+            "identifier": "https://doi.org/10.25625/3TXR94/WKV6GP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103823"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_3_fragment.ac",
+            "encodingFormat": "application/pkix-attr-cert",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/FIYLXE",
+            "identifier": "https://doi.org/10.25625/3TXR94/FIYLXE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103813"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_3_fragment.ad",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/OEYMV9",
+            "identifier": "https://doi.org/10.25625/3TXR94/OEYMV9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103820"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_3_fragment.ae",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/BX64U5",
+            "identifier": "https://doi.org/10.25625/3TXR94/BX64U5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103825"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_3_fragment.af",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/DGUWUI",
+            "identifier": "https://doi.org/10.25625/3TXR94/DGUWUI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103816"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_3_fragment.ag",
+            "encodingFormat": "image/x-applix-graphics",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/VZZQ6H",
+            "identifier": "https://doi.org/10.25625/3TXR94/VZZQ6H",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103822"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_3_fragment.ah",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/ECAMYL",
+            "identifier": "https://doi.org/10.25625/3TXR94/ECAMYL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103819"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_3_fragment.ai",
+            "encodingFormat": "application/illustrator",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/RDF4VN",
+            "identifier": "https://doi.org/10.25625/3TXR94/RDF4VN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103817"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_3_fragment.aj",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/KOLJFL",
+            "identifier": "https://doi.org/10.25625/3TXR94/KOLJFL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103821"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_3_fragment.ak",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/R672I4",
+            "identifier": "https://doi.org/10.25625/3TXR94/R672I4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103815"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_3_fragment.al",
+            "encodingFormat": "application/x-perl",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/YZIUEL",
+            "identifier": "https://doi.org/10.25625/3TXR94/YZIUEL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103818"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_3_fragment.am",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 840189464,
+            "@id": "https://doi.org/10.25625/3TXR94/HAM66C",
+            "identifier": "https://doi.org/10.25625/3TXR94/HAM66C",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103814"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_4.pdb",
+            "encodingFormat": "application/x-aportisdoc",
+            "contentSize": 86475902,
+            "@id": "https://doi.org/10.25625/3TXR94/KSYJB9",
+            "identifier": "https://doi.org/10.25625/3TXR94/KSYJB9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103850"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_4_fragment.aa",
+            "encodingFormat": "audio/x-pn-audibleaudio",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/ESSSM1",
+            "identifier": "https://doi.org/10.25625/3TXR94/ESSSM1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103859"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_4_fragment.ab",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/UMKGJF",
+            "identifier": "https://doi.org/10.25625/3TXR94/UMKGJF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103862"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_4_fragment.ac",
+            "encodingFormat": "application/pkix-attr-cert",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/PO2CK4",
+            "identifier": "https://doi.org/10.25625/3TXR94/PO2CK4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103863"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_4_fragment.ad",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/K6XI9B",
+            "identifier": "https://doi.org/10.25625/3TXR94/K6XI9B",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103857"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_4_fragment.ae",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/FGAQ5X",
+            "identifier": "https://doi.org/10.25625/3TXR94/FGAQ5X",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103855"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_4_fragment.af",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/N7OQJ5",
+            "identifier": "https://doi.org/10.25625/3TXR94/N7OQJ5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103860"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_4_fragment.ag",
+            "encodingFormat": "image/x-applix-graphics",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/YSP0MJ",
+            "identifier": "https://doi.org/10.25625/3TXR94/YSP0MJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103858"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_4_fragment.ah",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/XPOUJO",
+            "identifier": "https://doi.org/10.25625/3TXR94/XPOUJO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103853"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_4_fragment.ai",
+            "encodingFormat": "application/illustrator",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/BMH54V",
+            "identifier": "https://doi.org/10.25625/3TXR94/BMH54V",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103851"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_4_fragment.aj",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/POAHXJ",
+            "identifier": "https://doi.org/10.25625/3TXR94/POAHXJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103864"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_4_fragment.ak",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/D6GAUQ",
+            "identifier": "https://doi.org/10.25625/3TXR94/D6GAUQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103856"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_4_fragment.al",
+            "encodingFormat": "application/x-perl",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/BGPQ7X",
+            "identifier": "https://doi.org/10.25625/3TXR94/BGPQ7X",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103854"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_4_fragment.am",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/JIEB8Z",
+            "identifier": "https://doi.org/10.25625/3TXR94/JIEB8Z",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103852"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_4_fragment.an",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 890516,
+            "@id": "https://doi.org/10.25625/3TXR94/1XXZB9",
+            "identifier": "https://doi.org/10.25625/3TXR94/1XXZB9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103861"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_5.pdb",
+            "encodingFormat": "application/x-aportisdoc",
+            "contentSize": 86475902,
+            "@id": "https://doi.org/10.25625/3TXR94/QIN3WC",
+            "identifier": "https://doi.org/10.25625/3TXR94/QIN3WC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103866"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_5_fragment.aa",
+            "encodingFormat": "audio/x-pn-audibleaudio",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/AID7ND",
+            "identifier": "https://doi.org/10.25625/3TXR94/AID7ND",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103878"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_5_fragment.ab",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/XSMGLF",
+            "identifier": "https://doi.org/10.25625/3TXR94/XSMGLF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103882"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_5_fragment.ac",
+            "encodingFormat": "application/pkix-attr-cert",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/KQZL9G",
+            "identifier": "https://doi.org/10.25625/3TXR94/KQZL9G",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103879"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_5_fragment.ad",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/K05N0S",
+            "identifier": "https://doi.org/10.25625/3TXR94/K05N0S",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103874"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_5_fragment.ae",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/V8CQNC",
+            "identifier": "https://doi.org/10.25625/3TXR94/V8CQNC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103870"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_5_fragment.af",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/KOPGUC",
+            "identifier": "https://doi.org/10.25625/3TXR94/KOPGUC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103877"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_5_fragment.ag",
+            "encodingFormat": "image/x-applix-graphics",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/RMF8U9",
+            "identifier": "https://doi.org/10.25625/3TXR94/RMF8U9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103871"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_5_fragment.ah",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/8IXZR2",
+            "identifier": "https://doi.org/10.25625/3TXR94/8IXZR2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103881"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_5_fragment.ai",
+            "encodingFormat": "application/illustrator",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/MMUWEM",
+            "identifier": "https://doi.org/10.25625/3TXR94/MMUWEM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103873"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_5_fragment.aj",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/YJXBWQ",
+            "identifier": "https://doi.org/10.25625/3TXR94/YJXBWQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103876"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_5_fragment.ak",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/SQINDU",
+            "identifier": "https://doi.org/10.25625/3TXR94/SQINDU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103868"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_5_fragment.al",
+            "encodingFormat": "application/x-perl",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/SJBSJV",
+            "identifier": "https://doi.org/10.25625/3TXR94/SJBSJV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103869"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_5_fragment.am",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/QF029I",
+            "identifier": "https://doi.org/10.25625/3TXR94/QF029I",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103875"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_5_fragment.an",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/3TXR94/T4LWZJ",
+            "identifier": "https://doi.org/10.25625/3TXR94/T4LWZJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103872"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GTP_MT_C36M_RUN_5_fragment.ao",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1053652256,
+            "@id": "https://doi.org/10.25625/3TXR94/SASYOF",
+            "identifier": "https://doi.org/10.25625/3TXR94/SASYOF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103880"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Physics"
+    ],
+    "publications": [
+        {
+            "citation": "Due to constraints on the file size, each trajectory file <code>TRAJ_FILE.xtc</code> was fragmented as follows: <code>split -b 1024M TRAJ_FILE.xtc traj_fragment.</code>. The original file can be recovered using <code>cat traj_fragment.?? &gt; TRAJ_FILE.xtc</code>."
+        }
+    ]
+}

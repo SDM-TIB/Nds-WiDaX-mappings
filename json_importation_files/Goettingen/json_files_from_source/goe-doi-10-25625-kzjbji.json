@@ -1,0 +1,139 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/KZJBJI",
+    "identifier": "https://doi.org/10.25625/KZJBJI",
+    "name": "Subject positions in Old Italian",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Andrea",
+            "familyName": "Matticchio",
+            "name": "Matticchio, Andrea"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Andrea",
+            "familyName": "Matticchio",
+            "name": "Matticchio, Andrea"
+        }
+    ],
+    "datePublished": "2025-11-05",
+    "dateModified": "2025-11-05",
+    "version": "1",
+    "description": "Repository accompanying the project \"Low verbs, lower subjects: Word order in Old Italian\". This repository includes the following files and directories: - `CAnDA_poster.pdf` \u2013 the poster presented at CAnDA - `subject_position_data.csv` \u2013 the annotated dataset (221 clauses) - `models/` \u2013 CSV output files from the regression models: - `mdl_focus_aux_tidy.csv` \u2013 coefficients for the Focus $\\times$ Auxiliary interaction model - `mdl_contrastive_tidy.csv` \u2013 coefficients for the Contrastive-only model - `plots/` \u2013 PDF plots generated from the data: - `plot_by_auxiliary_dodged.pdf` \u2013 bar chart of preverbal proportions by focus and auxiliary - `plot_contrastive_vs_null.pdf` \u2013 bar chart of preverbal proportions of focused subjects by contrastivity - `scripts/` \u2013 R scripts for data analysis and visualization: - `models_subject_position.R` \u2013 fits the logistic regression models and saves outputs - `plots_subject_position.R` \u2013 generates the raw-data plots",
+    "keywords": [
+        "Arts and Humanities",
+        "Word order",
+        "Subject position",
+        "Information structure",
+        "Old Italian",
+        "Corpus data"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "CAnDA_poster.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 257760,
+            "@id": "https://doi.org/10.25625/KZJBJI/QADDPI",
+            "identifier": "https://doi.org/10.25625/KZJBJI/QADDPI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/138790"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "mdl_contrastive_tidy.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 348,
+            "@id": "https://doi.org/10.25625/KZJBJI/XMLWOL",
+            "identifier": "https://doi.org/10.25625/KZJBJI/XMLWOL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/138791"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "mdl_focus_aux_tidy.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 694,
+            "@id": "https://doi.org/10.25625/KZJBJI/WAAIZV",
+            "identifier": "https://doi.org/10.25625/KZJBJI/WAAIZV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/138789"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "models_subject_position.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 3011,
+            "@id": "https://doi.org/10.25625/KZJBJI/8JOMMK",
+            "identifier": "https://doi.org/10.25625/KZJBJI/8JOMMK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/138787"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "plot-by-auxiliary.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 5142,
+            "@id": "https://doi.org/10.25625/KZJBJI/NBAJ1K",
+            "identifier": "https://doi.org/10.25625/KZJBJI/NBAJ1K",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/138786"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "plot-contrastive-vs-null.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 4921,
+            "@id": "https://doi.org/10.25625/KZJBJI/WWEFVJ",
+            "identifier": "https://doi.org/10.25625/KZJBJI/WWEFVJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/138788"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "plots_subject_position.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 5174,
+            "@id": "https://doi.org/10.25625/KZJBJI/TBURWF",
+            "identifier": "https://doi.org/10.25625/KZJBJI/TBURWF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/138793"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "README.md",
+            "encodingFormat": "text/markdown",
+            "contentSize": 2721,
+            "@id": "https://doi.org/10.25625/KZJBJI/SIK7ZL",
+            "identifier": "https://doi.org/10.25625/KZJBJI/SIK7ZL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/138794"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "subject_position_data.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 111661,
+            "@id": "https://doi.org/10.25625/KZJBJI/CQOCD1",
+            "identifier": "https://doi.org/10.25625/KZJBJI/CQOCD1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/138792"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Arts and Humanities"
+    ],
+    "publications": [
+        {}
+    ]
+}

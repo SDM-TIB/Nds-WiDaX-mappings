@@ -1,0 +1,124 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/P9TJYD",
+    "identifier": "https://doi.org/10.25625/P9TJYD",
+    "name": "Sap flow measurements of beech, spruce and Douglas fir in pure and mixed stands in a wet and a dry year in a sandy soil",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Sharath",
+            "familyName": "Paligi",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Plant Ecology and Ecosystems Research, Albrecht von Haller Institute for Plant Sciences, Untere Karsp\u00fcle 2, University of Goettingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0003-2139-2018",
+            "@id": "https://orcid.org/0000-0003-2139-2018",
+            "identifier": "https://orcid.org/0000-0003-2139-2018",
+            "name": "Paligi, Sharath"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Sharath",
+            "familyName": "Paligi",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Plant Ecology and Ecosystems Research, Albrecht von Haller Institute for Plant Sciences, Untere Karsp\u00fcle 2, University of Goettingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0003-2139-2018",
+            "@id": "https://orcid.org/0000-0003-2139-2018",
+            "identifier": "https://orcid.org/0000-0003-2139-2018",
+            "name": "Paligi, Sharath"
+        }
+    ],
+    "datePublished": "2026-01-04",
+    "dateModified": "2026-01-04",
+    "version": "1",
+    "description": "This dataset accompanies a study quantifying stand-level water use of European beech (Fagus sylvatica), Norway spruce (Picea abies), and Douglas fir (Pseudotsuga menziesii) in pure and mixed stands under contrasting climatic conditions. Using sap flux systems, we monitored tree and stand transpiration on deep sandy soil during one wet and one dry year to assess how species identity, mixing, and interannual variation in water availability affect total forest water consumption. The dataset provides detailed sap flux, transpiration, and climatic data useful for modelling forest water fluxes and evaluating the hydrological consequences of species composition and drought. It contributes to understanding how species mixing can modulate stand-level water consumption and supports management strategies for climate-resilient forests in Central Europe.",
+    "keywords": [
+        "Agricultural Sciences",
+        "sap flux",
+        "sap velocity",
+        "sap flow",
+        "drought",
+        "transpiration",
+        "mixed stands",
+        "European beech",
+        "Douglas fir",
+        "Norway spruce"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "Jarvis PG, McNaughton KG (1986) Stomatal Control of Transpiration: Scaling Up from Leaf to Region. In: MacFadyen A, Ford ED (eds) Advances in Ecological Research. Academic Press, pp 1\u201349. https://www.sciencedirect.com/science/article/pii/S0065250408601191 (8 November 2024, date last accessed )."
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "2025-sapflow-radial-(timestamp-upscaled-tree-level).xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "contentSize": 106654162,
+            "description": "Tree level sap flow calculated at each timepoints. ",
+            "@id": "https://doi.org/10.25625/P9TJYD/KZNTMW",
+            "identifier": "https://doi.org/10.25625/P9TJYD/KZNTMW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139581"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2025-sapflow-rawdata-(2021-2022).tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 5067722,
+            "description": "Combined sap flow data for the year 2021 and 2022 the data set includes temperature measurements from the sensors, the raw alpha and beta values and also the stem water content values. ",
+            "@id": "https://doi.org/10.25625/P9TJYD/LWWCI7",
+            "identifier": "https://doi.org/10.25625/P9TJYD/LWWCI7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139578"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2025-sf_(probe_misalignment-correction).xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "contentSize": 1025962,
+            "description": "probe misalignment correction",
+            "@id": "https://doi.org/10.25625/P9TJYD/XPABLZ",
+            "identifier": "https://doi.org/10.25625/P9TJYD/XPABLZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139580"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2025-total-sf-(tree-sum-yearly).xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "contentSize": 17577,
+            "description": "Yearly sap flow of each measured tree for the year 2021 and 2022",
+            "@id": "https://doi.org/10.25625/P9TJYD/INO9BB",
+            "identifier": "https://doi.org/10.25625/P9TJYD/INO9BB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139579"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Agricultural Sciences"
+    ],
+    "publications": [
+        {
+            "citation": "Jarvis PG, McNaughton KG (1986) Stomatal Control of Transpiration: Scaling Up from Leaf to Region. In: MacFadyen A, Ford ED (eds) Advances in Ecological Research. Academic Press, pp 1\u201349. https://www.sciencedirect.com/science/article/pii/S0065250408601191 (8 November 2024, date last accessed )."
+        }
+    ]
+}

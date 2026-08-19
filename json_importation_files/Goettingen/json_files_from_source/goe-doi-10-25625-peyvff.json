@@ -1,0 +1,77 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/PEYVFF",
+    "identifier": "https://doi.org/10.25625/PEYVFF",
+    "name": "cryoET_cluster_analysis",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Maxim",
+            "familyName": "Igaev",
+            "name": "Igaev, Maxim"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Maxim",
+            "familyName": "Igaev",
+            "name": "Igaev, Maxim"
+        }
+    ],
+    "datePublished": "2025-02-17",
+    "dateModified": "2025-02-17",
+    "version": "1",
+    "description": "Cluster analysis of growing and shortening microtubule ends",
+    "keywords": [
+        "Physics"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "cluster_analysis.py",
+            "encodingFormat": "text/x-python-script",
+            "contentSize": 10508,
+            "@id": "https://doi.org/10.25625/PEYVFF/XAEYKI",
+            "identifier": "https://doi.org/10.25625/PEYVFF/XAEYKI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/121745"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "growing.tar",
+            "encodingFormat": "application/x-tar",
+            "contentSize": 561664,
+            "@id": "https://doi.org/10.25625/PEYVFF/M6QUFD",
+            "identifier": "https://doi.org/10.25625/PEYVFF/M6QUFD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/121746"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "shortening.tar",
+            "encodingFormat": "application/x-tar",
+            "contentSize": 486912,
+            "@id": "https://doi.org/10.25625/PEYVFF/JQJZJV",
+            "identifier": "https://doi.org/10.25625/PEYVFF/JQJZJV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/121747"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Physics"
+    ]
+}

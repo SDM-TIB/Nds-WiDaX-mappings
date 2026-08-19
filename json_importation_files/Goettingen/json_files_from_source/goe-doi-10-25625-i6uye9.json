@@ -1,0 +1,332 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/I6UYE9",
+    "identifier": "https://doi.org/10.25625/I6UYE9",
+    "name": "PigDetect: a diverse and challenging benchmark dataset for the detection of pigs in images",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Jonathan",
+            "familyName": "Henrich",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Chairs of Statistics and Econometrics, Faculty of Economics, University of G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0009-0000-1001-5757",
+            "@id": "https://orcid.org/0009-0000-1001-5757",
+            "identifier": "https://orcid.org/0009-0000-1001-5757",
+            "name": "Henrich, Jonathan"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Christian",
+            "familyName": "Post",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute of Animal Breeding and Husbandry, Kiel University"
+            },
+            "name": "Post, Christian"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Thomas",
+            "familyName": "Kneib",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Chairs of Statistics and Econometrics, Faculty of Economics, University of G\u00f6ttingen, Germany"
+            },
+            "name": "Kneib, Thomas"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Ramin",
+            "familyName": "Yahyapour",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Gesellschaft f\u00fcr wissenschaftliche Datenverarbeitung mbH G\u00f6ttingen"
+            },
+            "name": "Yahyapour, Ramin"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Imke",
+            "familyName": "Traulsen",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute of Animal Breeding and Husbandry, Kiel University"
+            },
+            "name": "Traulsen, Imke"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jonathan",
+            "familyName": "Henrich",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Chairs of Statistics and Econometrics, Faculty of Economics, University of G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0009-0000-1001-5757",
+            "@id": "https://orcid.org/0009-0000-1001-5757",
+            "identifier": "https://orcid.org/0009-0000-1001-5757",
+            "name": "Henrich, Jonathan"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Christian",
+            "familyName": "Post",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute of Animal Breeding and Husbandry, Kiel University"
+            },
+            "name": "Post, Christian"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Thomas",
+            "familyName": "Kneib",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Chairs of Statistics and Econometrics, Faculty of Economics, University of G\u00f6ttingen, Germany"
+            },
+            "name": "Kneib, Thomas"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Ramin",
+            "familyName": "Yahyapour",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Gesellschaft f\u00fcr wissenschaftliche Datenverarbeitung mbH G\u00f6ttingen"
+            },
+            "name": "Yahyapour, Ramin"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Imke",
+            "familyName": "Traulsen",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute of Animal Breeding and Husbandry, Kiel University"
+            },
+            "name": "Traulsen, Imke"
+        }
+    ],
+    "datePublished": "2024-05-03",
+    "dateModified": "2025-12-01",
+    "version": "5",
+    "description": "Note: To better find the files to download, select \"Change View: Tree\". This dataset is associated with the paper \"Benchmarking pig detection and tracking under diverse and challenging conditions\" published in Computers and Electronics in Agriculture. The dataset contains: 2931 images from conventional pig farming with object detection annotations in yolo and coco format with predefined training, validation and test splits A JSON file that, for each annotated image, specifies whether it is randomly selected or challenging, as defined in the corresponding paper. Trained model weights for pig detection A thorough explanation of all files contained in this data repository can be found in ReadMe.txt. The github repository associated with this dataset can be found at https://github.com/jonaden94/PigBench. It includes commands to automatically download the files from this data repository that are required for model training, evaluation, and inference.",
+    "keywords": [
+        "Agricultural Sciences",
+        "Computer and Information Science"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "Henrich, J., Post, C., Zilke, M., Shiroya, P., Chanut, E., Mollazadeh Yamchi, A., Yahyapour, R., Kneib, T., & Traulsen, I. (2026). Benchmarking pig detection and tracking under diverse and challenging conditions. Computers and Electronics in Agriculture, 241, 111264. https://doi.org/10.1016/j.compag.2025.111264",
+            "@id": "https://www.sciencedirect.com/science/article/pii/S0168169925013705?via%3Dihub",
+            "identifier": "https://www.sciencedirect.com/science/article/pii/S0168169925013705?via%3Dihub",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0168169925013705?via%3Dihub"
+        }
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "PigDetect.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 1290427241,
+            "@id": "https://doi.org/10.25625/I6UYE9/YWBQZN",
+            "identifier": "https://doi.org/10.25625/I6UYE9/YWBQZN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/73186"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "ReadMe.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 3061,
+            "@id": "https://doi.org/10.25625/I6UYE9/PDTBI4",
+            "identifier": "https://doi.org/10.25625/I6UYE9/PDTBI4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/142307"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "codino_swin.pth",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 943204847,
+            "@id": "https://doi.org/10.25625/I6UYE9/6YEIHC",
+            "identifier": "https://doi.org/10.25625/I6UYE9/6YEIHC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/73181"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "rt-detr_r101.pth",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1224992321,
+            "@id": "https://doi.org/10.25625/I6UYE9/GZXPMJ",
+            "identifier": "https://doi.org/10.25625/I6UYE9/GZXPMJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/142303"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "rt-detr_r16.pth",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 322114385,
+            "@id": "https://doi.org/10.25625/I6UYE9/K0N9LG",
+            "identifier": "https://doi.org/10.25625/I6UYE9/K0N9LG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/142305"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "rt-detr_r34.pth",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 502104761,
+            "@id": "https://doi.org/10.25625/I6UYE9/YGBV9Z",
+            "identifier": "https://doi.org/10.25625/I6UYE9/YGBV9Z",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/142304"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "rt-detr_r50.pth",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 685226717,
+            "@id": "https://doi.org/10.25625/I6UYE9/PEXLLS",
+            "identifier": "https://doi.org/10.25625/I6UYE9/PEXLLS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/142306"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "yolov8_l.pth",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 174951581,
+            "@id": "https://doi.org/10.25625/I6UYE9/TBGZ7O",
+            "identifier": "https://doi.org/10.25625/I6UYE9/TBGZ7O",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/73177"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "yolov8_m.pth",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 103756109,
+            "@id": "https://doi.org/10.25625/I6UYE9/IZMHTS",
+            "identifier": "https://doi.org/10.25625/I6UYE9/IZMHTS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/73178"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "yolov8_s.pth",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 44772733,
+            "@id": "https://doi.org/10.25625/I6UYE9/PQWVVN",
+            "identifier": "https://doi.org/10.25625/I6UYE9/PQWVVN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/73179"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "yolov8_x.pth",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 273089885,
+            "@id": "https://doi.org/10.25625/I6UYE9/HHFT3E",
+            "identifier": "https://doi.org/10.25625/I6UYE9/HHFT3E",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/73180"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "yolox_l.pth",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 217160037,
+            "@id": "https://doi.org/10.25625/I6UYE9/DFSULD",
+            "identifier": "https://doi.org/10.25625/I6UYE9/DFSULD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/73182"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "yolox_m.pth",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 101533893,
+            "@id": "https://doi.org/10.25625/I6UYE9/MXBWTW",
+            "identifier": "https://doi.org/10.25625/I6UYE9/MXBWTW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/73183"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "yolox_s.pth",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 36028005,
+            "@id": "https://doi.org/10.25625/I6UYE9/VEHNCW",
+            "identifier": "https://doi.org/10.25625/I6UYE9/VEHNCW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/73184"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "yolox_x.pth",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 396729413,
+            "@id": "https://doi.org/10.25625/I6UYE9/L2YDBW",
+            "identifier": "https://doi.org/10.25625/I6UYE9/L2YDBW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/73185"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "random_challenging.json",
+            "encodingFormat": "application/json",
+            "contentSize": 94214,
+            "@id": "https://doi.org/10.25625/I6UYE9/UWBPAB",
+            "identifier": "https://doi.org/10.25625/I6UYE9/UWBPAB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124983"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "test.json",
+            "encodingFormat": "application/json",
+            "contentSize": 1895745,
+            "@id": "https://doi.org/10.25625/I6UYE9/JIKBJC",
+            "identifier": "https://doi.org/10.25625/I6UYE9/JIKBJC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/130758"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "train.json",
+            "encodingFormat": "application/json",
+            "contentSize": 11880305,
+            "@id": "https://doi.org/10.25625/I6UYE9/MJGGOO",
+            "identifier": "https://doi.org/10.25625/I6UYE9/MJGGOO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/130767"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "val.json",
+            "encodingFormat": "application/json",
+            "contentSize": 1259768,
+            "@id": "https://doi.org/10.25625/I6UYE9/FGJQ5E",
+            "identifier": "https://doi.org/10.25625/I6UYE9/FGJQ5E",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/130768"
+        }
+    ],
+    "license_title": "Creative Commons Attribution 4.0 International",
+    "subjects": [
+        "Agricultural Sciences",
+        "Computer and Information Science"
+    ],
+    "publications": [
+        {
+            "citation": "Henrich, J., Post, C., Zilke, M., Shiroya, P., Chanut, E., Mollazadeh Yamchi, A., Yahyapour, R., Kneib, T., &amp; Traulsen, I. (2026). Benchmarking pig detection and tracking under diverse and challenging conditions. Computers and Electronics in Agriculture, 241, 111264. https://doi.org/10.1016/j.compag.2025.111264",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0168169925013705?via%3Dihub"
+        }
+    ]
+}

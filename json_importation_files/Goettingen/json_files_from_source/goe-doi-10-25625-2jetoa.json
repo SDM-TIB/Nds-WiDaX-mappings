@@ -1,0 +1,873 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/2JETOA",
+    "identifier": "https://doi.org/10.25625/2JETOA",
+    "name": "GEOROC Compilation: Rock Types",
+    "creator": [
+        {
+            "@type": "Organization",
+            "parentOrganization": {
+                "@type": "Organization",
+                "name": "G\u00f6ttingen University, G\u00f6ttingen, Germany"
+            },
+            "name": "DIGIS Team"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Organization",
+            "parentOrganization": {
+                "@type": "Organization",
+                "name": "G\u00f6ttingen University, G\u00f6ttingen, Germany"
+            },
+            "name": "DIGIS Team"
+        }
+    ],
+    "datePublished": "2021-12-08",
+    "dateModified": "2026-06-11",
+    "version": "14",
+    "description": "Compilation of geochemical and isotopic rock compositions held in the GEOROC database, grouped by rock type. Files were generated from the GEOROC database on 2026-06-01.",
+    "keywords": [
+        "Earth and Environmental Sciences"
+    ],
+    "license": "http://creativecommons.org/licenses/by-sa/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "Deutsche Forschungsgemeinschaft (DFG)"
+        }
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_ADAKITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 1081073,
+            "@id": "https://doi.org/10.25625/2JETOA/MHTWUP",
+            "identifier": "https://doi.org/10.25625/2JETOA/MHTWUP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173520"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_ALKALI_BASALT_part1.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 3974424,
+            "@id": "https://doi.org/10.25625/2JETOA/B2NS13",
+            "identifier": "https://doi.org/10.25625/2JETOA/B2NS13",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173464"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_ALKALI_BASALT_part2.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 6507625,
+            "@id": "https://doi.org/10.25625/2JETOA/ZGZHBO",
+            "identifier": "https://doi.org/10.25625/2JETOA/ZGZHBO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173462"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_ANDESITE_part1.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 10131108,
+            "@id": "https://doi.org/10.25625/2JETOA/ML8QIT",
+            "identifier": "https://doi.org/10.25625/2JETOA/ML8QIT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173495"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_ANDESITE_part2.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 7441105,
+            "@id": "https://doi.org/10.25625/2JETOA/MQBV5H",
+            "identifier": "https://doi.org/10.25625/2JETOA/MQBV5H",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173441"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_ANDESITE_part3.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 12466057,
+            "@id": "https://doi.org/10.25625/2JETOA/EJ3C3H",
+            "identifier": "https://doi.org/10.25625/2JETOA/EJ3C3H",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173523"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_ANKARAMITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 633743,
+            "@id": "https://doi.org/10.25625/2JETOA/C9MAGH",
+            "identifier": "https://doi.org/10.25625/2JETOA/C9MAGH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173435"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_ANORTHOSITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 500226,
+            "@id": "https://doi.org/10.25625/2JETOA/XYA0VM",
+            "identifier": "https://doi.org/10.25625/2JETOA/XYA0VM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173482"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_BASALTIC-ANDESITE_part1.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 7563113,
+            "@id": "https://doi.org/10.25625/2JETOA/JNZEDD",
+            "identifier": "https://doi.org/10.25625/2JETOA/JNZEDD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173501"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_BASALTIC-ANDESITE_part2.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 9099241,
+            "@id": "https://doi.org/10.25625/2JETOA/N0JKC0",
+            "identifier": "https://doi.org/10.25625/2JETOA/N0JKC0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173479"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_BASALTIC-TRACHYANDESITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 2333475,
+            "@id": "https://doi.org/10.25625/2JETOA/SY3MMF",
+            "identifier": "https://doi.org/10.25625/2JETOA/SY3MMF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173496"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_BASALT_part1.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 11170979,
+            "@id": "https://doi.org/10.25625/2JETOA/V5Z44I",
+            "identifier": "https://doi.org/10.25625/2JETOA/V5Z44I",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173499"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_BASALT_part2.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 8647635,
+            "@id": "https://doi.org/10.25625/2JETOA/UIFUN1",
+            "identifier": "https://doi.org/10.25625/2JETOA/UIFUN1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173470"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_BASALT_part3.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 9146475,
+            "@id": "https://doi.org/10.25625/2JETOA/DQNLZH",
+            "identifier": "https://doi.org/10.25625/2JETOA/DQNLZH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173491"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_BASALT_part4.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 7142202,
+            "@id": "https://doi.org/10.25625/2JETOA/WTVLLI",
+            "identifier": "https://doi.org/10.25625/2JETOA/WTVLLI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173445"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_BASALT_part5.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 7138949,
+            "@id": "https://doi.org/10.25625/2JETOA/WFHPUN",
+            "identifier": "https://doi.org/10.25625/2JETOA/WFHPUN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173521"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_BASALT_part6.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 8470368,
+            "@id": "https://doi.org/10.25625/2JETOA/MCTROK",
+            "identifier": "https://doi.org/10.25625/2JETOA/MCTROK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173450"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_BASALT_part7.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 12507299,
+            "@id": "https://doi.org/10.25625/2JETOA/4GPGLZ",
+            "identifier": "https://doi.org/10.25625/2JETOA/4GPGLZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173475"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_BASALT_part8.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 13064013,
+            "@id": "https://doi.org/10.25625/2JETOA/IYFUVJ",
+            "identifier": "https://doi.org/10.25625/2JETOA/IYFUVJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173451"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_BASALT_part9.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 12268403,
+            "@id": "https://doi.org/10.25625/2JETOA/BCSFQN",
+            "identifier": "https://doi.org/10.25625/2JETOA/BCSFQN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173453"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_BASANITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 6144555,
+            "@id": "https://doi.org/10.25625/2JETOA/J4JZAX",
+            "identifier": "https://doi.org/10.25625/2JETOA/J4JZAX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173476"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_BENMOREITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 613563,
+            "@id": "https://doi.org/10.25625/2JETOA/GMZNSQ",
+            "identifier": "https://doi.org/10.25625/2JETOA/GMZNSQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173522"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_BONINITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 1437743,
+            "@id": "https://doi.org/10.25625/2JETOA/K87ZCX",
+            "identifier": "https://doi.org/10.25625/2JETOA/K87ZCX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173508"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_CALC-ALKALI_BASALT.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 709083,
+            "@id": "https://doi.org/10.25625/2JETOA/7MOTFQ",
+            "identifier": "https://doi.org/10.25625/2JETOA/7MOTFQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173449"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_CARBONATITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 3544659,
+            "@id": "https://doi.org/10.25625/2JETOA/2DZVZX",
+            "identifier": "https://doi.org/10.25625/2JETOA/2DZVZX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173463"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_CLINOPYROXENITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 920777,
+            "@id": "https://doi.org/10.25625/2JETOA/3OGDWG",
+            "identifier": "https://doi.org/10.25625/2JETOA/3OGDWG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173440"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_COMENDITIC_RHYOLITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 601202,
+            "@id": "https://doi.org/10.25625/2JETOA/WGDQEU",
+            "identifier": "https://doi.org/10.25625/2JETOA/WGDQEU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173515"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_DACITE_part1.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 5799155,
+            "@id": "https://doi.org/10.25625/2JETOA/MPIGWJ",
+            "identifier": "https://doi.org/10.25625/2JETOA/MPIGWJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173447"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_DACITE_part2.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 7872468,
+            "@id": "https://doi.org/10.25625/2JETOA/BVNZ2W",
+            "identifier": "https://doi.org/10.25625/2JETOA/BVNZ2W",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173437"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_DIORITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 6735864,
+            "@id": "https://doi.org/10.25625/2JETOA/ZGP9LE",
+            "identifier": "https://doi.org/10.25625/2JETOA/ZGP9LE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173519"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_DOLERITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 9085687,
+            "@id": "https://doi.org/10.25625/2JETOA/YA5RAU",
+            "identifier": "https://doi.org/10.25625/2JETOA/YA5RAU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173443"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_DUNITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 1198222,
+            "@id": "https://doi.org/10.25625/2JETOA/YH7JSI",
+            "identifier": "https://doi.org/10.25625/2JETOA/YH7JSI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173505"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_FOIDITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 370644,
+            "@id": "https://doi.org/10.25625/2JETOA/ORATP8",
+            "identifier": "https://doi.org/10.25625/2JETOA/ORATP8",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173516"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_GABBRODIORITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 673778,
+            "@id": "https://doi.org/10.25625/2JETOA/KIVK95",
+            "identifier": "https://doi.org/10.25625/2JETOA/KIVK95",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173448"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_GABBRONORITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 1096065,
+            "@id": "https://doi.org/10.25625/2JETOA/TIPJGU",
+            "identifier": "https://doi.org/10.25625/2JETOA/TIPJGU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173502"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_GABBRO_part1.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 7877419,
+            "@id": "https://doi.org/10.25625/2JETOA/7RDFHP",
+            "identifier": "https://doi.org/10.25625/2JETOA/7RDFHP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173514"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_GABBRO_part2.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 5049032,
+            "@id": "https://doi.org/10.25625/2JETOA/L9EO3O",
+            "identifier": "https://doi.org/10.25625/2JETOA/L9EO3O",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173438"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_GRANITE_part1.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 9658909,
+            "@id": "https://doi.org/10.25625/2JETOA/JIZXIE",
+            "identifier": "https://doi.org/10.25625/2JETOA/JIZXIE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173469"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_GRANITE_part2.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 12964070,
+            "@id": "https://doi.org/10.25625/2JETOA/2RY2SY",
+            "identifier": "https://doi.org/10.25625/2JETOA/2RY2SY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173500"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_GRANITE_part3.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 2124783,
+            "@id": "https://doi.org/10.25625/2JETOA/3CPRDM",
+            "identifier": "https://doi.org/10.25625/2JETOA/3CPRDM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173465"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_GRANODIORITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 7778215,
+            "@id": "https://doi.org/10.25625/2JETOA/BDDHLX",
+            "identifier": "https://doi.org/10.25625/2JETOA/BDDHLX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173504"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_HARZBURGITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 2360300,
+            "@id": "https://doi.org/10.25625/2JETOA/YQVSIQ",
+            "identifier": "https://doi.org/10.25625/2JETOA/YQVSIQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173498"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_HAWAIITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 2671225,
+            "@id": "https://doi.org/10.25625/2JETOA/SJ4MJA",
+            "identifier": "https://doi.org/10.25625/2JETOA/SJ4MJA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173471"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_KIMBERLITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 4925391,
+            "@id": "https://doi.org/10.25625/2JETOA/QPTUC7",
+            "identifier": "https://doi.org/10.25625/2JETOA/QPTUC7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173457"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_KOMATIITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 4641117,
+            "@id": "https://doi.org/10.25625/2JETOA/JC3ZJ4",
+            "identifier": "https://doi.org/10.25625/2JETOA/JC3ZJ4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173490"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_LAMPROITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 1279171,
+            "@id": "https://doi.org/10.25625/2JETOA/M6OZN0",
+            "identifier": "https://doi.org/10.25625/2JETOA/M6OZN0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173460"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_LAMPROPHYRE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 1833271,
+            "@id": "https://doi.org/10.25625/2JETOA/3XKUOS",
+            "identifier": "https://doi.org/10.25625/2JETOA/3XKUOS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173461"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_LATITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 1295494,
+            "@id": "https://doi.org/10.25625/2JETOA/SXBPRJ",
+            "identifier": "https://doi.org/10.25625/2JETOA/SXBPRJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173513"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_LEUCITITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 790576,
+            "@id": "https://doi.org/10.25625/2JETOA/CWGAZ0",
+            "identifier": "https://doi.org/10.25625/2JETOA/CWGAZ0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173509"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_LHERZOLITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 3960495,
+            "@id": "https://doi.org/10.25625/2JETOA/KA64EP",
+            "identifier": "https://doi.org/10.25625/2JETOA/KA64EP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173510"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_MELILITITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 766876,
+            "@id": "https://doi.org/10.25625/2JETOA/NNWR6C",
+            "identifier": "https://doi.org/10.25625/2JETOA/NNWR6C",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173454"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_MONZODIORITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 1518659,
+            "@id": "https://doi.org/10.25625/2JETOA/DI49B3",
+            "identifier": "https://doi.org/10.25625/2JETOA/DI49B3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173518"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_MONZOGABBRO.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 258139,
+            "@id": "https://doi.org/10.25625/2JETOA/3LBUEF",
+            "identifier": "https://doi.org/10.25625/2JETOA/3LBUEF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173446"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_MONZOGRANITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 4591203,
+            "@id": "https://doi.org/10.25625/2JETOA/CTD2ZF",
+            "identifier": "https://doi.org/10.25625/2JETOA/CTD2ZF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173473"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_MONZONITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 2576962,
+            "@id": "https://doi.org/10.25625/2JETOA/R06AK7",
+            "identifier": "https://doi.org/10.25625/2JETOA/R06AK7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173511"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_MUGEARITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 1059369,
+            "@id": "https://doi.org/10.25625/2JETOA/EOSZU7",
+            "identifier": "https://doi.org/10.25625/2JETOA/EOSZU7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173468"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_NEPHELINITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 2329524,
+            "@id": "https://doi.org/10.25625/2JETOA/YRGQF8",
+            "identifier": "https://doi.org/10.25625/2JETOA/YRGQF8",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173512"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_NORITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 607666,
+            "@id": "https://doi.org/10.25625/2JETOA/IVTK6E",
+            "identifier": "https://doi.org/10.25625/2JETOA/IVTK6E",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173524"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_OCEANITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 217665,
+            "@id": "https://doi.org/10.25625/2JETOA/IB7DBO",
+            "identifier": "https://doi.org/10.25625/2JETOA/IB7DBO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173483"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_ORTHOPYROXENITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 287073,
+            "@id": "https://doi.org/10.25625/2JETOA/BDKJK0",
+            "identifier": "https://doi.org/10.25625/2JETOA/BDKJK0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173507"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_PANTELLERITIC_RHYOLITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 478369,
+            "@id": "https://doi.org/10.25625/2JETOA/PPCWAY",
+            "identifier": "https://doi.org/10.25625/2JETOA/PPCWAY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173459"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_PERIDOTITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 3424328,
+            "@id": "https://doi.org/10.25625/2JETOA/25ZCNF",
+            "identifier": "https://doi.org/10.25625/2JETOA/25ZCNF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173455"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_PHONOLITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 4070715,
+            "@id": "https://doi.org/10.25625/2JETOA/YO0ZCV",
+            "identifier": "https://doi.org/10.25625/2JETOA/YO0ZCV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173444"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_PHONOLITIC-TEPHRITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 819863,
+            "@id": "https://doi.org/10.25625/2JETOA/RPKN44",
+            "identifier": "https://doi.org/10.25625/2JETOA/RPKN44",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173487"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_PHOSCORITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 143402,
+            "@id": "https://doi.org/10.25625/2JETOA/RFAXNE",
+            "identifier": "https://doi.org/10.25625/2JETOA/RFAXNE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173488"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_PICRITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 2893933,
+            "@id": "https://doi.org/10.25625/2JETOA/Q3Z3ON",
+            "identifier": "https://doi.org/10.25625/2JETOA/Q3Z3ON",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173481"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_PICROBASALT.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 467709,
+            "@id": "https://doi.org/10.25625/2JETOA/I7AIVI",
+            "identifier": "https://doi.org/10.25625/2JETOA/I7AIVI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173480"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_PYROXENITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 2288584,
+            "@id": "https://doi.org/10.25625/2JETOA/G8WDPR",
+            "identifier": "https://doi.org/10.25625/2JETOA/G8WDPR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173439"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_RHYODACITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 1897554,
+            "@id": "https://doi.org/10.25625/2JETOA/H7F0XK",
+            "identifier": "https://doi.org/10.25625/2JETOA/H7F0XK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173458"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_RHYOLITE_part1.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 7000911,
+            "@id": "https://doi.org/10.25625/2JETOA/ZFEKJX",
+            "identifier": "https://doi.org/10.25625/2JETOA/ZFEKJX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173494"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_RHYOLITE_part2.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 8278786,
+            "@id": "https://doi.org/10.25625/2JETOA/VBSU53",
+            "identifier": "https://doi.org/10.25625/2JETOA/VBSU53",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173493"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_RHYOLITE_part3.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 10059850,
+            "@id": "https://doi.org/10.25625/2JETOA/5AKMRD",
+            "identifier": "https://doi.org/10.25625/2JETOA/5AKMRD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173474"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_SHOSHONITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 1227111,
+            "@id": "https://doi.org/10.25625/2JETOA/AQJ7DE",
+            "identifier": "https://doi.org/10.25625/2JETOA/AQJ7DE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173478"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_SUBALKALI_BASALT.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 497436,
+            "@id": "https://doi.org/10.25625/2JETOA/FLXGQV",
+            "identifier": "https://doi.org/10.25625/2JETOA/FLXGQV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173506"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_SYENITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 4080875,
+            "@id": "https://doi.org/10.25625/2JETOA/DKMQBC",
+            "identifier": "https://doi.org/10.25625/2JETOA/DKMQBC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173489"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_SYENOGRANITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 1529863,
+            "@id": "https://doi.org/10.25625/2JETOA/HRTXG5",
+            "identifier": "https://doi.org/10.25625/2JETOA/HRTXG5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173486"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_TEPHRITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 1506314,
+            "@id": "https://doi.org/10.25625/2JETOA/VALBVU",
+            "identifier": "https://doi.org/10.25625/2JETOA/VALBVU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173497"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_TEPHRITIC-PHONOLITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 706042,
+            "@id": "https://doi.org/10.25625/2JETOA/6VPVJY",
+            "identifier": "https://doi.org/10.25625/2JETOA/6VPVJY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173467"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_THOLEIITIC_ANDESITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 362893,
+            "@id": "https://doi.org/10.25625/2JETOA/XZSCWU",
+            "identifier": "https://doi.org/10.25625/2JETOA/XZSCWU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173503"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_THOLEIITIC_BASALT_part1.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 7442948,
+            "@id": "https://doi.org/10.25625/2JETOA/KDQZTA",
+            "identifier": "https://doi.org/10.25625/2JETOA/KDQZTA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173484"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_THOLEIITIC_BASALT_part2.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 10572709,
+            "@id": "https://doi.org/10.25625/2JETOA/KTT5GP",
+            "identifier": "https://doi.org/10.25625/2JETOA/KTT5GP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173517"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_TONALITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 2499843,
+            "@id": "https://doi.org/10.25625/2JETOA/FS1KOK",
+            "identifier": "https://doi.org/10.25625/2JETOA/FS1KOK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173436"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_TRACHYANDESITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 3623060,
+            "@id": "https://doi.org/10.25625/2JETOA/WXNU5N",
+            "identifier": "https://doi.org/10.25625/2JETOA/WXNU5N",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173452"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_TRACHYBASALT.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 3664037,
+            "@id": "https://doi.org/10.25625/2JETOA/CWOVB6",
+            "identifier": "https://doi.org/10.25625/2JETOA/CWOVB6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173442"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_TRACHYDACITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 825694,
+            "@id": "https://doi.org/10.25625/2JETOA/Z8UGN2",
+            "identifier": "https://doi.org/10.25625/2JETOA/Z8UGN2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173477"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_TRACHYTE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 8009846,
+            "@id": "https://doi.org/10.25625/2JETOA/THNAZN",
+            "identifier": "https://doi.org/10.25625/2JETOA/THNAZN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173485"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_TRANSITIONAL_BASALT.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 1346860,
+            "@id": "https://doi.org/10.25625/2JETOA/VH73UL",
+            "identifier": "https://doi.org/10.25625/2JETOA/VH73UL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173472"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_TRONDHJEMITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 609151,
+            "@id": "https://doi.org/10.25625/2JETOA/WKNYNO",
+            "identifier": "https://doi.org/10.25625/2JETOA/WKNYNO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173492"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_WEBSTERITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 664205,
+            "@id": "https://doi.org/10.25625/2JETOA/BROCH2",
+            "identifier": "https://doi.org/10.25625/2JETOA/BROCH2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173456"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-2JETOA_WEHRLITE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 543968,
+            "@id": "https://doi.org/10.25625/2JETOA/JFPSUU",
+            "identifier": "https://doi.org/10.25625/2JETOA/JFPSUU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173466"
+        }
+    ],
+    "license_title": "Creative Commons Attribution-ShareAlike 4.0 International",
+    "subjects": [
+        "Earth and Environmental Sciences"
+    ],
+    "publications": [
+        {}
+    ]
+}

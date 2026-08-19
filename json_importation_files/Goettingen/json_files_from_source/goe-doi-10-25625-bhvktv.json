@@ -1,0 +1,84 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/BHVKTV",
+    "identifier": "https://doi.org/10.25625/BHVKTV",
+    "name": "Tree-climbing in African lions and leopards",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Christian",
+            "familyName": "Kiffner",
+            "sameAs": "https://orcid.org/0000-0002-7475-9023",
+            "@id": "https://orcid.org/0000-0002-7475-9023",
+            "identifier": "https://orcid.org/0000-0002-7475-9023",
+            "name": "Kiffner, Christian"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Christian",
+            "familyName": "Kiffner",
+            "sameAs": "https://orcid.org/0000-0002-7475-9023",
+            "@id": "https://orcid.org/0000-0002-7475-9023",
+            "identifier": "https://orcid.org/0000-0002-7475-9023",
+            "name": "Kiffner, Christian"
+        }
+    ],
+    "datePublished": "2026-03-16",
+    "dateModified": "2026-03-16",
+    "version": "1",
+    "description": "This dataset contains field observations used to analyse tree-climbing behaviour in African lions (Panthera leo) and leopards (Panthera pardus). Observations were collected during opportunistic encounters with individuals or groups of these species in Tarangire National Park (TNP), Burunge Wildlife Management Area (BWMA), Manyara Ranch (MR), Serengeti National Park (SNP), Ngorongoro Conservation Area \u2013 Crater (Crater) and Ngorongoro Conservation Area \u2013 Ndutu (Ndutu). For each observation event, information was recorded on group composition, arboreal behaviour, presence of prey carcasses, and tree availability at the observation site. The dataset is structured to allow replication of analyses investigating the ecological and behavioural correlates of arboreal behaviour in large felids. The repository includes: \u2022 Leopards.txt \u2013 observational data on leopard encounters \u2022 Lions.txt \u2013 observational data on lion encounters \u2022 Rcode_analysis.R \u2013 annotated R script used for data processing and analysis The R script reproduces the analyses and figures associated with the study and includes instructions for directory management to ensure correct file paths. File structure Leopards.txt Each row represents a single observation event of one or more leopards. Variables: \u2022 GroupID \u2013 unique identifier for each observation event \u2022 Date \u2013 date of observation \u2022 Time \u2013 time of observation \u2022 Area \u2013 study area of observation \u2022 Group_size \u2013 number of individuals observed \u2022 N_adult_female \u2013 number of adult females \u2022 N_adult_male \u2013 number of adult males \u2022 N_subadult \u2013 number of subadults \u2022 N_unknown \u2013 number of individuals whose age/sex could not be determined \u2022 Kill_present \u2013 indicates whether prey remains were present \u2022 Kill_species \u2013 prey species identified at the observation site \u2022 Any_arboreal \u2013 binary indicator of arboreal behaviour (e.g., individual observed in tree) \u2022 Tree_used_type \u2013 type of tree used by the animal when arboreal behaviour was observed \u2022 Tree_available \u2013 presence of climbable trees in the vicinity of the observation \u2022 Tree_available_type \u2013 dominant tree type available in the observation area \u2022 Comment \u2013 additional field notes or contextual information Lions.txt Each row represents a single observation event of lions. Variables include the same fields as in the leopard dataset, with additional information on the number and identity of individuals displaying arboreal behaviour: \u2022 GroupID \u2013 unique observation identifier \u2022 Date \u2013 date of observation \u2022 Time \u2013 time of observation \u2022 Area \u2013 study area of observation \u2022 Group_size \u2013 number of individuals in the group \u2022 N_adult_female \u2013 number of adult females \u2022 N_adult_male \u2013 number of adult males \u2022 N_subadult \u2013 number of subadults \u2022 N_unknown \u2013 number of individuals with unknown age/sex \u2022 Kill_present \u2013 presence of prey remains \u2022 Kill_species \u2013 prey species recorded \u2022 Any_arboreal \u2013 binary indicator of arboreal behaviour \u2022 Tree_used_type \u2013 type of tree used \u2022 Tree_available \u2013 presence of climbable trees nearby \u2022 Tree_available_type \u2013 dominant tree type available \u2022 N_arboreal_total \u2013 total number of lions observed in trees \u2022 N_arboreal_adult_female \u2013 number of adult females in trees \u2022 N_arboreal_adult_male \u2013 number of adult males in trees \u2022 N_arboreal_subadult \u2013 number of subadults in trees \u2022 N_arboreal_unknown \u2013 number of individuals of unknown class in trees \u2022 Comment \u2013 additional field notes Rcode_analysis.R This script contains the R code used to process the datasets and reproduce the analyses and figures. The script includes instructions for setting local directories for: \u2022 the data folder containing Lions.txt and Leopards.txt \u2022 the figure output folder where generated figures are stored To reproduce the analyses, users need to create these folders, save the data in the data folder, and adjust the directory paths to match the local file structure on their computer before running the script.",
+    "keywords": [
+        "Earth and Environmental Sciences",
+        "behavioral ecology"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Leopards.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 11532,
+            "@id": "https://doi.org/10.25625/BHVKTV/JCSH12",
+            "identifier": "https://doi.org/10.25625/BHVKTV/JCSH12",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159485"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Lions.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 43925,
+            "@id": "https://doi.org/10.25625/BHVKTV/9LPE4E",
+            "identifier": "https://doi.org/10.25625/BHVKTV/9LPE4E",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159484"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Rcode_analysis.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 24610,
+            "@id": "https://doi.org/10.25625/BHVKTV/7ME7TB",
+            "identifier": "https://doi.org/10.25625/BHVKTV/7ME7TB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159486"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Earth and Environmental Sciences"
+    ]
+}

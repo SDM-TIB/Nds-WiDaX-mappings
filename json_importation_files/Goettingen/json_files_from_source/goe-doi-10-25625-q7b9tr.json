@@ -1,0 +1,101 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/Q7B9TR",
+    "identifier": "https://doi.org/10.25625/Q7B9TR",
+    "name": "Evaporative fraction of tree islands in an oil palm landscape increases with island area",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Thorge",
+            "familyName": "Wintz",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Tropical Silviculture and Forest Ecology, University of G\u00f6ttingen"
+            },
+            "name": "Wintz, Thorge"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Thorge",
+            "familyName": "Wintz",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Tropical Silviculture and Forest Ecology, University of G\u00f6ttingen"
+            },
+            "name": "Wintz, Thorge"
+        }
+    ],
+    "datePublished": "2025-02-18",
+    "dateModified": "2025-02-18",
+    "version": "1",
+    "description": "Per plot evapotranspiration (ET) and evaporative fraction (EF) values for EFForTS-BEE. Based on UAV thermography recorded 2023 and subsequent energy balance modeling (QWater). Per plot vegetation indices based on UAV flights using a multispectral camera. Data recorded in 2023.",
+    "keywords": [
+        "Agricultural Sciences",
+        "Earth and Environmental Sciences",
+        "UAV, ET, EF, multispectral"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "EFForTS-BEE_EF.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 2227,
+            "description": "Evaporative fraction per plot for each of the 56 EFForTS-BEE plots. Shortwace radiation recorded during UAV flight (W/m^2). Name of the orthomosaic from which the value was extracted. ",
+            "@id": "https://doi.org/10.25625/Q7B9TR/QQ8YMS",
+            "identifier": "https://doi.org/10.25625/Q7B9TR/QQ8YMS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/120624"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "EFForTS-BEE_ET.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 2428,
+            "description": "Evapotranspiration (mm/h) per plot for each of the 56 EFForTS-BEE plots. Shortwace radiation recorded during UAV flight (W/m^2). Name of the orthomosaic from which the value was extracted. ",
+            "@id": "https://doi.org/10.25625/Q7B9TR/6XKNRB",
+            "identifier": "https://doi.org/10.25625/Q7B9TR/6XKNRB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/120623"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "SEM_EF_ET.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 6181,
+            "description": "EF and ET values as well as predictor variables (Observed woody plant diversity, structural complexity, tree height variability, vegetation health) for EFForTS-BEE plots. ",
+            "@id": "https://doi.org/10.25625/Q7B9TR/MQJMVG",
+            "identifier": "https://doi.org/10.25625/Q7B9TR/MQJMVG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/121363"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "vegetation_indices_EFForTS-BEE_2106.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 3802,
+            "description": "NDVI, NDRE, GNDVI, GCI and IRECI values per plot in EFForTS-BEE. Calculated based on multispectral images captured on 21.06.2023. ",
+            "@id": "https://doi.org/10.25625/Q7B9TR/HQSJWC",
+            "identifier": "https://doi.org/10.25625/Q7B9TR/HQSJWC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/120914"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Agricultural Sciences",
+        "Earth and Environmental Sciences"
+    ]
+}

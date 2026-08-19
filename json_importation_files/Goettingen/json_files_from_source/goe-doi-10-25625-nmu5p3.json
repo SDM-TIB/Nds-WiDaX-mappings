@@ -1,0 +1,184 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/NMU5P3",
+    "identifier": "https://doi.org/10.25625/NMU5P3",
+    "name": "Task-relevant visual feedback uncertainty attenuates visuomotor adaptation",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Virginia",
+            "familyName": "Casasnovas",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "German Primate Center"
+            },
+            "name": "Casasnovas, Virginia"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Lukas K.",
+            "familyName": "Amann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "German Primate Center"
+            },
+            "name": "Amann, Lukas K."
+        },
+        {
+            "@type": "Person",
+            "givenName": "Gianna L.",
+            "familyName": "Haas",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "name": "Haas, Gianna L."
+        },
+        {
+            "@type": "Person",
+            "givenName": "Prof. Dr. Alexander",
+            "familyName": "Gail",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "German Primate Center"
+            },
+            "sameAs": "https://orcid.org/0000-0002-1165-4646",
+            "@id": "https://orcid.org/0000-0002-1165-4646",
+            "identifier": "https://orcid.org/0000-0002-1165-4646",
+            "name": "Gail, Prof. Dr. Alexander"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Virginia",
+            "familyName": "Casasnovas",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "German Primate Center"
+            },
+            "name": "Casasnovas, Virginia"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Lukas K.",
+            "familyName": "Amann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "German Primate Center"
+            },
+            "name": "Amann, Lukas K."
+        },
+        {
+            "@type": "Person",
+            "givenName": "Gianna L.",
+            "familyName": "Haas",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "name": "Haas, Gianna L."
+        },
+        {
+            "@type": "Person",
+            "givenName": "Prof. Dr. Alexander",
+            "familyName": "Gail",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "German Primate Center"
+            },
+            "sameAs": "https://orcid.org/0000-0002-1165-4646",
+            "@id": "https://orcid.org/0000-0002-1165-4646",
+            "identifier": "https://orcid.org/0000-0002-1165-4646",
+            "name": "Gail, Prof. Dr. Alexander"
+        }
+    ],
+    "datePublished": "2024-04-25",
+    "dateModified": "2024-07-30",
+    "version": "2",
+    "description": "This dataset contains supplementary material and data used for analysis. Supplemental Figure S1: 'Figure_S1.pdf' Supplemental Figure S2: 'Figure_S2.pdf' Supplemental Figure S3: 'Figure_S3.pdf' Supplemental Table S1: 'Table_S1.pdf' Data from Experiment 1 and 2: 'Experiment_1_data.csv' and 'Experiment_2_data.csv' Rows correspond to trials. Columns correspond to: - participant_id: Participant identifier. - uncertainty: Visual feedback uncertainty condition. 'CRS' for cursor (low uncertainty) and 'CLD' for cloud (high uncertainty). - target_direction: Target direction in degrees. - cycle_num: Cycle number. - hit: Whether trial was considered failed during data collection. 0 for failed and 1 for not failed. - condition: Visuomotor rotation block. 'base' for baseline, 'rot' for rotation and 'wash' for washout. - no_fb: Whether visual feedback was provided during reach. 0 for no-feedback and 1 for feedback. - hand_pksp_ang: Hand angle at peak speed of reach in degrees. - rt: Reaction time in ms. - mt: Movement time in ms.",
+    "keywords": [
+        "Medicine, Health and Life Sciences",
+        "Motor adaptation",
+        "Visual feedback uncertainty",
+        "Task-relevant error"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Experiment_1_data.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 914556,
+            "@id": "https://doi.org/10.25625/NMU5P3/D2DJZT",
+            "identifier": "https://doi.org/10.25625/NMU5P3/D2DJZT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/73081"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Experiment_2_data.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1078794,
+            "@id": "https://doi.org/10.25625/NMU5P3/O20DOW",
+            "identifier": "https://doi.org/10.25625/NMU5P3/O20DOW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/73080"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Figure_S1.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 155374,
+            "@id": "https://doi.org/10.25625/NMU5P3/MFTKZS",
+            "identifier": "https://doi.org/10.25625/NMU5P3/MFTKZS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/107584"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Figure_S2.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 144207,
+            "@id": "https://doi.org/10.25625/NMU5P3/2WQLQX",
+            "identifier": "https://doi.org/10.25625/NMU5P3/2WQLQX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/107582"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Figure_S3.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 126464,
+            "@id": "https://doi.org/10.25625/NMU5P3/OAQYFW",
+            "identifier": "https://doi.org/10.25625/NMU5P3/OAQYFW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/107585"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Table_S1.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 96529,
+            "@id": "https://doi.org/10.25625/NMU5P3/FP1ACP",
+            "identifier": "https://doi.org/10.25625/NMU5P3/FP1ACP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/73077"
+        }
+    ],
+    "license_title": "Creative Commons Attribution 4.0 International",
+    "subjects": [
+        "Medicine, Health and Life Sciences"
+    ],
+    "publications": [
+        {}
+    ]
+}

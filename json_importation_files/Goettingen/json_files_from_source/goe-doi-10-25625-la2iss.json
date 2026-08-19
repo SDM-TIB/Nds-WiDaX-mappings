@@ -1,0 +1,989 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/LA2ISS",
+    "identifier": "https://doi.org/10.25625/LA2ISS",
+    "name": "Pinacolone with MeOH, tBuOH, CpOH or RNH",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Charlotte",
+            "familyName": "Zimmermann",
+            "name": "Zimmermann, Charlotte"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Charlotte",
+            "familyName": "Zimmermann",
+            "name": "Zimmermann, Charlotte"
+        }
+    ],
+    "datePublished": "2022-11-21",
+    "dateModified": "2022-11-21",
+    "version": "1",
+    "description": "Spectral and structural data for mixed complexes of pinacolone with MeOH, tBuOH or CpOH. Also included is data for acetophenone with CpOH and pinacolone with RNH.",
+    "keywords": [
+        "Chemistry"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "RevisionRemarksChapter4.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 411,
+            "@id": "https://doi.org/10.25625/LA2ISS/UT4QB3",
+            "identifier": "https://doi.org/10.25625/LA2ISS/UT4QB3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53455"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "200930-d-Acetophenon-p23C-CpOH-p5C-0,75barv2m.50.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1011821,
+            "description": "acetophenone+cyclopentanol",
+            "@id": "https://doi.org/10.25625/LA2ISS/8NH6C5",
+            "identifier": "https://doi.org/10.25625/LA2ISS/8NH6C5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53388"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "200930-def-Acetophenon-p23C-CpOH-p5C-0,75barpm.125.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1009669,
+            "description": "acetophenone+cyclopentanol; Fig.F21",
+            "@id": "https://doi.org/10.25625/LA2ISS/TNZL0N",
+            "identifier": "https://doi.org/10.25625/LA2ISS/TNZL0N",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53389"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "210225-abcdef-Acetophenon-p20C-Pyrrol-m15C-0,75barpm.400.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1005243,
+            "description": "acetophenone+pyrrole; Fig.F24",
+            "@id": "https://doi.org/10.25625/LA2ISS/LYRU4Z",
+            "identifier": "https://doi.org/10.25625/LA2ISS/LYRU4Z",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53444"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "210301-de-210303-abcdefg-Pinakolon-p5C-Pyrrol-m15C-0,75barpm.500.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1006813,
+            "description": "pinacolone+pyrrole; Fig.F24",
+            "@id": "https://doi.org/10.25625/LA2ISS/S1CCRU",
+            "identifier": "https://doi.org/10.25625/LA2ISS/S1CCRU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53443"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "180925-gh-180926-abcdef-MeOH-m27,5C-Pinakolonm15C-0,75barpm.350.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1001598,
+            "description": "pinacolone+methanol; Fig.F6, Fig.F7",
+            "@id": "https://doi.org/10.25625/LA2ISS/8MXNBJ",
+            "identifier": "https://doi.org/10.25625/LA2ISS/8MXNBJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53355"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "181010-abcdefg-tBuOH-m10C-Pinakolon-m20C-0,75barpm.425.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1002754,
+            "description": "pinacolone+tert butyl alcohol, Fig.F6, Fig.F8",
+            "@id": "https://doi.org/10.25625/LA2ISS/HLZFXE",
+            "identifier": "https://doi.org/10.25625/LA2ISS/HLZFXE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53354"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "190122-cde-190123-abcd-CycPnOH-0C-Pinakolon-10C-0,75barpm.300.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1004098,
+            "description": "pinacolone+cyclopentanol; Fig.F6, Fig.F4.10",
+            "@id": "https://doi.org/10.25625/LA2ISS/VRYXUR",
+            "identifier": "https://doi.org/10.25625/LA2ISS/VRYXUR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53356"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "180925-gh-180926-abcdef-MeOH-m27,5C-Pinakolonm15C-0,75barpm.350.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1001598,
+            "description": "pinacolone+methanol",
+            "@id": "https://doi.org/10.25625/LA2ISS/JAKPTZ",
+            "identifier": "https://doi.org/10.25625/LA2ISS/JAKPTZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53365"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "211011-abc-TMe3Pentanon-m29C-MeOH-m35C-0,75barpm.125.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1005956,
+            "description": "tert butyl tert butyl ketone+methanol, Fig.F18",
+            "@id": "https://doi.org/10.25625/LA2ISS/EI4PUF",
+            "identifier": "https://doi.org/10.25625/LA2ISS/EI4PUF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53366"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "190110-ijk-CycPnOH-0C-Pinakolon-m5C-0,75barn.125.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1006394,
+            "description": "pinacolone+cyclopentanol",
+            "@id": "https://doi.org/10.25625/LA2ISS/5I9MBZ",
+            "identifier": "https://doi.org/10.25625/LA2ISS/5I9MBZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53374"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "190110-cd-CycPnOH-p10C-Pinakolon-m10-0,75barpm.75.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1004216,
+            "description": "pinacolone+cyclopentanole; Fig.F13",
+            "@id": "https://doi.org/10.25625/LA2ISS/KJPRPQ",
+            "identifier": "https://doi.org/10.25625/LA2ISS/KJPRPQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53377"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "190110-ef-CycPnOH-p5C-Pinakolon-m10C-0,75barn.75.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1005160,
+            "description": "pinacolone+cyclopentanole; Fig.F13,F12",
+            "@id": "https://doi.org/10.25625/LA2ISS/3PQ3IY",
+            "identifier": "https://doi.org/10.25625/LA2ISS/3PQ3IY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53375"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "190121-hi-CycPnOH-5C-Pinakolon-0C-0,75barpm.75.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1004414,
+            "description": "pinacolone+cyclopentanole",
+            "@id": "https://doi.org/10.25625/LA2ISS/B2P79Z",
+            "identifier": "https://doi.org/10.25625/LA2ISS/B2P79Z",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53376"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "180925-gh-180926-abcdef-MeOH-m27,5C-Pinakolonm15C-0,75barpm.350.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1001598,
+            "description": "pinacolone+methanol",
+            "@id": "https://doi.org/10.25625/LA2ISS/QEWD5Z",
+            "identifier": "https://doi.org/10.25625/LA2ISS/QEWD5Z",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53379"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "181010-abcdefg-tBuOH-m10C-Pinakolon-m20C-0,75barpm.425.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1002754,
+            "description": "pinacolone+tert butyl alcohol",
+            "@id": "https://doi.org/10.25625/LA2ISS/YKVEL3",
+            "identifier": "https://doi.org/10.25625/LA2ISS/YKVEL3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53378"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "190122-cde-190123-abcd-CycPnOH-0C-Pinakolon-10C-0,75barpm.300.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1004098,
+            "description": "pinacolone+cyclopentanol",
+            "@id": "https://doi.org/10.25625/LA2ISS/FHCQAL",
+            "identifier": "https://doi.org/10.25625/LA2ISS/FHCQAL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53380"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "211028-ghi-TMePent-m5C-MeOH-m35C-0,75barpm.125.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1007557,
+            "description": "tert butyl tert butyl ketone+methanol",
+            "@id": "https://doi.org/10.25625/LA2ISS/DGAWLQ",
+            "identifier": "https://doi.org/10.25625/LA2ISS/DGAWLQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53381"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "211028-ghi-TMePent-m5C-MeOH-m35C-0,75barpm.125-1.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1007557,
+            "description": "tert butyl tert butyl ketone+methanol; Fig. F20",
+            "@id": "https://doi.org/10.25625/LA2ISS/N8NVXV",
+            "identifier": "https://doi.org/10.25625/LA2ISS/N8NVXV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53387"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "211029-ab-TMePent-p5C-MeOH-m35C-0,75barpm.125.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1006931,
+            "description": "tert butyl tert butyl ketone+methanol",
+            "@id": "https://doi.org/10.25625/LA2ISS/7JP1KF",
+            "identifier": "https://doi.org/10.25625/LA2ISS/7JP1KF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53386"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "211029-b-TMePent-p5C-MeOH-m35C-0,75barv2m.100.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1010415,
+            "description": "tert butyl tert butyl ketone+methanol",
+            "@id": "https://doi.org/10.25625/LA2ISS/OWLQIQ",
+            "identifier": "https://doi.org/10.25625/LA2ISS/OWLQIQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53385"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "211103-ab-TMePent-m15C-MeOH-m20C-0,75barpm.125.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1007765,
+            "description": "tert butyl tert butyl ketone+methanol; Fig. F20",
+            "@id": "https://doi.org/10.25625/LA2ISS/ZPPDXT",
+            "identifier": "https://doi.org/10.25625/LA2ISS/ZPPDXT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53384"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "200925-cdef-201002-abcde-Acetophenon-p23C-CpOH-p15C-0,75barpm.350.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1006595,
+            "description": "acetophenone+cyclopentanol",
+            "@id": "https://doi.org/10.25625/LA2ISS/ILL6XX",
+            "identifier": "https://doi.org/10.25625/LA2ISS/ILL6XX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53392"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "200930-d-Acetophenon-p23C-CpOH-p5C-0,75barv2m.50.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1011821,
+            "description": "acetophenone+cyclopentanol",
+            "@id": "https://doi.org/10.25625/LA2ISS/4NTGPX",
+            "identifier": "https://doi.org/10.25625/LA2ISS/4NTGPX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53391"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "200930-def-Acetophenon-p23C-CpOH-p5C-0,75barpm.125-1.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1009669,
+            "description": "acetophenone+cyclopentanol",
+            "@id": "https://doi.org/10.25625/LA2ISS/EPTHXI",
+            "identifier": "https://doi.org/10.25625/LA2ISS/EPTHXI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53394"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "201002-e-Acetophenon-p23C-CpOH-p15C-0,75barv2m.50.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1008309,
+            "description": "acetophenone+cyclopentanol",
+            "@id": "https://doi.org/10.25625/LA2ISS/SC3XOT",
+            "identifier": "https://doi.org/10.25625/LA2ISS/SC3XOT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53393"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "210226-cde-Pinakolon-m10C-Pyrrol-m15C-0,75barpm.175.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1008749,
+            "description": "pinacolone+pyrrole, Fig.F25",
+            "@id": "https://doi.org/10.25625/LA2ISS/GN8USD",
+            "identifier": "https://doi.org/10.25625/LA2ISS/GN8USD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53447"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "210301-de-Pinakolon-p5C-Pyrrol-m15C-0,75barpm.125.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1008305,
+            "description": "pinacolone+pyrrole, Fig.F25, Fig.F26",
+            "@id": "https://doi.org/10.25625/LA2ISS/Q4NLXC",
+            "identifier": "https://doi.org/10.25625/LA2ISS/Q4NLXC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53448"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "210301-fgh-Pinakolon-p5C-Pyrrol-m10C-0,75barpm.175.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1008869,
+            "description": "pinacolone+pyrrole, Fig.F26",
+            "@id": "https://doi.org/10.25625/LA2ISS/INOMSA",
+            "identifier": "https://doi.org/10.25625/LA2ISS/INOMSA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53446"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "210217-abc-Acetophenon-p15C-Pyrrol-m10C-0,75barpm.125.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1008433,
+            "description": "acetophenone+pyrrole, Fig.F28",
+            "@id": "https://doi.org/10.25625/LA2ISS/MYVYJI",
+            "identifier": "https://doi.org/10.25625/LA2ISS/MYVYJI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53452"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "210223-abcd-Acetophenon-p15C-Pyrrol-m15C-0,75barpm.150.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1003057,
+            "description": "acetophenone+pyrrole, Fig.F28",
+            "@id": "https://doi.org/10.25625/LA2ISS/OGPFJL",
+            "identifier": "https://doi.org/10.25625/LA2ISS/OGPFJL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53451"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "210223-efg-Acetophenon-p15C-Pyrrol-m20C-0,75barpm.125.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1008114,
+            "description": "acetophenone+pyrrole, Fig.F27, Fig.F28",
+            "@id": "https://doi.org/10.25625/LA2ISS/QIFB41",
+            "identifier": "https://doi.org/10.25625/LA2ISS/QIFB41",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53453"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "210223-hi-Acetophenon-p10C-Pyrrol-m20C-0,75barpm.125.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1011125,
+            "description": "acetophenone+pyrrole, Fig.F27",
+            "@id": "https://doi.org/10.25625/LA2ISS/Z4B6RU",
+            "identifier": "https://doi.org/10.25625/LA2ISS/Z4B6RU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53450"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "210223-jkl-Acetophenon-p20C-Pyrrol-m20C-0,75barpm.125.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1008101,
+            "description": "acetophenone+pyrrole, Fig.F27",
+            "@id": "https://doi.org/10.25625/LA2ISS/E2LNYJ",
+            "identifier": "https://doi.org/10.25625/LA2ISS/E2LNYJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53449"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "1810008-cdefg-181010-abcdefg-tbuOH-m10C-Pinakolon-m20C-0,75barpm.650 .txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1001482,
+            "description": "pinacolone+tert butyl alcohol; Fig. F10",
+            "@id": "https://doi.org/10.25625/LA2ISS/DUAYHA",
+            "identifier": "https://doi.org/10.25625/LA2ISS/DUAYHA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53372"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "201214-cd-Pinakolon-m15C-tBuOH-m5C-0,75barpm.150.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1006258,
+            "description": "pinacolone+tert butyl alcohol",
+            "@id": "https://doi.org/10.25625/LA2ISS/0J6B0B",
+            "identifier": "https://doi.org/10.25625/LA2ISS/0J6B0B",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53371"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "201214-ef-Pinakolon-m10C-tBuOH-m5C-0,75barpm.125.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1011553,
+            "description": "pinacolone+tert butyl alcohol",
+            "@id": "https://doi.org/10.25625/LA2ISS/ZJIV16",
+            "identifier": "https://doi.org/10.25625/LA2ISS/ZJIV16",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53370"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "160804-c-Pyrrol-m20C-0,75barpm.100.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1013847,
+            "description": "pure pyrrole spectrum, Fig.F24, Fig.F25, Fig.F26, Fig.F27, Fig.F28",
+            "@id": "https://doi.org/10.25625/LA2ISS/VM1C5C",
+            "identifier": "https://doi.org/10.25625/LA2ISS/VM1C5C",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53445"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "170324-afgh-Acetophenon-20C-0,75barpm.100.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1011584,
+            "description": "pure acetophenone spectra, Fig.F27, Fig.F28",
+            "@id": "https://doi.org/10.25625/LA2ISS/5VMJYG",
+            "identifier": "https://doi.org/10.25625/LA2ISS/5VMJYG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53454"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "171127-abdefgh-171128-abcde-MeOH-m25C-0,75barpm.425.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1008332,
+            "description": "pure methanol spectrum; Fig.F7",
+            "@id": "https://doi.org/10.25625/LA2ISS/AMK7QS",
+            "identifier": "https://doi.org/10.25625/LA2ISS/AMK7QS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53368"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "180227-abcd-180228-abcde-tertBuOH-m10C-0,75barpm.400.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1005946,
+            "description": "pure tert butyl alcohol; Fig.F8, Fig.F9",
+            "@id": "https://doi.org/10.25625/LA2ISS/Z41FPI",
+            "identifier": "https://doi.org/10.25625/LA2ISS/Z41FPI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53369"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "190124-a-CycPnOH-p5C-0,75barpm.25.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1005284,
+            "description": "pure cyclopentanole spectrum, Fig. F11, Fig.F12, Fig.F13",
+            "@id": "https://doi.org/10.25625/LA2ISS/CB3RHJ",
+            "identifier": "https://doi.org/10.25625/LA2ISS/CB3RHJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53373"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "190429-ab-Pinakolon-0C-0.75baripm.75.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1008110,
+            "description": "pure pinacolone spectrum, Fig.F6, Fig.F9, Fig.F12, Fig.F13, Fig.F25, Fig.F26",
+            "@id": "https://doi.org/10.25625/LA2ISS/K03U4R",
+            "identifier": "https://doi.org/10.25625/LA2ISS/K03U4R",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53367"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "200805-abcd-CpOH-m5C-0,75barpm.325.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1003803,
+            "description": "pure cyclopentanol spectrum, Fig. F21",
+            "@id": "https://doi.org/10.25625/LA2ISS/CDBMVF",
+            "identifier": "https://doi.org/10.25625/LA2ISS/CDBMVF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53390"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "201116-bcd-MeOH-m35C-0,75barpm.200.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1007153,
+            "description": "pure methanol spectrum, Fig.F18",
+            "@id": "https://doi.org/10.25625/LA2ISS/NT6IGU",
+            "identifier": "https://doi.org/10.25625/LA2ISS/NT6IGU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53383"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "211012-ab -TMe3Pentanon-m15C-0,75barpm.50.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1008549,
+            "description": "pure tert butyl tert butyl ketone spectrum, Fig.F17",
+            "@id": "https://doi.org/10.25625/LA2ISS/Y4NXF9",
+            "identifier": "https://doi.org/10.25625/LA2ISS/Y4NXF9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53382"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ace+CpOHcrestg4,1-QZVP.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2282,
+            "description": "acetophenone+cyclopentanol, B3LYP with def2-QZVP",
+            "@id": "https://doi.org/10.25625/LA2ISS/ZZ0LG8",
+            "identifier": "https://doi.org/10.25625/LA2ISS/ZZ0LG8",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53431"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ace+CpOHcrestg4,1-TPSS-QZVP.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2284,
+            "description": "acetophenone+cyclopentanol, TPSS with def2-QZVP",
+            "@id": "https://doi.org/10.25625/LA2ISS/0IVRZV",
+            "identifier": "https://doi.org/10.25625/LA2ISS/0IVRZV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53433"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ace+CpOHcrestg4,1-TPSS.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2280,
+            "description": "acetophenone+cyclopentanol, TPSS",
+            "@id": "https://doi.org/10.25625/LA2ISS/6JT282",
+            "identifier": "https://doi.org/10.25625/LA2ISS/6JT282",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53434"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ace+CpOHcrestg4,1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2275,
+            "description": "acetophenone+cyclopentanol, B3LYP",
+            "@id": "https://doi.org/10.25625/LA2ISS/8JBC3N",
+            "identifier": "https://doi.org/10.25625/LA2ISS/8JBC3N",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53432"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ace+CpOHcrestg5-QZVP.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2279,
+            "description": "acetophenone+cyclopentanol,B3LYP with def2-QZVP",
+            "@id": "https://doi.org/10.25625/LA2ISS/XLLJBP",
+            "identifier": "https://doi.org/10.25625/LA2ISS/XLLJBP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53430"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ace+CpOHcrestg5-TPSS-QZVP.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2287,
+            "description": "acetophenone+cyclopentanol, TPSS with def2-QZVP",
+            "@id": "https://doi.org/10.25625/LA2ISS/Q04BKU",
+            "identifier": "https://doi.org/10.25625/LA2ISS/Q04BKU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53427"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ace+CpOHcrestg5-TPSS.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2281,
+            "description": "acetophenone+cyclopentanol, TPSS",
+            "@id": "https://doi.org/10.25625/LA2ISS/ESZFBD",
+            "identifier": "https://doi.org/10.25625/LA2ISS/ESZFBD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53428"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ace+CpOHcrestg5.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2276,
+            "description": "acetophenone+cyclopentanol, B3LYP",
+            "@id": "https://doi.org/10.25625/LA2ISS/CGZRVM",
+            "identifier": "https://doi.org/10.25625/LA2ISS/CGZRVM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53429"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ace+Pyrrol_crest24.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1870,
+            "description": "acetophenone+pyrrole, B3LYP",
+            "@id": "https://doi.org/10.25625/LA2ISS/HTWZZH",
+            "identifier": "https://doi.org/10.25625/LA2ISS/HTWZZH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53436"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ace+Pyrrol_crest44.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1871,
+            "description": "acetophenone+pyrrole, B3LYP",
+            "@id": "https://doi.org/10.25625/LA2ISS/HLDDJV",
+            "identifier": "https://doi.org/10.25625/LA2ISS/HLDDJV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53437"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ace+Pyrrol_crest9.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1873,
+            "description": "acetophenone+pyrrole, B3LYP",
+            "@id": "https://doi.org/10.25625/LA2ISS/2DCXPX",
+            "identifier": "https://doi.org/10.25625/LA2ISS/2DCXPX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53438"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ace+Pyrrol_Phseite2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1873,
+            "description": "acetophenone+pyrrole, B3LYP",
+            "@id": "https://doi.org/10.25625/LA2ISS/GBYYJP",
+            "identifier": "https://doi.org/10.25625/LA2ISS/GBYYJP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53435"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "CycProOH_Pin_oben_tBu_421.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2416,
+            "description": "pinacolone+cyclopentanol, B3LYP",
+            "@id": "https://doi.org/10.25625/LA2ISS/F3KGEN",
+            "identifier": "https://doi.org/10.25625/LA2ISS/F3KGEN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53411"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "CycProOH_Pin_oben_tBu_421_QZVP.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2421,
+            "description": "pinacolone+cyclopentanol, B3LYP with def2-QZVP",
+            "@id": "https://doi.org/10.25625/LA2ISS/QGBQAM",
+            "identifier": "https://doi.org/10.25625/LA2ISS/QGBQAM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53414"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "CycProOH_Pin_oben_tBu_421_TPSS.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2422,
+            "description": "pinacolone+cyclopentanol, TPSS",
+            "@id": "https://doi.org/10.25625/LA2ISS/ORVG3J",
+            "identifier": "https://doi.org/10.25625/LA2ISS/ORVG3J",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53417"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "CycProOH_Pin_oben_tBu_421_TPSS_QZVP.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2427,
+            "description": "pinacolone+cyclopentanol, TPSS with def2-QZVP",
+            "@id": "https://doi.org/10.25625/LA2ISS/2IS4PR",
+            "identifier": "https://doi.org/10.25625/LA2ISS/2IS4PR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53418"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "RM_45CycProOH_Pin_seite_tBu_421.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2425,
+            "description": "pinacolone+cyclopentanol, B3LYP",
+            "@id": "https://doi.org/10.25625/LA2ISS/EVRKEL",
+            "identifier": "https://doi.org/10.25625/LA2ISS/EVRKEL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53412"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "RM_45CycProOH_Pin_seite_tBu_421_QZVP.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2430,
+            "description": "pinacolone+cyclopentanol, B3LYP with def2-QZVP",
+            "@id": "https://doi.org/10.25625/LA2ISS/PSMJRO",
+            "identifier": "https://doi.org/10.25625/LA2ISS/PSMJRO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53413"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "RM_45CycProOH_Pin_seite_tBu_421_TPSS.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2429,
+            "description": "pinacolone+cyclopentanol, TPSS",
+            "@id": "https://doi.org/10.25625/LA2ISS/EFFYJG",
+            "identifier": "https://doi.org/10.25625/LA2ISS/EFFYJG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53416"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "RM_45CycProOH_Pin_seite_tBu_421_TPSS_QZVP.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2433,
+            "description": "pinacolone+cyclopentanol, TPSS with def2-QZVP",
+            "@id": "https://doi.org/10.25625/LA2ISS/ARKV3Z",
+            "identifier": "https://doi.org/10.25625/LA2ISS/ARKV3Z",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53415"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Pinakolon_seite_OH_auf_CO_paraCO_421.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1755,
+            "description": "pinacolone+methanol, B3LYP",
+            "@id": "https://doi.org/10.25625/LA2ISS/8EX2D2",
+            "identifier": "https://doi.org/10.25625/LA2ISS/8EX2D2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53401"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Pinakolon_seite_OH_auf_CO_paraCO_421_QZVP.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1760,
+            "description": "pinacolone+methanol, B3LYP with QZVP",
+            "@id": "https://doi.org/10.25625/LA2ISS/KOL7IJ",
+            "identifier": "https://doi.org/10.25625/LA2ISS/KOL7IJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53397"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Pinakolon_seite_OH_auf_CO_paraCO_421_TPSS.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1760,
+            "description": "pinacolone+methanol, TPSS",
+            "@id": "https://doi.org/10.25625/LA2ISS/OXZNF3",
+            "identifier": "https://doi.org/10.25625/LA2ISS/OXZNF3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53400"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Pinakolon_seite_OH_auf_CO_paraCO_421_TPSS_QZVP.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1765,
+            "description": "pinacolone+methanol, TPSS with QZVP",
+            "@id": "https://doi.org/10.25625/LA2ISS/U0WH5T",
+            "identifier": "https://doi.org/10.25625/LA2ISS/U0WH5T",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53399"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Pin_45_MeOH_oben_R_421.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1743,
+            "description": "pinacolone+methanol, B3LYP",
+            "@id": "https://doi.org/10.25625/LA2ISS/YUMGRN",
+            "identifier": "https://doi.org/10.25625/LA2ISS/YUMGRN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53398"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Pin_45_MeOH_oben_R_421_QZVP.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1748,
+            "description": "pinacolone+methanol, B3LYP with def2-QZVP",
+            "@id": "https://doi.org/10.25625/LA2ISS/1QX9ZN",
+            "identifier": "https://doi.org/10.25625/LA2ISS/1QX9ZN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53402"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Pin_45_MeOH_oben_R_421_TPSS_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1750,
+            "description": "pinacolone+methanol, TPSS",
+            "@id": "https://doi.org/10.25625/LA2ISS/YBAMPQ",
+            "identifier": "https://doi.org/10.25625/LA2ISS/YBAMPQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53396"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Pin_45_MeOH_oben_R_421_TPSS_QZVP_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1755,
+            "description": "pinacolone+methanol, TPSS with QZVP",
+            "@id": "https://doi.org/10.25625/LA2ISS/P4AHPU",
+            "identifier": "https://doi.org/10.25625/LA2ISS/P4AHPU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53395"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Pin+Pyr02.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1638,
+            "description": "pinacolone+pyrrole, B3LYP",
+            "@id": "https://doi.org/10.25625/LA2ISS/LKSTRK",
+            "identifier": "https://doi.org/10.25625/LA2ISS/LKSTRK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53440"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Pin+Pyr10.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1638,
+            "description": "pinacolone+pyrrole, B3LYP",
+            "@id": "https://doi.org/10.25625/LA2ISS/TKJ9WW",
+            "identifier": "https://doi.org/10.25625/LA2ISS/TKJ9WW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53441"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Pin+Pyr12.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1638,
+            "description": "pinacolone+pyrrole, B3LYP",
+            "@id": "https://doi.org/10.25625/LA2ISS/12DUNN",
+            "identifier": "https://doi.org/10.25625/LA2ISS/12DUNN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53442"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Pin+Pyr24.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1638,
+            "description": "pinacolone+pyrrole, B3LYP",
+            "@id": "https://doi.org/10.25625/LA2ISS/MCNK35",
+            "identifier": "https://doi.org/10.25625/LA2ISS/MCNK35",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53439"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Pinakolon_TertBu_oben_vorne_421.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2356,
+            "description": "pinacolone+tert butyl alcohol, B3LYP",
+            "@id": "https://doi.org/10.25625/LA2ISS/TWWJDB",
+            "identifier": "https://doi.org/10.25625/LA2ISS/TWWJDB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53403"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Pinakolon_TertBu_oben_vorne_421_QZVP.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2361,
+            "description": "pinacolone+tert butyl alcohol, B3LYP with def2-QZVP",
+            "@id": "https://doi.org/10.25625/LA2ISS/F8ES9X",
+            "identifier": "https://doi.org/10.25625/LA2ISS/F8ES9X",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53408"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Pinakolon_TertBu_oben_vorne_421_TPSS.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2361,
+            "description": "pinacolone+tert butyl alcohol, TPSS",
+            "@id": "https://doi.org/10.25625/LA2ISS/DAEJQA",
+            "identifier": "https://doi.org/10.25625/LA2ISS/DAEJQA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53406"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Pinakolon_TertBu_oben_vorne_421_TPSS_QZVP.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2366,
+            "description": "pinacolone+tert butyl alcohol, TPSS with def2-QZVP",
+            "@id": "https://doi.org/10.25625/LA2ISS/QELD23",
+            "identifier": "https://doi.org/10.25625/LA2ISS/QELD23",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53409"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Pin_45_tertBuOH_seite_CH3_421.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2355,
+            "description": "pinacolone+tert butyl alcohol, B3LYP",
+            "@id": "https://doi.org/10.25625/LA2ISS/EZCJSA",
+            "identifier": "https://doi.org/10.25625/LA2ISS/EZCJSA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53404"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Pin_45_tertBuOH_seite_CH3_421_QZVP.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2359,
+            "description": "pinacolone+tert butyl alcohol, B3LYP with def2-QZVP",
+            "@id": "https://doi.org/10.25625/LA2ISS/GLBNLK",
+            "identifier": "https://doi.org/10.25625/LA2ISS/GLBNLK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53405"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Pin_45_tertBuOH_seite_CH3_421_TPSS.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2359,
+            "description": "pinacolone+tert butyl alcohol, TPSS",
+            "@id": "https://doi.org/10.25625/LA2ISS/HDQROO",
+            "identifier": "https://doi.org/10.25625/LA2ISS/HDQROO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53410"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Pin_45_tertBuOH_seite_CH3_421_TPSS_QZVP.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2364,
+            "description": "pinacolone+tert butyl alcohol, TPSS with def2-QZVP",
+            "@id": "https://doi.org/10.25625/LA2ISS/MNDZVR",
+            "identifier": "https://doi.org/10.25625/LA2ISS/MNDZVR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53407"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TMeP+MeOH_crest4-QZ.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2346,
+            "description": "tert butyl tert butyl ketone+methanol, B3LYP with def2-QZVP",
+            "@id": "https://doi.org/10.25625/LA2ISS/LI8ZIB",
+            "identifier": "https://doi.org/10.25625/LA2ISS/LI8ZIB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53423"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TMeP+MeOH_crest4-TPSS-QZVP.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2351,
+            "description": "tert butyl tert butyl ketone+methanol, TPSS with def2-QZVP",
+            "@id": "https://doi.org/10.25625/LA2ISS/CKTLYB",
+            "identifier": "https://doi.org/10.25625/LA2ISS/CKTLYB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53424"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TMeP+MeOH_crest4-TPSS.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2346,
+            "description": "tert butyl tert butyl ketone+methanol, TPSS",
+            "@id": "https://doi.org/10.25625/LA2ISS/HFWFOA",
+            "identifier": "https://doi.org/10.25625/LA2ISS/HFWFOA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53425"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TMeP+MeOH_crest4.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2340,
+            "description": "tert butyl tert butyl ketone+methanol, B3LYP",
+            "@id": "https://doi.org/10.25625/LA2ISS/7QCVP6",
+            "identifier": "https://doi.org/10.25625/LA2ISS/7QCVP6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53422"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TMeP+MeOH_crest5-QZVP.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2348,
+            "description": "tert butyl tert butyl ketone+methanol, B3LYP+def2-QZVP",
+            "@id": "https://doi.org/10.25625/LA2ISS/XGH2XK",
+            "identifier": "https://doi.org/10.25625/LA2ISS/XGH2XK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53426"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TMeP+MeOH_crest5-TPSS-QZVP.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2351,
+            "description": "tert butyl tert butyl ketone+methanol, TPSS with def2-QZVP",
+            "@id": "https://doi.org/10.25625/LA2ISS/HYT0SA",
+            "identifier": "https://doi.org/10.25625/LA2ISS/HYT0SA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53420"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TMeP+MeOH_crest5-TPSS.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2347,
+            "description": "tert butyl tert butyl ketone+methanol, TPSS",
+            "@id": "https://doi.org/10.25625/LA2ISS/UIMLAW",
+            "identifier": "https://doi.org/10.25625/LA2ISS/UIMLAW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53419"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TMeP+MeOH_crest5.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2342,
+            "description": "tert butyl tert butyl ketone+methanol, B3LYP",
+            "@id": "https://doi.org/10.25625/LA2ISS/IYGA6Y",
+            "identifier": "https://doi.org/10.25625/LA2ISS/IYGA6Y",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/53421"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Chemistry"
+    ]
+}

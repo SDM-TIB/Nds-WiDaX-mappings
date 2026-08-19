@@ -1,0 +1,384 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/RUFUSG",
+    "identifier": "https://doi.org/10.25625/RUFUSG",
+    "name": "Data set and R scripts from \"Regional native seed mixture enables successful flower field establishment across varying management and landscape conditions\"",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Julia",
+            "familyName": "Lechtenberg",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Agroecology & Functional Agrobiodiversity, University of G\u00f6ttingen, Grisebachstr. 6, 37077 G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0009-0009-5099-6794",
+            "@id": "https://orcid.org/0009-0009-5099-6794",
+            "identifier": "https://orcid.org/0009-0009-5099-6794",
+            "name": "Lechtenberg, Julia"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Jenny",
+            "familyName": "Schellenberg",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Vegetation and Phytodiversity Analysis, University of G\u00f6ttingen, Untere Karsp\u00fcle 1, 37073 G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0003-1830-7599",
+            "@id": "https://orcid.org/0000-0003-1830-7599",
+            "identifier": "https://orcid.org/0000-0003-1830-7599",
+            "name": "Schellenberg, Jenny"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Charlotte",
+            "familyName": "Apeldoorn",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Agroecology & Functional Agrobiodiversity, University of G\u00f6ttingen, Grisebachstr. 6, 37077 G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0009-0005-6316-7451",
+            "@id": "https://orcid.org/0009-0005-6316-7451",
+            "identifier": "https://orcid.org/0009-0005-6316-7451",
+            "name": "Apeldoorn, Charlotte"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Sophia",
+            "familyName": "Tellbrunn",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Agroecology & Functional Agrobiodiversity, University of G\u00f6ttingen, Grisebachstr. 6, 37077 G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0009-0005-5141-4267",
+            "@id": "https://orcid.org/0009-0005-5141-4267",
+            "identifier": "https://orcid.org/0009-0005-5141-4267",
+            "name": "Tellbrunn, Sophia"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Annika",
+            "familyName": "Hass",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Agroecology & Functional Agrobiodiversity, University of G\u00f6ttingen, Grisebachstr. 6, 37077 G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0002-3377-4622",
+            "@id": "https://orcid.org/0000-0002-3377-4622",
+            "identifier": "https://orcid.org/0000-0002-3377-4622",
+            "name": "Hass, Annika"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Catrin",
+            "familyName": "Westphal",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Agroecology & Functional Agrobiodiversity, University of G\u00f6ttingen, Grisebachstr. 6, 37077 G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0002-2615-1339",
+            "@id": "https://orcid.org/0000-0002-2615-1339",
+            "identifier": "https://orcid.org/0000-0002-2615-1339",
+            "name": "Westphal, Catrin"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Julia",
+            "familyName": "Lechtenberg",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Agroecology & Functional Agrobiodiversity, University of G\u00f6ttingen, Grisebachstr. 6, 37077 G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0009-0009-5099-6794",
+            "@id": "https://orcid.org/0009-0009-5099-6794",
+            "identifier": "https://orcid.org/0009-0009-5099-6794",
+            "name": "Lechtenberg, Julia"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Jenny",
+            "familyName": "Schellenberg",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Vegetation and Phytodiversity Analysis, University of G\u00f6ttingen, Untere Karsp\u00fcle 1, 37073 G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0003-1830-7599",
+            "@id": "https://orcid.org/0000-0003-1830-7599",
+            "identifier": "https://orcid.org/0000-0003-1830-7599",
+            "name": "Schellenberg, Jenny"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Charlotte",
+            "familyName": "Apeldoorn",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Agroecology & Functional Agrobiodiversity, University of G\u00f6ttingen, Grisebachstr. 6, 37077 G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0009-0005-6316-7451",
+            "@id": "https://orcid.org/0009-0005-6316-7451",
+            "identifier": "https://orcid.org/0009-0005-6316-7451",
+            "name": "Apeldoorn, Charlotte"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Sophia",
+            "familyName": "Tellbrunn",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Agroecology & Functional Agrobiodiversity, University of G\u00f6ttingen, Grisebachstr. 6, 37077 G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0009-0005-5141-4267",
+            "@id": "https://orcid.org/0009-0005-5141-4267",
+            "identifier": "https://orcid.org/0009-0005-5141-4267",
+            "name": "Tellbrunn, Sophia"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Annika",
+            "familyName": "Hass",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Agroecology & Functional Agrobiodiversity, University of G\u00f6ttingen, Grisebachstr. 6, 37077 G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0002-3377-4622",
+            "@id": "https://orcid.org/0000-0002-3377-4622",
+            "identifier": "https://orcid.org/0000-0002-3377-4622",
+            "name": "Hass, Annika"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Catrin",
+            "familyName": "Westphal",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Agroecology & Functional Agrobiodiversity, University of G\u00f6ttingen, Grisebachstr. 6, 37077 G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0002-2615-1339",
+            "@id": "https://orcid.org/0000-0002-2615-1339",
+            "identifier": "https://orcid.org/0000-0002-2615-1339",
+            "name": "Westphal, Catrin"
+        }
+    ],
+    "datePublished": "2026-08-11",
+    "dateModified": "2026-08-11",
+    "version": "1",
+    "description": "Data sets and R scripts used for the analyses in Lechtenberg et al., Regional native seed mixture enables successful flower field establishment across varying management and landscape conditions. Further details on the sampling design and the statistical analyses are provided in the article and the supplementary material.",
+    "keywords": [
+        "Agricultural Sciences",
+        "Earth and Environmental Sciences",
+        "Agri-environment-climate measures",
+        "perennial flower strips",
+        "farmland biodiversity",
+        "conservation adoption",
+        "landscape heterogeneity",
+        "native plant species",
+        "regionalized seed mixture"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "Lechtenberg, J., Schellenberg, J., Bergmeier, E., Apeldoorn, C., Tellbrunn, S., Trein, L., Sch\u00fcler, S., Hass, A.L., Westphal, C., In preparation. Regional native seed mixture enables successful flower field establishment across varying management and landscape conditions."
+        }
+    ],
+    "license": "http://creativecommons.org/licenses/by-nc/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "02aDataExplorationAndCalculation20260308wTrifolium.Rmd",
+            "encodingFormat": "text/x-r-notebook",
+            "contentSize": 7250,
+            "description": "R script for calculation of mean cover for all species as well as the range of the cover and species richness of all species. ",
+            "@id": "https://doi.org/10.25625/RUFUSG/2O35TC",
+            "identifier": "https://doi.org/10.25625/RUFUSG/2O35TC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159949"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "02bDataExplorationAndCalculation20260308woTrifolium.Rmd",
+            "encodingFormat": "text/x-r-notebook",
+            "contentSize": 7174,
+            "description": "R script for calculation of mean cover for seeded and problematic weed species as well as the range of the cover and species richness of the subgroups (sown, spontaneous and annual species). It uses the plants and species traits data without Trifolium.\n",
+            "@id": "https://doi.org/10.25625/RUFUSG/IT6JP3",
+            "identifier": "https://doi.org/10.25625/RUFUSG/IT6JP3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159955"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "03LinearModels20260308Predictions.Rmd",
+            "encodingFormat": "text/x-r-notebook",
+            "contentSize": 28745,
+            "description": "R script with linear models for the analyses in Lechtenberg et al.",
+            "@id": "https://doi.org/10.25625/RUFUSG/XYUA2U",
+            "identifier": "https://doi.org/10.25625/RUFUSG/XYUA2U",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159951"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "05bFrequencyTable20260308.Rmd",
+            "encodingFormat": "text/x-r-notebook",
+            "contentSize": 1480,
+            "description": "R script to create a frequency table",
+            "@id": "https://doi.org/10.25625/RUFUSG/X7SCDX",
+            "identifier": "https://doi.org/10.25625/RUFUSG/X7SCDX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159957"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "06GraphicalOutputLinearModels20260308Predictions.Rmd",
+            "encodingFormat": "text/x-r-notebook",
+            "contentSize": 33504,
+            "description": "R script with the graphical output of the linear models presented in Lechtenberg et al.",
+            "@id": "https://doi.org/10.25625/RUFUSG/JYFAIN",
+            "identifier": "https://doi.org/10.25625/RUFUSG/JYFAIN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159950"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "data_header2023.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 6992,
+            "description": "Header data for 2023",
+            "@id": "https://doi.org/10.25625/RUFUSG/KCYAHB",
+            "identifier": "https://doi.org/10.25625/RUFUSG/KCYAHB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159952"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "data_header202324.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 13650,
+            "description": "Header data for 2023 and 2024",
+            "@id": "https://doi.org/10.25625/RUFUSG/TYBGYL",
+            "identifier": "https://doi.org/10.25625/RUFUSG/TYBGYL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159948"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "data_header2024.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 6667,
+            "description": "Header data for 2024",
+            "@id": "https://doi.org/10.25625/RUFUSG/N80JGF",
+            "identifier": "https://doi.org/10.25625/RUFUSG/N80JGF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159942"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "data_plants2023.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 22750,
+            "description": "Species x Plots matrix for 2023, excluding Trifolium spp.",
+            "@id": "https://doi.org/10.25625/RUFUSG/ZVJN9Y",
+            "identifier": "https://doi.org/10.25625/RUFUSG/ZVJN9Y",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159946"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "data_plants202324Trifolium.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 43102,
+            "description": "Species x Plots matrix for 2023 and 2024, including Trifolium spp.",
+            "@id": "https://doi.org/10.25625/RUFUSG/QDXB95",
+            "identifier": "https://doi.org/10.25625/RUFUSG/QDXB95",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159953"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "data_plants2023Trifolium.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 22942,
+            "description": "Species x Plots matrix for 2023, including Trifolium spp.",
+            "@id": "https://doi.org/10.25625/RUFUSG/YVM3RP",
+            "identifier": "https://doi.org/10.25625/RUFUSG/YVM3RP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159943"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "data_plants2024.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 14651,
+            "description": "Species x Plots matrix for 2024, excluding Trifolium spp.",
+            "@id": "https://doi.org/10.25625/RUFUSG/OQC1JR",
+            "identifier": "https://doi.org/10.25625/RUFUSG/OQC1JR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159945"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "data_plants2024Trifolium.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 14848,
+            "description": "Species x Plots matrix for 2024, including Trifolium spp.",
+            "@id": "https://doi.org/10.25625/RUFUSG/WBAHNM",
+            "identifier": "https://doi.org/10.25625/RUFUSG/WBAHNM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159944"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "data_species_traits2023.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 10119,
+            "description": "Species trait data for 2023, excluding Trifolium spp.",
+            "@id": "https://doi.org/10.25625/RUFUSG/JKHNRR",
+            "identifier": "https://doi.org/10.25625/RUFUSG/JKHNRR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159947"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "data_species_traits2023Trifolium.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 10175,
+            "description": "Species trait data for 2023, including Trifolium spp.",
+            "@id": "https://doi.org/10.25625/RUFUSG/QNTV5P",
+            "identifier": "https://doi.org/10.25625/RUFUSG/QNTV5P",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159941"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "data_species_traits2024.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 6088,
+            "description": "Species trait data for 2024 including Trifolium spp.",
+            "@id": "https://doi.org/10.25625/RUFUSG/JEORNA",
+            "identifier": "https://doi.org/10.25625/RUFUSG/JEORNA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159954"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "data_species_traits2024Trifolium.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 6143,
+            "description": "Species trait data for 2024 including Trifolium spp.",
+            "@id": "https://doi.org/10.25625/RUFUSG/OCYPMY",
+            "identifier": "https://doi.org/10.25625/RUFUSG/OCYPMY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159956"
+        }
+    ],
+    "license_title": "Creative Commons Attribution-NonCommercial 4.0 International",
+    "subjects": [
+        "Agricultural Sciences",
+        "Earth and Environmental Sciences"
+    ],
+    "publications": [
+        {
+            "citation": "Lechtenberg, J., Schellenberg, J., Bergmeier, E., Apeldoorn, C., Tellbrunn, S., Trein, L., Sch\u00fcler, S., Hass, A.L., Westphal, C., In preparation. Regional native seed mixture enables successful flower field establishment across varying management and landscape conditions."
+        }
+    ]
+}

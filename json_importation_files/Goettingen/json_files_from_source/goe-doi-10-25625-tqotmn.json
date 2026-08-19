@@ -1,0 +1,67 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/TQOTMN",
+    "identifier": "https://doi.org/10.25625/TQOTMN",
+    "name": "Evaluation of Ceph as a File System for HPC",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Tim",
+            "familyName": "Dettmar",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Gesellschaft f\u00fcr wissenschaftliche Datenverarbeitung mbH G\u00f6ttingen"
+            },
+            "name": "Dettmar, Tim"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Tim",
+            "familyName": "Dettmar",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Gesellschaft f\u00fcr wissenschaftliche Datenverarbeitung mbH G\u00f6ttingen"
+            },
+            "name": "Dettmar, Tim"
+        }
+    ],
+    "datePublished": "2026-07-30",
+    "dateModified": "2026-08-03",
+    "version": "2",
+    "description": "High-Performance Computing (HPC) workloads place high demands on storage systems, requiring them to reliably provide high throughput for a wide variety of data access patterns. However, data access patterns in HPC are varied, introducing unique architectural challenges. Ceph, a distributed and flexible software-defined storage system, has historically seen limited adoption in the HPC space, with incumbent file systems such as Lustre and BeeGFS dominating the market. In this thesis, we evaluate the suitability of Ceph as a storage system for a range of data access patterns representative of those found in HPC workloads, analyzing its performance, architectural overhead, scalability, and suitability for use in HPC environments. To isolate the overhead of Ceph\u2019s software architecture from the bottlenecks of physical storage media, we have developed a custom, rootless deployment framework leveraging Apptainer and Slurm for the deployment of ephemeral, in-memory Ceph clusters on standard HPC cluster nodes as well as a benchmarking framework for the automated gathering of scaling performance results with IOR and mdtest. Our empirical findings show that Ceph demonstrates strong scaling performance for data-heavy workloads, while its performance for metadata-heavy workloads exhibits inconsistent scaling and high variance, with performance bottlenecks and architectural limitations becoming apparent during our testing at scale. During testing, we additionally traced intermittent node crashes on the Omni-Path network fabric to a known kernel vulnerability, which had been incorrectly classified as not affecting Red Hat Enterprise Linux (RHEL) 8, leading to a security patch for the affected kernel. Our findings ultimately suggest that, while Ceph is highly flexible and generally a capable distributed file system for many HPC workloads, specific limitations related to its metadata performance and current networking implementation may make it less suitable for certain HPC use cases. However, further testing is required with physical storage devices to fully evaluate its suitability for use in HPC environments.",
+    "keywords": [
+        "Computer and Information Science"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "tim_dettmar_characterizing_ceph_as_a_hpc_storage_system.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 4604412,
+            "@id": "https://doi.org/10.25625/TQOTMN/UBUKQ0",
+            "identifier": "https://doi.org/10.25625/TQOTMN/UBUKQ0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/189394"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Computer and Information Science"
+    ]
+}

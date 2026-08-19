@@ -1,0 +1,138 @@
+{
+  "author": "Pablo Noever-Castelos",
+  "author_email": "pablo.noever@iwes.uni-hannover.de",
+  "creator_user_id": "89ada710-0c23-4d75-93bf-5eb2f4bd48cd",
+  "have_copyright": "Yes",
+  "id": "c6828d8f-33ba-4dfe-b3aa-94051ec55f33",
+  "isopen": false,
+  "license_id": "CC-BY-NC-3.0",
+  "license_title": "Creative Commons Attribution-NonCommercial 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc/3.0/",
+  "maintainer": "Pablo Noever-Castelos",
+  "maintainer_email": "",
+  "metadata_created": "2022-01-10T10:46:12.487282",
+  "metadata_modified": "2022-01-20T13:49:36.994553",
+  "name": "training-data-and-models-for-cinn-model-updating-of-finite-element-models-of-wind-turbine-blades",
+  "notes": "The dataset is directly related to the GitHub-Repository: https://github.com/IWES-LUH/Beam-ModelUpdating-cINN\r\nIt contains training data and finished models of the conditional Invertible Neural Network trained for model updating of wind turbine blades. The applied model is the 20m-DemoBlade of the SmartBlades2 research project.",
+  "num_resources": 2,
+  "num_tags": 5,
+  "organization": {
+    "id": "73268596-15c0-4ed1-a968-4001e2a99f6b",
+    "name": "institut-fur-windenergiesysteme",
+    "title": "Institut für Windenergiesysteme ",
+    "type": "organization",
+    "description": "https://www.iwes.uni-hannover.de/",
+    "image_url": "",
+    "created": "2021-03-17T12:19:43.609548",
+    "is_organization": true,
+    "approval_status": "approved",
+    "state": "active"
+  },
+  "owner_org": "73268596-15c0-4ed1-a968-4001e2a99f6b",
+  "private": false,
+  "state": "active",
+  "terms_of_usage": "Yes",
+  "title": "Training data and models for cINN model updating of finite element beam models of wind turbine blades",
+  "type": "dataset",
+  "url": "",
+  "version": "",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2022-01-10T11:00:52.160940",
+      "datastore_active": false,
+      "description": "The training data. Load with python package dill.",
+      "format": ".zip",
+      "hash": "",
+      "id": "cbfc9844-7c72-4547-9432-8116eb3b6aac",
+      "last_modified": "2022-01-10T11:00:52.124223",
+      "metadata_modified": "2022-01-10T11:00:52.160940",
+      "mimetype": "application/zip",
+      "mimetype_inner": null,
+      "name": "Training Data",
+      "package_id": "c6828d8f-33ba-4dfe-b3aa-94051ec55f33",
+      "position": 0,
+      "resource_type": null,
+      "size": 904684196,
+      "state": "active",
+      "tracking_summary": {
+        "total": 28,
+        "recent": 2
+      },
+      "url": "https://data.uni-hannover.de/dataset/c6828d8f-33ba-4dfe-b3aa-94051ec55f33/resource/cbfc9844-7c72-4547-9432-8116eb3b6aac/download/samples.zip",
+      "url_type": "upload"
+    },
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2022-01-10T11:20:19.442697",
+      "datastore_active": false,
+      "description": "Models trained with 30.000 samples for the full and the reduced input parameter space.",
+      "format": ".zip",
+      "hash": "",
+      "id": "a7c04ff0-5829-4e33-afd5-62ca7da04710",
+      "last_modified": "2022-01-10T11:20:19.398992",
+      "metadata_modified": "2022-01-10T11:20:19.442697",
+      "mimetype": "application/zip",
+      "mimetype_inner": null,
+      "name": "Models.zip",
+      "package_id": "c6828d8f-33ba-4dfe-b3aa-94051ec55f33",
+      "position": 1,
+      "resource_type": null,
+      "size": 823248,
+      "state": "active",
+      "tracking_summary": {
+        "total": 22,
+        "recent": 1
+      },
+      "url": "https://data.uni-hannover.de/dataset/c6828d8f-33ba-4dfe-b3aa-94051ec55f33/resource/a7c04ff0-5829-4e33-afd5-62ca7da04710/download/models.zip",
+      "url_type": "upload"
+    }
+  ],
+  "tags": [
+    {
+      "display_name": "Training data",
+      "id": "95c05531-9eff-4853-a8b4-598e33194cdd",
+      "name": "Training data",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "finite element model",
+      "id": "a9b71c59-aa0e-466f-a577-1ad4b554be25",
+      "name": "finite element model",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "model updating",
+      "id": "5480a0a6-78d6-48ac-b426-3aac4f5e074c",
+      "name": "model updating",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "neural network",
+      "id": "b454f386-6791-4bd3-864b-7bf8d4fe8d81",
+      "name": "neural network",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "wind turbine blade",
+      "id": "15189a0d-5411-4e99-9c5e-4ab5901a070a",
+      "name": "wind turbine blade",
+      "state": "active",
+      "vocabulary_id": null
+    }
+  ],
+  "groups": [],
+  "relationships_as_subject": [],
+  "relationships_as_object": [],
+  "doi": "10.25835/0042221",
+  "doi_status": true,
+  "domain": "https://data.uni-hannover.de",
+  "doi_date_published": "2022-01-10",
+  "doi_publisher": "LUIS"
+}

@@ -1,0 +1,67 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/GDFCFP",
+    "identifier": "https://doi.org/10.25625/GDFCFP",
+    "name": "Running Kubernetes Workloads on Rootless HPC Systems using Slurm",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "S\u00f6ren",
+            "familyName": "Metje",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Gesellschaft f\u00fcr wissenschaftliche Datenverarbeitung mbH G\u00f6ttingen"
+            },
+            "name": "Metje, S\u00f6ren"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "S\u00f6ren",
+            "familyName": "Metje",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Gesellschaft f\u00fcr wissenschaftliche Datenverarbeitung mbH G\u00f6ttingen"
+            },
+            "name": "Metje, S\u00f6ren"
+        }
+    ],
+    "datePublished": "2024-01-09",
+    "dateModified": "2024-01-09",
+    "version": "1",
+    "description": "Kubernetes, the leading container orchestration platform in today\u2019s market, empowers the deployment, scaling, and management of containerized applications on cloud infrastructure. In contrast to that, in High-Performance Computing (HPC), users utilize multi-node compute systems comprising powerful bare-metal servers. To submit and manage workloads, these systems usually run workload managers such as Slurm. By combining the two worlds, you can potentially take advantage of both Slurm and Kubernetes, as well as HPC and cloud features, to create usable, high-performance sys- tems. Due to the different operation paradigms of Kubernetes and Slurm, its integration imposes several challenges. As an example, an important factor are root-privileges, which are generally not available for operational use on HPC machines. This limits the available system features and consequently the usage of software including integra- tion approaches for Slurm and Kubernetes. Additional challenges arise with respect to compute, storage, and network performance, as well as regarding usability and maintainability of such approaches. Existing approaches such as Bridge-Operator by IBM, WLM-operator by Sylabs Inc., kube-slurm by Kalen Peterson, slurm-k8s-bridge by SchedMD, and HPK by the foun- dation for research and technology Hellas, explore solutions to this challenges. However, no solution supports all of the core Kubernetes features for use on the Slurm cluster. In this thesis, in order to address this gap, we propose a new approach called Kind Slurm Integration (KSI) that creates a temporary Kubernetes cluster in a rootless Podman container for workload execution. To provide a comparison as well as an assessment for certain use cases involving several functional requirements, quality requirements, and constraints, we provide a systematic evaluation of all relevant integration approaches. Major results are significant differences regarding startup time, storage and network performance. With respect to our findings, each project excels in certain use cases. We conclude that there is no definite solution yet, thus more research on benchmarking, optimization, and integration is needed.",
+    "keywords": [
+        "Computer and Information Science"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Master_Thesis__Running_Kubernetes_Workloads_on_Rootless_HPC_Systems_Using_Slurm.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 2668014,
+            "@id": "https://doi.org/10.25625/GDFCFP/VZVW2P",
+            "identifier": "https://doi.org/10.25625/GDFCFP/VZVW2P",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70003"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Computer and Information Science"
+    ]
+}

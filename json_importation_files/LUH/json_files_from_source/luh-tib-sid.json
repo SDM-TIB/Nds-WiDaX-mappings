@@ -1,0 +1,147 @@
+{
+  "author": "Jennifer D'Souza, Sameer Sadruddin",
+  "author_email": "jennifer.dsouza@tib.eu",
+  "creator_user_id": "270b6f85-9a22-470e-955a-4e9587c7f582",
+  "have_copyright": "Yes",
+  "id": "23e87937-cdab-4a48-8a73-d62ea9b14467",
+  "isopen": true,
+  "license_id": "CC-BY-SA-4.0",
+  "license_title": "Creative Commons Attribution Share-Alike 4.0 International",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "maintainer": "Jennifer D'Souza",
+  "maintainer_email": "",
+  "metadata_created": "2026-03-11T17:52:16.742058",
+  "metadata_modified": "2026-03-14T11:15:40.363750",
+  "name": "tib-sid",
+  "notes": "The **TIB Subject Indexing Dataset (TIB-SID)** is a bilingual benchmark for **extreme multi-label text classification (XMTC)** over real library records, designed for **domain classification** and **GND-based subject indexing**. The dataset combines a large, structured, authority-controlled label space with long-tail sparsity, cross-lingual variation, and real-world domain imbalance, making it substantially closer to operational library cataloging than standard text classification benchmarks.\r\n\r\n## ✨ At a glance\r\n\r\n- **136,569** library records in **JSON-LD** with predefined **train / dev / test** benchmark splits\r\n- **Languages:** English and German\r\n- [**28 domains**](https://github.com/sciknoworg/tib-sid/blob/main/28_domains_list.csv)\r\n- **Record types:** article, book, conference, report, thesis\r\n\r\n## ⬇️ Download\r\n\r\nDownload the dataset from this folder: [data](https://github.com/sciknoworg/tib-sid/tree/main/library-records-dataset/data)\r\n\r\n## 🔗 Related Links\r\n\r\nTIB-SID was introduced through the **LLMs4Subjects** shared tasks organized in 2025. More than 12 LLM-based systems were developed and evaluated on the dataset by participating teams worldwide. The shared task websites provide additional context, task details, and leaderboard results.\r\n\r\n- [LLMs4Subjects @ SemEval](https://sites.google.com/view/llms4subjects)\r\n- [LLMs4Subjects @ GermEval](https://sites.google.com/view/llms4subjects-germeval/)\r\n\r\n## 📖 Citation\r\n\r\nIf **TIB-SID** useful for your research or project, please consider citing it.\r\n\r\nThe main dataset paper is listed below. It has been **accepted to [LREC 2026](https://lrec2026.info/)**, and the official proceedings citation will be added here as soon as it is available.\r\n\r\n    @misc{dsouza2026extrememultilabeltextclassification,\r\n          title={An Extreme Multi-label Text Classification (XMTC) Library Dataset: What if we took \"Use of Practical AI in Digital Libraries\" seriously?}, \r\n          author={Jennifer D'Souza and Sameer Sadruddin and Maximilian Kähler and Andrea Salfinger and Luca Zaccagna and Francesca Incitti and Lauro Snidaro and Osma Suominen},\r\n          year={2026},\r\n          eprint={2603.10876},\r\n          archivePrefix={arXiv},\r\n          primaryClass={cs.CL},\r\n          url={https://arxiv.org/abs/2603.10876}, \r\n    }\r\n\r\nIf you would also like to cite the shared task that introduced the broader benchmark setting, please use:\r\n\r\n    @InProceedings{dsouza-EtAl:2025:SemEval2025,\r\n    author    = {D'Souza, Jennifer and Sadruddin, Sameer and Israel, Holger and Begoin, Mathias and Slawig, Diana},\r\n    title     = {SemEval-2025 Task 5: LLMs4Subjects - LLM-based Automated Subject Tagging for a National Technical Library's Open-Access Catalog},\r\n    booktitle = {Proceedings of the 19th International Workshop on Semantic Evaluation (SemEval-2025)},\r\n    month     = {August},\r\n    year      = {2025},\r\n    address   = {Vienna, Austria},\r\n    publisher = {Association for Computational Linguistics},\r\n    pages     = {1082--1095},\r\n    url       = {https://aclanthology.org/2025.semeval2025-1.139}\r\n    }\r\n\r\n## ⭐ Acknowledgements\r\n\r\nThis work was supported by the [NFDI4DataScience initiative](https://www.nfdi4datascience.de/) (DFG, German Research Foundation, Grant ID: 460234259) and the [TIB – Leibniz Information Centre for Science and Technology](https://www.tib.eu/en/). We also gratefully acknowledge the subject specialists at TIB who contributed to the curated human evaluation of this work.\r\n",
+  "num_resources": 1,
+  "num_tags": 10,
+  "organization": {
+    "id": "71f7bf65-eb79-43d5-bbb3-8bac53129eec",
+    "name": "tib",
+    "title": "TIB",
+    "type": "organization",
+    "description": "Technische Informationsbibliothek",
+    "image_url": "2018-01-23-104035.171142TIBWortBildmarkeBBRGB.PNG",
+    "created": "2018-01-23T11:36:35.480058",
+    "is_organization": true,
+    "approval_status": "approved",
+    "state": "active"
+  },
+  "owner_org": "71f7bf65-eb79-43d5-bbb3-8bac53129eec",
+  "private": false,
+  "state": "active",
+  "terms_of_usage": "Yes",
+  "title": "TIB-SID: TIB Subject Indexing Dataset",
+  "type": "dataset",
+  "url": "https://github.com/sciknoworg/tib-sid/tree/",
+  "version": "",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2026-03-11T17:53:30.466787",
+      "datastore_active": false,
+      "description": "",
+      "format": "json-ld",
+      "hash": "",
+      "id": "fa744205-69d0-4ef6-aaa7-c4b418a26925",
+      "last_modified": null,
+      "metadata_modified": "2026-03-11T17:56:42.125689",
+      "mimetype": null,
+      "mimetype_inner": null,
+      "name": "train, dev, and test datasets (XMTC)",
+      "package_id": "23e87937-cdab-4a48-8a73-d62ea9b14467",
+      "position": 0,
+      "resource_type": null,
+      "size": null,
+      "state": "active",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "url": "https://github.com/sciknoworg/tib-sid/",
+      "url_type": ""
+    }
+  ],
+  "tags": [
+    {
+      "display_name": "classification dataset",
+      "id": "fd7a7b40-e7b7-47eb-ad12-5a8eedfdf522",
+      "name": "classification dataset",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "controlled-vocabulary",
+      "id": "33c97e9b-85da-4501-a6b4-8c224f431eab",
+      "name": "controlled-vocabulary",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "digital-libraries",
+      "id": "5bf3720b-5cd7-4ef1-9dd8-710f4b3ad05b",
+      "name": "digital-libraries",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "extreme-multilabel-classification",
+      "id": "225c9f48-d048-48b6-a634-61ce466d77dc",
+      "name": "extreme-multilabel-classification",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "gnd",
+      "id": "e3c66e01-b929-4286-b2b3-1376ff85a56b",
+      "name": "gnd",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "information-retrieval",
+      "id": "f6fd2fc7-397f-43c4-a1e5-9b6127eb8c45",
+      "name": "information-retrieval",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "library-metadata",
+      "id": "abeba109-13da-4f0c-a550-6d9c23d08480",
+      "name": "library-metadata",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "nlp",
+      "id": "3a4e333c-43ed-4652-b772-3f790322e6f3",
+      "name": "nlp",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "subject-indexing",
+      "id": "aeda9985-3453-4f77-bfc0-08c24f6da0ea",
+      "name": "subject-indexing",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "xmtc",
+      "id": "e55f3830-1545-43c4-ae31-bfdf17187f5e",
+      "name": "xmtc",
+      "state": "active",
+      "vocabulary_id": null
+    }
+  ],
+  "groups": [],
+  "relationships_as_subject": [],
+  "relationships_as_object": [],
+  "doi": "10.25835/b9vo5q9z",
+  "doi_status": true,
+  "domain": "https://data.uni-hannover.de",
+  "doi_date_published": "2026-03-11",
+  "doi_publisher": "LUIS"
+}

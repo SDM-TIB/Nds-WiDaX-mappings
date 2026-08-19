@@ -1,0 +1,107 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/VVSKCH",
+    "identifier": "https://doi.org/10.25625/VVSKCH",
+    "name": "Mouse - train and test data",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Jan",
+            "familyName": "Clemens",
+            "name": "Clemens, Jan"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jan",
+            "familyName": "Clemens",
+            "name": "Clemens, Jan"
+        }
+    ],
+    "datePublished": "2021-09-23",
+    "dateModified": "2021-09-23",
+    "version": "1",
+    "description": "Contains recordings and manual annotations of ultrasonic vocalizations (USVs) of female and male residents towards an intruder mouse. Manual annotations were created for training and testing DAS. Original data source for the recordings:https://data.donders.ru.nl/collections/di/dcn/DSC_620840_0003_891?0 Original reference: Ivanenko A, Watkins P, Gerven MAJ van, Hammerschmidt K, Englitz B. 2020. Classifying sex and strain from mouse ultrasonic vocalizations using deep learning. PLOS Computational Biology 16:e1007918. USVs from a female resident towards a female intruder used for training and testing DAS: Rfem_Afem01_annotations.csv, Rfem_Afem01.npz Rfem_Afem02_annotations.csv, Rfem_Afem02.npz USVs from a male resident towards a female intruder used for testing generalization of the female-trained DAS model: Rmale_Afem01_annotations.csv, Rmale_Afem01.npz",
+    "keywords": [
+        "Medicine, Health and Life Sciences"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Rfem_Afem01.npz",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 108153000,
+            "@id": "https://doi.org/10.25625/VVSKCH/MEHQN6",
+            "identifier": "https://doi.org/10.25625/VVSKCH/MEHQN6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/32873"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Rfem_Afem01_annotations.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 33362,
+            "@id": "https://doi.org/10.25625/VVSKCH/2OKCLF",
+            "identifier": "https://doi.org/10.25625/VVSKCH/2OKCLF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/32868"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Rfem_Afem02.npz",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 108260434,
+            "@id": "https://doi.org/10.25625/VVSKCH/CEVTDU",
+            "identifier": "https://doi.org/10.25625/VVSKCH/CEVTDU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/32869"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Rfem_Afem02_annotations.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 36774,
+            "@id": "https://doi.org/10.25625/VVSKCH/JT8ZLN",
+            "identifier": "https://doi.org/10.25625/VVSKCH/JT8ZLN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/32870"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Rmale_Afem01.npz",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 432089914,
+            "@id": "https://doi.org/10.25625/VVSKCH/CGFBHH",
+            "identifier": "https://doi.org/10.25625/VVSKCH/CGFBHH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/32871"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Rmale_Afem01_annotations.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 19186,
+            "@id": "https://doi.org/10.25625/VVSKCH/HPHSGU",
+            "identifier": "https://doi.org/10.25625/VVSKCH/HPHSGU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/32872"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Medicine, Health and Life Sciences"
+    ],
+    "publications": [
+        {}
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/YFRANW",
+    "identifier": "https://doi.org/10.25625/YFRANW",
+    "name": "Implementation of numerical experiments for moving domains and small diffusion for two FE methods",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Benedikt Micha",
+            "familyName": "Kaltenbach",
+            "name": "Kaltenbach, Benedikt Micha"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Benedikt Micha",
+            "familyName": "Kaltenbach",
+            "name": "Kaltenbach, Benedikt Micha"
+        }
+    ],
+    "datePublished": "2024-11-11",
+    "dateModified": "2025-01-20",
+    "version": "2",
+    "description": "This is the implementation of different numerical examples to test eulerian timestepping and unfitted space time methods for small diffusion. The implementation depends on work and previos implementations done in the group of C. Lehrenfeld, especially the implementation of further tools in the ngsolve extensino ngsxfem.",
+    "keywords": [
+        "Mathematical Sciences"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "This dataset relates to my bachelors thesis (finished late 2024)."
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "testgrowingcirc.ipynb",
+            "encodingFormat": "application/x-ipynb+json",
+            "contentSize": 31868,
+            "@id": "https://doi.org/10.25625/YFRANW/91W3TQ",
+            "identifier": "https://doi.org/10.25625/YFRANW/91W3TQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/119564"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "testkite.ipynb",
+            "encodingFormat": "application/x-ipynb+json",
+            "contentSize": 31782,
+            "@id": "https://doi.org/10.25625/YFRANW/CT1ACW",
+            "identifier": "https://doi.org/10.25625/YFRANW/CT1ACW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/119565"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "testmovingcirc.ipynb",
+            "encodingFormat": "application/x-ipynb+json",
+            "contentSize": 129132,
+            "@id": "https://doi.org/10.25625/YFRANW/F4X3DQ",
+            "identifier": "https://doi.org/10.25625/YFRANW/F4X3DQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/119563"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "testshrinkingcirc.ipynb",
+            "encodingFormat": "application/x-ipynb+json",
+            "contentSize": 32616,
+            "@id": "https://doi.org/10.25625/YFRANW/XTQCL7",
+            "identifier": "https://doi.org/10.25625/YFRANW/XTQCL7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/119562"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Mathematical Sciences"
+    ],
+    "publications": [
+        {
+            "citation": "This dataset relates to my bachelors thesis (finished late 2024)."
+        }
+    ]
+}

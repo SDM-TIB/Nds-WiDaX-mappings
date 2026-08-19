@@ -1,0 +1,165 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/CMQY0Q",
+    "identifier": "https://doi.org/10.25625/CMQY0Q",
+    "name": "Data for: \"PriMAT: Robust multi-animal tracking for primates in the wild\"",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Richard",
+            "familyName": "Vogg",
+            "sameAs": "https://orcid.org/0000-0001-9079-2715",
+            "@id": "https://orcid.org/0000-0001-9079-2715",
+            "identifier": "https://orcid.org/0000-0001-9079-2715",
+            "name": "Vogg, Richard"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Richard",
+            "familyName": "Vogg",
+            "sameAs": "https://orcid.org/0000-0001-9079-2715",
+            "@id": "https://orcid.org/0000-0001-9079-2715",
+            "identifier": "https://orcid.org/0000-0001-9079-2715",
+            "name": "Vogg, Richard"
+        }
+    ],
+    "datePublished": "2025-09-02",
+    "dateModified": "2025-09-02",
+    "version": "1",
+    "description": "Training images for tracking lemurs and macaques (500 each) with their respective labels, training images for identifying lemurs with labels. Validation and test video sequences for tracking lemurs and macaques (24 sequences x 12s for each species). Video output of our model and a DeepLabCut model on the validation sequences of the lemurs. Video output of our model for the macaques. Model weights for tracking and identification models.",
+    "keywords": [
+        "Computer and Information Science"
+    ],
+    "license": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "Deutsche Forschungsgemeinschaft DFG"
+        }
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "lemur_images_train.tar",
+            "encodingFormat": "application/x-tar",
+            "contentSize": 607926272,
+            "description": "500 images with annotated lemurs and feeding boxes",
+            "@id": "https://doi.org/10.25625/CMQY0Q/7XZLY3",
+            "identifier": "https://doi.org/10.25625/CMQY0Q/7XZLY3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123651"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "lemur_images_train_IndividualID.tar",
+            "encodingFormat": "application/x-tar",
+            "contentSize": 854951424,
+            "description": "782 images to train to classify individual lemurs",
+            "@id": "https://doi.org/10.25625/CMQY0Q/FUIXOU",
+            "identifier": "https://doi.org/10.25625/CMQY0Q/FUIXOU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123646"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "lemur_output_val_DLC.tar",
+            "encodingFormat": "application/x-tar",
+            "contentSize": 429039616,
+            "description": "12 validation videos with predicted keypoints by DeepLabCut",
+            "@id": "https://doi.org/10.25625/CMQY0Q/AAKBAT",
+            "identifier": "https://doi.org/10.25625/CMQY0Q/AAKBAT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123648"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "lemur_output_val_PriMAT.tar",
+            "encodingFormat": "application/x-tar",
+            "contentSize": 89462271,
+            "description": "lemur validation videos with PriMAT bounding box predictions",
+            "@id": "https://doi.org/10.25625/CMQY0Q/XDRHMO",
+            "identifier": "https://doi.org/10.25625/CMQY0Q/XDRHMO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123644"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "lemur_videos_eval.tar",
+            "encodingFormat": "application/x-tar",
+            "contentSize": 872203264,
+            "description": "12 validation videos of length 12 seconds of redfronted lemurs with labels.",
+            "@id": "https://doi.org/10.25625/CMQY0Q/T9VT0T",
+            "identifier": "https://doi.org/10.25625/CMQY0Q/T9VT0T",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/127605"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "lemur_videos_test.tar",
+            "encodingFormat": "application/x-tar",
+            "contentSize": 880793088,
+            "description": "12 test videos of length 12 seconds of redfronted lemurs with labels.",
+            "@id": "https://doi.org/10.25625/CMQY0Q/YUHMDG",
+            "identifier": "https://doi.org/10.25625/CMQY0Q/YUHMDG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/127608"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "macaque_images_train.tar",
+            "encodingFormat": "application/x-tar",
+            "contentSize": 3591344128,
+            "description": "500 images for training (actually 500 images pairs within a few frames of difference). In PriMAT we only used the first image of each pair.",
+            "@id": "https://doi.org/10.25625/CMQY0Q/ZH2YKH",
+            "identifier": "https://doi.org/10.25625/CMQY0Q/ZH2YKH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123647"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "macaque_videos_eval.tar",
+            "encodingFormat": "application/x-tar",
+            "contentSize": 407065600,
+            "description": "12 validation sequences for tracking macaques in the wild",
+            "@id": "https://doi.org/10.25625/CMQY0Q/TLNYDP",
+            "identifier": "https://doi.org/10.25625/CMQY0Q/TLNYDP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128223"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "macaque_videos_test.tar",
+            "encodingFormat": "application/x-tar",
+            "contentSize": 413776896,
+            "description": "12 test sequences for tracking macaques in the wild",
+            "@id": "https://doi.org/10.25625/CMQY0Q/DAMKL8",
+            "identifier": "https://doi.org/10.25625/CMQY0Q/DAMKL8",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128222"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Models.tar",
+            "encodingFormat": "application/x-tar",
+            "contentSize": 1497922048,
+            "description": "Models for tracking and individual ID",
+            "@id": "https://doi.org/10.25625/CMQY0Q/RJ2SMG",
+            "identifier": "https://doi.org/10.25625/CMQY0Q/RJ2SMG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123649"
+        }
+    ],
+    "license_title": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+    "subjects": [
+        "Computer and Information Science"
+    ],
+    "publications": [
+        {}
+    ]
+}

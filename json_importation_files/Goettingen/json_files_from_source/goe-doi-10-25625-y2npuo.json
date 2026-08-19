@@ -1,0 +1,293 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/Y2NPUO",
+    "identifier": "https://doi.org/10.25625/Y2NPUO",
+    "name": "Mobile Laser Scanning Point Clouds",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Dominik",
+            "familyName": "Seidel",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department for Spatial Structures and Digitization of Forests"
+            },
+            "sameAs": "https://orcid.org/0000-0003-4131-9424",
+            "@id": "https://orcid.org/0000-0003-4131-9424",
+            "identifier": "https://orcid.org/0000-0003-4131-9424",
+            "name": "Seidel, Dominik"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Dominik",
+            "familyName": "Seidel",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department for Spatial Structures and Digitization of Forests"
+            },
+            "sameAs": "https://orcid.org/0000-0003-4131-9424",
+            "@id": "https://orcid.org/0000-0003-4131-9424",
+            "identifier": "https://orcid.org/0000-0003-4131-9424",
+            "name": "Seidel, Dominik"
+        }
+    ],
+    "datePublished": "2026-05-22",
+    "dateModified": "2026-05-22",
+    "version": "1",
+    "description": "FoResLab SP:5 Status: FINAL Type: Processed data (outlier removal filter applied) Expected completion: Expected update interval: (maybe once more) Short description: Summer scans -Leaf-on- of all 25 forest lab sites- Point cloud data. Using a mobile laser scanner Geoslam Horizon by Geoslam Ltd., Nottingham, UK. We scanned each plot, starting in the center of the plot and consecutively walking in circles of increasing radius around the center until the whole area was scanned. The area was then clipped to match with the drone coverage of the sites, filtered -standard filters for outliers Final metric table of box-dimension, canopy cover, effective number of layers, foliage height diversity and vertical evenness are available as extra dataset but rely on this data after terrain normalization and spatial subsampling to 1cm.",
+    "keywords": [
+        "Earth and Environmental Sciences",
+        "Mobile laser scanning"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "g1_clipped.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 2303078256,
+            "@id": "https://doi.org/10.25625/Y2NPUO/SQRQ3T",
+            "identifier": "https://doi.org/10.25625/Y2NPUO/SQRQ3T",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/171624"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "g2_clipped.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 2660194344,
+            "@id": "https://doi.org/10.25625/Y2NPUO/RLXESX",
+            "identifier": "https://doi.org/10.25625/Y2NPUO/RLXESX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/171625"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "g3_clipped.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 3949632864,
+            "@id": "https://doi.org/10.25625/Y2NPUO/LSIH67",
+            "identifier": "https://doi.org/10.25625/Y2NPUO/LSIH67",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/171627"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "g4_clipped.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 2039066088,
+            "@id": "https://doi.org/10.25625/Y2NPUO/CHHXWP",
+            "identifier": "https://doi.org/10.25625/Y2NPUO/CHHXWP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/171626"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "g5_clipped.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1559531859,
+            "@id": "https://doi.org/10.25625/Y2NPUO/4ZERX9",
+            "identifier": "https://doi.org/10.25625/Y2NPUO/4ZERX9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/171648"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "h1_clipped.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 2046144744,
+            "@id": "https://doi.org/10.25625/Y2NPUO/OR2ECB",
+            "identifier": "https://doi.org/10.25625/Y2NPUO/OR2ECB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/171654"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "h2_clipped.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 2506088928,
+            "@id": "https://doi.org/10.25625/Y2NPUO/LENRB6",
+            "identifier": "https://doi.org/10.25625/Y2NPUO/LENRB6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/171651"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "h3_clipped.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1960615128,
+            "@id": "https://doi.org/10.25625/Y2NPUO/J56A1T",
+            "identifier": "https://doi.org/10.25625/Y2NPUO/J56A1T",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/171652"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "h4_clipped.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1946025432,
+            "@id": "https://doi.org/10.25625/Y2NPUO/6UK9VU",
+            "identifier": "https://doi.org/10.25625/Y2NPUO/6UK9VU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/171655"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "h5_clipped.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1980124512,
+            "@id": "https://doi.org/10.25625/Y2NPUO/WGJ0TJ",
+            "identifier": "https://doi.org/10.25625/Y2NPUO/WGJ0TJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/171653"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "L1_clipped.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 2993608320,
+            "@id": "https://doi.org/10.25625/Y2NPUO/J9PE5V",
+            "identifier": "https://doi.org/10.25625/Y2NPUO/J9PE5V",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/171656"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "L2_clipped.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 2179874558,
+            "@id": "https://doi.org/10.25625/Y2NPUO/HIMKQG",
+            "identifier": "https://doi.org/10.25625/Y2NPUO/HIMKQG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/171659"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "L3_clipped.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1745368560,
+            "@id": "https://doi.org/10.25625/Y2NPUO/RSGA6F",
+            "identifier": "https://doi.org/10.25625/Y2NPUO/RSGA6F",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/171657"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "L4_clipped.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 4342539240,
+            "@id": "https://doi.org/10.25625/Y2NPUO/8ZOBC5",
+            "identifier": "https://doi.org/10.25625/Y2NPUO/8ZOBC5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/171660"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "L5_clipped.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1897124592,
+            "@id": "https://doi.org/10.25625/Y2NPUO/ZHWGTO",
+            "identifier": "https://doi.org/10.25625/Y2NPUO/ZHWGTO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/171658"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "S1_clipped.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1886748509,
+            "@id": "https://doi.org/10.25625/Y2NPUO/X0AWKQ",
+            "identifier": "https://doi.org/10.25625/Y2NPUO/X0AWKQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/171662"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "S2_clipped.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 2766985776,
+            "@id": "https://doi.org/10.25625/Y2NPUO/5PC1O9",
+            "identifier": "https://doi.org/10.25625/Y2NPUO/5PC1O9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/171663"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "S3_clipped.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1701376488,
+            "@id": "https://doi.org/10.25625/Y2NPUO/JTLUOF",
+            "identifier": "https://doi.org/10.25625/Y2NPUO/JTLUOF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/171664"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "S4_clipped.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1627891272,
+            "@id": "https://doi.org/10.25625/Y2NPUO/BWGU8J",
+            "identifier": "https://doi.org/10.25625/Y2NPUO/BWGU8J",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/171665"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "S5_clipped.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 2328091296,
+            "@id": "https://doi.org/10.25625/Y2NPUO/VPEBMP",
+            "identifier": "https://doi.org/10.25625/Y2NPUO/VPEBMP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/171661"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "U1_clipped.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 5097364008,
+            "@id": "https://doi.org/10.25625/Y2NPUO/EESVSC",
+            "identifier": "https://doi.org/10.25625/Y2NPUO/EESVSC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/171669"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "U2_clipped.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 5354405256,
+            "@id": "https://doi.org/10.25625/Y2NPUO/BTDPZE",
+            "identifier": "https://doi.org/10.25625/Y2NPUO/BTDPZE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/171666"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "U3_clipped.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 5664459612,
+            "@id": "https://doi.org/10.25625/Y2NPUO/L8J7XH",
+            "identifier": "https://doi.org/10.25625/Y2NPUO/L8J7XH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/171668"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "U4_clipped.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 6249260380,
+            "@id": "https://doi.org/10.25625/Y2NPUO/HLM2AN",
+            "identifier": "https://doi.org/10.25625/Y2NPUO/HLM2AN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/171667"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "U5_clipped.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 3815856360,
+            "@id": "https://doi.org/10.25625/Y2NPUO/XFRHID",
+            "identifier": "https://doi.org/10.25625/Y2NPUO/XFRHID",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/171670"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Earth and Environmental Sciences"
+    ],
+    "publications": [
+        {}
+    ]
+}

@@ -1,0 +1,135 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/NQJGNO",
+    "identifier": "https://doi.org/10.25625/NQJGNO",
+    "name": "Replication Data for: Landscape diversity increases aphid predation but not predator abundance in wheat fields",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Marco",
+            "familyName": "Ferrante",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Agroecology & Functional Agrobiodiversity"
+            },
+            "name": "Ferrante, Marco"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Marco",
+            "familyName": "Ferrante",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Agroecology & Functional Agrobiodiversity"
+            },
+            "name": "Ferrante, Marco"
+        }
+    ],
+    "datePublished": "2026-07-29",
+    "dateModified": "2026-07-29",
+    "version": "1",
+    "description": "Data sets and R scripts used for the statistical analysis of the article: Zembold, K. et al. (in revision in Agriculture, Ecosystems and Environment): \u201cLandscape diversity increases aphid predation but not predator abundance in wheat fields\u201d.",
+    "keywords": [
+        "Agricultural Sciences",
+        "Natural pest control",
+        "Flower Area",
+        "Agrobiodiversity",
+        "Landscape composition",
+        "Ecological intensification",
+        "Agri-environmental scheme",
+        "Carabidae"
+    ],
+    "license": "http://creativecommons.org/licenses/by-nc/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "AphidCard-Data.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 35772,
+            "description": "Predation rates measured using aphid cards",
+            "@id": "https://doi.org/10.25625/NQJGNO/ARAJCG",
+            "identifier": "https://doi.org/10.25625/NQJGNO/ARAJCG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/188233"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "PitfallTrap-Carabids-Data.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 12450,
+            "description": "Carabid abundance data.",
+            "@id": "https://doi.org/10.25625/NQJGNO/KDPDZO",
+            "identifier": "https://doi.org/10.25625/NQJGNO/KDPDZO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/188232"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "PitfallTrap-Spiders-Data.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 10956,
+            "description": "Spider abundance data.",
+            "@id": "https://doi.org/10.25625/NQJGNO/3KEHFS",
+            "identifier": "https://doi.org/10.25625/NQJGNO/3KEHFS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/188234"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Visual-Data.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 16182,
+            "description": "Natural enemy and aphid abundance data.",
+            "@id": "https://doi.org/10.25625/NQJGNO/0KPYRF",
+            "identifier": "https://doi.org/10.25625/NQJGNO/0KPYRF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/188236"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Zembold-et-al_2025_Aphid-Card-Analysis.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 9887,
+            "description": "R scripts used for the analyses of the predation rates measured using aphid cards in Zembold et al. in revision, Agriculture, Ecosystems and Environment (AGEE). ",
+            "@id": "https://doi.org/10.25625/NQJGNO/RWWXCV",
+            "identifier": "https://doi.org/10.25625/NQJGNO/RWWXCV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/188238"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Zembold-et-al_2025_Pitfall-Trap-Analysis.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 20485,
+            "description": "R scripts used for the analyses of the carabid and spider abundance recorded using pitfall traps in Zembold et al. in revision, Agriculture, Ecosystems and Environment (AGEE). ",
+            "@id": "https://doi.org/10.25625/NQJGNO/MEE2SO",
+            "identifier": "https://doi.org/10.25625/NQJGNO/MEE2SO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/188235"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Zembold-et-al_2025_Visual-Analysis.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 10577,
+            "description": "R scripts used for the analyses of the natural enemy and aphid abundance recorded using visual sampling in Zembold et al. in revision, Agriculture, Ecosystems and Environment (AGEE). ",
+            "@id": "https://doi.org/10.25625/NQJGNO/BOAX3N",
+            "identifier": "https://doi.org/10.25625/NQJGNO/BOAX3N",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/188237"
+        }
+    ],
+    "license_title": "Creative Commons Attribution-NonCommercial 4.0 International",
+    "subjects": [
+        "Agricultural Sciences"
+    ]
+}

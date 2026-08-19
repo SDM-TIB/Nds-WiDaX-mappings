@@ -1,0 +1,1478 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/Z5TK24",
+    "identifier": "https://doi.org/10.25625/Z5TK24",
+    "name": "Replication Data for: Verification of ultrafast spin transfer effects in FeNi alloys",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Christina",
+            "familyName": "M\u00f6ller",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-6612-9160",
+            "@id": "https://orcid.org/0000-0002-6612-9160",
+            "identifier": "https://orcid.org/0000-0002-6612-9160",
+            "name": "Christina M\u00f6ller"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Henrike",
+            "familyName": "Probst",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-5666-5066",
+            "@id": "https://orcid.org/0000-0002-5666-5066",
+            "identifier": "https://orcid.org/0000-0002-5666-5066",
+            "name": "Henrike Probst"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Gijsbert Simon Matthijs",
+            "familyName": "Jansen",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0003-4753-3173",
+            "@id": "https://orcid.org/0000-0003-4753-3173",
+            "identifier": "https://orcid.org/0000-0003-4753-3173",
+            "name": "Gijsbert Simon Matthijs Jansen"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Maren",
+            "familyName": "Schumacher",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "name": "Maren Schumacher"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Mariana",
+            "familyName": "Brede",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "name": "Mariana Brede"
+        },
+        {
+            "@type": "Person",
+            "givenName": "John Kay",
+            "familyName": "Dewhurst",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Max Born Institute, Berlin"
+            },
+            "sameAs": "https://orcid.org/0000-0002-7218-078X",
+            "@id": "https://orcid.org/0000-0002-7218-078X",
+            "identifier": "https://orcid.org/0000-0002-7218-078X",
+            "name": "John Kay Dewhurst"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Marcel",
+            "familyName": "Reutzel",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "name": "Marcel Reutzel"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Daniel",
+            "familyName": "Steil",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0001-7448-1167",
+            "@id": "https://orcid.org/0000-0001-7448-1167",
+            "identifier": "https://orcid.org/0000-0001-7448-1167",
+            "name": "Daniel Steil"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Sangeeta",
+            "familyName": "Sharma",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Max Born Institute, Berlin"
+            },
+            "sameAs": "https://orcid.org/0000-0001-6914-1272",
+            "@id": "https://orcid.org/0000-0001-6914-1272",
+            "identifier": "https://orcid.org/0000-0001-6914-1272",
+            "name": "Sangeeta Sharma"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Stefan",
+            "familyName": "Mathias",
+            "name": "Stefan Mathias"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Christina",
+            "familyName": "M\u00f6ller",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-6612-9160",
+            "@id": "https://orcid.org/0000-0002-6612-9160",
+            "identifier": "https://orcid.org/0000-0002-6612-9160",
+            "name": "Christina M\u00f6ller"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Henrike",
+            "familyName": "Probst",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-5666-5066",
+            "@id": "https://orcid.org/0000-0002-5666-5066",
+            "identifier": "https://orcid.org/0000-0002-5666-5066",
+            "name": "Henrike Probst"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Gijsbert Simon Matthijs",
+            "familyName": "Jansen",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0003-4753-3173",
+            "@id": "https://orcid.org/0000-0003-4753-3173",
+            "identifier": "https://orcid.org/0000-0003-4753-3173",
+            "name": "Gijsbert Simon Matthijs Jansen"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Maren",
+            "familyName": "Schumacher",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "name": "Maren Schumacher"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Mariana",
+            "familyName": "Brede",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "name": "Mariana Brede"
+        },
+        {
+            "@type": "Person",
+            "givenName": "John Kay",
+            "familyName": "Dewhurst",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Max Born Institute, Berlin"
+            },
+            "sameAs": "https://orcid.org/0000-0002-7218-078X",
+            "@id": "https://orcid.org/0000-0002-7218-078X",
+            "identifier": "https://orcid.org/0000-0002-7218-078X",
+            "name": "John Kay Dewhurst"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Marcel",
+            "familyName": "Reutzel",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "name": "Marcel Reutzel"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Daniel",
+            "familyName": "Steil",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0001-7448-1167",
+            "@id": "https://orcid.org/0000-0001-7448-1167",
+            "identifier": "https://orcid.org/0000-0001-7448-1167",
+            "name": "Daniel Steil"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Sangeeta",
+            "familyName": "Sharma",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Max Born Institute, Berlin"
+            },
+            "sameAs": "https://orcid.org/0000-0001-6914-1272",
+            "@id": "https://orcid.org/0000-0001-6914-1272",
+            "identifier": "https://orcid.org/0000-0001-6914-1272",
+            "name": "Sangeeta Sharma"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Stefan",
+            "familyName": "Mathias",
+            "name": "Stefan Mathias"
+        }
+    ],
+    "datePublished": "2024-01-12",
+    "dateModified": "2024-01-12",
+    "version": "1",
+    "description": "Data and code for the publication M\u00f6ller et al, Verification of ultrafast spin transfer effects in FeNi alloys, arXiv preprint arXiv:2306.02793 (2023)",
+    "keywords": [
+        "Physics"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "Christina M\u00f6ller, Henrike Probst, G. S. Matthijs Jansen, Maren Schumacher, Mariana Brede, John Kay Dewhurst, Marcel Reutzel, Daniel Steil, Sangeeta Sharma, Stefan Mathias, \"Verification of ultrafast spin transfer effects in FeNi alloys\", arXiv:2306.02793 [cond-mat.mtrl-sci] (2023)",
+            "@id": "https://arxiv.org/abs/2306.02793",
+            "identifier": "https://arxiv.org/abs/2306.02793",
+            "url": "https://arxiv.org/abs/2306.02793"
+        }
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Plot_fit_results.ipynb",
+            "encodingFormat": "application/x-ipynb+json",
+            "contentSize": 179174,
+            "@id": "https://doi.org/10.25625/Z5TK24/EGVS35",
+            "identifier": "https://doi.org/10.25625/Z5TK24/EGVS35",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70153"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "README.md",
+            "encodingFormat": "text/markdown",
+            "contentSize": 2405,
+            "@id": "https://doi.org/10.25625/Z5TK24/U6JKSN",
+            "identifier": "https://doi.org/10.25625/Z5TK24/U6JKSN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70147"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "static_TMOKE_Fe19Ni81.ipynb",
+            "encodingFormat": "application/x-ipynb+json",
+            "contentSize": 31184,
+            "@id": "https://doi.org/10.25625/Z5TK24/ZKI3O3",
+            "identifier": "https://doi.org/10.25625/Z5TK24/ZKI3O3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70148"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "tr_TMOKE_Fe19Ni81.ipynb",
+            "encodingFormat": "application/x-ipynb+json",
+            "contentSize": 64193,
+            "@id": "https://doi.org/10.25625/Z5TK24/HP8UXO",
+            "identifier": "https://doi.org/10.25625/Z5TK24/HP8UXO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70149"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "tr_TMOKE_Fe50Ni50.ipynb",
+            "encodingFormat": "application/x-ipynb+json",
+            "contentSize": 79863,
+            "@id": "https://doi.org/10.25625/Z5TK24/ZARUH2",
+            "identifier": "https://doi.org/10.25625/Z5TK24/ZARUH2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70150"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "angles_static_py.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 191,
+            "@id": "https://doi.org/10.25625/Z5TK24/TOBRZU",
+            "identifier": "https://doi.org/10.25625/Z5TK24/TOBRZU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70045"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Cap_substrate_Fe19Ni81_2022_07_18_M14_M09_540mW_I1I2_10_iter_savg7_middle_angle43.8_range_1.7_beta_t.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 26639,
+            "@id": "https://doi.org/10.25625/Z5TK24/9YZ6IL",
+            "identifier": "https://doi.org/10.25625/Z5TK24/9YZ6IL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70064"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Cap_substrate_Fe19Ni81_2022_07_18_M14_M09_540mW_I1I2_10_iter_savg7_middle_angle43.8_range_1.7_delta_t.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 27085,
+            "@id": "https://doi.org/10.25625/Z5TK24/H8IGUD",
+            "identifier": "https://doi.org/10.25625/Z5TK24/H8IGUD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70009"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Cap_substrate_Fe19Ni81_2022_07_18_M14_M09_540mW_I1I2_10_iter_savg7_middle_angle43.8_range_1.7_error_beta_t.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 30153,
+            "@id": "https://doi.org/10.25625/Z5TK24/9CTHUI",
+            "identifier": "https://doi.org/10.25625/Z5TK24/9CTHUI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70094"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Cap_substrate_Fe19Ni81_2022_07_18_M14_M09_540mW_I1I2_10_iter_savg7_middle_angle43.8_range_1.7_exy_s_all_angles_imag.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 487,
+            "@id": "https://doi.org/10.25625/Z5TK24/JJKDIG",
+            "identifier": "https://doi.org/10.25625/Z5TK24/JJKDIG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70139"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Cap_substrate_Fe19Ni81_2022_07_18_M14_M09_540mW_I1I2_10_iter_savg7_middle_angle43.8_range_1.7_exy_s_all_angles_imag_error.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 176,
+            "@id": "https://doi.org/10.25625/Z5TK24/QLPA6N",
+            "identifier": "https://doi.org/10.25625/Z5TK24/QLPA6N",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70023"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Cap_substrate_Fe19Ni81_2022_07_18_M14_M09_540mW_I1I2_10_iter_savg7_middle_angle43.8_range_1.7_exy_s_all_angles_real.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 488,
+            "@id": "https://doi.org/10.25625/Z5TK24/LFKTG1",
+            "identifier": "https://doi.org/10.25625/Z5TK24/LFKTG1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70078"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Cap_substrate_Fe19Ni81_2022_07_18_M14_M09_540mW_I1I2_10_iter_savg7_middle_angle43.8_range_1.7_exy_s_all_angles_real_error.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 979,
+            "@id": "https://doi.org/10.25625/Z5TK24/AFDLNX",
+            "identifier": "https://doi.org/10.25625/Z5TK24/AFDLNX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70110"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Cap_substrate_Fe19Ni81_2022_07_18_M14_M09_540mW_I1I2_10_iter_savg7_middle_angle43.8_range_1.7_imag.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 29776,
+            "@id": "https://doi.org/10.25625/Z5TK24/NLLODG",
+            "identifier": "https://doi.org/10.25625/Z5TK24/NLLODG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70037"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Cap_substrate_Fe19Ni81_2022_07_18_M14_M09_540mW_I1I2_10_iter_savg7_middle_angle43.8_range_1.7_imag_error.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 29865,
+            "@id": "https://doi.org/10.25625/Z5TK24/XUXALB",
+            "identifier": "https://doi.org/10.25625/Z5TK24/XUXALB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70093"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Cap_substrate_Fe19Ni81_2022_07_18_M14_M09_540mW_I1I2_10_iter_savg7_middle_angle43.8_range_1.7_real.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 30370,
+            "@id": "https://doi.org/10.25625/Z5TK24/AJT0JJ",
+            "identifier": "https://doi.org/10.25625/Z5TK24/AJT0JJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70057"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Cap_substrate_Fe19Ni81_2022_07_18_M14_M09_540mW_I1I2_10_iter_savg7_middle_angle43.8_range_1.7_real_error.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 30107,
+            "@id": "https://doi.org/10.25625/Z5TK24/WWNYU6",
+            "identifier": "https://doi.org/10.25625/Z5TK24/WWNYU6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70117"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Cap_substrate_Fe50Ni50_2022_06_06_M18_M08_I1I2_10_iter_savg5_middle_angle43.8_range_2.7_beta_t.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 26593,
+            "@id": "https://doi.org/10.25625/Z5TK24/SHYYOT",
+            "identifier": "https://doi.org/10.25625/Z5TK24/SHYYOT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70091"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Cap_substrate_Fe50Ni50_2022_06_06_M18_M08_I1I2_10_iter_savg5_middle_angle43.8_range_2.7_delta_t.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 27104,
+            "@id": "https://doi.org/10.25625/Z5TK24/GHJKSI",
+            "identifier": "https://doi.org/10.25625/Z5TK24/GHJKSI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70103"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Cap_substrate_Fe50Ni50_2022_06_06_M18_M08_I1I2_10_iter_savg5_middle_angle43.8_range_2.7_error_beta_t.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 30032,
+            "@id": "https://doi.org/10.25625/Z5TK24/VFOVSC",
+            "identifier": "https://doi.org/10.25625/Z5TK24/VFOVSC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70115"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Cap_substrate_Fe50Ni50_2022_06_06_M18_M08_I1I2_10_iter_savg5_middle_angle43.8_range_2.7_exy_static_i.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 486,
+            "@id": "https://doi.org/10.25625/Z5TK24/UDMDZC",
+            "identifier": "https://doi.org/10.25625/Z5TK24/UDMDZC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70138"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Cap_substrate_Fe50Ni50_2022_06_06_M18_M08_I1I2_10_iter_savg5_middle_angle43.8_range_2.7_exy_static_i_err.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 501,
+            "@id": "https://doi.org/10.25625/Z5TK24/0GCN7P",
+            "identifier": "https://doi.org/10.25625/Z5TK24/0GCN7P",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70051"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Cap_substrate_Fe50Ni50_2022_06_06_M18_M08_I1I2_10_iter_savg5_middle_angle43.8_range_2.7_exy_static_r.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 498,
+            "@id": "https://doi.org/10.25625/Z5TK24/80AUEP",
+            "identifier": "https://doi.org/10.25625/Z5TK24/80AUEP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70077"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Cap_substrate_Fe50Ni50_2022_06_06_M18_M08_I1I2_10_iter_savg5_middle_angle43.8_range_2.7_exy_static_r_err.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 491,
+            "@id": "https://doi.org/10.25625/Z5TK24/X1B6SG",
+            "identifier": "https://doi.org/10.25625/Z5TK24/X1B6SG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70065"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Cap_substrate_Fe50Ni50_2022_06_06_M18_M08_I1I2_10_iter_savg5_middle_angle43.8_range_2.7_imag.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 29745,
+            "@id": "https://doi.org/10.25625/Z5TK24/B44TRB",
+            "identifier": "https://doi.org/10.25625/Z5TK24/B44TRB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70100"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Cap_substrate_Fe50Ni50_2022_06_06_M18_M08_I1I2_10_iter_savg5_middle_angle43.8_range_2.7_imag_error.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 30089,
+            "@id": "https://doi.org/10.25625/Z5TK24/4PNZCW",
+            "identifier": "https://doi.org/10.25625/Z5TK24/4PNZCW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70116"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Cap_substrate_Fe50Ni50_2022_06_06_M18_M08_I1I2_10_iter_savg5_middle_angle43.8_range_2.7_real.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 30129,
+            "@id": "https://doi.org/10.25625/Z5TK24/7MADT0",
+            "identifier": "https://doi.org/10.25625/Z5TK24/7MADT0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70012"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Cap_substrate_Fe50Ni50_2022_06_06_M18_M08_I1I2_10_iter_savg5_middle_angle43.8_range_2.7_real_error.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 30035,
+            "@id": "https://doi.org/10.25625/Z5TK24/J9QB4O",
+            "identifier": "https://doi.org/10.25625/Z5TK24/J9QB4O",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70047"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ni_2022_07_21_M02_M47_600mW_I1I2_normed_to_Sum_KK_45.9_to_43.95_beta_t.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 30994,
+            "@id": "https://doi.org/10.25625/Z5TK24/YUFD5R",
+            "identifier": "https://doi.org/10.25625/Z5TK24/YUFD5R",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70011"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ni_2022_07_21_M02_M47_600mW_I1I2_normed_to_Sum_KK_45.9_to_43.95_delta_t.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 31607,
+            "@id": "https://doi.org/10.25625/Z5TK24/KLEHA6",
+            "identifier": "https://doi.org/10.25625/Z5TK24/KLEHA6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70017"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ni_2022_07_21_M02_M47_600mW_I1I2_normed_to_Sum_KK_45.9_to_43.95_error_beta_t.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 35060,
+            "@id": "https://doi.org/10.25625/Z5TK24/K1WC9N",
+            "identifier": "https://doi.org/10.25625/Z5TK24/K1WC9N",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70123"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ni_2022_07_21_M02_M47_600mW_I1I2_normed_to_Sum_KK_45.9_to_43.95_error_imag_t.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 35074,
+            "@id": "https://doi.org/10.25625/Z5TK24/O791RI",
+            "identifier": "https://doi.org/10.25625/Z5TK24/O791RI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70131"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ni_2022_07_21_M02_M47_600mW_I1I2_normed_to_Sum_KK_45.9_to_43.95_error_real_t.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 34985,
+            "@id": "https://doi.org/10.25625/Z5TK24/PGYONV",
+            "identifier": "https://doi.org/10.25625/Z5TK24/PGYONV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70028"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ni_2022_07_21_M02_M47_600mW_I1I2_normed_to_Sum_KK_45.9_to_43.95_imag.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 34780,
+            "@id": "https://doi.org/10.25625/Z5TK24/07RTO2",
+            "identifier": "https://doi.org/10.25625/Z5TK24/07RTO2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70019"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ni_2022_07_21_M02_M47_600mW_I1I2_normed_to_Sum_KK_45.9_to_43.95_real.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 35190,
+            "@id": "https://doi.org/10.25625/Z5TK24/N8BLWN",
+            "identifier": "https://doi.org/10.25625/Z5TK24/N8BLWN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70088"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe19Ni81_2022_07_20_different_angles_asym.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 628448,
+            "@id": "https://doi.org/10.25625/Z5TK24/YS5W74",
+            "identifier": "https://doi.org/10.25625/Z5TK24/YS5W74",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70018"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe19Ni81_2022_07_20_different_angles_energies.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 373092,
+            "@id": "https://doi.org/10.25625/Z5TK24/6VWRPY",
+            "identifier": "https://doi.org/10.25625/Z5TK24/6VWRPY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70048"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe50Ni50_2022_06_06_M18_p_pol_500mW_at_sample_64eV_at_other_side_as66eV_asym.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 2552481,
+            "@id": "https://doi.org/10.25625/Z5TK24/9CWVI5",
+            "identifier": "https://doi.org/10.25625/Z5TK24/9CWVI5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70063"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe50Ni50_2022_06_06_M18_p_pol_500mW_at_sample_64eV_at_other_side_as66eV_energy.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 31420,
+            "@id": "https://doi.org/10.25625/Z5TK24/LUH7SH",
+            "identifier": "https://doi.org/10.25625/Z5TK24/LUH7SH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70135"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe50Ni50_2022_06_06_M18_p_pol_500mW_at_sample_64eV_at_other_side_as66eV_I1I2_time.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 343,
+            "@id": "https://doi.org/10.25625/Z5TK24/4YCY6N",
+            "identifier": "https://doi.org/10.25625/Z5TK24/4YCY6N",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70020"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe50Ni50_2022_06_06_M18_p_pol_500mW_at_sample_64eV_at_other_side_as66eV_time.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 343,
+            "@id": "https://doi.org/10.25625/Z5TK24/8UPEG0",
+            "identifier": "https://doi.org/10.25625/Z5TK24/8UPEG0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70121"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe50Ni50_2022_06_06_M18_p_pol_500mW_at_sample_64eV_other_asymmetry_curves.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 23687,
+            "@id": "https://doi.org/10.25625/Z5TK24/HNQZW1",
+            "identifier": "https://doi.org/10.25625/Z5TK24/HNQZW1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70098"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe50Ni50_2022_06_06_M18_p_pol_500mW_at_sample_64eV_other_I1_alle_Energien.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 2264938,
+            "@id": "https://doi.org/10.25625/Z5TK24/EY6WD9",
+            "identifier": "https://doi.org/10.25625/Z5TK24/EY6WD9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70087"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe50Ni50_2022_06_06_M18_p_pol_500mW_at_sample_64eV_other_I1_normed_to_sum.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 23783,
+            "@id": "https://doi.org/10.25625/Z5TK24/S1CA8Q",
+            "identifier": "https://doi.org/10.25625/Z5TK24/S1CA8Q",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70014"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe50Ni50_2022_06_06_M18_p_pol_500mW_at_sample_64eV_other_I1_normed_to_sum_e.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 26369,
+            "@id": "https://doi.org/10.25625/Z5TK24/P5E0MB",
+            "identifier": "https://doi.org/10.25625/Z5TK24/P5E0MB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70119"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe50Ni50_2022_06_06_M18_p_pol_500mW_at_sample_64eV_other_I2_alle_Energien.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 2264144,
+            "@id": "https://doi.org/10.25625/Z5TK24/HW4V9E",
+            "identifier": "https://doi.org/10.25625/Z5TK24/HW4V9E",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70059"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe50Ni50_2022_06_06_M18_p_pol_500mW_at_sample_64eV_other_I2_normed_to_sum.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 23729,
+            "@id": "https://doi.org/10.25625/Z5TK24/5LH2A4",
+            "identifier": "https://doi.org/10.25625/Z5TK24/5LH2A4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70034"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe50Ni50_2022_06_06_M18_p_pol_500mW_at_sample_64eV_other_I2_normed_to_sum_e.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 26268,
+            "@id": "https://doi.org/10.25625/Z5TK24/BSH5KM",
+            "identifier": "https://doi.org/10.25625/Z5TK24/BSH5KM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70122"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe50Ni50_2022_06_07_M8_p_pol_500mW_at_sample_64eV_at_samw_side_as66eV_asym.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 2565825,
+            "@id": "https://doi.org/10.25625/Z5TK24/JQREBB",
+            "identifier": "https://doi.org/10.25625/Z5TK24/JQREBB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70061"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe50Ni50_2022_06_07_M8_p_pol_500mW_at_sample_64eV_at_samw_side_as66eV_energy.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 40974,
+            "@id": "https://doi.org/10.25625/Z5TK24/JCGXP0",
+            "identifier": "https://doi.org/10.25625/Z5TK24/JCGXP0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70096"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe50Ni50_2022_06_07_M8_p_pol_500mW_at_sample_64eV_at_samw_side_as66eV_I1I2_time.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 365,
+            "@id": "https://doi.org/10.25625/Z5TK24/IDPI7J",
+            "identifier": "https://doi.org/10.25625/Z5TK24/IDPI7J",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70101"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe50Ni50_2022_06_07_M8_p_pol_500mW_at_sample_64eV_at_samw_side_as66eV_time.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 365,
+            "@id": "https://doi.org/10.25625/Z5TK24/DWLULI",
+            "identifier": "https://doi.org/10.25625/Z5TK24/DWLULI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70015"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe50Ni50_2022_06_07_M8_p_pol_500mW_at_sample_64eV_same_66eV_I1_alle_Energien.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 2297593,
+            "@id": "https://doi.org/10.25625/Z5TK24/GUYICO",
+            "identifier": "https://doi.org/10.25625/Z5TK24/GUYICO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70027"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe50Ni50_2022_06_07_M8_p_pol_500mW_at_sample_64eV_same_66eV_I2_alle_Energien.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 2296974,
+            "@id": "https://doi.org/10.25625/Z5TK24/QMTM0H",
+            "identifier": "https://doi.org/10.25625/Z5TK24/QMTM0H",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70030"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe50Ni50_2022_06_07_M8_p_pol_500mW_at_sample_64eV_same_asymmery_curves.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 24509,
+            "@id": "https://doi.org/10.25625/Z5TK24/OCS9S0",
+            "identifier": "https://doi.org/10.25625/Z5TK24/OCS9S0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70128"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe50Ni50_2022_06_07_M8_p_pol_500mW_at_sample_64eV_same_I1_normed_to_sum.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 24615,
+            "@id": "https://doi.org/10.25625/Z5TK24/JFK6IE",
+            "identifier": "https://doi.org/10.25625/Z5TK24/JFK6IE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70109"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe50Ni50_2022_06_07_M8_p_pol_500mW_at_sample_64eV_same_I1_normed_to_sum_e.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 27607,
+            "@id": "https://doi.org/10.25625/Z5TK24/BSDPSS",
+            "identifier": "https://doi.org/10.25625/Z5TK24/BSDPSS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70133"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe50Ni50_2022_06_07_M8_p_pol_500mW_at_sample_64eV_same_I2_normed_to_sum.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 24540,
+            "@id": "https://doi.org/10.25625/Z5TK24/VT3FPK",
+            "identifier": "https://doi.org/10.25625/Z5TK24/VT3FPK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70025"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe50Ni50_2022_06_07_M8_p_pol_500mW_at_sample_64eV_same_I2_normed_to_sum_e.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 27602,
+            "@id": "https://doi.org/10.25625/Z5TK24/W9FRAS",
+            "identifier": "https://doi.org/10.25625/Z5TK24/W9FRAS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70036"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "info.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 121,
+            "@id": "https://doi.org/10.25625/Z5TK24/HFULRS",
+            "identifier": "https://doi.org/10.25625/Z5TK24/HFULRS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70099"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ni_2022_07_23_M002_p_pol_600mW_at_sample_64eV_at_other_side_as66eV_asym.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 2974882,
+            "@id": "https://doi.org/10.25625/Z5TK24/YQKDZX",
+            "identifier": "https://doi.org/10.25625/Z5TK24/YQKDZX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70050"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ni_2022_07_23_M002_p_pol_600mW_at_sample_64eV_at_other_side_as66eV_asymmetry_curves.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 30646,
+            "@id": "https://doi.org/10.25625/Z5TK24/L2MHTK",
+            "identifier": "https://doi.org/10.25625/Z5TK24/L2MHTK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70102"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ni_2022_07_23_M002_p_pol_600mW_at_sample_64eV_at_other_side_as66eV_energy.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 39929,
+            "@id": "https://doi.org/10.25625/Z5TK24/HDZH4M",
+            "identifier": "https://doi.org/10.25625/Z5TK24/HDZH4M",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70130"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ni_2022_07_23_M002_p_pol_600mW_at_sample_64eV_at_other_side_as66eV_error.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 2881488,
+            "@id": "https://doi.org/10.25625/Z5TK24/1IWKWH",
+            "identifier": "https://doi.org/10.25625/Z5TK24/1IWKWH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70082"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ni_2022_07_23_M002_p_pol_600mW_at_sample_64eV_at_other_side_as66eV_I1I2_time.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 456,
+            "@id": "https://doi.org/10.25625/Z5TK24/UQ6DI5",
+            "identifier": "https://doi.org/10.25625/Z5TK24/UQ6DI5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70072"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ni_2022_07_23_M002_p_pol_600mW_at_sample_64eV_at_other_side_as66eV_I1_normed_to_sum.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 30732,
+            "@id": "https://doi.org/10.25625/Z5TK24/C09NHZ",
+            "identifier": "https://doi.org/10.25625/Z5TK24/C09NHZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70060"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ni_2022_07_23_M002_p_pol_600mW_at_sample_64eV_at_other_side_as66eV_I2_normed_to_sum.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 30757,
+            "@id": "https://doi.org/10.25625/Z5TK24/HKHNPR",
+            "identifier": "https://doi.org/10.25625/Z5TK24/HKHNPR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70073"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ni_2022_07_23_M002_p_pol_600mW_at_sample_64eV_at_other_side_as66eV_time.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 456,
+            "@id": "https://doi.org/10.25625/Z5TK24/CNC1CR",
+            "identifier": "https://doi.org/10.25625/Z5TK24/CNC1CR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70046"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ni_2022_07_22_M009_p_pol_600mW_at_sample_64eV_at_same_side_as66eV_asym.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 2970193,
+            "@id": "https://doi.org/10.25625/Z5TK24/BD9VRR",
+            "identifier": "https://doi.org/10.25625/Z5TK24/BD9VRR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70038"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ni_2022_07_22_M009_p_pol_600mW_at_sample_64eV_at_same_side_as66eV_asymmetry_curves.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 30638,
+            "@id": "https://doi.org/10.25625/Z5TK24/U0FTVX",
+            "identifier": "https://doi.org/10.25625/Z5TK24/U0FTVX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70085"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ni_2022_07_22_M009_p_pol_600mW_at_sample_64eV_at_same_side_as66eV_energy.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 39934,
+            "@id": "https://doi.org/10.25625/Z5TK24/OGRQPJ",
+            "identifier": "https://doi.org/10.25625/Z5TK24/OGRQPJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70089"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ni_2022_07_22_M009_p_pol_600mW_at_sample_64eV_at_same_side_as66eV_error.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 2880954,
+            "@id": "https://doi.org/10.25625/Z5TK24/UEI3DM",
+            "identifier": "https://doi.org/10.25625/Z5TK24/UEI3DM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70132"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ni_2022_07_22_M009_p_pol_600mW_at_sample_64eV_at_same_side_as66eV_I1I2_time.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 453,
+            "@id": "https://doi.org/10.25625/Z5TK24/JQMZI3",
+            "identifier": "https://doi.org/10.25625/Z5TK24/JQMZI3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70062"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ni_2022_07_22_M009_p_pol_600mW_at_sample_64eV_at_same_side_as66eV_I1_normed_to_sum.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 30720,
+            "@id": "https://doi.org/10.25625/Z5TK24/VQT0TR",
+            "identifier": "https://doi.org/10.25625/Z5TK24/VQT0TR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70066"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ni_2022_07_22_M009_p_pol_600mW_at_sample_64eV_at_same_side_as66eV_I2_normed_to_sum.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 30723,
+            "@id": "https://doi.org/10.25625/Z5TK24/3EHUMA",
+            "identifier": "https://doi.org/10.25625/Z5TK24/3EHUMA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70042"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ni_2022_07_22_M009_p_pol_600mW_at_sample_64eV_at_same_side_as66eV_time.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 453,
+            "@id": "https://doi.org/10.25625/Z5TK24/A62JQX",
+            "identifier": "https://doi.org/10.25625/Z5TK24/A62JQX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70097"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ni_2022_07_21_M047_p_pol_600mW_at_sample_64eV_at_same_side_as66eV_I1_normed_to_sum.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 36973,
+            "@id": "https://doi.org/10.25625/Z5TK24/H5A5SA",
+            "identifier": "https://doi.org/10.25625/Z5TK24/H5A5SA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70070"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ni_2022_07_21_M047_p_pol_600mW_at_sample_64eV_at_same_side_as66eV_I2_normed_to_sum.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 36985,
+            "@id": "https://doi.org/10.25625/Z5TK24/H2JUY6",
+            "identifier": "https://doi.org/10.25625/Z5TK24/H2JUY6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70069"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ni_2022_07_21_M047_p_pol_600mW_at_sample_64eV_big_at_same_side_as66eV_asym.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 3548653,
+            "@id": "https://doi.org/10.25625/Z5TK24/RSDUWU",
+            "identifier": "https://doi.org/10.25625/Z5TK24/RSDUWU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70008"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ni_2022_07_21_M047_p_pol_600mW_at_sample_64eV_big_at_same_side_as66eV_asymmetry_curves.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 36891,
+            "@id": "https://doi.org/10.25625/Z5TK24/EIALJ4",
+            "identifier": "https://doi.org/10.25625/Z5TK24/EIALJ4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70067"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ni_2022_07_21_M047_p_pol_600mW_at_sample_64eV_big_at_same_side_as66eV_energy.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 39905,
+            "@id": "https://doi.org/10.25625/Z5TK24/4F130B",
+            "identifier": "https://doi.org/10.25625/Z5TK24/4F130B",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70049"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ni_2022_07_21_M047_p_pol_600mW_at_sample_64eV_big_at_same_side_as66eV_error.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 3463264,
+            "@id": "https://doi.org/10.25625/Z5TK24/ZUGSWZ",
+            "identifier": "https://doi.org/10.25625/Z5TK24/ZUGSWZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70058"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ni_2022_07_21_M047_p_pol_600mW_at_sample_64eV_big_at_same_side_as66eV_I1I2_time.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 540,
+            "@id": "https://doi.org/10.25625/Z5TK24/BASDLC",
+            "identifier": "https://doi.org/10.25625/Z5TK24/BASDLC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70039"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ni_2022_07_21_M047_p_pol_600mW_at_sample_64eV_big_at_same_side_as66eV_time.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 540,
+            "@id": "https://doi.org/10.25625/Z5TK24/H0ZUI3",
+            "identifier": "https://doi.org/10.25625/Z5TK24/H0ZUI3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70140"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe19Ni81_2022_07_18_M14_p_pol_540mW_at_sample_64eV_at_same_side_as66eV_asym.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 2891552,
+            "@id": "https://doi.org/10.25625/Z5TK24/RS8GHI",
+            "identifier": "https://doi.org/10.25625/Z5TK24/RS8GHI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70032"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe19Ni81_2022_07_18_M14_p_pol_540mW_at_sample_64eV_at_same_side_as66eV_asymmetry_curves.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 26615,
+            "@id": "https://doi.org/10.25625/Z5TK24/FZIWK5",
+            "identifier": "https://doi.org/10.25625/Z5TK24/FZIWK5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70022"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe19Ni81_2022_07_18_M14_p_pol_540mW_at_sample_64eV_at_same_side_as66eV_energy.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 30646,
+            "@id": "https://doi.org/10.25625/Z5TK24/EVAKCE",
+            "identifier": "https://doi.org/10.25625/Z5TK24/EVAKCE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70026"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe19Ni81_2022_07_18_M14_p_pol_540mW_at_sample_64eV_at_same_side_as66eV_I1I2_time.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 393,
+            "@id": "https://doi.org/10.25625/Z5TK24/4OXRVQ",
+            "identifier": "https://doi.org/10.25625/Z5TK24/4OXRVQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70075"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe19Ni81_2022_07_18_M14_p_pol_540mW_at_sample_64eV_at_same_side_as66eV_I1_alle_Energien.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 2508257,
+            "@id": "https://doi.org/10.25625/Z5TK24/WLWNTH",
+            "identifier": "https://doi.org/10.25625/Z5TK24/WLWNTH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70029"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe19Ni81_2022_07_18_M14_p_pol_540mW_at_sample_64eV_at_same_side_as66eV_I1_normed_to_sum.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 26696,
+            "@id": "https://doi.org/10.25625/Z5TK24/FXOQUF",
+            "identifier": "https://doi.org/10.25625/Z5TK24/FXOQUF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70021"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe19Ni81_2022_07_18_M14_p_pol_540mW_at_sample_64eV_at_same_side_as66eV_I2_alle_Energien.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 2507851,
+            "@id": "https://doi.org/10.25625/Z5TK24/EE5BSH",
+            "identifier": "https://doi.org/10.25625/Z5TK24/EE5BSH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70120"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe19Ni81_2022_07_18_M14_p_pol_540mW_at_sample_64eV_at_same_side_as66eV_I2_normed_to_sum.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 26653,
+            "@id": "https://doi.org/10.25625/Z5TK24/NTMRXZ",
+            "identifier": "https://doi.org/10.25625/Z5TK24/NTMRXZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70068"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe19Ni81_2022_07_18_M14_p_pol_540mW_at_sample_64eV_at_same_side_as66eV_time.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 393,
+            "@id": "https://doi.org/10.25625/Z5TK24/KC0WOR",
+            "identifier": "https://doi.org/10.25625/Z5TK24/KC0WOR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70083"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe19Ni81_2022_07_19_M9_p_pol_540mW_at_sample_64eV_at_other_side_as66eV_asym.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 2842470,
+            "@id": "https://doi.org/10.25625/Z5TK24/ACEAZU",
+            "identifier": "https://doi.org/10.25625/Z5TK24/ACEAZU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70107"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe19Ni81_2022_07_19_M9_p_pol_540mW_at_sample_64eV_at_other_side_as66eV_energy.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 29788,
+            "@id": "https://doi.org/10.25625/Z5TK24/OFRJLF",
+            "identifier": "https://doi.org/10.25625/Z5TK24/OFRJLF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70118"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe19Ni81_2022_07_19_M9_p_pol_540mW_at_sample_64eV_at_other_side_as66eV_I1I2_time.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 390,
+            "@id": "https://doi.org/10.25625/Z5TK24/FX38XE",
+            "identifier": "https://doi.org/10.25625/Z5TK24/FX38XE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70084"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe19Ni81_2022_07_19_M9_p_pol_540mW_at_sample_64eV_at_other_side_as66eV_I1_alle_Energien.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 2495468,
+            "@id": "https://doi.org/10.25625/Z5TK24/CEXHSU",
+            "identifier": "https://doi.org/10.25625/Z5TK24/CEXHSU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70137"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe19Ni81_2022_07_19_M9_p_pol_540mW_at_sample_64eV_at_other_side_as66eV_I1_normed_to_sum.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 26684,
+            "@id": "https://doi.org/10.25625/Z5TK24/3HXF6W",
+            "identifier": "https://doi.org/10.25625/Z5TK24/3HXF6W",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70108"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe19Ni81_2022_07_19_M9_p_pol_540mW_at_sample_64eV_at_other_side_as66eV_I2_alle_Energien.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 2494630,
+            "@id": "https://doi.org/10.25625/Z5TK24/M2GOVI",
+            "identifier": "https://doi.org/10.25625/Z5TK24/M2GOVI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70013"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe19Ni81_2022_07_19_M9_p_pol_540mW_at_sample_64eV_at_other_side_as66eV_I2_normed_to_sum.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 26662,
+            "@id": "https://doi.org/10.25625/Z5TK24/SBK2KG",
+            "identifier": "https://doi.org/10.25625/Z5TK24/SBK2KG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70114"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe19Ni81_2022_07_19_M9_p_pol_540mW_at_sample_64eV_at_other_side_as66eV_time.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 390,
+            "@id": "https://doi.org/10.25625/Z5TK24/HLGQNX",
+            "identifier": "https://doi.org/10.25625/Z5TK24/HLGQNX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70079"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe19Ni81_2022_07_20_M09_p_pol_540mW_at_sample_64eV_at_other_side_as66eV_asymmetry_curves.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 26716,
+            "@id": "https://doi.org/10.25625/Z5TK24/LZHBNE",
+            "identifier": "https://doi.org/10.25625/Z5TK24/LZHBNE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70095"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "cxro_Fe_refractive_index.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 20792,
+            "@id": "https://doi.org/10.25625/Z5TK24/PJPFI4",
+            "identifier": "https://doi.org/10.25625/Z5TK24/PJPFI4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70125"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "cxro_Ni_refractive_index.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 20880,
+            "@id": "https://doi.org/10.25625/Z5TK24/CXSRTM",
+            "identifier": "https://doi.org/10.25625/Z5TK24/CXSRTM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70035"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "NiO_refractive_index_cxro.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 17821,
+            "@id": "https://doi.org/10.25625/Z5TK24/SYAAX4",
+            "identifier": "https://doi.org/10.25625/Z5TK24/SYAAX4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70033"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Si3N4_refractive_index_cxro.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 17823,
+            "@id": "https://doi.org/10.25625/Z5TK24/ZXX6XK",
+            "identifier": "https://doi.org/10.25625/Z5TK24/ZXX6XK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70076"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "SiO2_refractive_index_cxro.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 20666,
+            "@id": "https://doi.org/10.25625/Z5TK24/KZHA6L",
+            "identifier": "https://doi.org/10.25625/Z5TK24/KZHA6L",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70105"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "source.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 74,
+            "@id": "https://doi.org/10.25625/Z5TK24/QFTDSK",
+            "identifier": "https://doi.org/10.25625/Z5TK24/QFTDSK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70024"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "iron_f1_f2_cxro.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 10568,
+            "@id": "https://doi.org/10.25625/Z5TK24/LN1QK9",
+            "identifier": "https://doi.org/10.25625/Z5TK24/LN1QK9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70124"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "ni_f1_f2_cxro.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 10547,
+            "@id": "https://doi.org/10.25625/Z5TK24/SECQ0X",
+            "identifier": "https://doi.org/10.25625/Z5TK24/SECQ0X",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70054"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Co_data.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 11794,
+            "@id": "https://doi.org/10.25625/Z5TK24/NOKHAZ",
+            "identifier": "https://doi.org/10.25625/Z5TK24/NOKHAZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70112"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fe_data.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 11883,
+            "@id": "https://doi.org/10.25625/Z5TK24/PVNILM",
+            "identifier": "https://doi.org/10.25625/Z5TK24/PVNILM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70080"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ni_data.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 11943,
+            "@id": "https://doi.org/10.25625/Z5TK24/FV6RYT",
+            "identifier": "https://doi.org/10.25625/Z5TK24/FV6RYT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70106"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "source.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 68,
+            "@id": "https://doi.org/10.25625/Z5TK24/PYWXRU",
+            "identifier": "https://doi.org/10.25625/Z5TK24/PYWXRU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70127"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "efield_maerz_geschickt.OUT",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 2960000,
+            "@id": "https://doi.org/10.25625/Z5TK24/GKQ63K",
+            "identifier": "https://doi.org/10.25625/Z5TK24/GKQ63K",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70129"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Middle_TDDFT_DOS_FeNi5050_1_2eV_pump_47fs_Gauss_intensity_maj_fe.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 2791805,
+            "@id": "https://doi.org/10.25625/Z5TK24/IFCYU3",
+            "identifier": "https://doi.org/10.25625/Z5TK24/IFCYU3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70071"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Middle_TDDFT_DOS_FeNi5050_1_2eV_pump_47fs_Gauss_intensity_maj_ni.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 2796332,
+            "@id": "https://doi.org/10.25625/Z5TK24/DQVGHU",
+            "identifier": "https://doi.org/10.25625/Z5TK24/DQVGHU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70044"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Middle_TDDFT_DOS_FeNi5050_1_2eV_pump_47fs_Gauss_intensity_min_fe.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 2924200,
+            "@id": "https://doi.org/10.25625/Z5TK24/LXJAPR",
+            "identifier": "https://doi.org/10.25625/Z5TK24/LXJAPR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70104"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Middle_TDDFT_DOS_FeNi5050_1_2eV_pump_47fs_Gauss_intensity_min_ni.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 2925713,
+            "@id": "https://doi.org/10.25625/Z5TK24/CUAT5O",
+            "identifier": "https://doi.org/10.25625/Z5TK24/CUAT5O",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70055"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Middle_TDDFT_DOS_FeNi5050_1_2eV_pump_47fs_Gauss_intensity__energy_feni_DOS.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 31985,
+            "@id": "https://doi.org/10.25625/Z5TK24/1IPTQB",
+            "identifier": "https://doi.org/10.25625/Z5TK24/1IPTQB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70043"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Middle_TDDFT_DOS_FeNi5050_1_2eV_pump_47fs_Gauss_intensity__time_feni_DOS.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1471,
+            "@id": "https://doi.org/10.25625/Z5TK24/WADPWU",
+            "identifier": "https://doi.org/10.25625/Z5TK24/WADPWU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70056"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Middle_TDDFT_DOS_Ni_1_2eV_pump_47fs_Gauss_intensity_maj_ni.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 5162930,
+            "@id": "https://doi.org/10.25625/Z5TK24/AACCXV",
+            "identifier": "https://doi.org/10.25625/Z5TK24/AACCXV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70081"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Middle_TDDFT_DOS_Ni_1_2eV_pump_47fs_Gauss_intensity_min_ni.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 4946702,
+            "@id": "https://doi.org/10.25625/Z5TK24/WWUCLE",
+            "identifier": "https://doi.org/10.25625/Z5TK24/WWUCLE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70016"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Middle_TDDFT_DOS_Ni_1_2eV_pump_47fs_Gauss_intensity__energy_ni_DOS.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 67653,
+            "@id": "https://doi.org/10.25625/Z5TK24/MEXABW",
+            "identifier": "https://doi.org/10.25625/Z5TK24/MEXABW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70040"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Middle_TDDFT_DOS_Ni_1_2eV_pump_47fs_Gauss_intensity__time_ni_DOS.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1413,
+            "@id": "https://doi.org/10.25625/Z5TK24/E6MBR1",
+            "identifier": "https://doi.org/10.25625/Z5TK24/E6MBR1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70074"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Middle_TDDFT_FeNi5050_1_2eV_pump_47fs_Gauss_intensity__energy.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 75160,
+            "@id": "https://doi.org/10.25625/Z5TK24/XOCNZD",
+            "identifier": "https://doi.org/10.25625/Z5TK24/XOCNZD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70053"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Middle_TDDFT_FeNi5050_1_2eV_pump_47fs_Gauss_intensity__exy_imag.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1064929,
+            "@id": "https://doi.org/10.25625/Z5TK24/1CZC9E",
+            "identifier": "https://doi.org/10.25625/Z5TK24/1CZC9E",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70090"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Middle_TDDFT_FeNi5050_1_2eV_pump_47fs_Gauss_intensity__exy_real.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1077200,
+            "@id": "https://doi.org/10.25625/Z5TK24/BADTHO",
+            "identifier": "https://doi.org/10.25625/Z5TK24/BADTHO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70126"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Middle_TDDFT_FeNi5050_1_2eV_pump_47fs_Gauss_intensity__time.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 318,
+            "@id": "https://doi.org/10.25625/Z5TK24/G62KGA",
+            "identifier": "https://doi.org/10.25625/Z5TK24/G62KGA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70086"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TDDFT_Ni_1_2eV_pump_47fs_Gauss_intensity__energy.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 74275,
+            "@id": "https://doi.org/10.25625/Z5TK24/IDTT9M",
+            "identifier": "https://doi.org/10.25625/Z5TK24/IDTT9M",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70134"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TDDFT_Ni_1_2eV_pump_47fs_Gauss_intensity__exy_imag.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 4774364,
+            "@id": "https://doi.org/10.25625/Z5TK24/JSRZCE",
+            "identifier": "https://doi.org/10.25625/Z5TK24/JSRZCE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70092"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TDDFT_Ni_1_2eV_pump_47fs_Gauss_intensity__exy_real.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 4876569,
+            "@id": "https://doi.org/10.25625/Z5TK24/ZWMLUP",
+            "identifier": "https://doi.org/10.25625/Z5TK24/ZWMLUP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70052"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TDDFT_Ni_1_2eV_pump_47fs_Gauss_intensity__time.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1404,
+            "@id": "https://doi.org/10.25625/Z5TK24/TX7N1Q",
+            "identifier": "https://doi.org/10.25625/Z5TK24/TX7N1Q",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70031"
+        }
+    ],
+    "license_title": "Creative Commons Attribution 4.0 International",
+    "subjects": [
+        "Physics"
+    ],
+    "publications": [
+        {
+            "citation": "Christina M\u00f6ller, Henrike Probst, G. S. Matthijs Jansen, Maren Schumacher, Mariana Brede, John Kay Dewhurst, Marcel Reutzel, Daniel Steil, Sangeeta Sharma, Stefan Mathias, \"Verification of ultrafast spin transfer effects in FeNi alloys\", arXiv:2306.02793 [cond-mat.mtrl-sci] (2023)",
+            "url": "https://arxiv.org/abs/2306.02793"
+        }
+    ]
+}

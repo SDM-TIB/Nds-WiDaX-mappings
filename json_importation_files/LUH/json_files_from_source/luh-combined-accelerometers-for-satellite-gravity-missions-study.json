@@ -1,0 +1,142 @@
+{
+  "author": "Alireza HosseiniArani, Manuel Schilling, Benjamin Tennstedt, Alexey Kupriyanov, Quentin Beaufils, Annike Knabe, Arpetha C. Sreekantaiah, Franck Pereira dos Santos, Steffen Schön, Jürgen Müller",
+  "author_email": "hosseiniarani@ife.uni-hannover.de",
+  "creator_user_id": "8d005715-e44a-4df2-ad10-4f1949237693",
+  "have_copyright": "Yes",
+  "id": "1cc6225c-0c92-4e2c-93f0-8b9c31d30598",
+  "isopen": false,
+  "license_id": "CC-BY-NC-SA-4.0",
+  "license_title": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "maintainer": "Alireza HosseiniArani",
+  "maintainer_email": "hosseiniarani@ife.uni-hannover.de",
+  "metadata_created": "2025-03-21T12:19:33.452565",
+  "metadata_modified": "2025-03-21T12:45:15.498006",
+  "name": "combined-accelerometers-for-satellite-gravity-missions-study",
+  "notes": "The dataset is used in simulating the satellite orbit, the noise time series of the hybrid accelerometers, and the coefficients of the recovered gravity fields for the following paper: \"Combined Classical and Quantum Accelerometers for Future Satellite Gravity Missions\" submitted to the ESS Journal. ",
+  "num_resources": 3,
+  "num_tags": 1,
+  "organization": {
+    "id": "f3436fa6-0bb5-48dc-9b23-5a05ac696df5",
+    "name": "institut-fuer-erdmessung",
+    "title": "Institut für Erdmessung",
+    "type": "organization",
+    "description": "Schneiderberg 50\r\n__30167 Hannover__\r\n\r\nhttps://www.ife.uni-hannover.de/",
+    "image_url": "https://www.ife.uni-hannover.de/fileadmin/site-templates/logos/ife/ife-Logo.png",
+    "created": "2018-07-05T11:09:58.311547",
+    "is_organization": true,
+    "approval_status": "approved",
+    "state": "active"
+  },
+  "owner_org": "f3436fa6-0bb5-48dc-9b23-5a05ac696df5",
+  "private": false,
+  "state": "active",
+  "terms_of_usage": "Yes",
+  "title": "Combined-accelerometers-for-satellite-gravity-missions-study",
+  "type": "dataset",
+  "url": "",
+  "version": "",
+  "extras": [
+    {
+      "key": "Quantum Sensors",
+      "value": "Hybrid Accelerometers"
+    }
+  ],
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2025-03-21T12:29:52.882801",
+      "datastore_active": false,
+      "description": "The data provides the noise time series of the hybrid accelerometer. The time step is 5 seconds. ",
+      "format": "TXT",
+      "hash": "",
+      "id": "703b8632-dd90-4ffa-88d4-51ce0e637e95",
+      "last_modified": "2025-03-21T12:29:52.858490",
+      "metadata_modified": "2025-03-21T12:29:54.456118",
+      "mimetype": "application/zip",
+      "mimetype_inner": null,
+      "name": "Hybrid Accelerometer noise time series",
+      "package_id": "1cc6225c-0c92-4e2c-93f0-8b9c31d30598",
+      "position": 0,
+      "resource_type": null,
+      "size": 38065163,
+      "state": "active",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "url": "https://data.uni-hannover.de/dataset/1cc6225c-0c92-4e2c-93f0-8b9c31d30598/resource/703b8632-dd90-4ffa-88d4-51ce0e637e95/download/2.-instruments-noise-time-series.zip",
+      "url_type": "upload"
+    },
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2025-03-21T12:35:41.579340",
+      "datastore_active": false,
+      "description": "The data provides both satellites' position, velocity and attitude information over time. Satellite orbit simulations are for the duration of 1-31 May 2002",
+      "format": ".txt",
+      "hash": "",
+      "id": "e3c1e08c-e3c4-4784-b10f-6fc4d3b95657",
+      "last_modified": "2025-03-21T12:35:41.552557",
+      "metadata_modified": "2025-03-21T12:45:15.505222",
+      "mimetype": "application/zip",
+      "mimetype_inner": null,
+      "name": "Satellite orbit",
+      "package_id": "1cc6225c-0c92-4e2c-93f0-8b9c31d30598",
+      "position": 1,
+      "resource_type": null,
+      "size": 124469542,
+      "state": "active",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "url": "https://data.uni-hannover.de/dataset/1cc6225c-0c92-4e2c-93f0-8b9c31d30598/resource/e3c1e08c-e3c4-4784-b10f-6fc4d3b95657/download/1.-orbit.zip",
+      "url_type": "upload"
+    },
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2025-03-21T12:40:58.949479",
+      "datastore_active": false,
+      "description": "The data provides the coefficients of the recovered gravity fields of Earth using the hybrid accelerometer model.",
+      "format": ".txt",
+      "hash": "",
+      "id": "6a5b149f-2133-4969-ab73-4b2694ad9f96",
+      "last_modified": "2025-03-21T12:40:58.922465",
+      "metadata_modified": "2025-03-21T12:45:15.505337",
+      "mimetype": "application/zip",
+      "mimetype_inner": null,
+      "name": "GFR solutions",
+      "package_id": "1cc6225c-0c92-4e2c-93f0-8b9c31d30598",
+      "position": 2,
+      "resource_type": null,
+      "size": 417840035,
+      "state": "active",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 1
+      },
+      "url": "https://data.uni-hannover.de/dataset/1cc6225c-0c92-4e2c-93f0-8b9c31d30598/resource/6a5b149f-2133-4969-ab73-4b2694ad9f96/download/3.1-gfr-solutions.zip",
+      "url_type": "upload"
+    }
+  ],
+  "tags": [
+    {
+      "display_name": "Gravity Field Recovery",
+      "id": "d5f59948-4428-4345-a505-9e6df4071452",
+      "name": "Gravity Field Recovery",
+      "state": "active",
+      "vocabulary_id": null
+    }
+  ],
+  "groups": [],
+  "relationships_as_subject": [],
+  "relationships_as_object": [],
+  "doi": "10.25835/w85ssyb3",
+  "doi_status": true,
+  "domain": "https://data.uni-hannover.de",
+  "doi_date_published": "2025-03-21",
+  "doi_publisher": "LUIS"
+}

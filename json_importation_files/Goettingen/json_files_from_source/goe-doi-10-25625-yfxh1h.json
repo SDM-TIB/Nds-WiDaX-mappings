@@ -1,0 +1,1551 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/YFXH1H",
+    "identifier": "https://doi.org/10.25625/YFXH1H",
+    "name": "Experimental and Theoretical NQCC Data",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Daniel A.",
+            "familyName": "Obenchain",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institut f\u00fcr Physikalische Chemie, Univeristy of G\u00f6ttingen"
+            },
+            "name": "Obenchain, Daniel A."
+        },
+        {
+            "@type": "Person",
+            "givenName": "Jannes N.",
+            "familyName": "Hasselhorn",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institut f\u00fcr Physikalische Chemie, Univeristy of G\u00f6ttingen"
+            },
+            "name": "Hasselhorn, Jannes N."
+        },
+        {
+            "@type": "Person",
+            "givenName": "Beppo",
+            "familyName": "Hartwig",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institut f\u00fcr Physikalische Chemie, Univeristy of G\u00f6ttingen"
+            },
+            "name": "Hartwig, Beppo"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Daniel A.",
+            "familyName": "Obenchain",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institut f\u00fcr Physikalische Chemie, Univeristy of G\u00f6ttingen"
+            },
+            "name": "Obenchain, Daniel A."
+        },
+        {
+            "@type": "Person",
+            "givenName": "Jannes N.",
+            "familyName": "Hasselhorn",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institut f\u00fcr Physikalische Chemie, Univeristy of G\u00f6ttingen"
+            },
+            "name": "Hasselhorn, Jannes N."
+        },
+        {
+            "@type": "Person",
+            "givenName": "Beppo",
+            "familyName": "Hartwig",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institut f\u00fcr Physikalische Chemie, Univeristy of G\u00f6ttingen"
+            },
+            "name": "Hartwig, Beppo"
+        }
+    ],
+    "datePublished": "2026-06-22",
+    "dateModified": "2026-06-22",
+    "version": "1",
+    "description": "This data set contains the latest experimental and computed data for the Qeff\u00a0 \"Parametrization of nuclear quadrupole coupling constants\" on the qmbench website\u00a0, inpired by the works of W. C. Bailey (see\u00a0https://nqcc.wcbailey.net/index.html). All data is available for download directly from the qmbench website, but can also be downloaded here. Files are sorted by their relevant isotope.\u00a0 Optimization and EFG files are sorted within each isotopic directory. All calculations (structure optimizations, analytical frequencies, and electric field gradients (EFG)) are completed using ORCA version 6.1. (Program Version 6.1.1 - RELEASE -(GIT: $487d211c$)($2025-11-21 10:33:24 +0100$)). Structures are optimized at the B3LYP-D3(BJ,abc)/ma-def2-TZVP level of theory. EFG calculations using the B3LYP functional, both without and with relativistic corrections (exact two-component theory (X2C), finite-nucleus model, and picture change effects), are performed in the isotope-specific inertial principal axis system, employing the x2c-TZVPPall basis set in both cases. Input files for the calculations described above are provided. All calculation methods are referenced in the dataset metadata. Individual references for the experimental data in the dataset can be found in the CSV file \"compiled_NQCC_Website_data.csv\"",
+    "keywords": [
+        "Chemistry",
+        "Physics",
+        "Nuclear Electric Quadrupole Coupling",
+        "Rotational Spectroscopy",
+        "Microwave Spectroscopy",
+        "electric field gradients"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "Tuning halogen bond donor ability: benchmarking substituent effects in fluoroiodobenzenes",
+            "@id": "https://doi.org/10.1039/D6CP00032K",
+            "identifier": "https://doi.org/10.1039/D6CP00032K",
+            "url": "https://doi.org/10.1039/D6CP00032K"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "QMBENCH NQCC Parametrization of nuclear quadrupole coupling constants",
+            "@id": "https://qmbench.d.sub.uni-goettingen.de/nqcc/parametrization",
+            "identifier": "https://qmbench.d.sub.uni-goettingen.de/nqcc/parametrization",
+            "url": "https://qmbench.d.sub.uni-goettingen.de/nqcc/parametrization"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "\"Calculation of Nuclear Quadrupole Coupling Constants in Gaseous State Molecules\" W.C. Bailey",
+            "@id": "https://nqcc.wcbailey.net/index.html",
+            "identifier": "https://nqcc.wcbailey.net/index.html",
+            "url": "https://nqcc.wcbailey.net/index.html"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Neese, F. Software update: the ORCA program system, version 6.0 WIRES Comput. Molec. Sci. 2025 15(1), e70019",
+            "@id": "https://doi.org/10.1002/wcms.70019",
+            "identifier": "https://doi.org/10.1002/wcms.70019",
+            "url": "https://doi.org/10.1002/wcms.70019"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Neese, F. An improvement of the resolution of the identity approximation for the formation of the Coulomb matrix J. Comp. Chem. 2003 24(14), 1740-1747",
+            "@id": "https://doi.org/10.1002/jcc.10318",
+            "identifier": "https://doi.org/10.1002/jcc.10318",
+            "url": "https://doi.org/10.1002/jcc.10318"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Neese, F.; Wennmohs, F.; Hansen, A.; Becker, U. Efficient, approximate and parallel Hartree-Fock and hybrid DFT calculations. A 'chain-of-spheres' algorithm for the Hartree-Fock exchange Chem. Phys. 2009 356(1-3), 98-109",
+            "@id": "https://doi.org/10.1016/j.chemphys.2008.10.036",
+            "identifier": "https://doi.org/10.1016/j.chemphys.2008.10.036",
+            "url": "https://doi.org/10.1016/j.chemphys.2008.10.036"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Grimme, S.; Antony, J.; Ehrlich, S.; Krieg, H. A consistent and accurate ab initio parametrization of density functional dispersion correction (DFT-D) for the 94 elements H-Pu J. Chem. Phys. 2010 132 , 154104",
+            "@id": "https://doi.org/10.1063/1.3382344",
+            "identifier": "https://doi.org/10.1063/1.3382344",
+            "url": "https://doi.org/10.1063/1.3382344"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Grimme, S.; Ehrlich, S.; Goerigk, L. Effect of the damping function in dispersion corrected density functional theory J. Comput. Chem. 2011 32(7), 1456-1465",
+            "@id": "https://doi.org/10.1002/jcc.21759",
+            "identifier": "https://doi.org/10.1002/jcc.21759",
+            "url": "https://doi.org/10.1002/jcc.21759"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Helmich-Paris, B.; de Souza, B.; Neese, F.; Izs\u00e1k, R. An improved chain of spheres for exchange algorithm J. Chem. Phys. 2021 155(10), 104109",
+            "@id": "https://doi.org/10.1063/5.0058766",
+            "identifier": "https://doi.org/10.1063/5.0058766",
+            "url": "https://doi.org/10.1063/5.0058766"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Bykov, D.; Petrenko, T.; Izsak, R.; Kossmann, S.; Becker, U.; Valeev, E.; Neese, F. Efficient implementation of the analytic second derivatives of Hartree-Fock and hybrid DFT energies: a detailed analysis of different approximations Molec. Phys. 2015 113 , 1961-1977",
+            "@id": "https://doi.org/10.1080/00268976.2015.1025114",
+            "identifier": "https://doi.org/10.1080/00268976.2015.1025114",
+            "url": "https://doi.org/10.1080/00268976.2015.1025114"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Neese, F. The SHARK Integral Generation and Digestion System J. Comp. Chem. 2022 44(3), 381",
+            "@id": "https://doi.org/10.1002/jcc.26942",
+            "identifier": "https://doi.org/10.1002/jcc.26942",
+            "url": "https://doi.org/10.1002/jcc.26942"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Izsak, R.; Neese, F. An overlap fitted chain of spheres exchange method J. Chem. Phys. 2011 135 , 144105",
+            "@id": "https://doi.org/10.1063/1.3646921",
+            "identifier": "https://doi.org/10.1063/1.3646921",
+            "url": "https://doi.org/10.1063/1.3646921"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Izsak, R.; Hansen, A.; Neese, F. The resolution of identity and chain of spheres approximations for the LPNO-CCSD singles Fock term Molec. Phys. 2012 110 , 2413-2417",
+            "@id": "https://doi.org/10.1080/00268976.2012.687466",
+            "identifier": "https://doi.org/10.1080/00268976.2012.687466",
+            "url": "https://doi.org/10.1080/00268976.2012.687466"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Neese, F. The ORCA program system WIRES Comput. Molec. Sci. 2012 2(1), 73-78",
+            "@id": "https://doi.org/10.1002/wcms.81",
+            "identifier": "https://doi.org/10.1002/wcms.81",
+            "url": "https://doi.org/10.1002/wcms.81"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Izsak, R.; Neese, F.; Klopper, W. Robust fitting techniques in the chain of spheres approximation to the Fock exchange: The role of the complementary space J. Chem. Phys. 2013 139 ,",
+            "@id": "https://doi.org/10.1063/1.4819264",
+            "identifier": "https://doi.org/10.1063/1.4819264",
+            "url": "https://doi.org/10.1063/1.4819264"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Neese, F. Software update: the ORCA program system, version 4.0 WIRES Comput. Molec. Sci. 2018 8(1), 1-6",
+            "@id": "https://doi.org/10.1002/wcms.1327",
+            "identifier": "https://doi.org/10.1002/wcms.1327",
+            "url": "https://doi.org/10.1002/wcms.1327"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Neese, F.; Wennmohs, F.; Becker, U.; Riplinger, C. The ORCA quantum chemistry program package J. Chem. Phys. 2020 152(22), 224108",
+            "@id": "https://doi.org/10.1063/5.0004608",
+            "identifier": "https://doi.org/10.1063/5.0004608",
+            "url": "https://doi.org/10.1063/5.0004608"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Neese, F. Software update: The ORCA program system\u2014Version 5.0 WIRES Comput. Molec. Sci. 2022 12(1), e1606",
+            "@id": "https://doi.org/10.1002/wcms.1606",
+            "identifier": "https://doi.org/10.1002/wcms.1606",
+            "url": "https://doi.org/10.1002/wcms.1606"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Neese, F. Approximate second-order SCF convergence for spin unrestricted wavefunctions Chem. Phys. Lett. 2000 325(1-3), 93-98",
+            "@id": "https://doi.org/10.1016/s0009-2614(00)00662-x",
+            "identifier": "https://doi.org/10.1016/s0009-2614(00)00662-x",
+            "url": "https://doi.org/10.1016/s0009-2614(00)00662-x"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "C. Lee, W. Yang, R. G. Parr, \u201cDevelopment of the Colle-Salvetti correlation-energy formula into a functional of the electron density\u201d, Phys. Rev. B 1988, 37, 785\u2013789.",
+            "@id": "https://doi.org/10.1103/PhysRevB.37.785",
+            "identifier": "https://doi.org/10.1103/PhysRevB.37.785",
+            "url": "https://doi.org/10.1103/PhysRevB.37.785"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "B. Miehlich, A. Savin, H. Stoll, H. Preuss, \u201cResults obtained with the correlation energy density functionals of becke and Lee, Yang and Parr\u201d, Chem. Phys. Lett. 1989, 157, 200\u2013206.",
+            "@id": "https://doi.org/10.1016/0009-2614(89)87234-3",
+            "identifier": "https://doi.org/10.1016/0009-2614(89)87234-3",
+            "url": "https://doi.org/10.1016/0009-2614(89)87234-3"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "A. D. Becke, \u201cDensity-functional thermochemistry. III. The role of exact exchange\u201d, J. Chem. Phys. 1993, 98, 5648\u20135652.",
+            "@id": "https://doi.org/10.1063/1.464913",
+            "identifier": "https://doi.org/10.1063/1.464913",
+            "url": "https://doi.org/10.1063/1.464913"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "S. Grimme, J. Antony, S. Ehrlich, H. Krieg, \u201cA consistent and accurate ab initio parametrization of density functional dispersion correction (DFT-D) for the 94 elements H-Pu\u201d, J. Chem. Phys. 2010, 132, 154104.",
+            "@id": "https://doi.org/10.1063/1.3382344",
+            "identifier": "https://doi.org/10.1063/1.3382344",
+            "url": "https://doi.org/10.1063/1.3382344"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "S. Grimme, S. Ehrlich, L. Goerigk, \u201cEffect of the damping function in dispersion corrected density functional theory\u201d, J. Comput. Chem. 2011, 32, 1456\u20131465.",
+            "@id": "https://doi.org/10.1002/jcc.21759",
+            "identifier": "https://doi.org/10.1002/jcc.21759",
+            "url": "https://doi.org/10.1002/jcc.21759"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "B. M. Axilrod, E. Teller, \u201cInteraction of the van der Waals Type Between Three Atoms\u201d, J. Chem. Phys. 1943, 11, 299\u2013300.",
+            "@id": "https://doi.org/10.1063/1.1723844",
+            "identifier": "https://doi.org/10.1063/1.1723844",
+            "url": "https://doi.org/10.1063/1.1723844"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Y. Muto, \u201cForce between nonpolar molecules\u201d, Proc. Phys.-Math. Soc. Jpn. 1943, 17, 629\u2013631."
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "F. Neese, F.Wennmohs, A. Hansen, U. Becker, \u201cEfficient, approximate and parallel Hartree\u2013Fock and hybrid DFT calculations. A \u2018chain-of-spheres\u2019 algorithm for the Hartree\u2013Fock exchange\u201d, Chem. Phys. 2009, 356, 98\u2013109.",
+            "@id": "https://doi.org/10.1016/j.chemphys.2008.10.036",
+            "identifier": "https://doi.org/10.1016/j.chemphys.2008.10.036",
+            "url": "https://doi.org/10.1016/j.chemphys.2008.10.036"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "F. Weigend, R. Ahlrichs, \u201cBalanced basis sets of split valence, triple zeta valence and quadruple zeta valence quality for H to Rn: Design and assessment of accuracy\u201d, Phys. Chem. Chem. Phys. 2005, 7, 3297\u20133305.",
+            "@id": "https://doi.org/10.1039/B508541A",
+            "identifier": "https://doi.org/10.1039/B508541A",
+            "url": "https://doi.org/10.1039/B508541A"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "J. Zheng, X. Xu, D. Truhlar, \u201cMinimally augmented Karlsruhe basis sets\u201d, Theor. Chem. Acc. 2011, 128, 295\u2013305.",
+            "@id": "https://doi.org/10.1007/s00214-010-0846-z",
+            "identifier": "https://doi.org/10.1007/s00214-010-0846-z",
+            "url": "https://doi.org/10.1007/s00214-010-0846-z"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "K. A. Peterson, D. Figgen, E. Goll, H. Stoll, M. Dolg, \u201cSystematically convergent basis sets with relativistic pseudopotentials. II. Small-core pseudopotentials and correlation consistent basis sets for the post-d group 16\u201318 elements\u201d, J. Chem. Phys. 2003, 119, 11113\u201311123.",
+            "@id": "https://doi.org/10.1063/1.1622924",
+            "identifier": "https://doi.org/10.1063/1.1622924",
+            "url": "https://doi.org/10.1063/1.1622924"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "K. A. Peterson, B. C. Shepler, D. Figgen, H. Stoll, \u201cOn the Spectroscopic and Thermochemical Properties of ClO, BrO, IO, and Their Anions\u201d, J. Phys. Chem. A 2006, 110, 13877\u201313883.",
+            "@id": "https://doi.org/10.1021/jp065887l",
+            "identifier": "https://doi.org/10.1021/jp065887l",
+            "url": "https://doi.org/10.1021/jp065887l"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "L. Visscher, K. Dyall, \u201cDIRAC\u2013FOCK ATOMIC ELECTRONIC STRUCTURE CALCULATIONS USING DIFFERENT NUCLEAR CHARGE DISTRIBUTIONS\u201d, At. Data Nucl. Data Tables 1997, 67, 207\u2013224.",
+            "@id": "https://doi.org/10.1006/adnd.1997.0751",
+            "identifier": "https://doi.org/10.1006/adnd.1997.0751",
+            "url": "https://doi.org/10.1006/adnd.1997.0751"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "F. Neese, A. Wolf, T. Fleig, M. Reiher, B. A. Hess, \u201cCalculation of electric-field gradients based on higher-order generalized Douglas\u2013Kroll transformations\u201d, J. Chem. Phys. 2005, 122, 204107.",
+            "@id": "https://doi.org/10.1063/1.1904589",
+            "identifier": "https://doi.org/10.1063/1.1904589",
+            "url": "https://doi.org/10.1063/1.1904589"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "D. Peng, N. Middendorf, F. Weigend, M. Reiher, \u201cAn efficient implementation of two-component relativistic exact-decoupling methods for large molecules\u201d, J. Chem. Phys. 2013, 138, 184105.",
+            "@id": "https://doi.org/10.1063/1.4803693",
+            "identifier": "https://doi.org/10.1063/1.4803693",
+            "url": "https://doi.org/10.1063/1.4803693"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Y. J. Franzke, F. Mack, F.Weigend, \u201cNMR Indirect Spin\u2013Spin Coupling Constants in a Modern Quasi-Relativistic Density Functional Framework\u201d, J. Chem. Theory Comput. 2021, 17, 3974\u20133994.",
+            "@id": "https://doi.org/10.1021/acs.jctc.1c00167",
+            "identifier": "https://doi.org/10.1021/acs.jctc.1c00167",
+            "url": "https://doi.org/10.1021/acs.jctc.1c00167"
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "compiled_NQCC_Website_data.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 11687,
+            "@id": "https://doi.org/10.25625/YFXH1H/W3TTZS",
+            "identifier": "https://doi.org/10.25625/YFXH1H/W3TTZS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173343"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "nonrel.inp",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 217,
+            "@id": "https://doi.org/10.25625/YFXH1H/8RLLKZ",
+            "identifier": "https://doi.org/10.25625/YFXH1H/8RLLKZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173278"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "rel.inp",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 271,
+            "@id": "https://doi.org/10.25625/YFXH1H/ZK9UL9",
+            "identifier": "https://doi.org/10.25625/YFXH1H/ZK9UL9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173349"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Structures.inp",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 233,
+            "@id": "https://doi.org/10.25625/YFXH1H/532QFN",
+            "identifier": "https://doi.org/10.25625/YFXH1H/532QFN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173337"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2345_Tetrafluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 77713,
+            "@id": "https://doi.org/10.25625/YFXH1H/WYT33J",
+            "identifier": "https://doi.org/10.25625/YFXH1H/WYT33J",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173282"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2346_Tetrafluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 77712,
+            "@id": "https://doi.org/10.25625/YFXH1H/X1UWYA",
+            "identifier": "https://doi.org/10.25625/YFXH1H/X1UWYA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173303"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "234_Trifluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 77058,
+            "@id": "https://doi.org/10.25625/YFXH1H/V3P6CZ",
+            "identifier": "https://doi.org/10.25625/YFXH1H/V3P6CZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173297"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2356_Tetrafluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 77712,
+            "@id": "https://doi.org/10.25625/YFXH1H/0DFDHA",
+            "identifier": "https://doi.org/10.25625/YFXH1H/0DFDHA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173351"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "235_Trifluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 77197,
+            "@id": "https://doi.org/10.25625/YFXH1H/ZC9HMX",
+            "identifier": "https://doi.org/10.25625/YFXH1H/ZC9HMX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173356"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "236_Trifluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 77226,
+            "@id": "https://doi.org/10.25625/YFXH1H/5OLANG",
+            "identifier": "https://doi.org/10.25625/YFXH1H/5OLANG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173295"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "23_Difluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 76305,
+            "@id": "https://doi.org/10.25625/YFXH1H/ANQHHW",
+            "identifier": "https://doi.org/10.25625/YFXH1H/ANQHHW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173279"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "245_Trifluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 77032,
+            "@id": "https://doi.org/10.25625/YFXH1H/EG0KZI",
+            "identifier": "https://doi.org/10.25625/YFXH1H/EG0KZI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173345"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "246_Trifluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 77227,
+            "@id": "https://doi.org/10.25625/YFXH1H/RHWQN0",
+            "identifier": "https://doi.org/10.25625/YFXH1H/RHWQN0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173327"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "24_Difluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 76306,
+            "@id": "https://doi.org/10.25625/YFXH1H/BWFDI0",
+            "identifier": "https://doi.org/10.25625/YFXH1H/BWFDI0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173264"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "25_Difluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 76306,
+            "@id": "https://doi.org/10.25625/YFXH1H/GWX7KY",
+            "identifier": "https://doi.org/10.25625/YFXH1H/GWX7KY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173254"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "26_Difluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 76139,
+            "@id": "https://doi.org/10.25625/YFXH1H/Y69IG1",
+            "identifier": "https://doi.org/10.25625/YFXH1H/Y69IG1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173342"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2_Fluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 75560,
+            "@id": "https://doi.org/10.25625/YFXH1H/RRCCJ4",
+            "identifier": "https://doi.org/10.25625/YFXH1H/RRCCJ4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173290"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2_Iodopropane.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 71939,
+            "@id": "https://doi.org/10.25625/YFXH1H/QJR06X",
+            "identifier": "https://doi.org/10.25625/YFXH1H/QJR06X",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173355"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "345_Trifluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 77060,
+            "@id": "https://doi.org/10.25625/YFXH1H/PO7BOE",
+            "identifier": "https://doi.org/10.25625/YFXH1H/PO7BOE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173341"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "34_Difluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 76417,
+            "@id": "https://doi.org/10.25625/YFXH1H/HHUZWM",
+            "identifier": "https://doi.org/10.25625/YFXH1H/HHUZWM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173270"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "35_Difluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 76419,
+            "@id": "https://doi.org/10.25625/YFXH1H/RENZ1F",
+            "identifier": "https://doi.org/10.25625/YFXH1H/RENZ1F",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173354"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "3_Fluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 75653,
+            "@id": "https://doi.org/10.25625/YFXH1H/QMRCWC",
+            "identifier": "https://doi.org/10.25625/YFXH1H/QMRCWC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173262"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "4_Fluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 75795,
+            "@id": "https://doi.org/10.25625/YFXH1H/4QFYMZ",
+            "identifier": "https://doi.org/10.25625/YFXH1H/4QFYMZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173298"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Carbononitridic_iodide.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 62633,
+            "@id": "https://doi.org/10.25625/YFXH1H/DN80RM",
+            "identifier": "https://doi.org/10.25625/YFXH1H/DN80RM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173322"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Chloroiodomethane.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 65155,
+            "@id": "https://doi.org/10.25625/YFXH1H/S8D1KU",
+            "identifier": "https://doi.org/10.25625/YFXH1H/S8D1KU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173333"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Diiodomethane.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 67079,
+            "@id": "https://doi.org/10.25625/YFXH1H/Z16YFA",
+            "identifier": "https://doi.org/10.25625/YFXH1H/Z16YFA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173309"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "g_Iodmethylmethylether.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 70012,
+            "@id": "https://doi.org/10.25625/YFXH1H/ZRHWOR",
+            "identifier": "https://doi.org/10.25625/YFXH1H/ZRHWOR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173289"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Hydrogen_iodide.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 59918,
+            "@id": "https://doi.org/10.25625/YFXH1H/PZFBEB",
+            "identifier": "https://doi.org/10.25625/YFXH1H/PZFBEB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173357"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Hypoiodous_acid.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 61969,
+            "@id": "https://doi.org/10.25625/YFXH1H/RWAIH5",
+            "identifier": "https://doi.org/10.25625/YFXH1H/RWAIH5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173285"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Iodine.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 62717,
+            "@id": "https://doi.org/10.25625/YFXH1H/SGMW67",
+            "identifier": "https://doi.org/10.25625/YFXH1H/SGMW67",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173296"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Iodine_azide.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 64359,
+            "@id": "https://doi.org/10.25625/YFXH1H/8NGSFD",
+            "identifier": "https://doi.org/10.25625/YFXH1H/8NGSFD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173275"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Iodine_dioxide.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 68966,
+            "@id": "https://doi.org/10.25625/YFXH1H/J3US3L",
+            "identifier": "https://doi.org/10.25625/YFXH1H/J3US3L",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173346"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Iodine_monofluoride.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 60713,
+            "@id": "https://doi.org/10.25625/YFXH1H/NFQUB3",
+            "identifier": "https://doi.org/10.25625/YFXH1H/NFQUB3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173359"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Iodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 74865,
+            "@id": "https://doi.org/10.25625/YFXH1H/LOWPMC",
+            "identifier": "https://doi.org/10.25625/YFXH1H/LOWPMC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173259"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Iodocyanoacetylene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 66270,
+            "@id": "https://doi.org/10.25625/YFXH1H/4TTE0U",
+            "identifier": "https://doi.org/10.25625/YFXH1H/4TTE0U",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173310"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Iodoethane.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 67943,
+            "@id": "https://doi.org/10.25625/YFXH1H/MM1QTL",
+            "identifier": "https://doi.org/10.25625/YFXH1H/MM1QTL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173301"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Iodoethyne.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 63659,
+            "@id": "https://doi.org/10.25625/YFXH1H/LFKQOI",
+            "identifier": "https://doi.org/10.25625/YFXH1H/LFKQOI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173284"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Iodomethane.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 63950,
+            "@id": "https://doi.org/10.25625/YFXH1H/8VW8MD",
+            "identifier": "https://doi.org/10.25625/YFXH1H/8VW8MD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173336"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Iodomethyl_radical.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 69503,
+            "@id": "https://doi.org/10.25625/YFXH1H/N2BJD7",
+            "identifier": "https://doi.org/10.25625/YFXH1H/N2BJD7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173329"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Iodotrimethylsilane.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 76334,
+            "@id": "https://doi.org/10.25625/YFXH1H/8DLSQU",
+            "identifier": "https://doi.org/10.25625/YFXH1H/8DLSQU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173263"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Pentafluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 78064,
+            "@id": "https://doi.org/10.25625/YFXH1H/SBUAML",
+            "identifier": "https://doi.org/10.25625/YFXH1H/SBUAML",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173362"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Vinyl_iodide.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 65762,
+            "@id": "https://doi.org/10.25625/YFXH1H/5ED3DM",
+            "identifier": "https://doi.org/10.25625/YFXH1H/5ED3DM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173269"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2345_Tetrafluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 79447,
+            "@id": "https://doi.org/10.25625/YFXH1H/0RMPFG",
+            "identifier": "https://doi.org/10.25625/YFXH1H/0RMPFG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173299"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2346_Tetrafluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 79447,
+            "@id": "https://doi.org/10.25625/YFXH1H/3LGW8J",
+            "identifier": "https://doi.org/10.25625/YFXH1H/3LGW8J",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173338"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "234_Trifluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 78795,
+            "@id": "https://doi.org/10.25625/YFXH1H/UEZBJL",
+            "identifier": "https://doi.org/10.25625/YFXH1H/UEZBJL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173250"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2356_Tetrafluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 79525,
+            "@id": "https://doi.org/10.25625/YFXH1H/WAIF1B",
+            "identifier": "https://doi.org/10.25625/YFXH1H/WAIF1B",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173353"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "235_Trifluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 78960,
+            "@id": "https://doi.org/10.25625/YFXH1H/KJMGO2",
+            "identifier": "https://doi.org/10.25625/YFXH1H/KJMGO2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173277"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "236_Trifluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 78960,
+            "@id": "https://doi.org/10.25625/YFXH1H/PONUUW",
+            "identifier": "https://doi.org/10.25625/YFXH1H/PONUUW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173323"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "23_Difluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 78345,
+            "@id": "https://doi.org/10.25625/YFXH1H/ZKZRHO",
+            "identifier": "https://doi.org/10.25625/YFXH1H/ZKZRHO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173360"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "245_Trifluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 78960,
+            "@id": "https://doi.org/10.25625/YFXH1H/BYZJUK",
+            "identifier": "https://doi.org/10.25625/YFXH1H/BYZJUK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173311"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "246_Trifluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 78960,
+            "@id": "https://doi.org/10.25625/YFXH1H/JLZFXZ",
+            "identifier": "https://doi.org/10.25625/YFXH1H/JLZFXZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173256"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "24_Difluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 78344,
+            "@id": "https://doi.org/10.25625/YFXH1H/PLDCLG",
+            "identifier": "https://doi.org/10.25625/YFXH1H/PLDCLG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173352"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "25_Difluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 78320,
+            "@id": "https://doi.org/10.25625/YFXH1H/SYO0BO",
+            "identifier": "https://doi.org/10.25625/YFXH1H/SYO0BO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173316"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "26_Difluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 78320,
+            "@id": "https://doi.org/10.25625/YFXH1H/EAAFU7",
+            "identifier": "https://doi.org/10.25625/YFXH1H/EAAFU7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173247"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2_Fluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 77667,
+            "@id": "https://doi.org/10.25625/YFXH1H/ENWYLW",
+            "identifier": "https://doi.org/10.25625/YFXH1H/ENWYLW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173255"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2_Iodopropane.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 73832,
+            "@id": "https://doi.org/10.25625/YFXH1H/KH9SH7",
+            "identifier": "https://doi.org/10.25625/YFXH1H/KH9SH7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173339"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "345_Trifluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 78786,
+            "@id": "https://doi.org/10.25625/YFXH1H/J9YLZK",
+            "identifier": "https://doi.org/10.25625/YFXH1H/J9YLZK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173318"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "34_Difluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 78375,
+            "@id": "https://doi.org/10.25625/YFXH1H/VYBTMY",
+            "identifier": "https://doi.org/10.25625/YFXH1H/VYBTMY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173314"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "35_Difluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 78375,
+            "@id": "https://doi.org/10.25625/YFXH1H/ZRASE2",
+            "identifier": "https://doi.org/10.25625/YFXH1H/ZRASE2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173324"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "3_Fluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 77723,
+            "@id": "https://doi.org/10.25625/YFXH1H/CRGM6O",
+            "identifier": "https://doi.org/10.25625/YFXH1H/CRGM6O",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173334"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "4_Fluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 77722,
+            "@id": "https://doi.org/10.25625/YFXH1H/HG7MGB",
+            "identifier": "https://doi.org/10.25625/YFXH1H/HG7MGB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173304"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Carbononitridic_iodide.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 64788,
+            "@id": "https://doi.org/10.25625/YFXH1H/RVEYRI",
+            "identifier": "https://doi.org/10.25625/YFXH1H/RVEYRI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173305"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Chloroiodomethane.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 67054,
+            "@id": "https://doi.org/10.25625/YFXH1H/R7KN93",
+            "identifier": "https://doi.org/10.25625/YFXH1H/R7KN93",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173317"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Diiodomethane.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 69045,
+            "@id": "https://doi.org/10.25625/YFXH1H/4CLNCH",
+            "identifier": "https://doi.org/10.25625/YFXH1H/4CLNCH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173257"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "g_Iodmethylmethylether.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 71993,
+            "@id": "https://doi.org/10.25625/YFXH1H/3IBXYH",
+            "identifier": "https://doi.org/10.25625/YFXH1H/3IBXYH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173331"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Hydrogen_iodide.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 61880,
+            "@id": "https://doi.org/10.25625/YFXH1H/Q7F5PF",
+            "identifier": "https://doi.org/10.25625/YFXH1H/Q7F5PF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173344"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Hypoiodous_acid.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 63947,
+            "@id": "https://doi.org/10.25625/YFXH1H/J3PSUK",
+            "identifier": "https://doi.org/10.25625/YFXH1H/J3PSUK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173268"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Iodine.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 64586,
+            "@id": "https://doi.org/10.25625/YFXH1H/RTNRBJ",
+            "identifier": "https://doi.org/10.25625/YFXH1H/RTNRBJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173272"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Iodine_azide.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 66079,
+            "@id": "https://doi.org/10.25625/YFXH1H/6ELBQV",
+            "identifier": "https://doi.org/10.25625/YFXH1H/6ELBQV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173307"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Iodine_dioxide.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 71205,
+            "@id": "https://doi.org/10.25625/YFXH1H/JGXL8L",
+            "identifier": "https://doi.org/10.25625/YFXH1H/JGXL8L",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173288"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Iodine_monofluoride.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 62665,
+            "@id": "https://doi.org/10.25625/YFXH1H/JXBT7G",
+            "identifier": "https://doi.org/10.25625/YFXH1H/JXBT7G",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173281"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Iodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 76841,
+            "@id": "https://doi.org/10.25625/YFXH1H/ER5W1I",
+            "identifier": "https://doi.org/10.25625/YFXH1H/ER5W1I",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173326"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Iodocyanoacetylene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 68119,
+            "@id": "https://doi.org/10.25625/YFXH1H/ZVNDJZ",
+            "identifier": "https://doi.org/10.25625/YFXH1H/ZVNDJZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173306"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Iodoethane.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 69902,
+            "@id": "https://doi.org/10.25625/YFXH1H/MBDZJK",
+            "identifier": "https://doi.org/10.25625/YFXH1H/MBDZJK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173320"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Iodoethyne.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 65468,
+            "@id": "https://doi.org/10.25625/YFXH1H/SGPV9S",
+            "identifier": "https://doi.org/10.25625/YFXH1H/SGPV9S",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173312"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Iodomethane.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 66010,
+            "@id": "https://doi.org/10.25625/YFXH1H/ZZLTQU",
+            "identifier": "https://doi.org/10.25625/YFXH1H/ZZLTQU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173325"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Iodomethyl_radical.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 71577,
+            "@id": "https://doi.org/10.25625/YFXH1H/KV1LGZ",
+            "identifier": "https://doi.org/10.25625/YFXH1H/KV1LGZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173363"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Iodotrimethylsilane.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 78157,
+            "@id": "https://doi.org/10.25625/YFXH1H/ONNBV6",
+            "identifier": "https://doi.org/10.25625/YFXH1H/ONNBV6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173253"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Pentafluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 79880,
+            "@id": "https://doi.org/10.25625/YFXH1H/GSTPYU",
+            "identifier": "https://doi.org/10.25625/YFXH1H/GSTPYU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173291"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Vinyl_iodide.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 67627,
+            "@id": "https://doi.org/10.25625/YFXH1H/DCQ9XZ",
+            "identifier": "https://doi.org/10.25625/YFXH1H/DCQ9XZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173300"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2345_Tetrafluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 969629,
+            "@id": "https://doi.org/10.25625/YFXH1H/RTTAQI",
+            "identifier": "https://doi.org/10.25625/YFXH1H/RTTAQI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173315"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2346_Tetrafluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 430735,
+            "@id": "https://doi.org/10.25625/YFXH1H/KXC4BE",
+            "identifier": "https://doi.org/10.25625/YFXH1H/KXC4BE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173266"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "234_Trifluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 587221,
+            "@id": "https://doi.org/10.25625/YFXH1H/RKYNIS",
+            "identifier": "https://doi.org/10.25625/YFXH1H/RKYNIS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173287"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2356_Tetrafluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 335737,
+            "@id": "https://doi.org/10.25625/YFXH1H/FNVJVM",
+            "identifier": "https://doi.org/10.25625/YFXH1H/FNVJVM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173251"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "235_Trifluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 334104,
+            "@id": "https://doi.org/10.25625/YFXH1H/RULBIK",
+            "identifier": "https://doi.org/10.25625/YFXH1H/RULBIK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173271"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "236_Trifluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 428730,
+            "@id": "https://doi.org/10.25625/YFXH1H/JCQHTS",
+            "identifier": "https://doi.org/10.25625/YFXH1H/JCQHTS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173293"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "23_Difluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 490285,
+            "@id": "https://doi.org/10.25625/YFXH1H/KQ3N48",
+            "identifier": "https://doi.org/10.25625/YFXH1H/KQ3N48",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173350"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "245_Trifluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 334290,
+            "@id": "https://doi.org/10.25625/YFXH1H/9C7BSC",
+            "identifier": "https://doi.org/10.25625/YFXH1H/9C7BSC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173292"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "246_Trifluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 713566,
+            "@id": "https://doi.org/10.25625/YFXH1H/SXQUQ5",
+            "identifier": "https://doi.org/10.25625/YFXH1H/SXQUQ5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173265"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "24_Difluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 490172,
+            "@id": "https://doi.org/10.25625/YFXH1H/NL801A",
+            "identifier": "https://doi.org/10.25625/YFXH1H/NL801A",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173335"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "25_Difluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 332046,
+            "@id": "https://doi.org/10.25625/YFXH1H/JBCGBH",
+            "identifier": "https://doi.org/10.25625/YFXH1H/JBCGBH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173294"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "26_Difluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 363128,
+            "@id": "https://doi.org/10.25625/YFXH1H/OX4Q5Y",
+            "identifier": "https://doi.org/10.25625/YFXH1H/OX4Q5Y",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173348"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2_Fluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 392850,
+            "@id": "https://doi.org/10.25625/YFXH1H/NHDGFX",
+            "identifier": "https://doi.org/10.25625/YFXH1H/NHDGFX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173358"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2_Iodopropane.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 155782,
+            "@id": "https://doi.org/10.25625/YFXH1H/LUMJOE",
+            "identifier": "https://doi.org/10.25625/YFXH1H/LUMJOE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173246"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "345_Trifluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 429025,
+            "@id": "https://doi.org/10.25625/YFXH1H/CTNZRY",
+            "identifier": "https://doi.org/10.25625/YFXH1H/CTNZRY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173347"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "34_Difluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 331891,
+            "@id": "https://doi.org/10.25625/YFXH1H/ONMDVX",
+            "identifier": "https://doi.org/10.25625/YFXH1H/ONMDVX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173260"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "35_Difluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 458282,
+            "@id": "https://doi.org/10.25625/YFXH1H/2NGCBC",
+            "identifier": "https://doi.org/10.25625/YFXH1H/2NGCBC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173274"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "3_Fluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 424751,
+            "@id": "https://doi.org/10.25625/YFXH1H/T7AVBF",
+            "identifier": "https://doi.org/10.25625/YFXH1H/T7AVBF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173321"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "4_Fluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 329943,
+            "@id": "https://doi.org/10.25625/YFXH1H/ETFLAS",
+            "identifier": "https://doi.org/10.25625/YFXH1H/ETFLAS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173361"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Carbononitridic_iodide.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 118884,
+            "@id": "https://doi.org/10.25625/YFXH1H/NHHFQN",
+            "identifier": "https://doi.org/10.25625/YFXH1H/NHHFQN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173319"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Chloroiodomethane.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 126259,
+            "@id": "https://doi.org/10.25625/YFXH1H/FY9E8R",
+            "identifier": "https://doi.org/10.25625/YFXH1H/FY9E8R",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173248"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Diiodomethane.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 126327,
+            "@id": "https://doi.org/10.25625/YFXH1H/UNBKBL",
+            "identifier": "https://doi.org/10.25625/YFXH1H/UNBKBL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173273"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "g_Iodmethylmethylether.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 145838,
+            "@id": "https://doi.org/10.25625/YFXH1H/NXIAUF",
+            "identifier": "https://doi.org/10.25625/YFXH1H/NXIAUF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173280"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Hydrogen_iodide.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 109662,
+            "@id": "https://doi.org/10.25625/YFXH1H/RFSVL7",
+            "identifier": "https://doi.org/10.25625/YFXH1H/RFSVL7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173328"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Hypoiodous_acid.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 116324,
+            "@id": "https://doi.org/10.25625/YFXH1H/FNBQUO",
+            "identifier": "https://doi.org/10.25625/YFXH1H/FNBQUO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173332"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Iodine.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 111894,
+            "@id": "https://doi.org/10.25625/YFXH1H/RNXC3C",
+            "identifier": "https://doi.org/10.25625/YFXH1H/RNXC3C",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173286"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Iodine_azide.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 123464,
+            "@id": "https://doi.org/10.25625/YFXH1H/R5LDTV",
+            "identifier": "https://doi.org/10.25625/YFXH1H/R5LDTV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173249"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Iodine_dioxide.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 129396,
+            "@id": "https://doi.org/10.25625/YFXH1H/UDGOWE",
+            "identifier": "https://doi.org/10.25625/YFXH1H/UDGOWE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173276"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Iodine_monofluoride.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 112104,
+            "@id": "https://doi.org/10.25625/YFXH1H/TBPGRE",
+            "identifier": "https://doi.org/10.25625/YFXH1H/TBPGRE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173283"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Iodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 168030,
+            "@id": "https://doi.org/10.25625/YFXH1H/QPEUAX",
+            "identifier": "https://doi.org/10.25625/YFXH1H/QPEUAX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173267"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Iodocyanoacetylene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 129793,
+            "@id": "https://doi.org/10.25625/YFXH1H/NDK23A",
+            "identifier": "https://doi.org/10.25625/YFXH1H/NDK23A",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173340"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Iodoethane.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 138321,
+            "@id": "https://doi.org/10.25625/YFXH1H/RYNJZK",
+            "identifier": "https://doi.org/10.25625/YFXH1H/RYNJZK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173308"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Iodoethyne.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 121888,
+            "@id": "https://doi.org/10.25625/YFXH1H/AP8XTQ",
+            "identifier": "https://doi.org/10.25625/YFXH1H/AP8XTQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173258"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Iodomethane.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 123456,
+            "@id": "https://doi.org/10.25625/YFXH1H/TPYBYH",
+            "identifier": "https://doi.org/10.25625/YFXH1H/TPYBYH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173330"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Iodomethyl_radical.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 129722,
+            "@id": "https://doi.org/10.25625/YFXH1H/WXTXWJ",
+            "identifier": "https://doi.org/10.25625/YFXH1H/WXTXWJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173302"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Iodotrimethylsilane.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 175584,
+            "@id": "https://doi.org/10.25625/YFXH1H/YW6FW6",
+            "identifier": "https://doi.org/10.25625/YFXH1H/YW6FW6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173313"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Pentafluoroiodobenzene.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 432870,
+            "@id": "https://doi.org/10.25625/YFXH1H/JBCSFE",
+            "identifier": "https://doi.org/10.25625/YFXH1H/JBCSFE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173252"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Vinyl_iodide.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 129385,
+            "@id": "https://doi.org/10.25625/YFXH1H/IFIDWL",
+            "identifier": "https://doi.org/10.25625/YFXH1H/IFIDWL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173261"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Chemistry",
+        "Physics"
+    ],
+    "publications": [
+        {
+            "citation": "Tuning halogen bond donor ability: benchmarking substituent effects in fluoroiodobenzenes",
+            "url": "https://doi.org/10.1039/D6CP00032K"
+        },
+        {
+            "citation": "QMBENCH NQCC Parametrization of nuclear quadrupole coupling constants",
+            "url": "https://qmbench.d.sub.uni-goettingen.de/nqcc/parametrization"
+        },
+        {
+            "citation": "\"Calculation of Nuclear Quadrupole Coupling Constants in Gaseous State Molecules\" W.C. Bailey",
+            "url": "https://nqcc.wcbailey.net/index.html"
+        },
+        {
+            "citation": "Neese, F. Software update: the ORCA program system, version 6.0 WIRES Comput. Molec. Sci. 2025 15(1), e70019",
+            "url": "https://doi.org/10.1002/wcms.70019"
+        },
+        {
+            "citation": "Neese, F. An improvement of the resolution of the identity approximation for the formation of the Coulomb matrix J. Comp. Chem. 2003 24(14), 1740-1747",
+            "url": "https://doi.org/10.1002/jcc.10318"
+        },
+        {
+            "citation": "Neese, F.; Wennmohs, F.; Hansen, A.; Becker, U. Efficient, approximate and parallel Hartree-Fock and hybrid DFT calculations. A 'chain-of-spheres' algorithm for the Hartree-Fock exchange Chem. Phys. 2009 356(1-3), 98-109",
+            "url": "https://doi.org/10.1016/j.chemphys.2008.10.036"
+        },
+        {
+            "citation": "Grimme, S.; Antony, J.; Ehrlich, S.; Krieg, H. A consistent and accurate ab initio parametrization of density functional dispersion correction (DFT-D) for the 94 elements H-Pu J. Chem. Phys. 2010 132 , 154104",
+            "url": "https://doi.org/10.1063/1.3382344"
+        },
+        {
+            "citation": "Grimme, S.; Ehrlich, S.; Goerigk, L. Effect of the damping function in dispersion corrected density functional theory J. Comput. Chem. 2011 32(7), 1456-1465",
+            "url": "https://doi.org/10.1002/jcc.21759"
+        },
+        {
+            "citation": "Helmich-Paris, B.; de Souza, B.; Neese, F.; Izs\u00e1k, R. An improved chain of spheres for exchange algorithm J. Chem. Phys. 2021 155(10), 104109",
+            "url": "https://doi.org/10.1063/5.0058766"
+        },
+        {
+            "citation": "Bykov, D.; Petrenko, T.; Izsak, R.; Kossmann, S.; Becker, U.; Valeev, E.; Neese, F. Efficient implementation of the analytic second derivatives of Hartree-Fock and hybrid DFT energies: a detailed analysis of different approximations Molec. Phys. 2015 113 , 1961-1977",
+            "url": "https://doi.org/10.1080/00268976.2015.1025114"
+        },
+        {
+            "citation": "Neese, F. The SHARK Integral Generation and Digestion System J. Comp. Chem. 2022 44(3), 381",
+            "url": "https://doi.org/10.1002/jcc.26942"
+        },
+        {
+            "citation": "Izsak, R.; Neese, F. An overlap fitted chain of spheres exchange method J. Chem. Phys. 2011 135 , 144105",
+            "url": "https://doi.org/10.1063/1.3646921"
+        },
+        {
+            "citation": "Izsak, R.; Hansen, A.; Neese, F. The resolution of identity and chain of spheres approximations for the LPNO-CCSD singles Fock term Molec. Phys. 2012 110 , 2413-2417",
+            "url": "https://doi.org/10.1080/00268976.2012.687466"
+        },
+        {
+            "citation": "Neese, F. The ORCA program system WIRES Comput. Molec. Sci. 2012 2(1), 73-78",
+            "url": "https://doi.org/10.1002/wcms.81"
+        },
+        {
+            "citation": "Izsak, R.; Neese, F.; Klopper, W. Robust fitting techniques in the chain of spheres approximation to the Fock exchange: The role of the complementary space J. Chem. Phys. 2013 139 ,",
+            "url": "https://doi.org/10.1063/1.4819264"
+        },
+        {
+            "citation": "Neese, F. Software update: the ORCA program system, version 4.0 WIRES Comput. Molec. Sci. 2018 8(1), 1-6",
+            "url": "https://doi.org/10.1002/wcms.1327"
+        },
+        {
+            "citation": "Neese, F.; Wennmohs, F.; Becker, U.; Riplinger, C. The ORCA quantum chemistry program package J. Chem. Phys. 2020 152(22), 224108",
+            "url": "https://doi.org/10.1063/5.0004608"
+        },
+        {
+            "citation": "Neese, F. Software update: The ORCA program system\u2014Version 5.0 WIRES Comput. Molec. Sci. 2022 12(1), e1606",
+            "url": "https://doi.org/10.1002/wcms.1606"
+        },
+        {
+            "citation": "Neese, F. Approximate second-order SCF convergence for spin unrestricted wavefunctions Chem. Phys. Lett. 2000 325(1-3), 93-98",
+            "url": "https://doi.org/10.1016/s0009-2614(00)00662-x"
+        },
+        {
+            "citation": "C. Lee, W. Yang, R. G. Parr, \u201cDevelopment of the Colle-Salvetti correlation-energy formula into a functional of the electron density\u201d, Phys. Rev. B 1988, 37, 785\u2013789.",
+            "url": "https://doi.org/10.1103/PhysRevB.37.785"
+        },
+        {
+            "citation": "B. Miehlich, A. Savin, H. Stoll, H. Preuss, \u201cResults obtained with the correlation energy density functionals of becke and Lee, Yang and Parr\u201d, Chem. Phys. Lett. 1989, 157, 200\u2013206.",
+            "url": "https://doi.org/10.1016/0009-2614(89)87234-3"
+        },
+        {
+            "citation": "A. D. Becke, \u201cDensity-functional thermochemistry. III. The role of exact exchange\u201d, J. Chem. Phys. 1993, 98, 5648\u20135652.",
+            "url": "https://doi.org/10.1063/1.464913"
+        },
+        {
+            "citation": "S. Grimme, J. Antony, S. Ehrlich, H. Krieg, \u201cA consistent and accurate ab initio parametrization of density functional dispersion correction (DFT-D) for the 94 elements H-Pu\u201d, J. Chem. Phys. 2010, 132, 154104.",
+            "url": "https://doi.org/10.1063/1.3382344"
+        },
+        {
+            "citation": "S. Grimme, S. Ehrlich, L. Goerigk, \u201cEffect of the damping function in dispersion corrected density functional theory\u201d, J. Comput. Chem. 2011, 32, 1456\u20131465.",
+            "url": "https://doi.org/10.1002/jcc.21759"
+        },
+        {
+            "citation": "B. M. Axilrod, E. Teller, \u201cInteraction of the van der Waals Type Between Three Atoms\u201d, J. Chem. Phys. 1943, 11, 299\u2013300.",
+            "url": "https://doi.org/10.1063/1.1723844"
+        },
+        {
+            "citation": "Y. Muto, \u201cForce between nonpolar molecules\u201d, Proc. Phys.-Math. Soc. Jpn. 1943, 17, 629\u2013631."
+        },
+        {
+            "citation": "F. Neese, F.Wennmohs, A. Hansen, U. Becker, \u201cEfficient, approximate and parallel Hartree\u2013Fock and hybrid DFT calculations. A \u2018chain-of-spheres\u2019 algorithm for the Hartree\u2013Fock exchange\u201d, Chem. Phys. 2009, 356, 98\u2013109.",
+            "url": "https://doi.org/10.1016/j.chemphys.2008.10.036"
+        },
+        {
+            "citation": "F. Weigend, R. Ahlrichs, \u201cBalanced basis sets of split valence, triple zeta valence and quadruple zeta valence quality for H to Rn: Design and assessment of accuracy\u201d, Phys. Chem. Chem. Phys. 2005, 7, 3297\u20133305.",
+            "url": "https://doi.org/10.1039/B508541A"
+        },
+        {
+            "citation": "J. Zheng, X. Xu, D. Truhlar, \u201cMinimally augmented Karlsruhe basis sets\u201d, Theor. Chem. Acc. 2011, 128, 295\u2013305.",
+            "url": "https://doi.org/10.1007/s00214-010-0846-z"
+        },
+        {
+            "citation": "K. A. Peterson, D. Figgen, E. Goll, H. Stoll, M. Dolg, \u201cSystematically convergent basis sets with relativistic pseudopotentials. II. Small-core pseudopotentials and correlation consistent basis sets for the post-d group 16\u201318 elements\u201d, J. Chem. Phys. 2003, 119, 11113\u201311123.",
+            "url": "https://doi.org/10.1063/1.1622924"
+        },
+        {
+            "citation": "K. A. Peterson, B. C. Shepler, D. Figgen, H. Stoll, \u201cOn the Spectroscopic and Thermochemical Properties of ClO, BrO, IO, and Their Anions\u201d, J. Phys. Chem. A 2006, 110, 13877\u201313883.",
+            "url": "https://doi.org/10.1021/jp065887l"
+        },
+        {
+            "citation": "L. Visscher, K. Dyall, \u201cDIRAC\u2013FOCK ATOMIC ELECTRONIC STRUCTURE CALCULATIONS USING DIFFERENT NUCLEAR CHARGE DISTRIBUTIONS\u201d, At. Data Nucl. Data Tables 1997, 67, 207\u2013224.",
+            "url": "https://doi.org/10.1006/adnd.1997.0751"
+        },
+        {
+            "citation": "F. Neese, A. Wolf, T. Fleig, M. Reiher, B. A. Hess, \u201cCalculation of electric-field gradients based on higher-order generalized Douglas\u2013Kroll transformations\u201d, J. Chem. Phys. 2005, 122, 204107.",
+            "url": "https://doi.org/10.1063/1.1904589"
+        },
+        {
+            "citation": "D. Peng, N. Middendorf, F. Weigend, M. Reiher, \u201cAn efficient implementation of two-component relativistic exact-decoupling methods for large molecules\u201d, J. Chem. Phys. 2013, 138, 184105.",
+            "url": "https://doi.org/10.1063/1.4803693"
+        },
+        {
+            "citation": "Y. J. Franzke, F. Mack, F.Weigend, \u201cNMR Indirect Spin\u2013Spin Coupling Constants in a Modern Quasi-Relativistic Density Functional Framework\u201d, J. Chem. Theory Comput. 2021, 17, 3974\u20133994.",
+            "url": "https://doi.org/10.1021/acs.jctc.1c00167"
+        }
+    ]
+}

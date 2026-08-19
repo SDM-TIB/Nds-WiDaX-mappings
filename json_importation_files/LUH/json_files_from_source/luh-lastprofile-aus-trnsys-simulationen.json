@@ -1,0 +1,91 @@
+{
+  "author": "Dirk Bohne, Elena Paul, Hamidreza Heidar Esfehani, Jakob Emanuel Schäuble, Christian Kloidt, Reinhard Merkentrup",
+  "author_email": "",
+  "creator_user_id": "f3aaf1e6-ed3b-4f91-b2f7-74644a982873",
+  "have_copyright": "Yes",
+  "id": "ad9a0fce-255b-4b55-bb9e-2468592ba0fb",
+  "isopen": true,
+  "license_id": "CC-BY-3.0",
+  "license_title": "Creative Commons Attribution 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "maintainer": "Dirk Bohne, Elena Paul, Hamidreza Heidar Esfehani, Jakob Emanuel Schäuble, Christian Kloidt, Reinhard Merkentrup",
+  "maintainer_email": "",
+  "metadata_created": "2020-11-04T14:41:30.636415",
+  "metadata_modified": "2022-01-20T13:49:09.664989",
+  "name": "lastprofile-aus-trnsys-simulationen",
+  "notes": "In gekoppelten Gebäude- und Anlagensimulationen generierte viertelstündliche (Teil-)Lastprofile der Untersuchungsobjekte aus dem BMWI-Forschungsprojekt EltStore. Die Simulationsmodelle sind auf Grundlage der realen Planungsdaten für Architektur, Gebäude- und Elekrotechnik parametriert.\r\n\r\nGebäudetypen sind\r\n\r\n* Hotel, \r\n* Verwaltungs-/Bürogebäude, \r\n* Feuerwache sowie\r\n* Hochschulsportzentrum. \r\n\r\nDie Lastprofile sind aufgeschlüsselt in die einzelnen Verbrauchsgruppen:\r\n\r\n* P_bel - Leistung künstl. Beleuchtung in W\r\n* P_equip - Leistung elektrischer Geräte in W\r\n* P_vert - Leistung Pumpen Wärme-/Kälteverteilung in W\r\n* P_rlt - Leistung Ventilatoren und Peripheriegeräte RLT in W\r\n* P_erz_c - Leistung strombasierte Kälteerzeugung in W\r\n* P_erz_h - Leistung strombasierte Wärmeerzeugung in W\r\n* P_ges - Gesamte elektrische Leistung des Gebäudes in W\r\n* P_tww - Leistung strombasierte Warmwasserbereitung in W\r\n\r\nWetterdaten für Simulationen: \r\n\r\n* Hotel - Stuttgart, 2017 (DWD-Messstation 4928)\r\n* Feuerwache - Baden-Württemberg, TRY 2015\r\n* Verwaltung - Nordrhein-Westfalen, TRY 2015\r\n* Sportzentrum - Hannover, TRY 2015\r\n\r\nBemerkung: \r\n\r\n* Sportzentrum: Elektrischer Saunaofen mit P_max=ca. 50kW (in P_erz_h enthalten) \r\n",
+  "num_resources": 1,
+  "num_tags": 2,
+  "organization": {
+    "id": "123d6d8f-2723-4766-9181-9e9e52ab9b2b",
+    "name": "institutes-fur-entwerfen-und-konstruieren",
+    "title": "Institut für Entwerfen und Konstruieren ",
+    "type": "organization",
+    "description": "https://www.iek.uni-hannover.de",
+    "image_url": "",
+    "created": "2020-10-14T11:30:47.878425",
+    "is_organization": true,
+    "approval_status": "approved",
+    "state": "active"
+  },
+  "owner_org": "123d6d8f-2723-4766-9181-9e9e52ab9b2b",
+  "private": false,
+  "state": "active",
+  "terms_of_usage": "Yes",
+  "title": "Elektrische (Teil-)Lastprofile verschiedener Nichtwohngebäude aus TRNSYS-Simulationen (Projekt EltStore)",
+  "type": "dataset",
+  "url": "",
+  "version": "",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2020-11-04T14:43:27.545396",
+      "datastore_active": false,
+      "description": "Generierte Teillastprofile (CSV) und Info-Datei (TXT). ",
+      "format": "CSV, TXT",
+      "hash": "",
+      "id": "e0595fc9-4083-4332-b5f9-749b0611e310",
+      "last_modified": "2020-11-04T14:43:27.517591",
+      "metadata_modified": "2020-11-04T14:43:27.545396",
+      "mimetype": "application/zip",
+      "mimetype_inner": null,
+      "name": "EltStore_Lastprofile.zip",
+      "package_id": "ad9a0fce-255b-4b55-bb9e-2468592ba0fb",
+      "position": 0,
+      "resource_type": null,
+      "size": 2069439,
+      "state": "active",
+      "tracking_summary": {
+        "total": 22,
+        "recent": 1
+      },
+      "url": "https://data.uni-hannover.de/dataset/ad9a0fce-255b-4b55-bb9e-2468592ba0fb/resource/e0595fc9-4083-4332-b5f9-749b0611e310/download/eltstore_lastprofile.zip",
+      "url_type": "upload"
+    }
+  ],
+  "tags": [
+    {
+      "display_name": "Lastprofile",
+      "id": "f9bba78d-784b-411d-a89e-5005f9bb9980",
+      "name": "Lastprofile",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Nichtwohngebäude",
+      "id": "cf4a2587-0916-4f08-92b0-b7037922b69e",
+      "name": "Nichtwohngebäude",
+      "state": "active",
+      "vocabulary_id": null
+    }
+  ],
+  "groups": [],
+  "relationships_as_subject": [],
+  "relationships_as_object": [],
+  "doi": "10.25835/0089924",
+  "doi_status": true,
+  "domain": "https://data.uni-hannover.de",
+  "doi_date_published": "2020-11-04",
+  "doi_publisher": "LUIS"
+}

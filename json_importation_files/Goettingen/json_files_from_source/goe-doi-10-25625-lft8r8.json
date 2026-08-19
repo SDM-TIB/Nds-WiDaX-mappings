@@ -1,0 +1,112 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/LFT8R8",
+    "identifier": "https://doi.org/10.25625/LFT8R8",
+    "name": "Data for \"A novel two-step framework for bush biomass change-detection and quantification in Namibia using ground- and drone-based LiDAR - a pilot study.\"",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Konstantin",
+            "familyName": "K\u00f6the",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department for Spatial Structures and Digitization of Forests, University of G\u00f6ttingen"
+            },
+            "name": "K\u00f6the, Konstantin"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Konstantin",
+            "familyName": "K\u00f6the",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department for Spatial Structures and Digitization of Forests, University of G\u00f6ttingen"
+            },
+            "name": "K\u00f6the, Konstantin"
+        }
+    ],
+    "datePublished": "2026-05-27",
+    "dateModified": "2026-05-27",
+    "version": "1",
+    "description": "Data for the study \"A novel two-step framework for bush biomass change-detection and quantification in Namibia using ground- and drone-based LiDAR - a pilot study.\" published in Biomass and Bioenergy.",
+    "keywords": [
+        "Earth and Environmental Sciences",
+        "Biomass quantification",
+        "Namibia",
+        "LiDAR"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "A novel two-step framework for bush biomass change-detection and quantification in Namibia using ground- and drone-based LiDAR - a pilot study."
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "change_voxel_stats_MLS.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "contentSize": 17909,
+            "description": "Results of the applied change-detection algorithm between before- and after-harvest point clouds of MLS scans. Plot = Plot number, voxel_size = applied voxel size to detect change, voxel_count_before = number of voxels counted in before harvest scan, voxel_count_after = number of voxels counted in after harvest scan, voxel_only_in_before = number of voxels unique to the before harvest scan",
+            "@id": "https://doi.org/10.25625/LFT8R8/0DM5R2",
+            "identifier": "https://doi.org/10.25625/LFT8R8/0DM5R2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/163892"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "change_voxel_stats_UAV.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "contentSize": 17564,
+            "description": "Results of the applied change-detection algorithm between before- and after-harvest point clouds of UAV scans. Plot = Plot number, voxel_size = applied voxel size to detect change, voxel_count_before = number of voxels counted in before harvest scan, voxel_count_after = number of voxels counted in after harvest scan, voxel_only_in_before = number of voxels unique to the before harvest scan",
+            "@id": "https://doi.org/10.25625/LFT8R8/PG03T8",
+            "identifier": "https://doi.org/10.25625/LFT8R8/PG03T8",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/163891"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "lidar_scans_clipped_plots_UAV_MLS.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 1875514755,
+            "description": "Processed and clipped before- and after-harvest point clouds of all plots captured by MLS and UAV-LS.",
+            "@id": "https://doi.org/10.25625/LFT8R8/T3XUN3",
+            "identifier": "https://doi.org/10.25625/LFT8R8/T3XUN3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/172070"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "refined_voxel_stats_0.08m_zcut1.00m.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 23093,
+            "description": "Results of the refined harvest voxel algorithm on MLS data (voxel size: 8 cm, z-cutoff: 1 m). Plot = plot number, harvest_voxel = voxel size used in change-detection algorithm, voxel_count = number of voxels after refinement.",
+            "@id": "https://doi.org/10.25625/LFT8R8/2YHLSK",
+            "identifier": "https://doi.org/10.25625/LFT8R8/2YHLSK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/164058"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Earth and Environmental Sciences"
+    ],
+    "publications": [
+        {
+            "citation": "A novel two-step framework for bush biomass change-detection and quantification in Namibia using ground- and drone-based LiDAR - a pilot study."
+        }
+    ]
+}

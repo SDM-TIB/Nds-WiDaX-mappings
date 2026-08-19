@@ -1,0 +1,381 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/CTG8TD",
+    "identifier": "https://doi.org/10.25625/CTG8TD",
+    "name": "Predicted and experimental rotational constants as well as predicted xyz structure files of bromo- and chloropropanols",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Beppo",
+            "familyName": "Hartwig",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institut f\u00fcr Physikalische Chemie, Georg-August Universit\u00e4t G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-6260-2248",
+            "@id": "https://orcid.org/0000-0002-6260-2248",
+            "identifier": "https://orcid.org/0000-0002-6260-2248",
+            "name": "Hartwig, Beppo"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Daniel A.",
+            "familyName": "Obenchain",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institut f\u00fcr Physikalische Chemie, Georg-August Universit\u00e4t G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0001-5533-1163",
+            "@id": "https://orcid.org/0000-0001-5533-1163",
+            "identifier": "https://orcid.org/0000-0001-5533-1163",
+            "name": "Obenchain, Daniel A."
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Beppo",
+            "familyName": "Hartwig",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institut f\u00fcr Physikalische Chemie, Georg-August Universit\u00e4t G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-6260-2248",
+            "@id": "https://orcid.org/0000-0002-6260-2248",
+            "identifier": "https://orcid.org/0000-0002-6260-2248",
+            "name": "Hartwig, Beppo"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Daniel A.",
+            "familyName": "Obenchain",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institut f\u00fcr Physikalische Chemie, Georg-August Universit\u00e4t G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0001-5533-1163",
+            "@id": "https://orcid.org/0000-0001-5533-1163",
+            "identifier": "https://orcid.org/0000-0001-5533-1163",
+            "name": "Obenchain, Daniel A."
+        }
+    ],
+    "datePublished": "2024-02-22",
+    "dateModified": "2024-03-21",
+    "version": "1",
+    "description": "We provide predicted and experimental rotational constants as well as predicted xyz structure files of bromo- and chloropropanols. The experimental rotational fits can be found in the corresponding fits folder and always end with _form.out. A file labeled 1_35Cl_g_primeG_form.out, for example, corresponds to the g'G conformer of 1-chloropropan-2-ol for the 35Cl isotope with all other isotopes being present in their naturally most abundant forms. The nomenclature used here is related to that of a previous study (T. Goldstein, M. Snow, B. Howard, \u201cIntramolecular hydrogen bonding in chiral alcohols: The microwave spectrum of the chloropropanols\u201d, J. Mol. Spectrosc. 2006, 236, 1\u201310, DOI: 10.1016/j.jms.2005.11.010) in the following way: 2-gG'/g-ga, 2-g'G/g'-gg for 2-X-propan-1-ols and 1-gG'/m-ga, 1-g'G/h-gg for 1-X-propan-2-ols (X = Cl, Br) The xyz-files provided have been computed at the DF-CCSD(T)-F12a/VDZ-F12 level of theory. DF implies the use of density fitting. For bromine atoms, the VDZ-PP-F12 basis set was used instead. A comparison of experimental rotational, quartic distortion and nuclear quadrupole coupling constants to computed ones can be found in Microwave_Br_Overview.xlsx and Microwave_Cl_Overview.xlsx. The distortion constants have been computed using Vibrational Perturbation Theory of Second Order (VPT2). B0_Overview.xlsx provides a comparison of computed equilibrium (Be), vibrational averaged rotational (B0), and vibrational averaged rotational constants including rotational distortion effects (B0 + dist). The B0 values have also been obtained with VPT2.",
+    "keywords": [
+        "Chemistry",
+        "Physics",
+        "spectroscopy",
+        "rotational constants",
+        "distortion constants",
+        "nuclear quadrupole coupling constants",
+        "rotational fitting",
+        "hydrogen bonding",
+        "quantum chemistry",
+        "conformations",
+        "density functional theory",
+        "coupled cluster theory",
+        "M\u00f8ller\u2013Plesset perturbation theory",
+        "vibrational perturbation theory",
+        "VPT2",
+        "gas phase",
+        "benchmarking"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "B. Hartwig, \"Diols under Investigation: Benchmarking their Monomers, Dimers and Chirality Recognition\", PhD thesis, Georg-August-Universit\u00e4t G\u00f6ttingen, Germany 2022.",
+            "@id": "https://ediss.uni-goettingen.de/handle/11858/14412",
+            "identifier": "https://ediss.uni-goettingen.de/handle/11858/14412",
+            "url": "https://ediss.uni-goettingen.de/handle/11858/14412"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Beppo Hartwig, Melanie Schnell, Martin A. Suhm, Daniel A. Obenchain, \"Weak hydrogen bonding to halogens and chirality communication in propanols: Raman and microwave spectroscopy benchmark theory \", Physical Chemistry Chemical Physics, 2024, 26, 9432-9452",
+            "@id": "https://doi.org/10.1039/D3CP04911F",
+            "identifier": "https://doi.org/10.1039/D3CP04911F",
+            "url": "https://doi.org/10.1039/D3CP04911F"
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "Deutsche Forschungsgemeinschaft (DFG, German Research Foundation)"
+        },
+        {
+            "@type": "Organization",
+            "name": "Deutsche Forschungsgemeinschaft (DFG, German Research Foundation)"
+        },
+        {
+            "@type": "Organization",
+            "name": "Deutsche Forschungsgemeinschaft (DFG, German Research Foundation)"
+        }
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "B0_Overview.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 18013,
+            "@id": "https://doi.org/10.25625/CTG8TD/OLTW16",
+            "identifier": "https://doi.org/10.25625/CTG8TD/OLTW16",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67339"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Microwave_Br_Overview.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 23934,
+            "@id": "https://doi.org/10.25625/CTG8TD/SBSVFW",
+            "identifier": "https://doi.org/10.25625/CTG8TD/SBSVFW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67337"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "1_79Br_gG_prime_form.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 24612,
+            "@id": "https://doi.org/10.25625/CTG8TD/6MZL8Q",
+            "identifier": "https://doi.org/10.25625/CTG8TD/6MZL8Q",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67347"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "1_79Br_g_primeG_form.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 33284,
+            "@id": "https://doi.org/10.25625/CTG8TD/FZZLGP",
+            "identifier": "https://doi.org/10.25625/CTG8TD/FZZLGP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67350"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "1_81Br_gG_prime_form.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 24873,
+            "@id": "https://doi.org/10.25625/CTG8TD/P67ZWK",
+            "identifier": "https://doi.org/10.25625/CTG8TD/P67ZWK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67352"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "1_81Br_g_primeG_form.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 63818,
+            "@id": "https://doi.org/10.25625/CTG8TD/UQJEP2",
+            "identifier": "https://doi.org/10.25625/CTG8TD/UQJEP2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67349"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2_79Br_gG_prime_form.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 23412,
+            "@id": "https://doi.org/10.25625/CTG8TD/FAERUK",
+            "identifier": "https://doi.org/10.25625/CTG8TD/FAERUK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67351"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2_79Br_g_primeG_form.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 28428,
+            "@id": "https://doi.org/10.25625/CTG8TD/KUXBAN",
+            "identifier": "https://doi.org/10.25625/CTG8TD/KUXBAN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67353"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2_81Br_gG_prime_form.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 24204,
+            "@id": "https://doi.org/10.25625/CTG8TD/TXEMWZ",
+            "identifier": "https://doi.org/10.25625/CTG8TD/TXEMWZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67354"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2_81Br_g_primeG_form.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 28076,
+            "@id": "https://doi.org/10.25625/CTG8TD/PU0RCM",
+            "identifier": "https://doi.org/10.25625/CTG8TD/PU0RCM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67348"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "1_Br_gG_prime.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 868,
+            "@id": "https://doi.org/10.25625/CTG8TD/ZKRY7O",
+            "identifier": "https://doi.org/10.25625/CTG8TD/ZKRY7O",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67344"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "1_Br_g_primeG.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 868,
+            "@id": "https://doi.org/10.25625/CTG8TD/ISFH3M",
+            "identifier": "https://doi.org/10.25625/CTG8TD/ISFH3M",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67340"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2_Br_gG_prime.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 868,
+            "@id": "https://doi.org/10.25625/CTG8TD/CXV5ZP",
+            "identifier": "https://doi.org/10.25625/CTG8TD/CXV5ZP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67342"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2_Br_g_primeG.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 868,
+            "@id": "https://doi.org/10.25625/CTG8TD/QRNDGI",
+            "identifier": "https://doi.org/10.25625/CTG8TD/QRNDGI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67338"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Microwave_Cl_Overview.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 22488,
+            "@id": "https://doi.org/10.25625/CTG8TD/X72NRW",
+            "identifier": "https://doi.org/10.25625/CTG8TD/X72NRW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/71406"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "1_35Cl_gG_prime_form.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 20134,
+            "@id": "https://doi.org/10.25625/CTG8TD/4UJTL5",
+            "identifier": "https://doi.org/10.25625/CTG8TD/4UJTL5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67357"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "1_35Cl_g_primeG_form.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 12463,
+            "@id": "https://doi.org/10.25625/CTG8TD/PTYSRV",
+            "identifier": "https://doi.org/10.25625/CTG8TD/PTYSRV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67355"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "1_37Cl_gG_prime_form.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 15950,
+            "@id": "https://doi.org/10.25625/CTG8TD/USKI9M",
+            "identifier": "https://doi.org/10.25625/CTG8TD/USKI9M",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67361"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "1_37Cl_g_primeG_form.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 12689,
+            "@id": "https://doi.org/10.25625/CTG8TD/7O0IBY",
+            "identifier": "https://doi.org/10.25625/CTG8TD/7O0IBY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67359"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2_35Cl_gG_prime_form.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 19196,
+            "@id": "https://doi.org/10.25625/CTG8TD/2YF06Z",
+            "identifier": "https://doi.org/10.25625/CTG8TD/2YF06Z",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67360"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2_35Cl_g_primeG_form.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 13182,
+            "@id": "https://doi.org/10.25625/CTG8TD/ET3PYJ",
+            "identifier": "https://doi.org/10.25625/CTG8TD/ET3PYJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67356"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2_37Cl_gG_prime_form.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 14933,
+            "@id": "https://doi.org/10.25625/CTG8TD/OGEKZC",
+            "identifier": "https://doi.org/10.25625/CTG8TD/OGEKZC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67358"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "1_Cl_gG_prime.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 868,
+            "@id": "https://doi.org/10.25625/CTG8TD/AQX38A",
+            "identifier": "https://doi.org/10.25625/CTG8TD/AQX38A",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67345"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "1_Cl_g_primeG.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 868,
+            "@id": "https://doi.org/10.25625/CTG8TD/P4LCI8",
+            "identifier": "https://doi.org/10.25625/CTG8TD/P4LCI8",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67341"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2_Cl_gG_prime.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 868,
+            "@id": "https://doi.org/10.25625/CTG8TD/U0WCZK",
+            "identifier": "https://doi.org/10.25625/CTG8TD/U0WCZK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67343"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2_Cl_g_primeG.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 868,
+            "@id": "https://doi.org/10.25625/CTG8TD/HITN44",
+            "identifier": "https://doi.org/10.25625/CTG8TD/HITN44",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67346"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Chemistry",
+        "Physics"
+    ],
+    "publications": [
+        {
+            "citation": "B. Hartwig, \"Diols under Investigation: Benchmarking their Monomers, Dimers and Chirality Recognition\", PhD thesis, Georg-August-Universit\u00e4t G\u00f6ttingen, Germany <b>2022</b>.",
+            "url": "https://ediss.uni-goettingen.de/handle/11858/14412"
+        },
+        {
+            "citation": "Beppo Hartwig, Melanie Schnell, Martin A. Suhm, Daniel A. Obenchain, \"Weak hydrogen bonding to halogens and chirality communication in propanols: Raman and microwave spectroscopy benchmark theory \", <i>Physical Chemistry Chemical Physics</i>, <b>2024</b>, <i>26</i>, 9432-9452",
+            "url": "https://doi.org/10.1039/D3CP04911F"
+        }
+    ]
+}

@@ -1,0 +1,282 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/LOPQ2K",
+    "identifier": "https://doi.org/10.25625/LOPQ2K",
+    "name": "Land use maps 2020 based on LiDAR",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Michael",
+            "familyName": "Schlund",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Twente"
+            },
+            "sameAs": "https://orcid.org/0000-0001-6657-6713",
+            "@id": "https://orcid.org/0000-0001-6657-6713",
+            "identifier": "https://orcid.org/0000-0001-6657-6713",
+            "name": "Schlund, Michael"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Stefan",
+            "familyName": "Erasmi",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Th\u00fcnen Institute"
+            },
+            "sameAs": "https://orcid.org/0000-0002-6393-6071",
+            "@id": "https://orcid.org/0000-0002-6393-6071",
+            "identifier": "https://orcid.org/0000-0002-6393-6071",
+            "name": "Erasmi, Stefan"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Alexander",
+            "familyName": "Knohl",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Goettingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-7615-8870",
+            "@id": "https://orcid.org/0000-0002-7615-8870",
+            "identifier": "https://orcid.org/0000-0002-7615-8870",
+            "name": "Knohl, Alexander"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Michael",
+            "familyName": "Schlund",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Twente"
+            },
+            "sameAs": "https://orcid.org/0000-0001-6657-6713",
+            "@id": "https://orcid.org/0000-0001-6657-6713",
+            "identifier": "https://orcid.org/0000-0001-6657-6713",
+            "name": "Schlund, Michael"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Stefan",
+            "familyName": "Erasmi",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Th\u00fcnen Institute"
+            },
+            "sameAs": "https://orcid.org/0000-0002-6393-6071",
+            "@id": "https://orcid.org/0000-0002-6393-6071",
+            "identifier": "https://orcid.org/0000-0002-6393-6071",
+            "name": "Erasmi, Stefan"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Alexander",
+            "familyName": "Knohl",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Goettingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-7615-8870",
+            "@id": "https://orcid.org/0000-0002-7615-8870",
+            "identifier": "https://orcid.org/0000-0002-7615-8870",
+            "name": "Knohl, Alexander"
+        }
+    ],
+    "datePublished": "2022-07-07",
+    "dateModified": "2023-10-19",
+    "version": "1",
+    "description": "Land use map based on LiDAR data and retrieved metrics. Spatial coverage is the LiDAR areas. The map reflects the status of the land use at the LiDAR acquisitions in January/February 2020. The spatial resolution of the maps is 10mx10m and 50mx50m resolution.",
+    "keywords": [
+        "Earth and Environmental Sciences",
+        "Land use",
+        "LiDAR"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "Camarretta N, Ehbrecht M, Seidel D, Wenzel A, Zuhdi M, Merk MS, Schlund M, Erasmi S, Knohl A. Using Airborne Laser Scanning to Characterize Land-Use Systems in a Tropical Landscape Based on Vegetation Structural Metrics. Remote Sensing. 2021; 13(23):4794. https://doi.org/10.3390/rs13234794"
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Area1_landuse_LiDAR_10m.qml",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 2688,
+            "@id": "https://doi.org/10.25625/LOPQ2K/9PLELX",
+            "identifier": "https://doi.org/10.25625/LOPQ2K/9PLELX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/47502"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Area1_landuse_LiDAR_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 55038,
+            "@id": "https://doi.org/10.25625/LOPQ2K/DPWJCY",
+            "identifier": "https://doi.org/10.25625/LOPQ2K/DPWJCY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/47490"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Area1_landuse_LiDAR_50m.qml",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 2688,
+            "@id": "https://doi.org/10.25625/LOPQ2K/KK2REN",
+            "identifier": "https://doi.org/10.25625/LOPQ2K/KK2REN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/47499"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Area1_landuse_LiDAR_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 3226,
+            "@id": "https://doi.org/10.25625/LOPQ2K/K4VKXX",
+            "identifier": "https://doi.org/10.25625/LOPQ2K/K4VKXX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/47503"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Area2_landuse_LiDAR_10m.qml",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 2688,
+            "@id": "https://doi.org/10.25625/LOPQ2K/MPIAOS",
+            "identifier": "https://doi.org/10.25625/LOPQ2K/MPIAOS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/47495"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Area2_landuse_LiDAR_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 1371227,
+            "@id": "https://doi.org/10.25625/LOPQ2K/MFTCJQ",
+            "identifier": "https://doi.org/10.25625/LOPQ2K/MFTCJQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/47505"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Area2_landuse_LiDAR_50m.qml",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 2688,
+            "@id": "https://doi.org/10.25625/LOPQ2K/AEOLRY",
+            "identifier": "https://doi.org/10.25625/LOPQ2K/AEOLRY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/47500"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Area2_landuse_LiDAR_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 61889,
+            "@id": "https://doi.org/10.25625/LOPQ2K/FYNXEM",
+            "identifier": "https://doi.org/10.25625/LOPQ2K/FYNXEM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/47493"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Area3_landuse_LiDAR_10m.qml",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 2688,
+            "@id": "https://doi.org/10.25625/LOPQ2K/Q4HTDQ",
+            "identifier": "https://doi.org/10.25625/LOPQ2K/Q4HTDQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/47501"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Area3_landuse_LiDAR_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 116776,
+            "@id": "https://doi.org/10.25625/LOPQ2K/8SNV9D",
+            "identifier": "https://doi.org/10.25625/LOPQ2K/8SNV9D",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/47496"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Area3_landuse_LiDAR_50m.qml",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 2688,
+            "@id": "https://doi.org/10.25625/LOPQ2K/E3MJTG",
+            "identifier": "https://doi.org/10.25625/LOPQ2K/E3MJTG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/47491"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Area3_landuse_LiDAR_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 6035,
+            "@id": "https://doi.org/10.25625/LOPQ2K/WTXAYQ",
+            "identifier": "https://doi.org/10.25625/LOPQ2K/WTXAYQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/47497"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Area4_landuse_LiDAR_10m.qml",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 2688,
+            "@id": "https://doi.org/10.25625/LOPQ2K/NARHZN",
+            "identifier": "https://doi.org/10.25625/LOPQ2K/NARHZN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/47498"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Area4_landuse_LiDAR_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 1202557,
+            "@id": "https://doi.org/10.25625/LOPQ2K/EAMK9U",
+            "identifier": "https://doi.org/10.25625/LOPQ2K/EAMK9U",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/47504"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Area4_landuse_LiDAR_50m.qml",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 2688,
+            "@id": "https://doi.org/10.25625/LOPQ2K/QKBJAO",
+            "identifier": "https://doi.org/10.25625/LOPQ2K/QKBJAO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/47492"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Area4_landuse_LiDAR_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 51292,
+            "@id": "https://doi.org/10.25625/LOPQ2K/5DVBEG",
+            "identifier": "https://doi.org/10.25625/LOPQ2K/5DVBEG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/47489"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Description_landuse.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 412,
+            "@id": "https://doi.org/10.25625/LOPQ2K/ZUUTMC",
+            "identifier": "https://doi.org/10.25625/LOPQ2K/ZUUTMC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/47494"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Earth and Environmental Sciences"
+    ],
+    "publications": [
+        {
+            "citation": "Camarretta N, Ehbrecht M, Seidel D, Wenzel A, Zuhdi M, Merk MS, Schlund M, Erasmi S, Knohl A. Using Airborne Laser Scanning to Characterize Land-Use Systems in a Tropical Landscape Based on Vegetation Structural Metrics. Remote Sensing. 2021; 13(23):4794. https://doi.org/10.3390/rs13234794"
+        }
+    ]
+}

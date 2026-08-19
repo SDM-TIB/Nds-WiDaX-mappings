@@ -1,0 +1,589 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/ZFPSYJ",
+    "identifier": "https://doi.org/10.25625/ZFPSYJ",
+    "name": "Digital Terrain Models & elevation metrics",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Michael",
+            "familyName": "Schlund",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Twente"
+            },
+            "sameAs": "https://orcid.org/0000-0001-6657-6713",
+            "@id": "https://orcid.org/0000-0001-6657-6713",
+            "identifier": "https://orcid.org/0000-0001-6657-6713",
+            "name": "Schlund, Michael"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Michael",
+            "familyName": "Schlund",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Twente"
+            },
+            "sameAs": "https://orcid.org/0000-0001-6657-6713",
+            "@id": "https://orcid.org/0000-0001-6657-6713",
+            "identifier": "https://orcid.org/0000-0001-6657-6713",
+            "name": "Schlund, Michael"
+        }
+    ],
+    "datePublished": "2021-11-16",
+    "dateModified": "2023-05-17",
+    "version": "4",
+    "description": "Digital Terrain Models (DTMs), Slope, Aspect, Topographic Position Index (TPI), curvature in profile and plan direction and their average, and flow accumulation derived from airborne LiDAR data acquired over the PTPN 6 estate, Batanghari regency, Harapan rainforest protected area, and Sarolangun regency, in Jambi, Sumatra, Indonesia. Slope, aspect, curvatures, flow accumulation and TPI were calculated following a two-step approach where first the DTM was resampled to 10 m pixel size and then the metrics were calculated and further aggregated to 50 m (see also Jucker et al. 2018 https://doi.org/10.1111/gcb.14415). Original pixel size of DTM: 1m. Geographic Coordinate System: EPSG 32748.",
+    "keywords": [
+        "Agricultural Sciences",
+        "Earth and Environmental Sciences"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Aspect_Batanghari_UTM48S_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 15737613,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/PPCP3A",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/PPCP3A",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56279"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Aspect_Batanghari_UTM48S_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 417220,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/2LKYHK",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/2LKYHK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56263"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Aspect_Harapan_UTM48S_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 1970013,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/ZWSQWZ",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/ZWSQWZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56265"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Aspect_Harapan_UTM48S_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 64854,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/HGSPVJ",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/HGSPVJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56266"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Aspect_PTPN6_UTM48S_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 986613,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/LWXWPB",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/LWXWPB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56268"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Aspect_PTPN6_UTM48S_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 31480,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/EIGZUJ",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/EIGZUJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56252"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Aspect_Sarolangun_UTM48S_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 15345231,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/ZAYCNM",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/ZAYCNM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56253"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Aspect_Sarolangun_UTM48S_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 298482,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/L10UFY",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/L10UFY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56262"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "curvature_Batanghari_UTM48S_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 15737574,
+            "description": "Curvature Batanghari",
+            "@id": "https://doi.org/10.25625/ZFPSYJ/XVDJ4L",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/XVDJ4L",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56457"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "curvature_Harapan_UTM48S_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 1969974,
+            "description": "Curvature Harapan",
+            "@id": "https://doi.org/10.25625/ZFPSYJ/BEXNUB",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/BEXNUB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56466"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "curvature_PTPN6_UTM48S_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 986613,
+            "description": "Curvature PTPN6",
+            "@id": "https://doi.org/10.25625/ZFPSYJ/RKEP0K",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/RKEP0K",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56464"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "curvature_Sarolangun_UTM48S_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 15345192,
+            "description": "Curvature Sarolangun",
+            "@id": "https://doi.org/10.25625/ZFPSYJ/A2DJIU",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/A2DJIU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56455"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "DEM_Batanghari_UTM48S_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 6454664,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/P35WAB",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/P35WAB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56267"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "DEM_Batanghari_UTM48S_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 282214,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/7IUEXG",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/7IUEXG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56273"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "DEM_Batanghari_UTM48S_EPSG_32748.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 452772658,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/IURT6L",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/IURT6L",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/34601"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "DEM_Harapan_UTM48S_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 993796,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/SDVNHH",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/SDVNHH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56277"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "DEM_Harapan_UTM48S_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 45852,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/ZSKZXC",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/ZSKZXC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56257"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "DEM_Harapan_UTM48S_EPSG_32748.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 157151086,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/C0ZCDU",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/C0ZCDU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/34604"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "DEM_Sarolangun_UTM48S_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 6102194,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/GYXQXX",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/GYXQXX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56272"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "DEM_Sarolangun_UTM48S_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 271318,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/SWYOV4",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/SWYOV4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56251"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "DEM_Sarolangun_UTM48S_EPSG_32748.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 1437342280,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/DSJDDD",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/DSJDDD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/34602"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "DTM_PTPN6_UTM48S_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 442206,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/CBAPLF",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/CBAPLF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56280"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "DTM_PTPN6_UTM48S_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 23076,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/IAJLNI",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/IAJLNI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56255"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "DTM_PTPN6_UTM48S_EPSG_32748.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 91787766,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/3CDDHR",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/3CDDHR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/34603"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "flowacc_Batanghari_UTM48S_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 2119184,
+            "description": "Flow accumulation (i.e., catchment) Batanghari",
+            "@id": "https://doi.org/10.25625/ZFPSYJ/7YFGPJ",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/7YFGPJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56459"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "flowacc_Harapan_UTM48S_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 306128,
+            "description": "Flow accumulation (i.e., catchment) Harapan",
+            "@id": "https://doi.org/10.25625/ZFPSYJ/NXB2QN",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/NXB2QN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56469"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "flowacc_PTPN6_UTM48S_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 143724,
+            "description": "Flow accumulation (i.e., catchment) PTPN6",
+            "@id": "https://doi.org/10.25625/ZFPSYJ/KPX3IJ",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/KPX3IJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56458"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "flowacc_Sarolangun_UTM48S_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 1558484,
+            "description": "Flow accumulation (i.e., catchment) Sarolangun",
+            "@id": "https://doi.org/10.25625/ZFPSYJ/35OLSV",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/35OLSV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56470"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "plan_curvature_Batanghari_UTM48S_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 15737574,
+            "description": "Plan Curvature Batanghari",
+            "@id": "https://doi.org/10.25625/ZFPSYJ/7A5OG2",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/7A5OG2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56461"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "plan_curvature_Harapan_UTM48S_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 1969974,
+            "description": "Plan Curvature Harapan",
+            "@id": "https://doi.org/10.25625/ZFPSYJ/KFLFFR",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/KFLFFR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56460"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "plan_curvature_PTPN6_UTM48S_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 986613,
+            "description": "Plan Curvature PTPN6",
+            "@id": "https://doi.org/10.25625/ZFPSYJ/ZU7D0V",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/ZU7D0V",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56468"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "plan_curvature_Sarolangun_UTM48S_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 15345192,
+            "description": "Plan Curvature Sarolangun",
+            "@id": "https://doi.org/10.25625/ZFPSYJ/CTJPWJ",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/CTJPWJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56467"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "profile_curvature_Batanghari_UTM48S_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 15737574,
+            "description": "Profile Curvature Batanghari",
+            "@id": "https://doi.org/10.25625/ZFPSYJ/PPGWQG",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/PPGWQG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56462"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "profile_curvature_Harapan_UTM48S_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 1969974,
+            "description": "Profile Curvature Harapan",
+            "@id": "https://doi.org/10.25625/ZFPSYJ/7O8LHO",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/7O8LHO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56465"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "profile_curvature_PTPN6_UTM48S_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 986613,
+            "description": "Profile Curvature PTPN6",
+            "@id": "https://doi.org/10.25625/ZFPSYJ/XBMLO8",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/XBMLO8",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56456"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "profile_curvature_Sarolangun_UTM48S_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 15345192,
+            "description": "Profile Curvature Sarolangun",
+            "@id": "https://doi.org/10.25625/ZFPSYJ/KUBZMV",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/KUBZMV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56463"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Slope_Batanghari_UTM48S_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 15737613,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/VF4EK6",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/VF4EK6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56276"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Slope_Batanghari_UTM48S_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 423066,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/SVBYWB",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/SVBYWB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56254"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Slope_Harapan_UTM48S_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 1970013,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/UDMVFS",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/UDMVFS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56264"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Slope_Harapan_UTM48S_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 65092,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/AECEFG",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/AECEFG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56278"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Slope_PTPN6_UTM48S_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 986613,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/IVHM99",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/IVHM99",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56282"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Slope_PTPN6_UTM48S_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 31446,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/WMKEKY",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/WMKEKY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56269"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Slope_Sarolangun_UTM48S_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 15345231,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/S7S3AC",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/S7S3AC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56281"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Slope_Sarolangun_UTM48S_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 309780,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/NJENJW",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/NJENJW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56259"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TPI_Batanghari_UTM48S_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 14874758,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/10Y1AS",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/10Y1AS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56261"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TPI_Batanghari_UTM48S_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 322606,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/ZTBEMR",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/ZTBEMR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56258"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TPI_Batanghari_UTM48S_EPSG_32748.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 1484230818,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/RZXHXF",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/RZXHXF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56001"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TPI_Harapan_UTM48S_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 1521288,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/PC2PMT",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/PC2PMT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56271"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TPI_Harapan_UTM48S_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 50792,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/QY1XEZ",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/QY1XEZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56274"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TPI_Harapan_UTM48S_EPSG_32748.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 152005530,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/9ZMD1V",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/9ZMD1V",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55203"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TPI_PTPN6_UTM48S_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 887600,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/ZP9AES",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/ZP9AES",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56275"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TPI_PTPN6_UTM48S_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 25114,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/EMNF7Y",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/EMNF7Y",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56256"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TPI_PTPN6_UTM48S_EPSG_32748.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 88594324,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/9GNNQ9",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/9GNNQ9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55202"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TPI_Sarolangun_UTM48S_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 14273466,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/XUFLAE",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/XUFLAE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56260"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TPI_Sarolangun_UTM48S_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 257720,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/S04GUE",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/S04GUE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/56270"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TPI_Sarolangun_UTM48S_EPSG_32748.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 1424884488,
+            "@id": "https://doi.org/10.25625/ZFPSYJ/AQJBGH",
+            "identifier": "https://doi.org/10.25625/ZFPSYJ/AQJBGH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55439"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Agricultural Sciences",
+        "Earth and Environmental Sciences"
+    ],
+    "publications": [
+        {}
+    ]
+}

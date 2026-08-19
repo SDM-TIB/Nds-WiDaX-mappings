@@ -1,0 +1,283 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/I8VFLD",
+    "identifier": "https://doi.org/10.25625/I8VFLD",
+    "name": "Datasets for: 3D multiscale characterization of the human placenta: bridging anatomy and histology by X-ray phase-contrast tomography",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Jakob",
+            "familyName": "Reichmann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-6597-1831",
+            "@id": "https://orcid.org/0000-0002-6597-1831",
+            "identifier": "https://orcid.org/0000-0002-6597-1831",
+            "name": "Reichmann, Jakob"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Tim",
+            "familyName": "Salditt",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0003-4636-0813",
+            "@id": "https://orcid.org/0000-0003-4636-0813",
+            "identifier": "https://orcid.org/0000-0003-4636-0813",
+            "name": "Salditt, Tim"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jakob",
+            "familyName": "Reichmann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-6597-1831",
+            "@id": "https://orcid.org/0000-0002-6597-1831",
+            "identifier": "https://orcid.org/0000-0002-6597-1831",
+            "name": "Reichmann, Jakob"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Tim",
+            "familyName": "Salditt",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0003-4636-0813",
+            "@id": "https://orcid.org/0000-0003-4636-0813",
+            "identifier": "https://orcid.org/0000-0003-4636-0813",
+            "name": "Salditt, Tim"
+        }
+    ],
+    "datePublished": "2024-07-23",
+    "dateModified": "2025-10-28",
+    "version": "2",
+    "description": "3d reconstructions of Human Placenta and U-Net Segmentation and image analysis scripts of the publication: \"3D multiscale characterization of the human placenta: bridging anatomy and histology by X-ray phase-contrast tomography\" Jakob Reichmanna, Anne Schnurpfeil, Sylvia Mittelst\u00e4dt, Patrick M\u00f8ller Jensen, Vedrana Andersen Dahl, Anders Bjorholm Dahl, Carina Weide, Eva von Campenhausen, Hector Dejea, Paul Tafforeau, Christopher Werlein, Danny D. Jonig, Maximilian Ackermann, Klaus Engel, Julia Gallwas, Alexander Dietz, Mir Fuad Hasanov, and Tim Salditt, PNAS Nexus 2026 The data has been collected at ESRF beamlines BM18, at beamtime MD-1373. The ESRF raw data will be available under DOI 10.15151/ESRF-ES-1296358926. Due to size limitations, the upload of the 3d reconstructions is presently prepared / ongoing. Some of the files are already accessible under DOI 10.5281/zenodo.14575718",
+    "keywords": [
+        "Medicine, Health and Life Sciences",
+        "Physics"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "\"3D multiscale characterization of the human placenta: bridging anatomy and histology by X-ray phase-contrast tomography\" Jakob Reichmanna, Anne Schnurpfeil, Sylvia Mittelst\u00e4dt, Patrick M\u00f8ller Jensen, Vedrana Andersen Dahl, Anders Bjorholm Dahl, Carina Weide, Eva von Campenhausen, Hector Dejea, Paul Tafforeau, Christopher Werlein, Danny D. Jonig, Maximilian Ackermann, Klaus Engel, Julia Gallwas, Alexander Dietz, Mir Fuad Hasanov, and Tim Salditt, PNAS Nexus 2026"
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "3.033um_CovPla_6690_2_UC_pag-0.21_0.26_bin2_.h5",
+            "encodingFormat": "application/x-h5",
+            "contentSize": 41041636276,
+            "description": "",
+            "@id": "https://doi.org/10.25625/I8VFLD/6JKIXD",
+            "identifier": "https://doi.org/10.25625/I8VFLD/6JKIXD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/119358"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "3.033um_PS2_UC_pag-0.04_0.22_bin2_.h5",
+            "encodingFormat": "application/x-h5",
+            "contentSize": 42072926802,
+            "description": "",
+            "@id": "https://doi.org/10.25625/I8VFLD/T1OQTE",
+            "identifier": "https://doi.org/10.25625/I8VFLD/T1OQTE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/119351"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "3.033um_Wuppertal_UC_central_pag-0.03_0.05_bin2_.h5",
+            "encodingFormat": "application/x-h5",
+            "contentSize": 32286077897,
+            "description": "",
+            "@id": "https://doi.org/10.25625/I8VFLD/MBKEXF",
+            "identifier": "https://doi.org/10.25625/I8VFLD/MBKEXF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/119356"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HA2000_3.033um_CovPla-CW6621_pieces_A_pag-0.31_0.38_.h5",
+            "encodingFormat": "application/x-h5",
+            "contentSize": 150997391890,
+            "description": "",
+            "@id": "https://doi.org/10.25625/I8VFLD/28N4BG",
+            "identifier": "https://doi.org/10.25625/I8VFLD/28N4BG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/119359"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HA2000_3.033um_CovPla-CW6621_pieces_B_pag-0.31_0.38_.h5",
+            "encodingFormat": "application/x-h5",
+            "contentSize": 145427762073,
+            "description": "",
+            "@id": "https://doi.org/10.25625/I8VFLD/D4NPXA",
+            "identifier": "https://doi.org/10.25625/I8VFLD/D4NPXA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/119360"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HA2000_3.033um_CovPla-CW6621_pieces_C1_pag-0.31_0.38_.h5",
+            "encodingFormat": "application/x-h5",
+            "contentSize": 147351619053,
+            "description": "",
+            "@id": "https://doi.org/10.25625/I8VFLD/1GOM34",
+            "identifier": "https://doi.org/10.25625/I8VFLD/1GOM34",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/119352"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HA2000_3.033um_CovPla-CW6621_pieces_C2_pag-0.31_0.38_.h5",
+            "encodingFormat": "application/x-h5",
+            "contentSize": 147413331910,
+            "description": "",
+            "@id": "https://doi.org/10.25625/I8VFLD/KSYH80",
+            "identifier": "https://doi.org/10.25625/I8VFLD/KSYH80",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/119357"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HA2000_3.033um_TR11_UC_central_A_pag-0.31_0.38_.h5",
+            "encodingFormat": "application/x-h5",
+            "contentSize": 142074336351,
+            "description": "",
+            "@id": "https://doi.org/10.25625/I8VFLD/GYXVHS",
+            "identifier": "https://doi.org/10.25625/I8VFLD/GYXVHS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/119350"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "tetra_38.38um_CovPla_6690_21_lp_full-organ_pag-0.15_0.17_.h5",
+            "encodingFormat": "application/x-h5",
+            "contentSize": 29117268008,
+            "description": "",
+            "@id": "https://doi.org/10.25625/I8VFLD/MS61Q0",
+            "identifier": "https://doi.org/10.25625/I8VFLD/MS61Q0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/119353"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "tetra_38.38um_ESMA_CTRL_full-organ_pag-0.05_0.15_.h5",
+            "encodingFormat": "application/x-h5",
+            "contentSize": 79954218198,
+            "description": "",
+            "@id": "https://doi.org/10.25625/I8VFLD/PBIWI3",
+            "identifier": "https://doi.org/10.25625/I8VFLD/PBIWI3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/119355"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "tetra_38.38um_MR_1_full-organ_pag-0.14_0.07_.h5",
+            "encodingFormat": "application/x-h5",
+            "contentSize": 53068465526,
+            "description": "",
+            "@id": "https://doi.org/10.25625/I8VFLD/L6ZF1B",
+            "identifier": "https://doi.org/10.25625/I8VFLD/L6ZF1B",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/119354"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "tetra_38.38um_PS_2_full-organ_pag-0.02_0.17_.h5",
+            "encodingFormat": "application/x-h5",
+            "contentSize": 71219305503,
+            "description": "",
+            "@id": "https://doi.org/10.25625/I8VFLD/DABCMW",
+            "identifier": "https://doi.org/10.25625/I8VFLD/DABCMW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/119349"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "model_checkpoint.pth",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 922326906,
+            "description": "",
+            "@id": "https://doi.org/10.25625/I8VFLD/JLX6HG",
+            "identifier": "https://doi.org/10.25625/I8VFLD/JLX6HG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/119347"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pred_fullVol_TR11_array.h5",
+            "encodingFormat": "application/x-h5",
+            "contentSize": 8582743890,
+            "description": "",
+            "@id": "https://doi.org/10.25625/I8VFLD/UWBXOS",
+            "identifier": "https://doi.org/10.25625/I8VFLD/UWBXOS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/119348"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pred_fullVol_v3.npy",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 35071029344,
+            "description": "",
+            "@id": "https://doi.org/10.25625/I8VFLD/IO2MEJ",
+            "identifier": "https://doi.org/10.25625/I8VFLD/IO2MEJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/119346"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "SlicesY-Placenta_WO_MR1_ff_in_cont_tomo04.h5",
+            "encodingFormat": "application/x-h5",
+            "contentSize": 6383484792,
+            "description": "",
+            "@id": "https://doi.org/10.25625/I8VFLD/BGOCH5",
+            "identifier": "https://doi.org/10.25625/I8VFLD/BGOCH5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/119361"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Placenta_paraffin_8mm_dreiEbenen_0.0_0.0_1600.0_4617x4619x2428.raw",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 207117364176,
+            "description": "",
+            "@id": "https://doi.org/10.25625/I8VFLD/S9K37G",
+            "identifier": "https://doi.org/10.25625/I8VFLD/S9K37G",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/119344"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plazenta_Parafin_infarkt_0045_seq2_reconstructedSlices_ctf__type=single_size=2048x2048x1960_16bit",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 16441671680,
+            "description": "",
+            "@id": "https://doi.org/10.25625/I8VFLD/1HQW1H",
+            "identifier": "https://doi.org/10.25625/I8VFLD/1HQW1H",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/119345"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Medicine, Health and Life Sciences",
+        "Physics"
+    ],
+    "publications": [
+        {
+            "citation": "\"3D multiscale characterization of the human placenta: bridging anatomy and histology by X-ray phase-contrast tomography\" Jakob Reichmanna, Anne Schnurpfeil, Sylvia Mittelst\u00e4dt, Patrick M\u00f8ller Jensen, Vedrana Andersen Dahl, Anders Bjorholm Dahl, Carina Weide, Eva von Campenhausen, Hector Dejea, Paul Tafforeau, Christopher Werlein, Danny D. Jonig, Maximilian Ackermann, Klaus Engel, Julia Gallwas, Alexander Dietz, Mir Fuad Hasanov, and Tim Salditt, PNAS Nexus 2026"
+        }
+    ]
+}

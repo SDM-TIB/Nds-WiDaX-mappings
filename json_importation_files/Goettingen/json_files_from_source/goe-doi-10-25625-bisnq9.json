@@ -1,0 +1,131 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/BISNQ9",
+    "identifier": "https://doi.org/10.25625/BISNQ9",
+    "name": "Replication Data for: A new T-compatibility condition and its application to the discretization of the damped time-harmonic Galbrun\u2019s equation",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Martin",
+            "familyName": "Halla",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "name": "Halla, Martin"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Christoph",
+            "familyName": "Lehrenfeld",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "name": "Lehrenfeld, Christoph"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Paul",
+            "familyName": "Stocker",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Vienna"
+            },
+            "name": "Stocker, Paul"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Martin",
+            "familyName": "Halla",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "name": "Halla, Martin"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Christoph",
+            "familyName": "Lehrenfeld",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "name": "Lehrenfeld, Christoph"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Paul",
+            "familyName": "Stocker",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Vienna"
+            },
+            "name": "Stocker, Paul"
+        }
+    ],
+    "datePublished": "2023-12-06",
+    "dateModified": "2024-04-26",
+    "version": "2",
+    "description": "This dataset contains reproduction material for the paper \"A new T-compatibility condition and its application to the discretization of the damped time-harmonic Galbrun\u2019s equation\". The dataset contains Python files used to produce the results in the paper a docker image with the required software pre-installed. To run the python files outside the docker a running installation of NGSolve is required. They are tested with NGSolve@v6.2.2305. All the required software and python files are pre-installed and ready to run in the docker image. Start the docker using docker load < ./galbrun_docker.tar.gz docker run -it galbrun /bin/bash",
+    "keywords": [
+        "Mathematical Sciences"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "@id": "https://arxiv.org/abs/2209.01878",
+            "identifier": "https://arxiv.org/abs/2209.01878",
+            "url": "https://arxiv.org/abs/2209.01878"
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "galbrun_docker.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 1060795728,
+            "description": "docker image",
+            "@id": "https://doi.org/10.25625/BISNQ9/7BAFDA",
+            "identifier": "https://doi.org/10.25625/BISNQ9/7BAFDA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/73074"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "galbrun_python.tar",
+            "encodingFormat": "application/x-tar",
+            "contentSize": 20480,
+            "description": "python files",
+            "@id": "https://doi.org/10.25625/BISNQ9/I625UW",
+            "identifier": "https://doi.org/10.25625/BISNQ9/I625UW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/73075"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Mathematical Sciences"
+    ],
+    "publications": [
+        {
+            "url": "https://arxiv.org/abs/2209.01878"
+        }
+    ]
+}

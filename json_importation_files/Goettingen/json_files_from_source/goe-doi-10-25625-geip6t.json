@@ -1,0 +1,242 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/GEIP6T",
+    "identifier": "https://doi.org/10.25625/GEIP6T",
+    "name": "TrailScan Model \"Thuringia\"",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Tanja",
+            "familyName": "Kempen",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "HAWK - Hochschule f\u00fcr angewandte Wissenschaft und Kunst Hildesheim/Holzminden/G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0009-0007-0586-2370",
+            "@id": "https://orcid.org/0009-0007-0586-2370",
+            "identifier": "https://orcid.org/0009-0007-0586-2370",
+            "name": "Kempen, Tanja"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Maximilian",
+            "familyName": "Freudenberg",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Georg-August-Universit\u00e4t G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-5831-6150",
+            "@id": "https://orcid.org/0000-0002-5831-6150",
+            "identifier": "https://orcid.org/0000-0002-5831-6150",
+            "name": "Freudenberg, Maximilian"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Paul",
+            "familyName": "Magdon",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "HAWK - Hochschule f\u00fcr angewandte Wissenschaft und Kunst Hildesheim/Holzminden/G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0003-3777-5478",
+            "@id": "https://orcid.org/0000-0003-3777-5478",
+            "identifier": "https://orcid.org/0000-0003-3777-5478",
+            "name": "Magdon, Paul"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Tanja",
+            "familyName": "Kempen",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "HAWK - Hochschule f\u00fcr angewandte Wissenschaft und Kunst Hildesheim/Holzminden/G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0009-0007-0586-2370",
+            "@id": "https://orcid.org/0009-0007-0586-2370",
+            "identifier": "https://orcid.org/0009-0007-0586-2370",
+            "name": "Kempen, Tanja"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Maximilian",
+            "familyName": "Freudenberg",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Georg-August-Universit\u00e4t G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-5831-6150",
+            "@id": "https://orcid.org/0000-0002-5831-6150",
+            "identifier": "https://orcid.org/0000-0002-5831-6150",
+            "name": "Freudenberg, Maximilian"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Paul",
+            "familyName": "Magdon",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "HAWK - Hochschule f\u00fcr angewandte Wissenschaft und Kunst Hildesheim/Holzminden/G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0003-3777-5478",
+            "@id": "https://orcid.org/0000-0003-3777-5478",
+            "identifier": "https://orcid.org/0000-0003-3777-5478",
+            "name": "Magdon, Paul"
+        }
+    ],
+    "datePublished": "2025-09-24",
+    "dateModified": "2025-09-25",
+    "version": "2",
+    "description": "Trained U-Net Model for skid trail segmentation in forests in Germany. The model is to be used in the TrailScan QGIS Plugin tool \"Inference\".",
+    "keywords": [
+        "Earth and Environmental Sciences"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "Kempen, Tanja; Freudenberg, Maximilian; Magdon, Paul, 2025, \"Training Dataset for TrailScan Model \"Thuringia\"\", https://doi.org/10.25625/AHHCFM, GRO.data",
+            "@id": "https://doi.org/10.25625/AHHCFM",
+            "identifier": "https://doi.org/10.25625/AHHCFM",
+            "url": "https://doi.org/10.25625/AHHCFM"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "TrailScan QGIS Plugin, https://github.com/GISLAB-HAWK/TrailScan-QGIS-Plugin",
+            "@id": "https://github.com/GISLAB-HAWK/TrailScan-QGIS-Plugin",
+            "identifier": "https://github.com/GISLAB-HAWK/TrailScan-QGIS-Plugin",
+            "url": "https://github.com/GISLAB-HAWK/TrailScan-QGIS-Plugin"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Kempen, Tanja (2025): Kartierung von R\u00fcckegassen aus flugzeugbasierten Laserscan-Daten durch ein CNN. G\u00f6ttingen. Online unter: https://publikationsserver.hawk.de/receive/hawk_mods_00000314.",
+            "@id": "https://doi.org/10.48547/202509-000",
+            "identifier": "https://doi.org/10.48547/202509-000",
+            "url": "https://doi.org/10.48547/202509-000"
+        }
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "TrailScan_Model_Thuringia.onnx",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 57708560,
+            "@id": "https://doi.org/10.25625/GEIP6T/TWNKH3",
+            "identifier": "https://doi.org/10.25625/GEIP6T/TWNKH3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/138650"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "BB-Test_GroundTruth_0925.gpkg",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 98304,
+            "description": "Ground Truth: The Skid Trails that exist in the test area",
+            "@id": "https://doi.org/10.25625/GEIP6T/2HVXCH",
+            "identifier": "https://doi.org/10.25625/GEIP6T/2HVXCH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/138725"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "BB-Test_Normalized_0925.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 6671692,
+            "description": "The normalized file is the output of the TrailScan QGIS Plugin tool \"preprocessing\"",
+            "@id": "https://doi.org/10.25625/GEIP6T/BDGAHU",
+            "identifier": "https://doi.org/10.25625/GEIP6T/BDGAHU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/138723"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "BB-Test_PointCloud_0925.laz",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 2378393,
+            "description": "The normalized file is the output of the TrailScan QGIS Plugin tool \"preprocessing\"",
+            "@id": "https://doi.org/10.25625/GEIP6T/UR3HTS",
+            "identifier": "https://doi.org/10.25625/GEIP6T/UR3HTS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/138727"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "BB-Test_Trailmap_0925.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 834630,
+            "description": "The trailmap is the output of the TrailScan QGIS Plugin tool \"preprocessing\"",
+            "@id": "https://doi.org/10.25625/GEIP6T/OP0FS9",
+            "identifier": "https://doi.org/10.25625/GEIP6T/OP0FS9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/138729"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TH-Test_GroundTruth_0925.gpkg",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 98304,
+            "description": "Ground Truth: The Skid Trails that exist in the test area",
+            "@id": "https://doi.org/10.25625/GEIP6T/MVHUBJ",
+            "identifier": "https://doi.org/10.25625/GEIP6T/MVHUBJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/138728"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TH-Test_Normalized_0925.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 6425622,
+            "description": "The normalized file is the output of the TrailScan QGIS Plugin tool \"preprocessing\"",
+            "@id": "https://doi.org/10.25625/GEIP6T/IXZPZH",
+            "identifier": "https://doi.org/10.25625/GEIP6T/IXZPZH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/138724"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TH-Test_PointCloud_0925.laz",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 597223,
+            "description": "This is a point cloud that was clipped to a randomly picked test area",
+            "@id": "https://doi.org/10.25625/GEIP6T/YGBNWM",
+            "identifier": "https://doi.org/10.25625/GEIP6T/YGBNWM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/138726"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TH-Test_Trailmap_0925.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 800280,
+            "description": "The trailmap is the output of the TrailScan QGIS Plugin tool \"preprocessing\"",
+            "@id": "https://doi.org/10.25625/GEIP6T/PVXJMF",
+            "identifier": "https://doi.org/10.25625/GEIP6T/PVXJMF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/138722"
+        }
+    ],
+    "license_title": "Creative Commons Attribution 4.0 International",
+    "subjects": [
+        "Earth and Environmental Sciences"
+    ],
+    "publications": [
+        {
+            "citation": "Kempen, Tanja; Freudenberg, Maximilian; Magdon, Paul, 2025, \"Training Dataset for TrailScan Model \"Thuringia\"\", https://doi.org/10.25625/AHHCFM, GRO.data",
+            "url": "https://doi.org/10.25625/AHHCFM"
+        },
+        {
+            "citation": "TrailScan QGIS Plugin, https://github.com/GISLAB-HAWK/TrailScan-QGIS-Plugin",
+            "url": "https://github.com/GISLAB-HAWK/TrailScan-QGIS-Plugin"
+        },
+        {
+            "citation": "Kempen, Tanja (2025): Kartierung von R\u00fcckegassen aus flugzeugbasierten Laserscan-Daten durch ein CNN. G\u00f6ttingen. Online unter: https://publikationsserver.hawk.de/receive/hawk_mods_00000314.",
+            "url": "https://doi.org/10.48547/202509-000"
+        }
+    ]
+}

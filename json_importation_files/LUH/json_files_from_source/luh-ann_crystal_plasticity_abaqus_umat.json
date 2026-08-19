@@ -1,0 +1,173 @@
+{
+  "author": "Yuqing He, Yousef Heider, Bernd Markert",
+  "author_email": "yousef.heider@ibnm.uni-hannover.de",
+  "creator_user_id": "8dd817df-9a3a-47ef-89a6-f7fc2c074358",
+  "have_copyright": "Yes",
+  "id": "da653150-a33e-425f-be1c-80cf914b2b32",
+  "isopen": false,
+  "license_id": "CC-BY-NC-3.0",
+  "license_title": "Creative Commons Attribution-NonCommercial 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc/3.0/",
+  "maintainer": "Yousef Heider",
+  "maintainer_email": "",
+  "metadata_created": "2024-09-25T09:46:06.552968",
+  "metadata_modified": "2024-10-21T10:10:43.873424",
+  "name": "ann_crystal_plasticity_abaqus_umat",
+  "notes": "This work presents a practical method for incorporating trained Neural Networks (NNs) into the Finite Element (FE) framework using a user material (UMAT) subroutine. The work exemplifies crystal plasticity, a complex inelastic non-linear path-dependent material response, with a wide range of applications in ABAQUS UMAT. However, this approach can be extended to other material behaviors and FE tools. The \r\nuse of a UMAT subroutine serves two main purposes: (1) it predicts and updates the stress or other mechanical properties of interest directly from the strain history; (2) it computes the Jacobian matrix either through backpropagation or numerical differentiation, which plays an essential role in the solution convergence. By implementing NNs in a UMAT subroutine, a trained machine learning model can be employed as a data-driven constitutive law within the FEM framework, preserving multiscale information that conventional constitutive laws often neglect or average. \r\nThe versatility of this method makes it a powerful tool for integrating machine learning into mechanical simulation. While this approach is expected to provide higher accuracy in reproducing realistic material behavior, the reliability of the solution process and the convergence conditions must be paid special attention. The theory of the model is explained in Heider et al. 2020.\r\n\r\nSource: [https://arxiv.org/abs/2410.08214]\r\n\r\n",
+  "num_resources": 2,
+  "num_tags": 8,
+  "organization": {
+    "id": "6dc327b5-7a23-46a9-bd71-77569c460a51",
+    "name": "institut-fur-baumechanik-und-numerische-mechanik",
+    "title": "Institut für Baumechanik und Numerische Mechanik",
+    "type": "organization",
+    "description": "https://www.ibnm.uni-hannover.de/",
+    "image_url": "2018-06-13-121331.937376Logogrun.jpg",
+    "created": "2018-06-08T14:03:38.292058",
+    "is_organization": true,
+    "approval_status": "approved",
+    "state": "active"
+  },
+  "owner_org": "6dc327b5-7a23-46a9-bd71-77569c460a51",
+  "private": false,
+  "state": "active",
+  "terms_of_usage": "Yes",
+  "title": "Embedding an ANN-Based Crystal Plasticity Model into the Finite Element Framework using an ABAQUS User-Material Subroutine",
+  "type": "dataset",
+  "url": "https://arxiv.org/abs/2410.08214",
+  "version": "",
+  "extras": [
+    {
+      "key": "Machine learning",
+      "value": "40"
+    },
+    {
+      "key": "Material modeling",
+      "value": "30"
+    },
+    {
+      "key": "Multiscale modeling",
+      "value": "30"
+    }
+  ],
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2024-09-25T09:55:28.060864",
+      "datastore_active": false,
+      "description": "This database contains files related to a UMAT implementation for Abaqus. It includes:\r\n\r\nNN_bb_final.f : A Fortran file (UMAT).\r\nplate_hole_bb_fine.inp: An Abaqus input file for the simulation of a plate with a hole.\r\nplate_notch_bb_fine.inp: An Abaqus input file for the simulation of a plate with a notch.",
+      "format": ".zip",
+      "hash": "",
+      "id": "aab22f56-3af2-4a6a-9906-714c35fe9828",
+      "last_modified": "2024-09-25T09:55:28.003198",
+      "metadata_modified": "2024-09-25T10:02:15.346995",
+      "mimetype": "application/zip",
+      "mimetype_inner": null,
+      "name": "Abaqus_UMAT_ML",
+      "package_id": "da653150-a33e-425f-be1c-80cf914b2b32",
+      "position": 0,
+      "resource_type": null,
+      "size": 267216,
+      "state": "active",
+      "tracking_summary": {
+        "total": 183,
+        "recent": 5
+      },
+      "url": "https://data.uni-hannover.de/dataset/da653150-a33e-425f-be1c-80cf914b2b32/resource/aab22f56-3af2-4a6a-9906-714c35fe9828/download/abaqus_umat_ml_hehema_2024.zip",
+      "url_type": "upload"
+    },
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2024-09-25T10:01:49.328155",
+      "datastore_active": false,
+      "description": "This manuscript presents a practical method for incorporating trained Neural Networks (NNs) into the Finite Element (FE) framework using a user material (UMAT) subroutine. The work exemplifies crystal plasticity, a complex inelastic non-linear path-dependent material response, with a wide range of applications in ABAQUS UMAT. However, this approach can be extended to other material behaviors and FE tools. The \r\nuse of a UMAT subroutine serves two main purposes: (1) it predicts and updates the stress or other mechanical properties of interest directly from the strain history; (2) it computes the Jacobian matrix either through backpropagation or numerical differentiation, which plays an essential role in the solution convergence. By implementing NNs in a UMAT subroutine, a trained machine learning model can be employed as a data-driven constitutive law within the FEM framework, preserving multiscale information that conventional constitutive laws often neglect or average. \r\nThe versatility of this method makes it a powerful tool for integrating machine learning into mechanical simulation. While this approach is expected to provide higher accuracy in reproducing realistic material behavior, the reliability of the solution process and the convergence conditions must be paid special attention. While the theory of the model is explained in \\cite{HEIDER2020}, exemplary source code is also made available for interested readers [\\href{https://doi.org/10.25835/6n5uu50y}{https://doi.org/10.25835/6n5uu50y}].",
+      "format": "PDF",
+      "hash": "",
+      "id": "6ec0ab9c-7cf5-4722-92f2-b644d238d7cd",
+      "last_modified": "2024-09-25T10:01:49.275863",
+      "metadata_modified": "2024-09-25T10:01:49.306375",
+      "mimetype": "application/pdf",
+      "mimetype_inner": null,
+      "name": "manuscript.pdf",
+      "package_id": "da653150-a33e-425f-be1c-80cf914b2b32",
+      "position": 1,
+      "resource_type": null,
+      "size": 1710108,
+      "state": "active",
+      "tracking_summary": {
+        "total": 76,
+        "recent": 4
+      },
+      "url": "https://data.uni-hannover.de/dataset/da653150-a33e-425f-be1c-80cf914b2b32/resource/6ec0ab9c-7cf5-4722-92f2-b644d238d7cd/download/yuqing_paper1_ml_crystalplas_in_abaqus_umat-1.pdf",
+      "url_type": "upload"
+    }
+  ],
+  "tags": [
+    {
+      "display_name": "Crystal plasticity",
+      "id": "895fc24d-cfba-40bb-a328-face9e44e7c0",
+      "name": "Crystal plasticity",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Finite element",
+      "id": "3116b80b-b594-4a93-9484-17e1a88bab36",
+      "name": "Finite element",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Machine learning",
+      "id": "a174dfda-902d-454f-82e2-054628db1b1f",
+      "name": "Machine learning",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Path-dependent material behavior",
+      "id": "04f6c787-7dc2-4287-aa7a-bda2a366dfcd",
+      "name": "Path-dependent material behavior",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "UMAT",
+      "id": "b9be706c-1ebb-4e61-8fd2-8e61aff223a4",
+      "name": "UMAT",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "User material subroutine",
+      "id": "6232296c-9f4c-4e42-b2b1-9eb3509fb8d2",
+      "name": "User material subroutine",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "abaqus",
+      "id": "9461ee2e-fa96-4685-a72b-c02ddd97336c",
+      "name": "abaqus",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "multiscale modeling",
+      "id": "482985ca-87ae-4c6d-b310-71c91772d334",
+      "name": "multiscale modeling",
+      "state": "active",
+      "vocabulary_id": null
+    }
+  ],
+  "groups": [],
+  "relationships_as_subject": [],
+  "relationships_as_object": [],
+  "doi": "10.25835/6n5uu50y",
+  "doi_status": true,
+  "domain": "https://data.uni-hannover.de",
+  "doi_date_published": "2024-09-25",
+  "doi_publisher": "LUIS"
+}

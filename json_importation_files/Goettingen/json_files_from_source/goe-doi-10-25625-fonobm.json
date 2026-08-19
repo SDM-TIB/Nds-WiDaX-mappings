@@ -1,0 +1,70 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/FONOBM",
+    "identifier": "https://doi.org/10.25625/FONOBM",
+    "name": "Farbenlehre",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Maike",
+            "familyName": "Tech",
+            "name": "Tech, Maike"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Maike",
+            "familyName": "Tech",
+            "name": "Tech, Maike"
+        }
+    ],
+    "datePublished": "2018-08-29",
+    "dateModified": "2020-03-10",
+    "version": "3",
+    "description": "TEI Schema file for the project \"Rezeptionsgeschichte von Goethes Farbenlehre\".",
+    "keywords": [
+        "Arts and Humanities"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "tei_color.odd",
+            "encodingFormat": "text/html",
+            "contentSize": 59023,
+            "description": "ODD Schema file for \"Rezeption von Goethes Farbenlehre\"",
+            "@id": "https://doi.org/10.25625/FONOBM/NU4ZFB",
+            "identifier": "https://doi.org/10.25625/FONOBM/NU4ZFB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/17515"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "tei_color.rng",
+            "encodingFormat": "application/xml",
+            "contentSize": 301095,
+            "description": "RelaxNG-File for \"Rezeptionsgeschichte von Goethes Farbenlehre\"",
+            "@id": "https://doi.org/10.25625/FONOBM/XRYH2N",
+            "identifier": "https://doi.org/10.25625/FONOBM/XRYH2N",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/17514"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Arts and Humanities"
+    ]
+}

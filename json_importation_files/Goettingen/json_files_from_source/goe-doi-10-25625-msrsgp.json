@@ -1,0 +1,89 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/MSRSGP",
+    "identifier": "https://doi.org/10.25625/MSRSGP",
+    "name": "Fish mtDNA",
+    "creator": [
+        {
+            "@type": "Person",
+            "name": "GOBICS"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "name": "GOBICS"
+        }
+    ],
+    "datePublished": "2022-07-11",
+    "dateModified": "2022-07-11",
+    "version": "1",
+    "description": "This dataset was taken from Fisher et al., 2013.",
+    "keywords": [
+        "Computer and Information Science",
+        "Medicine, Health and Life Sciences"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "Fischer C, Koblm\u00fcller S, G\u00fclly C, Schl\u00f6tterer C, Sturmbauer C, Thallinger GG (2013) Complete Mitochondrial DNA Sequences of the Threadfin Cichlid (Petrochromis trewavasae) and the Blunthead Cichlid (Tropheus moorii) and Patterns of Mitochondrial Genome Evolution in Cichlid Fishes. PLoS ONE 8(6): e67048. https://doi.org/10.1371/journal.pone.0067048"
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "DMat",
+            "encodingFormat": "text/plain; charset=US-ASCII",
+            "contentSize": 9953,
+            "description": "Distance matrix created by FSWM",
+            "@id": "https://doi.org/10.25625/MSRSGP/EFXHQI",
+            "identifier": "https://doi.org/10.25625/MSRSGP/EFXHQI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/46682"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "fish_mito.fasta",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 421805,
+            "description": "DNA sequences in FASTA format",
+            "@id": "https://doi.org/10.25625/MSRSGP/QHMMHT",
+            "identifier": "https://doi.org/10.25625/MSRSGP/QHMMHT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/46683"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "fish_mito.nwk",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 298,
+            "description": "Reference tree in Newick format",
+            "@id": "https://doi.org/10.25625/MSRSGP/YVNUQR",
+            "identifier": "https://doi.org/10.25625/MSRSGP/YVNUQR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/46684"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Computer and Information Science",
+        "Medicine, Health and Life Sciences"
+    ],
+    "publications": [
+        {
+            "citation": "Fischer C, Koblm\u00fcller S, G\u00fclly C, Schl\u00f6tterer C, Sturmbauer C, Thallinger GG (2013) Complete Mitochondrial DNA Sequences of the Threadfin Cichlid (Petrochromis trewavasae) and the Blunthead Cichlid (Tropheus moorii) and Patterns of Mitochondrial Genome Evolution in Cichlid Fishes. PLoS ONE 8(6): e67048. https://doi.org/10.1371/journal.pone.0067048"
+        }
+    ]
+}

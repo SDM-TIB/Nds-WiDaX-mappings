@@ -1,0 +1,83 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/8MZSWB",
+    "identifier": "https://doi.org/10.25625/8MZSWB",
+    "name": "Harmonizing OER metadata in ETL processes with SkoHub in the project \u201cWirLernenOnline\u201d",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Steffen",
+            "familyName": "Roertgen",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "GWDG"
+            },
+            "sameAs": "https://orcid.org/0000-0001-6378-2618",
+            "@id": "https://orcid.org/0000-0001-6378-2618",
+            "identifier": "https://orcid.org/0000-0001-6378-2618",
+            "name": "Roertgen, Steffen"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Steffen",
+            "familyName": "Roertgen",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "GWDG"
+            },
+            "sameAs": "https://orcid.org/0000-0001-6378-2618",
+            "@id": "https://orcid.org/0000-0001-6378-2618",
+            "identifier": "https://orcid.org/0000-0001-6378-2618",
+            "name": "Roertgen, Steffen"
+        }
+    ],
+    "datePublished": "2022-06-24",
+    "dateModified": "2022-08-31",
+    "version": "3",
+    "description": "The metadata for Open Educational Resources (OER) are often made available in repositories without recourse to uniform value lists and corresponding standards for their attributes. This circumstance complicates data harmonization when OERs from different sources are to be merged in one search environment. With the help of the RDF standard SKOS and the tool SkoHub-Vocabs, the project \"WirLernenOnline\" has found an innovative, reusable and standards-based solution to this challenge. This involves the creation of SKOS vocabularies that are used during the ETL process to standardize different terms (for example, \"math\" and \"mathematics\"). This then forms the basis for providing users with consistent filtering options and a good search experience. The created and open licensed vocabularies can then easily be reused and linked to overcome this challenge in the future.",
+    "keywords": [
+        "Computer and Information Science"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "220624_poster-etl-wlo-2022_en.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 138789,
+            "@id": "https://doi.org/10.25625/8MZSWB/OSTNPG",
+            "identifier": "https://doi.org/10.25625/8MZSWB/OSTNPG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/47437"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "abstract.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 77852,
+            "description": "Abstract to Poster",
+            "@id": "https://doi.org/10.25625/8MZSWB/ABOSDD",
+            "identifier": "https://doi.org/10.25625/8MZSWB/ABOSDD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48924"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Computer and Information Science"
+    ]
+}

@@ -1,0 +1,137 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/WKCTCA",
+    "identifier": "https://doi.org/10.25625/WKCTCA",
+    "name": "Replication Data for: National-Scale Detection of Agricultural Landscape Elements from Sentinel-2 Imagery with Vision Transformers",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Manuel",
+            "familyName": "Reese",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Osnabr\u00fcck University"
+            },
+            "sameAs": "https://orcid.org/0000-0003-0464-5984",
+            "@id": "https://orcid.org/0000-0003-0464-5984",
+            "identifier": "https://orcid.org/0000-0003-0464-5984",
+            "name": "Reese, Manuel"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Bj\u00f6rn",
+            "familyName": "Waske",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Osnabr\u00fcck University"
+            },
+            "sameAs": "https://orcid.org/0000-0002-2586-3748",
+            "@id": "https://orcid.org/0000-0002-2586-3748",
+            "identifier": "https://orcid.org/0000-0002-2586-3748",
+            "name": "Waske, Bj\u00f6rn"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Manuel",
+            "familyName": "Reese",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Osnabr\u00fcck University"
+            },
+            "sameAs": "https://orcid.org/0000-0003-0464-5984",
+            "@id": "https://orcid.org/0000-0003-0464-5984",
+            "identifier": "https://orcid.org/0000-0003-0464-5984",
+            "name": "Reese, Manuel"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Bj\u00f6rn",
+            "familyName": "Waske",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Osnabr\u00fcck University"
+            },
+            "sameAs": "https://orcid.org/0000-0002-2586-3748",
+            "@id": "https://orcid.org/0000-0002-2586-3748",
+            "identifier": "https://orcid.org/0000-0002-2586-3748",
+            "name": "Waske, Bj\u00f6rn"
+        }
+    ],
+    "datePublished": "2026-05-13",
+    "dateModified": "2026-05-13",
+    "version": "2",
+    "description": "Replication Data for the manuscript \"National-Scale Detection of Agricultural Landscape Elements from Sentinel-2 Imagery with Vision Transformers\". Trainigs patches were generated from a 2023 & 2024 vegetation periods least-vegetated composite (maximum BSI).",
+    "keywords": [
+        "Earth and Environmental Sciences"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "01_training_data.tar.xz",
+            "encodingFormat": "application/x-xz",
+            "contentSize": 43771044,
+            "description": "Training patches and corresponding masks",
+            "@id": "https://doi.org/10.25625/WKCTCA/OWSFIK",
+            "identifier": "https://doi.org/10.25625/WKCTCA/OWSFIK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/170550"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "02_refinementHead_training_code.ipynb",
+            "encodingFormat": "application/x-ipynb+json",
+            "contentSize": 6257847,
+            "description": "Code for training with the proposed refinement head",
+            "@id": "https://doi.org/10.25625/WKCTCA/OJOQKK",
+            "identifier": "https://doi.org/10.25625/WKCTCA/OJOQKK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/170552"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "03_results_validation_vct.tar.xz",
+            "encodingFormat": "application/x-xz",
+            "contentSize": 1251955316,
+            "@id": "https://doi.org/10.25625/WKCTCA/X5RQLZ",
+            "identifier": "https://doi.org/10.25625/WKCTCA/X5RQLZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/170553"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "04_nationalScale_haxagonal_map.tar.xz",
+            "encodingFormat": "application/x-xz",
+            "contentSize": 79820836,
+            "@id": "https://doi.org/10.25625/WKCTCA/BYCNYJ",
+            "identifier": "https://doi.org/10.25625/WKCTCA/BYCNYJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/170551"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "segformer_refine_weights.tar.xz",
+            "encodingFormat": "application/x-xz",
+            "contentSize": 236326424,
+            "@id": "https://doi.org/10.25625/WKCTCA/H10R3C",
+            "identifier": "https://doi.org/10.25625/WKCTCA/H10R3C",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/170554"
+        }
+    ],
+    "license_title": "Creative Commons Attribution 4.0 International",
+    "subjects": [
+        "Earth and Environmental Sciences"
+    ]
+}

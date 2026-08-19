@@ -1,0 +1,131 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/N0S2QJ",
+    "identifier": "https://doi.org/10.25625/N0S2QJ",
+    "name": "Learned IE thesis: Transparent boundary conditions for the VAL-C model",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Janosch",
+            "familyName": "Preu\u00df",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institut f\u00fcr Numerische und Angewandte Mathematik Universit\u00e4t G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-7384-535X",
+            "@id": "https://orcid.org/0000-0002-7384-535X",
+            "identifier": "https://orcid.org/0000-0002-7384-535X",
+            "name": "Preu\u00df, Janosch"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Janosch",
+            "familyName": "Preu\u00df",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institut f\u00fcr Numerische und Angewandte Mathematik Universit\u00e4t G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-7384-535X",
+            "@id": "https://orcid.org/0000-0002-7384-535X",
+            "identifier": "https://orcid.org/0000-0002-7384-535X",
+            "name": "Preu\u00df, Janosch"
+        }
+    ],
+    "datePublished": "2021-10-04",
+    "dateModified": "2021-10-04",
+    "version": "1",
+    "description": "This dataset contains intermediate data products for some experiments in the PhD thesis \"Learned infinite elements for helioseismology\" (J.Preu\u00df). We study the accuracy and efficiency of learned IEs for representing a solar atmosphere based on the VAL-C model. A brief description of the provided data is given below: The file \"power-spectrum-VALC-meshed.out\" contains the reference power spectrum computed with a fully meshed atmosphere. Harmonic degrees up to l=1000 and 7200 equidistant frequencies ranging from 0 mHz up to 8.3 mHz have been considered. The files \"power-spectrum-Nj-VALC.out\" contain the power spectra obtained with learned IEs using N=j for j in [0,1,2,3,4]. A description how the computed data has been obtained and how it should be postprocessed further is available at this Gitlab repository.",
+    "keywords": [
+        "Astronomy and Astrophysics",
+        "Mathematical Sciences"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "\n PhD thesis: Learned infinite elements for helioseismology\n Author: Janosch Preu\u00df\n Advisors: Prof. Christoph Lehrenfeld, Prof. Thorsten Hohage, Dr. Damien Fournier\n"
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "power-spectrum-N0-VALC.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 180355916,
+            "@id": "https://doi.org/10.25625/N0S2QJ/ZJJDJD",
+            "identifier": "https://doi.org/10.25625/N0S2QJ/ZJJDJD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33737"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "power-spectrum-N1-VALC.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 180187377,
+            "@id": "https://doi.org/10.25625/N0S2QJ/KL8NJU",
+            "identifier": "https://doi.org/10.25625/N0S2QJ/KL8NJU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33738"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "power-spectrum-N2-VALC.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 180220093,
+            "@id": "https://doi.org/10.25625/N0S2QJ/KAHJKF",
+            "identifier": "https://doi.org/10.25625/N0S2QJ/KAHJKF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33735"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "power-spectrum-N3-VALC.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 180220375,
+            "@id": "https://doi.org/10.25625/N0S2QJ/QA3B6H",
+            "identifier": "https://doi.org/10.25625/N0S2QJ/QA3B6H",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33740"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "power-spectrum-N4-VALC.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 180219411,
+            "@id": "https://doi.org/10.25625/N0S2QJ/KPYHDU",
+            "identifier": "https://doi.org/10.25625/N0S2QJ/KPYHDU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33739"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "power-spectrum-VALC-meshed.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 180180000,
+            "@id": "https://doi.org/10.25625/N0S2QJ/4VW7LH",
+            "identifier": "https://doi.org/10.25625/N0S2QJ/4VW7LH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33736"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Astronomy and Astrophysics",
+        "Mathematical Sciences"
+    ],
+    "publications": [
+        {
+            "citation": "<ul>\n <li>PhD thesis: Learned infinite elements for helioseismology</li>\n <li>Author: Janosch Preu\u00df</li>\n <li>Advisors: Prof. Christoph Lehrenfeld, Prof. Thorsten Hohage, Dr. Damien Fournier</li>\n</ul>"
+        }
+    ]
+}

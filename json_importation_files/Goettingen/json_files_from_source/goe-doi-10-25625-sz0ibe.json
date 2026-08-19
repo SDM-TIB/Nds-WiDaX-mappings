@@ -1,0 +1,111 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/SZ0IBE",
+    "identifier": "https://doi.org/10.25625/SZ0IBE",
+    "name": "Embedding Entity Linker Resources",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Florian",
+            "familyName": "Barth",
+            "name": "Barth, Florian"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Felix",
+            "familyName": "Helfer",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "SAW Leipzig"
+            },
+            "sameAs": "https://orcid.org/0000-0002-5739-2047",
+            "@id": "https://orcid.org/0000-0002-5739-2047",
+            "identifier": "https://orcid.org/0000-0002-5739-2047",
+            "name": "Helfer, Felix"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Florian",
+            "familyName": "Barth",
+            "name": "Barth, Florian"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Felix",
+            "familyName": "Helfer",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "SAW Leipzig"
+            },
+            "sameAs": "https://orcid.org/0000-0002-5739-2047",
+            "@id": "https://orcid.org/0000-0002-5739-2047",
+            "identifier": "https://orcid.org/0000-0002-5739-2047",
+            "name": "Helfer, Felix"
+        }
+    ],
+    "datePublished": "2025-08-12",
+    "dateModified": "2025-08-12",
+    "version": "1",
+    "description": "Resources for Embedding Entity Linker component of the MonaPipe.",
+    "keywords": [
+        "Arts and Humanities",
+        "Computer and Information Science"
+    ],
+    "license": "http://creativecommons.org/licenses/by-sa/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "cc.de.300.bin",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 7242948419,
+            "description": "German fasttext model.",
+            "@id": "https://doi.org/10.25625/SZ0IBE/BQNTJS",
+            "identifier": "https://doi.org/10.25625/SZ0IBE/BQNTJS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/125126"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "gnd_entity_embeddings.h5",
+            "encodingFormat": "application/x-hdf5",
+            "contentSize": 538441637,
+            "description": "Averaged fasttext embeddings of relevant terms for GND entities. The terms were extracted from Wikipedia articles of the entities.",
+            "@id": "https://doi.org/10.25625/SZ0IBE/ZG4AIU",
+            "identifier": "https://doi.org/10.25625/SZ0IBE/ZG4AIU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/135529"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "gnd_names.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 15629254,
+            "description": "CSV list of name variants for GND entities. ",
+            "@id": "https://doi.org/10.25625/SZ0IBE/SQ3VSG",
+            "identifier": "https://doi.org/10.25625/SZ0IBE/SQ3VSG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/131639"
+        }
+    ],
+    "license_title": "Creative Commons Attribution-ShareAlike 4.0 International",
+    "subjects": [
+        "Arts and Humanities",
+        "Computer and Information Science"
+    ],
+    "publications": [
+        {}
+    ]
+}

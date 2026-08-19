@@ -1,0 +1,467 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/TU53LS",
+    "identifier": "https://doi.org/10.25625/TU53LS",
+    "name": "Image Data for: 3D virtual histology of rodent and primate cochlea with multi-scale phase-contrast tomography",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Jannis Justus",
+            "familyName": "Schaeper",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for X-Ray Physics, University of G\u00f6ttingen, Friedrich-Hund-Platz 1, 37077 G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0001-7477-7152",
+            "@id": "https://orcid.org/0000-0001-7477-7152",
+            "identifier": "https://orcid.org/0000-0001-7477-7152",
+            "name": "Schaeper, Jannis Justus"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Christoph Angel",
+            "familyName": "Kampshoff",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for Auditory Neuroscience, University Medical Center G\u00f6ttingen, 37075 G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0002-6744-2335",
+            "@id": "https://orcid.org/0000-0002-6744-2335",
+            "identifier": "https://orcid.org/0000-0002-6744-2335",
+            "name": "Kampshoff, Christoph Angel"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Bettina Julia",
+            "familyName": "Wolf",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for Auditory Neuroscience and Inner Ear Lab, University Medical Center G\u00f6ttingen, 37075, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0003-0512-1381",
+            "@id": "https://orcid.org/0000-0003-0512-1381",
+            "identifier": "https://orcid.org/0000-0003-0512-1381",
+            "name": "Wolf, Bettina Julia"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Lennart",
+            "familyName": "Roos",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for Auditory Neuroscience and Inner Ear Lab, University Medical Center G\u00f6ttingen, 37075, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0009-0007-8051-7964",
+            "@id": "https://orcid.org/0009-0007-8051-7964",
+            "identifier": "https://orcid.org/0009-0007-8051-7964",
+            "name": "Roos, Lennart"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Susann",
+            "familyName": "Michanski",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Molecular Architecture of Synapses Group, Institute for Auditory Neuroscience and InnerEarLab, University Medical Center G\u00f6ttingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0001-5893-1981",
+            "@id": "https://orcid.org/0000-0001-5893-1981",
+            "identifier": "https://orcid.org/0000-0001-5893-1981",
+            "name": "Michanski, Susann"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Torben",
+            "familyName": "Ruhwedel",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Max Planck Institute for Multidisciplinary Sciences, 37075, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0002-9535-9395",
+            "@id": "https://orcid.org/0000-0002-9535-9395",
+            "identifier": "https://orcid.org/0000-0002-9535-9395",
+            "name": "Ruhwedel, Torben"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Marina",
+            "familyName": "Eckermann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Beamline ID16A, European Synchrotron Radiation Facility, 38000, Grenoble, France"
+            },
+            "sameAs": "https://orcid.org/0000-0001-6418-4310",
+            "@id": "https://orcid.org/0000-0001-6418-4310",
+            "identifier": "https://orcid.org/0000-0001-6418-4310",
+            "name": "Eckermann, Marina"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Alexander",
+            "familyName": "Meyer",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department of Otolaryngology, University Medical Center G\u00f6ttingen, 37075 G\u00f6ttingen, Germany"
+            },
+            "name": "Meyer, Alexander"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Marcus",
+            "familyName": "Jeschke",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for Auditory Neuroscience and Inner Ear Lab, University Medical Center G\u00f6ttingen, 37075, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0002-9109-8765",
+            "@id": "https://orcid.org/0000-0002-9109-8765",
+            "identifier": "https://orcid.org/0000-0002-9109-8765",
+            "name": "Jeschke, Marcus"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Carolin",
+            "familyName": "Wichmann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Molecular Architecture of Synapses Group, Institute for Auditory Neuroscience and InnerEarLab, University Medical Center G\u00f6ttingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0001-8868-8716",
+            "@id": "https://orcid.org/0000-0001-8868-8716",
+            "identifier": "https://orcid.org/0000-0001-8868-8716",
+            "name": "Wichmann, Carolin"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Tobias",
+            "familyName": "Moser",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for Auditory Neuroscience, University Medical Center G\u00f6ttingen, 37075 G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0001-7145-0533",
+            "@id": "https://orcid.org/0000-0001-7145-0533",
+            "identifier": "https://orcid.org/0000-0001-7145-0533",
+            "name": "Moser, Tobias"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Tim",
+            "familyName": "Salditt",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for X-Ray Physics, University of Goettingen"
+            },
+            "sameAs": "https://orcid.org/0000-0003-4636-0813",
+            "@id": "https://orcid.org/0000-0003-4636-0813",
+            "identifier": "https://orcid.org/0000-0003-4636-0813",
+            "name": "Salditt, Tim"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jannis Justus",
+            "familyName": "Schaeper",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for X-Ray Physics, University of G\u00f6ttingen, Friedrich-Hund-Platz 1, 37077 G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0001-7477-7152",
+            "@id": "https://orcid.org/0000-0001-7477-7152",
+            "identifier": "https://orcid.org/0000-0001-7477-7152",
+            "name": "Schaeper, Jannis Justus"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Christoph Angel",
+            "familyName": "Kampshoff",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for Auditory Neuroscience, University Medical Center G\u00f6ttingen, 37075 G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0002-6744-2335",
+            "@id": "https://orcid.org/0000-0002-6744-2335",
+            "identifier": "https://orcid.org/0000-0002-6744-2335",
+            "name": "Kampshoff, Christoph Angel"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Bettina Julia",
+            "familyName": "Wolf",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for Auditory Neuroscience and Inner Ear Lab, University Medical Center G\u00f6ttingen, 37075, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0003-0512-1381",
+            "@id": "https://orcid.org/0000-0003-0512-1381",
+            "identifier": "https://orcid.org/0000-0003-0512-1381",
+            "name": "Wolf, Bettina Julia"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Lennart",
+            "familyName": "Roos",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for Auditory Neuroscience and Inner Ear Lab, University Medical Center G\u00f6ttingen, 37075, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0009-0007-8051-7964",
+            "@id": "https://orcid.org/0009-0007-8051-7964",
+            "identifier": "https://orcid.org/0009-0007-8051-7964",
+            "name": "Roos, Lennart"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Susann",
+            "familyName": "Michanski",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Molecular Architecture of Synapses Group, Institute for Auditory Neuroscience and InnerEarLab, University Medical Center G\u00f6ttingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0001-5893-1981",
+            "@id": "https://orcid.org/0000-0001-5893-1981",
+            "identifier": "https://orcid.org/0000-0001-5893-1981",
+            "name": "Michanski, Susann"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Torben",
+            "familyName": "Ruhwedel",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Max Planck Institute for Multidisciplinary Sciences, 37075, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0002-9535-9395",
+            "@id": "https://orcid.org/0000-0002-9535-9395",
+            "identifier": "https://orcid.org/0000-0002-9535-9395",
+            "name": "Ruhwedel, Torben"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Marina",
+            "familyName": "Eckermann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Beamline ID16A, European Synchrotron Radiation Facility, 38000, Grenoble, France"
+            },
+            "sameAs": "https://orcid.org/0000-0001-6418-4310",
+            "@id": "https://orcid.org/0000-0001-6418-4310",
+            "identifier": "https://orcid.org/0000-0001-6418-4310",
+            "name": "Eckermann, Marina"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Alexander",
+            "familyName": "Meyer",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department of Otolaryngology, University Medical Center G\u00f6ttingen, 37075 G\u00f6ttingen, Germany"
+            },
+            "name": "Meyer, Alexander"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Marcus",
+            "familyName": "Jeschke",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for Auditory Neuroscience and Inner Ear Lab, University Medical Center G\u00f6ttingen, 37075, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0002-9109-8765",
+            "@id": "https://orcid.org/0000-0002-9109-8765",
+            "identifier": "https://orcid.org/0000-0002-9109-8765",
+            "name": "Jeschke, Marcus"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Carolin",
+            "familyName": "Wichmann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Molecular Architecture of Synapses Group, Institute for Auditory Neuroscience and InnerEarLab, University Medical Center G\u00f6ttingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0001-8868-8716",
+            "@id": "https://orcid.org/0000-0001-8868-8716",
+            "identifier": "https://orcid.org/0000-0001-8868-8716",
+            "name": "Wichmann, Carolin"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Tobias",
+            "familyName": "Moser",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for Auditory Neuroscience, University Medical Center G\u00f6ttingen, 37075 G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0001-7145-0533",
+            "@id": "https://orcid.org/0000-0001-7145-0533",
+            "identifier": "https://orcid.org/0000-0001-7145-0533",
+            "name": "Moser, Tobias"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Tim",
+            "familyName": "Salditt",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for X-Ray Physics, University of Goettingen"
+            },
+            "sameAs": "https://orcid.org/0000-0003-4636-0813",
+            "@id": "https://orcid.org/0000-0003-4636-0813",
+            "identifier": "https://orcid.org/0000-0003-4636-0813",
+            "name": "Salditt, Tim"
+        }
+    ],
+    "datePublished": "2025-05-25",
+    "dateModified": "2025-05-25",
+    "version": "1",
+    "description": "Datasets of excised cochleae obtained with x-ray phase-contrast tomography both at synchrotron and \u00b5-CT sources.",
+    "keywords": [
+        "Medicine, Health and Life Sciences",
+        "Physics"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "Schaeper, J.J., Kampshoff, C.A., Wolf, B.J. et al. 3D virtual histology of rodent and primate cochleae with multi-scale phase-contrast X-ray tomography. Sci Rep 15, 7933 (2025). https://doi.org/10.1038/s41598-025-89431-0"
+        }
+    ],
+    "license": "http://creativecommons.org/licenses/by-nc/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Cochlea_OsO4_IRP_050nm_tomo01_rec_size=32bitFloat_3216x3216x2048.raw",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 84727037952,
+            "description": "",
+            "@id": "https://doi.org/10.25625/TU53LS/ZBJ3WH",
+            "identifier": "https://doi.org/10.25625/TU53LS/ZBJ3WH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/122240"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Cochlea_OsO4_IRP_115nm_tomo01_rec_size_32bit_3216x3216x2048.raw",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 84727037952,
+            "description": "",
+            "@id": "https://doi.org/10.25625/TU53LS/NPVUKG",
+            "identifier": "https://doi.org/10.25625/TU53LS/NPVUKG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/122241"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Cochlea_Mouse_OoC_Os_p5_ht_125nm_rec_type=32bit_size=3216x3216x3216.raw",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 133047926784,
+            "description": "",
+            "@id": "https://doi.org/10.25625/TU53LS/G94YEA",
+            "identifier": "https://doi.org/10.25625/TU53LS/G94YEA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/122242"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "SlicesY_type=uint16_size=1099x1161x1216.raw",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 3103083648,
+            "description": "",
+            "@id": "https://doi.org/10.25625/TU53LS/YDQBHR",
+            "identifier": "https://doi.org/10.25625/TU53LS/YDQBHR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/122243"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "bin4_134_1L_2nd_plane_v2_846.0_0.0_0.0_1528x1528x531.raw",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 4959081216,
+            "description": "",
+            "@id": "https://doi.org/10.25625/TU53LS/HLQZ2O",
+            "identifier": "https://doi.org/10.25625/TU53LS/HLQZ2O",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/122233"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "slices_tomo05_seq_06_ctf_v4_type=single_size_2516x2516x2100.raw",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 53174150400,
+            "description": "",
+            "@id": "https://doi.org/10.25625/TU53LS/L5H3SJ",
+            "identifier": "https://doi.org/10.25625/TU53LS/L5H3SJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/122234"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "slices_tomo14_seq_16_ctf_v4_type=single_size_2516x2516x2100.raw",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 53174150400,
+            "description": "",
+            "@id": "https://doi.org/10.25625/TU53LS/S6FBML",
+            "identifier": "https://doi.org/10.25625/TU53LS/S6FBML",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/122235"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "slices_tomo14_seq_16_ctf_v3_type=single_size=2982x2982x2048.raw",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 72845918208,
+            "description": "",
+            "@id": "https://doi.org/10.25625/TU53LS/DKGZKI",
+            "identifier": "https://doi.org/10.25625/TU53LS/DKGZKI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/122239"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "cochlea_chalsey_a_LR_reconstructedSlices_CTF_1_30_mitPCA_FDK_ShiftCorrectur_v4_2_type=single_size=2361x2361x1961.raw",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 43724973924,
+            "description": "",
+            "@id": "https://doi.org/10.25625/TU53LS/JMW3DR",
+            "identifier": "https://doi.org/10.25625/TU53LS/JMW3DR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/122238"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "SlicesY-Cochlea_M01_tomo05_type=16bit_size=1723x1723x1201.raw",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 7130887058,
+            "description": "",
+            "@id": "https://doi.org/10.25625/TU53LS/U8LKQB",
+            "identifier": "https://doi.org/10.25625/TU53LS/U8LKQB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/122236"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "SlicesY-Cochlea_M01_tomo06_type=16bit_size=1809x1809x1323.raw",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 8658984726,
+            "description": "",
+            "@id": "https://doi.org/10.25625/TU53LS/EQEH6X",
+            "identifier": "https://doi.org/10.25625/TU53LS/EQEH6X",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/122237"
+        }
+    ],
+    "license_title": "Creative Commons Attribution-NonCommercial 4.0 International",
+    "subjects": [
+        "Medicine, Health and Life Sciences",
+        "Physics"
+    ],
+    "publications": [
+        {
+            "citation": "Schaeper, J.J., Kampshoff, C.A., Wolf, B.J. et al. 3D virtual histology of rodent and primate cochleae with multi-scale phase-contrast X-ray tomography. Sci Rep 15, 7933 (2025). https://doi.org/10.1038/s41598-025-89431-0"
+        }
+    ]
+}

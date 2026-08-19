@@ -1,0 +1,94 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/ERZ3SV",
+    "identifier": "https://doi.org/10.25625/ERZ3SV",
+    "name": "High day and nighttime scavenging on insect carrion across natural and cultivated habitats",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Marco",
+            "familyName": "Ferrante",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Agroecology & Functional Agrobiodiversity"
+            },
+            "name": "Ferrante, Marco"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Marco",
+            "familyName": "Ferrante",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Agroecology & Functional Agrobiodiversity"
+            },
+            "name": "Ferrante, Marco"
+        }
+    ],
+    "datePublished": "2026-07-29",
+    "dateModified": "2026-07-29",
+    "version": "1",
+    "description": "Data sets and R scripts used for the statistical analysis of the manuscript \"High day and nighttime scavenging on insect carrion across natural and cultivated habitats\" by L\u00f6vei GL et al.",
+    "keywords": [
+        "Agricultural Sciences",
+        "Detritivory",
+        "Ecosystem function",
+        "Land-use change",
+        "Necrophagy",
+        "Nutrient cycling",
+        "Sentinel method"
+    ],
+    "license": "http://creativecommons.org/licenses/by-nc/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "2026-07-21_Lovei_et_al_scavenging.Rmd",
+            "encodingFormat": "text/x-r-notebook",
+            "contentSize": 29891,
+            "description": "R scripts used for the analyses in L\u00f6vei et al. Please, check the Statistical Analyses section of the article for further details.",
+            "@id": "https://doi.org/10.25625/ERZ3SV/QFK0PR",
+            "identifier": "https://doi.org/10.25625/ERZ3SV/QFK0PR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/188229"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "DATA_Scav.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 402806,
+            "description": "Complete dataset of scavenging rates where every row is a card containing 10 larvae and scavenging rate is calculated as a percentage.",
+            "@id": "https://doi.org/10.25625/ERZ3SV/W4EKC3",
+            "identifier": "https://doi.org/10.25625/ERZ3SV/W4EKC3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/188228"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ferrante_scavenging_corr.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 4066610,
+            "description": "Complete dataset of scavenging rates where every row is a larva which could be consumed or not (0/1).",
+            "@id": "https://doi.org/10.25625/ERZ3SV/QTHTRY",
+            "identifier": "https://doi.org/10.25625/ERZ3SV/QTHTRY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/188230"
+        }
+    ],
+    "license_title": "Creative Commons Attribution-NonCommercial 4.0 International",
+    "subjects": [
+        "Agricultural Sciences"
+    ]
+}

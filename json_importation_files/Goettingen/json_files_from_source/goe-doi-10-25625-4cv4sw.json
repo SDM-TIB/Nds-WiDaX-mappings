@@ -1,0 +1,70 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/4CV4SW",
+    "identifier": "https://doi.org/10.25625/4CV4SW",
+    "name": "Enhancing Tree Segmentation in Large Forest Point Clouds with Synthetic Data",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Ali",
+            "familyName": "Doosthosseini",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Gesellschaft f\u00fcr wissenschaftliche Datenverarbeitung mbH G\u00f6ttingen"
+            },
+            "name": "Doosthosseini, Ali"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Ali",
+            "familyName": "Doosthosseini",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Gesellschaft f\u00fcr wissenschaftliche Datenverarbeitung mbH G\u00f6ttingen"
+            },
+            "name": "Doosthosseini, Ali"
+        }
+    ],
+    "datePublished": "2024-02-26",
+    "dateModified": "2024-02-26",
+    "version": "1",
+    "description": "Monitoring and preserving forests is becoming increasingly important due to the escalating effects of climate change and threats of deforestation. In the domain of forest science, three-dimensional data acquired through remote sensing technology has gained prominence for its ability to provide deep insights into the complex nature of forest environments. The process of identifying and segmenting individual trees in three-dimensional point clouds is a crucial yet challenging prerequisite for many forest analyses such as the classification of tree health and species. Tree segmentation is currently dominated by classical approaches that often rely on the forest\u2019s canopy height model to identify tree crowns, but with limited success in complex environments and in particular areas underneath the canopy. Recent deep learning models are adept at performing instance segmentation on point clouds, but the performance of these models relies on the quantity and quality of training data. The difficulty of obtaining forest data owing to the cost of technology and annotation process hinders the development of neural networks for tree segmentation in forest point clouds. In this thesis, a scalable workflow is presented to produce arbitrarily large quantities of synthetic forest point clouds, and its effectiveness in deep learning is demonstrated. It is shown that by applying large amounts of synthetic forest data to pretrain neural networks, the individual tree segmentation performance in synthetic and real forests is significantly improved, outperforming classical segmentation methods. It is concluded that this workflow is effective at producing large quantities of realistic forest data, and its incorporation in deep learning fosters progress in tackling tree segmentation in forest point clouds. Its efficiency and scalability further indicate its potential for the development of frameworks, benchmarking systems, high throughput data analysis, and other analytical tasks.",
+    "keywords": [
+        "Computer and Information Science",
+        "Medicine, Health and Life Sciences",
+        "Synthetic-data, LIDAR, tree-segmentation"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "AliMasterThesisFinal.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 52900710,
+            "@id": "https://doi.org/10.25625/4CV4SW/S2WM6L",
+            "identifier": "https://doi.org/10.25625/4CV4SW/S2WM6L",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/71659"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Computer and Information Science",
+        "Medicine, Health and Life Sciences"
+    ]
+}

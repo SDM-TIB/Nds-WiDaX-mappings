@@ -1,0 +1,175 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/YMGX29",
+    "identifier": "https://doi.org/10.25625/YMGX29",
+    "name": "Replication Data for: Quantum relative entropy regularization for quantum state tomography",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Jakob Florian",
+            "familyName": "Oberender",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen, Institute for Numerical and Applied Mathematics"
+            },
+            "sameAs": "https://orcid.org/0009-0003-3383-0844",
+            "@id": "https://orcid.org/0009-0003-3383-0844",
+            "identifier": "https://orcid.org/0009-0003-3383-0844",
+            "name": "Oberender, Jakob Florian"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jakob Florian",
+            "familyName": "Oberender",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen, Institute for Numerical and Applied Mathematics"
+            },
+            "sameAs": "https://orcid.org/0009-0003-3383-0844",
+            "@id": "https://orcid.org/0009-0003-3383-0844",
+            "identifier": "https://orcid.org/0009-0003-3383-0844",
+            "name": "Oberender, Jakob Florian"
+        }
+    ],
+    "datePublished": "2026-03-04",
+    "dateModified": "2026-03-04",
+    "version": "1",
+    "description": "This dataset contains code for reproducing the data of the paper 'Quantum relative entropy regularization for quantum state tomography'. It is written in the python programming language using the regpy package. Its requirements are listed in the file requirements.txt. The two main examples, PINEM and homodyne tomography are split into two subdirectories which are named accordingly.",
+    "keywords": [
+        "Mathematical Sciences",
+        "Physics",
+        "quantum tomograpy"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "matrix_functionals.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 5562,
+            "@id": "https://doi.org/10.25625/YMGX29/3VHYJV",
+            "identifier": "https://doi.org/10.25625/YMGX29/3VHYJV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/158080"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "README.md",
+            "encodingFormat": "text/markdown",
+            "contentSize": 471,
+            "@id": "https://doi.org/10.25625/YMGX29/IPQWIX",
+            "identifier": "https://doi.org/10.25625/YMGX29/IPQWIX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/158074"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "requirements.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 48,
+            "@id": "https://doi.org/10.25625/YMGX29/SGJABV",
+            "identifier": "https://doi.org/10.25625/YMGX29/SGJABV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/158070"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "util.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 647,
+            "@id": "https://doi.org/10.25625/YMGX29/CANICF",
+            "identifier": "https://doi.org/10.25625/YMGX29/CANICF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/158072"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "operators.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 3116,
+            "@id": "https://doi.org/10.25625/YMGX29/J4P716",
+            "identifier": "https://doi.org/10.25625/YMGX29/J4P716",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/158081"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "reco_KL_PDHG_conv.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 2638,
+            "@id": "https://doi.org/10.25625/YMGX29/E0Y8AB",
+            "identifier": "https://doi.org/10.25625/YMGX29/E0Y8AB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/158075"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "reco_L2_Fista_conv.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 2613,
+            "@id": "https://doi.org/10.25625/YMGX29/7WNZLG",
+            "identifier": "https://doi.org/10.25625/YMGX29/7WNZLG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/158073"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "sim_basic_states.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 1212,
+            "@id": "https://doi.org/10.25625/YMGX29/BCSVHH",
+            "identifier": "https://doi.org/10.25625/YMGX29/BCSVHH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/158079"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "operators.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 1519,
+            "@id": "https://doi.org/10.25625/YMGX29/B3V70P",
+            "identifier": "https://doi.org/10.25625/YMGX29/B3V70P",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/158076"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "reco_KL_PDHG_conv.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 2418,
+            "@id": "https://doi.org/10.25625/YMGX29/DRI5BJ",
+            "identifier": "https://doi.org/10.25625/YMGX29/DRI5BJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/158077"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "reco_L2_Fista_conv.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 2374,
+            "@id": "https://doi.org/10.25625/YMGX29/NNFXDG",
+            "identifier": "https://doi.org/10.25625/YMGX29/NNFXDG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/158071"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "sim_random_priebe.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 927,
+            "@id": "https://doi.org/10.25625/YMGX29/HHVP0X",
+            "identifier": "https://doi.org/10.25625/YMGX29/HHVP0X",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/158078"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Mathematical Sciences",
+        "Physics"
+    ]
+}

@@ -1,0 +1,443 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/1BSJ2G",
+    "identifier": "https://doi.org/10.25625/1BSJ2G",
+    "name": "Entwicklung und Struktur der biomolekularen Wissenschaften in der MPG",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Alexander",
+            "familyName": "v. Schwerin",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Max-Planck-Institut f\u00fcr Wissenschaftsgeschichte / Max Planck Institute fort he History of Science"
+            },
+            "name": "Alexander v. Schwerin"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Robert",
+            "familyName": "Egel",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Max-Planck-Institut f\u00fcr Wissenschaftsgeschichte / Max Planck Institute fort he History of Science"
+            },
+            "name": "Robert Egel"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Alexander",
+            "familyName": "v. Schwerin",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Max-Planck-Institut f\u00fcr Wissenschaftsgeschichte / Max Planck Institute fort he History of Science"
+            },
+            "name": "Alexander v. Schwerin"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Robert",
+            "familyName": "Egel",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Max-Planck-Institut f\u00fcr Wissenschaftsgeschichte / Max Planck Institute fort he History of Science"
+            },
+            "name": "Robert Egel"
+        }
+    ],
+    "datePublished": "2023-11-24",
+    "dateModified": "2023-11-24",
+    "version": "1",
+    "description": "Dargestellt ist die Anzahl Wissenschaftlicher Mitglieder (WMs) in den Gebieten der biomolekularen Wissenschaften, aufgeschl\u00fcsselt nach den MPIs und (Fl\u00e4chendiagramm) und relativ zum Gesamthaushalt der MPG (gr\u00fcn gestrichelt) pro Jahr. Die \u00fcber den gesamten Zeitraum involvierte Anzahl von Wissenschaftlichen Mitgliedern je Institut ist in der Legende vermerkt.",
+    "keywords": [
+        "Arts and Humanities"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "Zur Methode des Tagging siehe Anhang in: Kocka, J\u00fcrgen, Carsten Reinhard, J\u00fcrgen Renn und Florian Schmaltz (Hg.): Die Max-Planck-Gesellschaft. Wissenschafts- und Zeitgeschichte 1945\u20132005. Bd. 1. G\u00f6ttingen: Vandenhoeck & Ruprecht 2023."
+        }
+    ],
+    "temporalCoverage": [
+        "1948/2002"
+    ],
+    "license": "http://creativecommons.org/licenses/by-nc/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "624_Forschungscluster_-_Direkte_Zuordnung__WM_in_Cluster.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 358121,
+            "@id": "https://doi.org/10.25625/1BSJ2G/JFCNDH",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/JFCNDH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55246"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "625_Forschungscluster_-_WM_Affliliations_(fu\u0308r_Clusteranalyse).tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 303425,
+            "@id": "https://doi.org/10.25625/1BSJ2G/HXSXXK",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/HXSXXK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55271"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "626_Forschungscluster_-_WM_Mitgliedschaften_(fu\u0308r_Clusteranalyse).tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 202793,
+            "@id": "https://doi.org/10.25625/1BSJ2G/UHT6V3",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/UHT6V3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55258"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Cluster-Personen_ohne_WM-Mitgliedschaft.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "contentSize": 6226,
+            "@id": "https://doi.org/10.25625/1BSJ2G/VY9CY6",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/VY9CY6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55252"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "common_plot_tools.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 7427,
+            "@id": "https://doi.org/10.25625/1BSJ2G/JOHKG8",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/JOHKG8",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55245"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "fetchCSVfromDatabase.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 7028,
+            "@id": "https://doi.org/10.25625/1BSJ2G/HSN3UY",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/HSN3UY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55268"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "fin_institutes.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "contentSize": 27209,
+            "@id": "https://doi.org/10.25625/1BSJ2G/QMNZTG",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/QMNZTG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55259"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "fin_tagging_BioMol.ipynb",
+            "encodingFormat": "application/x-ipynb+json",
+            "contentSize": 3446770,
+            "@id": "https://doi.org/10.25625/1BSJ2G/4BHIY9",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/4BHIY9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55257"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "fin_tagging_BioMol.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 37990,
+            "@id": "https://doi.org/10.25625/1BSJ2G/0HH9RG",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/0HH9RG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55263"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "fin_tagging_BioMol_sum.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "contentSize": 10979,
+            "@id": "https://doi.org/10.25625/1BSJ2G/KMZPLT",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/KMZPLT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55267"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "gmpg.mplstyle",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1212,
+            "@id": "https://doi.org/10.25625/1BSJ2G/CPQBOW",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/CPQBOW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55243"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "helpers_institutes.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 19766,
+            "@id": "https://doi.org/10.25625/1BSJ2G/UWYSD3",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/UWYSD3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55247"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "InflationsgeschehenBRD_2002.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 20565,
+            "@id": "https://doi.org/10.25625/1BSJ2G/DP2NFD",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/DP2NFD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55251"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "instClusterLong_with_fin.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 427586,
+            "@id": "https://doi.org/10.25625/1BSJ2G/56B8JI",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/56B8JI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55260"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Konzepte_Gesamthaushalt_ohne_Inflationsbereinigung.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 9696,
+            "@id": "https://doi.org/10.25625/1BSJ2G/MMMGOB",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/MMMGOB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55240"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "requirements.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 483,
+            "@id": "https://doi.org/10.25625/1BSJ2G/SQDVR9",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/SQDVR9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55242"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "WM-Mehrfache-Mitgliedschaft.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "contentSize": 8470,
+            "@id": "https://doi.org/10.25625/1BSJ2G/TJGT1L",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/TJGT1L",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55261"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "WM-Mehrfache-Mitgliedschaft_AS.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 5513,
+            "@id": "https://doi.org/10.25625/1BSJ2G/8IEJFB",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/8IEJFB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55264"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "area_tagging_Ausgaben.html",
+            "encodingFormat": "text/html",
+            "contentSize": 1000068,
+            "@id": "https://doi.org/10.25625/1BSJ2G/JO1VAY",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/JO1VAY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55249"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "area_tagging_Ausgaben.svg",
+            "encodingFormat": "image/svg+xml",
+            "contentSize": 518034,
+            "@id": "https://doi.org/10.25625/1BSJ2G/VB1XJ1",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/VB1XJ1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55270"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "area_tagging_Einnahmen.html",
+            "encodingFormat": "text/html",
+            "contentSize": 1000704,
+            "@id": "https://doi.org/10.25625/1BSJ2G/96OUZP",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/96OUZP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55256"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "area_tagging_Einnahmen.svg",
+            "encodingFormat": "image/svg+xml",
+            "contentSize": 537789,
+            "@id": "https://doi.org/10.25625/1BSJ2G/S4MQXZ",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/S4MQXZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55238"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "area_tagging_Personalausgaben.html",
+            "encodingFormat": "text/html",
+            "contentSize": 1000310,
+            "@id": "https://doi.org/10.25625/1BSJ2G/TZSQCU",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/TZSQCU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55244"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "area_tagging_Personalausgaben.svg",
+            "encodingFormat": "image/svg+xml",
+            "contentSize": 552737,
+            "@id": "https://doi.org/10.25625/1BSJ2G/DAKMYU",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/DAKMYU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55273"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "area_tagging_relative_Ausgaben.html",
+            "encodingFormat": "text/html",
+            "contentSize": 1107229,
+            "@id": "https://doi.org/10.25625/1BSJ2G/EALXXS",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/EALXXS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55250"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "area_tagging_relative_Ausgaben.svg",
+            "encodingFormat": "image/svg+xml",
+            "contentSize": 558801,
+            "@id": "https://doi.org/10.25625/1BSJ2G/QRR0K7",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/QRR0K7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55275"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "area_tagging_Wissenschaftlicher Betrieb.html",
+            "encodingFormat": "text/html",
+            "contentSize": 1000784,
+            "@id": "https://doi.org/10.25625/1BSJ2G/V9CDS4",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/V9CDS4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55239"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "area_tagging_Wissenschaftlicher Betrieb.svg",
+            "encodingFormat": "image/svg+xml",
+            "contentSize": 553400,
+            "@id": "https://doi.org/10.25625/1BSJ2G/PQYMOM",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/PQYMOM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55262"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Einzelne_Institute_Dropdown_clusterrelative_raw.html",
+            "encodingFormat": "text/html",
+            "contentSize": 993292,
+            "@id": "https://doi.org/10.25625/1BSJ2G/LHKNSA",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/LHKNSA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55255"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Einzelne_Institute_Dropdown_clusterrelative_raw.svg",
+            "encodingFormat": "image/svg+xml",
+            "contentSize": 6168757,
+            "@id": "https://doi.org/10.25625/1BSJ2G/OCOQSZ",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/OCOQSZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55269"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "clusterBioMolinstituteAnteile.html",
+            "encodingFormat": "text/html",
+            "contentSize": 556142,
+            "@id": "https://doi.org/10.25625/1BSJ2G/IADBFU",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/IADBFU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55237"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "clusterBioMolinstituteAnteile.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 78351,
+            "@id": "https://doi.org/10.25625/1BSJ2G/QCQTSX",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/QCQTSX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55253"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "clusterBioMolinstituteAnteile.svg",
+            "encodingFormat": "image/svg+xml",
+            "contentSize": 1345275,
+            "@id": "https://doi.org/10.25625/1BSJ2G/KKFY73",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/KKFY73",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55241"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "clusterBioMolinstituteAnzahl_line.html",
+            "encodingFormat": "text/html",
+            "contentSize": 577014,
+            "@id": "https://doi.org/10.25625/1BSJ2G/CHMLR6",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/CHMLR6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55274"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "clusterBioMolinstituteAnzahl_line.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 60843,
+            "@id": "https://doi.org/10.25625/1BSJ2G/EAOUEX",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/EAOUEX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55265"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "clusterBioMolinstituteAnzahl_line.svg",
+            "encodingFormat": "image/svg+xml",
+            "contentSize": 711010,
+            "@id": "https://doi.org/10.25625/1BSJ2G/EYD6IO",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/EYD6IO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55254"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "clusterBioMolzuordnungenZeitlicherVerlauf.html",
+            "encodingFormat": "text/html",
+            "contentSize": 19408,
+            "@id": "https://doi.org/10.25625/1BSJ2G/PTRG15",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/PTRG15",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55272"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "clusterBioMolzuordnungenZeitlicherVerlauf.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 62607,
+            "@id": "https://doi.org/10.25625/1BSJ2G/Y4P5NZ",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/Y4P5NZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55266"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "clusterBioMolzuordnungenZeitlicherVerlauf.svg",
+            "encodingFormat": "image/svg+xml",
+            "contentSize": 264510,
+            "@id": "https://doi.org/10.25625/1BSJ2G/BGOEK3",
+            "identifier": "https://doi.org/10.25625/1BSJ2G/BGOEK3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55248"
+        }
+    ],
+    "license_title": "Creative Commons Attribution-NonCommercial 4.0 International",
+    "subjects": [
+        "Arts and Humanities"
+    ],
+    "publications": [
+        {
+            "citation": "Zur Methode des Tagging siehe Anhang in: Kocka, J\u00fcrgen, Carsten Reinhard, J\u00fcrgen Renn und Florian Schmaltz (Hg.): Die Max-Planck-Gesellschaft. Wissenschafts- und Zeitgeschichte 1945\u20132005. Bd. 1. G\u00f6ttingen: Vandenhoeck &amp; Ruprecht 2023."
+        }
+    ]
+}

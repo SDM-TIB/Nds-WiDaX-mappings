@@ -1,0 +1,101 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/M0JRUI",
+    "identifier": "https://doi.org/10.25625/M0JRUI",
+    "name": "Replication Data for: Sarcomere, troponin, and myson X-ray diffraction signals can be resolved in single cardiomyocytes",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Hendrik",
+            "familyName": "Bruns",
+            "name": "Bruns, Hendrik"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Hendrik",
+            "familyName": "Bruns",
+            "name": "Bruns, Hendrik"
+        }
+    ],
+    "datePublished": "2024-07-12",
+    "dateModified": "2024-07-12",
+    "version": "1",
+    "description": "Scanning SAXS / uSAXS measurement data, including analysis scripts",
+    "keywords": [
+        "Physics"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "H. Bruns et al.: Sarcomere, troponin, and myson X-ray diffraction signals can be resolved in single cardiomyocytes, Biophys J (2024, accepted)"
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "31m_scan_cell1_Fig_4_RAW.tar",
+            "encodingFormat": "application/x-tar",
+            "contentSize": 120832000,
+            "description": "D02 beamsize 25x35 \u00b5m; 0.1s illumination time; 31m sample detector distance; 20x20 size; stepsize 10\u00b5m, Isolated Adult Cardiomyocytes Mouse Fixated with K&S ",
+            "@id": "https://doi.org/10.25625/M0JRUI/CL89XR",
+            "identifier": "https://doi.org/10.25625/M0JRUI/CL89XR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/107751"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "3m_scan_Fig_2_RAW.tar",
+            "encodingFormat": "application/x-tar",
+            "contentSize": 1328261120,
+            "description": "ID02 beamsize 25x35 \u00b5m; 0.5s illumination time; 3m sample detector distance; 40x40 size; stepsize 50\u00b5m Isolated Adult Cardiomyocytes Mouse Fixated with K&S ",
+            "@id": "https://doi.org/10.25625/M0JRUI/WKW2FG",
+            "identifier": "https://doi.org/10.25625/M0JRUI/WKW2FG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/107750"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "basic_analysis_scripts.tar",
+            "encodingFormat": "application/x-tar",
+            "contentSize": 307200,
+            "description": "Matlab analysis scripts for: rectangular profiles of diffraction patterns; Sarcomere peak fitting; Fourier synthesis",
+            "@id": "https://doi.org/10.25625/M0JRUI/QD2LOH",
+            "identifier": "https://doi.org/10.25625/M0JRUI/QD2LOH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/107765"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Microscopy.tar",
+            "encodingFormat": "application/x-tar",
+            "contentSize": 117780480,
+            "description": "Microscopy images corresponding to the scanning areas of the two X-ray scans before and after the X-ray measurements",
+            "@id": "https://doi.org/10.25625/M0JRUI/E6AXHQ",
+            "identifier": "https://doi.org/10.25625/M0JRUI/E6AXHQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/107752"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Physics"
+    ],
+    "publications": [
+        {
+            "citation": "H. Bruns et al.: Sarcomere, troponin, and myson X-ray diffraction signals can be resolved in single cardiomyocytes, Biophys J (2024, accepted)"
+        }
+    ]
+}

@@ -1,0 +1,411 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/TURZGG",
+    "identifier": "https://doi.org/10.25625/TURZGG",
+    "name": "Long-range velocity correlations from active dopants",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Leila",
+            "familyName": "Abbaspour",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen, Institute for the Dynamics of Complex Systems"
+            },
+            "name": "Abbaspour, Leila"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Rituparno",
+            "familyName": "Mandal",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen, Institute for Theoretical Physics"
+            },
+            "name": "Mandal, Rituparno"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Peter",
+            "familyName": "Sollich",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen, Institute for Theoretical Physics"
+            },
+            "name": "Sollich, Peter"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Stefan",
+            "familyName": "Klumpp",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen, Institute for the Dynamics of Complex Systems"
+            },
+            "name": "Klumpp, Stefan"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Leila",
+            "familyName": "Abbaspour",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen, Institute for the Dynamics of Complex Systems"
+            },
+            "name": "Abbaspour, Leila"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Rituparno",
+            "familyName": "Mandal",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen, Institute for Theoretical Physics"
+            },
+            "name": "Mandal, Rituparno"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Peter",
+            "familyName": "Sollich",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen, Institute for Theoretical Physics"
+            },
+            "name": "Sollich, Peter"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Stefan",
+            "familyName": "Klumpp",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen, Institute for the Dynamics of Complex Systems"
+            },
+            "name": "Klumpp, Stefan"
+        }
+    ],
+    "datePublished": "2024-01-02",
+    "dateModified": "2024-09-01",
+    "version": "1",
+    "description": "This data set contains data and code from the simulations of mixtures of active and passive particles.",
+    "keywords": [
+        "Physics",
+        "active matter",
+        "velocity correlations",
+        "mixtures"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "L. Abbaspour, R. Mandal, P. Sollich, S. Klumpp, Long-range velocity correlations from active dopants, Commun. Phys. 7, 289 (2024).",
+            "@id": "https://doi.org/10.1038/s42005-024-01780-w",
+            "identifier": "https://doi.org/10.1038/s42005-024-01780-w",
+            "url": "https://doi.org/10.1038/s42005-024-01780-w"
+        }
+    ],
+    "license": "http://creativecommons.org/licenses/by-nc/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "BMBF and MPG"
+        },
+        {
+            "@type": "Organization",
+            "name": "Deutsche Forschungsgemeinschaft"
+        },
+        {
+            "@type": "Organization",
+            "name": "MWK Niedersachsen"
+        }
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": " Corr-Length.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 2335,
+            "@id": "https://doi.org/10.25625/TURZGG/HQ1AJN",
+            "identifier": "https://doi.org/10.25625/TURZGG/HQ1AJN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69969"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "corr-ave.cpp",
+            "encodingFormat": "text/x-c",
+            "contentSize": 2732,
+            "@id": "https://doi.org/10.25625/TURZGG/W0IA83",
+            "identifier": "https://doi.org/10.25625/TURZGG/W0IA83",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69967"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Cellneibr.cpp",
+            "encodingFormat": "text/x-c",
+            "contentSize": 956,
+            "@id": "https://doi.org/10.25625/TURZGG/4PWZNZ",
+            "identifier": "https://doi.org/10.25625/TURZGG/4PWZNZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69951"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Force.cpp",
+            "encodingFormat": "text/x-c",
+            "contentSize": 963,
+            "@id": "https://doi.org/10.25625/TURZGG/NQCH70",
+            "identifier": "https://doi.org/10.25625/TURZGG/NQCH70",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69961"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Function.h",
+            "encodingFormat": "text/x-c",
+            "contentSize": 222,
+            "@id": "https://doi.org/10.25625/TURZGG/VVEUEQ",
+            "identifier": "https://doi.org/10.25625/TURZGG/VVEUEQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69973"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Initialize.cpp",
+            "encodingFormat": "text/x-c",
+            "contentSize": 2571,
+            "@id": "https://doi.org/10.25625/TURZGG/PC3IWK",
+            "identifier": "https://doi.org/10.25625/TURZGG/PC3IWK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69977"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "listcell.cpp",
+            "encodingFormat": "text/x-c",
+            "contentSize": 913,
+            "@id": "https://doi.org/10.25625/TURZGG/NXUHXM",
+            "identifier": "https://doi.org/10.25625/TURZGG/NXUHXM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69976"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "main.cpp",
+            "encodingFormat": "text/x-c",
+            "contentSize": 414,
+            "@id": "https://doi.org/10.25625/TURZGG/GHAEPG",
+            "identifier": "https://doi.org/10.25625/TURZGG/GHAEPG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69954"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "makefile",
+            "encodingFormat": "text/plain; charset=US-ASCII",
+            "contentSize": 502,
+            "@id": "https://doi.org/10.25625/TURZGG/NZ23SE",
+            "identifier": "https://doi.org/10.25625/TURZGG/NZ23SE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69970"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Parameter.cpp",
+            "encodingFormat": "text/x-c",
+            "contentSize": 1400,
+            "@id": "https://doi.org/10.25625/TURZGG/BGLUCS",
+            "identifier": "https://doi.org/10.25625/TURZGG/BGLUCS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69966"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Parameter.h",
+            "encodingFormat": "text/x-c",
+            "contentSize": 1348,
+            "@id": "https://doi.org/10.25625/TURZGG/LKYYNL",
+            "identifier": "https://doi.org/10.25625/TURZGG/LKYYNL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69959"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Posup.cpp",
+            "encodingFormat": "text/x-c",
+            "contentSize": 654,
+            "@id": "https://doi.org/10.25625/TURZGG/KDHJEQ",
+            "identifier": "https://doi.org/10.25625/TURZGG/KDHJEQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69965"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "SystemUpdate.cpp",
+            "encodingFormat": "text/x-c",
+            "contentSize": 277,
+            "@id": "https://doi.org/10.25625/TURZGG/EYAFUN",
+            "identifier": "https://doi.org/10.25625/TURZGG/EYAFUN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69972"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Thetaup.cpp",
+            "encodingFormat": "text/x-c",
+            "contentSize": 494,
+            "@id": "https://doi.org/10.25625/TURZGG/KK8OM4",
+            "identifier": "https://doi.org/10.25625/TURZGG/KK8OM4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69964"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Trajectory.cpp",
+            "encodingFormat": "text/x-c",
+            "contentSize": 1150,
+            "@id": "https://doi.org/10.25625/TURZGG/P5SZLZ",
+            "identifier": "https://doi.org/10.25625/TURZGG/P5SZLZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69979"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Velup.cpp",
+            "encodingFormat": "text/x-c",
+            "contentSize": 310,
+            "@id": "https://doi.org/10.25625/TURZGG/W8GV9J",
+            "identifier": "https://doi.org/10.25625/TURZGG/W8GV9J",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69978"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "VnList.cpp",
+            "encodingFormat": "text/x-c",
+            "contentSize": 2027,
+            "@id": "https://doi.org/10.25625/TURZGG/ZPV56S",
+            "identifier": "https://doi.org/10.25625/TURZGG/ZPV56S",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69975"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "VnListCheck.cpp",
+            "encodingFormat": "text/x-c",
+            "contentSize": 440,
+            "@id": "https://doi.org/10.25625/TURZGG/2UQCHW",
+            "identifier": "https://doi.org/10.25625/TURZGG/2UQCHW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69958"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "WParameters.cpp",
+            "encodingFormat": "text/x-c",
+            "contentSize": 786,
+            "@id": "https://doi.org/10.25625/TURZGG/FRODDZ",
+            "identifier": "https://doi.org/10.25625/TURZGG/FRODDZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69952"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "0.01.tar",
+            "encodingFormat": "application/x-tar",
+            "contentSize": 330240,
+            "@id": "https://doi.org/10.25625/TURZGG/HFO92F",
+            "identifier": "https://doi.org/10.25625/TURZGG/HFO92F",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69955"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "corr-0.95.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1024,
+            "@id": "https://doi.org/10.25625/TURZGG/BUJCM4",
+            "identifier": "https://doi.org/10.25625/TURZGG/BUJCM4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69960"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "corr-phi-total-0.95.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 724,
+            "@id": "https://doi.org/10.25625/TURZGG/TUZIGX",
+            "identifier": "https://doi.org/10.25625/TURZGG/TUZIGX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69956"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "corr.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 71,
+            "@id": "https://doi.org/10.25625/TURZGG/FEJTFH",
+            "identifier": "https://doi.org/10.25625/TURZGG/FEJTFH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69968"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "corr.npy",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1952,
+            "@id": "https://doi.org/10.25625/TURZGG/POIQE8",
+            "identifier": "https://doi.org/10.25625/TURZGG/POIQE8",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69957"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "corr.npy",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1952,
+            "@id": "https://doi.org/10.25625/TURZGG/RVCGCK",
+            "identifier": "https://doi.org/10.25625/TURZGG/RVCGCK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69963"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "corr.npy",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1952,
+            "@id": "https://doi.org/10.25625/TURZGG/CACRV0",
+            "identifier": "https://doi.org/10.25625/TURZGG/CACRV0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69962"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "corr-0.95-L=100pi.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1024,
+            "@id": "https://doi.org/10.25625/TURZGG/GWUGYM",
+            "identifier": "https://doi.org/10.25625/TURZGG/GWUGYM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69953"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "corr-0.95-L=30pi.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1024,
+            "@id": "https://doi.org/10.25625/TURZGG/RQZQ5X",
+            "identifier": "https://doi.org/10.25625/TURZGG/RQZQ5X",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69971"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "corr-0.95-L=60pi.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1024,
+            "@id": "https://doi.org/10.25625/TURZGG/JP9JEL",
+            "identifier": "https://doi.org/10.25625/TURZGG/JP9JEL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69974"
+        }
+    ],
+    "license_title": "Creative Commons Attribution-NonCommercial 4.0 International",
+    "subjects": [
+        "Physics"
+    ],
+    "publications": [
+        {
+            "citation": "L. Abbaspour, R. Mandal, P. Sollich, S. Klumpp, Long-range velocity correlations from active dopants, Commun. Phys. 7, 289 (2024).",
+            "url": "https://doi.org/10.1038/s42005-024-01780-w"
+        }
+    ]
+}

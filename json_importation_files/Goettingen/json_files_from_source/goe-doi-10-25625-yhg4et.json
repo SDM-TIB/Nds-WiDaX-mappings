@@ -1,0 +1,131 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/YHG4ET",
+    "identifier": "https://doi.org/10.25625/YHG4ET",
+    "name": "Scripts and Pipelines for scRNAseq analysis",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Nico",
+            "familyName": "Posnien",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Georg-August-University G\u00f6ttingen, Dpt. Developmental Biology"
+            },
+            "sameAs": "https://orcid.org/0000-0003-0700-5595",
+            "@id": "https://orcid.org/0000-0003-0700-5595",
+            "identifier": "https://orcid.org/0000-0003-0700-5595",
+            "name": "Posnien, Nico"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Gordon",
+            "familyName": "Wiegleb",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Georg-August-University G\u00f6ttingen, Dpt. Developmental Biology"
+            },
+            "name": "Wiegleb, Gordon"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Nico",
+            "familyName": "Posnien",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Georg-August-University G\u00f6ttingen, Dpt. Developmental Biology"
+            },
+            "sameAs": "https://orcid.org/0000-0003-0700-5595",
+            "@id": "https://orcid.org/0000-0003-0700-5595",
+            "identifier": "https://orcid.org/0000-0003-0700-5595",
+            "name": "Posnien, Nico"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Gordon",
+            "familyName": "Wiegleb",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Georg-August-University G\u00f6ttingen, Dpt. Developmental Biology"
+            },
+            "name": "Wiegleb, Gordon"
+        }
+    ],
+    "datePublished": "2022-05-04",
+    "dateModified": "2022-10-26",
+    "version": "2",
+    "description": "This repository contains all scripts and pipelines used to analyze single-cell and single-nuclei RNAseq data.",
+    "keywords": [
+        "Medicine, Health and Life Sciences"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "Tissue dissociation for single-cell and single-nuclei RNA sequencing for low amounts of input material"
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Codes_Reference_and_Mapping.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 395,
+            "@id": "https://doi.org/10.25625/YHG4ET/LWNZXU",
+            "identifier": "https://doi.org/10.25625/YHG4ET/LWNZXU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/44407"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "code_cells.r",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 6203,
+            "@id": "https://doi.org/10.25625/YHG4ET/LDXBEL",
+            "identifier": "https://doi.org/10.25625/YHG4ET/LDXBEL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/44408"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "code_nuclei.r",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 2959,
+            "@id": "https://doi.org/10.25625/YHG4ET/OKA1K9",
+            "identifier": "https://doi.org/10.25625/YHG4ET/OKA1K9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/44409"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "venn_variableGenes_UMAP_barplots_alluvial.r",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 6411,
+            "@id": "https://doi.org/10.25625/YHG4ET/E4VOWZ",
+            "identifier": "https://doi.org/10.25625/YHG4ET/E4VOWZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/51624"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Medicine, Health and Life Sciences"
+    ],
+    "publications": [
+        {
+            "citation": "Tissue dissociation for single-cell and single-nuclei RNA sequencing for low amounts of input material"
+        }
+    ]
+}

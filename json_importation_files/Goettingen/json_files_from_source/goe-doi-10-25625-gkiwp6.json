@@ -1,0 +1,205 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/GKIWP6",
+    "identifier": "https://doi.org/10.25625/GKIWP6",
+    "name": "Scripts for ATAC-seq analysis of spider samples",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Nico",
+            "familyName": "Posnien",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University G\u00f6ttingen, Dpt. of Developmental Biology"
+            },
+            "sameAs": "https://orcid.org/0000-0003-0700-5595",
+            "@id": "https://orcid.org/0000-0003-0700-5595",
+            "identifier": "https://orcid.org/0000-0003-0700-5595",
+            "name": "Posnien, Nico"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Du\u011f\u00e7ar Ebrar",
+            "familyName": "Erdo\u011fan",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University G\u00f6ttingen, Dpt. of Developmental Biology"
+            },
+            "sameAs": "https://orcid.org/0000-0001-9674-4247",
+            "@id": "https://orcid.org/0000-0001-9674-4247",
+            "identifier": "https://orcid.org/0000-0001-9674-4247",
+            "name": "Erdo\u011fan, Du\u011f\u00e7ar Ebrar"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Natascha",
+            "familyName": "Turetzek",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "LMU Munich, Evolutionary Ecology"
+            },
+            "sameAs": "https://orcid.org/0000-0002-5681-2177",
+            "@id": "https://orcid.org/0000-0002-5681-2177",
+            "identifier": "https://orcid.org/0000-0002-5681-2177",
+            "name": "Turetzek, Natascha"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Nico",
+            "familyName": "Posnien",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University G\u00f6ttingen, Dpt. of Developmental Biology"
+            },
+            "sameAs": "https://orcid.org/0000-0003-0700-5595",
+            "@id": "https://orcid.org/0000-0003-0700-5595",
+            "identifier": "https://orcid.org/0000-0003-0700-5595",
+            "name": "Posnien, Nico"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Du\u011f\u00e7ar Ebrar",
+            "familyName": "Erdo\u011fan",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University G\u00f6ttingen, Dpt. of Developmental Biology"
+            },
+            "sameAs": "https://orcid.org/0000-0001-9674-4247",
+            "@id": "https://orcid.org/0000-0001-9674-4247",
+            "identifier": "https://orcid.org/0000-0001-9674-4247",
+            "name": "Erdo\u011fan, Du\u011f\u00e7ar Ebrar"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Natascha",
+            "familyName": "Turetzek",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "LMU Munich, Evolutionary Ecology"
+            },
+            "sameAs": "https://orcid.org/0000-0002-5681-2177",
+            "@id": "https://orcid.org/0000-0002-5681-2177",
+            "identifier": "https://orcid.org/0000-0002-5681-2177",
+            "name": "Turetzek, Natascha"
+        }
+    ],
+    "datePublished": "2024-12-06",
+    "dateModified": "2024-12-06",
+    "version": "1",
+    "description": "Scripts and pipeline used for the analysis of spider ATACseq data.",
+    "keywords": [
+        "Medicine, Health and Life Sciences",
+        "Other",
+        "ATAC-seq",
+        "Parasteatoda tepidariorum",
+        "spider",
+        "tissue preservation"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "ATAC-seq in Emerging Model Organisms: Challenges and Strategies"
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "atacseq_technical_bioinfoanalysis.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 8478,
+            "@id": "https://doi.org/10.25625/GKIWP6/PRIME1",
+            "identifier": "https://doi.org/10.25625/GKIWP6/PRIME1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/117901"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "fragmentsizedist.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 2932,
+            "@id": "https://doi.org/10.25625/GKIWP6/UY6EUM",
+            "identifier": "https://doi.org/10.25625/GKIWP6/UY6EUM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/117907"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "libcompest_plot.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 3081,
+            "@id": "https://doi.org/10.25625/GKIWP6/CNU873",
+            "identifier": "https://doi.org/10.25625/GKIWP6/CNU873",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/117906"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "peakannotation_conditions.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 1240,
+            "@id": "https://doi.org/10.25625/GKIWP6/VWB37B",
+            "identifier": "https://doi.org/10.25625/GKIWP6/VWB37B",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/117902"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "peaksizedist_bedfile_consensus.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 1602,
+            "@id": "https://doi.org/10.25625/GKIWP6/LRUNVH",
+            "identifier": "https://doi.org/10.25625/GKIWP6/LRUNVH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/117903"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "qvalue_by_condition.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 1727,
+            "@id": "https://doi.org/10.25625/GKIWP6/JGZRFG",
+            "identifier": "https://doi.org/10.25625/GKIWP6/JGZRFG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/117900"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "readme.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1379,
+            "@id": "https://doi.org/10.25625/GKIWP6/BSUCI1",
+            "identifier": "https://doi.org/10.25625/GKIWP6/BSUCI1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/117905"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "venndiagram_peaks_consensus.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 971,
+            "@id": "https://doi.org/10.25625/GKIWP6/NDPUS4",
+            "identifier": "https://doi.org/10.25625/GKIWP6/NDPUS4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/117904"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Medicine, Health and Life Sciences",
+        "Other"
+    ],
+    "publications": [
+        {
+            "citation": "ATAC-seq in Emerging Model Organisms: Challenges and Strategies"
+        }
+    ]
+}

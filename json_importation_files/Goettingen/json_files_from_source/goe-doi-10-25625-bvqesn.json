@@ -1,0 +1,75 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/BVQESN",
+    "identifier": "https://doi.org/10.25625/BVQESN",
+    "name": "SAMSARA: reverse communication nonlinear optimization python package",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Russell",
+            "familyName": "Luke",
+            "name": "Luke, Russell"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Russell",
+            "familyName": "Luke",
+            "name": "Luke, Russell"
+        }
+    ],
+    "datePublished": "2024-04-29",
+    "dateModified": "2024-04-29",
+    "version": "1",
+    "description": "Samsara is a reverse communication nonlinear optimization solver for smooth unconstrained objectives. Samsara is just an oracle that suggests a step (direction and length) using previous information provided to it by the calling routine. It does not execute function evaluations or gradient calculations, but it does build a model of the function being optimized, based on the steps, gradients and function values (if available) passed to it by the user. This repository contains the Python version of Samsara published in the python package index. To install from a shell command line type: pip install samsara",
+    "keywords": [
+        "Mathematical Sciences",
+        "optimization"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "samsara 1.0.1",
+            "@id": "https://pypi.org/project/samsara/",
+            "identifier": "https://pypi.org/project/samsara/",
+            "url": "https://pypi.org/project/samsara/"
+        }
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "samsara-1.0.1.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 75133,
+            "@id": "https://doi.org/10.25625/BVQESN/2AX0KN",
+            "identifier": "https://doi.org/10.25625/BVQESN/2AX0KN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/73142"
+        }
+    ],
+    "license_title": "Creative Commons Attribution 4.0 International",
+    "subjects": [
+        "Mathematical Sciences"
+    ],
+    "publications": [
+        {
+            "citation": "samsara 1.0.1",
+            "url": "https://pypi.org/project/samsara/"
+        }
+    ]
+}

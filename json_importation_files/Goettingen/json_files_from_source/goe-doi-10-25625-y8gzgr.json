@@ -1,0 +1,167 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/Y8GZGR",
+    "identifier": "https://doi.org/10.25625/Y8GZGR",
+    "name": "Replication Data for: A benchmark dataset for ground-state protonic densities and energies",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Ricardo",
+            "familyName": "Mata",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Georg-August-Universit\u00e4t G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-2720-3364",
+            "@id": "https://orcid.org/0000-0002-2720-3364",
+            "identifier": "https://orcid.org/0000-0002-2720-3364",
+            "name": "Mata, Ricardo"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Ricardo",
+            "familyName": "Mata",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Georg-August-Universit\u00e4t G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-2720-3364",
+            "@id": "https://orcid.org/0000-0002-2720-3364",
+            "identifier": "https://orcid.org/0000-0002-2720-3364",
+            "name": "Mata, Ricardo"
+        }
+    ],
+    "datePublished": "2026-05-29",
+    "dateModified": "2026-08-06",
+    "version": "3",
+    "description": "Replication data for the journal article \"A benchmark dataset for ground-state protonic densities and energies\" The dataset contains: 0_geometry_optimizations Gaussian log-files for the geometry optimizations. 1_geometries Optimized and aligned structures in XYZ-format. 2_alignment_sampling Output files of the script performing the Hessian calculations, alignment procedure and sampling grid determination. 3_raw_rel_energies Displacement coordinates and calculated relative energies on the sampled grid for all systems. 4_potential_fits Output files of the NucVib fitting program that generates analytical polynomial potentials from the raw relative energies. The fitted potentials are provided as a FORTRAN program in potentials_program.tar 5_variational_calculations Output files of the NucVib variational program that generates vibrational wavefunctions from the analytical polynomial potentials. Individual subdirectories are provided for 1H, 2H, 3H 6_density_cubes Density cube-Files generated with NucVib. Individual subdirectories are provided for 1H, 2H, 3H 7_density_fits Output of the least-squares fitting program to optimize linear combinations of Gaussian-type functions to best reproduce a reference density. These files contain the overlaps of distributions discussed in the main manuscript. Individual subdirectories are provided for 1H, 2H, 3H isotopologues and for 2H and 3H results with scaled and unscaled exponents are provided. 8_benchmarks Raw data of benchmark calculations for the comparison of NuSol and NucVib as well as calculations at the CCSD(T)/aug-cc-pVTZ level of theory. 9_energy_calculations Raw data of DF-NEO-HF and DF-NEO-DFT calculations with different basis sets.",
+    "keywords": [
+        "Chemistry",
+        "Quantum chemistry",
+        "Quantum chemistry composite methods",
+        "Potential energy surface",
+        "hydron"
+    ],
+    "license": "http://creativecommons.org/licenses/by-sa/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "Deutsche Forschungsgemeinschaft"
+        }
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "0_geometry_optimizations.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 1325516,
+            "@id": "https://doi.org/10.25625/Y8GZGR/IOKUO4",
+            "identifier": "https://doi.org/10.25625/Y8GZGR/IOKUO4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/171680"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "1_geometries.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 3685,
+            "@id": "https://doi.org/10.25625/Y8GZGR/YD6M3R",
+            "identifier": "https://doi.org/10.25625/Y8GZGR/YD6M3R",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/171675"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2_alignment_sampling.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 27230,
+            "@id": "https://doi.org/10.25625/Y8GZGR/HVMNGQ",
+            "identifier": "https://doi.org/10.25625/Y8GZGR/HVMNGQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/171676"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "3_raw_rel_energies.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 3158650,
+            "@id": "https://doi.org/10.25625/Y8GZGR/1TL6CA",
+            "identifier": "https://doi.org/10.25625/Y8GZGR/1TL6CA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/171679"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "4_potential_fits.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 12207870,
+            "@id": "https://doi.org/10.25625/Y8GZGR/NMDPTO",
+            "identifier": "https://doi.org/10.25625/Y8GZGR/NMDPTO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/171677"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "5_variational_calculations.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 440312,
+            "@id": "https://doi.org/10.25625/Y8GZGR/4GHOHS",
+            "identifier": "https://doi.org/10.25625/Y8GZGR/4GHOHS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/171678"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "6_density_cubes.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 44059586,
+            "@id": "https://doi.org/10.25625/Y8GZGR/WMP4XO",
+            "identifier": "https://doi.org/10.25625/Y8GZGR/WMP4XO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/171673"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "7_density_fits.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 9741263,
+            "@id": "https://doi.org/10.25625/Y8GZGR/N4EECZ",
+            "identifier": "https://doi.org/10.25625/Y8GZGR/N4EECZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/189926"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "8_benchmarks.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 33142881,
+            "@id": "https://doi.org/10.25625/Y8GZGR/QWOMHL",
+            "identifier": "https://doi.org/10.25625/Y8GZGR/QWOMHL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/171672"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "9_energy_calculations.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 1981153,
+            "@id": "https://doi.org/10.25625/Y8GZGR/PAZPPS",
+            "identifier": "https://doi.org/10.25625/Y8GZGR/PAZPPS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/189927"
+        }
+    ],
+    "license_title": "Creative Commons Attribution-ShareAlike 4.0 International",
+    "subjects": [
+        "Chemistry"
+    ],
+    "publications": [
+        {}
+    ]
+}

@@ -1,0 +1,115 @@
+{
+  "author": "P. C. Sidharth, Alberto Antonini, Yousef Heider, Giovanna Xotta, Valentina Salomoni, B. N. Rao, Fadi Aldakheel ",
+  "author_email": "",
+  "creator_user_id": "8f1aaa8a-83a0-407a-95dc-a16bf1ff61e6",
+  "have_copyright": "Yes",
+  "id": "86af6aca-f81a-4a13-92ed-3349733ad850",
+  "isopen": false,
+  "license_id": "CC-BY-NC-SA-3.0",
+  "license_title": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+  "maintainer": "Fadi Aldakheel",
+  "maintainer_email": "fadi.aldakheel@ibnm.uni-hannover.de",
+  "metadata_created": "2026-08-17T10:34:47.088916",
+  "metadata_modified": "2026-08-17T11:30:16.633136",
+  "name": "multiphase-transport-interactions-across-multilayer-pemwe",
+  "notes": "The performance of Proton Exchange Membrane Water Electrolyzers (PEMWE) at high current densities is governed by a complex interplay between mechanical assembly, electrochemical kinetics, and hydraulic transport. To quantify the impact of mechanical compression on Ohmic resistance and species transport, this study employs a thermodynamically consistent framework based on the Theory of Porous Media (TPM), implemented in FEniCSx (open-access finite element package) via a calibrated conductivity scaling approach. We demonstrate that mechanical clamping forces induce significant heterogeneity in the porosity, where localized densification under the Porous Transport Layer (PTL) lands creates structural and capillary bottlenecks that fundamentally alter the displacement of liquid water by evolved gases. Our results reveal that electrochemical activity is highly localized at the membrane interfaces, where gas accumulation triggers sharp hydraulic pressure gradients necessary to force products through the deformed pore network. High compression enhances electrical connectivity but exacerbates liquid depletion. Regions beneath the flow channels, by contrast, retain comparatively higher liquid saturation than the compressed land regions, acting as preferential transport corridors even at high current densities. While the absolute saturation level is influenced by the prescribed channel boundary condition, the land--channel contrast itself, and its increase with compression ratio, is an emergent consequence of compression-induced porosity and permeability heterogeneity. These findings extend PEMWE optimization beyond the conventional focus on contact resistance by showing that the balance between ionic conductivity and mass transport is governed by the mechanical architecture of the assembly. The proposed framework further enables predictive mechanical–hydraulic co-design of next-generation high-power electrolyzer architectures.\r\n",
+  "num_resources": 1,
+  "num_tags": 6,
+  "organization": {
+    "id": "6dc327b5-7a23-46a9-bd71-77569c460a51",
+    "name": "institut-fur-baumechanik-und-numerische-mechanik",
+    "title": "Institut für Baumechanik und Numerische Mechanik",
+    "type": "organization",
+    "description": "https://www.ibnm.uni-hannover.de/",
+    "image_url": "2018-06-13-121331.937376Logogrun.jpg",
+    "created": "2018-06-08T14:03:38.292058",
+    "is_organization": true,
+    "approval_status": "approved",
+    "state": "active"
+  },
+  "owner_org": "6dc327b5-7a23-46a9-bd71-77569c460a51",
+  "private": false,
+  "state": "active",
+  "terms_of_usage": "Yes",
+  "title": "Source codes: Multiphase transport interactions across multilayer proton exchange membrane water electrolyzers",
+  "type": "dataset",
+  "url": "",
+  "version": "",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2026-08-17T11:30:16.847905",
+      "datastore_active": false,
+      "description": "Fenicsx Code for Multiphase transport interactions across multilayer proton exchange membrane water electrolyzers.\r\nInternational Journal of Hydrogen Energy",
+      "format": "",
+      "hash": "",
+      "id": "78b45436-807f-4efe-bc48-fce1a5f2e55a",
+      "last_modified": "2026-08-17T11:30:16.619441",
+      "metadata_modified": "2026-08-17T11:30:16.838062",
+      "mimetype": null,
+      "mimetype_inner": null,
+      "name": "fenicsx_code_multiphasetransportinteractionsacrossmultilayerpemwe.ipynb",
+      "package_id": "86af6aca-f81a-4a13-92ed-3349733ad850",
+      "position": 0,
+      "resource_type": null,
+      "size": 52372,
+      "state": "active",
+      "url": "https://data.uni-hannover.de/dataset/86af6aca-f81a-4a13-92ed-3349733ad850/resource/78b45436-807f-4efe-bc48-fce1a5f2e55a/download/fenicsx_code_multiphasetransportinteractionsacrossmultilayerpemwe.ipynb",
+      "url_type": "upload"
+    }
+  ],
+  "tags": [
+    {
+      "display_name": "Electro-Chemo-Hydro-Mechanical Coupling",
+      "id": "8e200545-5bfb-46b5-81e6-c3064b6642c7",
+      "name": "Electro-Chemo-Hydro-Mechanical Coupling",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Finite Element Method",
+      "id": "01ba7505-8d03-4457-9311-db5a15f2540b",
+      "name": "Finite Element Method",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Green Hydrogen Production",
+      "id": "167c9df4-d252-448a-a950-257079467e53",
+      "name": "Green Hydrogen Production",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Multiphase Transport Phenomena",
+      "id": "7a778bd9-297e-4dc8-87fb-61adac05adbb",
+      "name": "Multiphase Transport Phenomena",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Proton Exchange Membrane Water Electrolysis",
+      "id": "cca6fbad-35a1-4dda-a267-02eb5c2a90eb",
+      "name": "Proton Exchange Membrane Water Electrolysis",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Theory of Porous Media",
+      "id": "b03a542e-35ca-4842-a8d7-a568f327e84a",
+      "name": "Theory of Porous Media",
+      "state": "active",
+      "vocabulary_id": null
+    }
+  ],
+  "groups": [],
+  "relationships_as_subject": [],
+  "relationships_as_object": [],
+  "doi": "10.25835/nll5g6i6",
+  "doi_status": true,
+  "domain": "https://data.uni-hannover.de",
+  "doi_date_published": "2026-08-17",
+  "doi_publisher": "LUIS"
+}

@@ -1,0 +1,79 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/FDVV8P",
+    "identifier": "https://doi.org/10.25625/FDVV8P",
+    "name": "Radial bubble dynamics implementation with Python",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Hannes Paul",
+            "familyName": "Hoeppe",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institut f\u00fcr R\u00f6ntgenphysik, Georg-August-Universit\u00e4t G\u00f6ttingen"
+            },
+            "name": "Hoeppe, Hannes Paul"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Hannes Paul",
+            "familyName": "Hoeppe",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institut f\u00fcr R\u00f6ntgenphysik, Georg-August-Universit\u00e4t G\u00f6ttingen"
+            },
+            "name": "Hoeppe, Hannes Paul"
+        }
+    ],
+    "datePublished": "2025-02-27",
+    "dateModified": "2025-02-27",
+    "version": "2",
+    "description": "Python code for the simulation of radial bubble dynamics and the generation of exemplary figures. We have implemented the Rayleigh-Plesset model and the Gilmore model for cavitation dynamics.",
+    "keywords": [
+        "Physics"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "Hannes P. Hoeppe et al., The collapse of a sonoluminescent cavitation bubble imaged with X-ray free-electron laser pulses, New Journal of Physics, Volume 26, March 2024. https://doi.org/10.1088/1367-2630/ad295b Malte Vassholz et al., Pump-probe X-ray holographic imaging of laser-induced cavitation bubbles with femtosecond FEL pulses, Nature Communications, 12 (1) art. 3468.(2021) DOI: https://doi.org/10.1038/s41467-021-23664-1"
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "radial_bubble_dynamics.ipynb",
+            "encodingFormat": "application/x-ipynb+json",
+            "contentSize": 28011,
+            "description": "Jupyter Notebook with the implementation of radial bubble dynamics models, i.e. the Rayleigh-Plesset Model and the Gilmore Model. We simulated and compared the dynamics of an oscillating bubble in the SBSL regime, as well as the expansion of laser-induced bubbles. Compiled with Python 3.12.6",
+            "@id": "https://doi.org/10.25625/FDVV8P/KXVDPO",
+            "identifier": "https://doi.org/10.25625/FDVV8P/KXVDPO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/122320"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Physics"
+    ],
+    "publications": [
+        {
+            "citation": "Hannes P. Hoeppe et al., The collapse of a sonoluminescent cavitation bubble imaged with X-ray free-electron laser pulses, New Journal of Physics, Volume 26, March 2024. https://doi.org/10.1088/1367-2630/ad295b Malte Vassholz et al., Pump-probe X-ray holographic imaging of laser-induced cavitation bubbles with femtosecond FEL pulses, Nature Communications, 12 (1) art. 3468.(2021) DOI: https://doi.org/10.1038/s41467-021-23664-1"
+        }
+    ]
+}

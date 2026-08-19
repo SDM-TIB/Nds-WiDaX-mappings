@@ -1,0 +1,130 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/2TUGJU",
+    "identifier": "https://doi.org/10.25625/2TUGJU",
+    "name": "Scripts for ATAC-seq analysis of ant samples",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Nico",
+            "familyName": "Posnien",
+            "name": "Posnien, Nico"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Nico",
+            "familyName": "Posnien",
+            "name": "Posnien, Nico"
+        }
+    ],
+    "datePublished": "2024-12-06",
+    "dateModified": "2024-12-06",
+    "version": "1",
+    "description": "Scripts and pipeline used for the analysis of ant ATACseq data.",
+    "keywords": [
+        "Medicine, Health and Life Sciences",
+        "Other",
+        "ATAC-seq",
+        "tissue preservation",
+        "ant",
+        "Temnothorax longispinosus"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "ATAC-seq in Emerging Model Organisms: Challenges and Strategies"
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "fragmentsizedist_ants.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 3216,
+            "@id": "https://doi.org/10.25625/2TUGJU/H3PDPG",
+            "identifier": "https://doi.org/10.25625/2TUGJU/H3PDPG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/117915"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "librarycomplexity_ant.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 1232,
+            "@id": "https://doi.org/10.25625/2TUGJU/UBHQJE",
+            "identifier": "https://doi.org/10.25625/2TUGJU/UBHQJE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/117914"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "peakannotation_condition_ant.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 261,
+            "@id": "https://doi.org/10.25625/2TUGJU/EVELXT",
+            "identifier": "https://doi.org/10.25625/2TUGJU/EVELXT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/117918"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "peaksizedist_conditions_boxviolin_ant.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 1998,
+            "@id": "https://doi.org/10.25625/2TUGJU/C6BMZZ",
+            "identifier": "https://doi.org/10.25625/2TUGJU/C6BMZZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/117913"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "qvalue_by_condition_ant.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 1992,
+            "@id": "https://doi.org/10.25625/2TUGJU/EDHS3Q",
+            "identifier": "https://doi.org/10.25625/2TUGJU/EDHS3Q",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/117916"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "qvalue_by_condition_ant.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1550,
+            "@id": "https://doi.org/10.25625/2TUGJU/2FYSPW",
+            "identifier": "https://doi.org/10.25625/2TUGJU/2FYSPW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/117919"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Tlongi_ATACanalyses_workflow.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 14034,
+            "@id": "https://doi.org/10.25625/2TUGJU/J591RG",
+            "identifier": "https://doi.org/10.25625/2TUGJU/J591RG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/117917"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Medicine, Health and Life Sciences",
+        "Other"
+    ],
+    "publications": [
+        {
+            "citation": "ATAC-seq in Emerging Model Organisms: Challenges and Strategies"
+        }
+    ]
+}

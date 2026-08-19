@@ -1,0 +1,97 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/FB9FOA",
+    "identifier": "https://doi.org/10.25625/FB9FOA",
+    "name": "Replication Data for: Zebra risk perception in a landscape of fear",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Christian",
+            "familyName": "Kiffner",
+            "sameAs": "https://orcid.org/0000-0002-7475-9023",
+            "@id": "https://orcid.org/0000-0002-7475-9023",
+            "identifier": "https://orcid.org/0000-0002-7475-9023",
+            "name": "Kiffner, Christian"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Christian",
+            "familyName": "Kiffner",
+            "sameAs": "https://orcid.org/0000-0002-7475-9023",
+            "@id": "https://orcid.org/0000-0002-7475-9023",
+            "identifier": "https://orcid.org/0000-0002-7475-9023",
+            "name": "Kiffner, Christian"
+        }
+    ],
+    "datePublished": "2024-11-20",
+    "dateModified": "2025-02-13",
+    "version": "2",
+    "description": "This submission contains three datasets on zebra behavior and associated R code that was used to analyze the data. One dataset (FID_data_final.csv) contains flight initiation distances of zebras and associated explanatory variables. The other two datasets contain behavior scan data of zebras that were subject to different playbacks (Playback_data_final.csv) or that were not exposed to playbacks (Behavior_data_final.csv). Data were collected in Manyara Ranch. northern Tanzania.",
+    "keywords": [
+        "Earth and Environmental Sciences",
+        "animal behavior"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Behavior_data_final.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 471241,
+            "description": "Behavior scan data of zebra",
+            "@id": "https://doi.org/10.25625/FB9FOA/AG7FGM",
+            "identifier": "https://doi.org/10.25625/FB9FOA/AG7FGM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108746"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "FID_data_final.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 33598,
+            "description": "Flight initiation distances of zebras when approached by a human ",
+            "@id": "https://doi.org/10.25625/FB9FOA/5C8RSJ",
+            "identifier": "https://doi.org/10.25625/FB9FOA/5C8RSJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108748"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Playback_data_final.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 304788,
+            "description": "Behavior scan data of zebras subject to playbacks",
+            "@id": "https://doi.org/10.25625/FB9FOA/V9CNJX",
+            "identifier": "https://doi.org/10.25625/FB9FOA/V9CNJX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108747"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "R_code_revised.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 30041,
+            "description": "This R code was used to analyse the data during the first revision of the submission",
+            "@id": "https://doi.org/10.25625/FB9FOA/WGIM4U",
+            "identifier": "https://doi.org/10.25625/FB9FOA/WGIM4U",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/121319"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Earth and Environmental Sciences"
+    ]
+}

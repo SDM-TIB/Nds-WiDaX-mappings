@@ -1,0 +1,164 @@
+{
+  "author": "Marcus Oel, Gleb Kleyman, Mirco Jonkeren, Sebastian Tatzko, Tobias Ehlers",
+  "author_email": "oel@ipeg.uni-hannover.de",
+  "creator_user_id": "6f2774f6-dcdf-49b6-a257-951d043f2851",
+  "have_copyright": "Yes",
+  "id": "a0fc98b9-6cb4-47be-b0b4-1fc4abcd37a6",
+  "isopen": true,
+  "license_id": "CC-BY-3.0",
+  "license_title": "Creative Commons Attribution 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "maintainer": "Marcus Oel",
+  "maintainer_email": "oel@ipeg.uni-hannover.de",
+  "metadata_created": "2024-05-30T15:07:50.389086",
+  "metadata_modified": "2026-07-16T12:30:50.206272",
+  "name": "experimental-data-mode-selective-damping-behaviour-of-additively-manufactured-beam-structures",
+  "notes": "## Description\r\n\r\nThe dataset contains the CAD data of additively manufactured beam structures as well as the data from the experimental characterization of the damping behavior of the beams.\r\n\r\nThe 12 different beam structures have identical external dimensions (150 x 20 x 3 mm³), but some have powder-filled cavities with different dimensions and positioning. To characterize the damping, the dynamic behaviour of the beams after impulse excitation was recorded using a laser vibrometer. The procedure for determining the damping is described in detail in the corresponding publication.\r\n\r\n\r\n## References\r\n\r\nThe research data was used in the following publication:\r\n\r\nhttps://doi.org/10.1007/s40964-024-00838-z\r\n\r\n\r\n\r\n\r\n## Acknowledgements\r\n\r\nThe project ”Development methodology for laser powder bed fused lightweight structures with integrated particle\r\ndampers for vibration reduction” was funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) - Project number 495193504",
+  "num_resources": 2,
+  "num_tags": 5,
+  "organization": {
+    "id": "07fc393b-f95c-45a9-9eda-618c5a0db319",
+    "name": "institut-fur-produktentwicklung-und-geratebau",
+    "title": "Institut für Produktentwicklung und Gerätebau",
+    "type": "organization",
+    "description": "Gebäude 8143\r\n\r\nAn der Universität 1\r\n\r\n**30823 Garbsen**\r\n\r\nhttp://ipeg.uni-hannover.de/",
+    "image_url": "https://www.ipeg.uni-hannover.de/fileadmin/site-templates/logos/ipeg/IPeG_Logo.png",
+    "created": "2021-05-20T15:24:18.740575",
+    "is_organization": true,
+    "approval_status": "approved",
+    "state": "active"
+  },
+  "owner_org": "07fc393b-f95c-45a9-9eda-618c5a0db319",
+  "private": false,
+  "state": "active",
+  "terms_of_usage": "Yes",
+  "title": "Experimental data: Mode selective damping behavior of additively manufactured beam structures",
+  "type": "dataset",
+  "url": "",
+  "version": "1.0",
+  "extras": [
+    {
+      "key": "Funder",
+      "value": "Deutsche Forschungsgemeinschaft / German Research Foundation"
+    },
+    {
+      "key": "ORCID: Gleb Kleyman",
+      "value": "0000-0001-6053-4547"
+    },
+    {
+      "key": "ORCID: Marcus Oel",
+      "value": "0000-0002-8315-0834"
+    },
+    {
+      "key": "ORCID: Mirco Jonkeren",
+      "value": "0009-0008-8728-7687"
+    },
+    {
+      "key": "ORCID: Sebastian Tatzko",
+      "value": "0000-0002-0818-4794"
+    },
+    {
+      "key": "ORCID: Tobias Ehlers",
+      "value": "0000-0003-4811-2186"
+    },
+    {
+      "key": "Project Name",
+      "value": "Development methodology for laser powder bed fused lightweight structures with integrated particle dampers for vibration reduction"
+    },
+    {
+      "key": "Project Number",
+      "value": "495193504"
+    }
+  ],
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2024-05-30T15:12:59.366660",
+      "datastore_active": false,
+      "description": "This .zip file contains the CAD data of the beam structures in .stp format",
+      "format": ".stp",
+      "hash": "",
+      "id": "aaddf261-ea6d-4d6b-816c-9f102886cda8",
+      "last_modified": "2026-07-16T12:30:50.196682",
+      "metadata_modified": "2026-07-16T12:30:50.209034",
+      "mimetype": "application/zip",
+      "mimetype_inner": null,
+      "name": "CAD Data of beam structures",
+      "package_id": "a0fc98b9-6cb4-47be-b0b4-1fc4abcd37a6",
+      "position": 0,
+      "resource_type": null,
+      "size": 270202,
+      "state": "active",
+      "url": "https://data.uni-hannover.de/dataset/a0fc98b9-6cb4-47be-b0b4-1fc4abcd37a6/resource/aaddf261-ea6d-4d6b-816c-9f102886cda8/download/cad_data_beam_structures.zip",
+      "url_type": "upload"
+    },
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2024-05-30T15:17:52.593906",
+      "datastore_active": false,
+      "description": "This .zip file contains the experimentally recorded data of the vibration behavior of the beam structures.\r\n\r\nNomenclature of the file names: [measuring run]_beam[beam-no.]_[measurement repetition]\r\n\r\nResponse signal of the laser virbrometer: [file name].Y(1).Data\r\nTime vector of the measurement: [file name].X(1).Data\r\n\r\n\r\n",
+      "format": ".mat",
+      "hash": "",
+      "id": "598fe67e-3f0b-493e-ba3f-093437275747",
+      "last_modified": "2024-05-30T15:30:37.224933",
+      "metadata_modified": "2026-07-16T12:30:50.209103",
+      "mimetype": "application/zip",
+      "mimetype_inner": null,
+      "name": "Experimental data of decay behaviour of the beam structures",
+      "package_id": "a0fc98b9-6cb4-47be-b0b4-1fc4abcd37a6",
+      "position": 1,
+      "resource_type": null,
+      "size": 1600494904,
+      "state": "active",
+      "url": "https://data.uni-hannover.de/dataset/a0fc98b9-6cb4-47be-b0b4-1fc4abcd37a6/resource/598fe67e-3f0b-493e-ba3f-093437275747/download/experimental_data_decay_behaviour_of_beam_structures.zip",
+      "url_type": "upload"
+    }
+  ],
+  "tags": [
+    {
+      "display_name": "Additive Manufacturing",
+      "id": "40bc3d93-8f1a-4a72-a6d5-ff03701d8874",
+      "name": "Additive Manufacturing",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Design for Additive Manufacturing",
+      "id": "ccaa7853-4a2b-49a1-9f2b-75a7be9aef4d",
+      "name": "Design for Additive Manufacturing",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Effect-Engineering",
+      "id": "4d2f9252-092a-4da3-bd66-8688206ec5a3",
+      "name": "Effect-Engineering",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Particle Damping",
+      "id": "440445d2-9f0f-4281-b7b1-bdc48841398d",
+      "name": "Particle Damping",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Powder Bed Fusion by Laser Beam",
+      "id": "194045a8-170b-4f79-999b-89ca98bb6f73",
+      "name": "Powder Bed Fusion by Laser Beam",
+      "state": "active",
+      "vocabulary_id": null
+    }
+  ],
+  "groups": [],
+  "relationships_as_subject": [],
+  "relationships_as_object": [],
+  "doi": "10.25835/25ngdvb4",
+  "doi_status": true,
+  "domain": "https://data.uni-hannover.de",
+  "doi_date_published": "2024-06-26",
+  "doi_publisher": "LUIS"
+}

@@ -1,0 +1,440 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/VPMPID",
+    "identifier": "https://doi.org/10.25625/VPMPID",
+    "name": "TreeLearn Dataset",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Jonathan",
+            "familyName": "Henrich",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Chairs of Statistics and Econometrics, Faculty of Economics, University of G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0009-0000-1001-5757",
+            "@id": "https://orcid.org/0009-0000-1001-5757",
+            "identifier": "https://orcid.org/0009-0000-1001-5757",
+            "name": "Henrich, Jonathan"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Jan",
+            "familyName": "van Delden",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute of Computer Science and Campus Institute Data Science, University of G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0009-0009-4651-7615",
+            "@id": "https://orcid.org/0009-0009-4651-7615",
+            "identifier": "https://orcid.org/0009-0009-4651-7615",
+            "name": "van Delden, Jan"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Thomas",
+            "familyName": "Kneib",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Chairs of Statistics and Econometrics, Faculty of Economics, University of G\u00f6ttingen, Germany"
+            },
+            "name": "Kneib, Thomas"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Dominik",
+            "familyName": "Seidel",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department Spatial Structures and Digitization of Forests, Faculty of Forest Science, University of G\u00f6ttingen, Germany"
+            },
+            "name": "Seidel, Dominik"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Alexander",
+            "familyName": "Ecker",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute of Computer Science and Campus Institute Data Science, University of G\u00f6ttingen, Germany"
+            },
+            "name": "Ecker, Alexander"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jonathan",
+            "familyName": "Henrich",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Chairs of Statistics and Econometrics, Faculty of Economics, University of G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0009-0000-1001-5757",
+            "@id": "https://orcid.org/0009-0000-1001-5757",
+            "identifier": "https://orcid.org/0009-0000-1001-5757",
+            "name": "Henrich, Jonathan"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Jan",
+            "familyName": "van Delden",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute of Computer Science and Campus Institute Data Science, University of G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0009-0009-4651-7615",
+            "@id": "https://orcid.org/0009-0009-4651-7615",
+            "identifier": "https://orcid.org/0009-0009-4651-7615",
+            "name": "van Delden, Jan"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Thomas",
+            "familyName": "Kneib",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Chairs of Statistics and Econometrics, Faculty of Economics, University of G\u00f6ttingen, Germany"
+            },
+            "name": "Kneib, Thomas"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Dominik",
+            "familyName": "Seidel",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department Spatial Structures and Digitization of Forests, Faculty of Forest Science, University of G\u00f6ttingen, Germany"
+            },
+            "name": "Seidel, Dominik"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Alexander",
+            "familyName": "Ecker",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute of Computer Science and Campus Institute Data Science, University of G\u00f6ttingen, Germany"
+            },
+            "name": "Ecker, Alexander"
+        }
+    ],
+    "datePublished": "2023-09-15",
+    "dateModified": "2025-12-01",
+    "version": "7",
+    "description": "Note: To better find the files to download, select \"Change View: Tree\". This dataset is associated with the paper \"TreeLearn: A deep learning method for segmenting individual trees from ground-based LiDAR forest point clouds\" published in Ecological Informatics. The dataset contains: 1 manually segmented MLS scan of a forest plot. 18 automatically segmented MLS scans of forest plots. code for opening the forest point clouds in python pre-trained model weights for tree segmentation. A thorough explanation of all files contained in this data repository can be found in ReadMe.txt. A comprehensive description of the forest point clouds is given in the linked publication.",
+    "keywords": [
+        "Computer and Information Science",
+        "Earth and Environmental Sciences",
+        "Forest Inventory",
+        "Forest Laser Scans",
+        "MLS point cloud"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "Henrich, J., van Delden, J., Seidel, D., Kneib, T., & Ecker, A. (2024). TreeLearn: A deep learning method for segmenting individual trees from ground-based LiDAR forest point clouds. Ecological Informatics, 102888.",
+            "@id": "https://www.sciencedirect.com/science/article/pii/S1574954124004308",
+            "identifier": "https://www.sciencedirect.com/science/article/pii/S1574954124004308",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1574954124004308"
+        }
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "ReadMe.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 4889,
+            "@id": "https://doi.org/10.25625/VPMPID/QCY3ZL",
+            "identifier": "https://doi.org/10.25625/VPMPID/QCY3ZL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/118510"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "A1N.laz",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 216254537,
+            "@id": "https://doi.org/10.25625/VPMPID/VZ2ENJ",
+            "identifier": "https://doi.org/10.25625/VPMPID/VZ2ENJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69800"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "A1W.laz",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 216006463,
+            "@id": "https://doi.org/10.25625/VPMPID/4BA1BD",
+            "identifier": "https://doi.org/10.25625/VPMPID/4BA1BD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69801"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "G1N.laz",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 149167899,
+            "@id": "https://doi.org/10.25625/VPMPID/MOFUYC",
+            "identifier": "https://doi.org/10.25625/VPMPID/MOFUYC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69802"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "G1W.laz",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 271588468,
+            "@id": "https://doi.org/10.25625/VPMPID/I0M17S",
+            "identifier": "https://doi.org/10.25625/VPMPID/I0M17S",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69803"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "G2N.laz",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 239915598,
+            "@id": "https://doi.org/10.25625/VPMPID/GQAIGP",
+            "identifier": "https://doi.org/10.25625/VPMPID/GQAIGP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69804"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "G2W.laz",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 218863568,
+            "@id": "https://doi.org/10.25625/VPMPID/XHACRG",
+            "identifier": "https://doi.org/10.25625/VPMPID/XHACRG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69805"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "G3N.laz",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 208454567,
+            "@id": "https://doi.org/10.25625/VPMPID/K8UOPU",
+            "identifier": "https://doi.org/10.25625/VPMPID/K8UOPU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69807"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "G3W.laz",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 262417950,
+            "@id": "https://doi.org/10.25625/VPMPID/KT8EB4",
+            "identifier": "https://doi.org/10.25625/VPMPID/KT8EB4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69806"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "G4N.laz",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 199393586,
+            "@id": "https://doi.org/10.25625/VPMPID/0FIQFD",
+            "identifier": "https://doi.org/10.25625/VPMPID/0FIQFD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69808"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "G4W.laz",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 297928900,
+            "@id": "https://doi.org/10.25625/VPMPID/XXWS3Z",
+            "identifier": "https://doi.org/10.25625/VPMPID/XXWS3Z",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69809"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "L1N.laz",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 245794519,
+            "@id": "https://doi.org/10.25625/VPMPID/8ZOLYB",
+            "identifier": "https://doi.org/10.25625/VPMPID/8ZOLYB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69810"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "L2N.laz",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 202213266,
+            "@id": "https://doi.org/10.25625/VPMPID/2OU297",
+            "identifier": "https://doi.org/10.25625/VPMPID/2OU297",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69811"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "L2W.laz",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 261323135,
+            "@id": "https://doi.org/10.25625/VPMPID/YGJKLJ",
+            "identifier": "https://doi.org/10.25625/VPMPID/YGJKLJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69812"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "LG1.laz",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 125110187,
+            "@id": "https://doi.org/10.25625/VPMPID/3WBA7S",
+            "identifier": "https://doi.org/10.25625/VPMPID/3WBA7S",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69990"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "LG2.laz",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 223724725,
+            "@id": "https://doi.org/10.25625/VPMPID/OBJTIG",
+            "identifier": "https://doi.org/10.25625/VPMPID/OBJTIG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69991"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "LG3.laz",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 207517197,
+            "@id": "https://doi.org/10.25625/VPMPID/EDG9IB",
+            "identifier": "https://doi.org/10.25625/VPMPID/EDG9IB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69992"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "O1N.laz",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 139627682,
+            "@id": "https://doi.org/10.25625/VPMPID/UXBEDS",
+            "identifier": "https://doi.org/10.25625/VPMPID/UXBEDS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69813"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "O1W.laz",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 257634192,
+            "@id": "https://doi.org/10.25625/VPMPID/1IE8CP",
+            "identifier": "https://doi.org/10.25625/VPMPID/1IE8CP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69814"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "L1W.laz",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 341686152,
+            "@id": "https://doi.org/10.25625/VPMPID/ZITXOQ",
+            "identifier": "https://doi.org/10.25625/VPMPID/ZITXOQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/119255"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "L1W_voxelized01.laz",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 153801478,
+            "@id": "https://doi.org/10.25625/VPMPID/1K7MCR",
+            "identifier": "https://doi.org/10.25625/VPMPID/1K7MCR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/119256"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "L1W_voxelized01_for_eval.laz",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 140215997,
+            "@id": "https://doi.org/10.25625/VPMPID/GOKV7W",
+            "identifier": "https://doi.org/10.25625/VPMPID/GOKV7W",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/119257"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "evaluated_trees.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 574,
+            "@id": "https://doi.org/10.25625/VPMPID/WTIB7F",
+            "identifier": "https://doi.org/10.25625/VPMPID/WTIB7F",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69993"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "open_files.ipynb",
+            "encodingFormat": "application/x-ipynb+json",
+            "contentSize": 2873,
+            "@id": "https://doi.org/10.25625/VPMPID/HOHSIB",
+            "identifier": "https://doi.org/10.25625/VPMPID/HOHSIB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69982"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "plot7_cut.laz",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 21955376,
+            "@id": "https://doi.org/10.25625/VPMPID/0WDXL6",
+            "identifier": "https://doi.org/10.25625/VPMPID/0WDXL6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69986"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "model_weights_20241213.pth",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 120627653,
+            "@id": "https://doi.org/10.25625/VPMPID/IMHF3G",
+            "identifier": "https://doi.org/10.25625/VPMPID/IMHF3G",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/118509"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "model_weights_dirty.pth",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 120635653,
+            "@id": "https://doi.org/10.25625/VPMPID/M4TGL7",
+            "identifier": "https://doi.org/10.25625/VPMPID/M4TGL7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69983"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "model_weights_diverse_training_data.pth",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 120627653,
+            "@id": "https://doi.org/10.25625/VPMPID/C1AHQW",
+            "identifier": "https://doi.org/10.25625/VPMPID/C1AHQW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70216"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "model_weights_finetuned.pth",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 120637317,
+            "@id": "https://doi.org/10.25625/VPMPID/8CIIW0",
+            "identifier": "https://doi.org/10.25625/VPMPID/8CIIW0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69984"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "model_weights_with_small_20241213.pth",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 120627653,
+            "@id": "https://doi.org/10.25625/VPMPID/TYZJ4E",
+            "identifier": "https://doi.org/10.25625/VPMPID/TYZJ4E",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/118508"
+        }
+    ],
+    "license_title": "Creative Commons Attribution 4.0 International",
+    "subjects": [
+        "Computer and Information Science",
+        "Earth and Environmental Sciences"
+    ],
+    "publications": [
+        {
+            "citation": "Henrich, J., van Delden, J., Seidel, D., Kneib, T., &amp; Ecker, A. (2024). TreeLearn: A deep learning method for segmenting individual trees from ground-based LiDAR forest point clouds. Ecological Informatics, 102888.",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1574954124004308"
+        }
+    ]
+}

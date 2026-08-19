@@ -1,0 +1,147 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/GAIK43",
+    "identifier": "https://doi.org/10.25625/GAIK43",
+    "name": "Replication Data for: Bodenrichtwertermittlung mittels hedonischer Regression",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Stefan",
+            "familyName": "Seifert",
+            "sameAs": "https://orcid.org/0000-0002-5139-9096",
+            "@id": "https://orcid.org/0000-0002-5139-9096",
+            "identifier": "https://orcid.org/0000-0002-5139-9096",
+            "name": "Seifert, Stefan"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Stefan",
+            "familyName": "Seifert",
+            "sameAs": "https://orcid.org/0000-0002-5139-9096",
+            "@id": "https://orcid.org/0000-0002-5139-9096",
+            "identifier": "https://orcid.org/0000-0002-5139-9096",
+            "name": "Seifert, Stefan"
+        }
+    ],
+    "datePublished": "2024-07-11",
+    "dateModified": "2024-07-11",
+    "version": "1",
+    "description": "This code replicates results and figures of \"Bodenrichtwertermittlung mittels hedonischer Regression\" published in LSA Verm, 2/2023 available here: https://www.lvermgeo.sachsen-anhalt.de/de/gdp-lsaverm-archiv/lsa-verm-2023.html",
+    "keywords": [
+        "Agricultural Sciences",
+        "Social Sciences",
+        "Agricultural land values",
+        "Hedonic Analysis"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "H\u00fcttel, S., Seifert, S., Sch\u00f6ndube, A. (2023) Kaufpreisanalyse f\u00fcr Ackerland in Sachsen-Anhalt mittels hedonischer Regression. LSA Verm 2023/2, 105-116.",
+            "@id": "https://www.lvermgeo.sachsen-anhalt.de/de/gdp-lsaverm-archiv/lsa-verm-2023.html",
+            "identifier": "https://www.lvermgeo.sachsen-anhalt.de/de/gdp-lsaverm-archiv/lsa-verm-2023.html",
+            "url": "https://www.lvermgeo.sachsen-anhalt.de/de/gdp-lsaverm-archiv/lsa-verm-2023.html"
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Koeffizientenplot_MGA1.png",
+            "encodingFormat": "image/png",
+            "contentSize": 147312,
+            "@id": "https://doi.org/10.25625/GAIK43/GSX7X3",
+            "identifier": "https://doi.org/10.25625/GAIK43/GSX7X3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/107760"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "LSA_Verm_Bodenrichtwerte2023_vollstaendige_Ergebnisse.docx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            "contentSize": 27986,
+            "@id": "https://doi.org/10.25625/GAIK43/1IRXCP",
+            "identifier": "https://doi.org/10.25625/GAIK43/1IRXCP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/107758"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "predicted_prices.png",
+            "encodingFormat": "image/png",
+            "contentSize": 538772,
+            "@id": "https://doi.org/10.25625/GAIK43/ESBWRO",
+            "identifier": "https://doi.org/10.25625/GAIK43/ESBWRO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/107754"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Preistrend_GMB.png",
+            "encodingFormat": "image/png",
+            "contentSize": 3064,
+            "@id": "https://doi.org/10.25625/GAIK43/LG50FU",
+            "identifier": "https://doi.org/10.25625/GAIK43/LG50FU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/107756"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Replication_Seifert_Huettel_LSA_Verm_2023.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 9542,
+            "@id": "https://doi.org/10.25625/GAIK43/8L5NKY",
+            "identifier": "https://doi.org/10.25625/GAIK43/8L5NKY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/107755"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Umrechnungskoeffizienten_AZ.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 691392,
+            "@id": "https://doi.org/10.25625/GAIK43/DIVA32",
+            "identifier": "https://doi.org/10.25625/GAIK43/DIVA32",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/107757"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Umrechnungskoeffizienten_RPD.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 691392,
+            "@id": "https://doi.org/10.25625/GAIK43/TXD8EQ",
+            "identifier": "https://doi.org/10.25625/GAIK43/TXD8EQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/107761"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Umrechnungskoeffizienten_size.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 691392,
+            "@id": "https://doi.org/10.25625/GAIK43/SVICLV",
+            "identifier": "https://doi.org/10.25625/GAIK43/SVICLV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/107759"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Agricultural Sciences",
+        "Social Sciences"
+    ],
+    "publications": [
+        {
+            "citation": "H\u00fcttel, S., Seifert, S., Sch\u00f6ndube, A. (2023) Kaufpreisanalyse f\u00fcr Ackerland in Sachsen-Anhalt mittels hedonischer Regression. LSA Verm 2023/2, 105-116.",
+            "url": "https://www.lvermgeo.sachsen-anhalt.de/de/gdp-lsaverm-archiv/lsa-verm-2023.html"
+        }
+    ]
+}

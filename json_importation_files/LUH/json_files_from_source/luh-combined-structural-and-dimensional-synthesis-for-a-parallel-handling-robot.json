@@ -1,0 +1,97 @@
+{
+  "author": "Moritz Schappler",
+  "author_email": "moritz.schappler@imes.uni-hannover.de",
+  "creator_user_id": "274413c4-ea89-41a4-be34-bad7df4da816",
+  "have_copyright": "Yes",
+  "id": "7f373999-7f5e-4712-9e06-4f2ca15e68d5",
+  "isopen": true,
+  "license_id": "CC-BY-SA-4.0",
+  "license_title": "Creative Commons Attribution Share-Alike 4.0 International",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "maintainer": "Moritz Schappler",
+  "maintainer_email": "moritz.schappler@imes.uni-hannover.de",
+  "metadata_created": "2025-03-03T16:24:02.700535",
+  "metadata_modified": "2025-03-03T16:27:02.361115",
+  "name": "combined-structural-and-dimensional-synthesis-for-a-parallel-handling-robot",
+  "notes": "This dataset contains the results of a combined structural and dimensional synthesis that has been performed for a case study of a parallel robot for handling tasks as part of a paper published at MDPI Robotics in 2025.\r\nThe title is \"Dimensional Synthesis of Parallel Robots Using Bilevel Optimization for Design Optimization and Resolution of Functional Redundancy\", by Moritz Schappler (2025).  \r\nThe results in this dataset can be used to reproduce the figures and tables of the paper's second case study by using the code from [the paper's GitHub repository](https://github.com/SchapplM/robotics-paper_mdpi2025_dimsynth). Further, they can be used as a starting value for performing other optimizations with the Matlab toolbox that is presented in the paper.",
+  "num_resources": 1,
+  "num_tags": 2,
+  "organization": {
+    "id": "1c2d3a8c-a1a5-47f2-9a47-af7037915a9c",
+    "name": "institut-fur-mechatronische-systeme",
+    "title": "Institut für Mechatronische Systeme",
+    "type": "organization",
+    "description": "An der Universität 1\r\n30823 Garbsen\r\nhttps://imes.uni-hannover.de",
+    "image_url": "2025-03-03-073912.397365LOGOimesnew.png",
+    "created": "2025-03-03T08:39:12.496983",
+    "is_organization": true,
+    "approval_status": "approved",
+    "state": "active"
+  },
+  "owner_org": "1c2d3a8c-a1a5-47f2-9a47-af7037915a9c",
+  "private": false,
+  "state": "active",
+  "terms_of_usage": "Yes",
+  "title": "Combined Structural and Dimensional Synthesis for a Parallel Handling Robot",
+  "type": "dataset",
+  "url": "",
+  "version": "",
+  "extras": [
+    {
+      "key": "Orcid-ID",
+      "value": "https://orcid.org/0000-0001-7952-7363"
+    }
+  ],
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2025-03-03T16:27:00.476904",
+      "datastore_active": false,
+      "description": "Each sub-folder contains one run of the optimization with results for each parallel robot in one .mat file and a csv table for summary. The settings of the run are stored in the respective settings file. The files are supposed to be opened with Matlab, as the whole toolbox is written in that language.",
+      "format": "Matlab",
+      "hash": "",
+      "id": "34604cf3-98bb-4263-ba57-5f33e4844420",
+      "last_modified": "2025-03-03T16:27:00.349402",
+      "metadata_modified": "2025-03-03T16:27:02.366542",
+      "mimetype": "application/zip",
+      "mimetype_inner": null,
+      "name": "Results for Parallel Robot for Handling (August 2023)",
+      "package_id": "7f373999-7f5e-4712-9e06-4f2ca15e68d5",
+      "position": 0,
+      "resource_type": null,
+      "size": 71173480,
+      "state": "active",
+      "tracking_summary": {
+        "total": 3,
+        "recent": 1
+      },
+      "url": "https://data.uni-hannover.de/dataset/7f373999-7f5e-4712-9e06-4f2ca15e68d5/resource/34604cf3-98bb-4263-ba57-5f33e4844420/download/ergebnisse_masssynthese_handling.zip",
+      "url_type": "upload"
+    }
+  ],
+  "tags": [
+    {
+      "display_name": "robotics",
+      "id": "b71a94d3-58c5-4e75-9201-c05155ba15f9",
+      "name": "robotics",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "synthesis",
+      "id": "21365f48-70cf-4d6b-a32c-a5266de54ee1",
+      "name": "synthesis",
+      "state": "active",
+      "vocabulary_id": null
+    }
+  ],
+  "groups": [],
+  "relationships_as_subject": [],
+  "relationships_as_object": [],
+  "doi": "10.25835/76g8d6a8",
+  "doi_status": true,
+  "domain": "https://data.uni-hannover.de",
+  "doi_date_published": "2025-03-03",
+  "doi_publisher": "LUIS"
+}

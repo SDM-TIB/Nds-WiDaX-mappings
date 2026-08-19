@@ -1,0 +1,67 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/61ECDL",
+    "identifier": "https://doi.org/10.25625/61ECDL",
+    "name": "An HPC FaaS Runtime based on HPX and Modern Lightweight Isolation",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Jakob",
+            "familyName": "H\u00f6rdt",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Gesellschaft f\u00fcr wissenschaftliche Datenverarbeitung mbH G\u00f6ttingen"
+            },
+            "name": "H\u00f6rdt, Jakob"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jakob",
+            "familyName": "H\u00f6rdt",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Gesellschaft f\u00fcr wissenschaftliche Datenverarbeitung mbH G\u00f6ttingen"
+            },
+            "name": "H\u00f6rdt, Jakob"
+        }
+    ],
+    "datePublished": "2023-12-07",
+    "dateModified": "2023-12-07",
+    "version": "1",
+    "description": "Function as a Service (FaaS) has become a prominent cloud computing paradigm during recent years, where developers hand small functions to cloud providers for them to automatically invoke on triggers, such as HTTP requests complete with auto scaling and typically monitoring and logging, instead of renting (virtual) machines and caring for scaling and other amenities themselves. Scientific computing is still dominated by the classic batch scheduling model although FaaS can provide a better user experience in many usecases, for example when developers want to expose HPC services to external users. There is a multitude of open source FaaS runtimes available to self-host, but most of them are not focused on use in HPC environments and therefore might make suboptimal use of the available hardware, are difficult to install due to complex dependencies or permissions, or make it difficult to integrate special HPC hardware or software libraries. FaaS runtimes always require load balancing and delegating function invocations to distributed machines, which the HPX library provides, as it strives to enable local and distributed concurrency and parallelism with fine grained tasks. This work explores utilizing these abilities of HPX as the basis for an HPC FaaS runtime. Most FaaS runtimes require isolation to protect their tenants and infrastructure from malicious actors and accidental faults in developer code. WebAssembly is an assembly-like language, compilation target and sandbox to execute untrusted code in the browser with near-native performance, which is seeing increased use in FaaS applications. A novel FaaS runtime design based on HPX and WASM is presented and its implementation performance and usability was evaluated using benchmarks of the whole system, as well as of individual components. We demonstrate how our approach achieves 10% higher throughput and a 16% reduced average latency compared to an HTTP-based implementation in certain settings. Furthermore, the prospect of streaming, as opposed to bulk transfer of function inputs and outputs is evaluated and discussed.",
+    "keywords": [
+        "Computer and Information Science"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Jakob_H\u00f6rdt_Masterarbeit.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 2101098,
+            "@id": "https://doi.org/10.25625/61ECDL/CDZQ3G",
+            "identifier": "https://doi.org/10.25625/61ECDL/CDZQ3G",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69235"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Computer and Information Science"
+    ]
+}

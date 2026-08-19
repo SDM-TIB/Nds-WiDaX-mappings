@@ -1,0 +1,137 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/TCFCVI",
+    "identifier": "https://doi.org/10.25625/TCFCVI",
+    "name": "Data for Robust Prediction of Force Chains in Jammed Solids using Graph Neural Networks",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Rituparno",
+            "familyName": "Mandal",
+            "sameAs": "https://orcid.org/0000-0002-8421-7500",
+            "@id": "https://orcid.org/0000-0002-8421-7500",
+            "identifier": "https://orcid.org/0000-0002-8421-7500",
+            "name": "Mandal, Rituparno"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Corneel",
+            "familyName": "Casert",
+            "name": "Casert, Corneel"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Peter",
+            "familyName": "Sollich",
+            "sameAs": "https://orcid.org/0000-0003-0169-7893",
+            "@id": "https://orcid.org/0000-0003-0169-7893",
+            "identifier": "https://orcid.org/0000-0003-0169-7893",
+            "name": "Sollich, Peter"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Rituparno",
+            "familyName": "Mandal",
+            "sameAs": "https://orcid.org/0000-0002-8421-7500",
+            "@id": "https://orcid.org/0000-0002-8421-7500",
+            "identifier": "https://orcid.org/0000-0002-8421-7500",
+            "name": "Mandal, Rituparno"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Corneel",
+            "familyName": "Casert",
+            "name": "Casert, Corneel"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Peter",
+            "familyName": "Sollich",
+            "sameAs": "https://orcid.org/0000-0003-0169-7893",
+            "@id": "https://orcid.org/0000-0003-0169-7893",
+            "identifier": "https://orcid.org/0000-0003-0169-7893",
+            "name": "Sollich, Peter"
+        }
+    ],
+    "datePublished": "2022-01-24",
+    "dateModified": "2022-01-24",
+    "version": "1",
+    "description": "This repository contains a data set for force-chain prediction in 2D granular matter, as detailed in arXiv:2105.08505.",
+    "keywords": [
+        "Physics",
+        "Machine Learning",
+        "Force Chain"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "@id": "https://arxiv.org/abs/2105.08505",
+            "identifier": "https://arxiv.org/abs/2105.08505",
+            "url": "https://arxiv.org/abs/2105.08505"
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "data_demo.ipynb",
+            "encodingFormat": "application/x-ipynb+json",
+            "contentSize": 24078,
+            "@id": "https://doi.org/10.25625/TCFCVI/OYLDGD",
+            "identifier": "https://doi.org/10.25625/TCFCVI/OYLDGD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/36952"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "README.md",
+            "encodingFormat": "text/markdown",
+            "contentSize": 762,
+            "@id": "https://doi.org/10.25625/TCFCVI/IUSN7T",
+            "identifier": "https://doi.org/10.25625/TCFCVI/IUSN7T",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/36950"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "trainingdata_mu0.0.pt",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 88879247,
+            "@id": "https://doi.org/10.25625/TCFCVI/YSS9SM",
+            "identifier": "https://doi.org/10.25625/TCFCVI/YSS9SM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/36951"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "validationdata_mu0.0.pt",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 11319375,
+            "@id": "https://doi.org/10.25625/TCFCVI/YPQGVW",
+            "identifier": "https://doi.org/10.25625/TCFCVI/YPQGVW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/36953"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Physics"
+    ],
+    "publications": [
+        {
+            "url": "https://arxiv.org/abs/2105.08505"
+        }
+    ]
+}

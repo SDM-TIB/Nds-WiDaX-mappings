@@ -1,0 +1,564 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/77DVJA",
+    "identifier": "https://doi.org/10.25625/77DVJA",
+    "name": "SPH simulations of capillary flows and partitioning dynamics at fracture intersections",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Jannes",
+            "familyName": "Kordilla",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Goettingen"
+            },
+            "name": "Kordilla, Jannes"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jannes",
+            "familyName": "Kordilla",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Goettingen"
+            },
+            "name": "Kordilla, Jannes"
+        }
+    ],
+    "datePublished": "2021-06-07",
+    "dateModified": "2021-06-07",
+    "version": "1",
+    "description": "Complementary data for a publication. Smoothed particle hydrodynamics simulation of Poiseuille flow, capillary rise and fracture partitioning flows.",
+    "keywords": [
+        "Earth and Environmental Sciences"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "Kordilla, J., Dentz, M., & Tartakovsky, A. M. (2021). Numerical and analytical modeling of flow partitioning in partially saturated fracture networks. Water Resources Research, 57, e2020WR028775. https://doi.org/10.1029/2020WR028775"
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "fluid.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 524183427,
+            "@id": "https://doi.org/10.25625/77DVJA/H9S6ZF",
+            "identifier": "https://doi.org/10.25625/77DVJA/H9S6ZF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19950"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "rise.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 42320,
+            "@id": "https://doi.org/10.25625/77DVJA/F7W67A",
+            "identifier": "https://doi.org/10.25625/77DVJA/F7W67A",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19918"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "solid.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 220242,
+            "@id": "https://doi.org/10.25625/77DVJA/PGHOJ3",
+            "identifier": "https://doi.org/10.25625/77DVJA/PGHOJ3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19939"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "fluid.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 531742337,
+            "@id": "https://doi.org/10.25625/77DVJA/FXZDIU",
+            "identifier": "https://doi.org/10.25625/77DVJA/FXZDIU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19929"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "rise.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 42876,
+            "@id": "https://doi.org/10.25625/77DVJA/VBAGYQ",
+            "identifier": "https://doi.org/10.25625/77DVJA/VBAGYQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19967"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "solid.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 219921,
+            "@id": "https://doi.org/10.25625/77DVJA/NLYY2V",
+            "identifier": "https://doi.org/10.25625/77DVJA/NLYY2V",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19915"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "fluid.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 531322897,
+            "@id": "https://doi.org/10.25625/77DVJA/6PQIYE",
+            "identifier": "https://doi.org/10.25625/77DVJA/6PQIYE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19942"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "rise.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 42984,
+            "@id": "https://doi.org/10.25625/77DVJA/XW6OVB",
+            "identifier": "https://doi.org/10.25625/77DVJA/XW6OVB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19924"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "solid.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 220563,
+            "@id": "https://doi.org/10.25625/77DVJA/XN15TU",
+            "identifier": "https://doi.org/10.25625/77DVJA/XN15TU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19936"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "fluid.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 523411409,
+            "@id": "https://doi.org/10.25625/77DVJA/PK0IXI",
+            "identifier": "https://doi.org/10.25625/77DVJA/PK0IXI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19920"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "rise.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 42103,
+            "@id": "https://doi.org/10.25625/77DVJA/M8YDGB",
+            "identifier": "https://doi.org/10.25625/77DVJA/M8YDGB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19919"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "solid.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 220563,
+            "@id": "https://doi.org/10.25625/77DVJA/AKUD3U",
+            "identifier": "https://doi.org/10.25625/77DVJA/AKUD3U",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19932"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "fluid.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 501009223,
+            "@id": "https://doi.org/10.25625/77DVJA/SNQCE0",
+            "identifier": "https://doi.org/10.25625/77DVJA/SNQCE0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19964"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "rise.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 40165,
+            "@id": "https://doi.org/10.25625/77DVJA/PUJBV6",
+            "identifier": "https://doi.org/10.25625/77DVJA/PUJBV6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19940"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "solid.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 220563,
+            "@id": "https://doi.org/10.25625/77DVJA/YM81LL",
+            "identifier": "https://doi.org/10.25625/77DVJA/YM81LL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19943"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "fluid.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 493194170,
+            "@id": "https://doi.org/10.25625/77DVJA/TZLKMN",
+            "identifier": "https://doi.org/10.25625/77DVJA/TZLKMN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19956"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "rise.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 40054,
+            "@id": "https://doi.org/10.25625/77DVJA/PUIV5J",
+            "identifier": "https://doi.org/10.25625/77DVJA/PUIV5J",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19948"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "solid.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 220242,
+            "@id": "https://doi.org/10.25625/77DVJA/AKMKZV",
+            "identifier": "https://doi.org/10.25625/77DVJA/AKMKZV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19916"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "critical_l_tau.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1876,
+            "@id": "https://doi.org/10.25625/77DVJA/AXTBJH",
+            "identifier": "https://doi.org/10.25625/77DVJA/AXTBJH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19925"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "inflow.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 22581,
+            "@id": "https://doi.org/10.25625/77DVJA/R03YGU",
+            "identifier": "https://doi.org/10.25625/77DVJA/R03YGU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19949"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "inflow.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 21896,
+            "@id": "https://doi.org/10.25625/77DVJA/QST4PV",
+            "identifier": "https://doi.org/10.25625/77DVJA/QST4PV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19959"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "inflow.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 23275,
+            "@id": "https://doi.org/10.25625/77DVJA/UILKH3",
+            "identifier": "https://doi.org/10.25625/77DVJA/UILKH3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19930"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "inflow.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 23926,
+            "@id": "https://doi.org/10.25625/77DVJA/CRMVON",
+            "identifier": "https://doi.org/10.25625/77DVJA/CRMVON",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19931"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "inflow.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 21179,
+            "@id": "https://doi.org/10.25625/77DVJA/QANAD1",
+            "identifier": "https://doi.org/10.25625/77DVJA/QANAD1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19934"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "inflow.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 11410,
+            "@id": "https://doi.org/10.25625/77DVJA/YU4Z4X",
+            "identifier": "https://doi.org/10.25625/77DVJA/YU4Z4X",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19961"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "inflow.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 15898,
+            "@id": "https://doi.org/10.25625/77DVJA/IKDHWP",
+            "identifier": "https://doi.org/10.25625/77DVJA/IKDHWP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19944"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "inflow.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 15779,
+            "@id": "https://doi.org/10.25625/77DVJA/YPMXFC",
+            "identifier": "https://doi.org/10.25625/77DVJA/YPMXFC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19938"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "inflow.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 16152,
+            "@id": "https://doi.org/10.25625/77DVJA/O937AS",
+            "identifier": "https://doi.org/10.25625/77DVJA/O937AS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19947"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "inflow.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 16559,
+            "@id": "https://doi.org/10.25625/77DVJA/DVCMKI",
+            "identifier": "https://doi.org/10.25625/77DVJA/DVCMKI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19951"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "inflow.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 16410,
+            "@id": "https://doi.org/10.25625/77DVJA/CZJSC1",
+            "identifier": "https://doi.org/10.25625/77DVJA/CZJSC1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19969"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "inflow.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 14158,
+            "@id": "https://doi.org/10.25625/77DVJA/OJABXZ",
+            "identifier": "https://doi.org/10.25625/77DVJA/OJABXZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19946"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "inflow.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 10993,
+            "@id": "https://doi.org/10.25625/77DVJA/DYS4Q2",
+            "identifier": "https://doi.org/10.25625/77DVJA/DYS4Q2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19923"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "inflow.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 14798,
+            "@id": "https://doi.org/10.25625/77DVJA/KYTURS",
+            "identifier": "https://doi.org/10.25625/77DVJA/KYTURS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19921"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "inflow.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 15058,
+            "@id": "https://doi.org/10.25625/77DVJA/TLZGF4",
+            "identifier": "https://doi.org/10.25625/77DVJA/TLZGF4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19966"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "vel1_beta0p1.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 6007,
+            "@id": "https://doi.org/10.25625/77DVJA/SRINUA",
+            "identifier": "https://doi.org/10.25625/77DVJA/SRINUA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19957"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "vel1_beta1.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 6015,
+            "@id": "https://doi.org/10.25625/77DVJA/T5VMYQ",
+            "identifier": "https://doi.org/10.25625/77DVJA/T5VMYQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19937"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "vel1_beta10.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 6003,
+            "@id": "https://doi.org/10.25625/77DVJA/FYAZJZ",
+            "identifier": "https://doi.org/10.25625/77DVJA/FYAZJZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19958"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "vel1_beta100.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 5989,
+            "@id": "https://doi.org/10.25625/77DVJA/IKGCEA",
+            "identifier": "https://doi.org/10.25625/77DVJA/IKGCEA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19952"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "vel1_beta20.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 6015,
+            "@id": "https://doi.org/10.25625/77DVJA/LM5HST",
+            "identifier": "https://doi.org/10.25625/77DVJA/LM5HST",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19933"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "vel1_beta5.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 5941,
+            "@id": "https://doi.org/10.25625/77DVJA/JVWX2X",
+            "identifier": "https://doi.org/10.25625/77DVJA/JVWX2X",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19960"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "vel1_beta50.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 6003,
+            "@id": "https://doi.org/10.25625/77DVJA/GTBURQ",
+            "identifier": "https://doi.org/10.25625/77DVJA/GTBURQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19955"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "vel2_beta0p1.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 5983,
+            "@id": "https://doi.org/10.25625/77DVJA/NON8PH",
+            "identifier": "https://doi.org/10.25625/77DVJA/NON8PH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19953"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "vel2_beta1.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 5967,
+            "@id": "https://doi.org/10.25625/77DVJA/LPF7YC",
+            "identifier": "https://doi.org/10.25625/77DVJA/LPF7YC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19963"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "vel2_beta10.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 5969,
+            "@id": "https://doi.org/10.25625/77DVJA/KZ40PT",
+            "identifier": "https://doi.org/10.25625/77DVJA/KZ40PT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19965"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "vel2_beta100.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 5995,
+            "@id": "https://doi.org/10.25625/77DVJA/KKP9WX",
+            "identifier": "https://doi.org/10.25625/77DVJA/KKP9WX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19945"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "vel2_beta20.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 5987,
+            "@id": "https://doi.org/10.25625/77DVJA/KDVXGK",
+            "identifier": "https://doi.org/10.25625/77DVJA/KDVXGK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19926"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "vel2_beta5.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 5973,
+            "@id": "https://doi.org/10.25625/77DVJA/BEAUT2",
+            "identifier": "https://doi.org/10.25625/77DVJA/BEAUT2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19935"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "vel2_beta50.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 5981,
+            "@id": "https://doi.org/10.25625/77DVJA/R3V0DP",
+            "identifier": "https://doi.org/10.25625/77DVJA/R3V0DP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19927"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "vel3_beta0p1.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 5933,
+            "@id": "https://doi.org/10.25625/77DVJA/MXYLMP",
+            "identifier": "https://doi.org/10.25625/77DVJA/MXYLMP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19954"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "vel3_beta1.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 5911,
+            "@id": "https://doi.org/10.25625/77DVJA/ARKBYN",
+            "identifier": "https://doi.org/10.25625/77DVJA/ARKBYN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19941"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "vel3_beta10.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 5883,
+            "@id": "https://doi.org/10.25625/77DVJA/4S1HSB",
+            "identifier": "https://doi.org/10.25625/77DVJA/4S1HSB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19968"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "vel3_beta100.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 5889,
+            "@id": "https://doi.org/10.25625/77DVJA/X6C9VC",
+            "identifier": "https://doi.org/10.25625/77DVJA/X6C9VC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19928"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "vel3_beta20.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 5365,
+            "@id": "https://doi.org/10.25625/77DVJA/DJ5WNZ",
+            "identifier": "https://doi.org/10.25625/77DVJA/DJ5WNZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19922"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "vel3_beta5.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 5875,
+            "@id": "https://doi.org/10.25625/77DVJA/AOVHX2",
+            "identifier": "https://doi.org/10.25625/77DVJA/AOVHX2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19917"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "vel3_beta50.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 5865,
+            "@id": "https://doi.org/10.25625/77DVJA/8CTQLY",
+            "identifier": "https://doi.org/10.25625/77DVJA/8CTQLY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19962"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Earth and Environmental Sciences"
+    ],
+    "publications": [
+        {
+            "citation": "Kordilla, J., Dentz, M., &amp; Tartakovsky, A. M. (2021). Numerical and analytical modeling of flow partitioning in partially saturated fracture networks. Water Resources Research, 57, e2020WR028775. https://doi.org/10.1029/2020WR028775"
+        }
+    ]
+}

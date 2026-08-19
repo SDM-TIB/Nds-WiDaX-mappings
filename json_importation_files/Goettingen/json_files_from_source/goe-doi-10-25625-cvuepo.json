@@ -1,0 +1,172 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/CVUEPO",
+    "identifier": "https://doi.org/10.25625/CVUEPO",
+    "name": "Cacao grafting increases crop yield without compromising biodiversity",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Carolina Maria",
+            "familyName": "Ocampo Ariza",
+            "name": "Ocampo Ariza, Carolina Maria"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Carolina Maria",
+            "familyName": "Ocampo Ariza",
+            "name": "Ocampo Ariza, Carolina Maria"
+        }
+    ],
+    "datePublished": "2024-12-11",
+    "dateModified": "2024-12-11",
+    "version": "1",
+    "description": "This dataset includes all data tables and R scripts used in the data preparation and statistical analyses for the paper \"Cacao grafting increases crop yield without compromising biodiversity\" by Carolina Ocampo-Ariza, Sophie M\u00fcller, et al. Unfortunately, Gro.Data does not allowed for the files to be organized in subfolders. Therefore, readers who download this will have to rewrite the location of all files accordingly.",
+    "keywords": [
+        "Agricultural Sciences",
+        "Earth and Environmental Sciences",
+        "Cacao",
+        "arthropod diversity",
+        "crop productivity"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Grafts_Data_IC6.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 403931,
+            "description": "Data collected by Fredy Yovera about the potential productivity of grafted cacao plants.",
+            "@id": "https://doi.org/10.25625/CVUEPO/QFXYPN",
+            "identifier": "https://doi.org/10.25625/CVUEPO/QFXYPN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/117805"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "IS.IM.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 74404,
+            "description": "Pod index measured by Fredy Yovera. Used together with Grafts_Data_IC6 to calculate the yield and assess the effect of grafting on productivity",
+            "@id": "https://doi.org/10.25625/CVUEPO/MV87OX",
+            "identifier": "https://doi.org/10.25625/CVUEPO/MV87OX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/117814"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Old_yield_Sophie.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 885,
+            "description": "Historical data of crop yield for experimental plots obtained from Norandino Ltda.",
+            "@id": "https://doi.org/10.25625/CVUEPO/N6QLVB",
+            "identifier": "https://doi.org/10.25625/CVUEPO/N6QLVB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/117807"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Old_yield_values.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1009,
+            "description": "Historical data of crop yield for experimental plots obtained from Norandino Ltda.",
+            "@id": "https://doi.org/10.25625/CVUEPO/CXIBNL",
+            "identifier": "https://doi.org/10.25625/CVUEPO/CXIBNL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/117815"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "table_arthropods.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 822811,
+            "description": "Original data table with abundances of different arthropod morphospecies sampled per cacao tree, distinguishing sampling methods and times of the day",
+            "@id": "https://doi.org/10.25625/CVUEPO/UMBSKY",
+            "identifier": "https://doi.org/10.25625/CVUEPO/UMBSKY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/117810"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "06.2024_yield_data_final.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 1753,
+            "@id": "https://doi.org/10.25625/CVUEPO/0XDHH3",
+            "identifier": "https://doi.org/10.25625/CVUEPO/0XDHH3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/117816"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "20.06.2024_yield_data_final.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 1819,
+            "@id": "https://doi.org/10.25625/CVUEPO/1HUVJP",
+            "identifier": "https://doi.org/10.25625/CVUEPO/1HUVJP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/117806"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "morphospp_with_groups.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 26951,
+            "@id": "https://doi.org/10.25625/CVUEPO/ECD4GX",
+            "identifier": "https://doi.org/10.25625/CVUEPO/ECD4GX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/117812"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "01_data_preparation.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 9313,
+            "description": "Preparation of the morphospp_with_groups data table",
+            "@id": "https://doi.org/10.25625/CVUEPO/PZXIEX",
+            "identifier": "https://doi.org/10.25625/CVUEPO/PZXIEX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/117808"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "06_Models_COA.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 34726,
+            "description": "GLMMs evaluating effects of grafting age and other predictors on arthropod diversity",
+            "@id": "https://doi.org/10.25625/CVUEPO/AUPUIN",
+            "identifier": "https://doi.org/10.25625/CVUEPO/AUPUIN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/117809"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "07_Yield_prep_analyses.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 19326,
+            "description": "GLMMs evaluating the effect of grafting on cacao yield",
+            "@id": "https://doi.org/10.25625/CVUEPO/EPXCXY",
+            "identifier": "https://doi.org/10.25625/CVUEPO/EPXCXY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/117813"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "8.0_single_group_models.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 25114,
+            "description": "GLMMs evaluating the effects of grafting age and other predictors on the abundance and diversity of selected arthropod taxa",
+            "@id": "https://doi.org/10.25625/CVUEPO/Y9HR6P",
+            "identifier": "https://doi.org/10.25625/CVUEPO/Y9HR6P",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/117811"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Agricultural Sciences",
+        "Earth and Environmental Sciences"
+    ]
+}

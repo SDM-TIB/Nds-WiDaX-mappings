@@ -1,0 +1,651 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/VPGDWE",
+    "identifier": "https://doi.org/10.25625/VPGDWE",
+    "name": "Tree water use, crown and canopy metrics in the Harapan rainforest, Sumatra",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Alexander",
+            "familyName": "R\u00f6ll",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Tropical Silviculture and Forest Ecology, University of G\u00f6ttingen"
+            },
+            "name": "R\u00f6ll, Alexander"
+        },
+        {
+            "@type": "Person",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Tropical Silviculture and Forest Ecology, University of G\u00f6ttingen"
+            },
+            "name": "Tongming Kang"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Peter",
+            "familyName": "Hahn",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Tropical Silviculture and Forest Ecology, University of G\u00f6ttingen"
+            },
+            "name": "Peter Hahn"
+        },
+        {
+            "@type": "Person",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Tropical Silviculture and Forest Ecology, University of G\u00f6ttingen"
+            },
+            "name": "Joyson Ahongshangbam"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Florian",
+            "familyName": "Ells\u00e4\u00dfer",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Tropical Silviculture and Forest Ecology, University of G\u00f6ttingen"
+            },
+            "name": "Florian Ells\u00e4\u00dfer"
+        },
+        {
+            "@type": "Person",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Forest Management, Bogor Agricultural University, Indonesia"
+            },
+            "name": "Hendrayanto"
+        },
+        {
+            "@type": "Person",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Tropical Silviculture and Forest Ecology, University of G\u00f6ttingen"
+            },
+            "name": "Puja Sharma"
+        },
+        {
+            "@type": "Person",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Tropical Silviculture and Forest Ecology, University of G\u00f6ttingen"
+            },
+            "name": "Thorge Wintz"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Dirk",
+            "familyName": "H\u00f6lscher",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Tropical Silviculture and Forest Ecology, University of G\u00f6ttingen"
+            },
+            "name": "Dirk H\u00f6lscher"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Alexander",
+            "familyName": "R\u00f6ll",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Tropical Silviculture and Forest Ecology, University of G\u00f6ttingen"
+            },
+            "name": "R\u00f6ll, Alexander"
+        },
+        {
+            "@type": "Person",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Tropical Silviculture and Forest Ecology, University of G\u00f6ttingen"
+            },
+            "name": "Tongming Kang"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Peter",
+            "familyName": "Hahn",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Tropical Silviculture and Forest Ecology, University of G\u00f6ttingen"
+            },
+            "name": "Peter Hahn"
+        },
+        {
+            "@type": "Person",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Tropical Silviculture and Forest Ecology, University of G\u00f6ttingen"
+            },
+            "name": "Joyson Ahongshangbam"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Florian",
+            "familyName": "Ells\u00e4\u00dfer",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Tropical Silviculture and Forest Ecology, University of G\u00f6ttingen"
+            },
+            "name": "Florian Ells\u00e4\u00dfer"
+        },
+        {
+            "@type": "Person",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Forest Management, Bogor Agricultural University, Indonesia"
+            },
+            "name": "Hendrayanto"
+        },
+        {
+            "@type": "Person",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Tropical Silviculture and Forest Ecology, University of G\u00f6ttingen"
+            },
+            "name": "Puja Sharma"
+        },
+        {
+            "@type": "Person",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Tropical Silviculture and Forest Ecology, University of G\u00f6ttingen"
+            },
+            "name": "Thorge Wintz"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Dirk",
+            "familyName": "H\u00f6lscher",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Tropical Silviculture and Forest Ecology, University of G\u00f6ttingen"
+            },
+            "name": "Dirk H\u00f6lscher"
+        }
+    ],
+    "datePublished": "2023-11-28",
+    "dateModified": "2023-11-28",
+    "version": "1",
+    "description": "42 sap flux sample trees in the Harapan rainforest, Sumatra, Indonesia. Provided are the individual 3D point clouds of the 42 crowns along with the whole point clouds of the five study plots and the R code to calculate key crown dimension and shape metrics. The data support the findings of R\u00f6ll et al. 2023, details can be found there. Abstract: Tropical rainforests are rich in tree species and comprise complex canopy structures. Transpiration by forest trees is a major hydrological flux which contributes to climate regulation. We explored the role of forest canopy structure on tree transpiration in a tropical rainforest on Sumatra, Indonesia. Drone-based photogrammetry and the structure from motion technique were used to compute high-resolution 3D point clouds and derive forest and tree structural variables. Transpiration of differently sized and vertically positioned trees was assessed with sap flux measurements. Per-tree transpiration rates increased linearly with several variables related to crown dimension and were further enhanced by top-heavy crown shape, dense leafage and increasing canopy openness as assessed with the gap light index. Under given environmental conditions, the two variables crown volume and top-heaviness explained 74% of the observed variance in per-tree transpiration. Transpiration rates per unit crown dimension were highest for small crowns, decreased non-linearly with increasing crown dimension and were little affected by other analyzed structural variables. Our study underlines the potential of 3D point cloud analyses for accurately determining the structure of complex forest canopies and thus better understanding and predicting transpiration rates of differently positioned trees.",
+    "keywords": [
+        "Earth and Environmental Sciences",
+        "water use",
+        "crown metrics",
+        "forest canopy",
+        "tropical rainforest"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "R\u00f6ll, A., Kang, T., Hahn, P., Ahongshangbam, J., Ells\u00e4\u00dfer, F., Hendrayanto, Sharma, P., Wintz, T., H\u00f6lscher, D.: Complex canopy structures control tree transpiration: a study based on 3D modeling in a tropical rainforest. Hydrological Processes (2023)."
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "DFG"
+        }
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "HF2_3634.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 3128694,
+            "@id": "https://doi.org/10.25625/VPGDWE/ZSDKDH",
+            "identifier": "https://doi.org/10.25625/VPGDWE/ZSDKDH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68324"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HF2_3639.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 2268120,
+            "@id": "https://doi.org/10.25625/VPGDWE/QOIGJX",
+            "identifier": "https://doi.org/10.25625/VPGDWE/QOIGJX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68339"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HF2_3648.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 426442,
+            "@id": "https://doi.org/10.25625/VPGDWE/1ZHRYV",
+            "identifier": "https://doi.org/10.25625/VPGDWE/1ZHRYV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68320"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HF2_3657.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 879186,
+            "@id": "https://doi.org/10.25625/VPGDWE/TDPURD",
+            "identifier": "https://doi.org/10.25625/VPGDWE/TDPURD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68309"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HF2_3660.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 2444011,
+            "@id": "https://doi.org/10.25625/VPGDWE/AFIJOR",
+            "identifier": "https://doi.org/10.25625/VPGDWE/AFIJOR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68325"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr1_9202.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1104470,
+            "@id": "https://doi.org/10.25625/VPGDWE/XXHJVW",
+            "identifier": "https://doi.org/10.25625/VPGDWE/XXHJVW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68311"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr1_9296.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 874494,
+            "@id": "https://doi.org/10.25625/VPGDWE/JW2769",
+            "identifier": "https://doi.org/10.25625/VPGDWE/JW2769",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68317"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr1_9299.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 870652,
+            "@id": "https://doi.org/10.25625/VPGDWE/BTKBVL",
+            "identifier": "https://doi.org/10.25625/VPGDWE/BTKBVL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68318"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr2_9530.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 855522,
+            "@id": "https://doi.org/10.25625/VPGDWE/VOV9RY",
+            "identifier": "https://doi.org/10.25625/VPGDWE/VOV9RY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68332"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr2_9537.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1358824,
+            "@id": "https://doi.org/10.25625/VPGDWE/DSAGSR",
+            "identifier": "https://doi.org/10.25625/VPGDWE/DSAGSR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68312"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr2_9543.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 448483,
+            "@id": "https://doi.org/10.25625/VPGDWE/LY1CNV",
+            "identifier": "https://doi.org/10.25625/VPGDWE/LY1CNV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68354"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr2_9547.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1752578,
+            "@id": "https://doi.org/10.25625/VPGDWE/MOPTFR",
+            "identifier": "https://doi.org/10.25625/VPGDWE/MOPTFR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68349"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr2_9557.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 330902,
+            "@id": "https://doi.org/10.25625/VPGDWE/EDOCTW",
+            "identifier": "https://doi.org/10.25625/VPGDWE/EDOCTW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68316"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr2_9568.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 785108,
+            "@id": "https://doi.org/10.25625/VPGDWE/HVCZPD",
+            "identifier": "https://doi.org/10.25625/VPGDWE/HVCZPD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68346"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr2_9570.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 3119310,
+            "@id": "https://doi.org/10.25625/VPGDWE/Y79BVJ",
+            "identifier": "https://doi.org/10.25625/VPGDWE/Y79BVJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68335"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr2_9580.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 317642,
+            "@id": "https://doi.org/10.25625/VPGDWE/G5XRFP",
+            "identifier": "https://doi.org/10.25625/VPGDWE/G5XRFP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68327"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr2_9599.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 2949956,
+            "@id": "https://doi.org/10.25625/VPGDWE/EQRNL0",
+            "identifier": "https://doi.org/10.25625/VPGDWE/EQRNL0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68321"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr3_9040.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1689211,
+            "@id": "https://doi.org/10.25625/VPGDWE/1RQT0W",
+            "identifier": "https://doi.org/10.25625/VPGDWE/1RQT0W",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68323"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr3_9044.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 451942,
+            "@id": "https://doi.org/10.25625/VPGDWE/NSPWN9",
+            "identifier": "https://doi.org/10.25625/VPGDWE/NSPWN9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68334"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr3_9046.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 314183,
+            "@id": "https://doi.org/10.25625/VPGDWE/9Q0HAA",
+            "identifier": "https://doi.org/10.25625/VPGDWE/9Q0HAA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68336"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr3_9047.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 310264,
+            "@id": "https://doi.org/10.25625/VPGDWE/XPOAKR",
+            "identifier": "https://doi.org/10.25625/VPGDWE/XPOAKR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68330"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr3_9065.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 444190,
+            "@id": "https://doi.org/10.25625/VPGDWE/0TYBRP",
+            "identifier": "https://doi.org/10.25625/VPGDWE/0TYBRP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68351"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr3_9067.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 339504,
+            "@id": "https://doi.org/10.25625/VPGDWE/MX4EJ7",
+            "identifier": "https://doi.org/10.25625/VPGDWE/MX4EJ7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68314"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr3_9830.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1625044,
+            "@id": "https://doi.org/10.25625/VPGDWE/DS0QYA",
+            "identifier": "https://doi.org/10.25625/VPGDWE/DS0QYA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68308"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr3_9832.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 904074,
+            "@id": "https://doi.org/10.25625/VPGDWE/XLC06M",
+            "identifier": "https://doi.org/10.25625/VPGDWE/XLC06M",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68343"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr3_9835.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1690936,
+            "@id": "https://doi.org/10.25625/VPGDWE/WHTWYL",
+            "identifier": "https://doi.org/10.25625/VPGDWE/WHTWYL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68328"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr3_9838.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 481012,
+            "@id": "https://doi.org/10.25625/VPGDWE/4S37IE",
+            "identifier": "https://doi.org/10.25625/VPGDWE/4S37IE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68350"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr3_9977.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 883436,
+            "@id": "https://doi.org/10.25625/VPGDWE/4XIDKX",
+            "identifier": "https://doi.org/10.25625/VPGDWE/4XIDKX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68322"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr3_9987.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 590807,
+            "@id": "https://doi.org/10.25625/VPGDWE/KFK5PW",
+            "identifier": "https://doi.org/10.25625/VPGDWE/KFK5PW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68355"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr3_9989.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 835700,
+            "@id": "https://doi.org/10.25625/VPGDWE/XISZ1Z",
+            "identifier": "https://doi.org/10.25625/VPGDWE/XISZ1Z",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68342"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr4_9387.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 848969,
+            "@id": "https://doi.org/10.25625/VPGDWE/6UQPOB",
+            "identifier": "https://doi.org/10.25625/VPGDWE/6UQPOB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68345"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr4_9390.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 5057523,
+            "@id": "https://doi.org/10.25625/VPGDWE/B5T6C6",
+            "identifier": "https://doi.org/10.25625/VPGDWE/B5T6C6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68352"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr4_9431.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 2540698,
+            "@id": "https://doi.org/10.25625/VPGDWE/Q4JYZK",
+            "identifier": "https://doi.org/10.25625/VPGDWE/Q4JYZK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68341"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr4_9440.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 716802,
+            "@id": "https://doi.org/10.25625/VPGDWE/1VHMTX",
+            "identifier": "https://doi.org/10.25625/VPGDWE/1VHMTX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68344"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr4_9445.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 2713767,
+            "@id": "https://doi.org/10.25625/VPGDWE/MC5YNC",
+            "identifier": "https://doi.org/10.25625/VPGDWE/MC5YNC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68310"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr4_9447.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 4955412,
+            "@id": "https://doi.org/10.25625/VPGDWE/VYQ4YC",
+            "identifier": "https://doi.org/10.25625/VPGDWE/VYQ4YC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68347"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr4_9452.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 2064596,
+            "@id": "https://doi.org/10.25625/VPGDWE/JDYUZB",
+            "identifier": "https://doi.org/10.25625/VPGDWE/JDYUZB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68313"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr4_9458.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 2294198,
+            "@id": "https://doi.org/10.25625/VPGDWE/KUIXLQ",
+            "identifier": "https://doi.org/10.25625/VPGDWE/KUIXLQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68340"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr4_9489.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 999045,
+            "@id": "https://doi.org/10.25625/VPGDWE/SNTAUU",
+            "identifier": "https://doi.org/10.25625/VPGDWE/SNTAUU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68333"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr4_9490.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1914418,
+            "@id": "https://doi.org/10.25625/VPGDWE/QDFGXK",
+            "identifier": "https://doi.org/10.25625/VPGDWE/QDFGXK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68326"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr4_9494.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 2089484,
+            "@id": "https://doi.org/10.25625/VPGDWE/LK4CUB",
+            "identifier": "https://doi.org/10.25625/VPGDWE/LK4CUB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68319"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HFr4_9504.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1703890,
+            "@id": "https://doi.org/10.25625/VPGDWE/ST9Z50",
+            "identifier": "https://doi.org/10.25625/VPGDWE/ST9Z50",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68348"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "plot_HF2_data.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 85649494,
+            "@id": "https://doi.org/10.25625/VPGDWE/UP9KY2",
+            "identifier": "https://doi.org/10.25625/VPGDWE/UP9KY2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68329"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "plot_HFr1_data.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 33512682,
+            "@id": "https://doi.org/10.25625/VPGDWE/GSVD3X",
+            "identifier": "https://doi.org/10.25625/VPGDWE/GSVD3X",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68315"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "plot_HFr2_data.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 34230100,
+            "@id": "https://doi.org/10.25625/VPGDWE/1MALEX",
+            "identifier": "https://doi.org/10.25625/VPGDWE/1MALEX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68337"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "plot_HFr3_data.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 67218692,
+            "@id": "https://doi.org/10.25625/VPGDWE/XSXVXP",
+            "identifier": "https://doi.org/10.25625/VPGDWE/XSXVXP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68331"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "plot_HFr4_data.las",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 75992860,
+            "@id": "https://doi.org/10.25625/VPGDWE/VKBUQL",
+            "identifier": "https://doi.org/10.25625/VPGDWE/VKBUQL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68353"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "RScript_CrownMetrics_repository-version.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 15413,
+            "@id": "https://doi.org/10.25625/VPGDWE/JDKZSS",
+            "identifier": "https://doi.org/10.25625/VPGDWE/JDKZSS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68338"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Earth and Environmental Sciences"
+    ],
+    "publications": [
+        {
+            "citation": "R\u00f6ll, A., Kang, T., Hahn, P., Ahongshangbam, J., Ells\u00e4\u00dfer, F., Hendrayanto, Sharma, P., Wintz, T., H\u00f6lscher, D.: Complex canopy structures control tree transpiration: a study based on 3D modeling in a tropical rainforest. Hydrological Processes (2023)."
+        }
+    ]
+}

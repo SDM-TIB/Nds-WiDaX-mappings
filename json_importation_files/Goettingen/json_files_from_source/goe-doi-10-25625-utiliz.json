@@ -1,0 +1,143 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/UTILIZ",
+    "identifier": "https://doi.org/10.25625/UTILIZ",
+    "name": "Micromodel simulation grid data",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Birger",
+            "familyName": "Hagemann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Clausthal University of Technology"
+            },
+            "name": "Hagemann, Birger"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Gion",
+            "familyName": "Strobel",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Clausthal University of Technology"
+            },
+            "name": "Strobel, Gion"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Maximilian",
+            "familyName": "Wirth",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Clausthal University of Technology"
+            },
+            "name": "Wirth, Maximilian"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Birger",
+            "familyName": "Hagemann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Clausthal University of Technology"
+            },
+            "name": "Hagemann, Birger"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Gion",
+            "familyName": "Strobel",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Clausthal University of Technology"
+            },
+            "name": "Strobel, Gion"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Maximilian",
+            "familyName": "Wirth",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Clausthal University of Technology"
+            },
+            "name": "Wirth, Maximilian"
+        }
+    ],
+    "datePublished": "2023-11-29",
+    "dateModified": "2023-11-29",
+    "version": "1",
+    "description": "This dataset contains the simulation grid data developed during the project \u201cMacro-scale modeling concepts for bacterial growth and transport in advective two-phase porous media systems\u201d (DFG Project number 433108788). To re-simulate the microfluidic experiments a 2D simulation grid at continuum scale was generated based on the pore structure of a micromodel. The 2D design of the micromodel can be found in the file \u201clinear_circle_micromodel.dxf\u201d. The height of the pore structure is 50 \u00b5m. For the grid a compromise between having a grid cell size larger than the representative elementary volume (REV) and certain spatial resolution had to be found. The REV is defined to be the smallest volume for which macroscopic properties can represent the measurements. For the pore structure of the micromodel the REV has been determined for the porosity on nine exemplary positions. Assuming that the REV for porosity can also be applied for other properties such as permeability, saturation or microbial density, a grid cell size of 1x1 mm was selected. This results in 9x50=450 elements for the continuum scale grid. For each element an image-analyzing algorithm using Matlab determined the porosity. To determine the permeability, the pore structure was cut out for each element and two pore scale simulations were performed to determine the permeability in x- and y-direction. This was done by using the single phase creeping flow model in COMSOL Multiphysics, which uses the Stokes equations. The model was solved stationary. A flow through the model was described by applying constant pressure boundaries on opposite sides with an inlet pressure of 1000Pa and an outlet pressure of 0Pa. All other boundaries were set to no slip conditions and fluid properties were related to water. The result of each simulation is the volumetric flow rate across the boundary, which was used to calculate the permeability. The resulting properties (porosity and permeability in x- and y-direction) of the simulation grid can be found in the files \u201cmm_porosity.txt\u201d, \u201c\u201cmm_permx.txt\u201d and \u201cmm_permy.txt\u201d. Ordering of the elements starts bottom left going to the right and line by line to the top.",
+    "keywords": [
+        "Engineering",
+        "Physics",
+        "Microfluidics",
+        "Microbiology",
+        "Numerical simulation",
+        "Computational fluid dynamics"
+    ],
+    "license": "http://creativecommons.org/licenses/by-nc/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "linear_circle_micromodel.dxf",
+            "encodingFormat": "image/vnd.dxf",
+            "contentSize": 22971682,
+            "@id": "https://doi.org/10.25625/UTILIZ/Q0K4CH",
+            "identifier": "https://doi.org/10.25625/UTILIZ/Q0K4CH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68500"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "mm_permx.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 4821,
+            "@id": "https://doi.org/10.25625/UTILIZ/GRU8KN",
+            "identifier": "https://doi.org/10.25625/UTILIZ/GRU8KN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68499"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "mm_permy.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 4835,
+            "@id": "https://doi.org/10.25625/UTILIZ/ULV1QW",
+            "identifier": "https://doi.org/10.25625/UTILIZ/ULV1QW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68497"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "mm_porosity.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 3995,
+            "@id": "https://doi.org/10.25625/UTILIZ/ZDL1NH",
+            "identifier": "https://doi.org/10.25625/UTILIZ/ZDL1NH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/68498"
+        }
+    ],
+    "license_title": "Creative Commons Attribution-NonCommercial 4.0 International",
+    "subjects": [
+        "Engineering",
+        "Physics"
+    ],
+    "publications": [
+        {}
+    ]
+}

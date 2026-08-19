@@ -1,0 +1,80 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/TUOXIX",
+    "identifier": "https://doi.org/10.25625/TUOXIX",
+    "name": "Metagenomics of the Kamchatka peninsula",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Bernd",
+            "familyName": "Wemheuer",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Dienste der GWDG"
+            },
+            "name": "Wemheuer, Bernd"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Bernd",
+            "familyName": "Wemheuer",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Dienste der GWDG"
+            },
+            "name": "Wemheuer, Bernd"
+        }
+    ],
+    "datePublished": "2021-08-04",
+    "dateModified": "2021-08-04",
+    "version": "1",
+    "description": "This dataset provides information about chemical as well as meta genomic data obtained by sequencing of two hots spring sediments collected on the Kamchatka peninsula.",
+    "keywords": [
+        "Earth and Environmental Sciences",
+        "Medicine, Health and Life Sciences"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Table_1.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1211,
+            "description": "Chemical properties of investigates sediment samples.",
+            "@id": "https://doi.org/10.25625/TUOXIX/NIWDFP",
+            "identifier": "https://doi.org/10.25625/TUOXIX/NIWDFP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/32429"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Table_2.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 52891,
+            "description": "Properties and submission details of the obtained meta genomic data.",
+            "@id": "https://doi.org/10.25625/TUOXIX/D4JTNB",
+            "identifier": "https://doi.org/10.25625/TUOXIX/D4JTNB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/32426"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Earth and Environmental Sciences",
+        "Medicine, Health and Life Sciences"
+    ]
+}

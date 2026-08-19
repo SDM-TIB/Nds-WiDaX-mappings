@@ -1,0 +1,109 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/JIO1MP",
+    "identifier": "https://doi.org/10.25625/JIO1MP",
+    "name": "Replication Data for: Embedded Trefftz discontinuous Galerkin methods",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Christoph",
+            "familyName": "Lehrenfeld",
+            "sameAs": "https://orcid.org/0000-0003-0170-8468",
+            "@id": "https://orcid.org/0000-0003-0170-8468",
+            "identifier": "https://orcid.org/0000-0003-0170-8468",
+            "name": "Lehrenfeld, Christoph"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Paul",
+            "familyName": "Stocker",
+            "sameAs": "https://orcid.org/0000-0001-5073-3366",
+            "@id": "https://orcid.org/0000-0001-5073-3366",
+            "identifier": "https://orcid.org/0000-0001-5073-3366",
+            "name": "Stocker, Paul"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Christoph",
+            "familyName": "Lehrenfeld",
+            "sameAs": "https://orcid.org/0000-0003-0170-8468",
+            "@id": "https://orcid.org/0000-0003-0170-8468",
+            "identifier": "https://orcid.org/0000-0003-0170-8468",
+            "name": "Lehrenfeld, Christoph"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Paul",
+            "familyName": "Stocker",
+            "sameAs": "https://orcid.org/0000-0001-5073-3366",
+            "@id": "https://orcid.org/0000-0001-5073-3366",
+            "identifier": "https://orcid.org/0000-0001-5073-3366",
+            "name": "Stocker, Paul"
+        }
+    ],
+    "datePublished": "2022-01-31",
+    "dateModified": "2023-08-09",
+    "version": "2",
+    "description": "This dataset contains reproduction material for the paper \"Embedded Trefftz discontinuous Galerkin methods\". The dataset contains Python files used to produce the results in the paper a docker image with everything pre-installed. To run the python files outside the docker a running installation of NGSolve and NGSTrefftz is required. They are tested with NGSolve@e9e5d06, NGSTrefftz@v0.0.1. The Helmholtz problem additionally uses Hankel functions provided by ngs-special-functions. All the required software and python files are pre-installed and ready to run in the docker image. Start the docker using docker load < ./embtrefftz_docker.tar.gz docker run -it embtrefftz /bin/bash",
+    "keywords": [
+        "Mathematical Sciences"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "Lehrenfeld, C, Stocker, P. Embedded Trefftz discontinuous Galerkin methods. Int J Numer Methods Eng. 2023; 124(17): 3637-3661. doi: 10.1002/nme.7258",
+            "@id": "https://doi.org/10.1002/nme.7258",
+            "identifier": "https://doi.org/10.1002/nme.7258",
+            "url": "https://doi.org/10.1002/nme.7258"
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "embtrefftz_docker.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 2010630150,
+            "description": "docker image",
+            "@id": "https://doi.org/10.25625/JIO1MP/LBMXVZ",
+            "identifier": "https://doi.org/10.25625/JIO1MP/LBMXVZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/63996"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "embtrefftz_python.tar",
+            "encodingFormat": "application/x-tar",
+            "contentSize": 10829,
+            "description": "python files",
+            "@id": "https://doi.org/10.25625/JIO1MP/C3STY7",
+            "identifier": "https://doi.org/10.25625/JIO1MP/C3STY7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/63997"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Mathematical Sciences"
+    ],
+    "publications": [
+        {
+            "citation": "Lehrenfeld, C, Stocker, P. Embedded Trefftz discontinuous Galerkin methods. Int J Numer Methods Eng. 2023; 124(17): 3637-3661. doi: 10.1002/nme.7258",
+            "url": "https://doi.org/10.1002/nme.7258"
+        }
+    ]
+}

@@ -1,0 +1,2324 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/A2Z8T8",
+    "identifier": "https://doi.org/10.25625/A2Z8T8",
+    "name": "Multiyear eddy covariance and meteorological dataset from agroforestry and open cropland or grassland in northern Germany",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Jos\u00e9 \u00c1ngel",
+            "familyName": "Callejas-Rodelas",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Bioclimatology, Faculty of Forest Sciences and Forest Ecology, University of G\u00f6ttingen, B\u00fcsgenweg 2, 37077, G\u00f6ttingen, Germany"
+            },
+            "name": "Callejas-Rodelas, Jos\u00e9 \u00c1ngel"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Justus",
+            "familyName": "van Ramshorst",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Bioclimatology, Faculty of Forest Sciences and Forest Ecology, University of G\u00f6ttingen, B\u00fcsgenweg 2, 37077, G\u00f6ttingen, Germany"
+            },
+            "name": "van Ramshorst, Justus"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Alexander",
+            "familyName": "Knohl",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Bioclimatology, Faculty of Forest Sciences and Forest Ecology, University of G\u00f6ttingen, B\u00fcsgenweg 2, 37077, G\u00f6ttingen, Germany"
+            },
+            "name": "Knohl, Alexander"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Lukas",
+            "familyName": "Siebicke",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Bioclimatology, Faculty of Forest Sciences and Forest Ecology, University of G\u00f6ttingen, B\u00fcsgenweg 2, 37077, G\u00f6ttingen, Germany"
+            },
+            "name": "Siebicke, Lukas"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Marek",
+            "familyName": "Peksa",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Bioclimatology, Faculty of Forest Sciences and Forest Ecology, University of G\u00f6ttingen, B\u00fcsgenweg 2, 37077, G\u00f6ttingen, Germany"
+            },
+            "name": "Peksa, Marek"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Dietmar",
+            "familyName": "Fellert",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Bioclimatology, Faculty of Forest Sciences and Forest Ecology, University of G\u00f6ttingen, B\u00fcsgenweg 2, 37077, G\u00f6ttingen, Germany"
+            },
+            "name": "Fellert, Dietmar"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Dirk",
+            "familyName": "B\u00f6ttger",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Soil Science of Tropical and Subtropical Ecosystems, University of G\u00f6ttingen, G\u00f6ttingen, Germany"
+            },
+            "name": "B\u00f6ttger, Dirk"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Christian",
+            "familyName": "Markwitz",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Bioclimatology, Faculty of Forest Sciences and Forest Ecology, University of G\u00f6ttingen, B\u00fcsgenweg 2, 37077, G\u00f6ttingen, Germany"
+            },
+            "name": "Markwitz, Christian"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jos\u00e9 \u00c1ngel",
+            "familyName": "Callejas-Rodelas",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Bioclimatology, Faculty of Forest Sciences and Forest Ecology, University of G\u00f6ttingen, B\u00fcsgenweg 2, 37077, G\u00f6ttingen, Germany"
+            },
+            "name": "Callejas-Rodelas, Jos\u00e9 \u00c1ngel"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Justus",
+            "familyName": "van Ramshorst",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Bioclimatology, Faculty of Forest Sciences and Forest Ecology, University of G\u00f6ttingen, B\u00fcsgenweg 2, 37077, G\u00f6ttingen, Germany"
+            },
+            "name": "van Ramshorst, Justus"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Alexander",
+            "familyName": "Knohl",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Bioclimatology, Faculty of Forest Sciences and Forest Ecology, University of G\u00f6ttingen, B\u00fcsgenweg 2, 37077, G\u00f6ttingen, Germany"
+            },
+            "name": "Knohl, Alexander"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Lukas",
+            "familyName": "Siebicke",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Bioclimatology, Faculty of Forest Sciences and Forest Ecology, University of G\u00f6ttingen, B\u00fcsgenweg 2, 37077, G\u00f6ttingen, Germany"
+            },
+            "name": "Siebicke, Lukas"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Marek",
+            "familyName": "Peksa",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Bioclimatology, Faculty of Forest Sciences and Forest Ecology, University of G\u00f6ttingen, B\u00fcsgenweg 2, 37077, G\u00f6ttingen, Germany"
+            },
+            "name": "Peksa, Marek"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Dietmar",
+            "familyName": "Fellert",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Bioclimatology, Faculty of Forest Sciences and Forest Ecology, University of G\u00f6ttingen, B\u00fcsgenweg 2, 37077, G\u00f6ttingen, Germany"
+            },
+            "name": "Fellert, Dietmar"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Dirk",
+            "familyName": "B\u00f6ttger",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Soil Science of Tropical and Subtropical Ecosystems, University of G\u00f6ttingen, G\u00f6ttingen, Germany"
+            },
+            "name": "B\u00f6ttger, Dirk"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Christian",
+            "familyName": "Markwitz",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Bioclimatology, Faculty of Forest Sciences and Forest Ecology, University of G\u00f6ttingen, B\u00fcsgenweg 2, 37077, G\u00f6ttingen, Germany"
+            },
+            "name": "Markwitz, Christian"
+        }
+    ],
+    "datePublished": "2025-04-07",
+    "dateModified": "2026-01-27",
+    "version": "6",
+    "description": "Dataset corresponding to the project SIGNAL (Sustainable intensification of agriculture through agroforestry), subproject TP1.2, entitled \"CO2, H2O and energy exchange\". Christian Markwitz collected and processed the data corresponding to the 1st phase, 2016-2018. Justus van Ramshorst collected and processed the data corresponding to the 2nd phase, 2019-2021. Jos\u00e9 \u00c1ngel Callejas-Rodelas collected and processed the data corresponding to the 3rd phase, 2022-2024. Lukas Siebicke and Alexander Knohl wrote the project proposals and contributed to data analysis and harmonization. Project funded by the German Ministry of Education and Research (BMBF), project BonaRes, module A (first phase: SIGNAL 031A562A, second phase: SIGNAL 031B0510A, third phase: SIGNAL 031B1063A).",
+    "keywords": [
+        "Agricultural Sciences",
+        "Earth and Environmental Sciences",
+        "agroforestry",
+        "carbon dioxide",
+        "water vapour",
+        "eddy covariance"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "BMBF"
+        },
+        {
+            "@type": "Organization",
+            "name": "BMBF"
+        },
+        {
+            "@type": "Organization",
+            "name": "BMBF"
+        }
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Dornburg_AF_fluxes_30min.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 568036018,
+            "@id": "https://doi.org/10.25625/A2Z8T8/YH6V71",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/YH6V71",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/146213"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Dornburg_AF_meteo_30min.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 33627914,
+            "@id": "https://doi.org/10.25625/A2Z8T8/73VRH2",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/73VRH2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/146222"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Dornburg_AF_precipitation_1h.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1637632,
+            "@id": "https://doi.org/10.25625/A2Z8T8/9G1GAL",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/9G1GAL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/143581"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Dornburg_MC_fluxes_30min.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 567386339,
+            "@id": "https://doi.org/10.25625/A2Z8T8/TNGYLX",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/TNGYLX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/146211"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Dornburg_MC_meteo_30min.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 32625348,
+            "@id": "https://doi.org/10.25625/A2Z8T8/A5ROGR",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/A5ROGR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/146228"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Dornburg_MC_precipitation_1h.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1638006,
+            "@id": "https://doi.org/10.25625/A2Z8T8/XSON7X",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/XSON7X",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/143574"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2019_Dornburg_AF_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 42515,
+            "@id": "https://doi.org/10.25625/A2Z8T8/YBFQXV",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/YBFQXV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132219"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2019_Dornburg_AF_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 68412,
+            "@id": "https://doi.org/10.25625/A2Z8T8/3QO8CV",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/3QO8CV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132289"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2019_Dornburg_AF_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 146471,
+            "@id": "https://doi.org/10.25625/A2Z8T8/QJBJBX",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/QJBJBX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132367"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2019_Dornburg_MC_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 22451,
+            "@id": "https://doi.org/10.25625/A2Z8T8/YBI6YQ",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/YBI6YQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132222"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2019_Dornburg_MC_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 36050,
+            "@id": "https://doi.org/10.25625/A2Z8T8/SYSOCY",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/SYSOCY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132272"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2019_Dornburg_MC_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 76302,
+            "@id": "https://doi.org/10.25625/A2Z8T8/YQV4HZ",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/YQV4HZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132236"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2019_Forst_AF_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 41182,
+            "@id": "https://doi.org/10.25625/A2Z8T8/OCBDYZ",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/OCBDYZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132173"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2019_Forst_AF_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 65532,
+            "@id": "https://doi.org/10.25625/A2Z8T8/ZOFGRH",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/ZOFGRH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132373"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2019_Forst_AF_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 138781,
+            "@id": "https://doi.org/10.25625/A2Z8T8/VSTQWC",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/VSTQWC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132283"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2019_Forst_MC_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 19330,
+            "@id": "https://doi.org/10.25625/A2Z8T8/GR134T",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/GR134T",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132290"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2019_Forst_MC_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 30428,
+            "@id": "https://doi.org/10.25625/A2Z8T8/CLMPVD",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/CLMPVD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132285"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2019_Forst_MC_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 64183,
+            "@id": "https://doi.org/10.25625/A2Z8T8/HWQBZB",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/HWQBZB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132326"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2019_Mariensee_AF_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 34325,
+            "@id": "https://doi.org/10.25625/A2Z8T8/HFT35P",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/HFT35P",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132244"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2019_Mariensee_AF_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 52467,
+            "@id": "https://doi.org/10.25625/A2Z8T8/Y9OFPV",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/Y9OFPV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132238"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2019_Mariensee_AF_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 109905,
+            "@id": "https://doi.org/10.25625/A2Z8T8/BXMHSM",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/BXMHSM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132371"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2019_Mariensee_MC_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 11086,
+            "@id": "https://doi.org/10.25625/A2Z8T8/SYFBXW",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/SYFBXW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132213"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2019_Mariensee_MC_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 17152,
+            "@id": "https://doi.org/10.25625/A2Z8T8/HIBAL0",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/HIBAL0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132235"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2019_Mariensee_MC_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 34644,
+            "@id": "https://doi.org/10.25625/A2Z8T8/IQDK90",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/IQDK90",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132301"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2019_Vechta_AF_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 18646,
+            "@id": "https://doi.org/10.25625/A2Z8T8/X7XP9T",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/X7XP9T",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132233"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2019_Vechta_AF_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 28608,
+            "@id": "https://doi.org/10.25625/A2Z8T8/A4CRWA",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/A4CRWA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132280"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2019_Vechta_AF_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 57909,
+            "@id": "https://doi.org/10.25625/A2Z8T8/1O8CUI",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/1O8CUI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132374"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2019_Vechta_MC_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 19933,
+            "@id": "https://doi.org/10.25625/A2Z8T8/VSVEGD",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/VSVEGD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132355"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2019_Vechta_MC_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 31020,
+            "@id": "https://doi.org/10.25625/A2Z8T8/UGTU6Q",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/UGTU6Q",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132349"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2019_Vechta_MC_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 65687,
+            "@id": "https://doi.org/10.25625/A2Z8T8/YDWPOT",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/YDWPOT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132300"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2019_Wendhausen_AF_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 29935,
+            "@id": "https://doi.org/10.25625/A2Z8T8/ZBKGMB",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/ZBKGMB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132246"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2019_Wendhausen_AF_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 47835,
+            "@id": "https://doi.org/10.25625/A2Z8T8/4LEH5M",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/4LEH5M",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132376"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2019_Wendhausen_AF_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 89416,
+            "@id": "https://doi.org/10.25625/A2Z8T8/ZA1NFQ",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/ZA1NFQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132317"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2019_Wendhausen_MC_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 17656,
+            "@id": "https://doi.org/10.25625/A2Z8T8/AWFAQH",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/AWFAQH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132352"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2019_Wendhausen_MC_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 27418,
+            "@id": "https://doi.org/10.25625/A2Z8T8/1T3CCH",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/1T3CCH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132359"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2019_Wendhausen_MC_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 57380,
+            "@id": "https://doi.org/10.25625/A2Z8T8/EFD8V6",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/EFD8V6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132297"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2020_Dornburg_AF_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 40866,
+            "@id": "https://doi.org/10.25625/A2Z8T8/GRNSHM",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/GRNSHM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132284"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2020_Dornburg_AF_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 64551,
+            "@id": "https://doi.org/10.25625/A2Z8T8/RKFCFG",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/RKFCFG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132229"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2020_Dornburg_AF_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 140710,
+            "@id": "https://doi.org/10.25625/A2Z8T8/OTSDT3",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/OTSDT3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132259"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2020_Dornburg_MC_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 27269,
+            "@id": "https://doi.org/10.25625/A2Z8T8/3SN4WD",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/3SN4WD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132186"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2020_Dornburg_MC_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 43853,
+            "@id": "https://doi.org/10.25625/A2Z8T8/NHUBMZ",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/NHUBMZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132286"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2020_Dornburg_MC_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 95532,
+            "@id": "https://doi.org/10.25625/A2Z8T8/WCGT34",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/WCGT34",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132379"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2020_Forst_AF_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 41184,
+            "@id": "https://doi.org/10.25625/A2Z8T8/QV8CFY",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/QV8CFY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132366"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2020_Forst_AF_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 64530,
+            "@id": "https://doi.org/10.25625/A2Z8T8/Q00AJI",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/Q00AJI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132350"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2020_Forst_AF_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 137164,
+            "@id": "https://doi.org/10.25625/A2Z8T8/UTSD5B",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/UTSD5B",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132182"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2020_Forst_MC_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 20314,
+            "@id": "https://doi.org/10.25625/A2Z8T8/ZD4WPP",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/ZD4WPP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132212"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2020_Forst_MC_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 32736,
+            "@id": "https://doi.org/10.25625/A2Z8T8/1LEVRZ",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/1LEVRZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132218"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2020_Forst_MC_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 70318,
+            "@id": "https://doi.org/10.25625/A2Z8T8/WE4ILN",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/WE4ILN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132206"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2020_Mariensee_AF_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 33329,
+            "@id": "https://doi.org/10.25625/A2Z8T8/VBMPEZ",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/VBMPEZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132268"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2020_Mariensee_AF_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 52157,
+            "@id": "https://doi.org/10.25625/A2Z8T8/ALUIBL",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/ALUIBL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132216"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2020_Mariensee_AF_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 108511,
+            "@id": "https://doi.org/10.25625/A2Z8T8/CP2T4L",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/CP2T4L",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132311"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2020_Mariensee_MC_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 14189,
+            "@id": "https://doi.org/10.25625/A2Z8T8/0PJKYF",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/0PJKYF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132258"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2020_Mariensee_MC_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 21248,
+            "@id": "https://doi.org/10.25625/A2Z8T8/HBBEBJ",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/HBBEBJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132390"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2020_Mariensee_MC_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 44287,
+            "@id": "https://doi.org/10.25625/A2Z8T8/SOCCX7",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/SOCCX7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132363"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2020_Vechta_AF_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 23383,
+            "@id": "https://doi.org/10.25625/A2Z8T8/NS0NOR",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/NS0NOR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132281"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2020_Vechta_AF_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 36598,
+            "@id": "https://doi.org/10.25625/A2Z8T8/WMSZ10",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/WMSZ10",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132251"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2020_Vechta_AF_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 77034,
+            "@id": "https://doi.org/10.25625/A2Z8T8/4EPQJQ",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/4EPQJQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132382"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2020_Vechta_MC_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 24334,
+            "@id": "https://doi.org/10.25625/A2Z8T8/KMTMEZ",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/KMTMEZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132220"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2020_Vechta_MC_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 38419,
+            "@id": "https://doi.org/10.25625/A2Z8T8/JYZBJW",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/JYZBJW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132394"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2020_Vechta_MC_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 81217,
+            "@id": "https://doi.org/10.25625/A2Z8T8/FIEZHZ",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/FIEZHZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132205"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2020_Wendhausen_AF_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 31579,
+            "@id": "https://doi.org/10.25625/A2Z8T8/XQ7ORG",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/XQ7ORG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132261"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2020_Wendhausen_AF_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 47360,
+            "@id": "https://doi.org/10.25625/A2Z8T8/8F6OHX",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/8F6OHX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132306"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2020_Wendhausen_AF_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 97177,
+            "@id": "https://doi.org/10.25625/A2Z8T8/PHVCMQ",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/PHVCMQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132387"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2020_Wendhausen_MC_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 19792,
+            "@id": "https://doi.org/10.25625/A2Z8T8/LUISXT",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/LUISXT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132243"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2020_Wendhausen_MC_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 30751,
+            "@id": "https://doi.org/10.25625/A2Z8T8/T0PYLF",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/T0PYLF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132396"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2020_Wendhausen_MC_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 64986,
+            "@id": "https://doi.org/10.25625/A2Z8T8/PJIIMC",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/PJIIMC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132201"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2021_Dornburg_AF_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 33097,
+            "@id": "https://doi.org/10.25625/A2Z8T8/0SBJBZ",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/0SBJBZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132348"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2021_Dornburg_AF_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 51306,
+            "@id": "https://doi.org/10.25625/A2Z8T8/MTVSKT",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/MTVSKT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132330"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2021_Dornburg_AF_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 107484,
+            "@id": "https://doi.org/10.25625/A2Z8T8/M3NJA3",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/M3NJA3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132312"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2021_Dornburg_MC_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 22305,
+            "@id": "https://doi.org/10.25625/A2Z8T8/HGTIQI",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/HGTIQI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132395"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2021_Dornburg_MC_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 35578,
+            "@id": "https://doi.org/10.25625/A2Z8T8/YERGUP",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/YERGUP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132197"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2021_Dornburg_MC_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 74842,
+            "@id": "https://doi.org/10.25625/A2Z8T8/XPHDSD",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/XPHDSD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132336"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2021_Forst_AF_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 57567,
+            "@id": "https://doi.org/10.25625/A2Z8T8/4SYEAU",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/4SYEAU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132295"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2021_Forst_AF_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 92331,
+            "@id": "https://doi.org/10.25625/A2Z8T8/ZILRAT",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/ZILRAT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132237"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2021_Forst_AF_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 200140,
+            "@id": "https://doi.org/10.25625/A2Z8T8/WXGGDW",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/WXGGDW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132245"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2021_Forst_MC_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 17487,
+            "@id": "https://doi.org/10.25625/A2Z8T8/A5P4TP",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/A5P4TP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132354"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2021_Forst_MC_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 27939,
+            "@id": "https://doi.org/10.25625/A2Z8T8/GR3AWA",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/GR3AWA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132389"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2021_Forst_MC_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 59237,
+            "@id": "https://doi.org/10.25625/A2Z8T8/C6VPWB",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/C6VPWB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132223"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2021_Mariensee_AF_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 42017,
+            "@id": "https://doi.org/10.25625/A2Z8T8/JXODCP",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/JXODCP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132175"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2021_Mariensee_AF_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 66561,
+            "@id": "https://doi.org/10.25625/A2Z8T8/DFTOC7",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/DFTOC7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132274"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2021_Mariensee_AF_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 141441,
+            "@id": "https://doi.org/10.25625/A2Z8T8/KB9ZKM",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/KB9ZKM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132188"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2021_Mariensee_MC_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 12054,
+            "@id": "https://doi.org/10.25625/A2Z8T8/NARPR2",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/NARPR2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132372"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2021_Mariensee_MC_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 18949,
+            "@id": "https://doi.org/10.25625/A2Z8T8/MQBLZA",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/MQBLZA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132346"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2021_Mariensee_MC_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 39530,
+            "@id": "https://doi.org/10.25625/A2Z8T8/WR3IZX",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/WR3IZX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132275"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2021_Vechta_AF_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 20429,
+            "@id": "https://doi.org/10.25625/A2Z8T8/TOQGYS",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/TOQGYS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132208"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2021_Vechta_AF_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 31237,
+            "@id": "https://doi.org/10.25625/A2Z8T8/88H6FX",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/88H6FX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132256"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2021_Vechta_AF_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 65108,
+            "@id": "https://doi.org/10.25625/A2Z8T8/KUWHAN",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/KUWHAN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132338"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2021_Vechta_MC_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 21554,
+            "@id": "https://doi.org/10.25625/A2Z8T8/WPYBVI",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/WPYBVI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132351"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2021_Vechta_MC_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 33995,
+            "@id": "https://doi.org/10.25625/A2Z8T8/VB4ALK",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/VB4ALK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132199"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2021_Vechta_MC_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 72729,
+            "@id": "https://doi.org/10.25625/A2Z8T8/EXGXWV",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/EXGXWV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132318"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2021_Wendhausen_AF_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 35920,
+            "@id": "https://doi.org/10.25625/A2Z8T8/1XUD77",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/1XUD77",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132340"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2021_Wendhausen_AF_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 55806,
+            "@id": "https://doi.org/10.25625/A2Z8T8/VBUUCI",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/VBUUCI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132185"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2021_Wendhausen_AF_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 114519,
+            "@id": "https://doi.org/10.25625/A2Z8T8/IUFQGY",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/IUFQGY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132252"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2021_Wendhausen_MC_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 19330,
+            "@id": "https://doi.org/10.25625/A2Z8T8/BRVCIH",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/BRVCIH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132386"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2021_Wendhausen_MC_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 29907,
+            "@id": "https://doi.org/10.25625/A2Z8T8/XHSMR6",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/XHSMR6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132302"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2021_Wendhausen_MC_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 62874,
+            "@id": "https://doi.org/10.25625/A2Z8T8/TIYZHV",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/TIYZHV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132282"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2022_Dornburg_AF_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 31739,
+            "@id": "https://doi.org/10.25625/A2Z8T8/A12TKZ",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/A12TKZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132262"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2022_Dornburg_AF_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 49647,
+            "@id": "https://doi.org/10.25625/A2Z8T8/SNQ4C3",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/SNQ4C3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132234"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2022_Dornburg_AF_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 104832,
+            "@id": "https://doi.org/10.25625/A2Z8T8/RDLDLZ",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/RDLDLZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132319"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2022_Dornburg_MC_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 27932,
+            "@id": "https://doi.org/10.25625/A2Z8T8/3WCVHU",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/3WCVHU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132260"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2022_Dornburg_MC_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 43994,
+            "@id": "https://doi.org/10.25625/A2Z8T8/HVZUFO",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/HVZUFO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132184"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2022_Dornburg_MC_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 93390,
+            "@id": "https://doi.org/10.25625/A2Z8T8/WNVMLS",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/WNVMLS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132329"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2022_Forst_AF_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 51923,
+            "@id": "https://doi.org/10.25625/A2Z8T8/MLB3CE",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/MLB3CE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132322"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2022_Forst_AF_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 82437,
+            "@id": "https://doi.org/10.25625/A2Z8T8/AE8MYQ",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/AE8MYQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132192"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2022_Forst_AF_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 174259,
+            "@id": "https://doi.org/10.25625/A2Z8T8/7BK7JY",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/7BK7JY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132304"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2022_Forst_MC_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 19825,
+            "@id": "https://doi.org/10.25625/A2Z8T8/PGYBPW",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/PGYBPW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132369"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2022_Forst_MC_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 31240,
+            "@id": "https://doi.org/10.25625/A2Z8T8/F1U8VI",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/F1U8VI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132249"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2022_Forst_MC_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 65673,
+            "@id": "https://doi.org/10.25625/A2Z8T8/BBWJG8",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/BBWJG8",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132309"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2022_Vechta_AF_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 21728,
+            "@id": "https://doi.org/10.25625/A2Z8T8/K2DRKD",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/K2DRKD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132247"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2022_Vechta_AF_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 33869,
+            "@id": "https://doi.org/10.25625/A2Z8T8/IWW4RP",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/IWW4RP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132288"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2022_Vechta_AF_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 70483,
+            "@id": "https://doi.org/10.25625/A2Z8T8/EHMBXK",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/EHMBXK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132190"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2022_Vechta_MC_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 24496,
+            "@id": "https://doi.org/10.25625/A2Z8T8/MBN17X",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/MBN17X",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132380"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2022_Vechta_MC_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 38142,
+            "@id": "https://doi.org/10.25625/A2Z8T8/L6ZKOV",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/L6ZKOV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132303"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2022_Vechta_MC_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 78163,
+            "@id": "https://doi.org/10.25625/A2Z8T8/ZWT8S9",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/ZWT8S9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132225"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2022_Wendhausen_AF_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 31936,
+            "@id": "https://doi.org/10.25625/A2Z8T8/55J11A",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/55J11A",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132224"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2022_Wendhausen_AF_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 45510,
+            "@id": "https://doi.org/10.25625/A2Z8T8/3U59LS",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/3U59LS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132239"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2022_Wendhausen_AF_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 93559,
+            "@id": "https://doi.org/10.25625/A2Z8T8/5FN8RD",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/5FN8RD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132231"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2022_Wendhausen_MC_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 12182,
+            "@id": "https://doi.org/10.25625/A2Z8T8/FEVM77",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/FEVM77",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132240"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2022_Wendhausen_MC_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 18982,
+            "@id": "https://doi.org/10.25625/A2Z8T8/7DQTTV",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/7DQTTV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132378"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2022_Wendhausen_MC_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 39674,
+            "@id": "https://doi.org/10.25625/A2Z8T8/IASV88",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/IASV88",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132226"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2023_Dornburg_AF_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 23304,
+            "@id": "https://doi.org/10.25625/A2Z8T8/YMC4DP",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/YMC4DP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132364"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2023_Dornburg_AF_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 36886,
+            "@id": "https://doi.org/10.25625/A2Z8T8/0ZOP1A",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/0ZOP1A",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132270"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2023_Dornburg_AF_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 76464,
+            "@id": "https://doi.org/10.25625/A2Z8T8/8ME35R",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/8ME35R",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132337"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2023_Dornburg_MC_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 21148,
+            "@id": "https://doi.org/10.25625/A2Z8T8/MYUHUJ",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/MYUHUJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132294"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2023_Dornburg_MC_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 33575,
+            "@id": "https://doi.org/10.25625/A2Z8T8/P1B4HQ",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/P1B4HQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132277"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2023_Dornburg_MC_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 70732,
+            "@id": "https://doi.org/10.25625/A2Z8T8/MXMFUY",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/MXMFUY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132377"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2023_Forst_AF_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 44163,
+            "@id": "https://doi.org/10.25625/A2Z8T8/MYICFX",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/MYICFX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132257"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2023_Forst_AF_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 70280,
+            "@id": "https://doi.org/10.25625/A2Z8T8/FAC4QJ",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/FAC4QJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132204"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2023_Forst_AF_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 148818,
+            "@id": "https://doi.org/10.25625/A2Z8T8/GFWJAS",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/GFWJAS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132177"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2023_Forst_MC_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 18000,
+            "@id": "https://doi.org/10.25625/A2Z8T8/SIQPNH",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/SIQPNH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132324"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2023_Forst_MC_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 28420,
+            "@id": "https://doi.org/10.25625/A2Z8T8/VZ1MFO",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/VZ1MFO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132299"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2023_Forst_MC_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 59707,
+            "@id": "https://doi.org/10.25625/A2Z8T8/PI5IM0",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/PI5IM0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132341"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2023_Vechta_AF_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 21078,
+            "@id": "https://doi.org/10.25625/A2Z8T8/O1LAOU",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/O1LAOU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132196"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2023_Vechta_AF_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 32054,
+            "@id": "https://doi.org/10.25625/A2Z8T8/WAFQJR",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/WAFQJR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132358"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2023_Vechta_AF_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 65568,
+            "@id": "https://doi.org/10.25625/A2Z8T8/ZXZC8P",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/ZXZC8P",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132203"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2023_Vechta_MC_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 21304,
+            "@id": "https://doi.org/10.25625/A2Z8T8/0YWFLW",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/0YWFLW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132264"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2023_Vechta_MC_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 32998,
+            "@id": "https://doi.org/10.25625/A2Z8T8/FXOBLJ",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/FXOBLJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132207"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2023_Vechta_MC_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 68957,
+            "@id": "https://doi.org/10.25625/A2Z8T8/RVI2KO",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/RVI2KO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132335"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2023_Wendhausen_AF_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 32614,
+            "@id": "https://doi.org/10.25625/A2Z8T8/0R02CB",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/0R02CB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132195"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2023_Wendhausen_AF_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 50995,
+            "@id": "https://doi.org/10.25625/A2Z8T8/Z2CJGO",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/Z2CJGO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132343"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2023_Wendhausen_AF_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 105634,
+            "@id": "https://doi.org/10.25625/A2Z8T8/RZOCEZ",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/RZOCEZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132187"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2023_Wendhausen_MC_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 11623,
+            "@id": "https://doi.org/10.25625/A2Z8T8/FIRT0J",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/FIRT0J",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132210"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2023_Wendhausen_MC_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 17169,
+            "@id": "https://doi.org/10.25625/A2Z8T8/LQ2MAR",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/LQ2MAR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132357"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2023_Wendhausen_MC_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 34050,
+            "@id": "https://doi.org/10.25625/A2Z8T8/TPPUUA",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/TPPUUA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132263"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2024_Dornburg_AF_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 22964,
+            "@id": "https://doi.org/10.25625/A2Z8T8/AIQQ2J",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/AIQQ2J",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132331"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2024_Dornburg_AF_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 34423,
+            "@id": "https://doi.org/10.25625/A2Z8T8/VL2UBC",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/VL2UBC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132393"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2024_Dornburg_AF_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 72980,
+            "@id": "https://doi.org/10.25625/A2Z8T8/SSBJFE",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/SSBJFE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132181"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2024_Dornburg_MC_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 25789,
+            "@id": "https://doi.org/10.25625/A2Z8T8/G4ZKAL",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/G4ZKAL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132332"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2024_Dornburg_MC_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 40742,
+            "@id": "https://doi.org/10.25625/A2Z8T8/HG8ZQF",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/HG8ZQF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132383"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2024_Dornburg_MC_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 88390,
+            "@id": "https://doi.org/10.25625/A2Z8T8/ONMAVK",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/ONMAVK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132253"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2024_Forst_AF_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 40989,
+            "@id": "https://doi.org/10.25625/A2Z8T8/1APTTL",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/1APTTL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132293"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2024_Forst_AF_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 64182,
+            "@id": "https://doi.org/10.25625/A2Z8T8/XFN3US",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/XFN3US",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132328"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2024_Forst_AF_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 134865,
+            "@id": "https://doi.org/10.25625/A2Z8T8/4YV0QD",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/4YV0QD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132365"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2024_Forst_MC_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 20625,
+            "@id": "https://doi.org/10.25625/A2Z8T8/RDLRVG",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/RDLRVG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132176"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2024_Forst_MC_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 32542,
+            "@id": "https://doi.org/10.25625/A2Z8T8/JUQH8F",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/JUQH8F",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132250"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2024_Forst_MC_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 68850,
+            "@id": "https://doi.org/10.25625/A2Z8T8/QUJLJ6",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/QUJLJ6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132221"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2024_Vechta_AF_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 24510,
+            "@id": "https://doi.org/10.25625/A2Z8T8/KLAR9U",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/KLAR9U",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132254"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2024_Vechta_AF_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 37946,
+            "@id": "https://doi.org/10.25625/A2Z8T8/0FSKQF",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/0FSKQF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132242"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2024_Vechta_AF_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 78159,
+            "@id": "https://doi.org/10.25625/A2Z8T8/HJ4JG7",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/HJ4JG7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132279"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2024_Vechta_MC_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 21891,
+            "@id": "https://doi.org/10.25625/A2Z8T8/VZGF6Y",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/VZGF6Y",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132174"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2024_Vechta_MC_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 33979,
+            "@id": "https://doi.org/10.25625/A2Z8T8/GRGC1Z",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/GRGC1Z",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132269"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2024_Vechta_MC_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 70433,
+            "@id": "https://doi.org/10.25625/A2Z8T8/E3IQAY",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/E3IQAY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132368"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2024_Wendhausen_AF_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 31452,
+            "@id": "https://doi.org/10.25625/A2Z8T8/WTWNLO",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/WTWNLO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132347"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2024_Wendhausen_AF_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 48490,
+            "@id": "https://doi.org/10.25625/A2Z8T8/LLBFYR",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/LLBFYR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132178"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2024_Wendhausen_AF_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 100329,
+            "@id": "https://doi.org/10.25625/A2Z8T8/EBRNWV",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/EBRNWV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132320"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2024_Wendhausen_MC_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 9859,
+            "@id": "https://doi.org/10.25625/A2Z8T8/XA4AYP",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/XA4AYP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132227"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2024_Wendhausen_MC_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 15011,
+            "@id": "https://doi.org/10.25625/A2Z8T8/7OW76H",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/7OW76H",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132392"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_2024_Wendhausen_MC_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 30395,
+            "@id": "https://doi.org/10.25625/A2Z8T8/QWCPTK",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/QWCPTK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132241"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_Dornburg_AF_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 37059,
+            "@id": "https://doi.org/10.25625/A2Z8T8/NQVT3B",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/NQVT3B",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132179"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_Dornburg_AF_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 58741,
+            "@id": "https://doi.org/10.25625/A2Z8T8/H8QJOJ",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/H8QJOJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132191"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_Dornburg_AF_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 125977,
+            "@id": "https://doi.org/10.25625/A2Z8T8/NQBMOA",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/NQBMOA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132296"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_Dornburg_MC_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 24463,
+            "@id": "https://doi.org/10.25625/A2Z8T8/KRP8IF",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/KRP8IF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132325"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_Dornburg_MC_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 38729,
+            "@id": "https://doi.org/10.25625/A2Z8T8/XATOJH",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/XATOJH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132385"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_Dornburg_MC_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 80969,
+            "@id": "https://doi.org/10.25625/A2Z8T8/6DD2UY",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/6DD2UY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132370"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_Forst_AF_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 45972,
+            "@id": "https://doi.org/10.25625/A2Z8T8/IRUO9Z",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/IRUO9Z",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132278"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_Forst_AF_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 72318,
+            "@id": "https://doi.org/10.25625/A2Z8T8/GIPD2X",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/GIPD2X",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132291"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_Forst_AF_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 151410,
+            "@id": "https://doi.org/10.25625/A2Z8T8/0GA8GW",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/0GA8GW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132217"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_Forst_MC_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 19953,
+            "@id": "https://doi.org/10.25625/A2Z8T8/QYJNTO",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/QYJNTO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132298"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_Forst_MC_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 31235,
+            "@id": "https://doi.org/10.25625/A2Z8T8/AKB8B9",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/AKB8B9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132271"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_Forst_MC_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 65699,
+            "@id": "https://doi.org/10.25625/A2Z8T8/3SM8QZ",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/3SM8QZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132334"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_Mariensee_AF_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 39230,
+            "@id": "https://doi.org/10.25625/A2Z8T8/KAEGIG",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/KAEGIG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132202"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_Mariensee_AF_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 61453,
+            "@id": "https://doi.org/10.25625/A2Z8T8/SEPB7U",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/SEPB7U",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132375"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_Mariensee_AF_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 129638,
+            "@id": "https://doi.org/10.25625/A2Z8T8/12UAWR",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/12UAWR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132381"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_Mariensee_MC_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 13064,
+            "@id": "https://doi.org/10.25625/A2Z8T8/9AZTQS",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/9AZTQS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132342"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_Mariensee_MC_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 20097,
+            "@id": "https://doi.org/10.25625/A2Z8T8/ZJWHKW",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/ZJWHKW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132230"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_Mariensee_MC_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 41181,
+            "@id": "https://doi.org/10.25625/A2Z8T8/BBRQU0",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/BBRQU0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132345"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_Vechta_AF_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 21728,
+            "@id": "https://doi.org/10.25625/A2Z8T8/O49EOZ",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/O49EOZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132353"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_Vechta_AF_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 33828,
+            "@id": "https://doi.org/10.25625/A2Z8T8/27EHSY",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/27EHSY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132388"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_Vechta_AF_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 70976,
+            "@id": "https://doi.org/10.25625/A2Z8T8/YLAQYQ",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/YLAQYQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132198"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_Vechta_MC_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 22861,
+            "@id": "https://doi.org/10.25625/A2Z8T8/NYZS66",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/NYZS66",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132391"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_Vechta_MC_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 35624,
+            "@id": "https://doi.org/10.25625/A2Z8T8/NKEARM",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/NKEARM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132339"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_Vechta_MC_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 74375,
+            "@id": "https://doi.org/10.25625/A2Z8T8/E7VBLP",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/E7VBLP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132183"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_Wendhausen_AF_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 33438,
+            "@id": "https://doi.org/10.25625/A2Z8T8/HLMROQ",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/HLMROQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132248"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_Wendhausen_AF_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 51832,
+            "@id": "https://doi.org/10.25625/A2Z8T8/TZBCUK",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/TZBCUK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132307"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_Wendhausen_AF_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 106438,
+            "@id": "https://doi.org/10.25625/A2Z8T8/U9TBR5",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/U9TBR5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132308"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_Wendhausen_MC_70%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 11700,
+            "@id": "https://doi.org/10.25625/A2Z8T8/Q36ID7",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/Q36ID7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132267"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_Wendhausen_MC_80%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 17158,
+            "@id": "https://doi.org/10.25625/A2Z8T8/KOTRR8",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/KOTRR8",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132333"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "footprint_Wendhausen_MC_90%.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 33873,
+            "@id": "https://doi.org/10.25625/A2Z8T8/KEMIGX",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/KEMIGX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132287"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Forst_AF_fluxes_30min.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 605912315,
+            "@id": "https://doi.org/10.25625/A2Z8T8/UXYC8Q",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/UXYC8Q",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/146226"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Forst_AF_meteo_30min.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 32307239,
+            "@id": "https://doi.org/10.25625/A2Z8T8/AASHTS",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/AASHTS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/146219"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Forst_AF_precipitation_1h.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1671031,
+            "@id": "https://doi.org/10.25625/A2Z8T8/CVQEZP",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/CVQEZP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/143571"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Forst_MC_fluxes_30min.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 611989092,
+            "@id": "https://doi.org/10.25625/A2Z8T8/JTQAEM",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/JTQAEM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/146225"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Forst_MC_meteo_30min.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 32856479,
+            "@id": "https://doi.org/10.25625/A2Z8T8/OQC1Q2",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/OQC1Q2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/146224"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Forst_MC_precipitation_1h.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1672333,
+            "@id": "https://doi.org/10.25625/A2Z8T8/A8RUZ3",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/A8RUZ3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/143566"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "land_cover_Dornburg.dxf",
+            "encodingFormat": "image/vnd.dxf",
+            "contentSize": 34019,
+            "@id": "https://doi.org/10.25625/A2Z8T8/RUWCWA",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/RUWCWA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/143555"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "land_cover_Dornburg.qgz",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 150785,
+            "@id": "https://doi.org/10.25625/A2Z8T8/FQMDIK",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/FQMDIK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/143558"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "land_cover_Forst.dxf",
+            "encodingFormat": "image/vnd.dxf",
+            "contentSize": 44842,
+            "@id": "https://doi.org/10.25625/A2Z8T8/UI0FD4",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/UI0FD4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/143552"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "land_cover_Forst.qgz",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 150786,
+            "@id": "https://doi.org/10.25625/A2Z8T8/NUHPGD",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/NUHPGD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/143559"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "land_cover_Mariensee.dxf",
+            "encodingFormat": "image/vnd.dxf",
+            "contentSize": 24431,
+            "@id": "https://doi.org/10.25625/A2Z8T8/DAVHIG",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/DAVHIG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/143553"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "land_cover_Mariensee.qgz",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 151024,
+            "@id": "https://doi.org/10.25625/A2Z8T8/JWR6JM",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/JWR6JM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/143556"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "land_cover_Vechta.dxf",
+            "encodingFormat": "image/vnd.dxf",
+            "contentSize": 22100,
+            "@id": "https://doi.org/10.25625/A2Z8T8/XJADWQ",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/XJADWQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/143554"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "land_cover_Vechta.qgz",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 151017,
+            "@id": "https://doi.org/10.25625/A2Z8T8/XIPFD5",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/XIPFD5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/143551"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "land_cover_Wendhausen.dxf",
+            "encodingFormat": "image/vnd.dxf",
+            "contentSize": 41222,
+            "@id": "https://doi.org/10.25625/A2Z8T8/SALIXJ",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/SALIXJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/143550"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "land_cover_Wendhausen.qgz",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 150333,
+            "@id": "https://doi.org/10.25625/A2Z8T8/TP2S1Q",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/TP2S1Q",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/143557"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Mariensee_AF_fluxes_30min.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 305516480,
+            "@id": "https://doi.org/10.25625/A2Z8T8/VON9MU",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/VON9MU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/146216"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Mariensee_AF_meteo_30min.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 23874414,
+            "@id": "https://doi.org/10.25625/A2Z8T8/J6WMMY",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/J6WMMY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/146229"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Mariensee_AF_precipitation_1h.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1149873,
+            "@id": "https://doi.org/10.25625/A2Z8T8/5QKJJJ",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/5QKJJJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/143591"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Mariensee_MC_fluxes_30min.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 302209674,
+            "@id": "https://doi.org/10.25625/A2Z8T8/MQFFVF",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/MQFFVF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/146220"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Mariensee_MC_meteo_30min.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 23167241,
+            "@id": "https://doi.org/10.25625/A2Z8T8/M7XNIO",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/M7XNIO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/146223"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Mariensee_MC_precipitation_1h.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1149690,
+            "@id": "https://doi.org/10.25625/A2Z8T8/YXUWSD",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/YXUWSD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/143589"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "variables_name_unit_eddycov.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 2020,
+            "@id": "https://doi.org/10.25625/A2Z8T8/SSTM9U",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/SSTM9U",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/143576"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "variables_name_unit_meteo.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1110,
+            "@id": "https://doi.org/10.25625/A2Z8T8/R1K1AC",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/R1K1AC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/143590"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Vechta_AF_fluxes_30min.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 277268383,
+            "@id": "https://doi.org/10.25625/A2Z8T8/GMCQEA",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/GMCQEA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/146217"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Vechta_AF_meteo_30min.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 20652080,
+            "@id": "https://doi.org/10.25625/A2Z8T8/1DHXHD",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/1DHXHD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/146212"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Vechta_AF_precipitation_1h.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1181118,
+            "@id": "https://doi.org/10.25625/A2Z8T8/H0CZGT",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/H0CZGT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/143586"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Vechta_MC_fluxes_30min.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 593194676,
+            "@id": "https://doi.org/10.25625/A2Z8T8/IKQEKG",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/IKQEKG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/146215"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Vechta_MC_meteo_30min.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 19617924,
+            "@id": "https://doi.org/10.25625/A2Z8T8/2ZIJPY",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/2ZIJPY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/146221"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Vechta_MC_precipitation_1h.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1171326,
+            "@id": "https://doi.org/10.25625/A2Z8T8/W77TAV",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/W77TAV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/143562"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Wendhausen_AF_fluxes_30min.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 616624438,
+            "@id": "https://doi.org/10.25625/A2Z8T8/MJVAEW",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/MJVAEW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/146214"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Wendhausen_AF_meteo_30min.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 34093383,
+            "@id": "https://doi.org/10.25625/A2Z8T8/HHWJES",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/HHWJES",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/146227"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Wendhausen_AF_precipitation_1h.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1740704,
+            "@id": "https://doi.org/10.25625/A2Z8T8/CPUUUI",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/CPUUUI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/143583"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Wendhausen_MC_fluxes_30min.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 562614304,
+            "@id": "https://doi.org/10.25625/A2Z8T8/QZIGOZ",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/QZIGOZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/146218"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Wendhausen_MC_meteo_30min.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 33639182,
+            "@id": "https://doi.org/10.25625/A2Z8T8/KZO77M",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/KZO77M",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/146230"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Wendhausen_MC_precipitation_1h.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1739976,
+            "@id": "https://doi.org/10.25625/A2Z8T8/RRTGXJ",
+            "identifier": "https://doi.org/10.25625/A2Z8T8/RRTGXJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/143587"
+        }
+    ],
+    "license_title": "Creative Commons Attribution 4.0 International",
+    "subjects": [
+        "Agricultural Sciences",
+        "Earth and Environmental Sciences"
+    ]
+}

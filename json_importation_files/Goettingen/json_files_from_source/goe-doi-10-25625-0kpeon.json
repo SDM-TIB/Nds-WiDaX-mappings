@@ -1,0 +1,73 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/0KPEON",
+    "identifier": "https://doi.org/10.25625/0KPEON",
+    "name": "Monolithic Unfitted Space-Time FEM for an Osmotic Cell Swelling Problem",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Anna Clara",
+            "familyName": "Wendler",
+            "name": "Wendler, Anna Clara"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Anna Clara",
+            "familyName": "Wendler",
+            "name": "Wendler, Anna Clara"
+        }
+    ],
+    "datePublished": "2022-02-26",
+    "dateModified": "2022-02-26",
+    "version": "1",
+    "description": "Master's thesis document \"Monolithic Unfitted Space-Time FEM for an Osmotic Cell Swelling Problem\" of Anna Clara Wendler (examiner and co-examiner: Christoph Lehrenfeld & Gert Lube) (2022-02-24) and reproduction material that contains the Python files used to produce the results in the thesis. To run the code, you need a current version of NGSolve and ngsxfem. Under modules the solver for each of the subproblems (concentration equation, extension and level set equation) as well as for the weak and strong coupling can be found. Under examples, there are several examples that demonstrate how to use the modules. Under convergencetests, you can find the scripts that were used to conduct the convergence studies in the thesis, and under plots the scripts that were used to plot the results.",
+    "keywords": [
+        "Mathematical Sciences"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "MA_AnnaWendler.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 7264538,
+            "description": "Thesis document",
+            "@id": "https://doi.org/10.25625/0KPEON/WYZK0F",
+            "identifier": "https://doi.org/10.25625/0KPEON/WYZK0F",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/39850"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "unfspacetimeosmosis.tar.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 17392,
+            "description": "Python files",
+            "@id": "https://doi.org/10.25625/0KPEON/KMNWXN",
+            "identifier": "https://doi.org/10.25625/0KPEON/KMNWXN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/39851"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Mathematical Sciences"
+    ],
+    "publications": [
+        {}
+    ]
+}

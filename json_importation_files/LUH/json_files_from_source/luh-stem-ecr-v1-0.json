@@ -1,0 +1,152 @@
+{
+  "author": "Jennifer D’Souza; Anett Hoppe; Arthur Brack; Mohamad Yaser Jaradeh; Soren Auer; Ralph Ewerth",
+  "author_email": "jennifer.dsouza@tib.eu",
+  "creator_user_id": "270b6f85-9a22-470e-955a-4e9587c7f582",
+  "have_copyright": "Yes",
+  "id": "0a4d8d4e-f881-48f5-82e8-20c2c635e8bd",
+  "isopen": true,
+  "license_id": "CC-BY-SA-3.0",
+  "license_title": "Creative Commons Attribution Share-Alike 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "maintainer": "Jennifer D'Souza",
+  "maintainer_email": "jennifer.dsouza@tib.eu",
+  "metadata_created": "2020-02-13T12:57:09.939518",
+  "metadata_modified": "2022-01-20T11:00:07.087172",
+  "name": "stem-ecr-v1-0",
+  "notes": "##Grounding Scientific Entity References in STEM Scholarly Content to Authoritative Encyclopedic and Lexicographic Sources\r\n\r\nThe STEM ECR v1.0 dataset has been developed to provide a benchmark for the evaluation of scientific entity extraction, classification, and resolution tasks in a domain-independent fashion. It comprises annotations for scientific entities in scientific Abstracts drawn from 10 disciplines in Science, Technology, Engineering, and Medicine. The annotated entities are further grounded to Wikipedia and Wiktionary, respectively.\r\n\r\n###What this repository contains?\r\nThe dataset is organized in the following folders:\r\n\r\n* Scientific Entity Annotations: Contains annotations for Process, Material, Method, and Data scientific entities in the STEM dataset.\r\n* Scientific Entity Resolution: Annotations for the STEM dataset scientific entities with Entity Linking (EL) annotations to Wikipedia and Word Sense Disambiguation (WSD) annotations to Wiktionary.\r\n\r\n\r\n###Annotation Guidelines\r\n\r\nThe annotation guidelines that supported the creation of this corpus can be found [here](https://gitlab.com/TIBHannover/orkg/orkg-nlp/-/blob/master/STEM-ECR-v1.0/annotation-guidelines-for-scientific-linked-data.pdf \"Guidelines\").\r\n\r\n###Supporting Publication\r\nD'Souza, J., Hoppe, A., Brack, A., Jaradeh, M., Auer, S., & Ewerth, R. (2020). [The STEM-ECR Dataset: Grounding Scientific Entity References in STEM Scholarly Content to Authoritative Encyclopedic and Lexicographic Sources](https://www.aclweb.org/anthology/2020.lrec-1.268). In Proceedings of The 12th Language Resources and Evaluation Conference (pp. 2192–2203). European Language Resources Association.\r\n\r\n###Useful Links\r\n* https://github.com/elsevierlabs/OA-STM-Corpus/\r\n* https://brat.nlplab.org/\r\n* https://dumps.wikimedia.org/enwiki/20190920/\r\n* https://dumps.wikimedia.org/enwiktionary/20190920/\r\n* https://dkpro.github.io/dkpro-jwpl/\r\n* https://dkpro.github.io/dkpro-jwktl/\r\n* https://orkg.org/orkg",
+  "num_resources": 2,
+  "num_tags": 7,
+  "organization": {
+    "id": "71f7bf65-eb79-43d5-bbb3-8bac53129eec",
+    "name": "tib",
+    "title": "TIB",
+    "type": "organization",
+    "description": "Technische Informationsbibliothek",
+    "image_url": "2018-01-23-104035.171142TIBWortBildmarkeBBRGB.PNG",
+    "created": "2018-01-23T11:36:35.480058",
+    "is_organization": true,
+    "approval_status": "approved",
+    "state": "active"
+  },
+  "owner_org": "71f7bf65-eb79-43d5-bbb3-8bac53129eec",
+  "private": false,
+  "state": "active",
+  "terms_of_usage": "Yes",
+  "title": "STEM-ECR-v1.0",
+  "type": "dataset",
+  "url": "https://gitlab.com/TIBHannover/orkg/orkg-nlp/tree/master/STEM-ECR-v1.0",
+  "version": "1.0",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2020-02-13T13:08:18.655742",
+      "datastore_active": false,
+      "description": "",
+      "format": "ZIP",
+      "hash": "",
+      "id": "fc7cccac-3b90-480f-9523-8ac727e18900",
+      "last_modified": "2020-02-13T13:21:44.613089",
+      "metadata_modified": "2020-02-13T13:08:18.655742",
+      "mimetype": "application/zip",
+      "mimetype_inner": null,
+      "name": "Scientific Entity Annotations",
+      "package_id": "0a4d8d4e-f881-48f5-82e8-20c2c635e8bd",
+      "position": 0,
+      "resource_type": null,
+      "size": 10224852,
+      "state": "active",
+      "tracking_summary": {
+        "total": 88,
+        "recent": 1
+      },
+      "url": "https://data.uni-hannover.de/dataset/0a4d8d4e-f881-48f5-82e8-20c2c635e8bd/resource/fc7cccac-3b90-480f-9523-8ac727e18900/download/scientific_entity_annotations.zip",
+      "url_type": "upload"
+    },
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2020-02-13T13:09:17.296000",
+      "datastore_active": false,
+      "description": "",
+      "format": "ZIP",
+      "hash": "",
+      "id": "72362aa4-27d7-48c5-a2c5-c22674b61813",
+      "last_modified": "2020-02-13T13:25:24.392378",
+      "metadata_modified": "2020-02-13T13:09:17.296000",
+      "mimetype": "application/zip",
+      "mimetype_inner": null,
+      "name": "Entity Resolution Annotations",
+      "package_id": "0a4d8d4e-f881-48f5-82e8-20c2c635e8bd",
+      "position": 1,
+      "resource_type": null,
+      "size": 1469015,
+      "state": "active",
+      "tracking_summary": {
+        "total": 42,
+        "recent": 2
+      },
+      "url": "https://data.uni-hannover.de/dataset/0a4d8d4e-f881-48f5-82e8-20c2c635e8bd/resource/72362aa4-27d7-48c5-a2c5-c22674b61813/download/entity_resolution_annotations.zip",
+      "url_type": "upload"
+    }
+  ],
+  "tags": [
+    {
+      "display_name": "entity classification",
+      "id": "4a655f63-df6b-4b89-a2d0-57ad5470f0b4",
+      "name": "entity classification",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "entity linking",
+      "id": "9717be0e-0030-4cc4-b381-770caec44d7b",
+      "name": "entity linking",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "entity recognition",
+      "id": "70b8fdcb-4ee5-47e5-82a7-ca9abaf11413",
+      "name": "entity recognition",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "entity resolution",
+      "id": "f6bdadc9-6734-4924-b5d9-fcbfc2802f95",
+      "name": "entity resolution",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "evaluation corpus",
+      "id": "f389d061-f719-4628-a2cd-2bc516207f8b",
+      "name": "evaluation corpus",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "language resource",
+      "id": "62c920ee-823b-4279-bd78-fb04afa0228f",
+      "name": "language resource",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "word sense disambiguation",
+      "id": "96a9bb1a-c616-4eda-806f-12a17439147b",
+      "name": "word sense disambiguation",
+      "state": "active",
+      "vocabulary_id": null
+    }
+  ],
+  "groups": [],
+  "relationships_as_subject": [],
+  "relationships_as_object": [],
+  "doi": "10.25835/0017546",
+  "doi_status": true,
+  "domain": "https://data.uni-hannover.de",
+  "doi_date_published": "2020-02-13",
+  "doi_publisher": "LUIS"
+}

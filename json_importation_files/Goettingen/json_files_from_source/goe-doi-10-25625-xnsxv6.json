@@ -1,0 +1,264 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/XNSXV6",
+    "identifier": "https://doi.org/10.25625/XNSXV6",
+    "name": "nano-ID fast5 files",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Bjoern",
+            "familyName": "Schwalb",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Dienste der GWDG"
+            },
+            "sameAs": "https://orcid.org/0000-0003-2987-2622",
+            "@id": "https://orcid.org/0000-0003-2987-2622",
+            "identifier": "https://orcid.org/0000-0003-2987-2622",
+            "name": "Schwalb, Bjoern"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Bjoern",
+            "familyName": "Schwalb",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Dienste der GWDG"
+            },
+            "sameAs": "https://orcid.org/0000-0003-2987-2622",
+            "@id": "https://orcid.org/0000-0003-2987-2622",
+            "identifier": "https://orcid.org/0000-0003-2987-2622",
+            "name": "Schwalb, Bjoern"
+        }
+    ],
+    "datePublished": "2020-02-26",
+    "dateModified": "2020-02-26",
+    "version": "1",
+    "description": "This dataset contains raw data files for nano-ID. Nanopore sequencing-based Isoform Dynamics (nano-ID), a method that detects newly synthesized RNA isoforms and monitors isoform metabolism. nano-ID combines metabolic RNA labeling, long-read nanopore sequencing of native RNA molecules and machine learning.",
+    "keywords": [
+        "Medicine, Health and Life Sciences"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "20170608_1226_unlabeled_run.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 48088872660,
+            "description": "Synthetic RNA unlabeled (synthetic control, nano-ID fast5 files).",
+            "@id": "https://doi.org/10.25625/XNSXV6/SWQWJ9",
+            "identifier": "https://doi.org/10.25625/XNSXV6/SWQWJ9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/17216"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "20170609_1149_labeled_run.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 2294040496,
+            "description": "Synthetic RNA labeled with 5BrU, 4SU, 6SG (5BrU, 4SU, 6SG, nano-ID fast5 files).",
+            "@id": "https://doi.org/10.25625/XNSXV6/UF6SZ4",
+            "identifier": "https://doi.org/10.25625/XNSXV6/UF6SZ4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/17217"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "20170912_1101_alternative_run.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 14851574067,
+            "description": "Synthetic RNA labeled with 5EU, 5IU (5EU, 5IU, nano-ID fast5 files).",
+            "@id": "https://doi.org/10.25625/XNSXV6/CPDXBC",
+            "identifier": "https://doi.org/10.25625/XNSXV6/CPDXBC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/17218"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "20180226_1208_K562_5EU_60_labeled_run.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 40325861734,
+            "description": "Human K562 cells labeled with 5EU for 60 min, replicate no. 1 (5EU 60 min I, nano-ID fast5 files).",
+            "@id": "https://doi.org/10.25625/XNSXV6/HN0YAQ",
+            "identifier": "https://doi.org/10.25625/XNSXV6/HN0YAQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/17219"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "20180227_1206_K562_5EU_60_labeled_II_run.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 67289134195,
+            "description": "Human K562 cells labeled with 5EU for 60 min, replicate no. 2 (5EU 60 min II, nano-ID fast5 files).",
+            "@id": "https://doi.org/10.25625/XNSXV6/WSLNT4",
+            "identifier": "https://doi.org/10.25625/XNSXV6/WSLNT4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/17220"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "20180228_1655_K562_5EU_60_labeled_III_run.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 24845998133,
+            "description": "Human K562 cells labeled with 5EU for 60 min, replicate no. 3 (5EU 60 min III, nano-ID fast5 files).",
+            "@id": "https://doi.org/10.25625/XNSXV6/H9JVAQ",
+            "identifier": "https://doi.org/10.25625/XNSXV6/H9JVAQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/17221"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "20180327_1102_K562_5EU_0_unlabeled_run.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 35190081581,
+            "description": "Human K562 cells unlabeled, replicate no. 1 (Control I, nano-ID fast5 files).",
+            "@id": "https://doi.org/10.25625/XNSXV6/ZBJ40K",
+            "identifier": "https://doi.org/10.25625/XNSXV6/ZBJ40K",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/17222"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "20180403_1102_K562_5EU_0_unlabeled_II_run.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 65568595268,
+            "description": "Human K562 cells unlabeled, replicate no. 2 (Control II, nano-ID fast5 files).",
+            "@id": "https://doi.org/10.25625/XNSXV6/KPUS7K",
+            "identifier": "https://doi.org/10.25625/XNSXV6/KPUS7K",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/17223"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "20180403_1208_K562_5EU_0_unlabeled_III_run.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 41601495694,
+            "description": "Human K562 cells unlabeled, replicate no. 3 (Control III, nano-ID fast5 files).",
+            "@id": "https://doi.org/10.25625/XNSXV6/5OQXUM",
+            "identifier": "https://doi.org/10.25625/XNSXV6/5OQXUM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/17224"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "20180514_1054_K562_5EU_1440_labeled_run.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 17147916724,
+            "description": "Human K562 cells labeled with 5EU for 24 h, replicate no. 1 (5EU 24 h I, nano-ID fast5 files).",
+            "@id": "https://doi.org/10.25625/XNSXV6/7YNP4P",
+            "identifier": "https://doi.org/10.25625/XNSXV6/7YNP4P",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/17225"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "20180514_1541_K562_5EU_1440_labeled_II_run.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 66465754593,
+            "description": "Human K562 cells labeled with 5EU for 24 h, replicate no. 2 (5EU 24 h II, nano-ID fast5 files).",
+            "@id": "https://doi.org/10.25625/XNSXV6/RC8JM3",
+            "identifier": "https://doi.org/10.25625/XNSXV6/RC8JM3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/17226"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "20180516_1108_K562_5EU_1440_labeled_III_run.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 9199757852,
+            "description": "Human K562 cells labeled with 5EU for 24 h, replicate no. 3 (5EU 24 h III, nano-ID fast5 files).",
+            "@id": "https://doi.org/10.25625/XNSXV6/EG31YB",
+            "identifier": "https://doi.org/10.25625/XNSXV6/EG31YB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/17227"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "20180628_1020_K562_5EU_60_labeled_heat_run.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 80181356889,
+            "description": "Heat shocked human K562 cells labeled with 5EU for 60 min, replicate no. 1 (5EU 60 min HS I, nano-ID fast5 files).",
+            "@id": "https://doi.org/10.25625/XNSXV6/FGSFNR",
+            "identifier": "https://doi.org/10.25625/XNSXV6/FGSFNR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/17228"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "20180731_1020_K562_5EU_60_labeled_heat_II_run.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 25620020615,
+            "description": "Heat shocked human K562 cells labeled with 5EU for 60 min, replicate no. 2 (5EU 60 min HS II, nano-ID fast5 files).",
+            "@id": "https://doi.org/10.25625/XNSXV6/THVKSI",
+            "identifier": "https://doi.org/10.25625/XNSXV6/THVKSI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/17229"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "20180802_1111_K562_5EU_60_labeled_heat_III_run.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 32623685175,
+            "description": "Heat shocked human K562 cells labeled with 5EU for 60 min, replicate no. 3 (5EU 60 min HS III, nano-ID fast5 files).",
+            "@id": "https://doi.org/10.25625/XNSXV6/DLUM49",
+            "identifier": "https://doi.org/10.25625/XNSXV6/DLUM49",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/17230"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "20181206_1038_K562_5EU_60_labeled_IV_run.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 64527954739,
+            "description": "Human K562 cells labeled with 5EU for 60 min, replicate no. 4 (5EU 60 min IV, nano-ID fast5 files).",
+            "@id": "https://doi.org/10.25625/XNSXV6/NY16V5",
+            "identifier": "https://doi.org/10.25625/XNSXV6/NY16V5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/17231"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "20190719_1232_K562_5EU_60_labeled_V_run.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 35178619231,
+            "description": "Human K562 cells labeled with 5EU for 60 min, replicate no. 5 (5EU 60 min V, nano-ID fast5 files).",
+            "@id": "https://doi.org/10.25625/XNSXV6/JKIVKN",
+            "identifier": "https://doi.org/10.25625/XNSXV6/JKIVKN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/17232"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "20190719_1430_K562_5EU_60_labeled_VI_run.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 27230992101,
+            "description": "Human K562 cells labeled with 5EU for 60 min, replicate no. 6 (5EU 60 min VI, nano-ID fast5 files).",
+            "@id": "https://doi.org/10.25625/XNSXV6/CL8OVB",
+            "identifier": "https://doi.org/10.25625/XNSXV6/CL8OVB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/17233"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "20190725_0809_K562_5EU_60_labeled_heat_IV_run.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 31956801013,
+            "description": "Heat shocked human K562 cells labeled with 5EU for 60 min, replicate no. 4 (5EU 60 min HS IV, nano-ID fast5 files).",
+            "@id": "https://doi.org/10.25625/XNSXV6/888FWJ",
+            "identifier": "https://doi.org/10.25625/XNSXV6/888FWJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/17234"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "20190725_0812_K562_5EU_60_labeled_heat_V_run.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 29714865996,
+            "description": "Heat shocked human K562 cells labeled with 5EU for 60 min, replicate no. 5 (5EU 60 min HS V, nano-ID fast5 files).",
+            "@id": "https://doi.org/10.25625/XNSXV6/1KRAGE",
+            "identifier": "https://doi.org/10.25625/XNSXV6/1KRAGE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/17235"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Medicine, Health and Life Sciences"
+    ]
+}

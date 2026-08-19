@@ -1,0 +1,187 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/9VEKUN",
+    "identifier": "https://doi.org/10.25625/9VEKUN",
+    "name": "BSc data: Activity of echolocating bats in Jambi, Sumatra, Indonesia",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Vivane",
+            "familyName": "Riemer",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Functional Agrobiodiversity, University of G\u00f6ttingen"
+            },
+            "name": "Riemer, Vivane"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Vivane",
+            "familyName": "Riemer",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Functional Agrobiodiversity, University of G\u00f6ttingen"
+            },
+            "name": "Riemer, Vivane"
+        }
+    ],
+    "datePublished": "2022-10-07",
+    "dateModified": "2023-01-31",
+    "version": "1",
+    "description": "Data and R-Scripts used by Viviane Riemer for her BSc thesis entitled: The effect of rainforest transformation on the activity of echlocating bats in lowland Sumatra. The thesis was conducted within the framework of the EFForTS-Landscape Assessement. The data sets contain information on bat activity and bat calls within 60 plots, recorded through the use of ultrasonic sound recordings. Four different land cover types are covered (forest, shrubland, oil palm plantations, rubber plantations, 20 plots each). Next to a variety of plot metadata (locations, ownership status, management intensity), the data also contains local and landscape predictors, such as LIDAr vegetation indicies and land cover proportions in different buffer radii around plots.",
+    "keywords": [
+        "Agricultural Sciences",
+        "Earth and Environmental Sciences",
+        "bats, Microchiroptera, landuse change, rainforest transformation, deforestation, oil palm, rubber, shrubland, sound recordings, soundscape, ecoacustics,"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "01 Sound_exctinction_analysis.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 2241,
+            "@id": "https://doi.org/10.25625/9VEKUN/JEC6HK",
+            "identifier": "https://doi.org/10.25625/9VEKUN/JEC6HK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/50716"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "02 Data.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 3148,
+            "@id": "https://doi.org/10.25625/9VEKUN/4TB0OB",
+            "identifier": "https://doi.org/10.25625/9VEKUN/4TB0OB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/50714"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "03 Visualise data without outliner.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 3354,
+            "@id": "https://doi.org/10.25625/9VEKUN/UTFQAM",
+            "identifier": "https://doi.org/10.25625/9VEKUN/UTFQAM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/50717"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "04 LiDAR data.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 3753,
+            "@id": "https://doi.org/10.25625/9VEKUN/G8TZZC",
+            "identifier": "https://doi.org/10.25625/9VEKUN/G8TZZC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/50715"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "05 Bat activity calculation scale.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 4282,
+            "@id": "https://doi.org/10.25625/9VEKUN/AMWA96",
+            "identifier": "https://doi.org/10.25625/9VEKUN/AMWA96",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/50713"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "06 Model.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 6347,
+            "@id": "https://doi.org/10.25625/9VEKUN/7YJF9D",
+            "identifier": "https://doi.org/10.25625/9VEKUN/7YJF9D",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/50712"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "activity.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 1892,
+            "@id": "https://doi.org/10.25625/9VEKUN/YR3SZ7",
+            "identifier": "https://doi.org/10.25625/9VEKUN/YR3SZ7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/50720"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Landscape assessment - selected plots.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 38551,
+            "@id": "https://doi.org/10.25625/9VEKUN/2DRWYN",
+            "identifier": "https://doi.org/10.25625/9VEKUN/2DRWYN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/50718"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "landuse_LA.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 85727,
+            "@id": "https://doi.org/10.25625/9VEKUN/K6STCJ",
+            "identifier": "https://doi.org/10.25625/9VEKUN/K6STCJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/50721"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "LiDAR_metrics.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 54565,
+            "@id": "https://doi.org/10.25625/9VEKUN/NHR6NV",
+            "identifier": "https://doi.org/10.25625/9VEKUN/NHR6NV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/50722"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Sound Levels ultrasound LA - ambient_noise.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 4498,
+            "@id": "https://doi.org/10.25625/9VEKUN/OKTDOV",
+            "identifier": "https://doi.org/10.25625/9VEKUN/OKTDOV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/50725"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Sound Levels ultrasound LA - test_tones.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 26419,
+            "@id": "https://doi.org/10.25625/9VEKUN/9SZ2SI",
+            "identifier": "https://doi.org/10.25625/9VEKUN/9SZ2SI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/50724"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "sound_transmission_area.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1462,
+            "@id": "https://doi.org/10.25625/9VEKUN/Q5FBZO",
+            "identifier": "https://doi.org/10.25625/9VEKUN/Q5FBZO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/50723"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "VIviane's tags.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 273339,
+            "@id": "https://doi.org/10.25625/9VEKUN/CSIFFL",
+            "identifier": "https://doi.org/10.25625/9VEKUN/CSIFFL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/50719"
+        }
+    ],
+    "license_title": "Creative Commons Attribution 4.0 International",
+    "subjects": [
+        "Agricultural Sciences",
+        "Earth and Environmental Sciences"
+    ]
+}

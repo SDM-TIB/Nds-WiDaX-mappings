@@ -1,0 +1,96 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/2XNWEQ",
+    "identifier": "https://doi.org/10.25625/2XNWEQ",
+    "name": "Replication Data for: Makarov & Sollich, accepted in PNAS on 4 Dec 2025",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Dmitrii",
+            "familyName": "Makarov",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of"
+            },
+            "name": "Makarov, Dmitrii"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Dmitrii",
+            "familyName": "Makarov",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of"
+            },
+            "name": "Makarov, Dmitrii"
+        }
+    ],
+    "datePublished": "2025-12-17",
+    "dateModified": "2025-12-17",
+    "version": "1",
+    "description": "The notebook KMC_random_walk_publish.nb generates a trajectory of a random walker on a fluctuating lattice. The trajectory itself is NOT saved, but the mean squared displacement msd(t) has been recorded in the data_for_fig4.nb notebook, which generates fig 4 of the paper.",
+    "keywords": [
+        "Physics",
+        "Diffusion",
+        "Disordered environment"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "data_for_fig4.nb",
+            "encodingFormat": "application/mathematica",
+            "contentSize": 492352,
+            "@id": "https://doi.org/10.25625/2XNWEQ/LCRBMP",
+            "identifier": "https://doi.org/10.25625/2XNWEQ/LCRBMP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/144716"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "fig4.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 63931,
+            "@id": "https://doi.org/10.25625/2XNWEQ/ZGVW1U",
+            "identifier": "https://doi.org/10.25625/2XNWEQ/ZGVW1U",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/144719"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "KMC_random_walk_publish.nb",
+            "encodingFormat": "application/mathematica",
+            "contentSize": 704402,
+            "@id": "https://doi.org/10.25625/2XNWEQ/EY4HLO",
+            "identifier": "https://doi.org/10.25625/2XNWEQ/EY4HLO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/144717"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "readme.rtf",
+            "encodingFormat": "application/rtf",
+            "contentSize": 634,
+            "@id": "https://doi.org/10.25625/2XNWEQ/2VTZZF",
+            "identifier": "https://doi.org/10.25625/2XNWEQ/2VTZZF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/144718"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Physics"
+    ]
+}

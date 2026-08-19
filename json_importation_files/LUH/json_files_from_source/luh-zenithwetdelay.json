@@ -1,0 +1,131 @@
+{
+  "author": "Gael Kermarrec, Zhiguo Deng",
+  "author_email": "",
+  "creator_user_id": "65c49076-9420-4ed7-a594-dd2135f1cf5b",
+  "have_copyright": "Yes",
+  "id": "f4bc8332-e4f9-49b7-8990-3a50c4e6469a",
+  "isopen": true,
+  "license_id": "CC0-1.0",
+  "license_title": "CC0 1.0 Universal",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "maintainer": "Gael Kermarrec",
+  "maintainer_email": "kermarrec@meteo.uni-hannover.de",
+  "metadata_created": "2024-07-10T09:49:46.703543",
+  "metadata_modified": "2024-12-20T00:57:09.041445",
+  "name": "zenithwetdelay",
+  "notes": "Zenith wet delay (ZWD) from GNSS stations worldwide from the EPOS software (https://gnss-epos.eu/, Gfz processing). The computation of the ZWD is performed with no random walk assumption with the goal to retrieve turbulent parameters from the fluctuations. The antenna center phase variations are corrected with the absolute antenna calibrations in the IGS20 frame during the GNSS data processing.\r\nThe column 1is the time (one measure every 30 s) and the column 2 are the (loosely called) ZWD (in m). More specifically, in the GNSS data analysis we estimated the ZWD corrections (COR_WET) to the a priori constant ZWD. ",
+  "num_resources": 2,
+  "num_tags": 4,
+  "organization": {
+    "id": "e746d647-a884-4438-90c7-5aeb491aa43f",
+    "name": "institut-fuer-meteorologie-und-klimatologie",
+    "title": "Institut fuer Meteorologie und Klimatologie ",
+    "type": "organization",
+    "description": "Herrenhäuser Str. 2\r\n30419 Hannover \r\n\r\nhttps://www.muk.uni-hannover.de/\r\n\r\n",
+    "image_url": "2018-09-27-085555.012947headermuk-11-2017.png",
+    "created": "2018-09-27T10:55:55.034247",
+    "is_organization": true,
+    "approval_status": "approved",
+    "state": "active"
+  },
+  "owner_org": "e746d647-a884-4438-90c7-5aeb491aa43f",
+  "private": false,
+  "state": "active",
+  "terms_of_usage": "Yes",
+  "title": "Zenith wet delay",
+  "type": "dataset",
+  "url": "https://gnss-epos.eu/",
+  "version": "",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2024-07-10T09:54:04.904862",
+      "datastore_active": false,
+      "description": "",
+      "format": "TAR",
+      "hash": "",
+      "id": "328438c1-b3d0-421c-85ee-2a91fe0285a6",
+      "last_modified": "2024-07-10T09:54:04.867705",
+      "metadata_modified": "2024-07-10T09:54:04.899214",
+      "mimetype": "application/x-tar",
+      "mimetype_inner": null,
+      "name": "ZWD_global.tar.gz",
+      "package_id": "f4bc8332-e4f9-49b7-8990-3a50c4e6469a",
+      "position": 0,
+      "resource_type": null,
+      "size": 1241117,
+      "state": "active",
+      "tracking_summary": {
+        "total": 7,
+        "recent": 1
+      },
+      "url": "https://data.uni-hannover.de/dataset/f4bc8332-e4f9-49b7-8990-3a50c4e6469a/resource/328438c1-b3d0-421c-85ee-2a91fe0285a6/download/zwd_global.tar.gz",
+      "url_type": "upload"
+    },
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2024-11-21T12:08:32.857776",
+      "datastore_active": false,
+      "description": "",
+      "format": "ZIP",
+      "hash": "",
+      "id": "172ba0ae-e47b-4a61-b7a3-be2d062117f5",
+      "last_modified": "2024-11-21T12:08:32.823499",
+      "metadata_modified": "2024-11-21T12:08:32.852658",
+      "mimetype": "application/zip",
+      "mimetype_inner": null,
+      "name": "ZWD_otherdays.zip",
+      "package_id": "f4bc8332-e4f9-49b7-8990-3a50c4e6469a",
+      "position": 1,
+      "resource_type": null,
+      "size": 1289811,
+      "state": "active",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "url": "https://data.uni-hannover.de/dataset/f4bc8332-e4f9-49b7-8990-3a50c4e6469a/resource/172ba0ae-e47b-4a61-b7a3-be2d062117f5/download/zwd_otherdays.zip",
+      "url_type": "upload"
+    }
+  ],
+  "tags": [
+    {
+      "display_name": "GNSS",
+      "id": "f4fd67d9-e6f5-449d-8c41-0c3c2bbcef0c",
+      "name": "GNSS",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Zenith Wet Delay",
+      "id": "e7cc6ad3-db69-437b-ae2c-b0995f8084b7",
+      "name": "Zenith Wet Delay",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "atmospheric turbulence",
+      "id": "8663ea05-edb7-429a-a5fb-2a5f23abbe86",
+      "name": "atmospheric turbulence",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "climate zone",
+      "id": "009d8b69-fc7c-4747-8617-943a4e75b4f4",
+      "name": "climate zone",
+      "state": "active",
+      "vocabulary_id": null
+    }
+  ],
+  "groups": [],
+  "relationships_as_subject": [],
+  "relationships_as_object": [],
+  "doi": "10.25835/hcc01fre",
+  "doi_status": true,
+  "domain": "https://data.uni-hannover.de",
+  "doi_date_published": "2024-07-10",
+  "doi_publisher": "LUIS"
+}

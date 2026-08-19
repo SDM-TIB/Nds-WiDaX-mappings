@@ -1,0 +1,223 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/5SY2VM",
+    "identifier": "https://doi.org/10.25625/5SY2VM",
+    "name": "Data for \"Determination of active forces in actomyosin systems as inverse source problems for the Stokes equation\"",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Emily",
+            "familyName": "Klass",
+            "name": "Klass, Emily"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Tram Thi Ngoc",
+            "familyName": "Nguyen",
+            "name": "Nguyen, Tram Thi Ngoc"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Nilay",
+            "familyName": "Cicek",
+            "name": "Cicek, Nilay"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Yoav G.",
+            "familyName": "Pollack",
+            "name": "Pollack, Yoav G."
+        },
+        {
+            "@type": "Person",
+            "givenName": "Sarah",
+            "familyName": "K\u00f6ster",
+            "name": "K\u00f6ster, Sarah"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Andreas",
+            "familyName": "Janshoff",
+            "name": "Janshoff, Andreas"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Anne",
+            "familyName": "Wald",
+            "name": "Wald, Anne"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Emily",
+            "familyName": "Klass",
+            "name": "Klass, Emily"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Tram Thi Ngoc",
+            "familyName": "Nguyen",
+            "name": "Nguyen, Tram Thi Ngoc"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Nilay",
+            "familyName": "Cicek",
+            "name": "Cicek, Nilay"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Yoav G.",
+            "familyName": "Pollack",
+            "name": "Pollack, Yoav G."
+        },
+        {
+            "@type": "Person",
+            "givenName": "Sarah",
+            "familyName": "K\u00f6ster",
+            "name": "K\u00f6ster, Sarah"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Andreas",
+            "familyName": "Janshoff",
+            "name": "Janshoff, Andreas"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Anne",
+            "familyName": "Wald",
+            "name": "Wald, Anne"
+        }
+    ],
+    "datePublished": "2025-12-19",
+    "dateModified": "2025-12-19",
+    "version": "1",
+    "description": "This dataset contains supplementary information and code. \"Methods_and_Materials.pdf\" contains supplementary information about the experimental process and data generation. All the code can be found in the folder \"Code\". The code is written in python partly using jupyter notebooks. Additionally to standard python libraries, the package \"NGSolve\" (https://ngsolve.org/installation.html, Version 6.2.2504.) is needed. GENERAL CODE - algorithm.py | Landweber iteration and backtracking line search - pde.py | Implementation of the Stokes problem and its adjoined with Robin and Dirichlet boundary conditions - tools.py | general help functions DATA FOLDERS AND CORRESPONDING FIGURES Every data folder contains a uniquely named jupyter notebook in which the data is generated or loaded in and reconstructs the forces. In relevant folders real data can be found in the sub-folder 'experimental data' as raw data in the Olympus data formats .oib or .oir, as a .avi, and as a flow field after the PIV as a .csv file. Fig. 6 | droplet_synthetic Fig. 7 | bulk_synthetic Fig. 8 | droplet_noisy Fig. 9 | droplet_real_data Fig. 10 | bulk_real_data_45 Fig. 11 | bulk_real_data_40",
+    "keywords": [
+        "Mathematical Sciences",
+        "Physics"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Methods_and_Materials.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 40619,
+            "@id": "https://doi.org/10.25625/5SY2VM/15FPXU",
+            "identifier": "https://doi.org/10.25625/5SY2VM/15FPXU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/145521"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "README.md",
+            "encodingFormat": "text/markdown",
+            "contentSize": 1143,
+            "@id": "https://doi.org/10.25625/5SY2VM/4NALFQ",
+            "identifier": "https://doi.org/10.25625/5SY2VM/4NALFQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/145666"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "algorithm.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 7900,
+            "@id": "https://doi.org/10.25625/5SY2VM/WDJ3NE",
+            "identifier": "https://doi.org/10.25625/5SY2VM/WDJ3NE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/145662"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "bulk_real_data_40.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 59297232,
+            "@id": "https://doi.org/10.25625/5SY2VM/J58Z90",
+            "identifier": "https://doi.org/10.25625/5SY2VM/J58Z90",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/145659"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "bulk_real_data_45.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 57875031,
+            "@id": "https://doi.org/10.25625/5SY2VM/W2BBJI",
+            "identifier": "https://doi.org/10.25625/5SY2VM/W2BBJI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/145664"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "bulk_synthetic.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 34937347,
+            "@id": "https://doi.org/10.25625/5SY2VM/ABSAZI",
+            "identifier": "https://doi.org/10.25625/5SY2VM/ABSAZI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/145658"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "droplet_noisy.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 159856150,
+            "@id": "https://doi.org/10.25625/5SY2VM/GL9CBO",
+            "identifier": "https://doi.org/10.25625/5SY2VM/GL9CBO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/145663"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "droplet_real_data.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 499167250,
+            "@id": "https://doi.org/10.25625/5SY2VM/W3CIEW",
+            "identifier": "https://doi.org/10.25625/5SY2VM/W3CIEW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/145665"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "droplet_synthetic.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 1410419,
+            "@id": "https://doi.org/10.25625/5SY2VM/QRSUEJ",
+            "identifier": "https://doi.org/10.25625/5SY2VM/QRSUEJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/145660"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pde.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 12296,
+            "@id": "https://doi.org/10.25625/5SY2VM/3KJEEQ",
+            "identifier": "https://doi.org/10.25625/5SY2VM/3KJEEQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/145661"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "tools.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 9442,
+            "@id": "https://doi.org/10.25625/5SY2VM/Y7LKDR",
+            "identifier": "https://doi.org/10.25625/5SY2VM/Y7LKDR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/145657"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Mathematical Sciences",
+        "Physics"
+    ]
+}

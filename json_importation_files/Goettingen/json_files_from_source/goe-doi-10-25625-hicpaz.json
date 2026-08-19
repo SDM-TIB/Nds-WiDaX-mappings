@@ -1,0 +1,87 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/HICPAZ",
+    "identifier": "https://doi.org/10.25625/HICPAZ",
+    "name": "Replication Data for: Comparative Transcriptomics",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Nico",
+            "familyName": "Posnien",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Uni Goe, Dpt. of Developmental Biology"
+            },
+            "sameAs": "https://orcid.org/0000-0003-0700-5595",
+            "@id": "https://orcid.org/0000-0003-0700-5595",
+            "identifier": "https://orcid.org/0000-0003-0700-5595",
+            "name": "Posnien, Nico"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Nico",
+            "familyName": "Posnien",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Uni Goe, Dpt. of Developmental Biology"
+            },
+            "sameAs": "https://orcid.org/0000-0003-0700-5595",
+            "@id": "https://orcid.org/0000-0003-0700-5595",
+            "identifier": "https://orcid.org/0000-0003-0700-5595",
+            "name": "Posnien, Nico"
+        }
+    ],
+    "datePublished": "2020-10-11",
+    "dateModified": "2020-10-11",
+    "version": "1",
+    "description": "- DroID network combined from PDI: Transcription Factor-gene and GI: Genetic Interactions - Flybase - Count Matrix, D.melanogaster and D. mauritiana combined, used for all further analyses (DEA, gene expressed or not,\u2026)",
+    "keywords": [
+        "Medicine, Health and Life Sciences",
+        "transcriptomics",
+        "network",
+        "RNAseq"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "CountMatrix_OreR_TAM16.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1121229,
+            "description": "Count Matrix, D.melanogaster and D. mauritiana combined, used for all further analyses (DEA, gene expressed or not,\u2026) ",
+            "@id": "https://doi.org/10.25625/HICPAZ/EGLSNM",
+            "identifier": "https://doi.org/10.25625/HICPAZ/EGLSNM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/20022"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TF_gene_GeneticInt_all.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 7657958,
+            "description": "DroID network combined from PDI: Transcription Factor-gene and GI: Genetic Interactions - Flybase",
+            "@id": "https://doi.org/10.25625/HICPAZ/1KTVGN",
+            "identifier": "https://doi.org/10.25625/HICPAZ/1KTVGN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/20023"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Medicine, Health and Life Sciences"
+    ]
+}

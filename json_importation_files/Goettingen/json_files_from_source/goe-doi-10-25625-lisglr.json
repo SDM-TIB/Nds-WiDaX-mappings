@@ -1,0 +1,82 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/LISGLR",
+    "identifier": "https://doi.org/10.25625/LISGLR",
+    "name": "exampleSoilDataCleaning",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Jens",
+            "familyName": "Nieschulze",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Dienste der GWDG"
+            },
+            "sameAs": "https://orcid.org/0000-0001-7535-6253",
+            "@id": "https://orcid.org/0000-0001-7535-6253",
+            "identifier": "https://orcid.org/0000-0001-7535-6253",
+            "name": "Nieschulze, Jens"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jens",
+            "familyName": "Nieschulze",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Dienste der GWDG"
+            },
+            "sameAs": "https://orcid.org/0000-0001-7535-6253",
+            "@id": "https://orcid.org/0000-0001-7535-6253",
+            "identifier": "https://orcid.org/0000-0001-7535-6253",
+            "name": "Nieschulze, Jens"
+        }
+    ],
+    "datePublished": "2020-07-20",
+    "dateModified": "2021-11-05",
+    "version": "5",
+    "description": "an introductory R scrips show casing the use of regular expressions to cope with common data cleaning of variables containing characters",
+    "keywords": [
+        "Earth and Environmental Sciences"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "readManyXLSX.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 1753,
+            "@id": "https://doi.org/10.25625/LISGLR/SEFGDP",
+            "identifier": "https://doi.org/10.25625/LISGLR/SEFGDP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/34532"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "regExpSoilHorizon.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 3438,
+            "@id": "https://doi.org/10.25625/LISGLR/OY9AJC",
+            "identifier": "https://doi.org/10.25625/LISGLR/OY9AJC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/34538"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Earth and Environmental Sciences"
+    ]
+}

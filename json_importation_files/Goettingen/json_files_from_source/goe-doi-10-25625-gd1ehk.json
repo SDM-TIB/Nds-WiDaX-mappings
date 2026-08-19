@@ -1,0 +1,110 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/GD1EHK",
+    "identifier": "https://doi.org/10.25625/GD1EHK",
+    "name": "Radial sap flow measurements on beech, Douglas fir and spruce using heat field deformation sap flow sensor",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Sharath",
+            "familyName": "Paligi",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Plant Ecology and Ecosystems Research, Albrecht von Haller Institute for Plant Sciences, Untere Karsp\u00fcle 2, University of Goettingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0003-2139-2018",
+            "@id": "https://orcid.org/0000-0003-2139-2018",
+            "identifier": "https://orcid.org/0000-0003-2139-2018",
+            "name": "Paligi, Sharath"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Sharath",
+            "familyName": "Paligi",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Plant Ecology and Ecosystems Research, Albrecht von Haller Institute for Plant Sciences, Untere Karsp\u00fcle 2, University of Goettingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0003-2139-2018",
+            "@id": "https://orcid.org/0000-0003-2139-2018",
+            "identifier": "https://orcid.org/0000-0003-2139-2018",
+            "name": "Paligi, Sharath"
+        }
+    ],
+    "datePublished": "2026-01-04",
+    "dateModified": "2026-01-04",
+    "version": "1",
+    "description": "This dataset contains sap flux measurements derived from Heat Field Deformation (HFD) sensors, which were installed in European beech (Fagus sylvatica), Norway spruce (Picea abies), and Douglas fir (Pseudotsuga menziesii) trees. The HFD method is an advanced thermal technique used to quantify tree sap flow, providing high-resolution estimates of xylem water flux density and whole-tree transpiration. The dataset includes sensor depth, tree diameter, species identity, sapwood characteristics, xylem radius, and calculated sap flux values for each monitored tree. Measurements were taken continuously to assess water use patterns across different tree species and stand types under varying moisture conditions. HFD sensors are particularly valuable because they: Allow direct, continuous measurement of sap flow at multiple radial depths, Capture diurnal and seasonal variability in transpiration, Provide species-specific insights into water use efficiency and drought response, and Support the upscaling of tree-level fluxes to stand-level transpiration for ecohydrological modeling.",
+    "keywords": [
+        "Agricultural Sciences",
+        "Water consumption",
+        "Water consumption",
+        "sap flow",
+        "transpiration",
+        "mixture",
+        "radial sap flow",
+        "upscaling sap flux",
+        "heat field deformation sensors",
+        "Douglas fir",
+        "European beech",
+        "Norway spruce"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "Nadezhdina N (2018) Revisiting the Heat Field Deformation (HFD) method for measuring sap flow. iForest - Biogeosciences and Forestry 11:118. https://iforest.sisef.org/contents/?id=ifor2381-011 (24 June 2022, date last accessed ).",
+            "@id": "https://iforest.sisef.org/contents/?id=ifor2381-011",
+            "identifier": "https://iforest.sisef.org/contents/?id=ifor2381-011",
+            "url": "https://iforest.sisef.org/contents/?id=ifor2381-011"
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "2025-hfd-predictions-(daily)-tidy.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "contentSize": 174908,
+            "description": "HFD data summarized at daily scale at tree level",
+            "@id": "https://doi.org/10.25625/GD1EHK/TTJSMM",
+            "identifier": "https://doi.org/10.25625/GD1EHK/TTJSMM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139575"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2025-hfd-predictions-(tree-level-summary)-tidy.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "contentSize": 131948,
+            "description": "HFD data cleaned and analyzed to obtain proportion sap flux at a certain depth. ",
+            "@id": "https://doi.org/10.25625/GD1EHK/3MRYRH",
+            "identifier": "https://doi.org/10.25625/GD1EHK/3MRYRH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139576"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Agricultural Sciences"
+    ],
+    "publications": [
+        {
+            "citation": "Nadezhdina N (2018) Revisiting the Heat Field Deformation (HFD) method for measuring sap flow. iForest - Biogeosciences and Forestry 11:118. https://iforest.sisef.org/contents/?id=ifor2381-011 (24 June 2022, date last accessed ).",
+            "url": "https://iforest.sisef.org/contents/?id=ifor2381-011"
+        }
+    ]
+}

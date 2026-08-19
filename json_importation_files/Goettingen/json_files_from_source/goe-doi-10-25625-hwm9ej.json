@@ -1,0 +1,243 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/HWM9EJ",
+    "identifier": "https://doi.org/10.25625/HWM9EJ",
+    "name": "Data assimilation via model reference adaptation for linear and nonlinear dynamical systems",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Benedikt Micha",
+            "familyName": "Kaltenbach",
+            "name": "Kaltenbach, Benedikt Micha"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Christian",
+            "familyName": "Aarset",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Aix-Marseille University"
+            },
+            "name": "Aarset, Christian"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Tram Thi Ngoc",
+            "familyName": "Nguyen",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Max Plank Institute for Solar Systems Research"
+            },
+            "name": "Nguyen, Tram Thi Ngoc"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Benedikt Micha",
+            "familyName": "Kaltenbach",
+            "name": "Kaltenbach, Benedikt Micha"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Christian",
+            "familyName": "Aarset",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Aix-Marseille University"
+            },
+            "name": "Aarset, Christian"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Tram Thi Ngoc",
+            "familyName": "Nguyen",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Max Plank Institute for Solar Systems Research"
+            },
+            "name": "Nguyen, Tram Thi Ngoc"
+        }
+    ],
+    "datePublished": "2026-01-06",
+    "dateModified": "2026-06-19",
+    "version": "4",
+    "description": "This is the code for the related paper, first version Dec 2025",
+    "keywords": [
+        "Mathematical Sciences"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "adaptive modified allen cahn_gro.ipynb",
+            "encodingFormat": "application/x-ipynb+json",
+            "contentSize": 609062,
+            "@id": "https://doi.org/10.25625/HWM9EJ/ATSSZQ",
+            "identifier": "https://doi.org/10.25625/HWM9EJ/ATSSZQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/147535"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "adaptive nonlinear c problem joint_new.ipynb",
+            "encodingFormat": "application/x-ipynb+json",
+            "contentSize": 23569,
+            "@id": "https://doi.org/10.25625/HWM9EJ/RXOFO7",
+            "identifier": "https://doi.org/10.25625/HWM9EJ/RXOFO7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/181149"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "adaptive nonlinear in state joint.ipynb",
+            "encodingFormat": "application/x-ipynb+json",
+            "contentSize": 255826,
+            "@id": "https://doi.org/10.25625/HWM9EJ/H7QWA8",
+            "identifier": "https://doi.org/10.25625/HWM9EJ/H7QWA8",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/147533"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "adaptive_darcy_joint gitlab.ipynb",
+            "encodingFormat": "application/x-ipynb+json",
+            "contentSize": 181012,
+            "@id": "https://doi.org/10.25625/HWM9EJ/DQZBPB",
+            "identifier": "https://doi.org/10.25625/HWM9EJ/DQZBPB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/147519"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "domain_ac.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 1059,
+            "@id": "https://doi.org/10.25625/HWM9EJ/YCFW4Z",
+            "identifier": "https://doi.org/10.25625/HWM9EJ/YCFW4Z",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/147520"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "domain_darcy.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 821,
+            "@id": "https://doi.org/10.25625/HWM9EJ/PVKLBF",
+            "identifier": "https://doi.org/10.25625/HWM9EJ/PVKLBF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/147529"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "domain_fisher.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 1079,
+            "@id": "https://doi.org/10.25625/HWM9EJ/CRF5FI",
+            "identifier": "https://doi.org/10.25625/HWM9EJ/CRF5FI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/147524"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "domain_nc.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 722,
+            "@id": "https://doi.org/10.25625/HWM9EJ/JG80YR",
+            "identifier": "https://doi.org/10.25625/HWM9EJ/JG80YR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/147522"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "download_darcy.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 985,
+            "@id": "https://doi.org/10.25625/HWM9EJ/LBKW5N",
+            "identifier": "https://doi.org/10.25625/HWM9EJ/LBKW5N",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/147532"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "functions_ac.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 5735,
+            "@id": "https://doi.org/10.25625/HWM9EJ/OMS2BG",
+            "identifier": "https://doi.org/10.25625/HWM9EJ/OMS2BG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/147527"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "functions_darcy.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 6157,
+            "@id": "https://doi.org/10.25625/HWM9EJ/CWWAWD",
+            "identifier": "https://doi.org/10.25625/HWM9EJ/CWWAWD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/147525"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "functions_fisher.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 5978,
+            "@id": "https://doi.org/10.25625/HWM9EJ/3VXF2O",
+            "identifier": "https://doi.org/10.25625/HWM9EJ/3VXF2O",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/147521"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "functions_nc.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 5960,
+            "@id": "https://doi.org/10.25625/HWM9EJ/XTXFA1",
+            "identifier": "https://doi.org/10.25625/HWM9EJ/XTXFA1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/181150"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "implicit_darcy.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 1579,
+            "@id": "https://doi.org/10.25625/HWM9EJ/VXHYF7",
+            "identifier": "https://doi.org/10.25625/HWM9EJ/VXHYF7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/147528"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "implicit_fisher.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 1579,
+            "@id": "https://doi.org/10.25625/HWM9EJ/QBZLYX",
+            "identifier": "https://doi.org/10.25625/HWM9EJ/QBZLYX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/147523"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "implicit_update_darcy.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 1582,
+            "@id": "https://doi.org/10.25625/HWM9EJ/S5CAZH",
+            "identifier": "https://doi.org/10.25625/HWM9EJ/S5CAZH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/147530"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "implicit_update_fisher.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 1582,
+            "@id": "https://doi.org/10.25625/HWM9EJ/YE4SIN",
+            "identifier": "https://doi.org/10.25625/HWM9EJ/YE4SIN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/147526"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Mathematical Sciences"
+    ]
+}

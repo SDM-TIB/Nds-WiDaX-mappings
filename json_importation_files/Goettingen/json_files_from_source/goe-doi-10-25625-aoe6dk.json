@@ -1,0 +1,87 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/AOE6DK",
+    "identifier": "https://doi.org/10.25625/AOE6DK",
+    "name": "E. coli 27",
+    "creator": [
+        {
+            "@type": "Person",
+            "name": "GOBICS"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "name": "GOBICS"
+        }
+    ],
+    "datePublished": "2022-07-11",
+    "dateModified": "2022-07-11",
+    "version": "1",
+    "description": "This dataset was taken from Bernard et al. (2016).",
+    "keywords": [
+        "Computer and Information Science",
+        "Medicine, Health and Life Sciences"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "Bernard G, Chan CX, Ragan MA. Alignment-free microbial phylogenomics under scenarios of sequence divergence, genome rearrangement and lateral genetic transfer. Sci Rep. 2016 Jul 1;6:28970. doi: 10.1038/srep28970. PMID: 27363362; PMCID: PMC4929450."
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "DMat",
+            "encodingFormat": "text/plain; charset=US-ASCII",
+            "contentSize": 11613,
+            "description": "Distance matrix created by FSWM",
+            "@id": "https://doi.org/10.25625/AOE6DK/ACYFL2",
+            "identifier": "https://doi.org/10.25625/AOE6DK/ACYFL2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/47525"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "ecoli27.fasta",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 134667160,
+            "@id": "https://doi.org/10.25625/AOE6DK/YVIVON",
+            "identifier": "https://doi.org/10.25625/AOE6DK/YVIVON",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/47524"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "ecoli27.nwk",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 324,
+            "@id": "https://doi.org/10.25625/AOE6DK/SXKCVB",
+            "identifier": "https://doi.org/10.25625/AOE6DK/SXKCVB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/47523"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Computer and Information Science",
+        "Medicine, Health and Life Sciences"
+    ],
+    "publications": [
+        {
+            "citation": "Bernard G, Chan CX, Ragan MA. Alignment-free microbial phylogenomics under scenarios of sequence divergence, genome rearrangement and lateral genetic transfer. Sci Rep. 2016 Jul 1;6:28970. doi: 10.1038/srep28970. PMID: 27363362; PMCID: PMC4929450."
+        }
+    ]
+}

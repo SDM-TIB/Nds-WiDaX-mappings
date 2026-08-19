@@ -1,0 +1,70 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/IVAWJM",
+    "identifier": "https://doi.org/10.25625/IVAWJM",
+    "name": "On a Discontinuous Galerkin discretization for a degenerate diffusion equation",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Tim",
+            "familyName": "van Beeck",
+            "name": "van Beeck, Tim"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Tim",
+            "familyName": "van Beeck",
+            "name": "van Beeck, Tim"
+        }
+    ],
+    "datePublished": "2021-12-20",
+    "dateModified": "2021-12-20",
+    "version": "1",
+    "description": "Bachelor\u2019s thesis document \"On a Discontinuous Galerkin discretization for a degenerate diffusion equation\" written by Tim van Beeck (examiner and co-examiner: Christoph Lehrenfeld and Gert Lube) (2021-12-03) and replication data for the numerical experiments. Instructions for the replication data: The file DegDif_data.tar.gz provides the code and the data that can be used the replicate the numerical experiments. To run the code, you need a current version of NGSolve (which will require at least python 3.8) and matplotlib to generate the plots. Executing ConvergenceStudies.py will solve the problem and write the errors into data/SquareGeometry/ConstantDensity, while MakePlots.py will read data from data/CircleGeometry/NonConstantDensity. To replicate the respective other experiment, some slight adjustments have to be made (the files purposely use different experiments to showcase the necessary adjustments). Finally, the file CondNumbers.py calculates the condition numbers for different penalization parameters and writes the results to data/SquareGeometry/ConditionNumbers.",
+    "keywords": [
+        "Mathematical Sciences"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "DegDif_data.tar.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 6989684,
+            "description": "Replication data containing code, absolute errors, and plots. ",
+            "@id": "https://doi.org/10.25625/IVAWJM/OKAJGC",
+            "identifier": "https://doi.org/10.25625/IVAWJM/OKAJGC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/35855"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "vanBeeck_BA.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 3262396,
+            "description": "Thesis document.",
+            "@id": "https://doi.org/10.25625/IVAWJM/YC4REO",
+            "identifier": "https://doi.org/10.25625/IVAWJM/YC4REO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/35853"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Mathematical Sciences"
+    ]
+}

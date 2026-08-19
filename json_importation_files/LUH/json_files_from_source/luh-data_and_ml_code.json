@@ -1,0 +1,201 @@
+{
+  "author": "Yousef Heider, Fadi Aldakheel, Wolfgang Ehlers",
+  "author_email": "yousef.heider@ibnm.uni-hannover.de",
+  "creator_user_id": "8dd817df-9a3a-47ef-89a6-f7fc2c074358",
+  "have_copyright": "Yes",
+  "id": "fd16579b-0d9c-4f44-aa94-68c5c9610b05",
+  "isopen": false,
+  "license_id": "CC-BY-NC-3.0",
+  "license_title": "Creative Commons Attribution-NonCommercial 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc/3.0/",
+  "maintainer": "Yousef Heider",
+  "maintainer_email": "yousef.heider@ibnm.uni-hannover.de",
+  "metadata_created": "2024-10-01T15:09:35.928626",
+  "metadata_modified": "2024-10-01T16:38:19.524067",
+  "name": "data_and_ml_code",
+  "notes": "This work in the related paper introduces a novel application for predicting the macroscopic intrinsic permeability tensor in deformable porous media, using a limited set of micro-CT images of real microgeometries. The primary goal is to develop an efficient, machine-learning (ML)-based method that overcomes the limitations of traditional permeability estimation techniques, which often rely on time-consuming experiments or computationally expensive fluid dynamics simulations. The novelty of this work lies in leveraging Convolutional Neural Networks (CNN) to predict pore-fluid flow behavior under deformation and anisotropic flow conditions. \r\nParticularly, the described approach employs binarized CT images of porous micro-structure as inputs to predict the symmetric second-order permeability tensor, a critical parameter in continuum porous media flow modeling. The methodology comprises four key steps: (1) constructing a dataset of CT images from Bentheim sandstone at different volumetric strain levels; (2) performing pore-scale simulations of single-phase flow using the lattice Boltzmann method (LBM) to generate permeability data; (3) training the CNN model with the processed CT images as inputs and permeability tensors as outputs; and (4) exploring techniques to improve model generalization, including data augmentation and alternative CNN architectures.\r\nExamples are provided to demonstrate the CNN’s capability to accurately predict the permeability tensor, a crucial parameter in various disciplines such as geotechnical engineering, hydrology, and material science.",
+  "num_resources": 2,
+  "num_tags": 12,
+  "organization": {
+    "id": "6dc327b5-7a23-46a9-bd71-77569c460a51",
+    "name": "institut-fur-baumechanik-und-numerische-mechanik",
+    "title": "Institut für Baumechanik und Numerische Mechanik",
+    "type": "organization",
+    "description": "https://www.ibnm.uni-hannover.de/",
+    "image_url": "2018-06-13-121331.937376Logogrun.jpg",
+    "created": "2018-06-08T14:03:38.292058",
+    "is_organization": true,
+    "approval_status": "approved",
+    "state": "active"
+  },
+  "owner_org": "6dc327b5-7a23-46a9-bd71-77569c460a51",
+  "private": false,
+  "state": "active",
+  "terms_of_usage": "Yes",
+  "title": "Database and code to the paper: A multiscale CNN-based intrinsic permeability prediction in deformable porous media",
+  "type": "dataset",
+  "url": "",
+  "version": "",
+  "extras": [
+    {
+      "key": "Machine learning",
+      "value": "40"
+    },
+    {
+      "key": "Multiscale modeling",
+      "value": "30"
+    },
+    {
+      "key": "Porous Media Theory",
+      "value": "30"
+    }
+  ],
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2024-10-01T16:24:31.055754",
+      "datastore_active": false,
+      "description": "Open-access source codes and data related to the paper: A multiscale CNN-based intrinsic permeability prediction in deformable porous media. Authors: Yousef Heider, Fadi Aldakheel, Wolfgang Ehlers",
+      "format": "ZIP",
+      "hash": "",
+      "id": "9432abe9-5784-45db-a4cd-8166dadc8558",
+      "last_modified": "2024-10-01T16:24:30.976541",
+      "metadata_modified": "2024-10-01T16:24:31.015320",
+      "mimetype": "application/zip",
+      "mimetype_inner": null,
+      "name": "EXAMPLE_binary_images_rve_2_1_50_50.zip",
+      "package_id": "fd16579b-0d9c-4f44-aa94-68c5c9610b05",
+      "position": 0,
+      "resource_type": null,
+      "size": 188562,
+      "state": "active",
+      "tracking_summary": {
+        "total": 24,
+        "recent": 2
+      },
+      "url": "https://data.uni-hannover.de/dataset/fd16579b-0d9c-4f44-aa94-68c5c9610b05/resource/9432abe9-5784-45db-a4cd-8166dadc8558/download/example_binary_images_rve_2_1_50_50.zip",
+      "url_type": "upload"
+    },
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2024-10-01T16:36:48.250955",
+      "datastore_active": false,
+      "description": "Open-access source codes and data related to the paper: A multiscale CNN-based intrinsic permeability prediction in deformable porous media. Authors: Yousef Heider, Fadi Aldakheel, Wolfgang Ehlers",
+      "format": "ZIP",
+      "hash": "",
+      "id": "cba25398-9cbd-498d-858b-dd780556b7aa",
+      "last_modified": "2024-10-01T16:36:48.194878",
+      "metadata_modified": "2024-10-01T16:36:48.224046",
+      "mimetype": "application/zip",
+      "mimetype_inner": null,
+      "name": "Data_and_ML_code.zip",
+      "package_id": "fd16579b-0d9c-4f44-aa94-68c5c9610b05",
+      "position": 1,
+      "resource_type": null,
+      "size": 938061358,
+      "state": "active",
+      "tracking_summary": {
+        "total": 37,
+        "recent": 2
+      },
+      "url": "https://data.uni-hannover.de/dataset/fd16579b-0d9c-4f44-aa94-68c5c9610b05/resource/cba25398-9cbd-498d-858b-dd780556b7aa/download/data_and_ml_code.zip",
+      "url_type": "upload"
+    }
+  ],
+  "tags": [
+    {
+      "display_name": "CT images",
+      "id": "30ee8b90-ff00-4b46-b5e4-4f5417677512",
+      "name": "CT images",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Convolutional Neural Networks",
+      "id": "105229f9-623f-4c1b-98ec-b58925128a36",
+      "name": "Convolutional Neural Networks",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Database",
+      "id": "c97b1a58-35a5-413b-b5fb-cfba25bec3b4",
+      "name": "Database",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Dataset",
+      "id": "d89b31b6-e122-4b2b-96bf-780c838a0180",
+      "name": "Dataset",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Intrinsic permeability",
+      "id": "6cd282b4-6883-42b7-baac-2d30a935b203",
+      "name": "Intrinsic permeability",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Machine learning",
+      "id": "a174dfda-902d-454f-82e2-054628db1b1f",
+      "name": "Machine learning",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Open-Access source-codes and data",
+      "id": "d64cb41e-79ef-404c-bf89-fda644d3b56c",
+      "name": "Open-Access source-codes and data",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Permeability tensor",
+      "id": "4244d03e-f85a-4482-a82b-a9d9e3769ee7",
+      "name": "Permeability tensor",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Porous media flow",
+      "id": "85a7c930-b6ce-4da0-9f91-610c0090faa1",
+      "name": "Porous media flow",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "TPM",
+      "id": "30ada138-8fd0-463c-8e4a-d2e7d8b5c26e",
+      "name": "TPM",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Theory of porous media",
+      "id": "e78ff1b8-91aa-4b27-95f7-a2b642aecdb3",
+      "name": "Theory of porous media",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "multiscale modeling",
+      "id": "482985ca-87ae-4c6d-b310-71c91772d334",
+      "name": "multiscale modeling",
+      "state": "active",
+      "vocabulary_id": null
+    }
+  ],
+  "groups": [],
+  "relationships_as_subject": [],
+  "relationships_as_object": [],
+  "doi": "10.25835/xrii0m6f",
+  "doi_status": true,
+  "domain": "https://data.uni-hannover.de",
+  "doi_date_published": "2024-10-01",
+  "doi_publisher": "LUIS"
+}

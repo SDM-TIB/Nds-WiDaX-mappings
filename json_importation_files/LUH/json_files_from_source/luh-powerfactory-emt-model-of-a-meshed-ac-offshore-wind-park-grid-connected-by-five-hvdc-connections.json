@@ -1,0 +1,138 @@
+{
+  "author": "Michael Herrmann",
+  "author_email": "herrmann@ifes.uni-hannover.de",
+  "creator_user_id": "70982e36-71c8-407e-a3c1-8568222efdab",
+  "have_copyright": "Yes",
+  "id": "763a5d88-499f-454b-b70d-eecf129c2975",
+  "isopen": true,
+  "license_id": "CC-BY-3.0",
+  "license_title": "Creative Commons Attribution 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "maintainer": "Michael Herrmann",
+  "maintainer_email": "herrmann@ifes.uni-hannover.de",
+  "metadata_created": "2023-06-01T11:58:02.587030",
+  "metadata_modified": "2026-03-29T12:37:27.556405",
+  "name": "powerfactory-emt-model-of-a-meshed-ac-offshore-wind-park-grid-connected-by-five-hvdc-connections",
+  "notes": "This dataset is to be used for time domain simulations in DIgSILENT PowerFactory v2019 SP4 and above. The dataset contains the model of a meshed AC offshore wind park grid that is connected to simplified onshore grid representations by means of five VSC HVDC connections. Up to two VSC HVDC connections can be switched to diode-rectifier unit (DRU) HVDC connections. Aside from the grid model itself, generic wind turbine, wind park and HVDC onshore converter controls are implemented. Special focus is on the implemented HVDC offshore converter controls, which were developed within the German North Seas Offshore Network II (NSON II) project. Python scripts for simulating different events resembling normal operation and balanced faults under variation of HVDC connection types and load flow distribution are included. Detailed model descriptions can be found in the corresponding project reports (see references below).\r\n\r\nThe dataset consists of the PowerFactory project file (.pfd) and an archive (.zip) with all external project files (scripts, wind park generation curves) necessary for automated simulations.\r\n\r\n&nbsp;\r\n\r\nReferences:\r\n\r\nM. Herrmann and L. Hofmann, „AP 2: ANLAGEN- UND SYSTEMREGELUNG AS 2.2: Entwicklung von Regelungskonzepten zum Parallelbetrieb von HGÜ-Umrichterstationen“, 2021. [Online]. Available at: https://publica.fraunhofer.de/entities/publication/e0ed1845-19c8-41e1-bdde-08608591c684/details\r\n\r\nM. Herrmann and L. Hofmann, „AP 2: ANLAGEN- UND SYSTEMREGELUNG AS 2.3: Entwicklung von Regelungskonzepten zum Betrieb von HGÜ-Umrichterstationen in drehstromseitig vermaschten Offshore-Netzen“, 2022. [Online]. Available at: https://publica.fraunhofer.de/entities/publication/611c3204-57df-467c-80f0-90b36b1f006b/details\r\n\r\nProject Website:\r\n\r\nhttps://www.iee.fraunhofer.de/de/projekte/suche/2020/nson-2.html\r\n\r\n&nbsp;\r\n\r\nThis research was supported by the German Federal Ministry of Economic Affairs and Energy within the framework of the project “North Seas Offshore Network II: Economical Connection and International Integration of Offshore Wind Energy in the North Sea” (German title: North Seas Offshore Network II: Kosteneffiziente Anbindung und internationale Integration von Offshore Windenergie in der Nordsee, FKZ: 03EI4009).",
+  "num_resources": 2,
+  "num_tags": 5,
+  "organization": {
+    "id": "f3b666ff-90bb-4bbd-935c-abca38f81dc1",
+    "name": "institut-fur-elektrische-energiesysteme",
+    "title": "Institut für Elektrische Energiesysteme ",
+    "type": "organization",
+    "description": "__IfES - Institut für Elektrische Energiesysteme__\r\n\r\nAppelstraße 9a\r\n30167 Hannover\r\n\r\nTelefon:  +49 (0) 511 762‑2816\r\nTelefax:   +49 (0) 511 762-2369\r\n\r\nhttp://www.ifes.uni-hannover.de",
+    "image_url": "2020-06-10-160224.326606ifeslogo.png",
+    "created": "2020-06-10T18:01:25.642429",
+    "is_organization": true,
+    "approval_status": "approved",
+    "state": "active"
+  },
+  "owner_org": "f3b666ff-90bb-4bbd-935c-abca38f81dc1",
+  "private": false,
+  "state": "active",
+  "terms_of_usage": "Yes",
+  "title": "PowerFactory EMT Model of a Meshed AC Offshore Wind Park Grid Connected by Five HVDC Connections",
+  "type": "dataset",
+  "url": "",
+  "version": "2022-10-26",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2023-06-01T11:58:45.539668",
+      "datastore_active": false,
+      "description": "PowerFactory v2019 SP4 Project File",
+      "format": "",
+      "hash": "",
+      "id": "aba22d0b-71bc-4fd9-b0e9-ccad647d66bc",
+      "last_modified": "2023-06-01T11:58:45.492660",
+      "metadata_modified": "2023-06-01T11:59:37.156877",
+      "mimetype": null,
+      "mimetype_inner": null,
+      "name": "2022-10-26 18-40 Offshore Grid Model.pfd",
+      "package_id": "763a5d88-499f-454b-b70d-eecf129c2975",
+      "position": 0,
+      "resource_type": null,
+      "size": 622880,
+      "state": "active",
+      "tracking_summary": {
+        "total": 57,
+        "recent": 2
+      },
+      "url": "https://data.uni-hannover.de/dataset/763a5d88-499f-454b-b70d-eecf129c2975/resource/aba22d0b-71bc-4fd9-b0e9-ccad647d66bc/download/2022-10-26-18-40-offshore-grid-model.pfd",
+      "url_type": "upload"
+    },
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2023-06-01T11:59:07.239461",
+      "datastore_active": false,
+      "description": "External Files for the PowerFactory v2019 SP4 Project File",
+      "format": "ZIP",
+      "hash": "",
+      "id": "a79c1db8-3fc8-448b-a0b3-193ed2598087",
+      "last_modified": "2023-06-01T11:59:07.187114",
+      "metadata_modified": "2023-06-01T12:00:07.741802",
+      "mimetype": "application/zip",
+      "mimetype_inner": null,
+      "name": "2022-10-26 18-40 Offshore Grid Model (External Files).zip",
+      "package_id": "763a5d88-499f-454b-b70d-eecf129c2975",
+      "position": 1,
+      "resource_type": null,
+      "size": 48799,
+      "state": "active",
+      "tracking_summary": {
+        "total": 40,
+        "recent": 1
+      },
+      "url": "https://data.uni-hannover.de/dataset/763a5d88-499f-454b-b70d-eecf129c2975/resource/a79c1db8-3fc8-448b-a0b3-193ed2598087/download/2022-10-26-18-40-offshore-grid-model-external-files.zip",
+      "url_type": "upload"
+    }
+  ],
+  "tags": [
+    {
+      "display_name": "Converter Controls",
+      "id": "9869abb4-ce0c-416d-af30-a869f885a7a2",
+      "name": "Converter Controls",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "HVDC",
+      "id": "aafd5487-5d28-4b77-9df1-e2046db47df2",
+      "name": "HVDC",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Offshore Windpark",
+      "id": "bc1d2985-712b-4889-b035-e0ba4235582c",
+      "name": "Offshore Windpark",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "PowerFactory",
+      "id": "fbfe5f17-c0b0-423d-8906-437ef2569191",
+      "name": "PowerFactory",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Python",
+      "id": "f273faab-745d-45d6-953b-8412b5edcaa2",
+      "name": "Python",
+      "state": "active",
+      "vocabulary_id": null
+    }
+  ],
+  "groups": [],
+  "relationships_as_subject": [],
+  "relationships_as_object": [],
+  "doi": "10.25835/0y26b2ml",
+  "doi_status": true,
+  "domain": "https://data.uni-hannover.de",
+  "doi_date_published": "2023-06-01",
+  "doi_publisher": "LUIS"
+}

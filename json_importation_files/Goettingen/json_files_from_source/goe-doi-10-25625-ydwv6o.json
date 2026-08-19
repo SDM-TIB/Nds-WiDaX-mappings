@@ -1,0 +1,174 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/YDWV6O",
+    "identifier": "https://doi.org/10.25625/YDWV6O",
+    "name": "MushR-Project-Annotated-Images-Dataset (Oyster Mushrooms)",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Benjamin",
+            "familyName": "Leiding",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Clausthal University of Technology"
+            },
+            "sameAs": "https://orcid.org/0000-0002-9191-7548",
+            "@id": "https://orcid.org/0000-0002-9191-7548",
+            "identifier": "https://orcid.org/0000-0002-9191-7548",
+            "name": "Leiding, Benjamin"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Anant",
+            "familyName": "Sujatanagarjuna",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Clausthal University of Technology"
+            },
+            "name": "Anant Sujatanagarjuna"
+        },
+        {
+            "@type": "Person",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Clausthal University of Technology"
+            },
+            "name": "Shohreh Kia"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Benjamin",
+            "familyName": "Leiding",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Clausthal University of Technology"
+            },
+            "sameAs": "https://orcid.org/0000-0002-9191-7548",
+            "@id": "https://orcid.org/0000-0002-9191-7548",
+            "identifier": "https://orcid.org/0000-0002-9191-7548",
+            "name": "Leiding, Benjamin"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Anant",
+            "familyName": "Sujatanagarjuna",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Clausthal University of Technology"
+            },
+            "name": "Anant Sujatanagarjuna"
+        },
+        {
+            "@type": "Person",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Clausthal University of Technology"
+            },
+            "name": "Shohreh Kia"
+        }
+    ],
+    "datePublished": "2025-06-06",
+    "dateModified": "2025-06-06",
+    "version": "1",
+    "description": "MushR is a modular and scalable gourmet mushroom growing and harvesting system that goes beyond the state of the art, which merely monitors and controls the growing environment, by introducing an image recognition system that determines when and which mushrooms are ready to be harvested in conjunction with a proof-of-concept of an automated mushroom harvesting mechanism for harvesting the mushrooms without human interaction. The image recognition setup monitors the growing status of the mushrooms and guides the harvesting process. We present a Mask R-CNN model for the detection of oyster mushroom maturity as well as a semi-automated harvesting system, integrating a Raspberry Pi for control, an electrical switch, an air compressor, and a pneumatic cylinder with a cutting knife to facilitate timely mushroom harvesting. The modularity and scalability of the system allow for industry-level usage and can be scaled according to the required mushroom-growing systems within the facility. The dataset created for this project focuses on capturing images of the mushroom-growing environment from three different perspectives within each of our two growth tents for mushroom production. Instead of providing images of every individual bucket and mushroom, we capture the overall scene and its variations. The images from each perspective are captured simultaneously and automatically hourly. This approach allows for monitoring the development and maturity of the oyster mushrooms over time. We captured and accumulated 34,400 images over ten months to ensure a comprehensive dataset. This special repository contains the annotated images that we used to train our AI model.",
+    "keywords": [
+        "Agricultural Sciences",
+        "Computer and Information Science"
+    ],
+    "license": "http://creativecommons.org/licenses/by-sa/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "mushr-images-annotated.z01",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/YDWV6O/OZGQBW",
+            "identifier": "https://doi.org/10.25625/YDWV6O/OZGQBW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/63993"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "mushr-images-annotated.z02",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/YDWV6O/7MBEO2",
+            "identifier": "https://doi.org/10.25625/YDWV6O/7MBEO2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/63988"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "mushr-images-annotated.z03",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/YDWV6O/17E5KT",
+            "identifier": "https://doi.org/10.25625/YDWV6O/17E5KT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/63986"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "mushr-images-annotated.z04",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/YDWV6O/OXKP3G",
+            "identifier": "https://doi.org/10.25625/YDWV6O/OXKP3G",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/63987"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "mushr-images-annotated.z05",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/YDWV6O/HHVPJ7",
+            "identifier": "https://doi.org/10.25625/YDWV6O/HHVPJ7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/63992"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "mushr-images-annotated.z06",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/YDWV6O/8YITTA",
+            "identifier": "https://doi.org/10.25625/YDWV6O/8YITTA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/63991"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "mushr-images-annotated.z07",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1073741824,
+            "@id": "https://doi.org/10.25625/YDWV6O/SKOMKJ",
+            "identifier": "https://doi.org/10.25625/YDWV6O/SKOMKJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/63990"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "mushr-images-annotated.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 370812604,
+            "@id": "https://doi.org/10.25625/YDWV6O/YQ3UDM",
+            "identifier": "https://doi.org/10.25625/YDWV6O/YQ3UDM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/63989"
+        }
+    ],
+    "license_title": "Creative Commons Attribution-ShareAlike 4.0 International",
+    "subjects": [
+        "Agricultural Sciences",
+        "Computer and Information Science"
+    ]
+}

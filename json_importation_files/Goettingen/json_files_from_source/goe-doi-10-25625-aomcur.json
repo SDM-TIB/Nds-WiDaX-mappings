@@ -1,0 +1,183 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/AOMCUR",
+    "identifier": "https://doi.org/10.25625/AOMCUR",
+    "name": "Replication Data for: Human lung virtual histology by multi-scale x-ray phase-contrast computed tomography",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Jakob",
+            "familyName": "Reichmann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-6597-1831",
+            "@id": "https://orcid.org/0000-0002-6597-1831",
+            "identifier": "https://orcid.org/0000-0002-6597-1831",
+            "name": "Reichmann, Jakob"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Tim",
+            "familyName": "Salditt",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0003-4636-0813",
+            "@id": "https://orcid.org/0000-0003-4636-0813",
+            "identifier": "https://orcid.org/0000-0003-4636-0813",
+            "name": "Salditt, Tim"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jakob",
+            "familyName": "Reichmann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-6597-1831",
+            "@id": "https://orcid.org/0000-0002-6597-1831",
+            "identifier": "https://orcid.org/0000-0002-6597-1831",
+            "name": "Reichmann, Jakob"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Tim",
+            "familyName": "Salditt",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0003-4636-0813",
+            "@id": "https://orcid.org/0000-0003-4636-0813",
+            "identifier": "https://orcid.org/0000-0003-4636-0813",
+            "name": "Salditt, Tim"
+        }
+    ],
+    "datePublished": "2023-12-08",
+    "dateModified": "2024-05-16",
+    "version": "2",
+    "description": "Dataset with all acquisition settings acquired in-house and at the synchrotron, respectively, with the matlab script used for reconstruction of the synchrotron data",
+    "keywords": [
+        "Medicine, Health and Life Sciences",
+        "Physics"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "Jakob Reichmann et al 2023 Phys. Med. Biol. 68 115014",
+            "@id": "https://iopscience.iop.org/article/10.1088/1361-6560/acd48d",
+            "identifier": "https://iopscience.iop.org/article/10.1088/1361-6560/acd48d",
+            "url": "https://iopscience.iop.org/article/10.1088/1361-6560/acd48d"
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "SFB1456/A03- Mathematics of Experiment"
+        }
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Bronchi_Segmentation_Mask_Ilastik",
+            "encodingFormat": "image/x-panasonic-rw",
+            "contentSize": 1039917042,
+            "description": "mg_size=999x999x521_img_type=16bit.raw for BALT dataset",
+            "@id": "https://doi.org/10.25625/AOMCUR/LPVKWR",
+            "identifier": "https://doi.org/10.25625/AOMCUR/LPVKWR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69432"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Leuven_5_385_50_PCO_tomo01.mac",
+            "encodingFormat": "text/x-maximasession",
+            "contentSize": 1893,
+            "description": "Macro for Scan at GINIX of Leuven_5_385_50 scan in parallel beam geometry.",
+            "@id": "https://doi.org/10.25625/AOMCUR/JJLHBH",
+            "identifier": "https://doi.org/10.25625/AOMCUR/JJLHBH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69436"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "MATLAB-Script_tomoanalysis_ParallelBeam_GINIX",
+            "encodingFormat": "text/x-objcsrc",
+            "contentSize": 15652,
+            "description": "Script for tomographic reconstruction and phase retrieval of parallel beam data at GINIX (DESY, Hmaburg), used for sample Leuven_5_385_50.m",
+            "@id": "https://doi.org/10.25625/AOMCUR/1FRCMF",
+            "identifier": "https://doi.org/10.25625/AOMCUR/1FRCMF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69433"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "restore.macro",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 8254,
+            "description": "reconstruction settings file for in-house BALT dataset",
+            "@id": "https://doi.org/10.25625/AOMCUR/WDF6C5",
+            "identifier": "https://doi.org/10.25625/AOMCUR/WDF6C5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69434"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Segmentation+CLD_Leuven_LungData.m",
+            "encodingFormat": "text/x-objcsrc",
+            "contentSize": 5472,
+            "description": "Script used for segmentation and extraction of chord lenghts.",
+            "@id": "https://doi.org/10.25625/AOMCUR/NXJ8IE",
+            "identifier": "https://doi.org/10.25625/AOMCUR/NXJ8IE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/79252"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "ShapeMeasureAnalysis_Lung.m",
+            "encodingFormat": "text/x-objcsrc",
+            "contentSize": 5964,
+            "description": "Script used for shape measure analysis of lung data.",
+            "@id": "https://doi.org/10.25625/AOMCUR/YY9RRS",
+            "identifier": "https://doi.org/10.25625/AOMCUR/YY9RRS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/79261"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "unireconstruction.xml",
+            "encodingFormat": "text/xml",
+            "contentSize": 2685,
+            "description": "acquisition settings file for in-house BALT dataset",
+            "@id": "https://doi.org/10.25625/AOMCUR/GPJSTL",
+            "identifier": "https://doi.org/10.25625/AOMCUR/GPJSTL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69435"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Medicine, Health and Life Sciences",
+        "Physics"
+    ],
+    "publications": [
+        {
+            "citation": "Jakob Reichmann et al 2023 Phys. Med. Biol. 68 115014",
+            "url": "https://iopscience.iop.org/article/10.1088/1361-6560/acd48d"
+        }
+    ]
+}

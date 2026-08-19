@@ -1,0 +1,224 @@
+{
+  "author": "Reiko Kaps, Christian Götte, Patrick Njofang, Christoph Köhler",
+  "author_email": "",
+  "creator_user_id": "146127b1-d7ba-4873-b855-5dee0256fc5a",
+  "have_copyright": "Yes",
+  "id": "2ec5b8b1-eb9f-4d4e-ad05-7c64d4ec2d0a",
+  "isopen": true,
+  "license_id": "CC0-1.0",
+  "license_title": "CC0 1.0 Universal",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "maintainer": "Reiko Kaps",
+  "maintainer_email": "kaps@luis.uni-hannover.de",
+  "metadata_created": "2017-12-21T16:32:53.102762",
+  "metadata_modified": "2026-04-16T05:30:44.687081",
+  "name": "beispiel-netzwerkmessdaten",
+  "notes": "Ein Auszug aus Netzwerkmessung\r\n\r\nDOI: http://dx.doi.org/10.25835/LUIS.2",
+  "num_resources": 5,
+  "num_tags": 4,
+  "organization": {
+    "id": "dff32fe0-0b6b-4c62-9aeb-9a6991e233ac",
+    "name": "luis",
+    "title": "LUIS",
+    "type": "organization",
+    "description": "__Leibniz Universität IT Services__\r\nhttps://www.luis.uni-hannover.de/\r\n",
+    "image_url": "2017-12-21-155434.425289LogoLUIS.png",
+    "created": "2017-12-18T11:25:22.829560",
+    "is_organization": true,
+    "approval_status": "approved",
+    "state": "active"
+  },
+  "owner_org": "dff32fe0-0b6b-4c62-9aeb-9a6991e233ac",
+  "private": false,
+  "state": "active",
+  "terms_of_usage": "Yes",
+  "title": "Beispiel Netzwerkmessdaten",
+  "type": "dataset",
+  "url": "",
+  "version": "0.1",
+  "extras": [
+    {
+      "key": "ORCID",
+      "value": "0000-0002-6537-1684"
+    }
+  ],
+  "groups": [
+    {
+      "description": "Einige Beispiele für Forschungsdatensätze (für Schulungszwecke des FDM-Teams)",
+      "display_name": "Beispiele",
+      "id": "94264a53-a66b-4fe1-b919-19ad5a318bd8",
+      "image_display_url": "https://data.uni-hannover.de/uploads/group/2018-02-12-103426.658622sample-icon.png",
+      "name": "beispiele",
+      "title": "Beispiele"
+    }
+  ],
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2017-12-21T16:34:30.637268",
+      "datastore_active": false,
+      "description": "**vnstat --exportdb -i br0**",
+      "format": "TXT",
+      "hash": "",
+      "id": "94146acc-c4df-42f2-ab29-a1e4d815578d",
+      "last_modified": "2017-12-21T16:34:30.589298",
+      "metadata_modified": "2017-12-21T16:34:30.637268",
+      "mimetype": "text/plain",
+      "mimetype_inner": null,
+      "name": "Datenexport (Nur-Text)",
+      "package_id": "2ec5b8b1-eb9f-4d4e-ad05-7c64d4ec2d0a",
+      "position": 0,
+      "resource_type": null,
+      "size": 2704,
+      "state": "active",
+      "tracking_summary": {
+        "total": 17,
+        "recent": 1
+      },
+      "url": "https://data.uni-hannover.de/dataset/2ec5b8b1-eb9f-4d4e-ad05-7c64d4ec2d0a/resource/94146acc-c4df-42f2-ab29-a1e4d815578d/download/2017-12-21_vnstat-export-br0.txt",
+      "url_type": "upload"
+    },
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2017-12-21T16:35:54.876926",
+      "datastore_active": false,
+      "description": "vnstat --exportdb -i br0 --json",
+      "format": "JSON",
+      "hash": "",
+      "id": "223e0389-1d10-48b2-ada9-b72c0ca57a14",
+      "last_modified": "2017-12-21T16:35:54.830421",
+      "metadata_modified": "2017-12-21T16:35:54.876926",
+      "mimetype": "application/json",
+      "mimetype_inner": null,
+      "name": "Datenexport (JSON)",
+      "package_id": "2ec5b8b1-eb9f-4d4e-ad05-7c64d4ec2d0a",
+      "position": 1,
+      "resource_type": null,
+      "size": 6211,
+      "state": "active",
+      "tracking_summary": {
+        "total": 5,
+        "recent": 2
+      },
+      "url": "https://data.uni-hannover.de/dataset/2ec5b8b1-eb9f-4d4e-ad05-7c64d4ec2d0a/resource/223e0389-1d10-48b2-ada9-b72c0ca57a14/download/2017-12-21_vnstat-export-br0.json",
+      "url_type": "upload"
+    },
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2017-12-21T16:36:31.659466",
+      "datastore_active": false,
+      "description": "vnstat --exportdb -i br0 --xml",
+      "format": "XML",
+      "hash": "",
+      "id": "26e62ff6-0140-406b-85e4-5c9f1c6453bd",
+      "last_modified": "2017-12-21T16:36:45.875131",
+      "metadata_modified": "2017-12-21T16:36:31.659466",
+      "mimetype": "application/xml",
+      "mimetype_inner": null,
+      "name": "Datenexport (XML)",
+      "package_id": "2ec5b8b1-eb9f-4d4e-ad05-7c64d4ec2d0a",
+      "position": 2,
+      "resource_type": null,
+      "size": 9610,
+      "state": "active",
+      "tracking_summary": {
+        "total": 11,
+        "recent": 2
+      },
+      "url": "https://data.uni-hannover.de/dataset/2ec5b8b1-eb9f-4d4e-ad05-7c64d4ec2d0a/resource/26e62ff6-0140-406b-85e4-5c9f1c6453bd/download/2017-12-21_vnstat-export-br0.xml",
+      "url_type": "upload"
+    },
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2018-07-31T10:04:52.070160",
+      "datastore_active": false,
+      "description": "# Tagesauswertung Netzwerk-Traffic\r\n\r\n## Format\r\n\r\nd;0;1078696800;559;7433;68;557;1\r\n\r\n  * d = days, \r\n  * 0 = day number in database (0 is today), \r\n  * 1077314401 date in Unix time, \r\n  * 559 = rx MiB, \r\n  * 7433 = tx MiB, \r\n  * 68 = rx KiB, \r\n  * 557 = tx KiB \r\n  * 1 tells that vnStat has filled this value and it is in use.\r\n",
+      "format": "CSV",
+      "hash": "",
+      "id": "05fdf242-6950-4aeb-85f1-b89643d63b74",
+      "last_modified": "2018-07-31T10:07:54.037804",
+      "metadata_modified": "2018-07-31T10:04:52.070160",
+      "mimetype": "text/csv",
+      "mimetype_inner": null,
+      "name": "test_daily.csv",
+      "package_id": "2ec5b8b1-eb9f-4d4e-ad05-7c64d4ec2d0a",
+      "position": 3,
+      "resource_type": null,
+      "size": 1007,
+      "state": "active",
+      "tracking_summary": {
+        "total": 20,
+        "recent": 2
+      },
+      "url": "https://data.uni-hannover.de/dataset/2ec5b8b1-eb9f-4d4e-ad05-7c64d4ec2d0a/resource/05fdf242-6950-4aeb-85f1-b89643d63b74/download/test_daily.csv",
+      "url_type": "upload"
+    },
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2021-08-31T12:13:38.655526",
+      "datastore_active": false,
+      "description": "",
+      "format": "",
+      "hash": "",
+      "id": "45c96f9c-3576-4b22-947e-41d7a4f9a083",
+      "last_modified": null,
+      "metadata_modified": "2021-08-31T12:13:38.655526",
+      "mimetype": null,
+      "mimetype_inner": null,
+      "name": "Beispiel-Link",
+      "package_id": "2ec5b8b1-eb9f-4d4e-ad05-7c64d4ec2d0a",
+      "position": 4,
+      "resource_type": null,
+      "size": null,
+      "state": "active",
+      "tracking_summary": {
+        "total": 5,
+        "recent": 2
+      },
+      "url": "https://seafile.projekt.uni-hannover.de/d/77097dce3a4b47908dfc/",
+      "url_type": null
+    }
+  ],
+  "tags": [
+    {
+      "display_name": "Beispiel",
+      "id": "6881b4e1-8c6f-413a-9406-ceb15c342211",
+      "name": "Beispiel",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Examples",
+      "id": "eb442808-e907-4ff7-8f8b-be3ab5f9f113",
+      "name": "Examples",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Monitoring",
+      "id": "32075f84-c250-4dd0-9517-3b7c0e84a32b",
+      "name": "Monitoring",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Network",
+      "id": "dde870e9-5b5a-442d-860e-e95a9b2498c7",
+      "name": "Network",
+      "state": "active",
+      "vocabulary_id": null
+    }
+  ],
+  "relationships_as_subject": [],
+  "relationships_as_object": [],
+  "doi": "10.25835/LUIS.2",
+  "doi_status": true,
+  "domain": "https://data.uni-hannover.de",
+  "doi_date_published": "2018-08-08",
+  "doi_publisher": "LUIS"
+}

@@ -1,0 +1,127 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/VZKP3Y",
+    "identifier": "https://doi.org/10.25625/VZKP3Y",
+    "name": "Replication Data: R Scripts",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Nico",
+            "familyName": "Posnien",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Uni Goe, Dpt. of Developmental Biology"
+            },
+            "sameAs": "https://orcid.org/0000-0003-0700-5595",
+            "@id": "https://orcid.org/0000-0003-0700-5595",
+            "identifier": "https://orcid.org/0000-0003-0700-5595",
+            "name": "Posnien, Nico"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Micael",
+            "familyName": "Reis",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Uni Goe, Dpt. of Developmental Biology"
+            },
+            "name": "Reis, Micael"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Nico",
+            "familyName": "Posnien",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Uni Goe, Dpt. of Developmental Biology"
+            },
+            "sameAs": "https://orcid.org/0000-0003-0700-5595",
+            "@id": "https://orcid.org/0000-0003-0700-5595",
+            "identifier": "https://orcid.org/0000-0003-0700-5595",
+            "name": "Posnien, Nico"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Micael",
+            "familyName": "Reis",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Uni Goe, Dpt. of Developmental Biology"
+            },
+            "name": "Reis, Micael"
+        }
+    ],
+    "datePublished": "2020-06-25",
+    "dateModified": "2020-06-25",
+    "version": "1",
+    "description": "R Scripts for: - overlap of datasets - statistical analysis - removal of PCs during morphometrics analysis",
+    "keywords": [
+        "Medicine, Health and Life Sciences",
+        "R script",
+        "genomics",
+        "statistics",
+        "morphometrics"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "\"Multiple loci linked to inversions are associated with eye size variation in species of the Drosophila virilis phylad\""
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Final_Script_SNP_tables_analysis_Feb2020.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 118478,
+            "@id": "https://doi.org/10.25625/VZKP3Y/V08BFP",
+            "identifier": "https://doi.org/10.25625/VZKP3Y/V08BFP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/18991"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "ScriptStatisticalAnalysis_EyeSizePaper_Def_Cleaned_version.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 44474,
+            "@id": "https://doi.org/10.25625/VZKP3Y/8JHPVV",
+            "identifier": "https://doi.org/10.25625/VZKP3Y/8JHPVV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/18990"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Script_remove_PCs.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 4828,
+            "description": "R Script used to remove technical PCs during morphometrics analysis",
+            "@id": "https://doi.org/10.25625/VZKP3Y/BPPE4H",
+            "identifier": "https://doi.org/10.25625/VZKP3Y/BPPE4H",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/19593"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Medicine, Health and Life Sciences"
+    ],
+    "publications": [
+        {
+            "citation": "\"Multiple loci linked to inversions are associated with eye size variation in species of the Drosophila virilis phylad\""
+        }
+    ]
+}

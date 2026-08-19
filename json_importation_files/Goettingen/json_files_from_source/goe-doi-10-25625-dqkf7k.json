@@ -1,0 +1,59 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/DQKF7K",
+    "identifier": "https://doi.org/10.25625/DQKF7K",
+    "name": "Replication Data for: Mixed support of the stress gradient hypothesis for explaining interspecific associations in African ungulates",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Christian",
+            "familyName": "Kiffner",
+            "name": "Kiffner, Christian"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Christian",
+            "familyName": "Kiffner",
+            "name": "Kiffner, Christian"
+        }
+    ],
+    "datePublished": "2021-04-23",
+    "dateModified": "2021-04-23",
+    "version": "1",
+    "description": "The dataset contains sightings of large mammals in Manyara Ranch, northern Tanzania. Animal sightings were recorded along minor tracks from February to April 2015. Each cluster of animals was defined as individuals within 50 m of another individual. Clusterid is the running number of cluster observations, Obsdate and time are the observation date and time, perpdist the perpendicular distance between observer and the cluster, habitat denotes the habitat category (based on vegetation physiognomy), ImageDate is the date of the Modis dataset used to extract NDVI values for each cluster. These were binned into three classes (NDVIclass) according to the 0.33 and 0.67 percentiles of the NDVI values. The column insidelionhr indicates whether the cluster was inside (\u201cyes\u201d) or outside (\u201cno\u201d) the lion home range. The columns with the names of mammal species indicate the numbers of individuals of these species that were encountered. If only one species occurred in a cluster, this was denoted as \u201c0\u201d in the mixedgroup column; if more than one species occurred in a cluster, this was denoted as \u201c1\u201d.",
+    "keywords": [
+        "Medicine, Health and Life Sciences"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Mixed species data.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 103582,
+            "@id": "https://doi.org/10.25625/DQKF7K/X95T8M",
+            "identifier": "https://doi.org/10.25625/DQKF7K/X95T8M",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/22586"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Medicine, Health and Life Sciences"
+    ]
+}

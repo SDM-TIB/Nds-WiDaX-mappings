@@ -1,0 +1,216 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/IRTLKO",
+    "identifier": "https://doi.org/10.25625/IRTLKO",
+    "name": "Replication Data for: Landscape characteristics influence pest control services in macadamia orchards and shape bird and bat assemblages",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Mina",
+            "familyName": "Anders",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Georg-August University G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-9302-1876",
+            "@id": "https://orcid.org/0000-0002-9302-1876",
+            "identifier": "https://orcid.org/0000-0002-9302-1876",
+            "name": "Anders, Mina"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Mina",
+            "familyName": "Anders",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Georg-August University G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-9302-1876",
+            "@id": "https://orcid.org/0000-0002-9302-1876",
+            "identifier": "https://orcid.org/0000-0002-9302-1876",
+            "name": "Anders, Mina"
+        }
+    ],
+    "datePublished": "2026-07-30",
+    "dateModified": "2026-07-30",
+    "version": "1",
+    "description": "The data set contains the raw observation data (i.e. macadamua nut quality analyses, bat species and abundance, bird observations), cleaned and tranformed data (proc_data), R-scripts for the analyses and result files (i.e. compilation of model summaries, model sets and calculated values, etc.)",
+    "keywords": [
+        "Agricultural Sciences",
+        "Earth and Environmental Sciences"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "bird_qual.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 9122,
+            "description": "merged bird abundance and macadamia nut quality data",
+            "@id": "https://doi.org/10.25625/IRTLKO/YV9Y2I",
+            "identifier": "https://doi.org/10.25625/IRTLKO/YV9Y2I",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/188261"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "quality_data.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 29312,
+            "description": "cleaned macadamia quality data",
+            "@id": "https://doi.org/10.25625/IRTLKO/DAYTJK",
+            "identifier": "https://doi.org/10.25625/IRTLKO/DAYTJK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/188262"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "01-Landscape_effect_on_bats_and_birds_SpeciesAccum.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 41028,
+            "description": "R-script for the analysis of landscape effects on bat and bird species richness",
+            "@id": "https://doi.org/10.25625/IRTLKO/6ZVVRS",
+            "identifier": "https://doi.org/10.25625/IRTLKO/6ZVVRS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/188252"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "02-Insect_damage.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 30914,
+            "description": "R-script for the analysis of landscape and predator effects on macadamia yield and quality",
+            "@id": "https://doi.org/10.25625/IRTLKO/5UQENL",
+            "identifier": "https://doi.org/10.25625/IRTLKO/5UQENL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/188263"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "bat_data.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 13386,
+            "description": "Raw bat species occurence on sites",
+            "@id": "https://doi.org/10.25625/IRTLKO/UMLJTV",
+            "identifier": "https://doi.org/10.25625/IRTLKO/UMLJTV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/188256"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "bird_diet.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 198315,
+            "description": "Bird diets of observed birds",
+            "@id": "https://doi.org/10.25625/IRTLKO/OV0TJK",
+            "identifier": "https://doi.org/10.25625/IRTLKO/OV0TJK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/188264"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "bush_alt_hive_temp_irrigation_var.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 1206,
+            "description": "environmental data",
+            "@id": "https://doi.org/10.25625/IRTLKO/GJOLYK",
+            "identifier": "https://doi.org/10.25625/IRTLKO/GJOLYK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/188254"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "MacYield_season2.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 36316,
+            "description": "macadamia yield ",
+            "@id": "https://doi.org/10.25625/IRTLKO/QAVBHF",
+            "identifier": "https://doi.org/10.25625/IRTLKO/QAVBHF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/188253"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "quality_season2.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 30956,
+            "description": "Macadamia quality analsyses",
+            "@id": "https://doi.org/10.25625/IRTLKO/39L6WG",
+            "identifier": "https://doi.org/10.25625/IRTLKO/39L6WG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/188255"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "bird_bat_abundance.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 19150,
+            "description": "Results summarising the analyses about the bird and bat abundance on the sites",
+            "@id": "https://doi.org/10.25625/IRTLKO/VJLGQH",
+            "identifier": "https://doi.org/10.25625/IRTLKO/VJLGQH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/188251"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "bird_bat_diversity.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 10526,
+            "description": "Results summarising the analyses about the bird and bat diversity on the sites",
+            "@id": "https://doi.org/10.25625/IRTLKO/OPIQKC",
+            "identifier": "https://doi.org/10.25625/IRTLKO/OPIQKC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/188259"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "bird_bat_NMDS.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1837,
+            "description": "Results summarising the analyses about the bird and bat diversity and distribution on the sites",
+            "@id": "https://doi.org/10.25625/IRTLKO/BIMMWS",
+            "identifier": "https://doi.org/10.25625/IRTLKO/BIMMWS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/188257"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Bird_species_list.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 3328,
+            "description": "List of all bird species including the abundnance",
+            "@id": "https://doi.org/10.25625/IRTLKO/EJBZIC",
+            "identifier": "https://doi.org/10.25625/IRTLKO/EJBZIC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/188250"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Model_sets_MuMIN_predators.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "contentSize": 15687,
+            "description": "All model sets that resulted during the multi-model inference apporach",
+            "@id": "https://doi.org/10.25625/IRTLKO/IC1KW8",
+            "identifier": "https://doi.org/10.25625/IRTLKO/IC1KW8",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/188258"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Quality_Yield_landscape_PIB.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 19869,
+            "description": "Results summarising the effects of landscape and local orchard configuration on macadamia yield and quality",
+            "@id": "https://doi.org/10.25625/IRTLKO/DWHX43",
+            "identifier": "https://doi.org/10.25625/IRTLKO/DWHX43",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/188260"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Agricultural Sciences",
+        "Earth and Environmental Sciences"
+    ]
+}

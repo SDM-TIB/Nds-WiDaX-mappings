@@ -1,0 +1,423 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/1L7VDU",
+    "identifier": "https://doi.org/10.25625/1L7VDU",
+    "name": "Data and code for: Combining planting trees and natural regeneration promotes long-term structural complexity in oil palm landscapes",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Tatsuro",
+            "familyName": "Kikuchi",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Biodiversity, Macroecology and Biogeography, University of G\u00f6ttingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0009-0004-8844-1608",
+            "@id": "https://orcid.org/0009-0004-8844-1608",
+            "identifier": "https://orcid.org/0009-0004-8844-1608",
+            "name": "Kikuchi, Tatsuro"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Dominik",
+            "familyName": "Seidel",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department of Spatial Structures and Digitization of Forests, University of G\u00f6ttingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0003-4131-9424",
+            "@id": "https://orcid.org/0000-0003-4131-9424",
+            "identifier": "https://orcid.org/0000-0003-4131-9424",
+            "name": "Seidel, Dominik"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Martin",
+            "familyName": "Ehbrecht",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department of Silviculture and Forest Ecology of the Temperate Zones, University of G\u00f6ttingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0002-1543-3023",
+            "@id": "https://orcid.org/0000-0002-1543-3023",
+            "identifier": "https://orcid.org/0000-0002-1543-3023",
+            "name": "Ehbrecht, Martin"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Delphine Clara",
+            "familyName": "Zemp",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Conservation Biology Laboratory, Institute of Biology, University of Neuch\u00e2tel, Neuch\u00e2tel, Switzerland"
+            },
+            "sameAs": "https://orcid.org/0000-0002-2239-2995",
+            "@id": "https://orcid.org/0000-0002-2239-2995",
+            "identifier": "https://orcid.org/0000-0002-2239-2995",
+            "name": "Zemp, Delphine Clara"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Fabian",
+            "familyName": "Brambach",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Biodiversity, Macroecology and Biogeography, University of G\u00f6ttingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0002-3203-2248",
+            "@id": "https://orcid.org/0000-0002-3203-2248",
+            "identifier": "https://orcid.org/0000-0002-3203-2248",
+            "name": "Brambach, Fabian"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Bambang",
+            "familyName": "Irawan",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Forestry Department, Faculty of Agriculture, University of Jambi, Jambi, Indonesia"
+            },
+            "name": "Irawan, Bambang"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Leti",
+            "familyName": "Sundawati",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department of Forest Management, Faculty of Forestry and Environment, IPB University, Kampus IPB Dramaga, Bogor, Indonesia"
+            },
+            "sameAs": "https://orcid.org/0009-0002-8380-3273",
+            "@id": "https://orcid.org/0009-0002-8380-3273",
+            "identifier": "https://orcid.org/0009-0002-8380-3273",
+            "name": "Sundawati, Leti"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Dirk",
+            "familyName": "H\u00f6lscher",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Tropical Silviculture and Forest Ecology, University of G\u00f6ttingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0002-7097-3102",
+            "@id": "https://orcid.org/0000-0002-7097-3102",
+            "identifier": "https://orcid.org/0000-0002-7097-3102",
+            "name": "H\u00f6lscher, Dirk"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Holger",
+            "familyName": "Kreft",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Biodiversity, Macroecology and Biogeography, University of G\u00f6ttingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0003-4471-8236",
+            "@id": "https://orcid.org/0000-0003-4471-8236",
+            "identifier": "https://orcid.org/0000-0003-4471-8236",
+            "name": "Kreft, Holger"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Gustavo Brant",
+            "familyName": "Paterno",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Biodiversity, Macroecology and Biogeography, University of G\u00f6ttingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0001-9719-3037",
+            "@id": "https://orcid.org/0000-0001-9719-3037",
+            "identifier": "https://orcid.org/0000-0001-9719-3037",
+            "name": "Paterno, Gustavo Brant"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Tatsuro",
+            "familyName": "Kikuchi",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Biodiversity, Macroecology and Biogeography, University of G\u00f6ttingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0009-0004-8844-1608",
+            "@id": "https://orcid.org/0009-0004-8844-1608",
+            "identifier": "https://orcid.org/0009-0004-8844-1608",
+            "name": "Kikuchi, Tatsuro"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Dominik",
+            "familyName": "Seidel",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department of Spatial Structures and Digitization of Forests, University of G\u00f6ttingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0003-4131-9424",
+            "@id": "https://orcid.org/0000-0003-4131-9424",
+            "identifier": "https://orcid.org/0000-0003-4131-9424",
+            "name": "Seidel, Dominik"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Martin",
+            "familyName": "Ehbrecht",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department of Silviculture and Forest Ecology of the Temperate Zones, University of G\u00f6ttingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0002-1543-3023",
+            "@id": "https://orcid.org/0000-0002-1543-3023",
+            "identifier": "https://orcid.org/0000-0002-1543-3023",
+            "name": "Ehbrecht, Martin"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Delphine Clara",
+            "familyName": "Zemp",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Conservation Biology Laboratory, Institute of Biology, University of Neuch\u00e2tel, Neuch\u00e2tel, Switzerland"
+            },
+            "sameAs": "https://orcid.org/0000-0002-2239-2995",
+            "@id": "https://orcid.org/0000-0002-2239-2995",
+            "identifier": "https://orcid.org/0000-0002-2239-2995",
+            "name": "Zemp, Delphine Clara"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Fabian",
+            "familyName": "Brambach",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Biodiversity, Macroecology and Biogeography, University of G\u00f6ttingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0002-3203-2248",
+            "@id": "https://orcid.org/0000-0002-3203-2248",
+            "identifier": "https://orcid.org/0000-0002-3203-2248",
+            "name": "Brambach, Fabian"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Bambang",
+            "familyName": "Irawan",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Forestry Department, Faculty of Agriculture, University of Jambi, Jambi, Indonesia"
+            },
+            "name": "Irawan, Bambang"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Leti",
+            "familyName": "Sundawati",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department of Forest Management, Faculty of Forestry and Environment, IPB University, Kampus IPB Dramaga, Bogor, Indonesia"
+            },
+            "sameAs": "https://orcid.org/0009-0002-8380-3273",
+            "@id": "https://orcid.org/0009-0002-8380-3273",
+            "identifier": "https://orcid.org/0009-0002-8380-3273",
+            "name": "Sundawati, Leti"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Dirk",
+            "familyName": "H\u00f6lscher",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Tropical Silviculture and Forest Ecology, University of G\u00f6ttingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0002-7097-3102",
+            "@id": "https://orcid.org/0000-0002-7097-3102",
+            "identifier": "https://orcid.org/0000-0002-7097-3102",
+            "name": "H\u00f6lscher, Dirk"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Holger",
+            "familyName": "Kreft",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Biodiversity, Macroecology and Biogeography, University of G\u00f6ttingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0003-4471-8236",
+            "@id": "https://orcid.org/0000-0003-4471-8236",
+            "identifier": "https://orcid.org/0000-0003-4471-8236",
+            "name": "Kreft, Holger"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Gustavo Brant",
+            "familyName": "Paterno",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Biodiversity, Macroecology and Biogeography, University of G\u00f6ttingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0001-9719-3037",
+            "@id": "https://orcid.org/0000-0001-9719-3037",
+            "identifier": "https://orcid.org/0000-0001-9719-3037",
+            "name": "Paterno, Gustavo Brant"
+        }
+    ],
+    "datePublished": "2024-07-24",
+    "dateModified": "2024-07-24",
+    "version": "1",
+    "description": "Data and code for: Combining planting trees and natural regeneration promotes long-term structural complexity in oil palm landscapes",
+    "keywords": [
+        "Agricultural Sciences",
+        "Earth and Environmental Sciences"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "01_LMM.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 28670,
+            "@id": "https://doi.org/10.25625/1L7VDU/E1M8FP",
+            "identifier": "https://doi.org/10.25625/1L7VDU/E1M8FP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108445"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "01_multi_comparison.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 4062,
+            "@id": "https://doi.org/10.25625/1L7VDU/GJSZ4Q",
+            "identifier": "https://doi.org/10.25625/1L7VDU/GJSZ4Q",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108448"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "01_PCA_trajectory.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 19789,
+            "@id": "https://doi.org/10.25625/1L7VDU/UYSRH0",
+            "identifier": "https://doi.org/10.25625/1L7VDU/UYSRH0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108443"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "02_LMM.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 28944,
+            "@id": "https://doi.org/10.25625/1L7VDU/XABTWD",
+            "identifier": "https://doi.org/10.25625/1L7VDU/XABTWD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108442"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "02_LMM_realized_diversity.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 29382,
+            "@id": "https://doi.org/10.25625/1L7VDU/YZUUNJ",
+            "identifier": "https://doi.org/10.25625/1L7VDU/YZUUNJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108446"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "02_PCA_correlation.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 11818,
+            "@id": "https://doi.org/10.25625/1L7VDU/JZWQ0J",
+            "identifier": "https://doi.org/10.25625/1L7VDU/JZWQ0J",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108449"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "inventory_indices_2022.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 18710,
+            "@id": "https://doi.org/10.25625/1L7VDU/QUI9SN",
+            "identifier": "https://doi.org/10.25625/1L7VDU/QUI9SN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108440"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Linear modelling workflow_support functions.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 95557,
+            "@id": "https://doi.org/10.25625/1L7VDU/VJ1AYA",
+            "identifier": "https://doi.org/10.25625/1L7VDU/VJ1AYA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108438"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "README_data.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 4251,
+            "@id": "https://doi.org/10.25625/1L7VDU/8T4KEY",
+            "identifier": "https://doi.org/10.25625/1L7VDU/8T4KEY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108450"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "README_Rscript.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 488,
+            "@id": "https://doi.org/10.25625/1L7VDU/NM7AQD",
+            "identifier": "https://doi.org/10.25625/1L7VDU/NM7AQD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108447"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "realized_planted_tree_diversity.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1413,
+            "@id": "https://doi.org/10.25625/1L7VDU/64LJUV",
+            "identifier": "https://doi.org/10.25625/1L7VDU/64LJUV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108451"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "supp_basal_area_table.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 2190,
+            "@id": "https://doi.org/10.25625/1L7VDU/CSGALQ",
+            "identifier": "https://doi.org/10.25625/1L7VDU/CSGALQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108441"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TLS_indices_all.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 24763,
+            "@id": "https://doi.org/10.25625/1L7VDU/20IV61",
+            "identifier": "https://doi.org/10.25625/1L7VDU/20IV61",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108439"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "UTM_coordinates.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 2050,
+            "@id": "https://doi.org/10.25625/1L7VDU/OCBMCD",
+            "identifier": "https://doi.org/10.25625/1L7VDU/OCBMCD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108444"
+        }
+    ],
+    "license_title": "Creative Commons Attribution 4.0 International",
+    "subjects": [
+        "Agricultural Sciences",
+        "Earth and Environmental Sciences"
+    ],
+    "publications": [
+        {}
+    ]
+}

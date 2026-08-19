@@ -1,0 +1,113 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/B5SE35",
+    "identifier": "https://doi.org/10.25625/B5SE35",
+    "name": "Examples of self defining type definitions",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Ulrich",
+            "familyName": "Schwardmann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "GWDG"
+            },
+            "sameAs": "https://orcid.org/0000-0001-6337-8674",
+            "@id": "https://orcid.org/0000-0001-6337-8674",
+            "identifier": "https://orcid.org/0000-0001-6337-8674",
+            "name": "Schwardmann, Ulrich"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Ulrich",
+            "familyName": "Schwardmann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "GWDG"
+            },
+            "sameAs": "https://orcid.org/0000-0001-6337-8674",
+            "@id": "https://orcid.org/0000-0001-6337-8674",
+            "identifier": "https://orcid.org/0000-0001-6337-8674",
+            "name": "Schwardmann, Ulrich"
+        }
+    ],
+    "datePublished": "2024-11-04",
+    "dateModified": "2024-11-04",
+    "version": "1",
+    "description": "This container helds JSON files of type definitions given in the DTR https://dtr-test.pidconsortium.net/ that are self defining in the sense that the type definition itself can be described by the means of the given type definition. The JSON files are provided for the FDO type definition and for the operator grammar rules as a very basic structure to describe self defining grammar rules. Additionally a file that contains the basic information types that are used in both other definitions as subsets of elementary types like numbers or strings. Ulrich Schwardmann G\u00f6ttingen, 03.11.2024",
+    "keywords": [
+        "Computer and Information Science",
+        "Mathematical Sciences"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "U. Schwardmann, \"How to Design FDO Profiles and Kernel Attributes? - An Investigation Along Processing, Grammars and Automata\", 2024"
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "basic_type_definitions.json",
+            "encodingFormat": "application/json",
+            "contentSize": 626860,
+            "@id": "https://doi.org/10.25625/B5SE35/BOAEO3",
+            "identifier": "https://doi.org/10.25625/B5SE35/BOAEO3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/116151"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "type_definitions_context_FDO_type_definition.json",
+            "encodingFormat": "application/json",
+            "contentSize": 203128,
+            "@id": "https://doi.org/10.25625/B5SE35/7O5XAB",
+            "identifier": "https://doi.org/10.25625/B5SE35/7O5XAB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/116152"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "type_definitions_context_grammar_rules.json",
+            "encodingFormat": "application/json",
+            "contentSize": 25594,
+            "@id": "https://doi.org/10.25625/B5SE35/JZUUNU",
+            "identifier": "https://doi.org/10.25625/B5SE35/JZUUNU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/116153"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "type_definitions_README.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 634,
+            "@id": "https://doi.org/10.25625/B5SE35/RPKVZ6",
+            "identifier": "https://doi.org/10.25625/B5SE35/RPKVZ6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/116154"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Computer and Information Science",
+        "Mathematical Sciences"
+    ],
+    "publications": [
+        {
+            "citation": "U. Schwardmann, \"How to Design FDO Profiles and Kernel Attributes? - An Investigation Along Processing, Grammars and Automata\", 2024"
+        }
+    ]
+}

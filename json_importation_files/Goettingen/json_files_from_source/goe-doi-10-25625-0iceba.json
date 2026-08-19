@@ -1,0 +1,357 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/0ICEBA",
+    "identifier": "https://doi.org/10.25625/0ICEBA",
+    "name": "Data for: Benchmark Study for the Simulation of Underground Hydrogen Storage Operations",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Sebastian",
+            "familyName": "Hogeweg",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Clausthal University of Technology"
+            },
+            "name": "Hogeweg, Sebastian"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Gion",
+            "familyName": "Strobel",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Clausthal University of Technology"
+            },
+            "name": "Strobel, Gion"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Birger",
+            "familyName": "Hagemann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Clausthal University of Technology"
+            },
+            "name": "Hagemann, Birger"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Sebastian",
+            "familyName": "Hogeweg",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Clausthal University of Technology"
+            },
+            "name": "Hogeweg, Sebastian"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Gion",
+            "familyName": "Strobel",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Clausthal University of Technology"
+            },
+            "name": "Strobel, Gion"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Birger",
+            "familyName": "Hagemann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Clausthal University of Technology"
+            },
+            "name": "Hagemann, Birger"
+        }
+    ],
+    "datePublished": "2022-04-19",
+    "dateModified": "2024-06-05",
+    "version": "1",
+    "description": "This benchmark study establishes an underground hydrogen storage (UHS) scenario to evaluate the capabilities of various simulators to predict hydrogen-related processes. The scenario itself comprises a semi-artificial grid representing typical sandstone formations. The gas storage is operated with one well in the formation center. Initially, the formation is saturated with natural gas in a hydrostatic equilibrium. A periodic pressure-controlled injection of hydrogen-containing gas achieves a transformation from a gas reservoir to a UHS. Afterward, four regular storage cycles composing three months of injection and production with idle times are performed. This study considers two cases varying in hydrogen concentration blended to the natural gas stream (10% and 80% H2). The benchmark scenario is provided in Schlumberger Eclipse simulation format, including the relevant files such as the grid, properties, and schedule. Additionally, the commercial simulator Schlumberger Eclipse and the open-source simulator DuMux were compared in a first commit. The corresponding results are part of the current repository to compare futural commits better. Therefore, we invite you to simulate this study by yourself and compare the present results with other open-source or commercial simulators. An updated version of the DuMux source code can be accessed on the Gitlab repository.",
+    "keywords": [
+        "Engineering",
+        "Underground Hydrogen Storage",
+        "Underground Energy Storage",
+        "Reservoir Simulation",
+        "Microbial Activity"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "Benchmark study for the simulation of Underground Hydrogen Storage operations",
+            "@id": "https://doi.org/10.1007/s10596-022-10163-5",
+            "identifier": "https://doi.org/10.1007/s10596-022-10163-5",
+            "url": "https://doi.org/10.1007/s10596-022-10163-5"
+        }
+    ],
+    "license": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "ReadMe.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 2069,
+            "description": "Benchmark Description",
+            "@id": "https://doi.org/10.25625/0ICEBA/VX8HZC",
+            "identifier": "https://doi.org/10.25625/0ICEBA/VX8HZC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/43571"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "dumux_caseI.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 102834,
+            "description": "UHS Benchmark Results Dumux Case I",
+            "@id": "https://doi.org/10.25625/0ICEBA/KETEXB",
+            "identifier": "https://doi.org/10.25625/0ICEBA/KETEXB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/43570"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "dumux_caseII.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 102863,
+            "description": "UHS Benchmark Results Dumux Case II",
+            "@id": "https://doi.org/10.25625/0ICEBA/LEVOCQ",
+            "identifier": "https://doi.org/10.25625/0ICEBA/LEVOCQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/43589"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "dumux_caseIII.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 124363,
+            "description": "UHS Benchmark Results Dumux Case III",
+            "@id": "https://doi.org/10.25625/0ICEBA/S1GUCD",
+            "identifier": "https://doi.org/10.25625/0ICEBA/S1GUCD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/43603"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "dumux_caseIV.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 124534,
+            "description": "UHS Benchmark Results Dumux Case IV",
+            "@id": "https://doi.org/10.25625/0ICEBA/RBNCQ7",
+            "identifier": "https://doi.org/10.25625/0ICEBA/RBNCQ7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/43587"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "eclipse_caseI.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 23660,
+            "description": "UHS Benchmark Results Eclipse Case I",
+            "@id": "https://doi.org/10.25625/0ICEBA/56BT8J",
+            "identifier": "https://doi.org/10.25625/0ICEBA/56BT8J",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/43572"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "eclipse_caseII.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 24255,
+            "description": "UHS Benchmark Results Eclipse Case II",
+            "@id": "https://doi.org/10.25625/0ICEBA/80UPTK",
+            "identifier": "https://doi.org/10.25625/0ICEBA/80UPTK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/43588"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "UHS_Benchmark_HighH2.DATA",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 2659,
+            "description": "UHS Benchmark - Input File - Eclipse - Case II",
+            "@id": "https://doi.org/10.25625/0ICEBA/15YFZZ",
+            "identifier": "https://doi.org/10.25625/0ICEBA/15YFZZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/43586"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "UHS_Benchmark_LowH2.DATA",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 2660,
+            "description": "UHS Benchmark - Input File - Eclipse - Case I",
+            "@id": "https://doi.org/10.25625/0ICEBA/LKW3UM",
+            "identifier": "https://doi.org/10.25625/0ICEBA/LKW3UM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/43567"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "UHS_Benchmark_GRID.GRDECL",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 2052021,
+            "description": "UHS Benchmark - Input File - Eclipse ",
+            "@id": "https://doi.org/10.25625/0ICEBA/GTK3LG",
+            "identifier": "https://doi.org/10.25625/0ICEBA/GTK3LG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/43590"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "UHS_Benchmark_PROP_EOSNUM.GRDECL",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 472,
+            "description": "UHS Benchmark - Input File - Eclipse",
+            "@id": "https://doi.org/10.25625/0ICEBA/42K483",
+            "identifier": "https://doi.org/10.25625/0ICEBA/42K483",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/43568"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "UHS_Benchmark_PROP_EQLNUM.GRDECL",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 464,
+            "description": "UHS Benchmark - Input File - Eclipse",
+            "@id": "https://doi.org/10.25625/0ICEBA/8DTS0H",
+            "identifier": "https://doi.org/10.25625/0ICEBA/8DTS0H",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/43576"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "UHS_Benchmark_PROP_PERMX.GRDECL",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 361190,
+            "description": "UHS Benchmark - Input File - Eclipse",
+            "@id": "https://doi.org/10.25625/0ICEBA/6NSVVV",
+            "identifier": "https://doi.org/10.25625/0ICEBA/6NSVVV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/43582"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "UHS_Benchmark_PROP_PERMY.GRDECL",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 361278,
+            "description": "UHS Benchmark - Input File - Eclipse",
+            "@id": "https://doi.org/10.25625/0ICEBA/YGCMMF",
+            "identifier": "https://doi.org/10.25625/0ICEBA/YGCMMF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/43573"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "UHS_Benchmark_PROP_PERMZ.GRDECL",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 374000,
+            "description": "UHS Benchmark - Input File - Eclipse",
+            "@id": "https://doi.org/10.25625/0ICEBA/NIUP7N",
+            "identifier": "https://doi.org/10.25625/0ICEBA/NIUP7N",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/43585"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "UHS_Benchmark_PROP_PORO.GRDECL",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 414060,
+            "description": "UHS Benchmark - Input File - Eclipse",
+            "@id": "https://doi.org/10.25625/0ICEBA/QSWCRV",
+            "identifier": "https://doi.org/10.25625/0ICEBA/QSWCRV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/43569"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "UHS_Benchmark_PROP_PVTNUM.GRDECL",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 472,
+            "description": "UHS Benchmark - Input File - Eclipse",
+            "@id": "https://doi.org/10.25625/0ICEBA/YUVHBG",
+            "identifier": "https://doi.org/10.25625/0ICEBA/YUVHBG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/43583"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "UHS_Benchmark_PROP_ROCKNUM.GRDECL",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 474,
+            "description": "UHS Benchmark - Input File - Eclipse",
+            "@id": "https://doi.org/10.25625/0ICEBA/N1GCJ3",
+            "identifier": "https://doi.org/10.25625/0ICEBA/N1GCJ3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/43584"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "UHS_Benchmark_PROP_SATNUM.GRDECL",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 475,
+            "description": "UHS Benchmark - Input File - Eclipse",
+            "@id": "https://doi.org/10.25625/0ICEBA/VWSFD9",
+            "identifier": "https://doi.org/10.25625/0ICEBA/VWSFD9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/43580"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "UHS_Benchmark_GRID.INC",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 711,
+            "description": "UHS Benchmark - Input File - Eclipse",
+            "@id": "https://doi.org/10.25625/0ICEBA/ZCNK2S",
+            "identifier": "https://doi.org/10.25625/0ICEBA/ZCNK2S",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/43578"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "UHS_Benchmark_PROPS.INC",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 5896,
+            "description": "UHS Benchmark - Input File - Eclipse",
+            "@id": "https://doi.org/10.25625/0ICEBA/1UIW0A",
+            "identifier": "https://doi.org/10.25625/0ICEBA/1UIW0A",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/43574"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "UHS_Benchmark_SCH.INC",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 6542,
+            "description": "UHS Benchmark - Input File - Eclipse",
+            "@id": "https://doi.org/10.25625/0ICEBA/OUCYWP",
+            "identifier": "https://doi.org/10.25625/0ICEBA/OUCYWP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/43579"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "UHS_Benchmark_SOL.INC",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 472,
+            "description": "UHS Benchmark - Input File - Eclipse",
+            "@id": "https://doi.org/10.25625/0ICEBA/KMCZ1K",
+            "identifier": "https://doi.org/10.25625/0ICEBA/KMCZ1K",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/43581"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "UHS_Benchmark_SUM.INC",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 738,
+            "description": "UHS Benchmark - Input File - Eclipse",
+            "@id": "https://doi.org/10.25625/0ICEBA/OLZ5RF",
+            "identifier": "https://doi.org/10.25625/0ICEBA/OLZ5RF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/43577"
+        }
+    ],
+    "license_title": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+    "subjects": [
+        "Engineering"
+    ],
+    "publications": [
+        {
+            "citation": "Benchmark study for the simulation of Underground Hydrogen Storage operations",
+            "url": "https://doi.org/10.1007/s10596-022-10163-5"
+        }
+    ]
+}

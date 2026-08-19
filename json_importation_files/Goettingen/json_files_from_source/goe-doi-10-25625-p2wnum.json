@@ -1,0 +1,132 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/P2WNUM",
+    "identifier": "https://doi.org/10.25625/P2WNUM",
+    "name": "codes_Extraction",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Stefan",
+            "familyName": "Treue",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "German Primate Center"
+            },
+            "name": "Treue, Stefan"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Stefan",
+            "familyName": "Treue",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "German Primate Center"
+            },
+            "name": "Treue, Stefan"
+        }
+    ],
+    "datePublished": "2026-06-03",
+    "dateModified": "2026-06-03",
+    "version": "1",
+    "description": "Code for extracting experimental data. See ReadMeFiles in Dataset \"Supplemental files - ReadMe\" for instructions.",
+    "keywords": [
+        "Medicine, Health and Life Sciences"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "Registered Report \"The time course of human perceptual performance - no evidence for rhythmic attention in a highly-powered registered report\", Schoeberl, Hohmann & Treue, Communications Psychology, 2026"
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "allDataExtracted.mat",
+            "encodingFormat": "application/matlab-mat",
+            "contentSize": 835455,
+            "@id": "https://doi.org/10.25625/P2WNUM/0PRTEO",
+            "identifier": "https://doi.org/10.25625/P2WNUM/0PRTEO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/172251"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "data.mat",
+            "encodingFormat": "application/matlab-mat",
+            "contentSize": 288363,
+            "@id": "https://doi.org/10.25625/P2WNUM/80G8HP",
+            "identifier": "https://doi.org/10.25625/P2WNUM/80G8HP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/172248"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "extractData.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 4556,
+            "@id": "https://doi.org/10.25625/P2WNUM/YWOGDN",
+            "identifier": "https://doi.org/10.25625/P2WNUM/YWOGDN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/172249"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "parseTrialTypeFSK13.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 924,
+            "@id": "https://doi.org/10.25625/P2WNUM/DESAHQ",
+            "identifier": "https://doi.org/10.25625/P2WNUM/DESAHQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/172252"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "rab_readH5.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 2878,
+            "@id": "https://doi.org/10.25625/P2WNUM/J1EFPT",
+            "identifier": "https://doi.org/10.25625/P2WNUM/J1EFPT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/172246"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "runExtraction.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 1250,
+            "@id": "https://doi.org/10.25625/P2WNUM/SVRUQY",
+            "identifier": "https://doi.org/10.25625/P2WNUM/SVRUQY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/172250"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "squeezeAndCheck.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 1933,
+            "@id": "https://doi.org/10.25625/P2WNUM/DYRJVB",
+            "identifier": "https://doi.org/10.25625/P2WNUM/DYRJVB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/172247"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Medicine, Health and Life Sciences"
+    ],
+    "publications": [
+        {
+            "citation": "Registered Report \"The time course of human perceptual performance - no evidence for rhythmic attention in a highly-powered registered report\", Schoeberl, Hohmann &amp; Treue, Communications Psychology, 2026"
+        }
+    ]
+}

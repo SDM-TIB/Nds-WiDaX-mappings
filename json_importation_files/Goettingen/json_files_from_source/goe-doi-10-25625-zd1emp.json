@@ -1,0 +1,602 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/ZD1EMP",
+    "identifier": "https://doi.org/10.25625/ZD1EMP",
+    "name": "EFForTS-BEE - Oil palm yield 2016-2019",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Delphine Clara",
+            "familyName": "Zemp",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "G\u00f6ttingen University"
+            },
+            "name": "Zemp, Delphine Clara"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Hendrik",
+            "familyName": "Lorenz",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "G\u00f6ttingen University"
+            },
+            "name": "Lorenz, Hendrik"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Holger",
+            "familyName": "Kreft",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "G\u00f6ttingen University"
+            },
+            "name": "Kreft, Holger"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Bambang",
+            "familyName": "Irawan",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Jambi University"
+            },
+            "name": "Irawan, Bambang"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Dirk",
+            "familyName": "H\u00f6lscher",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "G\u00f6ttingen University"
+            },
+            "name": "H\u00f6lscher, Dirk"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Leti",
+            "familyName": "Sundawati",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Bogor Agricultural University"
+            },
+            "name": "Sundawati, Leti"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Delphine Clara",
+            "familyName": "Zemp",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "G\u00f6ttingen University"
+            },
+            "name": "Zemp, Delphine Clara"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Hendrik",
+            "familyName": "Lorenz",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "G\u00f6ttingen University"
+            },
+            "name": "Lorenz, Hendrik"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Holger",
+            "familyName": "Kreft",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "G\u00f6ttingen University"
+            },
+            "name": "Kreft, Holger"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Bambang",
+            "familyName": "Irawan",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Jambi University"
+            },
+            "name": "Irawan, Bambang"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Dirk",
+            "familyName": "H\u00f6lscher",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "G\u00f6ttingen University"
+            },
+            "name": "H\u00f6lscher, Dirk"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Leti",
+            "familyName": "Sundawati",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Bogor Agricultural University"
+            },
+            "name": "Sundawati, Leti"
+        }
+    ],
+    "datePublished": "2023-05-03",
+    "dateModified": "2023-05-03",
+    "version": "1",
+    "description": "Oil palm yield in EFForTS-BEE until 18/06",
+    "keywords": [
+        "Agricultural Sciences"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "2022-02-11-read_data_OP_yield.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 15767,
+            "@id": "https://doi.org/10.25625/ZD1EMP/82EXLL",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/82EXLL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52756"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2022-02-11-stat_analysis_OP_yield.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 4875,
+            "@id": "https://doi.org/10.25625/ZD1EMP/C8BJAJ",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/C8BJAJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52757"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2022-02-11-Y.palm.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 15685,
+            "@id": "https://doi.org/10.25625/ZD1EMP/CNFDDL",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/CNFDDL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52762"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "B11plots_OP.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 651,
+            "@id": "https://doi.org/10.25625/ZD1EMP/4XNVOA",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/4XNVOA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52750"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "B11_OilPalms_adjacent.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1533,
+            "@id": "https://doi.org/10.25625/ZD1EMP/1TAKFG",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/1TAKFG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52734"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "B11_OilPalms_adjacent_all_measure.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 23513,
+            "@id": "https://doi.org/10.25625/ZD1EMP/QESJGS",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/QESJGS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52755"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "ins_long_sum_and_ef.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 10471,
+            "@id": "https://doi.org/10.25625/ZD1EMP/4DV5TG",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/4DV5TG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52730"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_AdjacentPlot_201710.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 5374,
+            "@id": "https://doi.org/10.25625/ZD1EMP/6QNNPH",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/6QNNPH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52746"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_AdjacentPlot_201711.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 5137,
+            "@id": "https://doi.org/10.25625/ZD1EMP/THONZD",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/THONZD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52749"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_AdjacentPlot_201712.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 5069,
+            "@id": "https://doi.org/10.25625/ZD1EMP/BY3DG8",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/BY3DG8",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52741"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_AdjacentPlot_201801.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 5076,
+            "@id": "https://doi.org/10.25625/ZD1EMP/8RTQT0",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/8RTQT0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52744"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_AdjacentPlot_201802.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 5249,
+            "@id": "https://doi.org/10.25625/ZD1EMP/VPXQRR",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/VPXQRR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52764"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_AdjacentPlot_201803.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 5349,
+            "@id": "https://doi.org/10.25625/ZD1EMP/F9LGGH",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/F9LGGH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52719"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_AdjacentPlot_201804.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 5548,
+            "@id": "https://doi.org/10.25625/ZD1EMP/DRE1ZW",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/DRE1ZW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52742"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_AdjacentPlot_201805.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 5827,
+            "@id": "https://doi.org/10.25625/ZD1EMP/PNN3OX",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/PNN3OX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52754"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_AdjacentPlot_201806.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 5736,
+            "@id": "https://doi.org/10.25625/ZD1EMP/UNU5GD",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/UNU5GD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52743"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_AdjacentPlot_201807.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 5788,
+            "@id": "https://doi.org/10.25625/ZD1EMP/0DLGTC",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/0DLGTC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52720"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_AdjacentPlot_201808.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 5668,
+            "@id": "https://doi.org/10.25625/ZD1EMP/W1MGDG",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/W1MGDG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52728"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_AdjacentPlot_201809.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 5550,
+            "@id": "https://doi.org/10.25625/ZD1EMP/ALITXC",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/ALITXC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52724"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_AdjacentPlot_201810.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 5453,
+            "@id": "https://doi.org/10.25625/ZD1EMP/C9TYBT",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/C9TYBT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52738"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_InsidePlot_201710.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 7501,
+            "@id": "https://doi.org/10.25625/ZD1EMP/SPEYGI",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/SPEYGI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52731"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_InsidePlot_201711.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 7181,
+            "@id": "https://doi.org/10.25625/ZD1EMP/FBHY2P",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/FBHY2P",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52729"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_InsidePlot_201712.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 7128,
+            "@id": "https://doi.org/10.25625/ZD1EMP/RTBAU9",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/RTBAU9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52752"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_InsidePlot_201801.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 7279,
+            "@id": "https://doi.org/10.25625/ZD1EMP/LI7LSD",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/LI7LSD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52739"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_InsidePlot_201802.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 7353,
+            "@id": "https://doi.org/10.25625/ZD1EMP/PYNFVY",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/PYNFVY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52763"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_InsidePlot_201803.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 7323,
+            "@id": "https://doi.org/10.25625/ZD1EMP/59IMLT",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/59IMLT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52748"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_InsidePlot_201804.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 7788,
+            "@id": "https://doi.org/10.25625/ZD1EMP/DLLBJL",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/DLLBJL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52745"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_InsidePlot_201805.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 8138,
+            "@id": "https://doi.org/10.25625/ZD1EMP/RUY2HW",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/RUY2HW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52733"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_InsidePlot_201806.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 7966,
+            "@id": "https://doi.org/10.25625/ZD1EMP/FOTDRW",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/FOTDRW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52732"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_InsidePlot_201807.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 7826,
+            "@id": "https://doi.org/10.25625/ZD1EMP/IMPFQ0",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/IMPFQ0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52761"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_InsidePlot_201808.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 7813,
+            "@id": "https://doi.org/10.25625/ZD1EMP/N7LPKD",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/N7LPKD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52737"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_InsidePlot_201809.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 7453,
+            "@id": "https://doi.org/10.25625/ZD1EMP/CT1L9K",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/CT1L9K",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52765"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_InsidePlot_201810.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 7493,
+            "@id": "https://doi.org/10.25625/ZD1EMP/YFIYHU",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/YFIYHU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52726"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_OutsidePlot_201710.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 998,
+            "@id": "https://doi.org/10.25625/ZD1EMP/EDLQ5A",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/EDLQ5A",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52736"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_OutsidePlot_201711.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 922,
+            "@id": "https://doi.org/10.25625/ZD1EMP/7L6VOU",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/7L6VOU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52758"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_OutsidePlot_201712.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 913,
+            "@id": "https://doi.org/10.25625/ZD1EMP/SDUEHX",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/SDUEHX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52753"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_OutsidePlot_201801.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 929,
+            "@id": "https://doi.org/10.25625/ZD1EMP/GKG8UH",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/GKG8UH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52735"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_OutsidePlot_201802.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 945,
+            "@id": "https://doi.org/10.25625/ZD1EMP/VTIO4N",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/VTIO4N",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52760"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_OutsidePlot_201803.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 998,
+            "@id": "https://doi.org/10.25625/ZD1EMP/AZKQWA",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/AZKQWA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52766"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_OutsidePlot_201804.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 1002,
+            "@id": "https://doi.org/10.25625/ZD1EMP/V63ZJT",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/V63ZJT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52727"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_OutsidePlot_201805.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 1028,
+            "@id": "https://doi.org/10.25625/ZD1EMP/SLAZOW",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/SLAZOW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52747"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_OutsidePlot_201806.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 1105,
+            "@id": "https://doi.org/10.25625/ZD1EMP/HXPNYX",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/HXPNYX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52740"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_OutsidePlot_201807.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 989,
+            "@id": "https://doi.org/10.25625/ZD1EMP/CMNISI",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/CMNISI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52751"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_OutsidePlot_201808.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 1033,
+            "@id": "https://doi.org/10.25625/ZD1EMP/QQKD4V",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/QQKD4V",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52723"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_OutsidePlot_201809.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 935,
+            "@id": "https://doi.org/10.25625/ZD1EMP/QBIIJN",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/QBIIJN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52759"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OPyield_OutsidePlot_201810.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 974,
+            "@id": "https://doi.org/10.25625/ZD1EMP/GKXR6G",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/GKXR6G",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52767"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Y.B11plot.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 2190,
+            "@id": "https://doi.org/10.25625/ZD1EMP/M7I0H1",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/M7I0H1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52721"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Y.net.plot.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 3386,
+            "@id": "https://doi.org/10.25625/ZD1EMP/NN1TUE",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/NN1TUE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52725"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Y.out.palm.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 546,
+            "@id": "https://doi.org/10.25625/ZD1EMP/OL0LTX",
+            "identifier": "https://doi.org/10.25625/ZD1EMP/OL0LTX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/52722"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Agricultural Sciences"
+    ],
+    "publications": [
+        {}
+    ]
+}

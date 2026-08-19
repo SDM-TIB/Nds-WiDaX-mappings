@@ -1,0 +1,149 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/UHPEQG",
+    "identifier": "https://doi.org/10.25625/UHPEQG",
+    "name": "Replication Data for: Trefftz Discontinuous Galerkin discretization for the Stokes problem",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Philip L.",
+            "familyName": "Lederer",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Twente"
+            },
+            "sameAs": "https://orcid.org/0000-0003-1875-7442",
+            "@id": "https://orcid.org/0000-0003-1875-7442",
+            "identifier": "https://orcid.org/0000-0003-1875-7442",
+            "name": "Lederer, Philip L."
+        },
+        {
+            "@type": "Person",
+            "givenName": "Christoph",
+            "familyName": "Lehrenfeld",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Georg-August-Universit\u00e4t G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0003-0170-8468",
+            "@id": "https://orcid.org/0000-0003-0170-8468",
+            "identifier": "https://orcid.org/0000-0003-0170-8468",
+            "name": "Lehrenfeld, Christoph"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Paul",
+            "familyName": "Stocker",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Georg-August-Universit\u00e4t G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0001-5073-3366",
+            "@id": "https://orcid.org/0000-0001-5073-3366",
+            "identifier": "https://orcid.org/0000-0001-5073-3366",
+            "name": "Stocker, Paul"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Philip L.",
+            "familyName": "Lederer",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Twente"
+            },
+            "sameAs": "https://orcid.org/0000-0003-1875-7442",
+            "@id": "https://orcid.org/0000-0003-1875-7442",
+            "identifier": "https://orcid.org/0000-0003-1875-7442",
+            "name": "Lederer, Philip L."
+        },
+        {
+            "@type": "Person",
+            "givenName": "Christoph",
+            "familyName": "Lehrenfeld",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Georg-August-Universit\u00e4t G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0003-0170-8468",
+            "@id": "https://orcid.org/0000-0003-0170-8468",
+            "identifier": "https://orcid.org/0000-0003-0170-8468",
+            "name": "Lehrenfeld, Christoph"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Paul",
+            "familyName": "Stocker",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Georg-August-Universit\u00e4t G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0001-5073-3366",
+            "@id": "https://orcid.org/0000-0001-5073-3366",
+            "identifier": "https://orcid.org/0000-0001-5073-3366",
+            "name": "Stocker, Paul"
+        }
+    ],
+    "datePublished": "2023-09-01",
+    "dateModified": "2023-09-01",
+    "version": "1",
+    "description": "This dataset contains reproduction material for the paper \"Trefftz Discontinuous Galerkin discretization for the Stokes problem\". The dataset contains Python files used to produce the results in the paper a docker image with the required software pre-installed. To run the python files outside the docker a running installation of NGSolve and NGSTrefftz is required. They are tested with NGSolve@v6.2.2304, NGSTrefftz@v0.2.7. All the required software and python files are pre-installed and ready to run in the docker image. Start the docker using docker load < ./trefftzdgstokes_docker.tar.gz docker run -it trefftzdgstokes /bin/bash",
+    "keywords": [
+        "Mathematical Sciences"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "@id": "https://arxiv.org/abs/2306.14600",
+            "identifier": "https://arxiv.org/abs/2306.14600",
+            "url": "https://arxiv.org/abs/2306.14600"
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "trefftzdgstokes_docker.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 878144439,
+            "description": "docker image",
+            "@id": "https://doi.org/10.25625/UHPEQG/NYFQE6",
+            "identifier": "https://doi.org/10.25625/UHPEQG/NYFQE6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/64423"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "trefftzdgstokes_python.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 4131,
+            "description": "python files",
+            "@id": "https://doi.org/10.25625/UHPEQG/ZBZNFH",
+            "identifier": "https://doi.org/10.25625/UHPEQG/ZBZNFH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/64422"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Mathematical Sciences"
+    ],
+    "publications": [
+        {
+            "url": "https://arxiv.org/abs/2306.14600"
+        }
+    ]
+}

@@ -1,0 +1,123 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/I9HCB6",
+    "identifier": "https://doi.org/10.25625/I9HCB6",
+    "name": "CHEPMD",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Fabian",
+            "familyName": "Sternkopf",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute of Music Physiology and Musicians' Medicine"
+            },
+            "name": "Sternkopf, Fabian"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Fabian",
+            "familyName": "Sternkopf",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute of Music Physiology and Musicians' Medicine"
+            },
+            "name": "Sternkopf, Fabian"
+        }
+    ],
+    "datePublished": "2026-04-27",
+    "dateModified": "2026-04-27",
+    "version": "1",
+    "description": "In our study, we wanted to investigate differences in subjective pain perception, psychological perspectives on pain and the neurological pain processing between professional musicians, professional dancers and controls. For each participant, we conducted the quantitative sensory testing at the left hand and the left foot, had them fill out a demographics questionnaire, as well as the STADI-T, the PCS, PAQ, and the WAI-T and we recorded contact heat evoked potentials using an EEG for 15 noxious stimuli applied at each hand and each foot. We had 66 participants, with 22 per group.",
+    "keywords": [
+        "Arts and Humanities",
+        "Medicine, Health and Life Sciences",
+        "Other",
+        "CHEPs"
+    ],
+    "license": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "dance_mini01.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 8965,
+            "description": "Code that statistically analyses the data for the dancers. It models the QST data and the CHEPs data to compare dancers and controls.",
+            "@id": "https://doi.org/10.25625/I9HCB6/LZKOBZ",
+            "identifier": "https://doi.org/10.25625/I9HCB6/LZKOBZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167522"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "montage01.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 24134,
+            "description": "Montage picture. Electrode 1 (FP1) was used as reference on the nose.",
+            "@id": "https://doi.org/10.25625/I9HCB6/B6FSFL",
+            "identifier": "https://doi.org/10.25625/I9HCB6/B6FSFL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167416"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "music_mini01.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 14342,
+            "description": "This code analyses the data for the musicians. Musicians and controls are compared regarding their single trial cortical responses measured at Cz and the influence of the questionnaires is estimated.",
+            "@id": "https://doi.org/10.25625/I9HCB6/1NPX2L",
+            "identifier": "https://doi.org/10.25625/I9HCB6/1NPX2L",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167545"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pain_av_sel20250502.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 2548593,
+            "description": "Table containing the following columns: ID of the participant, location where the stimuli were applied (L: left, R: right, H: hand, F: foot), number of accepted epochs for the averaged cortical response, 10 columns per electrode containing the amplitude A in muV, the N2 latency lN in ms, the P2 latency lP in ms, the negativity N in muV and the positivity in muV of the cortical response to a noxious heat stimulus; abbreviation 'sgmean' indicates the average of the single trial values, abbreviation 'avmean' indicates the value of the averaged cortical response (e.g. A_sgmean_el2 is the average of the amplitudes of the single trial cortical responses measured at electrode 2, whereas A_avmean_el2 is simply the amplitude of the average cortical response measured at electrode 2). 63 electrodes +1 reference were used. e.g. the column for the N2 latency of the average cortical response measured at electrode 7 is labelled lN_avmean_el7. Position of the electrode of a certain number can be inferred from the montage picture.",
+            "@id": "https://doi.org/10.25625/I9HCB6/ZWGZY6",
+            "identifier": "https://doi.org/10.25625/I9HCB6/ZWGZY6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167417"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pain_qstquest20250703.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 26916,
+            "description": "Table containing the following columns:\nID of the participant (M for musicians, D for dancer, C for control), body height in cm, age at the time of the experiment in yr, size of the EEG cap in cm, handedness, Sex as by self report, PCS scores, PAQ scores, WAI-T scores, STADI-T scores, QST scores (LH: left hand, LF: left foot).",
+            "@id": "https://doi.org/10.25625/I9HCB6/0LTRPQ",
+            "identifier": "https://doi.org/10.25625/I9HCB6/0LTRPQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167414"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pain_sg_sel20250502.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 12134654,
+            "description": "Table containing the following columns:\nID of the participant, location where the stimulus was applied (L: left, R: right, H: hand, F: foot), whether or not the cortical response was accepted or rejected due to artifacts (SMASH: accepted, PASS: rejected), number of consecutive stimuli (0: first stimulus, 14: last stimulus), time in s after the first stimulus, numeric rating scale (NRS) for stimulus intensity given by the participant, 5 columns per electrode containing the amplitude A in muV, the N2 latency lN in ms, the P2 latency lP in ms, the negativity N in muV and the positivity in muV of the cortical response to a noxious heat stimulus. 63 electrodes +1 reference were used. \ne.g. the column for the N2 latency of the cortical response measured at electrode 7 is labelled lN_el7. Position of the electrode of a certain number can be inferred from the montage picture.",
+            "@id": "https://doi.org/10.25625/I9HCB6/FZGWQJ",
+            "identifier": "https://doi.org/10.25625/I9HCB6/FZGWQJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167415"
+        }
+    ],
+    "license_title": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+    "subjects": [
+        "Arts and Humanities",
+        "Medicine, Health and Life Sciences",
+        "Other"
+    ]
+}

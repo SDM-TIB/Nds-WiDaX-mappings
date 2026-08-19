@@ -1,0 +1,174 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/EFSETC",
+    "identifier": "https://doi.org/10.25625/EFSETC",
+    "name": "Replication Data for: 3D imaging of SARS-CoV-2 infected hamster lungs by X-ray phase contrast tomography enables drug testing",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Jakob",
+            "familyName": "Reichmann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-6597-1831",
+            "@id": "https://orcid.org/0000-0002-6597-1831",
+            "identifier": "https://orcid.org/0000-0002-6597-1831",
+            "name": "Reichmann, Jakob"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Tim",
+            "familyName": "Salditt",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0003-4636-0813",
+            "@id": "https://orcid.org/0000-0003-4636-0813",
+            "identifier": "https://orcid.org/0000-0003-4636-0813",
+            "name": "Salditt, Tim"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jakob",
+            "familyName": "Reichmann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-6597-1831",
+            "@id": "https://orcid.org/0000-0002-6597-1831",
+            "identifier": "https://orcid.org/0000-0002-6597-1831",
+            "name": "Reichmann, Jakob"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Tim",
+            "familyName": "Salditt",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0003-4636-0813",
+            "@id": "https://orcid.org/0000-0003-4636-0813",
+            "identifier": "https://orcid.org/0000-0003-4636-0813",
+            "name": "Salditt, Tim"
+        }
+    ],
+    "datePublished": "2024-05-16",
+    "dateModified": "2025-07-13",
+    "version": "2",
+    "description": "Code and datasets to replicate feature extraction and optimal transport analysis.",
+    "keywords": [
+        "Computer and Information Science",
+        "Medicine, Health and Life Sciences",
+        "Physics"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Auswertung-TV21-01.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "contentSize": 67118,
+            "description": "Additional information on each of the hamster samples.",
+            "@id": "https://doi.org/10.25625/EFSETC/XDHC8G",
+            "identifier": "https://doi.org/10.25625/EFSETC/XDHC8G",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/79945"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "chordLengthDistribution.m",
+            "encodingFormat": "text/x-objcsrc",
+            "contentSize": 14182,
+            "description": "MATLAB script used to extract chord lengths from the binarized data.",
+            "@id": "https://doi.org/10.25625/EFSETC/KUEWRO",
+            "identifier": "https://doi.org/10.25625/EFSETC/KUEWRO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/79981"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "CLD_0s.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 151058,
+            "description": "Extracted chord lengths distribution data on alveolar septae.",
+            "@id": "https://doi.org/10.25625/EFSETC/HNRJLZ",
+            "identifier": "https://doi.org/10.25625/EFSETC/HNRJLZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/79949"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "CLD_1s.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 120637,
+            "description": "Extracted chord lengths distribution data on alveolar lumen.",
+            "@id": "https://doi.org/10.25625/EFSETC/PC9P1S",
+            "identifier": "https://doi.org/10.25625/EFSETC/PC9P1S",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/79946"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Examples_Emb.ipynb",
+            "encodingFormat": "application/x-ipynb+json",
+            "contentSize": 136364,
+            "description": "Jupyter Notebook used to produce subfigures in Figure 1.",
+            "@id": "https://doi.org/10.25625/EFSETC/1JOXVA",
+            "identifier": "https://doi.org/10.25625/EFSETC/1JOXVA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/79947"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "htp_segmentation.m",
+            "encodingFormat": "text/x-objcsrc",
+            "contentSize": 2714,
+            "description": "Segmentation of all hamster lungs.",
+            "@id": "https://doi.org/10.25625/EFSETC/TDVEZR",
+            "identifier": "https://doi.org/10.25625/EFSETC/TDVEZR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/79982"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "natsortfiles_doc.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 7069,
+            "description": "sorting read-\u00edn files for automated analysis",
+            "@id": "https://doi.org/10.25625/EFSETC/MQY0LR",
+            "identifier": "https://doi.org/10.25625/EFSETC/MQY0LR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/131624"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "OT-Analysis.ipynb",
+            "encodingFormat": "application/x-ipynb+json",
+            "contentSize": 977531,
+            "description": "Jupyter Notebook for OT-Analysis.",
+            "@id": "https://doi.org/10.25625/EFSETC/EP5KJB",
+            "identifier": "https://doi.org/10.25625/EFSETC/EP5KJB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/79948"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Computer and Information Science",
+        "Medicine, Health and Life Sciences",
+        "Physics"
+    ]
+}

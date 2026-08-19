@@ -1,0 +1,129 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/GJ4PGF",
+    "identifier": "https://doi.org/10.25625/GJ4PGF",
+    "name": "Learned IE thesis: Comparison of different atmospheric models for helioseismology",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Janosch",
+            "familyName": "Preu\u00df",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institut f\u00fcr Numerische und Angewandte Mathematik Universit\u00e4t G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-7384-535X",
+            "@id": "https://orcid.org/0000-0002-7384-535X",
+            "identifier": "https://orcid.org/0000-0002-7384-535X",
+            "name": "Preu\u00df, Janosch"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Janosch",
+            "familyName": "Preu\u00df",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institut f\u00fcr Numerische und Angewandte Mathematik Universit\u00e4t G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-7384-535X",
+            "@id": "https://orcid.org/0000-0002-7384-535X",
+            "identifier": "https://orcid.org/0000-0002-7384-535X",
+            "name": "Preu\u00df, Janosch"
+        }
+    ],
+    "datePublished": "2021-10-04",
+    "dateModified": "2021-10-04",
+    "version": "1",
+    "description": "This dataset contains intermediate data products for some experiments in the PhD thesis \"Learned infinite elements for helioseismology\" (J.Preu\u00df) which compare different models for the solar atmosphere. A brief description of the provided data is given below: The files \"power-spectrum-VALC-meshed.out\" and \"power-spectrum-Atmo-whitw.out\" contain the power spectrum computed with a meshed VAL-C atmosphere and with the exact Atmo condition obtained by evaluating the Whittaker function, respectively. Harmonic degrees up to l=1000 and 7200 equidistant frequencies ranging from 0.0 mHz up to 8.3 mHz have been computed. The files \"dtn_nr_VALC_intro.out\" and \"dtn_nr_Whitw_intro.out\" contain the corresponding Dirichlet-to-Neumann numbers (for the Atmo model taken about 500km above the photosphere and for the VAL-C model directly at the photosphere). The file \"mdi_medium_l.np\" is a reference power spectrum obtained from satellite observations (HMI). Please see here for the corresponding publication. A description how the computed data has been obtained and how it should be postprocessed further is available at this Gitlab repository.",
+    "keywords": [
+        "Astronomy and Astrophysics",
+        "Mathematical Sciences"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "\n PhD thesis: Learned infinite elements for helioseismology\n Author: Janosch Preu\u00df\n Advisors: Prof. Christoph Lehrenfeld, Prof. Thorsten Hohage, Dr. Damien Fournier\n"
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "DFG"
+        }
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "dtn_nr_VALC_intro.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 390625870,
+            "@id": "https://doi.org/10.25625/GJ4PGF/HIP9BG",
+            "identifier": "https://doi.org/10.25625/GJ4PGF/HIP9BG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33712"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "dtn_nr_Whitw_intro.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 389188800,
+            "@id": "https://doi.org/10.25625/GJ4PGF/INWQFM",
+            "identifier": "https://doi.org/10.25625/GJ4PGF/INWQFM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33710"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "mdi_medium_l.np",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 124416128,
+            "description": "Power spectrum from MDI data in NumPy format. The original data in FITS format is available at https://soho.nascom.nasa.gov/publications/CDROM1/papers/rhodes/lnu0.fts. Please see the corresponding publication: \"Measurements of Frequencies of Solar Oscillations from the Mdi Medium-l Program\", E.J. Rhodes, Jr., A.G. Kosovichev, P.H. Scherrer, J. Schou & J. Reiter, https://doi.org/10.1023/A:1004963425123",
+            "@id": "https://doi.org/10.25625/GJ4PGF/HXFM3S",
+            "identifier": "https://doi.org/10.25625/GJ4PGF/HXFM3S",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33708"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "power-spectrum-Atmo-whitw.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 180180000,
+            "@id": "https://doi.org/10.25625/GJ4PGF/WQCNHP",
+            "identifier": "https://doi.org/10.25625/GJ4PGF/WQCNHP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33709"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "power-spectrum-VALC-meshed.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 180180000,
+            "@id": "https://doi.org/10.25625/GJ4PGF/RQBANI",
+            "identifier": "https://doi.org/10.25625/GJ4PGF/RQBANI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33711"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Astronomy and Astrophysics",
+        "Mathematical Sciences"
+    ],
+    "publications": [
+        {
+            "citation": "<ul>\n <li>PhD thesis: Learned infinite elements for helioseismology</li>\n <li>Author: Janosch Preu\u00df</li>\n <li>Advisors: Prof. Christoph Lehrenfeld, Prof. Thorsten Hohage, Dr. Damien Fournier</li>\n</ul>"
+        }
+    ]
+}

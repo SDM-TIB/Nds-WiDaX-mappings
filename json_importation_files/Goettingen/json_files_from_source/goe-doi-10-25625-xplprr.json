@@ -1,0 +1,160 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/XPLPRR",
+    "identifier": "https://doi.org/10.25625/XPLPRR",
+    "name": "Replication Data for: Learned infinite elements",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Thorsten",
+            "familyName": "Hohage",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen and Max Planck Institute for Solar System Research"
+            },
+            "sameAs": "https://orcid.org/0000-0002-5408-2780",
+            "@id": "https://orcid.org/0000-0002-5408-2780",
+            "identifier": "https://orcid.org/0000-0002-5408-2780",
+            "name": "Hohage, Thorsten"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Christoph",
+            "familyName": "Lehrenfeld",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0003-0170-8468",
+            "@id": "https://orcid.org/0000-0003-0170-8468",
+            "identifier": "https://orcid.org/0000-0003-0170-8468",
+            "name": "Lehrenfeld, Christoph"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Janosch",
+            "familyName": "Preu\u00df",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen and Max Planck Institute for Solar System Research"
+            },
+            "sameAs": "https://orcid.org/0000-0002-7384-535X",
+            "@id": "https://orcid.org/0000-0002-7384-535X",
+            "identifier": "https://orcid.org/0000-0002-7384-535X",
+            "name": "Preu\u00df, Janosch"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Thorsten",
+            "familyName": "Hohage",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen and Max Planck Institute for Solar System Research"
+            },
+            "sameAs": "https://orcid.org/0000-0002-5408-2780",
+            "@id": "https://orcid.org/0000-0002-5408-2780",
+            "identifier": "https://orcid.org/0000-0002-5408-2780",
+            "name": "Hohage, Thorsten"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Christoph",
+            "familyName": "Lehrenfeld",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0003-0170-8468",
+            "@id": "https://orcid.org/0000-0003-0170-8468",
+            "identifier": "https://orcid.org/0000-0003-0170-8468",
+            "name": "Lehrenfeld, Christoph"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Janosch",
+            "familyName": "Preu\u00df",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen and Max Planck Institute for Solar System Research"
+            },
+            "sameAs": "https://orcid.org/0000-0002-7384-535X",
+            "@id": "https://orcid.org/0000-0002-7384-535X",
+            "identifier": "https://orcid.org/0000-0002-7384-535X",
+            "name": "Preu\u00df, Janosch"
+        }
+    ],
+    "datePublished": "2021-06-10",
+    "dateModified": "2021-06-10",
+    "version": "1",
+    "description": "This dataset contains reproduction material for the paper \"Learned infinite elements\" (Hohage, Lehrenfeld, Preuss). The main file learnedIE_reproduction.tar is a Docker image providing all data, software and instructions for reproducing the numerical experiments of the paper. This image was built based on the Github repository github.com/schruste/docker-learned_IE . The main repository containing the actual software and data is gitlab.gwdg.de/learned_infinite_elements/learned_ie/ at commit ed8d1d9f1a7fe1daea11a5323ea831eb34a17924. The tarball learned_ie_git-repo.tar.gz contains an archive of this repository. A README file is included in the repository as well as in learnedIE_reproduction.tar, which contains detailed instructions (which commands to execute and so on) on how to obtain the results given in the paper. The image can additionally be found on Docker Hub: schruste/learned_ie:20210517",
+    "keywords": [
+        "Astronomy and Astrophysics",
+        "Mathematical Sciences",
+        "Physics",
+        "65N30, 35L05, 35J05, 33C10, 85-08"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "@id": "https://arxiv.org/abs/2010.15479",
+            "identifier": "https://arxiv.org/abs/2010.15479",
+            "url": "https://arxiv.org/abs/2010.15479"
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "DFG"
+        }
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "learnedIE_reproduction.tar",
+            "encodingFormat": "application/x-tar",
+            "contentSize": 2590206464,
+            "description": "Docker image",
+            "@id": "https://doi.org/10.25625/XPLPRR/SPELVZ",
+            "identifier": "https://doi.org/10.25625/XPLPRR/SPELVZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/22714"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "learned_ie_git-repo.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 2063419,
+            "description": "Archive of git repository.",
+            "@id": "https://doi.org/10.25625/XPLPRR/17ONZI",
+            "identifier": "https://doi.org/10.25625/XPLPRR/17ONZI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/27131"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Astronomy and Astrophysics",
+        "Mathematical Sciences",
+        "Physics"
+    ],
+    "publications": [
+        {
+            "url": "https://arxiv.org/abs/2010.15479"
+        }
+    ]
+}

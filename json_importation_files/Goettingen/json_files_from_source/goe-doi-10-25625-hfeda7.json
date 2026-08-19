@@ -1,0 +1,88 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/HFEDA7",
+    "identifier": "https://doi.org/10.25625/HFEDA7",
+    "name": "Managing Soil Nitrogen Surplus: The Role of Winter Cover Crops in N2O Emissions and Carbon Sequestration",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Victoria",
+            "familyName": "Nasser",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Georg August University of G\u00f6ttingen"
+            },
+            "name": "Nasser, Victoria"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Victoria",
+            "familyName": "Nasser",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Georg August University of G\u00f6ttingen"
+            },
+            "name": "Nasser, Victoria"
+        }
+    ],
+    "datePublished": "2024-10-17",
+    "dateModified": "2024-10-17",
+    "version": "1",
+    "description": "raw data used in the \"Managing Soil Nitrogen Surplus: The Role of Winter Cover Crops in N2O Emissions and Carbon Sequestration\" manuscript",
+    "keywords": [
+        "Agricultural Sciences",
+        "cover crops; GHG emissions"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "cumN2O_stat1.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 18362,
+            "@id": "https://doi.org/10.25625/HFEDA7/HCJ8QD",
+            "identifier": "https://doi.org/10.25625/HFEDA7/HCJ8QD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/115728"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "flux_calc_update.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1679410,
+            "description": "N2O emissions data",
+            "@id": "https://doi.org/10.25625/HFEDA7/FEQYZF",
+            "identifier": "https://doi.org/10.25625/HFEDA7/FEQYZF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/111011"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "soil_mineral_n_all.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 784431,
+            "description": "Mineral Nitrogen data",
+            "@id": "https://doi.org/10.25625/HFEDA7/YHRFOY",
+            "identifier": "https://doi.org/10.25625/HFEDA7/YHRFOY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/111012"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Agricultural Sciences"
+    ]
+}

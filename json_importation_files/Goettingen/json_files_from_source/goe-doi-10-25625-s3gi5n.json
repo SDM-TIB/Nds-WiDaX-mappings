@@ -1,0 +1,68 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/S3GI5N",
+    "identifier": "https://doi.org/10.25625/S3GI5N",
+    "name": "Design and implementation of an API to ease the use of HPC systems",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Waqar",
+            "familyName": "Alamgir",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "GWDG"
+            },
+            "name": "Alamgir, Waqar"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Waqar",
+            "familyName": "Alamgir",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "GWDG"
+            },
+            "name": "Alamgir, Waqar"
+        }
+    ],
+    "datePublished": "2021-02-18",
+    "dateModified": "2021-02-18",
+    "version": "2",
+    "description": "High Performance Computing (HPC) is a practice of aggregating computing power such that it delivers high performance in order to solve large scale problems, typically in science or engineering. The classical approach that facilitates solving these complex problems by scientists and engineers does not scale very well due to the manual executions of jobs. Our work facilitate such use cases and works with GitLab (a web based DevOps life-cycle tool), Continuous Integration(CI) pipeline and CI runners to automate parameterized jobs execution over the HPC system for different use cases such as compile, build, analyse and HPC-enabled workflows. Our envisioned architecture accepts jobs as part of a workflow using our RESTful API for GitLab\u2019s CI pipeline and schedules the jobs over the HPC system using our Cron Job while ensuring no unauthorized extraction and modification of personal or research data as well as no abuse of HPC resources by injecting jobs from API or Cron Job by building a security model on top. The final thesis was submitted in partial fulfilment of the requirements for the course \u201cInternet Technologies and Information Systems\u201d, supervised by Prof. Ramin Yahyapour and Dr. Sven Bingert.",
+    "keywords": [
+        "Computer and Information Science",
+        "HPC, Job Scheduling, RESTful API, Cron Job, GitLab, Flowable, Continuous Integration, Job Automation"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "20201129-MSc-Alamgir.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 4880053,
+            "@id": "https://doi.org/10.25625/S3GI5N/CMOHYO",
+            "identifier": "https://doi.org/10.25625/S3GI5N/CMOHYO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/22003"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Computer and Information Science"
+    ]
+}

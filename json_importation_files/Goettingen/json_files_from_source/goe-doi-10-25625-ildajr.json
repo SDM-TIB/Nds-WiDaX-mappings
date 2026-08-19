@@ -1,0 +1,90 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/ILDAJR",
+    "identifier": "https://doi.org/10.25625/ILDAJR",
+    "name": "test_dataset",
+    "creator": [
+        {
+            "@type": "Person",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "leonelauthorAffiliation1"
+            },
+            "name": "leonelauthor1"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "leonelauthorAffiliation1"
+            },
+            "name": "leonelauthor1"
+        }
+    ],
+    "datePublished": "2025-06-30",
+    "dateModified": "2025-08-04",
+    "version": "4",
+    "description": "Description of the dataset1",
+    "keywords": [
+        "Physics",
+        "leonelKeywordTerm1"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "leonelRelatedPublicationCitation1",
+            "@id": "http://RelatedPublicationURL1leonel.org",
+            "identifier": "http://RelatedPublicationURL1leonel.org",
+            "url": "http://RelatedPublicationURL1leonel.org"
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "f1.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 399,
+            "description": "",
+            "@id": "https://doi.org/10.25625/ILDAJR/JSGFLC",
+            "identifier": "https://doi.org/10.25625/ILDAJR/JSGFLC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128220"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "f2.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 12,
+            "description": "",
+            "@id": "https://doi.org/10.25625/ILDAJR/XEZC77",
+            "identifier": "https://doi.org/10.25625/ILDAJR/XEZC77",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128219"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Physics"
+    ],
+    "publications": [
+        {
+            "citation": "leonelRelatedPublicationCitation1",
+            "url": "http://RelatedPublicationURL1leonel.org"
+        }
+    ]
+}

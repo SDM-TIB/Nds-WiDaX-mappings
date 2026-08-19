@@ -1,0 +1,671 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/13AGYL",
+    "identifier": "https://doi.org/10.25625/13AGYL",
+    "name": "Bachelor Thesis \"Hearing What Plants Feel: Stress Signals Via Ultrasound\"",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Vivien",
+            "familyName": "Schuboth",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "TU Clausthal"
+            },
+            "name": "Schuboth, Vivien"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Vivien",
+            "familyName": "Schuboth",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "TU Clausthal"
+            },
+            "name": "Schuboth, Vivien"
+        }
+    ],
+    "datePublished": "2025-10-28",
+    "dateModified": "2025-10-28",
+    "version": "2",
+    "description": "Plants provide us with the basis of life by producing oxygen and serving as food. How ever, due to advancing climate change, we are increasingly experiencing food shortages. In order to protect and increase the remaining plant population, multispectral cameras are now being used in addition to manual visual inspections. However, by the time visual abnormalities are detected, the underlying diseases or damage have already occurred and have had an impact. A method that could be used at an earlier stage appears to have been found in a study by Khait et al. [1]. They discovered that tomato plants under stress conditions, such as drought, emit measurable acoustic emissions in the ultrasonic range. This reproduction is considered unique to date. Reproducing the experiment would enable real-time re sponses to the sounds made by plants. This could prevent disease or damage to plants and thus also secure food production. The aim of this thesis was therefore to verify the study by Khait et al. using our own measurements on tomato plants. For this purpose, these plants were recorded in an aeroponic system using a 384 kHz ultrasonic microphone. The resulting recordings were segmented, spectrographically evaluated and checked for frequency peaks. A real-time analysis of characteristic frequency peaks was also performed. However, the analysis of all our own measurements was negative, with no characteristic frequency peaks in the range of 49.6 \u00b1 0.4 kHz. This is in stark contrast to the data provided from the experiments in the paper by Khait et al. [2]. The discrepancies can be attributed to technical problems during recording and to ambient noise. Future work should focus primarily on improving the recording conditions. [1] Itzhak Khait, Ohad Lewin-Epstein, Raz Sharon, Kfir Saban, Revital Goldstein, Yehuda Anikster, Yarden Zeron, Chen Agassy, Shaked Nizan, Gayl Sharabi, Ran Perelman, Arjan Boonman, Nir Sade, Yossi Yovel, and Lilach Hadany. Sounds emitted by plants under stress are airborne and informative. Cell, 186(7):1328 1336.e10, March 2023. ISSN 00928674. doi: 10.1016/j.cell.2023.03.009. URL https: //linkinghub.elsevier.com/retrieve/pii/S0092867423002623. Last accessed on 16 October 2025. [2] Itzhak Khait, Ohad Lewin-Epstein, Raz Sharon, Kfir Saban, Revital Goldstein, Yehuda Anikster, Yarden Zeron, Chen Agassy, Shaked Nizan, Gayl Sharabi, Ran Perelman, Arjan Boonman, Nir Sade, Yossi Yovel, and Lilach Hadany. Recorded plant sounds from: Sounds emitted by plants under stress are airborne and infor mative, April 2023. URL https://datadryad.org/dataset/doi:10.5061/dryad. jwstqjqf7. Last accessed on 16 October 2025.",
+    "keywords": [
+        "Agricultural Sciences",
+        "Computer and Information Science"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "This DataSet belongs to the Bachelor Thesis about \"Hearing What Plants Feel: Stress Signals Via Ultrasound\""
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "10-cm-status-ok-384khz.wav",
+            "encodingFormat": "audio/x-wav",
+            "contentSize": 454009196,
+            "description": "recordings of a tomato plant without water deficit or other known problems - part 1",
+            "@id": "https://doi.org/10.25625/13AGYL/ZBSBWJ",
+            "identifier": "https://doi.org/10.25625/13AGYL/ZBSBWJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139709"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "10cm-status-ok-v2.wav",
+            "encodingFormat": "audio/x-wav",
+            "contentSize": 460594796,
+            "description": "recordings of a tomato plant without water deficit or other known problems - part 2",
+            "@id": "https://doi.org/10.25625/13AGYL/EIUBNE",
+            "identifier": "https://doi.org/10.25625/13AGYL/EIUBNE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139710"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_drought_after_2_hours.wav.001",
+            "encodingFormat": "audio/vnd.wave",
+            "contentSize": 1048576000,
+            "description": "part 1 of a recording of a tomato plant with water deficit - 2 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/TYGIJC",
+            "identifier": "https://doi.org/10.25625/13AGYL/TYGIJC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139607"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_drought_after_2_hours.wav.002",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 2 of a recording of a tomato plant with water deficit - 2 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/UKANJX",
+            "identifier": "https://doi.org/10.25625/13AGYL/UKANJX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139608"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_drought_after_2_hours.wav.003",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 3 of a recording of a tomato plant with water deficit - 2 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/LLPH5M",
+            "identifier": "https://doi.org/10.25625/13AGYL/LLPH5M",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139609"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_drought_after_2_hours.wav.004",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 4 of a recording of a tomato plant with water deficit - 2 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/6PG6H1",
+            "identifier": "https://doi.org/10.25625/13AGYL/6PG6H1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139611"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_drought_after_2_hours.wav.005",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 5 of a recording of a tomato plant with water deficit - 2 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/AGOQLO",
+            "identifier": "https://doi.org/10.25625/13AGYL/AGOQLO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139610"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_drought_after_2_hours.wav.006",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 6 of a recording of a tomato plant with water deficit - 2 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/5YOFIF",
+            "identifier": "https://doi.org/10.25625/13AGYL/5YOFIF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139612"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_drought_after_2_hours.wav.007",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 7 of a recording of a tomato plant with water deficit - 2 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/FDLHRH",
+            "identifier": "https://doi.org/10.25625/13AGYL/FDLHRH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139613"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_drought_after_2_hours.wav.008",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 8 of a recording of a tomato plant with water deficit - 2 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/N4RJBD",
+            "identifier": "https://doi.org/10.25625/13AGYL/N4RJBD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139614"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_drought_after_2_hours.wav.009",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 9 of a recording of a tomato plant with water deficit - 2 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/OJN3SV",
+            "identifier": "https://doi.org/10.25625/13AGYL/OJN3SV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139615"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_drought_after_2_hours.wav.010",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 10 of a recording of a tomato plant with water deficit - 2 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/75NFJS",
+            "identifier": "https://doi.org/10.25625/13AGYL/75NFJS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139616"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_drought_after_2_hours.wav.011",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 587023232,
+            "description": "part 11 of a recording of a tomato plant with water deficit - 2 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/N4GD6W",
+            "identifier": "https://doi.org/10.25625/13AGYL/N4GD6W",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139617"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_0m_after.wav.001",
+            "encodingFormat": "audio/vnd.wave",
+            "contentSize": 1048576000,
+            "description": "part 1 of a recording of a tomato plant with water deficit - directly after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/IDYNCE",
+            "identifier": "https://doi.org/10.25625/13AGYL/IDYNCE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139619"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_0m_after.wav.002",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 2 of a recording of a tomato plant with water deficit - directly after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/HRAKFT",
+            "identifier": "https://doi.org/10.25625/13AGYL/HRAKFT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139618"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_0m_after.wav.003",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 3 of a recording of a tomato plant with water deficit - directly after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/TH8PEO",
+            "identifier": "https://doi.org/10.25625/13AGYL/TH8PEO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139620"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_0m_after.wav.004",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 4 of a recording of a tomato plant with water deficit - directly after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/8HA5NO",
+            "identifier": "https://doi.org/10.25625/13AGYL/8HA5NO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139622"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_0m_after.wav.005",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 5 of a recording of a tomato plant with water deficit - directly after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/V1FIUM",
+            "identifier": "https://doi.org/10.25625/13AGYL/V1FIUM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139621"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_0m_after.wav.006",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 6 of a recording of a tomato plant with water deficit - directly after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/DRW07W",
+            "identifier": "https://doi.org/10.25625/13AGYL/DRW07W",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139624"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_0m_after.wav.007",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 7 of a recording of a tomato plant with water deficit - directly after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/CY9OKQ",
+            "identifier": "https://doi.org/10.25625/13AGYL/CY9OKQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139623"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_0m_after.wav.008",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 8 of a recording of a tomato plant with water deficit - directly after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/GOYEA4",
+            "identifier": "https://doi.org/10.25625/13AGYL/GOYEA4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139625"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_0m_after.wav.009",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 9 of a recording of a tomato plant with water deficit - directly after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/LT8MJN",
+            "identifier": "https://doi.org/10.25625/13AGYL/LT8MJN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139630"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_0m_after.wav.010",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 10 of a recording of a tomato plant with water deficit - directly after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/TGC4F9",
+            "identifier": "https://doi.org/10.25625/13AGYL/TGC4F9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139628"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_0m_after.wav.011",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 11 of a recording of a tomato plant with water deficit - directly after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/2Q0PJA",
+            "identifier": "https://doi.org/10.25625/13AGYL/2Q0PJA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139629"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_0m_after.wav.012",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 12 of a recording of a tomato plant with water deficit - directly after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/D4O781",
+            "identifier": "https://doi.org/10.25625/13AGYL/D4O781",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139631"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_0m_after.wav.013",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 13 of a recording of a tomato plant with water deficit - directly after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/5NPKSA",
+            "identifier": "https://doi.org/10.25625/13AGYL/5NPKSA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139632"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_0m_after.wav.014",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1039407836,
+            "description": "part 14 of a recording of a tomato plant with water deficit - directly after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/S5I9PF",
+            "identifier": "https://doi.org/10.25625/13AGYL/S5I9PF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139633"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_170m_after.wav.001",
+            "encodingFormat": "audio/vnd.wave",
+            "contentSize": 1048576000,
+            "description": "part 1 of a recording of a tomato plant with water deficit - almost 3 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/0WNNCD",
+            "identifier": "https://doi.org/10.25625/13AGYL/0WNNCD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139658"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_170m_after.wav.002",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 2 of a recording of a tomato plant with water deficit - almost 3 hours after water supply was cut off\n",
+            "@id": "https://doi.org/10.25625/13AGYL/SZ4H2B",
+            "identifier": "https://doi.org/10.25625/13AGYL/SZ4H2B",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139654"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_170m_after.wav.003",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 3 of a recording of a tomato plant with water deficit - almost 3 hours after water supply was cut off\n",
+            "@id": "https://doi.org/10.25625/13AGYL/PYZJX6",
+            "identifier": "https://doi.org/10.25625/13AGYL/PYZJX6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139656"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_170m_after.wav.004",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 4 of a recording of a tomato plant with water deficit - almost 3 hours after water supply was cut off\n",
+            "@id": "https://doi.org/10.25625/13AGYL/ZXQHZT",
+            "identifier": "https://doi.org/10.25625/13AGYL/ZXQHZT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139657"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_170m_after.wav.005",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 5 of a recording of a tomato plant with water deficit - almost 3 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/9C043G",
+            "identifier": "https://doi.org/10.25625/13AGYL/9C043G",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139655"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_170m_after.wav.006",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 6 of a recording of a tomato plant with water deficit - almost 3 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/671JXP",
+            "identifier": "https://doi.org/10.25625/13AGYL/671JXP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139659"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_170m_after.wav.007",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 7 of a recording of a tomato plant with water deficit - almost 3 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/UVLNIP",
+            "identifier": "https://doi.org/10.25625/13AGYL/UVLNIP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139661"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_170m_after.wav.008",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 8 of a recording of a tomato plant with water deficit - almost 3 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/VMGQNS",
+            "identifier": "https://doi.org/10.25625/13AGYL/VMGQNS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139660"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_170m_after.wav.009",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 9 of a recording of a tomato plant with water deficit - almost 3 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/AHOWML",
+            "identifier": "https://doi.org/10.25625/13AGYL/AHOWML",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139662"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_170m_after.wav.010",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 10 of a recording of a tomato plant with water deficit - almost 3 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/BIUKBL",
+            "identifier": "https://doi.org/10.25625/13AGYL/BIUKBL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139663"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_170m_after.wav.011",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 11 of a recording of a tomato plant with water deficit - almost 3 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/KHVOYZ",
+            "identifier": "https://doi.org/10.25625/13AGYL/KHVOYZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139665"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_170m_after.wav.012",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 12 of a recording of a tomato plant with water deficit - almost 3 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/WHO7UG",
+            "identifier": "https://doi.org/10.25625/13AGYL/WHO7UG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139666"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_170m_after.wav.013",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 125542796,
+            "description": "part 13 of a recording of a tomato plant with water deficit - almost 3 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/9LMGJW",
+            "identifier": "https://doi.org/10.25625/13AGYL/9LMGJW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139664"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_5hours_after.wav.001",
+            "encodingFormat": "audio/vnd.wave",
+            "contentSize": 1048576000,
+            "description": "part 1 of a recording of a tomato plant with water deficit - 5 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/BEHETA",
+            "identifier": "https://doi.org/10.25625/13AGYL/BEHETA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139635"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_5hours_after.wav.002",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 2 of a recording of a tomato plant with water deficit - 5 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/FQKAU7",
+            "identifier": "https://doi.org/10.25625/13AGYL/FQKAU7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139638"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_5hours_after.wav.003",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 3 of a recording of a tomato plant with water deficit - 5 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/1W2GNP",
+            "identifier": "https://doi.org/10.25625/13AGYL/1W2GNP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139636"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_5hours_after.wav.004",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 4 of a recording of a tomato plant with water deficit - 5 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/YX5LH2",
+            "identifier": "https://doi.org/10.25625/13AGYL/YX5LH2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139634"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_5hours_after.wav.005",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 5 of a recording of a tomato plant with water deficit - 5 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/VQVI9B",
+            "identifier": "https://doi.org/10.25625/13AGYL/VQVI9B",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139637"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_5hours_after.wav.006",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 6 of a recording of a tomato plant with water deficit - 5 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/W40DIH",
+            "identifier": "https://doi.org/10.25625/13AGYL/W40DIH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139641"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_5hours_after.wav.007",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 7 of a recording of a tomato plant with water deficit - 5 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/OP1U3Y",
+            "identifier": "https://doi.org/10.25625/13AGYL/OP1U3Y",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139640"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_5hours_after.wav.008",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 8 of a recording of a tomato plant with water deficit - 5 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/QFIBGP",
+            "identifier": "https://doi.org/10.25625/13AGYL/QFIBGP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139642"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_5hours_after.wav.009",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 9 of a recording of a tomato plant with water deficit - 5 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/0R3ELL",
+            "identifier": "https://doi.org/10.25625/13AGYL/0R3ELL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139643"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_5hours_after.wav.010",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 10 of a recording of a tomato plant with water deficit - 5 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/DMCHT0",
+            "identifier": "https://doi.org/10.25625/13AGYL/DMCHT0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139639"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_5hours_after.wav.011",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 11 of a recording of a tomato plant with water deficit - 5 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/ZF0NCL",
+            "identifier": "https://doi.org/10.25625/13AGYL/ZF0NCL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139644"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_5hours_after.wav.012",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 12 of a recording of a tomato plant with water deficit - 5 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/BHJCQG",
+            "identifier": "https://doi.org/10.25625/13AGYL/BHJCQG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139648"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_5hours_after.wav.013",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 13 of a recording of a tomato plant with water deficit - 5 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/VFJSCX",
+            "identifier": "https://doi.org/10.25625/13AGYL/VFJSCX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139645"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_5hours_after.wav.014",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 14 of a recording of a tomato plant with water deficit - 5 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/BEIG08",
+            "identifier": "https://doi.org/10.25625/13AGYL/BEIG08",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139647"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_5hours_after.wav.015",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 15 of a recording of a tomato plant with water deficit - 5 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/CYYGKI",
+            "identifier": "https://doi.org/10.25625/13AGYL/CYYGKI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139646"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_5hours_after.wav.016",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 16 of a recording of a tomato plant with water deficit - 5 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/LRESMH",
+            "identifier": "https://doi.org/10.25625/13AGYL/LRESMH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139649"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_5hours_after.wav.017",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 17 of a recording of a tomato plant with water deficit - 5 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/C7VSPS",
+            "identifier": "https://doi.org/10.25625/13AGYL/C7VSPS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139652"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_5hours_after.wav.018",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 18 of a recording of a tomato plant with water deficit - 5 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/Z7EZU3",
+            "identifier": "https://doi.org/10.25625/13AGYL/Z7EZU3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139650"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_5hours_after.wav.019",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "part 19 of a recording of a tomato plant with water deficit - 5 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/MY6MYP",
+            "identifier": "https://doi.org/10.25625/13AGYL/MY6MYP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139653"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "old_plant_dry_5hours_after.wav.020",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 276265636,
+            "description": "part 20 of a recording of a tomato plant with water deficit - 5 hours after water supply was cut off",
+            "@id": "https://doi.org/10.25625/13AGYL/7MVUGJ",
+            "identifier": "https://doi.org/10.25625/13AGYL/7MVUGJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139651"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Agricultural Sciences",
+        "Computer and Information Science"
+    ],
+    "publications": [
+        {
+            "citation": "This DataSet belongs to the Bachelor Thesis about \"Hearing What Plants Feel: Stress Signals Via Ultrasound\""
+        }
+    ]
+}

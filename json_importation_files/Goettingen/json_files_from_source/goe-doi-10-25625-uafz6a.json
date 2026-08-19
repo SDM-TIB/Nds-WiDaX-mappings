@@ -1,0 +1,67 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/UAFZ6A",
+    "identifier": "https://doi.org/10.25625/UAFZ6A",
+    "name": "A Quantitative and Qualitative Comparison of Machine Learning Inference Frameworks",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Egi",
+            "familyName": "Brako",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Gesellschaft f\u00fcr wissenschaftliche Datenverarbeitung mbH G\u00f6ttingen"
+            },
+            "name": "Brako, Egi"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Egi",
+            "familyName": "Brako",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Gesellschaft f\u00fcr wissenschaftliche Datenverarbeitung mbH G\u00f6ttingen"
+            },
+            "name": "Brako, Egi"
+        }
+    ],
+    "datePublished": "2024-08-08",
+    "dateModified": "2024-08-08",
+    "version": "1",
+    "description": "As Artificial Intelligence (AI) continues to advance and impact diverse fields, ensuring universal access to its abilities becomes increasingly crucial. To access various AI models, they must be deployed to process inference requests. We conducted qualitative and quantitative analyses of popular open-source serving frameworks by evaluating their performance on three common Machine Learning tasks. This research aims to shed more light on the frameworks\u2019 respective strengths and weaknesses, consequently addressing the challenges posed by the process of selecting a method of serving the models. The qualitative comparison is carried out by taking into account the subjective characteristics of each framework and scoring them on a number scale. We then use Locust to run load-tests on these frameworks, log their quantitative results, and compare them with each other. Our results find that PyTorch TorchServe is the overall best-performing framework, consistently surpassing the other two in our performance test. We also found that some platforms had significant issues handling more complex models, showing incapabilities for handling specific Machine Learning tasks. Our findings show significant differences among the frameworks, contributing valuable insights for developers and researchers in selecting the most suitable framework serving Machine Learning models.",
+    "keywords": [
+        "Computer and Information Science"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Egi-Brako-Bachelor_s_Thesis.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 1090205,
+            "@id": "https://doi.org/10.25625/UAFZ6A/D63PD5",
+            "identifier": "https://doi.org/10.25625/UAFZ6A/D63PD5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108593"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Computer and Information Science"
+    ]
+}

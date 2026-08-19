@@ -1,0 +1,939 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/P7VQTP",
+    "identifier": "https://doi.org/10.25625/P7VQTP",
+    "name": "PigTrack: a diverse and challenging benchmark dataset for multi-object tracking of pigs",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Jonathan",
+            "familyName": "Henrich",
+            "name": "Henrich, Jonathan"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Christian",
+            "familyName": "Post",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute of Animal Breeding and Husbandry, Kiel University"
+            },
+            "name": "Post, Christian"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Thomas",
+            "familyName": "Kneib",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Chairs of Statistics and Econometrics, Faculty of Economics, University of G\u00f6ttingen, Germany"
+            },
+            "name": "Kneib, Thomas"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Ramin",
+            "familyName": "Yahyapour",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Gesellschaft f\u00fcr wissenschaftliche Datenverarbeitung mbH G\u00f6ttingen"
+            },
+            "name": "Yahyapour, Ramin"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Imke",
+            "familyName": "Traulsen",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute of Animal Breeding and Husbandry, Kiel University"
+            },
+            "name": "Traulsen, Imke"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jonathan",
+            "familyName": "Henrich",
+            "name": "Henrich, Jonathan"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Christian",
+            "familyName": "Post",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute of Animal Breeding and Husbandry, Kiel University"
+            },
+            "name": "Post, Christian"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Thomas",
+            "familyName": "Kneib",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Chairs of Statistics and Econometrics, Faculty of Economics, University of G\u00f6ttingen, Germany"
+            },
+            "name": "Kneib, Thomas"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Ramin",
+            "familyName": "Yahyapour",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Gesellschaft f\u00fcr wissenschaftliche Datenverarbeitung mbH G\u00f6ttingen"
+            },
+            "name": "Yahyapour, Ramin"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Imke",
+            "familyName": "Traulsen",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute of Animal Breeding and Husbandry, Kiel University"
+            },
+            "name": "Traulsen, Imke"
+        }
+    ],
+    "datePublished": "2025-04-03",
+    "dateModified": "2025-12-01",
+    "version": "2",
+    "description": "Note: To better find the files to download, select \"Change View: Tree\". This dataset is associated with the paper \"Benchmarking pig detection and tracking under diverse and challenging conditions\" published in Computers and Electronics in Agriculture. The dataset contains: 80 video sequences from conventional pig farming with multi-object tracking annotations together with a 'split.txt' file containing the predefined training, validation and test splits The original mp4 videos of the 80 video sequences A visualization of the annotated bounding boxes for all 80 videos Model weights of MOTRv2 and MOTIP trained for pig tracking. Pre-computed bounding box priors that can be used to train MOTRv2. A thorough explanation of all files contained in this data repository can be found in ReadMe.txt. The github repository associated with this dataset can be found at https://github.com/jonaden94/PigBench. It includes commands to automatically download the files from this data repository that are required for model training, evaluation, and inference.",
+    "keywords": [
+        "Agricultural Sciences",
+        "Computer and Information Science"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "Henrich, J., Post, C., Zilke, M., Shiroya, P., Chanut, E., Mollazadeh Yamchi, A., Yahyapour, R., Kneib, T., & Traulsen, I. (2026). Benchmarking pig detection and tracking under diverse and challenging conditions. Computers and Electronics in Agriculture, 241, 111264. https://doi.org/10.1016/j.compag.2025.111264",
+            "@id": "https://www.sciencedirect.com/science/article/pii/S0168169925013705?via%3Dihub",
+            "identifier": "https://www.sciencedirect.com/science/article/pii/S0168169925013705?via%3Dihub",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0168169925013705?via%3Dihub"
+        }
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "ReadMe.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 3910,
+            "@id": "https://doi.org/10.25625/P7VQTP/UYMATY",
+            "identifier": "https://doi.org/10.25625/P7VQTP/UYMATY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128610"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "bbox_priors_minconf0.5_rgb.json",
+            "encodingFormat": "application/json",
+            "contentSize": 32872175,
+            "@id": "https://doi.org/10.25625/P7VQTP/RNBHTY",
+            "identifier": "https://doi.org/10.25625/P7VQTP/RNBHTY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/125019"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "PigTrackVideos.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 1375413445,
+            "@id": "https://doi.org/10.25625/P7VQTP/HGGTFR",
+            "identifier": "https://doi.org/10.25625/P7VQTP/HGGTFR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123329"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "PigTrackViz.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 3021667179,
+            "@id": "https://doi.org/10.25625/P7VQTP/DGWPPG",
+            "identifier": "https://doi.org/10.25625/P7VQTP/DGWPPG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123328"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "detr_pretrained_pigs.pth",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 163477470,
+            "@id": "https://doi.org/10.25625/P7VQTP/HZZTJE",
+            "identifier": "https://doi.org/10.25625/P7VQTP/HZZTJE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/125022"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "MOTIP.pth",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 237256613,
+            "@id": "https://doi.org/10.25625/P7VQTP/XUQFCT",
+            "identifier": "https://doi.org/10.25625/P7VQTP/XUQFCT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128608"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "MOTRv2.pth",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 168145507,
+            "@id": "https://doi.org/10.25625/P7VQTP/WPPUCB",
+            "identifier": "https://doi.org/10.25625/P7VQTP/WPPUCB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128609"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0001.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 87241321,
+            "@id": "https://doi.org/10.25625/P7VQTP/TSAWHD",
+            "identifier": "https://doi.org/10.25625/P7VQTP/TSAWHD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123253"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0002.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 741439227,
+            "@id": "https://doi.org/10.25625/P7VQTP/WB9ZJU",
+            "identifier": "https://doi.org/10.25625/P7VQTP/WB9ZJU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123256"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0003.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 103975345,
+            "@id": "https://doi.org/10.25625/P7VQTP/4ILP3V",
+            "identifier": "https://doi.org/10.25625/P7VQTP/4ILP3V",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123250"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0004.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 203512519,
+            "@id": "https://doi.org/10.25625/P7VQTP/L68V3D",
+            "identifier": "https://doi.org/10.25625/P7VQTP/L68V3D",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123249"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0005.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 367091446,
+            "@id": "https://doi.org/10.25625/P7VQTP/VWCUPE",
+            "identifier": "https://doi.org/10.25625/P7VQTP/VWCUPE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123255"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0006.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 473886865,
+            "@id": "https://doi.org/10.25625/P7VQTP/H5UBL2",
+            "identifier": "https://doi.org/10.25625/P7VQTP/H5UBL2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123251"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0007.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 105046078,
+            "@id": "https://doi.org/10.25625/P7VQTP/YLLHTY",
+            "identifier": "https://doi.org/10.25625/P7VQTP/YLLHTY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123254"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0008.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 447092939,
+            "@id": "https://doi.org/10.25625/P7VQTP/ZFXZE0",
+            "identifier": "https://doi.org/10.25625/P7VQTP/ZFXZE0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123248"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0009.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 131241594,
+            "@id": "https://doi.org/10.25625/P7VQTP/YHKNAZ",
+            "identifier": "https://doi.org/10.25625/P7VQTP/YHKNAZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123252"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0010.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 263556011,
+            "@id": "https://doi.org/10.25625/P7VQTP/OPYDUQ",
+            "identifier": "https://doi.org/10.25625/P7VQTP/OPYDUQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123257"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0011.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 81130376,
+            "@id": "https://doi.org/10.25625/P7VQTP/YMAQCC",
+            "identifier": "https://doi.org/10.25625/P7VQTP/YMAQCC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123261"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0012.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 61912579,
+            "@id": "https://doi.org/10.25625/P7VQTP/OFHHHS",
+            "identifier": "https://doi.org/10.25625/P7VQTP/OFHHHS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123264"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0013.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 349843564,
+            "@id": "https://doi.org/10.25625/P7VQTP/NJ5TFZ",
+            "identifier": "https://doi.org/10.25625/P7VQTP/NJ5TFZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123266"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0014.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 214105253,
+            "@id": "https://doi.org/10.25625/P7VQTP/60HWIQ",
+            "identifier": "https://doi.org/10.25625/P7VQTP/60HWIQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123260"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0015.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 459632141,
+            "@id": "https://doi.org/10.25625/P7VQTP/4FZBAM",
+            "identifier": "https://doi.org/10.25625/P7VQTP/4FZBAM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123258"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0016.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 201241214,
+            "@id": "https://doi.org/10.25625/P7VQTP/JUSEAV",
+            "identifier": "https://doi.org/10.25625/P7VQTP/JUSEAV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123263"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0017.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 353429610,
+            "@id": "https://doi.org/10.25625/P7VQTP/F3NQKQ",
+            "identifier": "https://doi.org/10.25625/P7VQTP/F3NQKQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123259"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0018.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 289502516,
+            "@id": "https://doi.org/10.25625/P7VQTP/SQUHLS",
+            "identifier": "https://doi.org/10.25625/P7VQTP/SQUHLS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123265"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0019.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 55311479,
+            "@id": "https://doi.org/10.25625/P7VQTP/VY3GHF",
+            "identifier": "https://doi.org/10.25625/P7VQTP/VY3GHF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123267"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0020.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 286032657,
+            "@id": "https://doi.org/10.25625/P7VQTP/0SIV94",
+            "identifier": "https://doi.org/10.25625/P7VQTP/0SIV94",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123262"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0021.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 298785855,
+            "@id": "https://doi.org/10.25625/P7VQTP/ATCS5X",
+            "identifier": "https://doi.org/10.25625/P7VQTP/ATCS5X",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123273"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0022.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 214880693,
+            "@id": "https://doi.org/10.25625/P7VQTP/NBYTC5",
+            "identifier": "https://doi.org/10.25625/P7VQTP/NBYTC5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123276"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0023.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 404267390,
+            "@id": "https://doi.org/10.25625/P7VQTP/F59N2U",
+            "identifier": "https://doi.org/10.25625/P7VQTP/F59N2U",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123275"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0024.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 288583013,
+            "@id": "https://doi.org/10.25625/P7VQTP/MJLSGF",
+            "identifier": "https://doi.org/10.25625/P7VQTP/MJLSGF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123271"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0025.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 218683625,
+            "@id": "https://doi.org/10.25625/P7VQTP/G0UM5G",
+            "identifier": "https://doi.org/10.25625/P7VQTP/G0UM5G",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123270"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0026.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 192178625,
+            "@id": "https://doi.org/10.25625/P7VQTP/IZVWAA",
+            "identifier": "https://doi.org/10.25625/P7VQTP/IZVWAA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123272"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0027.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 365727480,
+            "@id": "https://doi.org/10.25625/P7VQTP/6E44EU",
+            "identifier": "https://doi.org/10.25625/P7VQTP/6E44EU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123274"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0028.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 39987177,
+            "@id": "https://doi.org/10.25625/P7VQTP/1PZTUN",
+            "identifier": "https://doi.org/10.25625/P7VQTP/1PZTUN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123268"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0029.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 80374953,
+            "@id": "https://doi.org/10.25625/P7VQTP/M22TCF",
+            "identifier": "https://doi.org/10.25625/P7VQTP/M22TCF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123277"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0030.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 205298219,
+            "@id": "https://doi.org/10.25625/P7VQTP/PKEADJ",
+            "identifier": "https://doi.org/10.25625/P7VQTP/PKEADJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123269"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0031.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 474003429,
+            "@id": "https://doi.org/10.25625/P7VQTP/SJHM5R",
+            "identifier": "https://doi.org/10.25625/P7VQTP/SJHM5R",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123286"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0032.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 474120424,
+            "@id": "https://doi.org/10.25625/P7VQTP/KC7FPC",
+            "identifier": "https://doi.org/10.25625/P7VQTP/KC7FPC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123283"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0033.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 431114258,
+            "@id": "https://doi.org/10.25625/P7VQTP/YVNEGA",
+            "identifier": "https://doi.org/10.25625/P7VQTP/YVNEGA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123281"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0034.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 796911531,
+            "@id": "https://doi.org/10.25625/P7VQTP/NWOA7S",
+            "identifier": "https://doi.org/10.25625/P7VQTP/NWOA7S",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123280"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0035.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 124283078,
+            "@id": "https://doi.org/10.25625/P7VQTP/GWPSRK",
+            "identifier": "https://doi.org/10.25625/P7VQTP/GWPSRK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123285"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0036.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 108717294,
+            "@id": "https://doi.org/10.25625/P7VQTP/W6XLGG",
+            "identifier": "https://doi.org/10.25625/P7VQTP/W6XLGG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123279"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0037.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 326162155,
+            "@id": "https://doi.org/10.25625/P7VQTP/HQCDFE",
+            "identifier": "https://doi.org/10.25625/P7VQTP/HQCDFE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123284"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0038.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 136226638,
+            "@id": "https://doi.org/10.25625/P7VQTP/X2VAPW",
+            "identifier": "https://doi.org/10.25625/P7VQTP/X2VAPW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123278"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0039.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 194127117,
+            "@id": "https://doi.org/10.25625/P7VQTP/QT61JD",
+            "identifier": "https://doi.org/10.25625/P7VQTP/QT61JD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123282"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0040.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 247051064,
+            "@id": "https://doi.org/10.25625/P7VQTP/MNDKB7",
+            "identifier": "https://doi.org/10.25625/P7VQTP/MNDKB7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123287"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0041.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 462716177,
+            "@id": "https://doi.org/10.25625/P7VQTP/JLJUQC",
+            "identifier": "https://doi.org/10.25625/P7VQTP/JLJUQC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123288"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0042.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 394599599,
+            "@id": "https://doi.org/10.25625/P7VQTP/YVXAYP",
+            "identifier": "https://doi.org/10.25625/P7VQTP/YVXAYP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123293"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0043.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 153750914,
+            "@id": "https://doi.org/10.25625/P7VQTP/FPXOPO",
+            "identifier": "https://doi.org/10.25625/P7VQTP/FPXOPO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123289"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0044.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 369099071,
+            "@id": "https://doi.org/10.25625/P7VQTP/SCGSMA",
+            "identifier": "https://doi.org/10.25625/P7VQTP/SCGSMA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123290"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0045.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 347976398,
+            "@id": "https://doi.org/10.25625/P7VQTP/4RKGUQ",
+            "identifier": "https://doi.org/10.25625/P7VQTP/4RKGUQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123297"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0046.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 241630585,
+            "@id": "https://doi.org/10.25625/P7VQTP/GHGHZX",
+            "identifier": "https://doi.org/10.25625/P7VQTP/GHGHZX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123291"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0047.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 379485331,
+            "@id": "https://doi.org/10.25625/P7VQTP/XA8B9T",
+            "identifier": "https://doi.org/10.25625/P7VQTP/XA8B9T",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123295"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0048.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 253193659,
+            "@id": "https://doi.org/10.25625/P7VQTP/66DZQU",
+            "identifier": "https://doi.org/10.25625/P7VQTP/66DZQU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123294"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0049.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 91742455,
+            "@id": "https://doi.org/10.25625/P7VQTP/1DVUWO",
+            "identifier": "https://doi.org/10.25625/P7VQTP/1DVUWO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123296"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0050.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 170231600,
+            "@id": "https://doi.org/10.25625/P7VQTP/KRDO7M",
+            "identifier": "https://doi.org/10.25625/P7VQTP/KRDO7M",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123292"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0051.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 470950646,
+            "@id": "https://doi.org/10.25625/P7VQTP/HIFGWF",
+            "identifier": "https://doi.org/10.25625/P7VQTP/HIFGWF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123305"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0052.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 134162858,
+            "@id": "https://doi.org/10.25625/P7VQTP/UZAWPW",
+            "identifier": "https://doi.org/10.25625/P7VQTP/UZAWPW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123301"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0053.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 507868019,
+            "@id": "https://doi.org/10.25625/P7VQTP/PMAMHK",
+            "identifier": "https://doi.org/10.25625/P7VQTP/PMAMHK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123306"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0054.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 244719197,
+            "@id": "https://doi.org/10.25625/P7VQTP/VPJQEB",
+            "identifier": "https://doi.org/10.25625/P7VQTP/VPJQEB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123299"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0055.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 73190306,
+            "@id": "https://doi.org/10.25625/P7VQTP/SVWSBC",
+            "identifier": "https://doi.org/10.25625/P7VQTP/SVWSBC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123298"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0056.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 442300227,
+            "@id": "https://doi.org/10.25625/P7VQTP/ADGB6J",
+            "identifier": "https://doi.org/10.25625/P7VQTP/ADGB6J",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123300"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0057.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 440604995,
+            "@id": "https://doi.org/10.25625/P7VQTP/8DVRVQ",
+            "identifier": "https://doi.org/10.25625/P7VQTP/8DVRVQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123307"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0058.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 268625186,
+            "@id": "https://doi.org/10.25625/P7VQTP/S1VGEW",
+            "identifier": "https://doi.org/10.25625/P7VQTP/S1VGEW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123304"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0059.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 59996555,
+            "@id": "https://doi.org/10.25625/P7VQTP/4COXNG",
+            "identifier": "https://doi.org/10.25625/P7VQTP/4COXNG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123302"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0060.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 227731016,
+            "@id": "https://doi.org/10.25625/P7VQTP/HZE4TU",
+            "identifier": "https://doi.org/10.25625/P7VQTP/HZE4TU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123303"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0061.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 202045738,
+            "@id": "https://doi.org/10.25625/P7VQTP/N5WQIN",
+            "identifier": "https://doi.org/10.25625/P7VQTP/N5WQIN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123312"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0062.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 324863068,
+            "@id": "https://doi.org/10.25625/P7VQTP/BC7HXO",
+            "identifier": "https://doi.org/10.25625/P7VQTP/BC7HXO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123314"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0063.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 128915148,
+            "@id": "https://doi.org/10.25625/P7VQTP/PFIZNZ",
+            "identifier": "https://doi.org/10.25625/P7VQTP/PFIZNZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123308"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0064.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 129225513,
+            "@id": "https://doi.org/10.25625/P7VQTP/VT0NTI",
+            "identifier": "https://doi.org/10.25625/P7VQTP/VT0NTI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123317"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0065.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 232777396,
+            "@id": "https://doi.org/10.25625/P7VQTP/LIXB93",
+            "identifier": "https://doi.org/10.25625/P7VQTP/LIXB93",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123316"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0066.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 155449287,
+            "@id": "https://doi.org/10.25625/P7VQTP/QX8N9W",
+            "identifier": "https://doi.org/10.25625/P7VQTP/QX8N9W",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123311"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0067.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 175662763,
+            "@id": "https://doi.org/10.25625/P7VQTP/OKAMHZ",
+            "identifier": "https://doi.org/10.25625/P7VQTP/OKAMHZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123309"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0068.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 85660132,
+            "@id": "https://doi.org/10.25625/P7VQTP/3X6UMG",
+            "identifier": "https://doi.org/10.25625/P7VQTP/3X6UMG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123313"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0069.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 345913908,
+            "@id": "https://doi.org/10.25625/P7VQTP/ASLUBF",
+            "identifier": "https://doi.org/10.25625/P7VQTP/ASLUBF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123315"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0070.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 232186874,
+            "@id": "https://doi.org/10.25625/P7VQTP/AFZMGD",
+            "identifier": "https://doi.org/10.25625/P7VQTP/AFZMGD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123310"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0071.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 202327932,
+            "@id": "https://doi.org/10.25625/P7VQTP/UXNBDB",
+            "identifier": "https://doi.org/10.25625/P7VQTP/UXNBDB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123321"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0072.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 240725214,
+            "@id": "https://doi.org/10.25625/P7VQTP/SADTLG",
+            "identifier": "https://doi.org/10.25625/P7VQTP/SADTLG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123323"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0073.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 365985329,
+            "@id": "https://doi.org/10.25625/P7VQTP/NNOIQN",
+            "identifier": "https://doi.org/10.25625/P7VQTP/NNOIQN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123319"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0074.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 292180243,
+            "@id": "https://doi.org/10.25625/P7VQTP/PU1G5L",
+            "identifier": "https://doi.org/10.25625/P7VQTP/PU1G5L",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123327"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0075.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 109296191,
+            "@id": "https://doi.org/10.25625/P7VQTP/GAPYIS",
+            "identifier": "https://doi.org/10.25625/P7VQTP/GAPYIS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123322"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0076.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 229702770,
+            "@id": "https://doi.org/10.25625/P7VQTP/BKEENX",
+            "identifier": "https://doi.org/10.25625/P7VQTP/BKEENX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123326"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0077.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 172797266,
+            "@id": "https://doi.org/10.25625/P7VQTP/0WQGHV",
+            "identifier": "https://doi.org/10.25625/P7VQTP/0WQGHV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123325"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0078.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 220479658,
+            "@id": "https://doi.org/10.25625/P7VQTP/YSXMM9",
+            "identifier": "https://doi.org/10.25625/P7VQTP/YSXMM9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123324"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0079.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 291905225,
+            "@id": "https://doi.org/10.25625/P7VQTP/RMRO5W",
+            "identifier": "https://doi.org/10.25625/P7VQTP/RMRO5W",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123318"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pigtrack0080.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 314318281,
+            "@id": "https://doi.org/10.25625/P7VQTP/UOJHLG",
+            "identifier": "https://doi.org/10.25625/P7VQTP/UOJHLG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/123320"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "split.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1455,
+            "@id": "https://doi.org/10.25625/P7VQTP/XUXKRF",
+            "identifier": "https://doi.org/10.25625/P7VQTP/XUXKRF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124934"
+        }
+    ],
+    "license_title": "Creative Commons Attribution 4.0 International",
+    "subjects": [
+        "Agricultural Sciences",
+        "Computer and Information Science"
+    ],
+    "publications": [
+        {
+            "citation": "Henrich, J., Post, C., Zilke, M., Shiroya, P., Chanut, E., Mollazadeh Yamchi, A., Yahyapour, R., Kneib, T., &amp; Traulsen, I. (2026). Benchmarking pig detection and tracking under diverse and challenging conditions. Computers and Electronics in Agriculture, 241, 111264. https://doi.org/10.1016/j.compag.2025.111264",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0168169925013705?via%3Dihub"
+        }
+    ]
+}

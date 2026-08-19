@@ -1,0 +1,528 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/VICWCZ",
+    "identifier": "https://doi.org/10.25625/VICWCZ",
+    "name": "Simulations of the motility-matrix production switch in Bacillus subtilis",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Simon",
+            "familyName": "Dannenberg",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institut f\u00fcr Dynamik komplexer Systeme, Universit\u00e4t G\u00f6ttingen"
+            },
+            "name": "Dannenberg, Simon"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Jonas",
+            "familyName": "Penning",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institut f\u00fcr Dynamik komplexer Systeme, Universit\u00e4t G\u00f6ttingen"
+            },
+            "name": "Penning, Jonas"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Alexander",
+            "familyName": "Simm",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institut f\u00fcr Dynamik komplexer Systeme, Universit\u00e4t G\u00f6ttingen"
+            },
+            "name": "Simm, Alexander"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Stefan",
+            "familyName": "Klumpp",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institut f\u00fcr Dynamik komplexer Systeme, Universit\u00e4t G\u00f6ttingen"
+            },
+            "name": "Klumpp, Stefan"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Simon",
+            "familyName": "Dannenberg",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institut f\u00fcr Dynamik komplexer Systeme, Universit\u00e4t G\u00f6ttingen"
+            },
+            "name": "Dannenberg, Simon"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Jonas",
+            "familyName": "Penning",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institut f\u00fcr Dynamik komplexer Systeme, Universit\u00e4t G\u00f6ttingen"
+            },
+            "name": "Penning, Jonas"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Alexander",
+            "familyName": "Simm",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institut f\u00fcr Dynamik komplexer Systeme, Universit\u00e4t G\u00f6ttingen"
+            },
+            "name": "Simm, Alexander"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Stefan",
+            "familyName": "Klumpp",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institut f\u00fcr Dynamik komplexer Systeme, Universit\u00e4t G\u00f6ttingen"
+            },
+            "name": "Klumpp, Stefan"
+        }
+    ],
+    "datePublished": "2023-10-31",
+    "dateModified": "2024-04-11",
+    "version": "1",
+    "description": "This data set contains data and code of simulations of the motility-matrix production switch in Bacillus subtilis. The folders is structured using the numbering of the individual Figures in the corresponding publication. The Methods are described in the paper and the code to create the plots can be found in the corresponding folders. Some collections of data that consist of many small files are provided as tar archives. bistability Fig 1 and Fig 2: Includes the code to create the bistability plots 1b and 2c. Fig_1_stochastic contains the code to generate Fig 1c. The entire parameter sweep was created using our local cluster. To facilitate the understanding of the code, two subfolders are included the first one which can be used to create individual trajectories. This is can be done via the python file \"create_trajectory.py\". The exact input parameters can be changed using the in put file which is read in via the function \"getinput\". The created trajectories can be plotted and analysed using \"plot.py\". Fig_2 follows a similar structure. The first folder allows the creation of individual curves. While the second one provides the results if a parameter sweep is done and the corresponding analysis. The code was also used to create the comparasion of analytical and numerical results in the supplements (Fig. S2). Fig_3_4 contains the code and data for the minimal stochastic competition model. gillespie.py is the program containing the Gillespie algorithm and is linked to all other programs in this file. Data for Figures 3A and 3B was computed using the program bursting.py. Fig_5 contains two subfolders. The first one containing the code for the two deterministic cases. The second one for the stochastic case. Since the calculation shown in the paper, takes some calculational time. There are two options to run the file: Either create a new trajectory. For that the parameters of the simulation can be adjusted in the function \"runparameters\" e.g. maximal time etc. Or one can analyse and plot the figures seen in Fig 6. The values for alpha_r and alpha_s are each 30 molecules per minute. The same code was used to create the Supplement figure of Spo0Ap (Fig. S3). Fig_6 contains the code for the figure. Again depending on what is commented out in the main function one can either plot our results and recreate the figure or create a new one with different parameters Fig_S1 contains the code for the reporter protein concentrations in the steady state. by changing the number of seeds used in the root finding algorithm the algorithms success is increased.",
+    "keywords": [
+        "Medicine, Health and Life Sciences",
+        "Physics"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "S. Dannenberg, J. Penning, A. Simm, S. Klumpp, The motility-matrix production switch in Bacillus subtilis - a modeling perspective, J. Bacteriol. 206, e00047-23 (2024)"
+        }
+    ],
+    "license": "http://creativecommons.org/licenses/by-nc/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "Deutsche Forschungsgemeinschaft"
+        },
+        {
+            "@type": "Organization",
+            "name": "MWK Niedersachsen"
+        }
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "README",
+            "encodingFormat": "text/plain; charset=US-ASCII",
+            "contentSize": 2448,
+            "@id": "https://doi.org/10.25625/VICWCZ/T9V9MV",
+            "identifier": "https://doi.org/10.25625/VICWCZ/T9V9MV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67771"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "alpha_I60k=50second.png",
+            "encodingFormat": "image/png",
+            "contentSize": 182219,
+            "@id": "https://doi.org/10.25625/VICWCZ/HQBZPM",
+            "identifier": "https://doi.org/10.25625/VICWCZ/HQBZPM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67728"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "bistability involving sinI.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 5012,
+            "@id": "https://doi.org/10.25625/VICWCZ/0NPLUR",
+            "identifier": "https://doi.org/10.25625/VICWCZ/0NPLUR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67729"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "create_trajectories.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 13824,
+            "@id": "https://doi.org/10.25625/VICWCZ/IMWZ8T",
+            "identifier": "https://doi.org/10.25625/VICWCZ/IMWZ8T",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67730"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "input.dat",
+            "encodingFormat": "text/x-fixed-field",
+            "contentSize": 267,
+            "@id": "https://doi.org/10.25625/VICWCZ/NYXPSR",
+            "identifier": "https://doi.org/10.25625/VICWCZ/NYXPSR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67737"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plot.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 11950,
+            "@id": "https://doi.org/10.25625/VICWCZ/9B8Q8M",
+            "identifier": "https://doi.org/10.25625/VICWCZ/9B8Q8M",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67735"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "input.dat",
+            "encodingFormat": "text/x-fixed-field",
+            "contentSize": 195,
+            "@id": "https://doi.org/10.25625/VICWCZ/A74UED",
+            "identifier": "https://doi.org/10.25625/VICWCZ/A74UED",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67734"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "ontimes.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 118507,
+            "@id": "https://doi.org/10.25625/VICWCZ/ARPJRS",
+            "identifier": "https://doi.org/10.25625/VICWCZ/ARPJRS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67733"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "ontimesmatrix.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 125172,
+            "@id": "https://doi.org/10.25625/VICWCZ/YUXP9U",
+            "identifier": "https://doi.org/10.25625/VICWCZ/YUXP9U",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67732"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "parameter_sweep.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 13450,
+            "@id": "https://doi.org/10.25625/VICWCZ/DYPPDX",
+            "identifier": "https://doi.org/10.25625/VICWCZ/DYPPDX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67736"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "transition_rates alpha_i = 0.0 Burstsize = 10.0.png",
+            "encodingFormat": "image/png",
+            "contentSize": 166794,
+            "@id": "https://doi.org/10.25625/VICWCZ/JSIYZY",
+            "identifier": "https://doi.org/10.25625/VICWCZ/JSIYZY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67731"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "deterministic_trajectories.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 12751,
+            "@id": "https://doi.org/10.25625/VICWCZ/PD3BQI",
+            "identifier": "https://doi.org/10.25625/VICWCZ/PD3BQI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67739"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "figure_together.png",
+            "encodingFormat": "image/png",
+            "contentSize": 447070,
+            "@id": "https://doi.org/10.25625/VICWCZ/LFBYZF",
+            "identifier": "https://doi.org/10.25625/VICWCZ/LFBYZF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67738"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "rootsalphar21alphas21",
+            "encodingFormat": "text/plain; charset=US-ASCII",
+            "contentSize": 352,
+            "@id": "https://doi.org/10.25625/VICWCZ/P74IVY",
+            "identifier": "https://doi.org/10.25625/VICWCZ/P74IVY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67744"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "trajectoriealphar21alphas21",
+            "encodingFormat": "text/plain; charset=US-ASCII",
+            "contentSize": 2400466,
+            "@id": "https://doi.org/10.25625/VICWCZ/5PMOVV",
+            "identifier": "https://doi.org/10.25625/VICWCZ/5PMOVV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67743"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Data_2D.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 221254223,
+            "@id": "https://doi.org/10.25625/VICWCZ/8BUDEV",
+            "identifier": "https://doi.org/10.25625/VICWCZ/8BUDEV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67741"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "deterministic_trajectories.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 3135,
+            "@id": "https://doi.org/10.25625/VICWCZ/UVLCET",
+            "identifier": "https://doi.org/10.25625/VICWCZ/UVLCET",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67740"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "durations10deterministic.png",
+            "encodingFormat": "image/png",
+            "contentSize": 54045,
+            "@id": "https://doi.org/10.25625/VICWCZ/9T6EUG",
+            "identifier": "https://doi.org/10.25625/VICWCZ/9T6EUG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67742"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "3AB_4B.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 593308395,
+            "@id": "https://doi.org/10.25625/VICWCZ/S2V60J",
+            "identifier": "https://doi.org/10.25625/VICWCZ/S2V60J",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67748"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "3C.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 6360,
+            "@id": "https://doi.org/10.25625/VICWCZ/WXRYGX",
+            "identifier": "https://doi.org/10.25625/VICWCZ/WXRYGX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67751"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "4A.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 10795,
+            "@id": "https://doi.org/10.25625/VICWCZ/NHGF5M",
+            "identifier": "https://doi.org/10.25625/VICWCZ/NHGF5M",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67746"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "4CD.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 111960,
+            "@id": "https://doi.org/10.25625/VICWCZ/RODW6Z",
+            "identifier": "https://doi.org/10.25625/VICWCZ/RODW6Z",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67750"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "bursting.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 5727,
+            "@id": "https://doi.org/10.25625/VICWCZ/AMIGVC",
+            "identifier": "https://doi.org/10.25625/VICWCZ/AMIGVC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67745"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "gillespie.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 1026,
+            "@id": "https://doi.org/10.25625/VICWCZ/60J4SA",
+            "identifier": "https://doi.org/10.25625/VICWCZ/60J4SA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67749"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "README",
+            "encodingFormat": "text/plain; charset=US-ASCII",
+            "contentSize": 386,
+            "@id": "https://doi.org/10.25625/VICWCZ/VAQKYC",
+            "identifier": "https://doi.org/10.25625/VICWCZ/VAQKYC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67770"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "deterministic_dynamic_phosphorelay.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 10789,
+            "@id": "https://doi.org/10.25625/VICWCZ/VCTYH5",
+            "identifier": "https://doi.org/10.25625/VICWCZ/VCTYH5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67767"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "stochastic.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 19849,
+            "@id": "https://doi.org/10.25625/VICWCZ/NVI1Q0",
+            "identifier": "https://doi.org/10.25625/VICWCZ/NVI1Q0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67755"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "stochastic.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 13549,
+            "@id": "https://doi.org/10.25625/VICWCZ/U77WYJ",
+            "identifier": "https://doi.org/10.25625/VICWCZ/U77WYJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67759"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "trajectorie_Relay",
+            "encodingFormat": "text/plain; charset=US-ASCII",
+            "contentSize": 89796706,
+            "@id": "https://doi.org/10.25625/VICWCZ/WXKG8A",
+            "identifier": "https://doi.org/10.25625/VICWCZ/WXKG8A",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67754"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "trajectorie_SinRSlrRSinI",
+            "encodingFormat": "text/plain; charset=US-ASCII",
+            "contentSize": 10731865,
+            "@id": "https://doi.org/10.25625/VICWCZ/YTLUKS",
+            "identifier": "https://doi.org/10.25625/VICWCZ/YTLUKS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67765"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "trajectorie_SinRSlrRSinI_test",
+            "encodingFormat": "text/plain; charset=US-ASCII",
+            "contentSize": 100329,
+            "@id": "https://doi.org/10.25625/VICWCZ/YO2GOK",
+            "identifier": "https://doi.org/10.25625/VICWCZ/YO2GOK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67763"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "steady_state.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 9591,
+            "@id": "https://doi.org/10.25625/VICWCZ/6FZC8E",
+            "identifier": "https://doi.org/10.25625/VICWCZ/6FZC8E",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67758"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "solutions00kmatrix50kmotility50",
+            "encodingFormat": "text/plain; charset=US-ASCII",
+            "contentSize": 22500,
+            "@id": "https://doi.org/10.25625/VICWCZ/OG4I2L",
+            "identifier": "https://doi.org/10.25625/VICWCZ/OG4I2L",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67762"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "solutions01kmatrix50kmotility50",
+            "encodingFormat": "text/plain; charset=US-ASCII",
+            "contentSize": 22500,
+            "@id": "https://doi.org/10.25625/VICWCZ/4ARTQZ",
+            "identifier": "https://doi.org/10.25625/VICWCZ/4ARTQZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67760"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "solutions10kmatrix50kmotility50",
+            "encodingFormat": "text/plain; charset=US-ASCII",
+            "contentSize": 22500,
+            "@id": "https://doi.org/10.25625/VICWCZ/OPLQ3J",
+            "identifier": "https://doi.org/10.25625/VICWCZ/OPLQ3J",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67761"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "solutions11kmatrix50kmotility50",
+            "encodingFormat": "text/plain; charset=US-ASCII",
+            "contentSize": 22500,
+            "@id": "https://doi.org/10.25625/VICWCZ/ESS5YN",
+            "identifier": "https://doi.org/10.25625/VICWCZ/ESS5YN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67764"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "solutions20kmatrix50kmotility50",
+            "encodingFormat": "text/plain; charset=US-ASCII",
+            "contentSize": 22559,
+            "@id": "https://doi.org/10.25625/VICWCZ/A3ABJC",
+            "identifier": "https://doi.org/10.25625/VICWCZ/A3ABJC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67753"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "solutions21kmatrix50kmotility50",
+            "encodingFormat": "text/plain; charset=US-ASCII",
+            "contentSize": 22559,
+            "@id": "https://doi.org/10.25625/VICWCZ/EMM0Y7",
+            "identifier": "https://doi.org/10.25625/VICWCZ/EMM0Y7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67766"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "solutions30kmatrix50kmotility50",
+            "encodingFormat": "text/plain; charset=US-ASCII",
+            "contentSize": 22500,
+            "@id": "https://doi.org/10.25625/VICWCZ/3GASSH",
+            "identifier": "https://doi.org/10.25625/VICWCZ/3GASSH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67756"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "solutions31kmatrix50kmotility50",
+            "encodingFormat": "text/plain; charset=US-ASCII",
+            "contentSize": 22500,
+            "@id": "https://doi.org/10.25625/VICWCZ/SRC99Z",
+            "identifier": "https://doi.org/10.25625/VICWCZ/SRC99Z",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67757"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "solutions40kmatrix50kmotility50",
+            "encodingFormat": "text/plain; charset=US-ASCII",
+            "contentSize": 22500,
+            "@id": "https://doi.org/10.25625/VICWCZ/5XL0HK",
+            "identifier": "https://doi.org/10.25625/VICWCZ/5XL0HK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67752"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "solutions41kmatrix50kmotility50",
+            "encodingFormat": "text/plain; charset=US-ASCII",
+            "contentSize": 22500,
+            "@id": "https://doi.org/10.25625/VICWCZ/BX0PKC",
+            "identifier": "https://doi.org/10.25625/VICWCZ/BX0PKC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67768"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "steadystatesK_reportermatrix50K_reportermotility502.png",
+            "encodingFormat": "image/png",
+            "contentSize": 253987,
+            "@id": "https://doi.org/10.25625/VICWCZ/DFOEVV",
+            "identifier": "https://doi.org/10.25625/VICWCZ/DFOEVV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67769"
+        }
+    ],
+    "license_title": "Creative Commons Attribution-NonCommercial 4.0 International",
+    "subjects": [
+        "Medicine, Health and Life Sciences",
+        "Physics"
+    ],
+    "publications": [
+        {
+            "citation": "S. Dannenberg, J. Penning, A. Simm, S. Klumpp, The motility-matrix production switch in Bacillus subtilis - a modeling perspective, J. Bacteriol. 206, e00047-23 (2024)"
+        }
+    ]
+}

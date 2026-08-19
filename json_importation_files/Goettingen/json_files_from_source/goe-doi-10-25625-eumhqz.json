@@ -1,0 +1,248 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/EUMHQZ",
+    "identifier": "https://doi.org/10.25625/EUMHQZ",
+    "name": "Enhancing economic multifunctionality without compromising multidiversity and ecosystem multifunctionality via forest enrichment",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Larissa",
+            "familyName": "Topanotti",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "name": "Topanotti, Larissa"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Larissa",
+            "familyName": "Topanotti",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "name": "Topanotti, Larissa"
+        }
+    ],
+    "datePublished": "2024-09-26",
+    "dateModified": "2026-02-03",
+    "version": "1",
+    "description": "Datasets and codes for the paper \"Enhancing economic multifunctionality without compromising multidiversity and ecosystem multifunctionality via forest enrichment\".",
+    "keywords": [
+        "Agricultural Sciences",
+        "biodiversity",
+        "European beech",
+        "ecosystem functions",
+        "Douglas-fir",
+        "introduced species",
+        "mixed forests",
+        "multi-purpose forest management",
+        "Norway spruce",
+        "temperate forests"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "Larissa Regina Topanotti et al. Enhancing economic multifunctionality without compromising multidiversity and ecosystem multifunctionality via forest enrichment.Sci. Adv.10,eadp6566(2024).DOI:10.1126/sciadv.adp6566",
+            "@id": "https://www.science.org/doi/10.1126/sciadv.adp6566",
+            "identifier": "https://www.science.org/doi/10.1126/sciadv.adp6566",
+            "url": "https://www.science.org/doi/10.1126/sciadv.adp6566"
+        }
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "DFG"
+        }
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "01_script_main_Topanotti_et_al_Sci_Adv.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 44068,
+            "description": "Main code for the paper: Enhancing economic multifunctionality without compromising multidiversity and ecosystem multifunctionality via forest enrichment - Topanotti et al. (2024). It includes the code for Figures 2, 3 and 4 (Main text) and the analyses behind results from Tables S3 (three first lines) and Table S4 ",
+            "@id": "https://doi.org/10.25625/EUMHQZ/G1TKK4",
+            "identifier": "https://doi.org/10.25625/EUMHQZ/G1TKK4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/111604"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "02_net_diversity_effects_individual_variables.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 27834,
+            "description": "Calculations of the net diversity effect for the individual indicators/variables",
+            "@id": "https://doi.org/10.25625/EUMHQZ/I9I2IH",
+            "identifier": "https://doi.org/10.25625/EUMHQZ/I9I2IH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/111479"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "03_supplementary_material_Topanotti_et_al_Sci_Adv.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 81197,
+            "description": "Code with all figures in the Supplementary Material",
+            "@id": "https://doi.org/10.25625/EUMHQZ/XFMSUV",
+            "identifier": "https://doi.org/10.25625/EUMHQZ/XFMSUV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/111596"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2024-09-16_data_hill_chao_normalized.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 16441,
+            "description": "Normalized data; it includes the multidiversity, ecosystem MF and economic MF calculated based on Chao et al. (2024)",
+            "@id": "https://doi.org/10.25625/EUMHQZ/5XHURE",
+            "identifier": "https://doi.org/10.25625/EUMHQZ/5XHURE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/111328"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2024-09-16_Economic_MF_Thresh.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 448029,
+            "description": "Data used to generate Fig S2; associated with the code for the supplementary material",
+            "@id": "https://doi.org/10.25625/EUMHQZ/5FEV8M",
+            "identifier": "https://doi.org/10.25625/EUMHQZ/5FEV8M",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/111603"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2024-09-16_Ecosystem_MF_Thresh.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 571284,
+            "description": "Data used to generate Fig S2; associated with the code for the supplementary material",
+            "@id": "https://doi.org/10.25625/EUMHQZ/YT11TK",
+            "identifier": "https://doi.org/10.25625/EUMHQZ/YT11TK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/111602"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2024-09-16_Multidiversity_observed_Thresh.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 452682,
+            "description": "Data used to generate Fig S2; associated with the code for the supplementary material",
+            "@id": "https://doi.org/10.25625/EUMHQZ/1TR4VR",
+            "identifier": "https://doi.org/10.25625/EUMHQZ/1TR4VR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/111600"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Collembola.xls",
+            "encodingFormat": "application/vnd.ms-excel",
+            "contentSize": 67072,
+            "description": "Example of data used to generate the Venn Diagrams; see code for the supplementary material",
+            "@id": "https://doi.org/10.25625/EUMHQZ/KTU3FK",
+            "identifier": "https://doi.org/10.25625/EUMHQZ/KTU3FK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/111598"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "data - net_diversity_effects.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 12466,
+            "description": "Data used to calculate the net diversity effects",
+            "@id": "https://doi.org/10.25625/EUMHQZ/N8V4IO",
+            "identifier": "https://doi.org/10.25625/EUMHQZ/N8V4IO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/111331"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "data.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 14444,
+            "description": "Raw data; it includes all variables",
+            "@id": "https://doi.org/10.25625/EUMHQZ/PLUCXI",
+            "identifier": "https://doi.org/10.25625/EUMHQZ/PLUCXI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/111330"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "diversity_effects_prop_final.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 3320,
+            "description": "it includes the final data after calculation of the net diversity effects for the multi indexes (multidiversity, ecosystem MF and economic MF) as well as for the individual indicators",
+            "@id": "https://doi.org/10.25625/EUMHQZ/FCP8ZF",
+            "identifier": "https://doi.org/10.25625/EUMHQZ/FCP8ZF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/111333"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "future_volume_dataset.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "contentSize": 45780,
+            "description": "Data used to generate Figure S8",
+            "@id": "https://doi.org/10.25625/EUMHQZ/GQUDZP",
+            "identifier": "https://doi.org/10.25625/EUMHQZ/GQUDZP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/111601"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "proportional_deviation.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 327,
+            "description": "Data used to produce Figure 4",
+            "@id": "https://doi.org/10.25625/EUMHQZ/RZVHRM",
+            "identifier": "https://doi.org/10.25625/EUMHQZ/RZVHRM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/111332"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Source R code.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 18648,
+            "description": "Source code used to calculate multidiversity, ecosystem MF and economic MF; from the Chao et al. (2024) paper",
+            "@id": "https://doi.org/10.25625/EUMHQZ/DUUHZT",
+            "identifier": "https://doi.org/10.25625/EUMHQZ/DUUHZT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/111329"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "survival_probabilities.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "contentSize": 9432,
+            "description": "Data used to generate Figure S11",
+            "@id": "https://doi.org/10.25625/EUMHQZ/EAX2CG",
+            "identifier": "https://doi.org/10.25625/EUMHQZ/EAX2CG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/111597"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "venn_diagrams_dataset.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1874751,
+            "description": "Venn Diagrams dataset; see code for the supplementary material",
+            "@id": "https://doi.org/10.25625/EUMHQZ/JH7DX6",
+            "identifier": "https://doi.org/10.25625/EUMHQZ/JH7DX6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/111599"
+        }
+    ],
+    "license_title": "Creative Commons Attribution 4.0 International",
+    "subjects": [
+        "Agricultural Sciences"
+    ],
+    "publications": [
+        {
+            "citation": "Larissa Regina Topanotti et al. Enhancing economic multifunctionality without compromising multidiversity and ecosystem multifunctionality via forest enrichment.Sci. Adv.10,eadp6566(2024).DOI:10.1126/sciadv.adp6566",
+            "url": "https://www.science.org/doi/10.1126/sciadv.adp6566"
+        }
+    ]
+}

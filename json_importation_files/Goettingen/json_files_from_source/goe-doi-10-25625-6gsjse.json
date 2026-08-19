@@ -1,0 +1,67 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/6GSJSE",
+    "identifier": "https://doi.org/10.25625/6GSJSE",
+    "name": "The Potential of Serverless Kubernetes-Based FaaS Platforms for Scientific Computing Workloads",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Jonathan",
+            "familyName": "Decker",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Gesellschaft f\u00fcr wissenschaftliche Datenverarbeitung mbH G\u00f6ttingen"
+            },
+            "name": "Decker, Jonathan"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jonathan",
+            "familyName": "Decker",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Gesellschaft f\u00fcr wissenschaftliche Datenverarbeitung mbH G\u00f6ttingen"
+            },
+            "name": "Decker, Jonathan"
+        }
+    ],
+    "datePublished": "2022-02-28",
+    "dateModified": "2022-02-28",
+    "version": "1",
+    "description": "Serverless computing has emerged as a new execution model for cloud computing with many advantages such as improved resource sharing and utilization as well as reduced complexity for developers that under serverless only need to write function code without worrying about server infrastructure. These advantages are also interesting for other fields of computing, for instance, High-Performance Computing (HPC) as improving resource sharing on expensive compute clusters would be a great benefit and serverless could even work as a drop-in replacement for existing HPC function. In order to utilize serverless on-premise, one needs to choose a serverless platform to deploy from the various, avail- able open source platforms, however, with so many rapidly evolving open source serverless platforms, it has become difficult to draw comparisons between them. Furthermore, there are no standardized benchmarks for serverless platforms, therefore, in order to perform a systematic analysis, three workloads inspired by scientific computing were designed and implemented in this thesis to compare the performance and usability of three representa- tive open source Kubernetes-based serverless platforms. The workloads include an image processing task as well as an adaption of dgemm() for HPL and were developed and tested on a cluster of Virtual Machines (VMs) provided by the Gesellschaft f\u00fcr wissenschaftliche Datenverarbeitung mbH G\u00f6ttingen (GWDG)1. It was observed that the performance of these platforms can be adequate when compared to expected hardware limits, but overall there are still many opportunities for improvements in terms of performance and usability. The thesis was submitted in partial fulfillment of the requirements for the course \u201cApplied Computer Science\u201d and was supervised by Prof. Julian Kunkel (GWDG) and Dr. Sven Bingert (GWDG).",
+    "keywords": [
+        "Computer and Information Science"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "20220131-MSc-Decker.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 4435785,
+            "@id": "https://doi.org/10.25625/6GSJSE/ZEGLAL",
+            "identifier": "https://doi.org/10.25625/6GSJSE/ZEGLAL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/39854"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Computer and Information Science"
+    ]
+}

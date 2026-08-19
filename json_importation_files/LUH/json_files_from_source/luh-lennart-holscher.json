@@ -1,0 +1,239 @@
+{
+  "author": "Lennart Vincent Hölscher, Hans Jürgen Maier, Thomas Hassel",
+  "author_email": "hoelscher@iw.uni-hannover.de",
+  "creator_user_id": "377a8262-1342-4345-8190-acbdf68ba5c0",
+  "have_copyright": "Yes",
+  "id": "bb754e52-54ae-4763-9766-e2bdc5a50eeb",
+  "isopen": true,
+  "license_id": "CC-BY-SA-3.0",
+  "license_title": "Creative Commons Attribution Share-Alike 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "maintainer": "Lennart Hölscher",
+  "maintainer_email": "hoelscher@iw.uni-hannover.de",
+  "metadata_created": "2021-09-21T13:09:57.898598",
+  "metadata_modified": "2024-12-19T18:50:30.091827",
+  "name": "lennart-holscher",
+  "notes": "Voltage and current signal during Gas-Metal-Arc-Welding. Measurement Data acquiered using National Instruments USB-6361. Current was converted using a \"Chauvin Arnoux PAC22\".  \r\n__Welding power source:__ Carl Cloos GLC 303 PA/3  \r\n__Welding power source for CMT:__ Fronius TransPuls Synergic 4000 CMT R  \r\n__Welding torch:__ Abicor Binzel ROBO WH W 500  \r\n__Welding speed:__ 0.3 m/min  \r\n__Process gas:__ ISO 14175 M21 (Ar-CO2 82-18)  \r\n__Process gas flow:__ 18 l/min  \r\n__Substrate material:__ Mild steel (S235)  \r\n__Wire material:__ EN ISO 14341-A (2011) G42 4M21 3Si1  \r\n__Wire diameter:__ 1.2 mm  \r\n__Wire feed speed:__ 3.4 m/min  \r\n   \r\n_trainings_data.csv_ is acquired during the welding of a slope with an initial CTWD of 5 mm and a end CTWD of 30 mm.  \r\n_eval_slope.csv_ is a repetion of the set-up used for trainings_data.csv.  \r\n_eval_constant.csv_ uses a constant CTWD of 10 mm.  \r\n_eval_lower_wire_feed.csv_ uses a reduced wire feed of 2.5 m/min.  \r\n_eval_slope_CMT.csv_ is a repetion of the set-up used for trainings_data.csv, but with CMT welding.  \r\n_eval_constant_CMT.csv_ uses a constant CTWD of 10 mm during CMT welding.\r\n\r\n  \r\n## Description of the columns of the *.csv-files\r\n<html>\r\n<table>\r\n<tr>\r\n<td>t</td>\r\n<td>time in seconds</td>\r\n</tr>\r\n<tr>\r\n<td>U</td>\r\n<td>voltage in volt </td>\r\n</tr> \r\n<tr>\r\n<td>I</td>\r\n<td>current in ampere </td>\r\n</tr> \r\n<tr>\r\n<td>CTWD</td>\r\n<td>Contact-Tube-to-Working-Distance in mm</td>\r\n</tr>\r\n</table>\r\n</html>\r\n\r\n## Acknowledgement \r\nFunded by the Ministry for Science and Culture of Lower Saxony (MWK) – School for Additive Manufacturing SAM. ",
+  "num_resources": 6,
+  "num_tags": 2,
+  "organization": {
+    "id": "ca3f2149-aae3-4a4c-aa5c-f2137b96107d",
+    "name": "institut-fur-werkstoffkunde",
+    "title": "Institut für Werkstoffkunde",
+    "type": "organization",
+    "description": "https://www.iw.uni-hannover.de/",
+    "image_url": "https://www.iw.uni-hannover.de/fileadmin/site-templates/logos/iw/iw_logo.png",
+    "created": "2021-03-17T11:38:01.052446",
+    "is_organization": true,
+    "approval_status": "approved",
+    "state": "active"
+  },
+  "owner_org": "ca3f2149-aae3-4a4c-aa5c-f2137b96107d",
+  "private": false,
+  "state": "active",
+  "terms_of_usage": "Yes",
+  "title": "Contact-Tube-to-Working-Distance slopes with Gas-Metal-Arc-Welding",
+  "type": "dataset",
+  "url": "",
+  "version": "1.0",
+  "extras": [
+    {
+      "key": "CTWD",
+      "value": "Contact-Tube-to-Working-Distance"
+    },
+    {
+      "key": "I",
+      "value": "current in ampere"
+    },
+    {
+      "key": "U",
+      "value": "voltage in volt"
+    },
+    {
+      "key": "t",
+      "value": "time in seconds"
+    }
+  ],
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2021-09-21T13:10:52.000435",
+      "datastore_active": false,
+      "description": "\"trainings_data.csv\" is acquired during the welding of a slope with an initial CTWD of 5 mm and a end CTWD of 30 mm.",
+      "format": ".csv",
+      "hash": "",
+      "id": "d07a6ad7-7be0-44bd-8a72-f45f5c550b46",
+      "last_modified": "2021-09-21T13:10:51.968206",
+      "metadata_modified": "2021-09-21T13:10:52.000435",
+      "mimetype": "text/csv",
+      "mimetype_inner": null,
+      "name": "trainings_data.csv",
+      "package_id": "bb754e52-54ae-4763-9766-e2bdc5a50eeb",
+      "position": 0,
+      "resource_type": null,
+      "size": 19332813,
+      "state": "active",
+      "tracking_summary": {
+        "total": 24,
+        "recent": 1
+      },
+      "url": "https://data.uni-hannover.de/dataset/bb754e52-54ae-4763-9766-e2bdc5a50eeb/resource/d07a6ad7-7be0-44bd-8a72-f45f5c550b46/download/trainings_data.csv",
+      "url_type": "upload"
+    },
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2021-09-21T13:11:28.500074",
+      "datastore_active": false,
+      "description": "\"eval_constant.csv\" uses a constant CTWD of 10 mm",
+      "format": ".csv",
+      "hash": "",
+      "id": "3062c960-7d26-4da1-9043-fb84cb4dc30d",
+      "last_modified": "2021-09-21T13:11:28.465793",
+      "metadata_modified": "2021-09-21T13:11:28.500074",
+      "mimetype": "text/csv",
+      "mimetype_inner": null,
+      "name": "eval_constant.csv",
+      "package_id": "bb754e52-54ae-4763-9766-e2bdc5a50eeb",
+      "position": 1,
+      "resource_type": null,
+      "size": 16608526,
+      "state": "active",
+      "tracking_summary": {
+        "total": 7,
+        "recent": 1
+      },
+      "url": "https://data.uni-hannover.de/dataset/bb754e52-54ae-4763-9766-e2bdc5a50eeb/resource/3062c960-7d26-4da1-9043-fb84cb4dc30d/download/eval_constant.csv",
+      "url_type": "upload"
+    },
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2021-09-21T13:11:55.539846",
+      "datastore_active": false,
+      "description": "\"eval_slope.csv\" is a repetion of the set-up used for \"trainings_data.csv\".",
+      "format": ".csv",
+      "hash": "",
+      "id": "34cdfc0a-d4e8-476c-9d41-5d029f744e38",
+      "last_modified": "2021-09-21T13:11:55.507954",
+      "metadata_modified": "2021-09-21T13:11:55.539846",
+      "mimetype": "text/csv",
+      "mimetype_inner": null,
+      "name": "eval_slope.csv",
+      "package_id": "bb754e52-54ae-4763-9766-e2bdc5a50eeb",
+      "position": 2,
+      "resource_type": null,
+      "size": 19341242,
+      "state": "active",
+      "tracking_summary": {
+        "total": 7,
+        "recent": 1
+      },
+      "url": "https://data.uni-hannover.de/dataset/bb754e52-54ae-4763-9766-e2bdc5a50eeb/resource/34cdfc0a-d4e8-476c-9d41-5d029f744e38/download/eval_slope.csv",
+      "url_type": "upload"
+    },
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2021-09-21T13:12:18.437254",
+      "datastore_active": false,
+      "description": "\"eval_lower_wire_feed.csv\" uses a reduced wire feed of 2.5 m/min",
+      "format": ".csv",
+      "hash": "",
+      "id": "6e603c71-a4c5-476e-a54c-ebad2d4a95fb",
+      "last_modified": "2021-09-21T13:12:18.404658",
+      "metadata_modified": "2021-09-21T13:12:18.437254",
+      "mimetype": "text/csv",
+      "mimetype_inner": null,
+      "name": "eval_lower_wire_feed.csv",
+      "package_id": "bb754e52-54ae-4763-9766-e2bdc5a50eeb",
+      "position": 3,
+      "resource_type": null,
+      "size": 13827508,
+      "state": "active",
+      "tracking_summary": {
+        "total": 5,
+        "recent": 1
+      },
+      "url": "https://data.uni-hannover.de/dataset/bb754e52-54ae-4763-9766-e2bdc5a50eeb/resource/6e603c71-a4c5-476e-a54c-ebad2d4a95fb/download/eval_lower_wire_feed.csv",
+      "url_type": "upload"
+    },
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2022-01-11T13:22:43.476485",
+      "datastore_active": false,
+      "description": "\"eval_slope_CMT.csv\" is acquired during the welding of a slope with an initial CTWD of 5 mm and a end CTWD of 30 mm using CMT.",
+      "format": "CSV",
+      "hash": "",
+      "id": "84131866-3746-4d38-8b51-32d0838c8547",
+      "last_modified": "2022-01-11T13:22:43.383764",
+      "metadata_modified": "2022-01-11T13:22:43.476485",
+      "mimetype": "text/csv",
+      "mimetype_inner": null,
+      "name": "eval_slope_CMT.csv",
+      "package_id": "bb754e52-54ae-4763-9766-e2bdc5a50eeb",
+      "position": 4,
+      "resource_type": null,
+      "size": 34155340,
+      "state": "active",
+      "tracking_summary": {
+        "total": 11,
+        "recent": 1
+      },
+      "url": "https://data.uni-hannover.de/dataset/bb754e52-54ae-4763-9766-e2bdc5a50eeb/resource/84131866-3746-4d38-8b51-32d0838c8547/download/eval_slope_cmt.csv",
+      "url_type": "upload"
+    },
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2022-01-11T13:23:39.027291",
+      "datastore_active": false,
+      "description": "\"eval_constant_CMT.csv\" uses a constant CTWD of 10 mm during CMT welding",
+      "format": "CSV",
+      "hash": "",
+      "id": "c8201d2c-17b2-46b0-8a3d-01040764ac90",
+      "last_modified": "2022-01-11T13:23:38.986716",
+      "metadata_modified": "2022-01-11T13:23:39.027291",
+      "mimetype": "text/csv",
+      "mimetype_inner": null,
+      "name": "eval_constant_CMT.csv",
+      "package_id": "bb754e52-54ae-4763-9766-e2bdc5a50eeb",
+      "position": 5,
+      "resource_type": null,
+      "size": 25732327,
+      "state": "active",
+      "tracking_summary": {
+        "total": 10,
+        "recent": 1
+      },
+      "url": "https://data.uni-hannover.de/dataset/bb754e52-54ae-4763-9766-e2bdc5a50eeb/resource/c8201d2c-17b2-46b0-8a3d-01040764ac90/download/eval_constant_cmt.csv",
+      "url_type": "upload"
+    }
+  ],
+  "tags": [
+    {
+      "display_name": "Contact-Tube-to-Working-Distance",
+      "id": "c2e9076c-785a-4f81-bb38-a6f593b37b90",
+      "name": "Contact-Tube-to-Working-Distance",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Gas-Metal-Arc-Welding",
+      "id": "33a8968d-6060-4342-836b-19f71dafff55",
+      "name": "Gas-Metal-Arc-Welding",
+      "state": "active",
+      "vocabulary_id": null
+    }
+  ],
+  "groups": [],
+  "relationships_as_subject": [],
+  "relationships_as_object": [],
+  "doi": "10.25835/0011019",
+  "doi_status": true,
+  "domain": "https://data.uni-hannover.de",
+  "doi_date_published": "2021-09-21",
+  "doi_publisher": "LUIS"
+}

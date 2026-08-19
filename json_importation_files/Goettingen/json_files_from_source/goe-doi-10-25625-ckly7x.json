@@ -1,0 +1,157 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/CKLY7X",
+    "identifier": "https://doi.org/10.25625/CKLY7X",
+    "name": "Canopy Height Models",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Nicolo",
+            "familyName": "Camarretta",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Goettingen"
+            },
+            "sameAs": "https://orcid.org/0000-0001-7520-126X",
+            "@id": "https://orcid.org/0000-0001-7520-126X",
+            "identifier": "https://orcid.org/0000-0001-7520-126X",
+            "name": "Camarretta, Nicolo"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Michael",
+            "familyName": "Schlund",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Twente"
+            },
+            "sameAs": "https://orcid.org/0000-0001-6657-6713",
+            "@id": "https://orcid.org/0000-0001-6657-6713",
+            "identifier": "https://orcid.org/0000-0001-6657-6713",
+            "name": "Schlund, Michael"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Nicolo",
+            "familyName": "Camarretta",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Goettingen"
+            },
+            "sameAs": "https://orcid.org/0000-0001-7520-126X",
+            "@id": "https://orcid.org/0000-0001-7520-126X",
+            "identifier": "https://orcid.org/0000-0001-7520-126X",
+            "name": "Camarretta, Nicolo"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Michael",
+            "familyName": "Schlund",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Twente"
+            },
+            "sameAs": "https://orcid.org/0000-0001-6657-6713",
+            "@id": "https://orcid.org/0000-0001-6657-6713",
+            "identifier": "https://orcid.org/0000-0001-6657-6713",
+            "name": "Schlund, Michael"
+        }
+    ],
+    "datePublished": "2021-12-16",
+    "dateModified": "2023-12-14",
+    "version": "2",
+    "description": "Canopy Height Models derived from airborne LiDAR data acquired over the PTPN 6 estate, Batanghari regency, Harapan rainforest protected area, and Sarolangun regency, in Jambi, Sumatra, Indonesia. Pixel size: 1m. Geographic Coordinate System: EPSG 32748.",
+    "keywords": [
+        "Earth and Environmental Sciences",
+        "CHM"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Area1_CHM_2022_UTM48S_EPSG32748.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 74935256,
+            "@id": "https://doi.org/10.25625/CKLY7X/KTFGEM",
+            "identifier": "https://doi.org/10.25625/CKLY7X/KTFGEM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69570"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Area2_CHM_2022_UTM48S_EPSG32748.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 142326265,
+            "@id": "https://doi.org/10.25625/CKLY7X/KNZFT3",
+            "identifier": "https://doi.org/10.25625/CKLY7X/KNZFT3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69571"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Area3_CHM_2022_UTM48S_EPSG32748.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 176303081,
+            "@id": "https://doi.org/10.25625/CKLY7X/QMKRKQ",
+            "identifier": "https://doi.org/10.25625/CKLY7X/QMKRKQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/69572"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "CHM_Batanghari_UTM48S_EPSG_32748.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 1485082738,
+            "@id": "https://doi.org/10.25625/CKLY7X/OJZFDO",
+            "identifier": "https://doi.org/10.25625/CKLY7X/OJZFDO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/35840"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "CHM_Harapan_UTM48S_EPSG_32748.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 157130322,
+            "@id": "https://doi.org/10.25625/CKLY7X/BMABSJ",
+            "identifier": "https://doi.org/10.25625/CKLY7X/BMABSJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/35841"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "CHM_PTPN6_UTM48S_EPSG_32748.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 91774978,
+            "@id": "https://doi.org/10.25625/CKLY7X/CZNXRO",
+            "identifier": "https://doi.org/10.25625/CKLY7X/CZNXRO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/35839"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "CHM_Sarolangun_UTM48S_EPSG_32748.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 1437164226,
+            "@id": "https://doi.org/10.25625/CKLY7X/FQUIUM",
+            "identifier": "https://doi.org/10.25625/CKLY7X/FQUIUM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/35842"
+        }
+    ],
+    "license_title": "Creative Commons Attribution 4.0 International",
+    "subjects": [
+        "Earth and Environmental Sciences"
+    ],
+    "publications": [
+        {}
+    ]
+}

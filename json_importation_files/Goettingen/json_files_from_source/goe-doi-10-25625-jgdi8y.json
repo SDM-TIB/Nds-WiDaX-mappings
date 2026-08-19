@@ -1,0 +1,147 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/JGDI8Y",
+    "identifier": "https://doi.org/10.25625/JGDI8Y",
+    "name": "Data for \"Viscoelasticity Analysis of Coarse-grained Cytoskeletal Simulations with Cytosim and Cytocalc\"",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Krishna",
+            "familyName": "Iyer V S",
+            "name": "Iyer V S, Krishna"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Komal",
+            "familyName": "Bhattacharyya",
+            "name": "Bhattacharyya, Komal"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Raffaele",
+            "familyName": "Mendozza",
+            "name": "Mendozza, Raffaele"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Peter",
+            "familyName": "Sollich",
+            "name": "Sollich, Peter"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Stefan",
+            "familyName": "Klumpp",
+            "name": "Klumpp, Stefan"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Yoav",
+            "familyName": "Pollack",
+            "name": "Pollack, Yoav"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Krishna",
+            "familyName": "Iyer V S",
+            "name": "Iyer V S, Krishna"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Komal",
+            "familyName": "Bhattacharyya",
+            "name": "Bhattacharyya, Komal"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Raffaele",
+            "familyName": "Mendozza",
+            "name": "Mendozza, Raffaele"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Peter",
+            "familyName": "Sollich",
+            "name": "Sollich, Peter"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Stefan",
+            "familyName": "Klumpp",
+            "name": "Klumpp, Stefan"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Yoav",
+            "familyName": "Pollack",
+            "name": "Pollack, Yoav"
+        }
+    ],
+    "datePublished": "2025-10-30",
+    "dateModified": "2025-11-10",
+    "version": "1",
+    "description": "This dataset contains the data files, Cytosim config files and Cytocalc scripts for reproducing the results in \"Viscoelasticity Analysis of Coarse-grained Cytoskeletal Simulations with Cytosim and Cytocalc\". All figures included in the main text can be generated from provided data by running \"generate_figures.sh\". Note Requires installing Cytocalc from https://gitlab.gwdg.de/vadakkeputha/csmparser and vskache (pip install vskache) For convenience and speed, this uses the report files generated from cytosim. However, Cytosim config files for all report files are included in the same directory as the report files. These can be run with cytosim to generate the cmo files. Note The report files provided are of the type \"fiber:rpt\" which is a custom report type selecting a random point per filament. This can be added to simul_report.cpp as shown in https://github.com/vskrishna1082/report-random-cytosim/blob/main/report-random.cpp. Using \"fiber:points\" is another (albeit data heavy) alternative Report (and config) files can be found in the \"out\" or \"out_extended\" directories corresponding to each figure. Analysis scripts using cytocalc are stored in 'analyze' or 'analysis' directories parallel to the 'out' directories.",
+    "keywords": [
+        "Physics"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "Deutsche Forschungsgemeinschaft"
+        },
+        {
+            "@type": "Organization",
+            "name": "Deutsche Forschungsgemeinschaft"
+        },
+        {
+            "@type": "Organization",
+            "name": "MWK Niedersachsen"
+        }
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Cytocalc_2025Configs.tar",
+            "encodingFormat": "application/x-tar",
+            "contentSize": 2437120,
+            "description": "Cytosim config files and Cytocalc script files for all simulations",
+            "@id": "https://doi.org/10.25625/JGDI8Y/HFNZW3",
+            "identifier": "https://doi.org/10.25625/JGDI8Y/HFNZW3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139866"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Cytocalc_2025_withData.tar",
+            "encodingFormat": "application/x-tar",
+            "contentSize": 12055586320,
+            "description": "Cytosim config, report files and Cytocalc script files for all simulations",
+            "@id": "https://doi.org/10.25625/JGDI8Y/ABRQAZ",
+            "identifier": "https://doi.org/10.25625/JGDI8Y/ABRQAZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139865"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Physics"
+    ],
+    "publications": [
+        {}
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/S1LLYS",
+    "identifier": "https://doi.org/10.25625/S1LLYS",
+    "name": "CVaR optimization for portfolios in Python",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Arno",
+            "familyName": "Mayer",
+            "name": "Mayer, Arno"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Arno",
+            "familyName": "Mayer",
+            "name": "Mayer, Arno"
+        }
+    ],
+    "datePublished": "2025-01-14",
+    "dateModified": "2025-01-14",
+    "version": "1",
+    "description": "A python code, which finds an optimal portfolio by minimizing the Conditional Value-at-Risk (CVaR) as an alternative to the classical mean-variance-approach",
+    "keywords": [
+        "Mathematical Sciences"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "data_2006-2008(1).tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 751606,
+            "description": "historical returns",
+            "@id": "https://doi.org/10.25625/S1LLYS/GWSUI4",
+            "identifier": "https://doi.org/10.25625/S1LLYS/GWSUI4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/119501"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimization(1).py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 4910,
+            "description": "Python code",
+            "@id": "https://doi.org/10.25625/S1LLYS/KGQNMN",
+            "identifier": "https://doi.org/10.25625/S1LLYS/KGQNMN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/119503"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "prices_2006-2008(1).tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 760166,
+            "description": "historical closing prices",
+            "@id": "https://doi.org/10.25625/S1LLYS/GTOLRQ",
+            "identifier": "https://doi.org/10.25625/S1LLYS/GTOLRQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/119502"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Mathematical Sciences"
+    ]
+}

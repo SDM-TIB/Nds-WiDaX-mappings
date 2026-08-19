@@ -1,0 +1,163 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/6LDDHI",
+    "identifier": "https://doi.org/10.25625/6LDDHI",
+    "name": "Data to \"A posteriori synchronization of scanning transmission electron microscopy signals with kilopixel per second acquisition rates\"",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Tobias",
+            "familyName": "Meyer",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "IV. Physical Institute - Solids and Nanostructures"
+            },
+            "name": "Meyer, Tobias"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Tobias",
+            "familyName": "Meyer",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "IV. Physical Institute - Solids and Nanostructures"
+            },
+            "name": "Meyer, Tobias"
+        }
+    ],
+    "datePublished": "2020-11-25",
+    "dateModified": "2020-11-25",
+    "version": "1",
+    "description": "Raw data of signals that were reconstructed in the linked publication. In order to reproduce the reconstruction, the DigitalMicrograph scripts contained in the Supplementary Materials of the publication need to be applied to uploaded data.",
+    "keywords": [
+        "Physics"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "Tobias Meyer, Sergei Lopatin, Michael Seibt, Vladimir Roddatis, A posteriori synchronization of scanning transmission electron microscopy signals with kilopixel per second acquisition rates, Ultramicroscopy, Volume 200, 2019, Pages 62-66, ISSN 0304-3991, https://doi.org/10.1016/j.ultramic.2019.02.020. (http://www.sciencedirect.com/science/article/pii/S0304399118303243) Abstract: The stability and sensitivity of scanning transmission electron microscopes as well as detectors collecting e.g. electrons which suffered different scattering processes, or secondary radiation, have increased tremendously during the last decade. In order to fully exploit capabilities of simultaneously recording various signals with up to 1000\u00a0px/s acquisition rates the central issue is their synchronization. The latter is frequently a non-trivial problem without commercially available solution especially if detectors of different manufacturers are involved. In this paper, we present a simple scanning pattern enabling a posteriori synchronization of arbitrarily many signals being recorded entirely independently. We apply the approach to the simultaneous atomic-scale acquisition of signals from an annular dark-field detector and electron energy loss as well as energy-dispersive x-ray spectrometers. Errors emerging in scanning direction due to the independence of the respective processes are quantified and found to have a standard deviation of roughly half the pixel spacing. Since there are no intermediate waiting periods to maintain synchronicity, the proposed acquisition process is, in fact, demonstrated to be 12% faster than a commercial hardware-synchronized solution for identical sub-millisecond signal integration times and hence follows the trend in electron microscopy to extract more information per irradiating electron. Keywords: STEM; Synchronization; EELS; EDX; 4DSTEM",
+            "@id": "https://www.sciencedirect.com/science/article/abs/pii/S0304399118303243",
+            "identifier": "https://www.sciencedirect.com/science/article/abs/pii/S0304399118303243",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0304399118303243"
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Documentation.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1124,
+            "@id": "https://doi.org/10.25625/6LDDHI/PCUKIT",
+            "identifier": "https://doi.org/10.25625/6LDDHI/PCUKIT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/20289"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "EDX Cu K counts.dm4",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 382718,
+            "@id": "https://doi.org/10.25625/6LDDHI/XSMJRF",
+            "identifier": "https://doi.org/10.25625/6LDDHI/XSMJRF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/20286"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "EDX Sr K + L counts.dm4",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 382718,
+            "@id": "https://doi.org/10.25625/6LDDHI/7I8PLF",
+            "identifier": "https://doi.org/10.25625/6LDDHI/7I8PLF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/20284"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "EDX Ti K counts.dm4",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 382718,
+            "@id": "https://doi.org/10.25625/6LDDHI/CVYFSV",
+            "identifier": "https://doi.org/10.25625/6LDDHI/CVYFSV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/20281"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "EELS Ti L-edge.dm4",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 350671,
+            "@id": "https://doi.org/10.25625/6LDDHI/2TEW3R",
+            "identifier": "https://doi.org/10.25625/6LDDHI/2TEW3R",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/20285"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HAADF Output Voltage.dm4",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 352204,
+            "@id": "https://doi.org/10.25625/6LDDHI/PRGLCV",
+            "identifier": "https://doi.org/10.25625/6LDDHI/PRGLCV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/20288"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Documentation.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 590,
+            "@id": "https://doi.org/10.25625/6LDDHI/YQ5C9Q",
+            "identifier": "https://doi.org/10.25625/6LDDHI/YQ5C9Q",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/20283"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "EELS Spectrum Image.dm4",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 134409481,
+            "@id": "https://doi.org/10.25625/6LDDHI/CK4PE2",
+            "identifier": "https://doi.org/10.25625/6LDDHI/CK4PE2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/20287"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HAADF Output Voltage.dm4",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 478129,
+            "@id": "https://doi.org/10.25625/6LDDHI/EZA9AB",
+            "identifier": "https://doi.org/10.25625/6LDDHI/EZA9AB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/20282"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Sum of EELS Spectrum Image.dm4",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 449390,
+            "@id": "https://doi.org/10.25625/6LDDHI/T6FFOV",
+            "identifier": "https://doi.org/10.25625/6LDDHI/T6FFOV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/20280"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Physics"
+    ],
+    "publications": [
+        {
+            "citation": "Tobias Meyer, Sergei Lopatin, Michael Seibt, Vladimir Roddatis, A posteriori synchronization of scanning transmission electron microscopy signals with kilopixel per second acquisition rates, Ultramicroscopy, Volume 200, 2019, Pages 62-66, ISSN 0304-3991, https://doi.org/10.1016/j.ultramic.2019.02.020. (http://www.sciencedirect.com/science/article/pii/S0304399118303243) Abstract: The stability and sensitivity of scanning transmission electron microscopes as well as detectors collecting e.g. electrons which suffered different scattering processes, or secondary radiation, have increased tremendously during the last decade. In order to fully exploit capabilities of simultaneously recording various signals with up to 1000&nbsp;px/s acquisition rates the central issue is their synchronization. The latter is frequently a non-trivial problem without commercially available solution especially if detectors of different manufacturers are involved. In this paper, we present a simple scanning pattern enabling a posteriori synchronization of arbitrarily many signals being recorded entirely independently. We apply the approach to the simultaneous atomic-scale acquisition of signals from an annular dark-field detector and electron energy loss as well as energy-dispersive x-ray spectrometers. Errors emerging in scanning direction due to the independence of the respective processes are quantified and found to have a standard deviation of roughly half the pixel spacing. Since there are no intermediate waiting periods to maintain synchronicity, the proposed acquisition process is, in fact, demonstrated to be 12% faster than a commercial hardware-synchronized solution for identical sub-millisecond signal integration times and hence follows the trend in electron microscopy to extract more information per irradiating electron. Keywords: STEM; Synchronization; EELS; EDX; 4DSTEM",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0304399118303243"
+        }
+    ]
+}

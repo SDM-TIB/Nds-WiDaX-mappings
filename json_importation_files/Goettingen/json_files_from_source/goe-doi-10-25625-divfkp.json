@@ -1,0 +1,223 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/DIVFKP",
+    "identifier": "https://doi.org/10.25625/DIVFKP",
+    "name": "Replication Data and Code for: Significant Subgraph Mining for Neural Network Inference with Multiple Comparisons Correction",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Aaron",
+            "familyName": "Gutknecht",
+            "name": "Gutknecht, Aaron"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Aaron",
+            "familyName": "Gutknecht",
+            "name": "Gutknecht, Aaron"
+        }
+    ],
+    "datePublished": "2021-10-22",
+    "dateModified": "2021-10-22",
+    "version": "1",
+    "description": "Contains data and code underlying results presented in Gutknecht, Aaron J.; Wibral, M. (2021): \"Significant Subgraph Mining for Neural Network Inference with Multiple Comparisons Correction\".",
+    "keywords": [
+        "Mathematical Sciences",
+        "Medicine, Health and Life Sciences",
+        "Network Science",
+        "Statistics",
+        "Graph Statistics",
+        "Network Neuroscience",
+        "Multiple Testing",
+        "Autism Spectrum Disorder",
+        "Transfer Entropy",
+        "Magnetoencephalography"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "effect_size_power_tarone.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 144550017,
+            "description": "Results of the detailed empirical power analysis for the n=60 case using the Tarone correction. This file is used in the \nempirical_power_analysis_n60_detailed.py script to load the results instead of calculating them (which may take roughly one hour).",
+            "@id": "https://doi.org/10.25625/DIVFKP/QSTARZ",
+            "identifier": "https://doi.org/10.25625/DIVFKP/QSTARZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33864"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "effect_size_power_WY.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 144550017,
+            "description": "Results of the detailed empirical power analysis for the n=60 case using the Westfall-Young correction. This file is used in the \nempirical_power_analysis_n60_detailed.py script to load the results instead of calculating them (which may take several hours).",
+            "@id": "https://doi.org/10.25625/DIVFKP/AAEZND",
+            "identifier": "https://doi.org/10.25625/DIVFKP/AAEZND",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33859"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "empirical_power_analysis_joint_dist_sim_n_60_tarone.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 531704,
+            "description": "Results of the empirical power analysis of the MEG data set. For each of the 400 simulations in the n=60 case the file contains all detected subgraphs using the Tarone correction. This file is loaded in the empirical_power_analysis_n60_detailed.py script.",
+            "@id": "https://doi.org/10.25625/DIVFKP/RTLMYS",
+            "identifier": "https://doi.org/10.25625/DIVFKP/RTLMYS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33856"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "empirical_power_analysis_joint_dist_sim_n_60_WY.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 4903360,
+            "description": "Results of the empirical power analysis of the MEG data set. For each of the 400 simulations in the n=60 case the file contains all detected subgraphs using the Westfall-Young correction. ",
+            "@id": "https://doi.org/10.25625/DIVFKP/IET6DA",
+            "identifier": "https://doi.org/10.25625/DIVFKP/IET6DA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33860"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "empirical_power_analysis_n60_detailed.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 7479,
+            "description": "Code underlying the detailed empirical power analysis of the n=60 case. Calculates the empirical detection for each subgraph in the original data set that occurs with different frequencies in the two groups.",
+            "@id": "https://doi.org/10.25625/DIVFKP/CLLEL2",
+            "identifier": "https://doi.org/10.25625/DIVFKP/CLLEL2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33867"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "network_samples_asd.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 6441,
+            "description": "Inferred transfer entropy networks in the autism spectrum group.",
+            "@id": "https://doi.org/10.25625/DIVFKP/ICY5NK",
+            "identifier": "https://doi.org/10.25625/DIVFKP/ICY5NK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33858"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "network_samples_cont.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 7104,
+            "description": "Inferred transfer entropy networks for the control group.",
+            "@id": "https://doi.org/10.25625/DIVFKP/76CLVU",
+            "identifier": "https://doi.org/10.25625/DIVFKP/76CLVU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33866"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "significant_subgraph_mining.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 58005,
+            "description": "Main implementation of significant subgraph mining.",
+            "@id": "https://doi.org/10.25625/DIVFKP/3O6OG7",
+            "identifier": "https://doi.org/10.25625/DIVFKP/3O6OG7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33857"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "significant_subgraph_mining_modified_power_analysis.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 58691,
+            "description": "Modified implementation of significant subgraph mining used for the detailed power analysis of the n=60 case. The difference is that the counts in each group are saved for each subgraph.",
+            "@id": "https://doi.org/10.25625/DIVFKP/JID5EF",
+            "identifier": "https://doi.org/10.25625/DIVFKP/JID5EF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33855"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "ssm_fwer_analysis_erdos_renyi.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 7695,
+            "description": "Coder underlying the family-wise error rate simulation based on Erdos-Renyi networks.",
+            "@id": "https://doi.org/10.25625/DIVFKP/RXLJ6Z",
+            "identifier": "https://doi.org/10.25625/DIVFKP/RXLJ6Z",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33854"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "ssm_power_analysis_erdos_renyi.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 7514,
+            "description": "Coder underlying the power simulation based on Erdos-Renyi networks.",
+            "@id": "https://doi.org/10.25625/DIVFKP/HDXVTN",
+            "identifier": "https://doi.org/10.25625/DIVFKP/HDXVTN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33862"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "ssm_results_alpha_1_5.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 241484417,
+            "description": "Contains an enumeration of all subgraph in the original MEG data set that occur often enough to become significant. Is loaded in the \nempirical_power_analysis_n60_detailed.py script.",
+            "@id": "https://doi.org/10.25625/DIVFKP/XB9VQZ",
+            "identifier": "https://doi.org/10.25625/DIVFKP/XB9VQZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33852"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "subgraph_mining_empirical_power_analysis_independent_links.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 5296,
+            "description": "Code underlying the empirical power analysis of the MEG data set assuming independent sampling of links.",
+            "@id": "https://doi.org/10.25625/DIVFKP/3GX2J5",
+            "identifier": "https://doi.org/10.25625/DIVFKP/3GX2J5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33865"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "subgraph_mining_empirical_power_analysis_joint_dist.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 7356,
+            "description": "Code underlying the empirical power analysis of the MEG data set based on resampling from the empirical joint distribution. ",
+            "@id": "https://doi.org/10.25625/DIVFKP/EUU9YZ",
+            "identifier": "https://doi.org/10.25625/DIVFKP/EUU9YZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33863"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "tarone_standard_errors.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 217,
+            "description": "Standard errors of the estimator of the average detection probability of subgraphs with a given effect size in the MEG data set (using Tarone correction). Can be loaded in the empirical_power_analysis_n60_detailed.py script.",
+            "@id": "https://doi.org/10.25625/DIVFKP/E8CJM9",
+            "identifier": "https://doi.org/10.25625/DIVFKP/E8CJM9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33869"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "WY_standard_errors.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 217,
+            "description": "Standard errors of the estimator of the average detection probability of subgraphs with a given effect size in the MEG data set (using Westfall-Young correction). Can be loaded in the empirical_power_analysis_n60_detailed.py script.",
+            "@id": "https://doi.org/10.25625/DIVFKP/4GWE3J",
+            "identifier": "https://doi.org/10.25625/DIVFKP/4GWE3J",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33868"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Mathematical Sciences",
+        "Medicine, Health and Life Sciences"
+    ],
+    "publications": [
+        {}
+    ]
+}

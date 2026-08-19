@@ -1,0 +1,263 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/AHHCFM",
+    "identifier": "https://doi.org/10.25625/AHHCFM",
+    "name": "Training Dataset for TrailScan Model \"Thuringia\"",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Tanja",
+            "familyName": "Kempen",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "HAWK - Hochschule f\u00fcr angewandte Wissenschaft und Kunst Hildesheim/Holzminden/G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0009-0007-0586-2370",
+            "@id": "https://orcid.org/0009-0007-0586-2370",
+            "identifier": "https://orcid.org/0009-0007-0586-2370",
+            "name": "Kempen, Tanja"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Maximilian",
+            "familyName": "Freudenberg",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Georg-August-Universit\u00e4t G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-5831-6150",
+            "@id": "https://orcid.org/0000-0002-5831-6150",
+            "identifier": "https://orcid.org/0000-0002-5831-6150",
+            "name": "Freudenberg, Maximilian"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Paul",
+            "familyName": "Magdon",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "HAWK - Hochschule f\u00fcr angewandte Wissenschaft und Kunst Hildesheim/Holzminden/G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0003-3777-5478",
+            "@id": "https://orcid.org/0000-0003-3777-5478",
+            "identifier": "https://orcid.org/0000-0003-3777-5478",
+            "name": "Magdon, Paul"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Tanja",
+            "familyName": "Kempen",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "HAWK - Hochschule f\u00fcr angewandte Wissenschaft und Kunst Hildesheim/Holzminden/G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0009-0007-0586-2370",
+            "@id": "https://orcid.org/0009-0007-0586-2370",
+            "identifier": "https://orcid.org/0009-0007-0586-2370",
+            "name": "Kempen, Tanja"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Maximilian",
+            "familyName": "Freudenberg",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Georg-August-Universit\u00e4t G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-5831-6150",
+            "@id": "https://orcid.org/0000-0002-5831-6150",
+            "identifier": "https://orcid.org/0000-0002-5831-6150",
+            "name": "Freudenberg, Maximilian"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Paul",
+            "familyName": "Magdon",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "HAWK - Hochschule f\u00fcr angewandte Wissenschaft und Kunst Hildesheim/Holzminden/G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0003-3777-5478",
+            "@id": "https://orcid.org/0000-0003-3777-5478",
+            "identifier": "https://orcid.org/0000-0003-3777-5478",
+            "name": "Magdon, Paul"
+        }
+    ],
+    "datePublished": "2025-11-05",
+    "dateModified": "2025-11-05",
+    "version": "1",
+    "description": "Training Dataset for TrailScan Model \"Thuringia\". This Dataset contains normalized 4-band raster images of forest regions in the German federal state of Thuringia. The raster images have been created from airborne laserscanning data processed with the 'Preprocessing Tool' of the 'QGIS TrailScan Plugin'. Additionally, skid trails have been digitized and rasterized als label-images.",
+    "keywords": [
+        "Earth and Environmental Sciences"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Marksuhl_025.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 512032406,
+            "@id": "https://doi.org/10.25625/AHHCFM/GQKAVY",
+            "identifier": "https://doi.org/10.25625/AHHCFM/GQKAVY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/138635"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Mente_025.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 1791654526,
+            "@id": "https://doi.org/10.25625/AHHCFM/TSS5KI",
+            "identifier": "https://doi.org/10.25625/AHHCFM/TSS5KI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/138634"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "MHL_025.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 1419992254,
+            "@id": "https://doi.org/10.25625/AHHCFM/EH46DC",
+            "identifier": "https://doi.org/10.25625/AHHCFM/EH46DC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/138639"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Oberhof_025.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 1090249254,
+            "@id": "https://doi.org/10.25625/AHHCFM/AKKIA7",
+            "identifier": "https://doi.org/10.25625/AHHCFM/AKKIA7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/138637"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Schwarzburg1_025.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 332560766,
+            "@id": "https://doi.org/10.25625/AHHCFM/HXX3J0",
+            "identifier": "https://doi.org/10.25625/AHHCFM/HXX3J0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/138633"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Schwarzburg2_025.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 684403606,
+            "@id": "https://doi.org/10.25625/AHHCFM/RBXSYI",
+            "identifier": "https://doi.org/10.25625/AHHCFM/RBXSYI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/138636"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Unstruttal_025.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 299879062,
+            "@id": "https://doi.org/10.25625/AHHCFM/PEG9NC",
+            "identifier": "https://doi.org/10.25625/AHHCFM/PEG9NC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/138638"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Zellamehlis_025.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 1102572190,
+            "@id": "https://doi.org/10.25625/AHHCFM/IKNJ57",
+            "identifier": "https://doi.org/10.25625/AHHCFM/IKNJ57",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/138640"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Marksuhl_Trails_025.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 64024360,
+            "@id": "https://doi.org/10.25625/AHHCFM/NBFVKL",
+            "identifier": "https://doi.org/10.25625/AHHCFM/NBFVKL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/138646"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Mente_Trails_025.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 223984050,
+            "@id": "https://doi.org/10.25625/AHHCFM/2XOHYS",
+            "identifier": "https://doi.org/10.25625/AHHCFM/2XOHYS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/138643"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "MHL_Trails_025.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 177524946,
+            "@id": "https://doi.org/10.25625/AHHCFM/Z6FAKD",
+            "identifier": "https://doi.org/10.25625/AHHCFM/Z6FAKD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/138642"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Oberhof_Trails_025.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 136311236,
+            "@id": "https://doi.org/10.25625/AHHCFM/7FZSYH",
+            "identifier": "https://doi.org/10.25625/AHHCFM/7FZSYH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/138648"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Schwarzburg1_Trails_025.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 41585310,
+            "@id": "https://doi.org/10.25625/AHHCFM/R6BZZY",
+            "identifier": "https://doi.org/10.25625/AHHCFM/R6BZZY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/138647"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Schwarzburg2_Trails_025.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 85571560,
+            "@id": "https://doi.org/10.25625/AHHCFM/RV5DPI",
+            "identifier": "https://doi.org/10.25625/AHHCFM/RV5DPI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/138645"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Unstruttal_Trails_025.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 37528148,
+            "@id": "https://doi.org/10.25625/AHHCFM/9VBEVL",
+            "identifier": "https://doi.org/10.25625/AHHCFM/9VBEVL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/138641"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Zellamehlis_Trails_025.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 137847438,
+            "@id": "https://doi.org/10.25625/AHHCFM/JOTWF9",
+            "identifier": "https://doi.org/10.25625/AHHCFM/JOTWF9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/138644"
+        }
+    ],
+    "license_title": "Creative Commons Attribution 4.0 International",
+    "subjects": [
+        "Earth and Environmental Sciences"
+    ],
+    "publications": [
+        {}
+    ]
+}

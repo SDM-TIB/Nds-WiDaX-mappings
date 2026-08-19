@@ -1,0 +1,77 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/7N22AM",
+    "identifier": "https://doi.org/10.25625/7N22AM",
+    "name": "Additional Data that is needed for the R Scripts",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Alicia",
+            "familyName": "Pages",
+            "name": "Pages, Alicia"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Alicia",
+            "familyName": "Pages",
+            "name": "Pages, Alicia"
+        }
+    ],
+    "datePublished": "2024-08-27",
+    "dateModified": "2024-08-27",
+    "version": "1",
+    "description": "1. The dataset \"Percentage_Substratum_Quadrats\" is needed for the R Scripts \"BA_MDS_PERMANOVA_New.R\" and \"LM_Substrate.R\". It contains information about the percent coverage of different substrates in the tide pools. The columns of this dataset are: Tide pool (Survey site), Type of the Tide Pool, Month and Date of the Survey, Side of the Tide Pool (A or B), Quadrat Number, Substrate, Count of Quadrats in which the Substrate was present, Calculated Percentage of the Substrate. 2. The dataset \"Coordinates_Area_depth\" provides information about the geometric parameters with the following columns: Tide pool (Survey Site), Latitude and Longitude, Length, Width, Depth and Surface Area of the Tide Pool. This dataset is needed for the R Script \"Adjust_tables.R\". 3. The dataset \"Shannon_Evenness_Results\" contains information about the Shannon-Wiener Index and Evenness of the Tide Pools for the surveyed months. It was created in the R Script \"Shannon_Evenness.R\" and it is needed in the R Script \"Script_BA_MDS_PERMANOVA_NEW.R\".",
+    "keywords": [
+        "Earth and Environmental Sciences"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Coordinates_Area_depth.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1052,
+            "@id": "https://doi.org/10.25625/7N22AM/LWRE4O",
+            "identifier": "https://doi.org/10.25625/7N22AM/LWRE4O",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108713"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Percentage_Substratum_Quadrats.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 726704,
+            "@id": "https://doi.org/10.25625/7N22AM/OYRXGZ",
+            "identifier": "https://doi.org/10.25625/7N22AM/OYRXGZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108714"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Shannon_Evenness_Results.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 2476,
+            "@id": "https://doi.org/10.25625/7N22AM/HPH5YN",
+            "identifier": "https://doi.org/10.25625/7N22AM/HPH5YN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108715"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Earth and Environmental Sciences"
+    ]
+}

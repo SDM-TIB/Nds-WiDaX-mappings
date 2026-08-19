@@ -1,0 +1,534 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/IG6ESP",
+    "identifier": "https://doi.org/10.25625/IG6ESP",
+    "name": "Replication Data for: \u201cLoss Aversion in Social Image Concerns\u201d by Petrishcheva, Riener, Schildberg-H\u00f6risch, Experimental Economics",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Gerhard",
+            "familyName": "Riener",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Heinrich Heine University D\u00fcsseldorf"
+            },
+            "sameAs": "https://orcid.org/0000-0003-1056-2034",
+            "@id": "https://orcid.org/0000-0003-1056-2034",
+            "identifier": "https://orcid.org/0000-0003-1056-2034",
+            "name": "Riener, Gerhard"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Vasilisa",
+            "familyName": "Petrishcheva",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Potsdam"
+            },
+            "name": "Petrishcheva, Vasilisa"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Hannah",
+            "familyName": "Schildberg-H\u00f6risch",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Heinrich Heine University D\u00fcsseldorf"
+            },
+            "sameAs": "https://orcid.org/0000-0002-4567-1946",
+            "@id": "https://orcid.org/0000-0002-4567-1946",
+            "identifier": "https://orcid.org/0000-0002-4567-1946",
+            "name": "Schildberg-H\u00f6risch, Hannah"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Gerhard",
+            "familyName": "Riener",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Heinrich Heine University D\u00fcsseldorf"
+            },
+            "sameAs": "https://orcid.org/0000-0003-1056-2034",
+            "@id": "https://orcid.org/0000-0003-1056-2034",
+            "identifier": "https://orcid.org/0000-0003-1056-2034",
+            "name": "Riener, Gerhard"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Vasilisa",
+            "familyName": "Petrishcheva",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Potsdam"
+            },
+            "name": "Petrishcheva, Vasilisa"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Hannah",
+            "familyName": "Schildberg-H\u00f6risch",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Heinrich Heine University D\u00fcsseldorf"
+            },
+            "sameAs": "https://orcid.org/0000-0002-4567-1946",
+            "@id": "https://orcid.org/0000-0002-4567-1946",
+            "identifier": "https://orcid.org/0000-0002-4567-1946",
+            "name": "Schildberg-H\u00f6risch, Hannah"
+        }
+    ],
+    "datePublished": "2022-08-16",
+    "dateModified": "2022-08-23",
+    "version": "2",
+    "description": "This archive contains the complete replication files for the paper \"Loss Aversion in Social Image Concerns\" by Vasilisa Petrishcheva, Gerhard Riener and Hannah Schildberg-H\u00f6risch. Our replication package is organized as follows. The \"zTree\" folder contains the experimental code along with the images of the Raven's Progressive Matrices we used in our experiment. They are organized into Easy and Hard parts. We used zTree 4.0.8 to conduct our experiment. You can find the original instructions of the experiment (in German) and their translated English versions in Appendix E of the paper. The \"data-analysis\" folder contains the do-file named \"Analysis.do\" that replicates the results we discuss in the order of appearance in the paper. In this do-file, we comment all steps extensively. \"ExperimentMain.dta\" is a clean dataset. All variables are labeled. The folder \"build-dataset\" contains the raw data as well as two do-files necessary to generate \"ExperimentMain.dta\". We used Stata 15 to analyze our data. Abstract Does loss aversion apply to social image concerns? In a laboratory experiment, we first induce social image in a relevant domain, intelligence, through public ranking. In a second stage, subjects experience a change in rank and are offered scope for lying to improve their final, also publicly reported rank. Subjects who care about social image and experience a decline in rank lie more than those experiencing gains. Moreover, we document a discontinuity in lying behavior when moving from rank losses to gains. Our results are in line with loss aversion in social image concerns.",
+    "keywords": [
+        "Social Sciences",
+        "Loss aversion",
+        "Lying behavior",
+        "Social image concerns",
+        "Laboratory experiment"
+    ],
+    "license": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "Deutsche Forschungs Gemeinschaft (DFG)"
+        }
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "readme.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 4783,
+            "@id": "https://doi.org/10.25625/IG6ESP/IUIQBL",
+            "identifier": "https://doi.org/10.25625/IG6ESP/IUIQBL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48518"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Analysis.do",
+            "encodingFormat": "application/x-stata-syntax",
+            "contentSize": 22228,
+            "@id": "https://doi.org/10.25625/IG6ESP/TIT2LU",
+            "identifier": "https://doi.org/10.25625/IG6ESP/TIT2LU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48545"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "ExperimentMain.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 38336,
+            "@id": "https://doi.org/10.25625/IG6ESP/7RFJKQ",
+            "identifier": "https://doi.org/10.25625/IG6ESP/7RFJKQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48527"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "181120_1155-subjects.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 63102,
+            "@id": "https://doi.org/10.25625/IG6ESP/YCOHGR",
+            "identifier": "https://doi.org/10.25625/IG6ESP/YCOHGR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48512"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "181120_1155.xls",
+            "encodingFormat": "application/vnd.ms-excel",
+            "contentSize": 93399,
+            "@id": "https://doi.org/10.25625/IG6ESP/CSO99N",
+            "identifier": "https://doi.org/10.25625/IG6ESP/CSO99N",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48509"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "181121_1214-subjects.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 60204,
+            "@id": "https://doi.org/10.25625/IG6ESP/F562UE",
+            "identifier": "https://doi.org/10.25625/IG6ESP/F562UE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48538"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "181121_1214.xls",
+            "encodingFormat": "application/vnd.ms-excel",
+            "contentSize": 92563,
+            "@id": "https://doi.org/10.25625/IG6ESP/9QR11K",
+            "identifier": "https://doi.org/10.25625/IG6ESP/9QR11K",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48507"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "181122_1007-subjects.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 60355,
+            "@id": "https://doi.org/10.25625/IG6ESP/RKWY0N",
+            "identifier": "https://doi.org/10.25625/IG6ESP/RKWY0N",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48519"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "181122_1007.xls",
+            "encodingFormat": "application/vnd.ms-excel",
+            "contentSize": 88202,
+            "@id": "https://doi.org/10.25625/IG6ESP/KA9MYG",
+            "identifier": "https://doi.org/10.25625/IG6ESP/KA9MYG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48543"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "181122_1219-subjects.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 49076,
+            "@id": "https://doi.org/10.25625/IG6ESP/HTZK2N",
+            "identifier": "https://doi.org/10.25625/IG6ESP/HTZK2N",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48536"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "181122_1219.xls",
+            "encodingFormat": "application/vnd.ms-excel",
+            "contentSize": 70173,
+            "@id": "https://doi.org/10.25625/IG6ESP/NJOEVA",
+            "identifier": "https://doi.org/10.25625/IG6ESP/NJOEVA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48540"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "181127_1146-subjects.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 34663,
+            "@id": "https://doi.org/10.25625/IG6ESP/BP7Z9I",
+            "identifier": "https://doi.org/10.25625/IG6ESP/BP7Z9I",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48549"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "181127_1146.xls",
+            "encodingFormat": "application/vnd.ms-excel",
+            "contentSize": 53852,
+            "@id": "https://doi.org/10.25625/IG6ESP/MTWZGD",
+            "identifier": "https://doi.org/10.25625/IG6ESP/MTWZGD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48520"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "181128_1158-subjects.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 38802,
+            "@id": "https://doi.org/10.25625/IG6ESP/KJPNMM",
+            "identifier": "https://doi.org/10.25625/IG6ESP/KJPNMM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48511"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "181128_1158.xls",
+            "encodingFormat": "application/vnd.ms-excel",
+            "contentSize": 57005,
+            "@id": "https://doi.org/10.25625/IG6ESP/YLKOHE",
+            "identifier": "https://doi.org/10.25625/IG6ESP/YLKOHE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48515"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "190424_0844-subjects.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 25832,
+            "@id": "https://doi.org/10.25625/IG6ESP/DCZINF",
+            "identifier": "https://doi.org/10.25625/IG6ESP/DCZINF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48550"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "190424_0844.xls",
+            "encodingFormat": "application/vnd.ms-excel",
+            "contentSize": 40296,
+            "@id": "https://doi.org/10.25625/IG6ESP/RKWALH",
+            "identifier": "https://doi.org/10.25625/IG6ESP/RKWALH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48547"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "190424_1101-subjects.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 36677,
+            "@id": "https://doi.org/10.25625/IG6ESP/FLCLCE",
+            "identifier": "https://doi.org/10.25625/IG6ESP/FLCLCE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48528"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "190424_1101.xls",
+            "encodingFormat": "application/vnd.ms-excel",
+            "contentSize": 57368,
+            "@id": "https://doi.org/10.25625/IG6ESP/X6P9QZ",
+            "identifier": "https://doi.org/10.25625/IG6ESP/X6P9QZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48541"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "190424_1336-subjects.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 13878,
+            "@id": "https://doi.org/10.25625/IG6ESP/9TL5QM",
+            "identifier": "https://doi.org/10.25625/IG6ESP/9TL5QM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48542"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "190424_1336.xls",
+            "encodingFormat": "application/vnd.ms-excel",
+            "contentSize": 23831,
+            "@id": "https://doi.org/10.25625/IG6ESP/NQOD4P",
+            "identifier": "https://doi.org/10.25625/IG6ESP/NQOD4P",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48552"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "190425_0815-subjects.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 12357,
+            "@id": "https://doi.org/10.25625/IG6ESP/P4HCYT",
+            "identifier": "https://doi.org/10.25625/IG6ESP/P4HCYT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48514"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "190425_0815.xls",
+            "encodingFormat": "application/vnd.ms-excel",
+            "contentSize": 21063,
+            "@id": "https://doi.org/10.25625/IG6ESP/0T9PB8",
+            "identifier": "https://doi.org/10.25625/IG6ESP/0T9PB8",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48548"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "190425_1011-subjects.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 20474,
+            "@id": "https://doi.org/10.25625/IG6ESP/DZ6YQ5",
+            "identifier": "https://doi.org/10.25625/IG6ESP/DZ6YQ5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48530"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "190425_1011.xls",
+            "encodingFormat": "application/vnd.ms-excel",
+            "contentSize": 32978,
+            "@id": "https://doi.org/10.25625/IG6ESP/U7HRSG",
+            "identifier": "https://doi.org/10.25625/IG6ESP/U7HRSG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48534"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "190425_1227-subjects.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 18820,
+            "@id": "https://doi.org/10.25625/IG6ESP/WS0KNF",
+            "identifier": "https://doi.org/10.25625/IG6ESP/WS0KNF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48517"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "190425_1227.xls",
+            "encodingFormat": "application/vnd.ms-excel",
+            "contentSize": 30371,
+            "@id": "https://doi.org/10.25625/IG6ESP/HYACHU",
+            "identifier": "https://doi.org/10.25625/IG6ESP/HYACHU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48525"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "190514_1055-subjects.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 50448,
+            "@id": "https://doi.org/10.25625/IG6ESP/UEI89L",
+            "identifier": "https://doi.org/10.25625/IG6ESP/UEI89L",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48532"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "190514_1055.xls",
+            "encodingFormat": "application/vnd.ms-excel",
+            "contentSize": 79319,
+            "@id": "https://doi.org/10.25625/IG6ESP/NYWQFZ",
+            "identifier": "https://doi.org/10.25625/IG6ESP/NYWQFZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48546"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "190514_1322-subjects.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 20507,
+            "@id": "https://doi.org/10.25625/IG6ESP/0BWI3J",
+            "identifier": "https://doi.org/10.25625/IG6ESP/0BWI3J",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48539"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "190514_1322.xls",
+            "encodingFormat": "application/vnd.ms-excel",
+            "contentSize": 32938,
+            "@id": "https://doi.org/10.25625/IG6ESP/AOQTAM",
+            "identifier": "https://doi.org/10.25625/IG6ESP/AOQTAM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48513"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "191024_0944-subjects.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 17140,
+            "@id": "https://doi.org/10.25625/IG6ESP/DF63VZ",
+            "identifier": "https://doi.org/10.25625/IG6ESP/DF63VZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48537"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "191024_0944.xls",
+            "encodingFormat": "application/vnd.ms-excel",
+            "contentSize": 27463,
+            "@id": "https://doi.org/10.25625/IG6ESP/5YPNKQ",
+            "identifier": "https://doi.org/10.25625/IG6ESP/5YPNKQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48551"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "191024_1127-subjects.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 25421,
+            "@id": "https://doi.org/10.25625/IG6ESP/4FEVLD",
+            "identifier": "https://doi.org/10.25625/IG6ESP/4FEVLD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48529"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "191024_1127.xls",
+            "encodingFormat": "application/vnd.ms-excel",
+            "contentSize": 39692,
+            "@id": "https://doi.org/10.25625/IG6ESP/MXVUB7",
+            "identifier": "https://doi.org/10.25625/IG6ESP/MXVUB7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48531"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "191024_1349-subjects.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 21995,
+            "@id": "https://doi.org/10.25625/IG6ESP/SOYMVR",
+            "identifier": "https://doi.org/10.25625/IG6ESP/SOYMVR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48516"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "191024_1349.xls",
+            "encodingFormat": "application/vnd.ms-excel",
+            "contentSize": 34610,
+            "@id": "https://doi.org/10.25625/IG6ESP/GHC31C",
+            "identifier": "https://doi.org/10.25625/IG6ESP/GHC31C",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48526"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "191106_1255-subjects.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 25870,
+            "@id": "https://doi.org/10.25625/IG6ESP/UGFHAM",
+            "identifier": "https://doi.org/10.25625/IG6ESP/UGFHAM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48510"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "191106_1255.xls",
+            "encodingFormat": "application/vnd.ms-excel",
+            "contentSize": 41621,
+            "@id": "https://doi.org/10.25625/IG6ESP/N4UGS7",
+            "identifier": "https://doi.org/10.25625/IG6ESP/N4UGS7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48535"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "191106_1359-subjects.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 20500,
+            "@id": "https://doi.org/10.25625/IG6ESP/OF8XLR",
+            "identifier": "https://doi.org/10.25625/IG6ESP/OF8XLR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48508"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "191106_1359.xls",
+            "encodingFormat": "application/vnd.ms-excel",
+            "contentSize": 32337,
+            "@id": "https://doi.org/10.25625/IG6ESP/9QIXGI",
+            "identifier": "https://doi.org/10.25625/IG6ESP/9QIXGI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48521"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "build_dataset.do",
+            "encodingFormat": "application/x-stata-syntax",
+            "contentSize": 7136,
+            "@id": "https://doi.org/10.25625/IG6ESP/BXEWKY",
+            "identifier": "https://doi.org/10.25625/IG6ESP/BXEWKY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48524"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "ztreestata.do",
+            "encodingFormat": "application/x-stata-syntax",
+            "contentSize": 613,
+            "@id": "https://doi.org/10.25625/IG6ESP/ZNN9QI",
+            "identifier": "https://doi.org/10.25625/IG6ESP/ZNN9QI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48533"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "181030_1216.xls",
+            "encodingFormat": "application/vnd.ms-excel",
+            "contentSize": 66221,
+            "@id": "https://doi.org/10.25625/IG6ESP/JXC4LH",
+            "identifier": "https://doi.org/10.25625/IG6ESP/JXC4LH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48523"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "181031_1200.xls",
+            "encodingFormat": "application/vnd.ms-excel",
+            "contentSize": 65606,
+            "@id": "https://doi.org/10.25625/IG6ESP/MROQJZ",
+            "identifier": "https://doi.org/10.25625/IG6ESP/MROQJZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48522"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "SocialImageLossAversion_16_11_2018.ztt",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 134705,
+            "@id": "https://doi.org/10.25625/IG6ESP/UIGQZ5",
+            "identifier": "https://doi.org/10.25625/IG6ESP/UIGQZ5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/48544"
+        }
+    ],
+    "license_title": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+    "subjects": [
+        "Social Sciences"
+    ]
+}

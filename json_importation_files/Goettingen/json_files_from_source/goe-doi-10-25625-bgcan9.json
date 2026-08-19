@@ -1,0 +1,78 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/BGCAN9",
+    "identifier": "https://doi.org/10.25625/BGCAN9",
+    "name": "Replication Data for: PhD thesis",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Jenny",
+            "familyName": "Rademann",
+            "name": "Rademann, Jenny"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jenny",
+            "familyName": "Rademann",
+            "name": "Rademann, Jenny"
+        }
+    ],
+    "datePublished": "2021-01-19",
+    "dateModified": "2021-08-17",
+    "version": "2",
+    "description": "This is the R script and csv file for reproducing the qualitative comparative analyses (QCA) in my PhD project.",
+    "keywords": [
+        "Social Sciences"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "CalibratedData_tabular.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 773,
+            "@id": "https://doi.org/10.25625/BGCAN9/NCL8M9",
+            "identifier": "https://doi.org/10.25625/BGCAN9/NCL8M9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/21690"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "QCA_1+2_V2.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 18072,
+            "description": "updated for version 2.6 of package SetMethods; adapted title",
+            "@id": "https://doi.org/10.25625/BGCAN9/SZ1SEI",
+            "identifier": "https://doi.org/10.25625/BGCAN9/SZ1SEI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/32452"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Steckbriefe.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 3935,
+            "@id": "https://doi.org/10.25625/BGCAN9/O71CXO",
+            "identifier": "https://doi.org/10.25625/BGCAN9/O71CXO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/21683"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Social Sciences"
+    ]
+}

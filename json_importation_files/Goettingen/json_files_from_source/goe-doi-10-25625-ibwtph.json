@@ -1,0 +1,336 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/IBWTPH",
+    "identifier": "https://doi.org/10.25625/IBWTPH",
+    "name": "Data for \"Traction force microscopy for linear and nonlinear elastic materials as a parameter identi\ufb01cation inverse problem\"",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Gesa",
+            "familyName": "Sarnighausen",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for Numerical and Applied Mathematics, University of G\u00f6ttingen"
+            },
+            "name": "Sarnighausen, Gesa"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Tram Thi Ngoc",
+            "familyName": "Nguyen",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Max Planck Institute for Solar System Research, G\u00f6ttingen"
+            },
+            "name": "Nguyen, Tram Thi Ngoc"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Thorsten",
+            "familyName": "Hohage",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for Numerical and Applied Mathematics, University of G\u00f6ttingen"
+            },
+            "name": "Hohage, Thorsten"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Mangalika",
+            "familyName": "Sinha",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for X-Ray Physics, University of G\u00f6ttingen"
+            },
+            "name": "Sinha, Mangalika"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Sarah",
+            "familyName": "K\u00f6ster",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for X-Ray Physics, University of G\u00f6ttingen"
+            },
+            "name": "K\u00f6ster, Sarah"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Timo",
+            "familyName": "Betz",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Third Institute of Physics, Biophysics / Complex Systems, University of G\u00f6ttingen"
+            },
+            "name": "Betz, Timo"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Ulrich Sebastian",
+            "familyName": "Schwarz",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for Theoretical Physics, Heidelberg University"
+            },
+            "name": "Schwarz, Ulrich Sebastian"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Anne",
+            "familyName": "Wald",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for Numerical and Applied Mathematics, University of G\u00f6ttingen"
+            },
+            "name": "Wald, Anne"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Gesa",
+            "familyName": "Sarnighausen",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for Numerical and Applied Mathematics, University of G\u00f6ttingen"
+            },
+            "name": "Sarnighausen, Gesa"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Tram Thi Ngoc",
+            "familyName": "Nguyen",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Max Planck Institute for Solar System Research, G\u00f6ttingen"
+            },
+            "name": "Nguyen, Tram Thi Ngoc"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Thorsten",
+            "familyName": "Hohage",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for Numerical and Applied Mathematics, University of G\u00f6ttingen"
+            },
+            "name": "Hohage, Thorsten"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Mangalika",
+            "familyName": "Sinha",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for X-Ray Physics, University of G\u00f6ttingen"
+            },
+            "name": "Sinha, Mangalika"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Sarah",
+            "familyName": "K\u00f6ster",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for X-Ray Physics, University of G\u00f6ttingen"
+            },
+            "name": "K\u00f6ster, Sarah"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Timo",
+            "familyName": "Betz",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Third Institute of Physics, Biophysics / Complex Systems, University of G\u00f6ttingen"
+            },
+            "name": "Betz, Timo"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Ulrich Sebastian",
+            "familyName": "Schwarz",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for Theoretical Physics, Heidelberg University"
+            },
+            "name": "Schwarz, Ulrich Sebastian"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Anne",
+            "familyName": "Wald",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for Numerical and Applied Mathematics, University of G\u00f6ttingen"
+            },
+            "name": "Wald, Anne"
+        }
+    ],
+    "datePublished": "2025-05-09",
+    "dateModified": "2025-05-09",
+    "version": "2",
+    "description": "Data and code that support findings of the article. Regpy needs to be installed at version v.03. It can e.g. be installed via regpy @ https://github.com/regpy/regpy/releases/tag/v0.3. Furthermore the packages intel-openmp and mkl should be installed in version 2023.2.0 (see also requirements.txt). The jupyter notebooks generate the figures from the article. E.g. tfm_nonlinear2D_force1.ipynb generates the figures for nonlinear 2D TFM with force 1. In the files tfm_linear.py and tfm_nonlinear.py the linear and nonlinear forward operator is defined. The notebook tfm_2Dcomparison.ipynb and tfm2DcomparisonReco.ipynb generate figure 9 which compares the nonlinear and the linear forward model. At the beginning of most notebooks 'saving' can be set to 'True' or 'False'. If 'saving' is 'True', the .vtu files of the gridfunctions are saved in the directory 'VTU'. The directory 'real data' contains the measured displacement data and the computed FTTC solution. Our solution is computed in the notebook real_data.ipynb. The corresponding files are saved in 'VTU/real_data'.",
+    "keywords": [
+        "Mathematical Sciences"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "error.npy",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 768,
+            "@id": "https://doi.org/10.25625/IBWTPH/ZYNVV6",
+            "identifier": "https://doi.org/10.25625/IBWTPH/ZYNVV6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124709"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "norm.npy",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 768,
+            "@id": "https://doi.org/10.25625/IBWTPH/0DE1I0",
+            "identifier": "https://doi.org/10.25625/IBWTPH/0DE1I0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124717"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "plot_comparison.png",
+            "encodingFormat": "image/png",
+            "contentSize": 24956,
+            "@id": "https://doi.org/10.25625/IBWTPH/WWIWQX",
+            "identifier": "https://doi.org/10.25625/IBWTPH/WWIWQX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124707"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "README.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 997,
+            "@id": "https://doi.org/10.25625/IBWTPH/ZBKVQJ",
+            "identifier": "https://doi.org/10.25625/IBWTPH/ZBKVQJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124715"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "real data.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 5729707,
+            "@id": "https://doi.org/10.25625/IBWTPH/J56URI",
+            "identifier": "https://doi.org/10.25625/IBWTPH/J56URI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124708"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "requirements.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 4747,
+            "@id": "https://doi.org/10.25625/IBWTPH/ETUIEJ",
+            "identifier": "https://doi.org/10.25625/IBWTPH/ETUIEJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124711"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "tfm_2Dcomparison.ipynb",
+            "encodingFormat": "application/x-ipynb+json",
+            "contentSize": 48955,
+            "@id": "https://doi.org/10.25625/IBWTPH/2RH5XB",
+            "identifier": "https://doi.org/10.25625/IBWTPH/2RH5XB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124713"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "tfm_linear.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 3014,
+            "@id": "https://doi.org/10.25625/IBWTPH/ALHFMO",
+            "identifier": "https://doi.org/10.25625/IBWTPH/ALHFMO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124714"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "tfm_linear2.5D_force1.ipynb",
+            "encodingFormat": "application/x-ipynb+json",
+            "contentSize": 79039,
+            "@id": "https://doi.org/10.25625/IBWTPH/QZZRYW",
+            "identifier": "https://doi.org/10.25625/IBWTPH/QZZRYW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124710"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "tfm_linear2.5D_force2.ipynb",
+            "encodingFormat": "application/x-ipynb+json",
+            "contentSize": 28967,
+            "@id": "https://doi.org/10.25625/IBWTPH/OBU9IO",
+            "identifier": "https://doi.org/10.25625/IBWTPH/OBU9IO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124706"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "tfm_nonlinear.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 6102,
+            "@id": "https://doi.org/10.25625/IBWTPH/IHDZ8F",
+            "identifier": "https://doi.org/10.25625/IBWTPH/IHDZ8F",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124720"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "tfm_nonlinear2DcomparisonReco.ipynb",
+            "encodingFormat": "application/x-ipynb+json",
+            "contentSize": 120756,
+            "@id": "https://doi.org/10.25625/IBWTPH/B3COSE",
+            "identifier": "https://doi.org/10.25625/IBWTPH/B3COSE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124719"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "tfm_nonlinear2D_force1.ipynb",
+            "encodingFormat": "application/x-ipynb+json",
+            "contentSize": 54532,
+            "@id": "https://doi.org/10.25625/IBWTPH/20PKUI",
+            "identifier": "https://doi.org/10.25625/IBWTPH/20PKUI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124712"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "tfm_nonlinear2D_force2.ipynb",
+            "encodingFormat": "application/x-ipynb+json",
+            "contentSize": 40568,
+            "@id": "https://doi.org/10.25625/IBWTPH/I6066Z",
+            "identifier": "https://doi.org/10.25625/IBWTPH/I6066Z",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124716"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "utils.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 207,
+            "@id": "https://doi.org/10.25625/IBWTPH/MG6JBS",
+            "identifier": "https://doi.org/10.25625/IBWTPH/MG6JBS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124718"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Mathematical Sciences"
+    ],
+    "publications": [
+        {}
+    ]
+}

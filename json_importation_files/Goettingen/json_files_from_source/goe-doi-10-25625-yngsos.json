@@ -1,0 +1,70 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/YNGSOS",
+    "identifier": "https://doi.org/10.25625/YNGSOS",
+    "name": "Mobile Laserscanning Results 2025",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Dominik",
+            "familyName": "Seidel",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Uni G\u00f6ttingen"
+            },
+            "name": "Seidel, Dominik"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Dominik",
+            "familyName": "Seidel",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Uni G\u00f6ttingen"
+            },
+            "name": "Seidel, Dominik"
+        }
+    ],
+    "datePublished": "2026-01-21",
+    "dateModified": "2026-01-21",
+    "version": "1",
+    "description": "FoResLab SP:5 Status: FINAL Type: Processed data Expected completion: Expected update interval: (maybe once more) Short description: Summer scans -Leaf-on- of all 25 forest lab sites. Using a mobile laser scanner Geoslam Horizon by Geoslam Ltd., Nottingham, UK. We scanned each plot, starting in the center of the plot and consecutively walking in circles of increasing radius around the center until the whole area was scanned. The area was then clipped to match with the drone coverage of the sites, filtered -standard filters for outliers-, subsampled to 1 cm resolution and normalized -terrain normalization-Final metric table of box-dimension, canopy cover, effective number of layers, foliage height diversity and vertical evenness. (2025)",
+    "keywords": [
+        "Earth and Environmental Sciences",
+        "LiDAR",
+        "MLS"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "MLS_FINAL.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 2121,
+            "description": "MLS results summer 2025",
+            "@id": "https://doi.org/10.25625/YNGSOS/PHQLAD",
+            "identifier": "https://doi.org/10.25625/YNGSOS/PHQLAD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/142098"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Earth and Environmental Sciences"
+    ]
+}

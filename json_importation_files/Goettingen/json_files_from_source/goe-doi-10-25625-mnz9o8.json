@@ -1,0 +1,773 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/MNZ9O8",
+    "identifier": "https://doi.org/10.25625/MNZ9O8",
+    "name": "Phylogenomics of Southern European taxa in the Ranunculus auricomus species complex",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "John Paul",
+            "familyName": "Bradican",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Goettingen"
+            },
+            "name": "Bradican, John Paul"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "John Paul",
+            "familyName": "Bradican",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Goettingen"
+            },
+            "name": "Bradican, John Paul"
+        }
+    ],
+    "datePublished": "2023-10-17",
+    "dateModified": "2023-10-17",
+    "version": "1",
+    "description": "Study of the phylogenetic status of Southern European members of the Ranunculus auricomus plant species complex, including analysis of reproductive mode and hybrid parentage. Sequence data was generated via target enrichment of single-copy nuclear regions targeted using a custom bait-set, and sequenced using Illumina MiSeq.",
+    "keywords": [
+        "Medicine, Health and Life Sciences",
+        "Hybridization",
+        "Polyploidy",
+        "Ranunculus auricomus",
+        "Mediterranean"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Metadata_Sequences_R_auricomus_2023_Southern_Europe.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 10892,
+            "@id": "https://doi.org/10.25625/MNZ9O8/WJAYKF",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/WJAYKF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67467"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-alejandrei_1109401-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 50127225,
+            "@id": "https://doi.org/10.25625/MNZ9O8/UMA7M8",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/UMA7M8",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67438"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-alejandrei_1109401-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 52548966,
+            "@id": "https://doi.org/10.25625/MNZ9O8/LTHETR",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/LTHETR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67408"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-alejandrei_1109403-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 46016678,
+            "@id": "https://doi.org/10.25625/MNZ9O8/WKTQR5",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/WKTQR5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67454"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-alejandrei_1109403-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 51538871,
+            "@id": "https://doi.org/10.25625/MNZ9O8/QA0UH4",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/QA0UH4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67436"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-alejandrei_1109502-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 39617756,
+            "@id": "https://doi.org/10.25625/MNZ9O8/IKLKJH",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/IKLKJH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67450"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-alejandrei_1109502-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 43773453,
+            "@id": "https://doi.org/10.25625/MNZ9O8/G6QSEX",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/G6QSEX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67466"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-alejandrei_1109505-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 55853845,
+            "@id": "https://doi.org/10.25625/MNZ9O8/E2FP6P",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/E2FP6P",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67481"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-alejandrei_1109505-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 61712914,
+            "@id": "https://doi.org/10.25625/MNZ9O8/AVTF7Y",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/AVTF7Y",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67452"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-alejandrei_1109603-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 38024416,
+            "@id": "https://doi.org/10.25625/MNZ9O8/ZCYY0K",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/ZCYY0K",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67484"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-alejandrei_1109603-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 42147234,
+            "@id": "https://doi.org/10.25625/MNZ9O8/92R7ZK",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/92R7ZK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67417"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-alejandrei_1109607-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 42779083,
+            "@id": "https://doi.org/10.25625/MNZ9O8/KKPEST",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/KKPEST",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67449"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-alejandrei_1109607-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 47987423,
+            "@id": "https://doi.org/10.25625/MNZ9O8/6M5JAP",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/6M5JAP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67425"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-aragonensis_Du3285503-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 43991684,
+            "@id": "https://doi.org/10.25625/MNZ9O8/TKGWID",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/TKGWID",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67446"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-aragonensis_Du3285503-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 45351470,
+            "@id": "https://doi.org/10.25625/MNZ9O8/HQFL6L",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/HQFL6L",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67460"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-baldensis_Du20887015-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 36455144,
+            "@id": "https://doi.org/10.25625/MNZ9O8/VCE9VN",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/VCE9VN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67412"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-baldensis_Du20887015-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 37535207,
+            "@id": "https://doi.org/10.25625/MNZ9O8/VNGPH7",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/VNGPH7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67472"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-bovioi_Du25388010-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 50187825,
+            "@id": "https://doi.org/10.25625/MNZ9O8/RBHJU7",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/RBHJU7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67475"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-bovioi_Du25388010-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 52105319,
+            "@id": "https://doi.org/10.25625/MNZ9O8/NLPP7K",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/NLPP7K",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67415"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-camerinus_1109904-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 40092973,
+            "@id": "https://doi.org/10.25625/MNZ9O8/H3FG90",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/H3FG90",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67428"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-camerinus_1109904-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 44201932,
+            "@id": "https://doi.org/10.25625/MNZ9O8/WSNVUC",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/WSNVUC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67447"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-camerinus_1109906-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 42490843,
+            "@id": "https://doi.org/10.25625/MNZ9O8/UXUFFE",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/UXUFFE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67458"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-camerinus_1109906-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 46644288,
+            "@id": "https://doi.org/10.25625/MNZ9O8/3TSSZQ",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/3TSSZQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67426"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-camerinus_1110406-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 41424980,
+            "@id": "https://doi.org/10.25625/MNZ9O8/7CMA3O",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/7CMA3O",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67455"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-camerinus_1110406-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 46511208,
+            "@id": "https://doi.org/10.25625/MNZ9O8/YUPQXI",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/YUPQXI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67429"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-camerinus_1110409-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 42586877,
+            "@id": "https://doi.org/10.25625/MNZ9O8/CIJIUM",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/CIJIUM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67474"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-camerinus_1110409-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 47958333,
+            "@id": "https://doi.org/10.25625/MNZ9O8/APOT2H",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/APOT2H",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67442"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-camerinus_1110607-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 32424667,
+            "@id": "https://doi.org/10.25625/MNZ9O8/9O9XXU",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/9O9XXU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67457"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-camerinus_1110607-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 35850089,
+            "@id": "https://doi.org/10.25625/MNZ9O8/9QCKOR",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/9QCKOR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67459"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-camerinus_1110609-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 19494058,
+            "@id": "https://doi.org/10.25625/MNZ9O8/BEXVBW",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/BEXVBW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67431"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-camerinus_1110609-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 22411084,
+            "@id": "https://doi.org/10.25625/MNZ9O8/HRMVWM",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/HRMVWM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67433"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-cantabricus_Du2939402-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 63121617,
+            "@id": "https://doi.org/10.25625/MNZ9O8/5GUIIN",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/5GUIIN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67465"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-cantabricus_Du2939402-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 68514165,
+            "@id": "https://doi.org/10.25625/MNZ9O8/YJP7WF",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/YJP7WF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67440"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-carlittensis_Du2998602-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 42877348,
+            "@id": "https://doi.org/10.25625/MNZ9O8/TLIR6U",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/TLIR6U",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67482"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-carlittensis_Du2998602-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 44487263,
+            "@id": "https://doi.org/10.25625/MNZ9O8/6JC7BG",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/6JC7BG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67414"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-gortanii_BB5-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 47780788,
+            "@id": "https://doi.org/10.25625/MNZ9O8/QYXRFE",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/QYXRFE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67410"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-gortanii_BB5-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 50221238,
+            "@id": "https://doi.org/10.25625/MNZ9O8/0AUHRW",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/0AUHRW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67424"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-gortanii_CdR3-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 43488776,
+            "@id": "https://doi.org/10.25625/MNZ9O8/0LTPIS",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/0LTPIS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67464"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-gortanii_CdR3-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 47322503,
+            "@id": "https://doi.org/10.25625/MNZ9O8/BRO9N0",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/BRO9N0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67477"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-gortanii_Du3413703-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 57583788,
+            "@id": "https://doi.org/10.25625/MNZ9O8/2NXDDN",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/2NXDDN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67480"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-gortanii_Du3413703-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 61121016,
+            "@id": "https://doi.org/10.25625/MNZ9O8/KBBZ98",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/KBBZ98",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67427"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-gortanii_Du3528108-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 63206489,
+            "@id": "https://doi.org/10.25625/MNZ9O8/XT2NGE",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/XT2NGE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67445"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-gortanii_Du3528108-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 66435851,
+            "@id": "https://doi.org/10.25625/MNZ9O8/5H1EAQ",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/5H1EAQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67441"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-guarensis_Du29560010-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 52825746,
+            "@id": "https://doi.org/10.25625/MNZ9O8/M0RFE6",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/M0RFE6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67437"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-guarensis_Du29560010-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 54276330,
+            "@id": "https://doi.org/10.25625/MNZ9O8/MHTS5Y",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/MHTS5Y",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67478"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-montserrati_2991107-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 48845509,
+            "@id": "https://doi.org/10.25625/MNZ9O8/QRXPVJ",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/QRXPVJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67422"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-montserrati_2991107-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 51487081,
+            "@id": "https://doi.org/10.25625/MNZ9O8/WXR8DP",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/WXR8DP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67448"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-palaeoeuganeus_AD1-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 35830745,
+            "@id": "https://doi.org/10.25625/MNZ9O8/B66NEE",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/B66NEE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67409"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-palaeoeuganeus_AD1-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 37150815,
+            "@id": "https://doi.org/10.25625/MNZ9O8/GUHW7F",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/GUHW7F",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67420"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-palaeoeuganeus_Du2099804-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 56236488,
+            "@id": "https://doi.org/10.25625/MNZ9O8/QOODHQ",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/QOODHQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67416"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-palaeoeuganeus_Du2099804-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 59194616,
+            "@id": "https://doi.org/10.25625/MNZ9O8/8NADBJ",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/8NADBJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67434"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-palaeoeuganeus_Q1-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 36573075,
+            "@id": "https://doi.org/10.25625/MNZ9O8/EQM0WW",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/EQM0WW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67462"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-palaeoeuganeus_Q1-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 38479505,
+            "@id": "https://doi.org/10.25625/MNZ9O8/DU4PUI",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/DU4PUI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67430"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-palaeoeuganeus_Q2-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 49148120,
+            "@id": "https://doi.org/10.25625/MNZ9O8/HPMVW3",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/HPMVW3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67463"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-palaeoeuganeus_Q2-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 51252322,
+            "@id": "https://doi.org/10.25625/MNZ9O8/OX7LE5",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/OX7LE5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67483"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-pelendenorum_1109803-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 35561630,
+            "@id": "https://doi.org/10.25625/MNZ9O8/KH1CBG",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/KH1CBG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67469"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-pelendenorum_1109803-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 39323521,
+            "@id": "https://doi.org/10.25625/MNZ9O8/IFT7TP",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/IFT7TP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67407"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-pindicola_Du26708013-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 82232482,
+            "@id": "https://doi.org/10.25625/MNZ9O8/LIBNVN",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/LIBNVN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67461"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-pindicola_Du26708013-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 88471525,
+            "@id": "https://doi.org/10.25625/MNZ9O8/XYJDVU",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/XYJDVU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67485"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-poldinii_C1-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 40097245,
+            "@id": "https://doi.org/10.25625/MNZ9O8/HQX9CO",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/HQX9CO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67423"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-poldinii_C1-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 42160703,
+            "@id": "https://doi.org/10.25625/MNZ9O8/4AVUWH",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/4AVUWH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67444"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-poldinii_CB4-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 45913767,
+            "@id": "https://doi.org/10.25625/MNZ9O8/V5H7QN",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/V5H7QN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67439"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-poldinii_CB4-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 51108280,
+            "@id": "https://doi.org/10.25625/MNZ9O8/7KGU8G",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/7KGU8G",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67471"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-rotundifrons_1110202-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 43782689,
+            "@id": "https://doi.org/10.25625/MNZ9O8/WNI36K",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/WNI36K",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67468"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-rotundifrons_1110202-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 49682712,
+            "@id": "https://doi.org/10.25625/MNZ9O8/MJ50DY",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/MJ50DY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67421"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-rotundifrons_1110205-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 33580778,
+            "@id": "https://doi.org/10.25625/MNZ9O8/SK3TLX",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/SK3TLX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67451"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-rotundifrons_1110205-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 37175344,
+            "@id": "https://doi.org/10.25625/MNZ9O8/0AVZUG",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/0AVZUG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67470"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-rotundifrons_Du3283202-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 59214009,
+            "@id": "https://doi.org/10.25625/MNZ9O8/SNSHA9",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/SNSHA9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67476"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-rotundifrons_Du3283202-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 61056430,
+            "@id": "https://doi.org/10.25625/MNZ9O8/VTIWRI",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/VTIWRI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67419"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-sennianus_Du2996806-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 49217970,
+            "@id": "https://doi.org/10.25625/MNZ9O8/H4XHWD",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/H4XHWD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67411"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-sennianus_Du2996806-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 50925531,
+            "@id": "https://doi.org/10.25625/MNZ9O8/4SYVJZ",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/4SYVJZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67473"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-valdesii_Du292204-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 60508486,
+            "@id": "https://doi.org/10.25625/MNZ9O8/LFOWHV",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/LFOWHV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67479"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-valdesii_Du292204-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 62878788,
+            "@id": "https://doi.org/10.25625/MNZ9O8/5SXAWX",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/5SXAWX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67456"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-varsonicus_1109702-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 52166956,
+            "@id": "https://doi.org/10.25625/MNZ9O8/EK6IDR",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/EK6IDR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67418"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-varsonicus_1109702-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 57385594,
+            "@id": "https://doi.org/10.25625/MNZ9O8/7H5AAX",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/7H5AAX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67435"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-varsonicus_1109703-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 44366547,
+            "@id": "https://doi.org/10.25625/MNZ9O8/1HX9JL",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/1HX9JL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67432"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-varsonicus_1109703-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 49742960,
+            "@id": "https://doi.org/10.25625/MNZ9O8/XRXPLK",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/XRXPLK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67453"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-vasconicus_1109203-1P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 69358111,
+            "@id": "https://doi.org/10.25625/MNZ9O8/LRGOQI",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/LRGOQI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67413"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ranunculus-vasconicus_1109203-2P_no-dups.fastq.gz",
+            "encodingFormat": "application/x-gzip",
+            "contentSize": 76589444,
+            "@id": "https://doi.org/10.25625/MNZ9O8/4KNV8O",
+            "identifier": "https://doi.org/10.25625/MNZ9O8/4KNV8O",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/67443"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Medicine, Health and Life Sciences"
+    ]
+}

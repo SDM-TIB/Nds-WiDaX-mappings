@@ -1,0 +1,221 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/FSLMYU",
+    "identifier": "https://doi.org/10.25625/FSLMYU",
+    "name": "Quantitative Magnetic Resonance Imaging of the NIST Phantom",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Martin",
+            "familyName": "Heide",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University Medical Center, G\u00f6ttingen"
+            },
+            "name": "Heide, Martin"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Nick",
+            "familyName": "Scholand",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Technical University of Graz, Austria"
+            },
+            "name": "Scholand, Nick"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Martin",
+            "familyName": "Uecker",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Technical University of Graz, Austria"
+            },
+            "name": "Uecker, Martin"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Martin",
+            "familyName": "Heide",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University Medical Center, G\u00f6ttingen"
+            },
+            "name": "Heide, Martin"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Nick",
+            "familyName": "Scholand",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Technical University of Graz, Austria"
+            },
+            "name": "Scholand, Nick"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Martin",
+            "familyName": "Uecker",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Technical University of Graz, Austria"
+            },
+            "name": "Uecker, Martin"
+        }
+    ],
+    "datePublished": "2023-09-15",
+    "dateModified": "2023-09-15",
+    "version": "1",
+    "description": "Magnetic resonance imaging dataset of the T1 layer of the NIST Phantom Model 106 (https://doi.org/10.1002/mrm.28779) acquired with inversion-recovery balanced steady-state free-precession (IR-bSSFP), inversion-recovery fast low angle shot (IR-FLASH) sequences, inversion-recovery single-echo spin echo, single-echo spin echo, gradient echo and FLASH-based B1 mapping sequence with preconditioning RF pulse. The files are intended to be used with the Berkeley Advanced Reconstruction Toolbox (https://doi.org/10.5281/zenodo.592960). Each dataset consists of a ASCII Text-encoded header (.hdr) and a binary-encoded complex float file (.cfl).\ndata_GSM_t1 Type: Gold-Standard T1 measurement Object: Single-slice of the T1 spheres of the NIST phantom (Model 106) Sequence: IR Single-Echo Spin-Echo TR|TE [ms]: 10000|12 T_INV [ms]: 35 75 100 125 150 250 1000 1500 2000 3000 Inversion: Slice Selective Dimensions: 2 FOV [mm]: 192 Matrix size: 256x256 Receiver Bandwidth: 130 Hz/Px data_GSM_t2 Type: Gold-Standard T2 measurement Object: Single-slice of the T1 spheres of the NIST phantom (Model 106) Sequence: Single-Echo Spin-Echo TR|TE [ms]: 10000|(12 20 30 40 70 100 150 200 250 350) Dimensions: 2 FOV [mm]: 192 Matrix size: 256x256 Receiver Bandwidth: 130Hz/Px data_b0_gre Type: B0 Map Object: Single-slice of the T1 spheres of the NIST phantom (Model 106) Sequence: Two GRE Acquisitions with different TE, \"gre_field_mapping\" Sequence TR|TE1|TE2 [ms]: 400|4.92|7.38 Flipangle [deg]: 60 Dimensions: 2 FOV [mm]: 220 Matrix size: 256x256 Receiver Bandwidth: 849 Hz/Px data_b1_precond Type: B1 Map Object: Single-slice of the T1 spheres of the NIST phantom (Model 106) Sequence: Preconditioned RF pulse with TurboFLASH Readout TR|TE [ms]: 6830|2.25 FA [deg]: 8 FA preconditioning pulse [deg]: 80 Dimensions: 2 FOV [mm]: 220 Matrix size: 256x256 Receiver Bandwidth: 490 Hz/Px data_irflash Type: Radial Single-Shot Inversion-Recovery FLASH Object: Single-slice of the T1 spheres of the NIST phantom (Model 106) Sequence: IR FLASH TR|TE [ms]: 3.8|2.26 FA [deg]: 8 T_RF [ms]: 1 BWTP: 4 Inversion Block Length [ms]: 15 #Tiny GA: 7 Number of Radial Spokes: 1200 Inversion: Non-Selective Spoiling: Random RF Dimensions: 2 FOV [mm]: 220 Matrix size: 256x256 Receiver Bandwidth: 720 Hz/Px data_irbssfp Type: Radial Single-Shot Inversion-Recovery bSSFP Object: Single-slice of the T1 spheres of the NIST phantom (Model 106) Sequence: IR bSSFP TR|TE [ms]: 4.5|2.25 FA [deg]: 45 T_RF [ms]: 1 Inversion Block Length [ms]: 15 BWTP: 4 #Tiny GA: 7 Number of Radial Spokes: 1000 Inversion: Non-Selective Dimensions: 2 FOV [mm]: 220 Matrix size: 256x256 Receiver Bandwidth: 720 Hz/Px",
+    "keywords": [
+        "Mathematical Sciences",
+        "Medicine, Health and Life Sciences",
+        "Physics",
+        "Model-Based Reconstruction",
+        "Magnetic Resonance Imaging",
+        "Multi-Parameter Mapping",
+        "Single-Shot Acquisition",
+        "QMRI",
+        "Computational MRI",
+        "Radial IR bSSFP",
+        "Radial IR FLASH"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "data_b0_gre.cfl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 37748736,
+            "@id": "https://doi.org/10.25625/FSLMYU/PKXNID",
+            "identifier": "https://doi.org/10.25625/FSLMYU/PKXNID",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/64396"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "data_b0_gre.hdr",
+            "encodingFormat": "image/x-hdr",
+            "contentSize": 51,
+            "@id": "https://doi.org/10.25625/FSLMYU/SLSYXY",
+            "identifier": "https://doi.org/10.25625/FSLMYU/SLSYXY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/64407"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "data_b1_precond.cfl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 29786112,
+            "@id": "https://doi.org/10.25625/FSLMYU/PVFIMQ",
+            "identifier": "https://doi.org/10.25625/FSLMYU/PVFIMQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/64397"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "data_b1_precond.hdr",
+            "encodingFormat": "image/x-hdr",
+            "contentSize": 51,
+            "@id": "https://doi.org/10.25625/FSLMYU/HJAUEB",
+            "identifier": "https://doi.org/10.25625/FSLMYU/HJAUEB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/64400"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "data_GSM_t1.cfl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 188743680,
+            "@id": "https://doi.org/10.25625/FSLMYU/TWFNMD",
+            "identifier": "https://doi.org/10.25625/FSLMYU/TWFNMD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/64406"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "data_GSM_t1.hdr",
+            "encodingFormat": "image/x-hdr",
+            "contentSize": 52,
+            "@id": "https://doi.org/10.25625/FSLMYU/FAKDM0",
+            "identifier": "https://doi.org/10.25625/FSLMYU/FAKDM0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/64401"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "data_GSM_t2.cfl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 188743680,
+            "@id": "https://doi.org/10.25625/FSLMYU/OYSZKW",
+            "identifier": "https://doi.org/10.25625/FSLMYU/OYSZKW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/64402"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "data_GSM_t2.hdr",
+            "encodingFormat": "image/x-hdr",
+            "contentSize": 52,
+            "@id": "https://doi.org/10.25625/FSLMYU/JQ11YI",
+            "identifier": "https://doi.org/10.25625/FSLMYU/JQ11YI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/64405"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "data_irbssfp.cfl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 73728000,
+            "@id": "https://doi.org/10.25625/FSLMYU/AZDP8V",
+            "identifier": "https://doi.org/10.25625/FSLMYU/AZDP8V",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/64403"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "data_irbssfp.hdr",
+            "encodingFormat": "image/x-hdr",
+            "contentSize": 52,
+            "@id": "https://doi.org/10.25625/FSLMYU/GJUUAL",
+            "identifier": "https://doi.org/10.25625/FSLMYU/GJUUAL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/64399"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "data_irflash.cfl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 88473600,
+            "@id": "https://doi.org/10.25625/FSLMYU/RRPEYY",
+            "identifier": "https://doi.org/10.25625/FSLMYU/RRPEYY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/64404"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "data_irflash.hdr",
+            "encodingFormat": "image/x-hdr",
+            "contentSize": 52,
+            "@id": "https://doi.org/10.25625/FSLMYU/PCSQF7",
+            "identifier": "https://doi.org/10.25625/FSLMYU/PCSQF7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/64398"
+        }
+    ],
+    "license_title": "Creative Commons Attribution 4.0 International",
+    "subjects": [
+        "Mathematical Sciences",
+        "Medicine, Health and Life Sciences",
+        "Physics"
+    ],
+    "publications": [
+        {}
+    ]
+}

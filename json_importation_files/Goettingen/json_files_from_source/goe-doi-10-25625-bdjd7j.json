@@ -1,0 +1,95 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/BDJD7J",
+    "identifier": "https://doi.org/10.25625/BDJD7J",
+    "name": "Learned IE thesis: Docker image",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Janosch",
+            "familyName": "Preu\u00df",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institut f\u00fcr Numerische und Angewandte Mathematik Universit\u00e4t G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-7384-535X",
+            "@id": "https://orcid.org/0000-0002-7384-535X",
+            "identifier": "https://orcid.org/0000-0002-7384-535X",
+            "name": "Preu\u00df, Janosch"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Janosch",
+            "familyName": "Preu\u00df",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institut f\u00fcr Numerische und Angewandte Mathematik Universit\u00e4t G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-7384-535X",
+            "@id": "https://orcid.org/0000-0002-7384-535X",
+            "identifier": "https://orcid.org/0000-0002-7384-535X",
+            "name": "Preu\u00df, Janosch"
+        }
+    ],
+    "datePublished": "2021-10-25",
+    "dateModified": "2021-10-25",
+    "version": "1",
+    "description": "This dataset contains a Docker image for reproducing the numerical experiments in the PhD thesis Title: Learned infinite elements for helioseismology Author: Janosch Preu\u00df Advisors: Prof. Christoph Lehrenfeld, Prof. Thorsten Hohage, Dr. Damien Fournier Doctoral programme: Georg-August University School of Science (GAUSS) It includes all software and most of the data for the reproduction. To keep the image of a reasonable size, the remaining data has been uploaded in the following datasets on GRO.data: Learned IE thesis: Comparison of different atmospheric models for helioseismology Learned IE thesis: Comparison of transparent boundary conditions for the Atmo model Learned IE thesis: Transparent boundary conditions for the VAL-C model There is no need for action from the user here since the docker image contains scripts which automatically download this data for further postprocessing if required. The image was built based on the github repository https://gitlab.gwdg.de/learned_infinite_elements/diss_jp_repro at commit: ac895f4a341444e5eb186d93276345578ef765a1. The tarball diss_jp_repro.tar.gz contains an archive of this repository. A README file is included in the repository as well as in the docker image learnedIE_diss_repro.tar, which contains detailed instructions (which commands to execute and so on) on how to obtain the results given in the thesis. An online version of the README file can be found here. The image can additionally be found on Docker Hub: janosch2888/diss_jp:191021. Important note: If you have a problem with downloading the docker image, please use the alternative URL https://data.goettingen-research-online.de/download/learnedIE_diss_repro.tar .",
+    "keywords": [
+        "Astronomy and Astrophysics",
+        "Mathematical Sciences",
+        "65N30, 35L05, 35J05, 33C10, 85-08"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "DFG"
+        }
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "diss_jp_repro.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 21334009,
+            "@id": "https://doi.org/10.25625/BDJD7J/CFBEON",
+            "identifier": "https://doi.org/10.25625/BDJD7J/CFBEON",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33870"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "learnedIE_diss_repro.tar",
+            "encodingFormat": "application/x-tar",
+            "contentSize": 6516189696,
+            "description": "In case the download should fail, please use the alternative URL: https://data.goettingen-research-online.de/download/learnedIE_diss_repro.tar",
+            "@id": "https://doi.org/10.25625/BDJD7J/5IYEXY",
+            "identifier": "https://doi.org/10.25625/BDJD7J/5IYEXY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33845"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Astronomy and Astrophysics",
+        "Mathematical Sciences"
+    ],
+    "publications": [
+        {}
+    ]
+}

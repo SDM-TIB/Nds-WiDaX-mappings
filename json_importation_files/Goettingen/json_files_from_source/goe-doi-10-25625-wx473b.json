@@ -1,0 +1,245 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/WX473B",
+    "identifier": "https://doi.org/10.25625/WX473B",
+    "name": "Learned IE thesis: Comparison of transparent boundary conditions for the Atmo model",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Janosch",
+            "familyName": "Preu\u00df",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institut f\u00fcr Numerische und Angewandte Mathematik Universit\u00e4t G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-7384-535X",
+            "@id": "https://orcid.org/0000-0002-7384-535X",
+            "identifier": "https://orcid.org/0000-0002-7384-535X",
+            "name": "Preu\u00df, Janosch"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Janosch",
+            "familyName": "Preu\u00df",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institut f\u00fcr Numerische und Angewandte Mathematik Universit\u00e4t G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-7384-535X",
+            "@id": "https://orcid.org/0000-0002-7384-535X",
+            "identifier": "https://orcid.org/0000-0002-7384-535X",
+            "name": "Preu\u00df, Janosch"
+        }
+    ],
+    "datePublished": "2021-10-04",
+    "dateModified": "2021-10-04",
+    "version": "1",
+    "description": "This dataset contains intermediate data products for some experiments in the PhD thesis \"Learned infinite elements for helioseismology\" (J.Preu\u00df) which compare different transparent boundary conditions for the Atmo model of the solar atmosphere. A brief description of the provided data is given below: The file \"power-spectrum-Atmo-whitw-comp.out\" contains the reference power spectrum obtained from the exact transparent boundary condition for the Atmo model based on evaluation of the Whittaker function. The corresponding dtn numbers (at 500 km above the solar photosphere) are available in the file \"dtn_nr_Whitw-comp.out\". Harmonic degrees up to l=1000 and 2400 equidistant frequencies ranging from 0 mHz up to 12 mHz have been computed. The files \"power-spectrum-nonlocal.out\", \"power-spectrum-SHF1a.out\" and \"power-spectrum-ARBC1.out\" contain the power spectra obtained from the respective atmospheric radiation boundary conditions (i.e. nonlocal, S-HF-1a and A-RBC-1). The corresponding dtn numbers are available in the files \"dtn_nr_nonlocal.out\", \"dtn_nr_S-HF-1a.out\" and \"dtn_nr_ARBC1.out\". The files \"power-spectrum-Nj-Atmo.out\" contain the power spectra computed using learned IEs with N=j for j in [0,1,2,3,4]. The corresponding dtn numbers are available in the files \"dtn_nr_learned_Nj-Atmo.out\". A description how the computed data has been obtained and how it should be postprocessed further is available at this Gitlab repository.",
+    "keywords": [
+        "Astronomy and Astrophysics",
+        "Mathematical Sciences"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "\n PhD thesis: Learned infinite elements for helioseismology\n Author: Janosch Preu\u00df\n Advisors: Prof. Christoph Lehrenfeld, Prof. Thorsten Hohage, Dr. Damien Fournier\n"
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "DFG"
+        }
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "dtn_nr_ARBC1.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 129729600,
+            "@id": "https://doi.org/10.25625/WX473B/OYE3QT",
+            "identifier": "https://doi.org/10.25625/WX473B/OYE3QT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33723"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "dtn_nr_learned_N0-Atmo.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 129729600,
+            "@id": "https://doi.org/10.25625/WX473B/DK2ZVC",
+            "identifier": "https://doi.org/10.25625/WX473B/DK2ZVC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33720"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "dtn_nr_learned_N1-Atmo.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 129729600,
+            "@id": "https://doi.org/10.25625/WX473B/MXCKO8",
+            "identifier": "https://doi.org/10.25625/WX473B/MXCKO8",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33729"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "dtn_nr_learned_N2-Atmo.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 129729600,
+            "@id": "https://doi.org/10.25625/WX473B/G1HPJU",
+            "identifier": "https://doi.org/10.25625/WX473B/G1HPJU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33730"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "dtn_nr_learned_N3-Atmo.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 129729600,
+            "@id": "https://doi.org/10.25625/WX473B/G4EPNJ",
+            "identifier": "https://doi.org/10.25625/WX473B/G4EPNJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33721"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "dtn_nr_learned_N4-Atmo.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 129729600,
+            "@id": "https://doi.org/10.25625/WX473B/AGUGBY",
+            "identifier": "https://doi.org/10.25625/WX473B/AGUGBY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33724"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "dtn_nr_nonlocal.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 129729600,
+            "@id": "https://doi.org/10.25625/WX473B/GFDLYD",
+            "identifier": "https://doi.org/10.25625/WX473B/GFDLYD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33716"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "dtn_nr_S-HF-1a.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 129729600,
+            "@id": "https://doi.org/10.25625/WX473B/PAD4YQ",
+            "identifier": "https://doi.org/10.25625/WX473B/PAD4YQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33725"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "dtn_nr_Whitw-comp.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 129729600,
+            "@id": "https://doi.org/10.25625/WX473B/BOO2ML",
+            "identifier": "https://doi.org/10.25625/WX473B/BOO2ML",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33727"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "power-spectrum-ARBC1.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 60060000,
+            "@id": "https://doi.org/10.25625/WX473B/ONZI1A",
+            "identifier": "https://doi.org/10.25625/WX473B/ONZI1A",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33718"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "power-spectrum-Atmo-whitw-comp.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 60060000,
+            "@id": "https://doi.org/10.25625/WX473B/HRHCEA",
+            "identifier": "https://doi.org/10.25625/WX473B/HRHCEA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33728"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "power-spectrum-N0-Atmo.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 60061366,
+            "@id": "https://doi.org/10.25625/WX473B/NC4YM4",
+            "identifier": "https://doi.org/10.25625/WX473B/NC4YM4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33722"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "power-spectrum-N1-Atmo.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 60061001,
+            "@id": "https://doi.org/10.25625/WX473B/X6WLB2",
+            "identifier": "https://doi.org/10.25625/WX473B/X6WLB2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33719"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "power-spectrum-N2-Atmo.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 60060372,
+            "@id": "https://doi.org/10.25625/WX473B/BBDMTS",
+            "identifier": "https://doi.org/10.25625/WX473B/BBDMTS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33733"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "power-spectrum-N3-Atmo.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 60060440,
+            "@id": "https://doi.org/10.25625/WX473B/QZSRQY",
+            "identifier": "https://doi.org/10.25625/WX473B/QZSRQY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33726"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "power-spectrum-N4-Atmo.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 60060436,
+            "@id": "https://doi.org/10.25625/WX473B/3GMMKL",
+            "identifier": "https://doi.org/10.25625/WX473B/3GMMKL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33717"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "power-spectrum-nonlocal.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 60060000,
+            "@id": "https://doi.org/10.25625/WX473B/NIVBON",
+            "identifier": "https://doi.org/10.25625/WX473B/NIVBON",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33732"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "power-spectrum-SHF1a.out",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 60060000,
+            "@id": "https://doi.org/10.25625/WX473B/TXOIKQ",
+            "identifier": "https://doi.org/10.25625/WX473B/TXOIKQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/33731"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Astronomy and Astrophysics",
+        "Mathematical Sciences"
+    ],
+    "publications": [
+        {
+            "citation": "<ul>\n <li>PhD thesis: Learned infinite elements for helioseismology</li>\n <li>Author: Janosch Preu\u00df</li>\n <li>Advisors: Prof. Christoph Lehrenfeld, Prof. Thorsten Hohage, Dr. Damien Fournier</li>\n</ul>"
+        }
+    ]
+}

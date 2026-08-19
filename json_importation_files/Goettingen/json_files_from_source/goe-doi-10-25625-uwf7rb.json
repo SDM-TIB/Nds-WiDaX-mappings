@@ -1,0 +1,184 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/UWF7RB",
+    "identifier": "https://doi.org/10.25625/UWF7RB",
+    "name": "Vibrating Plates Dataset",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Jan",
+            "familyName": "van Delden",
+            "name": "van Delden, Jan"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Julius",
+            "familyName": "Schultz",
+            "name": "Schultz, Julius"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Christopher",
+            "familyName": "Blech",
+            "name": "Blech, Christopher"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Sabine C.",
+            "familyName": "Langer",
+            "name": "Langer, Sabine C."
+        },
+        {
+            "@type": "Person",
+            "givenName": "Timo",
+            "familyName": "L\u00fcddecke",
+            "name": "L\u00fcddecke, Timo"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jan",
+            "familyName": "van Delden",
+            "name": "van Delden, Jan"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Julius",
+            "familyName": "Schultz",
+            "name": "Schultz, Julius"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Christopher",
+            "familyName": "Blech",
+            "name": "Blech, Christopher"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Sabine C.",
+            "familyName": "Langer",
+            "name": "Langer, Sabine C."
+        },
+        {
+            "@type": "Person",
+            "givenName": "Timo",
+            "familyName": "L\u00fcddecke",
+            "name": "L\u00fcddecke, Timo"
+        }
+    ],
+    "datePublished": "2023-10-09",
+    "dateModified": "2024-10-29",
+    "version": "4",
+    "description": "Dataset accompanying \"Learning to Predict Structural Vibrations\". Note: To have an initial look at the dataset, we recommend downloading the file G5000_BCFP_1000_test.h5. It contains only 1000 samples which reduces the file size. To better locate the files to download select change view: Tree. The dataset features a total of 12,000 plate geometries, each with an associated numerical solution for 300 frequencies. It is composed of two settings, V-5000 and G-5000. Each setting contains 5,000 training samples and 1,000 test samples. The accompanying paper describes the evaluation procedure for quantifying prediction quality, as well as the mechanical model and process used to generate the dataset. In addition, a dataset with 50,000 plate geometries and associated solutions for only 15 randomly selected frequencies is provided. The data is saved in the hdf5 file format and compressed with the \"Blosc\" compression filter from the hdf5plugin python package. Include \"import hdf5plugin\" to be able to read the files. [\"bead_patterns\", z_vel_mean_sq\", \"z_vel_abs\", \"phy_para\", \"frequencies\"] are the keys to access the mesh geometry, the frequency response, velocity fields, the scalar properties and the frequencies for frequency response and velocity fields respectively.",
+    "keywords": [
+        "Computer and Information Science",
+        "Engineering",
+        "Physics",
+        "Vibroacoustics",
+        "Vibrating plates"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "Learning to Predict Structural Vibrations. Jan van Delden, Julius Schultz, Christopher Blech, Sabine C. Langer, Timo L\u00fcddecke. Neurips, 2024."
+        }
+    ],
+    "license": "http://creativecommons.org/licenses/by-nc/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "Deutsche Forschungsgemeinschaft (DFG, German Research Foundation)"
+        }
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "V50000_15f.h5",
+            "encodingFormat": "application/x-hdf5",
+            "contentSize": 7094230525,
+            "@id": "https://doi.org/10.25625/UWF7RB/V5YOL1",
+            "identifier": "https://doi.org/10.25625/UWF7RB/V5YOL1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/115182"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "V5000_1000_test.h5",
+            "encodingFormat": "application/x-hdf",
+            "contentSize": 4601472988,
+            "@id": "https://doi.org/10.25625/UWF7RB/RFXBSR",
+            "identifier": "https://doi.org/10.25625/UWF7RB/RFXBSR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/116135"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "G5000_BCFP_1000_test.h5",
+            "encodingFormat": "application/x-hdf5",
+            "contentSize": 4591357100,
+            "@id": "https://doi.org/10.25625/UWF7RB/APW6VO",
+            "identifier": "https://doi.org/10.25625/UWF7RB/APW6VO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/115181"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "G5000_BCFP_2000_train.h5",
+            "encodingFormat": "application/x-hdf5",
+            "contentSize": 9093280924,
+            "@id": "https://doi.org/10.25625/UWF7RB/INRTIJ",
+            "identifier": "https://doi.org/10.25625/UWF7RB/INRTIJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/115179"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "G5000_BCFP_3000_train.h5",
+            "encodingFormat": "application/x-hdf5",
+            "contentSize": 13579120795,
+            "@id": "https://doi.org/10.25625/UWF7RB/5XEC7Z",
+            "identifier": "https://doi.org/10.25625/UWF7RB/5XEC7Z",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/115178"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "V5000_2000_train.h5",
+            "encodingFormat": "application/x-hdf5",
+            "contentSize": 9100468077,
+            "@id": "https://doi.org/10.25625/UWF7RB/F0IJ7E",
+            "identifier": "https://doi.org/10.25625/UWF7RB/F0IJ7E",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/115177"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "V5000_3000_train.h5",
+            "encodingFormat": "application/x-hdf5",
+            "contentSize": 13611371117,
+            "@id": "https://doi.org/10.25625/UWF7RB/2I5P0G",
+            "identifier": "https://doi.org/10.25625/UWF7RB/2I5P0G",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/115163"
+        }
+    ],
+    "license_title": "Creative Commons Attribution-NonCommercial 4.0 International",
+    "subjects": [
+        "Computer and Information Science",
+        "Engineering",
+        "Physics"
+    ],
+    "publications": [
+        {
+            "citation": "Learning to Predict Structural Vibrations. Jan van Delden, Julius Schultz, Christopher Blech, Sabine C. Langer, Timo L\u00fcddecke. Neurips, 2024."
+        }
+    ]
+}

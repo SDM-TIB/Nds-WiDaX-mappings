@@ -1,0 +1,488 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/VCPEEP",
+    "identifier": "https://doi.org/10.25625/VCPEEP",
+    "name": "Meteorological data from plot and reference locations EFForTS CRC990 Landscape Assessment",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Christian",
+            "familyName": "Stiegler",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Abt. Bioklimatologie / University of Goettingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-0130-2401",
+            "@id": "https://orcid.org/0000-0002-0130-2401",
+            "identifier": "https://orcid.org/0000-0002-0130-2401",
+            "name": "Stiegler, Christian"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Alexander",
+            "familyName": "Knohl",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Abt. Bioklimatologie / University of Goettingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-7615-8870",
+            "@id": "https://orcid.org/0000-0002-7615-8870",
+            "identifier": "https://orcid.org/0000-0002-7615-8870",
+            "name": "Knohl, Alexander"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Christian",
+            "familyName": "Stiegler",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Abt. Bioklimatologie / University of Goettingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-0130-2401",
+            "@id": "https://orcid.org/0000-0002-0130-2401",
+            "identifier": "https://orcid.org/0000-0002-0130-2401",
+            "name": "Stiegler, Christian"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Alexander",
+            "familyName": "Knohl",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Abt. Bioklimatologie / University of Goettingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-7615-8870",
+            "@id": "https://orcid.org/0000-0002-7615-8870",
+            "identifier": "https://orcid.org/0000-0002-7615-8870",
+            "name": "Knohl, Alexander"
+        }
+    ],
+    "datePublished": "2022-03-24",
+    "dateModified": "2022-03-24",
+    "version": "1",
+    "description": "Meteorological data from plot and reference locations during the EFForTS CRC990 Landscape Assessment. Measured parameters: solar flux density, precipitation, number & average distance of lightning strikes, wind speed, wind direction, air temperature, atmospheric vapour pressure, air pressure, relative humidity, soil temperature, soil moisture, saturation vapour pressure, actual air pressure, vapour pressure deficit, air density, air heat capacity Measurement interval: 1 minute",
+    "keywords": [
+        "Earth and Environmental Sciences",
+        "Meteorology",
+        "Climate"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "LandscapeAssessment_PlotLocations.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 36347053,
+            "@id": "https://doi.org/10.25625/VCPEEP/WBELTQ",
+            "identifier": "https://doi.org/10.25625/VCPEEP/WBELTQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41452"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "ParameterDescription.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 3063,
+            "@id": "https://doi.org/10.25625/VCPEEP/U7SA5A",
+            "identifier": "https://doi.org/10.25625/VCPEEP/U7SA5A",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41458"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_PTPN_AWS_WS29.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 924077,
+            "@id": "https://doi.org/10.25625/VCPEEP/XA1GTC",
+            "identifier": "https://doi.org/10.25625/VCPEEP/XA1GTC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41471"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS03_1.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1018330,
+            "@id": "https://doi.org/10.25625/VCPEEP/HWEJBK",
+            "identifier": "https://doi.org/10.25625/VCPEEP/HWEJBK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41480"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS03_2.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 958991,
+            "@id": "https://doi.org/10.25625/VCPEEP/KX5AAR",
+            "identifier": "https://doi.org/10.25625/VCPEEP/KX5AAR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41468"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS04_1.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1915105,
+            "@id": "https://doi.org/10.25625/VCPEEP/OEZ2XQ",
+            "identifier": "https://doi.org/10.25625/VCPEEP/OEZ2XQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41479"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS04_2.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1805196,
+            "@id": "https://doi.org/10.25625/VCPEEP/Q2JYSY",
+            "identifier": "https://doi.org/10.25625/VCPEEP/Q2JYSY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41484"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS04_3.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1705101,
+            "@id": "https://doi.org/10.25625/VCPEEP/GQOJMZ",
+            "identifier": "https://doi.org/10.25625/VCPEEP/GQOJMZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41474"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS04_4.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1612570,
+            "@id": "https://doi.org/10.25625/VCPEEP/5GYNXV",
+            "identifier": "https://doi.org/10.25625/VCPEEP/5GYNXV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41451"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS04_5.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1380472,
+            "@id": "https://doi.org/10.25625/VCPEEP/MOHIOA",
+            "identifier": "https://doi.org/10.25625/VCPEEP/MOHIOA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41449"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS04_6.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1277917,
+            "@id": "https://doi.org/10.25625/VCPEEP/NWCHWC",
+            "identifier": "https://doi.org/10.25625/VCPEEP/NWCHWC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41444"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS04_7.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1549154,
+            "@id": "https://doi.org/10.25625/VCPEEP/UQMKI2",
+            "identifier": "https://doi.org/10.25625/VCPEEP/UQMKI2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41485"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS04_8.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 968386,
+            "@id": "https://doi.org/10.25625/VCPEEP/GYMTSR",
+            "identifier": "https://doi.org/10.25625/VCPEEP/GYMTSR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41476"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS07_1.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 937093,
+            "@id": "https://doi.org/10.25625/VCPEEP/BT5KBX",
+            "identifier": "https://doi.org/10.25625/VCPEEP/BT5KBX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41467"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS07_2.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 978536,
+            "@id": "https://doi.org/10.25625/VCPEEP/FOTJBJ",
+            "identifier": "https://doi.org/10.25625/VCPEEP/FOTJBJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41481"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS07_3.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 971621,
+            "@id": "https://doi.org/10.25625/VCPEEP/ZZKJHV",
+            "identifier": "https://doi.org/10.25625/VCPEEP/ZZKJHV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41477"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS07_4.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 746631,
+            "@id": "https://doi.org/10.25625/VCPEEP/AFIKXM",
+            "identifier": "https://doi.org/10.25625/VCPEEP/AFIKXM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41455"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS11_1.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 913345,
+            "@id": "https://doi.org/10.25625/VCPEEP/E3IGFZ",
+            "identifier": "https://doi.org/10.25625/VCPEEP/E3IGFZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41487"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS11_2.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 933437,
+            "@id": "https://doi.org/10.25625/VCPEEP/DJGD7J",
+            "identifier": "https://doi.org/10.25625/VCPEEP/DJGD7J",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41457"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS11_3.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 956974,
+            "@id": "https://doi.org/10.25625/VCPEEP/POXHK8",
+            "identifier": "https://doi.org/10.25625/VCPEEP/POXHK8",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41460"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS11_4.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1452040,
+            "@id": "https://doi.org/10.25625/VCPEEP/SSW9PF",
+            "identifier": "https://doi.org/10.25625/VCPEEP/SSW9PF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41473"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS11_5.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 978081,
+            "@id": "https://doi.org/10.25625/VCPEEP/8VDGWE",
+            "identifier": "https://doi.org/10.25625/VCPEEP/8VDGWE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41465"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS13_1.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 979026,
+            "@id": "https://doi.org/10.25625/VCPEEP/ZMX0ZF",
+            "identifier": "https://doi.org/10.25625/VCPEEP/ZMX0ZF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41450"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS13_2.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1012950,
+            "@id": "https://doi.org/10.25625/VCPEEP/V8VWMC",
+            "identifier": "https://doi.org/10.25625/VCPEEP/V8VWMC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41461"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS13_3.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 982745,
+            "@id": "https://doi.org/10.25625/VCPEEP/DR8OKC",
+            "identifier": "https://doi.org/10.25625/VCPEEP/DR8OKC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41453"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS14_1.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1337436,
+            "@id": "https://doi.org/10.25625/VCPEEP/BULOCN",
+            "identifier": "https://doi.org/10.25625/VCPEEP/BULOCN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41456"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS14_2.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 933733,
+            "@id": "https://doi.org/10.25625/VCPEEP/XIXYNY",
+            "identifier": "https://doi.org/10.25625/VCPEEP/XIXYNY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41469"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS14_3.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1095964,
+            "@id": "https://doi.org/10.25625/VCPEEP/3TLPRX",
+            "identifier": "https://doi.org/10.25625/VCPEEP/3TLPRX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41482"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS18_1.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1251978,
+            "@id": "https://doi.org/10.25625/VCPEEP/BVRYNV",
+            "identifier": "https://doi.org/10.25625/VCPEEP/BVRYNV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41447"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS18_2.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1157745,
+            "@id": "https://doi.org/10.25625/VCPEEP/7NTQAL",
+            "identifier": "https://doi.org/10.25625/VCPEEP/7NTQAL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41483"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS18_3.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 958690,
+            "@id": "https://doi.org/10.25625/VCPEEP/DI95ID",
+            "identifier": "https://doi.org/10.25625/VCPEEP/DI95ID",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41445"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS18_4.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1025665,
+            "@id": "https://doi.org/10.25625/VCPEEP/GKMFL6",
+            "identifier": "https://doi.org/10.25625/VCPEEP/GKMFL6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41454"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS19_1.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 954796,
+            "@id": "https://doi.org/10.25625/VCPEEP/ETHQDV",
+            "identifier": "https://doi.org/10.25625/VCPEEP/ETHQDV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41464"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS19_2.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1061871,
+            "@id": "https://doi.org/10.25625/VCPEEP/4TMXYZ",
+            "identifier": "https://doi.org/10.25625/VCPEEP/4TMXYZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41475"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS19_3.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 977796,
+            "@id": "https://doi.org/10.25625/VCPEEP/JMGLP9",
+            "identifier": "https://doi.org/10.25625/VCPEEP/JMGLP9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41459"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS19_4.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1488165,
+            "@id": "https://doi.org/10.25625/VCPEEP/IKSQYS",
+            "identifier": "https://doi.org/10.25625/VCPEEP/IKSQYS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41478"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS20_1.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1396949,
+            "@id": "https://doi.org/10.25625/VCPEEP/SN49PW",
+            "identifier": "https://doi.org/10.25625/VCPEEP/SN49PW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41466"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS20_2.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 982152,
+            "@id": "https://doi.org/10.25625/VCPEEP/462BX4",
+            "identifier": "https://doi.org/10.25625/VCPEEP/462BX4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41448"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS22_1.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 913472,
+            "@id": "https://doi.org/10.25625/VCPEEP/PCDXQ4",
+            "identifier": "https://doi.org/10.25625/VCPEEP/PCDXQ4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41472"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS24_1.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 927778,
+            "@id": "https://doi.org/10.25625/VCPEEP/Z0KUQT",
+            "identifier": "https://doi.org/10.25625/VCPEEP/Z0KUQT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41463"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS25_1.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 940445,
+            "@id": "https://doi.org/10.25625/VCPEEP/C21SQU",
+            "identifier": "https://doi.org/10.25625/VCPEEP/C21SQU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41446"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS29_1.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 972898,
+            "@id": "https://doi.org/10.25625/VCPEEP/XZGWKT",
+            "identifier": "https://doi.org/10.25625/VCPEEP/XZGWKT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41462"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS29_2.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1019289,
+            "@id": "https://doi.org/10.25625/VCPEEP/LKLUX9",
+            "identifier": "https://doi.org/10.25625/VCPEEP/LKLUX9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41470"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plots_WS29_3.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 976714,
+            "@id": "https://doi.org/10.25625/VCPEEP/PWJES2",
+            "identifier": "https://doi.org/10.25625/VCPEEP/PWJES2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/41486"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Earth and Environmental Sciences"
+    ]
+}

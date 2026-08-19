@@ -1,0 +1,194 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/BXZHAF",
+    "identifier": "https://doi.org/10.25625/BXZHAF",
+    "name": "Replication Data for: Shape Analysis",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Nico",
+            "familyName": "Posnien",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University G\u00f6ttingen, Dpt. of Developmental Biology"
+            },
+            "sameAs": "https://orcid.org/0000-0003-0700-5595",
+            "@id": "https://orcid.org/0000-0003-0700-5595",
+            "identifier": "https://orcid.org/0000-0003-0700-5595",
+            "name": "Posnien, Nico"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Nico",
+            "familyName": "Posnien",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University G\u00f6ttingen, Dpt. of Developmental Biology"
+            },
+            "sameAs": "https://orcid.org/0000-0003-0700-5595",
+            "@id": "https://orcid.org/0000-0003-0700-5595",
+            "identifier": "https://orcid.org/0000-0003-0700-5595",
+            "name": "Posnien, Nico"
+        }
+    ],
+    "datePublished": "2021-01-29",
+    "dateModified": "2021-01-29",
+    "version": "1",
+    "description": "This repository contains raw images of wings, tps landmark files, MorphoJ project files and scripts summarizing the statistical analyses.",
+    "keywords": [
+        "Medicine, Health and Life Sciences"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Dmelanogaster.zip.001",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "Raw wing images of D. melanogaster. Note: Please download all zip files (*.zip.001 to 004) and use 7-Zip (open source free program) to extract the split zip archive.",
+            "@id": "https://doi.org/10.25625/BXZHAF/WSJ6T2",
+            "identifier": "https://doi.org/10.25625/BXZHAF/WSJ6T2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/21724"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Dmelanogaster.zip.002",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "Raw wing images of D. melanogaster. Note: Please download all zip files (*.zip.001 to 004) and use 7-Zip (open source free program) to extract the split zip archive.",
+            "@id": "https://doi.org/10.25625/BXZHAF/MPWCS2",
+            "identifier": "https://doi.org/10.25625/BXZHAF/MPWCS2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/21726"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Dmelanogaster.zip.003",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "Raw wing images of D. melanogaster. Note: Please download all zip files (*.zip.001 to 004) and use 7-Zip (open source free program) to extract the split zip archive.",
+            "@id": "https://doi.org/10.25625/BXZHAF/9QVK4Y",
+            "identifier": "https://doi.org/10.25625/BXZHAF/9QVK4Y",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/21722"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Dmelanogaster.zip.004",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 82296354,
+            "description": "Raw wing images of D. melanogaster. Note: Please download all zip files (*.zip.001 to 004) and use 7-Zip (open source free program) to extract the split zip archive.",
+            "@id": "https://doi.org/10.25625/BXZHAF/RFMIYQ",
+            "identifier": "https://doi.org/10.25625/BXZHAF/RFMIYQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/21720"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "list_images_MR_Natalia_wings_final_944.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 28184,
+            "description": "List of images used for the shape analysis",
+            "@id": "https://doi.org/10.25625/BXZHAF/CTH2XA",
+            "identifier": "https://doi.org/10.25625/BXZHAF/CTH2XA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/21728"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Mdomestica.zip.001",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "Raw wing images of M. domestica. Note: Please download all zip files (*.zip.001 to 003) and use 7-Zip (open source free program) to extract the split zip archive.",
+            "@id": "https://doi.org/10.25625/BXZHAF/HYYFUY",
+            "identifier": "https://doi.org/10.25625/BXZHAF/HYYFUY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/21725"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Mdomestica.zip.002",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1048576000,
+            "description": "Raw wing images of M. domestica. Note: Please download all zip files (*.zip.001 to 003) and use 7-Zip (open source free program) to extract the split zip archive.",
+            "@id": "https://doi.org/10.25625/BXZHAF/4UYIOT",
+            "identifier": "https://doi.org/10.25625/BXZHAF/4UYIOT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/21721"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Mdomestica.zip.003",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 6468283,
+            "description": "Raw wing images of M. domestica. Note: Please download all zip files (*.zip.001 to 003) and use 7-Zip (open source free program) to extract the split zip archive.",
+            "@id": "https://doi.org/10.25625/BXZHAF/DBNPFI",
+            "identifier": "https://doi.org/10.25625/BXZHAF/DBNPFI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/21723"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "MR_Natalia_wings_final_944.tps",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 283572,
+            "description": "tps landmark file containing landmark coordinates for all three species.",
+            "@id": "https://doi.org/10.25625/BXZHAF/RUFXAU",
+            "identifier": "https://doi.org/10.25625/BXZHAF/RUFXAU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/21727"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Cc_Raw.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 1030077239,
+            "description": "Raw wing images for Ceratitis capitata",
+            "@id": "https://doi.org/10.25625/BXZHAF/2F3GWH",
+            "identifier": "https://doi.org/10.25625/BXZHAF/2F3GWH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/21717"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "MR_Natalia_wings_final_944_Final.morphoj",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 6416816,
+            "description": "MorphoJ project file summarizing all analyses performed in MorphoJ",
+            "@id": "https://doi.org/10.25625/BXZHAF/MX7BXD",
+            "identifier": "https://doi.org/10.25625/BXZHAF/MX7BXD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/21714"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Script_Shape_Analysis_and_source_files.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 352174,
+            "description": "R script and source files for shape analyses using geomorph. Note: After extracting the zip files, the script can be executed with all source files in the same folder.",
+            "@id": "https://doi.org/10.25625/BXZHAF/UHFJ19",
+            "identifier": "https://doi.org/10.25625/BXZHAF/UHFJ19",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/21715"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Script_Test_Slopes_RegScores_and_source_files.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 180829,
+            "description": "R script and source files for allometry/size correction analyses. Note: After extracting the zip files, the script can be executed with all source files in the same folder.",
+            "@id": "https://doi.org/10.25625/BXZHAF/I2NRYP",
+            "identifier": "https://doi.org/10.25625/BXZHAF/I2NRYP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/21713"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Medicine, Health and Life Sciences"
+    ]
+}

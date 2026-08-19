@@ -1,0 +1,407 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/R1CN7N",
+    "identifier": "https://doi.org/10.25625/R1CN7N",
+    "name": "senad1_dataset: Project SenAD - Machine learning-based degradation monitoring for asphalt road pavements",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "J\u00fcrgen",
+            "familyName": "Dunkel",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Hochschule Hanover"
+            },
+            "sameAs": "https://orcid.org/0000-0003-3567-1173",
+            "@id": "https://orcid.org/0000-0003-3567-1173",
+            "identifier": "https://orcid.org/0000-0003-3567-1173",
+            "name": "Dunkel, J\u00fcrgen"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Ralf",
+            "familyName": "Bruns",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Hochschule Hannover"
+            },
+            "sameAs": "https://orcid.org/0000-0001-5842-4218",
+            "@id": "https://orcid.org/0000-0001-5842-4218",
+            "identifier": "https://orcid.org/0000-0001-5842-4218",
+            "name": "Bruns, Ralf"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "J\u00fcrgen",
+            "familyName": "Dunkel",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Hochschule Hanover"
+            },
+            "sameAs": "https://orcid.org/0000-0003-3567-1173",
+            "@id": "https://orcid.org/0000-0003-3567-1173",
+            "identifier": "https://orcid.org/0000-0003-3567-1173",
+            "name": "Dunkel, J\u00fcrgen"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Ralf",
+            "familyName": "Bruns",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Hochschule Hannover"
+            },
+            "sameAs": "https://orcid.org/0000-0001-5842-4218",
+            "@id": "https://orcid.org/0000-0001-5842-4218",
+            "identifier": "https://orcid.org/0000-0001-5842-4218",
+            "name": "Bruns, Ralf"
+        }
+    ],
+    "datePublished": "2025-05-12",
+    "dateModified": "2025-12-15",
+    "version": "1",
+    "description": "Datasets from fatigue tests of asphalt specimens with an embedded fabric-based sensor system under laboratory conditions. The Data was created in the preliminary SenAD project (Sensorintegration in Asphalt f\u00fcr ein datenbasiertes Degradationsmonitoring/ Sensor integration in asphalt for data-based degradation monitoring) finished in 2021 and can be interpreted using the jupyter notebooks (https://doi.org/10.25625/PQDAEQ). The objective is to derive the degradation state of the asphalt base layer on the basis of sensor measurements obtained by means of a novel hybrid sensor fabric integrated directly into the asphalt base layer. The Dataset contains 32 files (from experiments with 32 asphalt specimens with embedded copper-nickel wires of 4 different diameters: 0.2 mm, 0.3 mm, 0.4 mm, 0.6 mm) with two columns each. First Column shows the recorded voltage measurements from the sensor fabric [in mV], second column shows the calculated fatigue of the asphalt specimen under load from the hydraulic testing machine.",
+    "keywords": [
+        "Computer and Information Science",
+        "Earth and Environmental Sciences",
+        "Engineering",
+        "Road condition monitoring",
+        "Degradation monitoring",
+        "Sensor fabric",
+        "Smart infrastructure"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "Bruns, R., Dunkel, J., Greve, M. et al. Learning road degradation with asphalt-integrated sensor fabric. Innov. Infrastruct. Solut. 11, 9 (2026). https://doi.org/10.1007/s41062-025-02415-x",
+            "@id": "https://doi.org/10.1007/s41062-025-02415-x",
+            "identifier": "https://doi.org/10.1007/s41062-025-02415-x",
+            "url": "https://doi.org/10.1007/s41062-025-02415-x"
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "Federal Ministry for Digital and Transport Affairs (Bundesministerium f\u00fcr Digitales und Verkehr, BMDV), Germany"
+        }
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "wire_strength_2_file_1.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 27414,
+            "@id": "https://doi.org/10.25625/R1CN7N/ZLFEPR",
+            "identifier": "https://doi.org/10.25625/R1CN7N/ZLFEPR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124837"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "wire_strength_2_file_2.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 149451,
+            "@id": "https://doi.org/10.25625/R1CN7N/J08IVW",
+            "identifier": "https://doi.org/10.25625/R1CN7N/J08IVW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124830"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "wire_strength_2_file_3.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 99536,
+            "@id": "https://doi.org/10.25625/R1CN7N/JKXQNN",
+            "identifier": "https://doi.org/10.25625/R1CN7N/JKXQNN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124824"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "wire_strength_2_file_4.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 163303,
+            "@id": "https://doi.org/10.25625/R1CN7N/HJJMRJ",
+            "identifier": "https://doi.org/10.25625/R1CN7N/HJJMRJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124836"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "wire_strength_2_file_5.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 89632,
+            "@id": "https://doi.org/10.25625/R1CN7N/4UD5VI",
+            "identifier": "https://doi.org/10.25625/R1CN7N/4UD5VI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124847"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "wire_strength_2_file_6.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 112660,
+            "@id": "https://doi.org/10.25625/R1CN7N/ZQLMRF",
+            "identifier": "https://doi.org/10.25625/R1CN7N/ZQLMRF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124839"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "wire_strength_2_file_7.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 127206,
+            "@id": "https://doi.org/10.25625/R1CN7N/GS4U2R",
+            "identifier": "https://doi.org/10.25625/R1CN7N/GS4U2R",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124845"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "wire_strength_2_file_8.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 91163,
+            "@id": "https://doi.org/10.25625/R1CN7N/3INZBO",
+            "identifier": "https://doi.org/10.25625/R1CN7N/3INZBO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124843"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "wire_strength_2_file_9.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 165503,
+            "@id": "https://doi.org/10.25625/R1CN7N/QHMU2P",
+            "identifier": "https://doi.org/10.25625/R1CN7N/QHMU2P",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124831"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "wire_strength_3_file_1.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 136403,
+            "@id": "https://doi.org/10.25625/R1CN7N/GSR9DR",
+            "identifier": "https://doi.org/10.25625/R1CN7N/GSR9DR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124848"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "wire_strength_3_file_2.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 155674,
+            "@id": "https://doi.org/10.25625/R1CN7N/PBBIHJ",
+            "identifier": "https://doi.org/10.25625/R1CN7N/PBBIHJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124829"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "wire_strength_3_file_3.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 83640,
+            "@id": "https://doi.org/10.25625/R1CN7N/FPSQ6M",
+            "identifier": "https://doi.org/10.25625/R1CN7N/FPSQ6M",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124849"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "wire_strength_3_file_5.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 90829,
+            "@id": "https://doi.org/10.25625/R1CN7N/NCMVQW",
+            "identifier": "https://doi.org/10.25625/R1CN7N/NCMVQW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124844"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "wire_strength_3_file_6.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 137910,
+            "@id": "https://doi.org/10.25625/R1CN7N/BTHUZ0",
+            "identifier": "https://doi.org/10.25625/R1CN7N/BTHUZ0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124834"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "wire_strength_3_file_7.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 105775,
+            "@id": "https://doi.org/10.25625/R1CN7N/MJVQBO",
+            "identifier": "https://doi.org/10.25625/R1CN7N/MJVQBO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124828"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "wire_strength_3_file_8.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 119372,
+            "@id": "https://doi.org/10.25625/R1CN7N/IRCS7U",
+            "identifier": "https://doi.org/10.25625/R1CN7N/IRCS7U",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124819"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "wire_strength_3_file_9.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 124106,
+            "@id": "https://doi.org/10.25625/R1CN7N/ZRRFFC",
+            "identifier": "https://doi.org/10.25625/R1CN7N/ZRRFFC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124833"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "wire_strength_4_file_2.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 134810,
+            "@id": "https://doi.org/10.25625/R1CN7N/CXNX51",
+            "identifier": "https://doi.org/10.25625/R1CN7N/CXNX51",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124825"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "wire_strength_4_file_3.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 126516,
+            "@id": "https://doi.org/10.25625/R1CN7N/V1FLKW",
+            "identifier": "https://doi.org/10.25625/R1CN7N/V1FLKW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124827"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "wire_strength_4_file_4.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 96058,
+            "@id": "https://doi.org/10.25625/R1CN7N/ZEVEJZ",
+            "identifier": "https://doi.org/10.25625/R1CN7N/ZEVEJZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124835"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "wire_strength_4_file_6.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 134853,
+            "@id": "https://doi.org/10.25625/R1CN7N/6X72YX",
+            "identifier": "https://doi.org/10.25625/R1CN7N/6X72YX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124838"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "wire_strength_4_file_7.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 117547,
+            "@id": "https://doi.org/10.25625/R1CN7N/ZLOLDA",
+            "identifier": "https://doi.org/10.25625/R1CN7N/ZLOLDA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124823"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "wire_strength_4_file_8.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 163318,
+            "@id": "https://doi.org/10.25625/R1CN7N/S4HK5K",
+            "identifier": "https://doi.org/10.25625/R1CN7N/S4HK5K",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124846"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "wire_strength_4_file_9.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 190686,
+            "@id": "https://doi.org/10.25625/R1CN7N/VACSO2",
+            "identifier": "https://doi.org/10.25625/R1CN7N/VACSO2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124840"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "wire_strength_6_file_1.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 31249,
+            "@id": "https://doi.org/10.25625/R1CN7N/FWENPM",
+            "identifier": "https://doi.org/10.25625/R1CN7N/FWENPM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124821"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "wire_strength_6_file_2.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 200788,
+            "@id": "https://doi.org/10.25625/R1CN7N/Z8RUYS",
+            "identifier": "https://doi.org/10.25625/R1CN7N/Z8RUYS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124841"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "wire_strength_6_file_3.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 131185,
+            "@id": "https://doi.org/10.25625/R1CN7N/SDPVOH",
+            "identifier": "https://doi.org/10.25625/R1CN7N/SDPVOH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124842"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "wire_strength_6_file_4.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 99546,
+            "@id": "https://doi.org/10.25625/R1CN7N/490LNE",
+            "identifier": "https://doi.org/10.25625/R1CN7N/490LNE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124832"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "wire_strength_6_file_5.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 120760,
+            "@id": "https://doi.org/10.25625/R1CN7N/XSEJX5",
+            "identifier": "https://doi.org/10.25625/R1CN7N/XSEJX5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124818"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "wire_strength_6_file_6.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 182684,
+            "@id": "https://doi.org/10.25625/R1CN7N/XQ9HOQ",
+            "identifier": "https://doi.org/10.25625/R1CN7N/XQ9HOQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124822"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "wire_strength_6_file_7.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 158421,
+            "@id": "https://doi.org/10.25625/R1CN7N/EHSWNS",
+            "identifier": "https://doi.org/10.25625/R1CN7N/EHSWNS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124826"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "wire_strength_6_file_8.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 165835,
+            "@id": "https://doi.org/10.25625/R1CN7N/79GCHD",
+            "identifier": "https://doi.org/10.25625/R1CN7N/79GCHD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/124820"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Computer and Information Science",
+        "Earth and Environmental Sciences",
+        "Engineering"
+    ],
+    "publications": [
+        {
+            "citation": "Bruns, R., Dunkel, J., Greve, M. et al. Learning road degradation with asphalt-integrated sensor fabric. Innov. Infrastruct. Solut. 11, 9 (2026). https://doi.org/10.1007/s41062-025-02415-x",
+            "url": "https://doi.org/10.1007/s41062-025-02415-x"
+        }
+    ]
+}

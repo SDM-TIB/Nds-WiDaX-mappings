@@ -1,0 +1,171 @@
+{
+  "author": "Lotta Zoch, Sören Budig, Michael Reich",
+  "author_email": "zoch@umwelt.uni-hannover.de",
+  "creator_user_id": "f0c598ad-aff9-40d2-8693-6ef29a1df882",
+  "have_copyright": "Yes",
+  "id": "8c8e6a38-804d-4671-be28-d22563ae9a9e",
+  "isopen": true,
+  "license_id": "CC-BY-4.0",
+  "license_title": "Creative Commons Attribution 4.0 International",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "maintainer": "Lotta Zoch",
+  "maintainer_email": "zoch@umwelt.uni-hannover.de",
+  "metadata_created": "2025-04-04T10:24:43.622242",
+  "metadata_modified": "2025-04-04T10:32:17.461675",
+  "name": "arthropods-in-sphagnum-donor-material-and-at-a-sphagnum-cultivation-site",
+  "notes": "__Study design__ This dataset contains sampling data from arthropod surveys conducted at the Sphagnum cultivation site ‘Provinzialmoor’ in Germany (52°40'1\" N 7°06'26\"E). This study focused on two sections (1.4 ha in total) established in October 2016. For these sections, Sphagnum donor material was collected at two near-natural donor sites 'Bargerveen' (Netherlands) and 'Meerkolk' (Germany). In October 2016, twenty samples were collected randomly from the bulk bags with the donor material of each donor site. The sample size was standardised to a volume of 4.5 litres. All living arthropods of detectable size (i.e., > 1–2 mm) were manually extracted from the samples. \r\nIn 2017 and 2018, comparative studies for arthropod communities were conducted at the Sphagnum cultivation site Provinzialmoor. Arthropods living in and on the upper Sphagnum layer were collected using randomly selected quadrat samples of the same volume as the donor material samples. The top layer of living Sphagnum (maximum 5 cm), other vegetation and straw mulch was cut, collected and searched by hand in a sample frame (30 cm x 30 cm). Sampling was carried out on five dates each year from April to October, with 20 samples per date. In addition, seven habitat parameters (moss height [cm], vascular plant height [cm], moss cover [%], vascular plant cover [%], litter/straw mulch [%], bare peat [%], open water [%]) were recorded in each sample frame. Arthropods, including larvae, were identified at order level according to Müller & Bährmann (2015). Due to their different biology as colony-forming insects, the ants (Formicidae) were analysed separately from the other Hymenoptera. \r\nThe relationship between different habitat parameters and the abundance of dominant orders (Coleoptera, Araneae, Hemiptera) at the SCS was modelled using generalised linear mixed models (GLMMs) with a negative binomial error distribution. Changes in habitat parameters between the two sampling years were analysed using separate mixed-effects models.\r\n__Dataset description__ The arthropod data are presented in a workbook file (orders-donor_PM.xlsx) which contains two sheets. The first sheet shows the number of individuals of different arthropod orders per sample in the donor material. The second sheet shows the number of individuals of different arthropod orders per sample found in the first two years after the donor material was spread at the Sphagnum cultivation site (PMB = Provinzialmoor established with Sphagnum donor material from Bargerveen; PMM = Provinzialmoor established with Sphagnum donor material from Meerkolk). \r\nThe data of the dominant orders Araneae, Coleoptera and Hemiptera in relation to the habitat parameters are given as comma separated values (df_ib_sc.csv). In addition to the number of arthropods, the cover and height of the assessed habitat parameters per sample are also given. \r\nThe R document (analysis_arthropod_translocation.R) contains all steps for analysis with GLMMs and separate mixed-effects models and can be used with the csv file.\r\n__Funding__ Establishment of the SCS and the accompanying research were funded by the Lower Saxony Ministry of Food, Agriculture and Consumer Protection (ML, AZ 105.1-3234/1-13-3) and the German Federal Environmental Foundation (DBU, AZ 33305/01–33/0).",
+  "num_resources": 3,
+  "num_tags": 6,
+  "organization": {
+    "id": "a6ac49d3-2eff-4f4d-bb17-709595cf72d7",
+    "name": "institut-fur-umweltplanung",
+    "title": "Institut für Umweltplanung ",
+    "type": "organization",
+    "description": "Institute of Environmental Planning\r\nHerrenhäuser Str. 2, 30419 Hannover\r\n\r\nhttps://www.umwelt.uni-hannover.de ",
+    "image_url": "2021-08-05-071444.382087IUPbildmarke.png",
+    "created": "2020-10-07T11:44:50.728996",
+    "is_organization": true,
+    "approval_status": "approved",
+    "state": "active"
+  },
+  "owner_org": "a6ac49d3-2eff-4f4d-bb17-709595cf72d7",
+  "private": false,
+  "state": "active",
+  "terms_of_usage": "Yes",
+  "title": "Arthropods in Sphagnum donor material and at a Sphagnum cultivation site",
+  "type": "dataset",
+  "url": "",
+  "version": "",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2025-04-04T10:26:46.615192",
+      "datastore_active": false,
+      "description": "The first sheet shows the number of individuals of different arthropod orders per sample in the donor material. The second sheet shows the number of individuals of different arthropod orders per sample found in the first two years after the donor material was spread at the Sphagnum cultivation site (PMB = Provinzialmoor established with Sphagnum donor material from Bargerveen; PMM = Provinzialmoor established with Sphagnum donor material from Meerkolk). ",
+      "format": "XLSX",
+      "hash": "",
+      "id": "802f9e76-8534-4a6b-8ec4-56db64ea3df8",
+      "last_modified": "2025-04-04T10:26:46.535048",
+      "metadata_modified": "2025-04-04T10:27:38.838305",
+      "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "mimetype_inner": null,
+      "name": "orders-donor_PM.xlsx",
+      "package_id": "8c8e6a38-804d-4671-be28-d22563ae9a9e",
+      "position": 0,
+      "resource_type": null,
+      "size": 29315,
+      "state": "active",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "url": "https://data.uni-hannover.de/dataset/8c8e6a38-804d-4671-be28-d22563ae9a9e/resource/802f9e76-8534-4a6b-8ec4-56db64ea3df8/download/orders-donor_pm.xlsx",
+      "url_type": "upload"
+    },
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2025-04-04T10:27:38.864872",
+      "datastore_active": false,
+      "description": "The data of the dominant orders Araneae, Coleoptera and Hemiptera in relation to the habitat parameters are given. In addition to the number of arthropods, the cover and height of the assessed habitat parameters per sample are also given",
+      "format": ".csv",
+      "hash": "",
+      "id": "0864b8b4-1a18-49b1-baff-64ddee1ea0d2",
+      "last_modified": "2025-04-04T10:27:38.813511",
+      "metadata_modified": "2025-04-04T10:31:18.344548",
+      "mimetype": "text/csv",
+      "mimetype_inner": null,
+      "name": "df_ib_sc.csv",
+      "package_id": "8c8e6a38-804d-4671-be28-d22563ae9a9e",
+      "position": 1,
+      "resource_type": null,
+      "size": 24725,
+      "state": "active",
+      "tracking_summary": {
+        "total": 1,
+        "recent": 1
+      },
+      "url": "https://data.uni-hannover.de/dataset/8c8e6a38-804d-4671-be28-d22563ae9a9e/resource/0864b8b4-1a18-49b1-baff-64ddee1ea0d2/download/df_ib_sc.csv",
+      "url_type": "upload"
+    },
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2025-04-04T10:31:18.357913",
+      "datastore_active": false,
+      "description": "The R document contains all the steps to analyse the relationship between different habitat parameters and the abundance of dominant orders with GLMMs, and the changes in habitat parameters between the two sampling years with separate mixed-effects models. To run the script, use the data in df_ib_sc.csv.",
+      "format": "r",
+      "hash": "",
+      "id": "e7ea7bc0-295e-4dbf-8d2f-66e629f1e678",
+      "last_modified": "2025-04-04T10:31:18.291732",
+      "metadata_modified": "2025-04-04T10:32:17.483785",
+      "mimetype": null,
+      "mimetype_inner": null,
+      "name": "analysis_arthropod_translocation.R",
+      "package_id": "8c8e6a38-804d-4671-be28-d22563ae9a9e",
+      "position": 2,
+      "resource_type": null,
+      "size": 12945,
+      "state": "active",
+      "tracking_summary": {
+        "total": 2,
+        "recent": 1
+      },
+      "url": "https://data.uni-hannover.de/dataset/8c8e6a38-804d-4671-be28-d22563ae9a9e/resource/e7ea7bc0-295e-4dbf-8d2f-66e629f1e678/download/analysis_arthropod_translocation.r",
+      "url_type": "upload"
+    }
+  ],
+  "tags": [
+    {
+      "display_name": "biodiversity",
+      "id": "a7ed0392-5597-402f-a801-cccd2e8252f9",
+      "name": "biodiversity",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "bogs",
+      "id": "093e7334-dd80-461d-bb05-75c7f869d49a",
+      "name": "bogs",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "invertebrates",
+      "id": "225bb353-86ad-4836-aa39-855dab3d5a16",
+      "name": "invertebrates",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "paludiculture",
+      "id": "081e699f-4d97-465b-975a-0a49cbe74b48",
+      "name": "paludiculture",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "peatland restoration",
+      "id": "e8a1e120-fb64-4d52-95ec-98dea43acc33",
+      "name": "peatland restoration",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "translocation",
+      "id": "fa30f5cb-f0f6-400c-a672-09669a0053cb",
+      "name": "translocation",
+      "state": "active",
+      "vocabulary_id": null
+    }
+  ],
+  "groups": [],
+  "relationships_as_subject": [],
+  "relationships_as_object": [],
+  "doi": "10.25835/1b64xh0p",
+  "doi_status": true,
+  "domain": "https://data.uni-hannover.de",
+  "doi_date_published": "2025-04-04",
+  "doi_publisher": "LUIS"
+}

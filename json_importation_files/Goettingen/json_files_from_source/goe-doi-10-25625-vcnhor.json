@@ -1,0 +1,187 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/VCNHOR",
+    "identifier": "https://doi.org/10.25625/VCNHOR",
+    "name": "Replication Data for: Central kinematics of the Galactic globular cluster M80",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Fabian",
+            "familyName": "G\u00f6ttgens",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Instiut f\u00fcr Astrophysik, Universit\u00e4t G\u00f6ttingen"
+            },
+            "name": "G\u00f6ttgens, Fabian"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Sebastian",
+            "familyName": "Kamann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Astrophysics Research Institute, Liverpool John Moores University"
+            },
+            "sameAs": "https://orcid.org/0000-0001-6604-0505",
+            "@id": "https://orcid.org/0000-0001-6604-0505",
+            "identifier": "https://orcid.org/0000-0001-6604-0505",
+            "name": "Kamann, Sebastian"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Fabian",
+            "familyName": "G\u00f6ttgens",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Instiut f\u00fcr Astrophysik, Universit\u00e4t G\u00f6ttingen"
+            },
+            "name": "G\u00f6ttgens, Fabian"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Sebastian",
+            "familyName": "Kamann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Astrophysics Research Institute, Liverpool John Moores University"
+            },
+            "sameAs": "https://orcid.org/0000-0001-6604-0505",
+            "@id": "https://orcid.org/0000-0001-6604-0505",
+            "identifier": "https://orcid.org/0000-0001-6604-0505",
+            "name": "Kamann, Sebastian"
+        }
+    ],
+    "datePublished": "2021-08-25",
+    "dateModified": "2021-08-25",
+    "version": "1",
+    "description": "This data set contains the stellar velocities used in the paper. It also includes profiles and parameter distributions derived using CJAM. It does not include the raw MUSE data which is available in the ESO archive.",
+    "keywords": [
+        "Astronomy and Astrophysics"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "cjam_samples.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 89857814,
+            "description": "The MCMC parameter samples used in the paper. Each column corresponds to a parameter, each row is a sample. See paper for units.",
+            "@id": "https://doi.org/10.25625/VCNHOR/F2LU0U",
+            "identifier": "https://doi.org/10.25625/VCNHOR/F2LU0U",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/32096"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "dispersion_profile_binned.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 314,
+            "description": "The radially binned dispersion profile, computed around the Goldsbury et al (2010) centre.",
+            "@id": "https://doi.org/10.25625/VCNHOR/LHMOTD",
+            "identifier": "https://doi.org/10.25625/VCNHOR/LHMOTD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/32097"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "dispersion_profile_cjam.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 5974,
+            "description": "The dispersion profile from the CJAM Jeans model for all models, regardless of the centre.",
+            "@id": "https://doi.org/10.25625/VCNHOR/MQQ0WI",
+            "identifier": "https://doi.org/10.25625/VCNHOR/MQQ0WI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/32094"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "dispersion_profile_cjam_north.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 42442,
+            "description": "The dispersion profile from the CJAM Jeans model for those models around the northern centre.",
+            "@id": "https://doi.org/10.25625/VCNHOR/APSJ93",
+            "identifier": "https://doi.org/10.25625/VCNHOR/APSJ93",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/32102"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "dispersion_profile_cjam_south.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 42426,
+            "description": "The dispersion profile from the CJAM Jeans model for those models around the southern centre.",
+            "@id": "https://doi.org/10.25625/VCNHOR/TNXCTN",
+            "identifier": "https://doi.org/10.25625/VCNHOR/TNXCTN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/32093"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "dispersion_profile_north_binned.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 314,
+            "description": "The radially binned dispersion profile, computed around the northern centre.",
+            "@id": "https://doi.org/10.25625/VCNHOR/LHGODX",
+            "identifier": "https://doi.org/10.25625/VCNHOR/LHGODX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/32095"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "dispersion_profile_south_binned.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 313,
+            "description": "The radially binned dispersion profile, computed around the southern centre.",
+            "@id": "https://doi.org/10.25625/VCNHOR/SCDCPJ",
+            "identifier": "https://doi.org/10.25625/VCNHOR/SCDCPJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/32099"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "mlr_profile.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 9546,
+            "description": "Mass-to-light rataio profile computed from CJAM models.",
+            "@id": "https://doi.org/10.25625/VCNHOR/2V4AWO",
+            "identifier": "https://doi.org/10.25625/VCNHOR/2V4AWO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/32098"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "radial_velocties_muse.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1082117,
+            "description": "Radial velocities of stars derived from MUSE data. The columns 'x' and 'y' are the projected distances to the centre of Goldsbury et al. (2010) in arcmin, 'STAR V' and 'STAR V err' are the radial velocity and the associated uncertainty in kilometers per second, 'Membership' is the probability of being a cluster member, 'RA' and 'Decl' are the coordinates in degree from the HST-ACS catalogue of this cluster (Anderson et al. 2008) or from the unpublished catalogue of Dalessandro et al. (2018). Note that the external data from H. Baumgardt used in the paper is not included in this file. It can be found here: https://people.smp.uq.edu.au/HolgerBaumgardt/globular/",
+            "@id": "https://doi.org/10.25625/VCNHOR/U1IQHD",
+            "identifier": "https://doi.org/10.25625/VCNHOR/U1IQHD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/32409"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "rotation_samples.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 281635,
+            "description": "Rotation components for the cluster core and outside.",
+            "@id": "https://doi.org/10.25625/VCNHOR/BKZABI",
+            "identifier": "https://doi.org/10.25625/VCNHOR/BKZABI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/32101"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Astronomy and Astrophysics"
+    ],
+    "publications": [
+        {}
+    ]
+}

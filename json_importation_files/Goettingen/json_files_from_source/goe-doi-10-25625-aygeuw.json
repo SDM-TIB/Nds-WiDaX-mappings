@@ -1,0 +1,66 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/AYGEUW",
+    "identifier": "https://doi.org/10.25625/AYGEUW",
+    "name": "Adapting the QA Catalogue quality assessment tool for UNIMARC library catalogue record analysis",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Haris",
+            "familyName": "Gegi\u0107",
+            "name": "Gegi\u0107, Haris"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Haris",
+            "familyName": "Gegi\u0107",
+            "name": "Gegi\u0107, Haris"
+        }
+    ],
+    "datePublished": "2024-11-29",
+    "dateModified": "2024-11-29",
+    "version": "1",
+    "description": "Quality assessment in library cataloguing is essential for maintaining data accuracy, integrity, and improving usability of the existing or new data. Despite the importance of the UNIMARC format, as per the knowledge of the author of the thesis, no tools exist that comprehensively support the quality assessment of records available in it. This thesis aims to extend the QA Catalogue - a tool originally developed for MARC21 and PICA formats - to support UNIMARC, attempting to first and foremost utilize different design principles to emphasize the readability and maintainability of the code. Several changes were made to allow for a cleaner and more successful integration of the UNIMARC-related stages of the assessment processes. These adjustments primarily focused on reducing code complexity and separating concerns, which were crucial given the potential issues that could arise from integrating UNIMARC changes into the existing codebase without prior modifications. The adaptations also introduced a new machine-readable UNIMARC schema representation - parsed, adjusted, and stored in JSON format in accordance with the Avram specification. Furthermore, the tool was extended to process UNIMARC records - to assess their validity, completeness, and other quality dimensions, and save the results in the same manner as previously implemented for MARC21 and PICA. These analysis processes were implemented for UNIMARC based primarily on existing approaches for MARC21 and PICA, with occasional references to the limited and scarce literature on UNIMARC. Validation of this adaptation included comparative analysis with the MARC21 format and manual evaluation of the produced results.",
+    "keywords": [
+        "Computer and Information Science",
+        "metadata quality",
+        "UNIMARC",
+        "quality assesment",
+        "library catalogue"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "23718514_1_final_thesis.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 1065846,
+            "@id": "https://doi.org/10.25625/AYGEUW/LPSZOL",
+            "identifier": "https://doi.org/10.25625/AYGEUW/LPSZOL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/117786"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Computer and Information Science"
+    ],
+    "publications": [
+        {}
+    ]
+}

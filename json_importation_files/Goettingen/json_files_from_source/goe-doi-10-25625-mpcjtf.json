@@ -1,0 +1,350 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/MPCJTF",
+    "identifier": "https://doi.org/10.25625/MPCJTF",
+    "name": "Entwicklung und Struktur des Clusters Verhalten/Neuro/Kognition in der MPG",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Sascha",
+            "familyName": "Topp",
+            "name": "Topp, Sascha"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Sascha",
+            "familyName": "Topp",
+            "name": "Topp, Sascha"
+        }
+    ],
+    "datePublished": "2023-11-24",
+    "dateModified": "2023-11-24",
+    "version": "1",
+    "description": "Entwicklung und Struktur des Clusters Verhalten/Neuro/Kognition in der MPG",
+    "keywords": [
+        "Arts and Humanities"
+    ],
+    "license": "http://creativecommons.org/licenses/by-nc/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "624_Forschungscluster_-_Direkte_Zuordnung__WM_in_Cluster.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 358121,
+            "@id": "https://doi.org/10.25625/MPCJTF/5AZJU1",
+            "identifier": "https://doi.org/10.25625/MPCJTF/5AZJU1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55215"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "625_Forschungscluster_-_WM_Affliliations_(fu\u0308r_Clusteranalyse).tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 303425,
+            "@id": "https://doi.org/10.25625/MPCJTF/P3GZ28",
+            "identifier": "https://doi.org/10.25625/MPCJTF/P3GZ28",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55225"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "626_Forschungscluster_-_WM_Mitgliedschaften_(fu\u0308r_Clusteranalyse).tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 202793,
+            "@id": "https://doi.org/10.25625/MPCJTF/NYDCLE",
+            "identifier": "https://doi.org/10.25625/MPCJTF/NYDCLE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55219"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "common_plot_tools.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 7427,
+            "@id": "https://doi.org/10.25625/MPCJTF/BIYTE5",
+            "identifier": "https://doi.org/10.25625/MPCJTF/BIYTE5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55230"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "fetchCSVfromDatabase.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 7028,
+            "@id": "https://doi.org/10.25625/MPCJTF/5GSO0W",
+            "identifier": "https://doi.org/10.25625/MPCJTF/5GSO0W",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55213"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "fin_institutes.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "contentSize": 27209,
+            "@id": "https://doi.org/10.25625/MPCJTF/QLJLBG",
+            "identifier": "https://doi.org/10.25625/MPCJTF/QLJLBG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55217"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "fin_tagging_VNK.ipynb",
+            "encodingFormat": "application/x-ipynb+json",
+            "contentSize": 66281,
+            "@id": "https://doi.org/10.25625/MPCJTF/ICEPME",
+            "identifier": "https://doi.org/10.25625/MPCJTF/ICEPME",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55223"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "fin_tagging_VNK.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 38062,
+            "@id": "https://doi.org/10.25625/MPCJTF/4YY6AZ",
+            "identifier": "https://doi.org/10.25625/MPCJTF/4YY6AZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55214"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "fin_tagging_VNK_sum.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "contentSize": 11055,
+            "@id": "https://doi.org/10.25625/MPCJTF/SI3U8T",
+            "identifier": "https://doi.org/10.25625/MPCJTF/SI3U8T",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55227"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "gmpg.mplstyle",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1212,
+            "@id": "https://doi.org/10.25625/MPCJTF/6XL4X5",
+            "identifier": "https://doi.org/10.25625/MPCJTF/6XL4X5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55233"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "helpers_institutes.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 19766,
+            "@id": "https://doi.org/10.25625/MPCJTF/PM1ZIL",
+            "identifier": "https://doi.org/10.25625/MPCJTF/PM1ZIL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55204"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "InflationsgeschehenBRD_2002.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 20565,
+            "@id": "https://doi.org/10.25625/MPCJTF/4XHMRS",
+            "identifier": "https://doi.org/10.25625/MPCJTF/4XHMRS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55206"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Konzepte_Gesamthaushalt_ohne_Inflationsbereinigung.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 9696,
+            "@id": "https://doi.org/10.25625/MPCJTF/UFU8IP",
+            "identifier": "https://doi.org/10.25625/MPCJTF/UFU8IP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55228"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "requirements.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 483,
+            "@id": "https://doi.org/10.25625/MPCJTF/1TVXLY",
+            "identifier": "https://doi.org/10.25625/MPCJTF/1TVXLY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55235"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "WM-Mehrfache-Mitgliedschaft_ST.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 8265,
+            "@id": "https://doi.org/10.25625/MPCJTF/0ZASTH",
+            "identifier": "https://doi.org/10.25625/MPCJTF/0ZASTH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55218"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "area_tagging_Ausgaben copy.svg",
+            "encodingFormat": "image/svg+xml",
+            "contentSize": 516870,
+            "@id": "https://doi.org/10.25625/MPCJTF/ZCZBNZ",
+            "identifier": "https://doi.org/10.25625/MPCJTF/ZCZBNZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55216"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "area_tagging_Ausgaben.html",
+            "encodingFormat": "text/html",
+            "contentSize": 981228,
+            "@id": "https://doi.org/10.25625/MPCJTF/XAP2C5",
+            "identifier": "https://doi.org/10.25625/MPCJTF/XAP2C5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55236"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "area_tagging_Einnahmen.html",
+            "encodingFormat": "text/html",
+            "contentSize": 982232,
+            "@id": "https://doi.org/10.25625/MPCJTF/8DVLRV",
+            "identifier": "https://doi.org/10.25625/MPCJTF/8DVLRV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55232"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "area_tagging_Einnahmen.svg",
+            "encodingFormat": "image/svg+xml",
+            "contentSize": 478495,
+            "@id": "https://doi.org/10.25625/MPCJTF/YJQWAZ",
+            "identifier": "https://doi.org/10.25625/MPCJTF/YJQWAZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55229"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "area_tagging_Personalausgaben.html",
+            "encodingFormat": "text/html",
+            "contentSize": 981674,
+            "@id": "https://doi.org/10.25625/MPCJTF/OZYBJ8",
+            "identifier": "https://doi.org/10.25625/MPCJTF/OZYBJ8",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55212"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "area_tagging_Personalausgaben.svg",
+            "encodingFormat": "image/svg+xml",
+            "contentSize": 480944,
+            "@id": "https://doi.org/10.25625/MPCJTF/4OURZM",
+            "identifier": "https://doi.org/10.25625/MPCJTF/4OURZM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55211"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "area_tagging_relative_Ausgaben.html",
+            "encodingFormat": "text/html",
+            "contentSize": 1095033,
+            "@id": "https://doi.org/10.25625/MPCJTF/H160AH",
+            "identifier": "https://doi.org/10.25625/MPCJTF/H160AH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55224"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "area_tagging_relative_Ausgaben.svg",
+            "encodingFormat": "image/svg+xml",
+            "contentSize": 485479,
+            "@id": "https://doi.org/10.25625/MPCJTF/KUQFVB",
+            "identifier": "https://doi.org/10.25625/MPCJTF/KUQFVB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55220"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "area_tagging_Wissenschaftlicher Betrieb.html",
+            "encodingFormat": "text/html",
+            "contentSize": 982398,
+            "@id": "https://doi.org/10.25625/MPCJTF/DPOSZN",
+            "identifier": "https://doi.org/10.25625/MPCJTF/DPOSZN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55221"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "area_tagging_Wissenschaftlicher Betrieb.svg",
+            "encodingFormat": "image/svg+xml",
+            "contentSize": 484085,
+            "@id": "https://doi.org/10.25625/MPCJTF/ARM7FZ",
+            "identifier": "https://doi.org/10.25625/MPCJTF/ARM7FZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55234"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Einzelne_Institute_Dropdown_clusterrelative_raw.html",
+            "encodingFormat": "text/html",
+            "contentSize": 974811,
+            "@id": "https://doi.org/10.25625/MPCJTF/8M26K8",
+            "identifier": "https://doi.org/10.25625/MPCJTF/8M26K8",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55209"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Einzelne_Institute_Dropdown_clusterrelative_raw.svg",
+            "encodingFormat": "image/svg+xml",
+            "contentSize": 2380577,
+            "@id": "https://doi.org/10.25625/MPCJTF/JKG3MR",
+            "identifier": "https://doi.org/10.25625/MPCJTF/JKG3MR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55226"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "clusterVNKinstituteAnteile.html",
+            "encodingFormat": "text/html",
+            "contentSize": 555063,
+            "@id": "https://doi.org/10.25625/MPCJTF/LNFRSG",
+            "identifier": "https://doi.org/10.25625/MPCJTF/LNFRSG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55231"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "clusterVNKinstituteAnteile.svg",
+            "encodingFormat": "image/svg+xml",
+            "contentSize": 728992,
+            "@id": "https://doi.org/10.25625/MPCJTF/ITQFGE",
+            "identifier": "https://doi.org/10.25625/MPCJTF/ITQFGE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55205"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "clusterVNKinstituteAnzahl_line.html",
+            "encodingFormat": "text/html",
+            "contentSize": 575142,
+            "@id": "https://doi.org/10.25625/MPCJTF/1EVTNK",
+            "identifier": "https://doi.org/10.25625/MPCJTF/1EVTNK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55207"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "clusterVNKinstituteAnzahl_line.svg",
+            "encodingFormat": "image/svg+xml",
+            "contentSize": 692315,
+            "@id": "https://doi.org/10.25625/MPCJTF/L0CQXR",
+            "identifier": "https://doi.org/10.25625/MPCJTF/L0CQXR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55208"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "clusterVNKzuordnungenZeitlicherVerlauf.html",
+            "encodingFormat": "text/html",
+            "contentSize": 18749,
+            "@id": "https://doi.org/10.25625/MPCJTF/GTI2OM",
+            "identifier": "https://doi.org/10.25625/MPCJTF/GTI2OM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55222"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "clusterVNKzuordnungenZeitlicherVerlauf.svg",
+            "encodingFormat": "image/svg+xml",
+            "contentSize": 190879,
+            "@id": "https://doi.org/10.25625/MPCJTF/MP4TPJ",
+            "identifier": "https://doi.org/10.25625/MPCJTF/MP4TPJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/55210"
+        }
+    ],
+    "license_title": "Creative Commons Attribution-NonCommercial 4.0 International",
+    "subjects": [
+        "Arts and Humanities"
+    ],
+    "publications": [
+        {}
+    ]
+}

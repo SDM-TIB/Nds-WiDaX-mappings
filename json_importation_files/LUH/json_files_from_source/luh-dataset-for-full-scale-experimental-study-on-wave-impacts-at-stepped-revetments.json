@@ -1,0 +1,211 @@
+{
+  "author": "Maximilian Herbst, Nils B. Kerpen, Talia Schoonees, Torsten Schlurmann",
+  "author_email": "",
+  "creator_user_id": "fddd082a-6049-47d8-9832-69703346315c",
+  "have_copyright": "Yes",
+  "id": "0ec106cd-a062-4ed4-99ad-da9e329e1357",
+  "isopen": false,
+  "license_id": "CC-BY-NC-4.0",
+  "license_title": "Creative Commons Attribution-NonCommercial 4.0 International",
+  "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "maintainer": "Maximilian Herbst",
+  "maintainer_email": "",
+  "metadata_created": "2025-02-19T10:07:52.657819",
+  "metadata_modified": "2025-02-19T10:24:57.135503",
+  "name": "dataset-for-full-scale-experimental-study-on-wave-impacts-at-stepped-revetments",
+  "notes": "This dataset originates from a full-scale experimental study investigating wave-induced impact pressures on stepped revetments. The experiments were conducted in the Large Wave Flume (GWK) at the Coastal Research Center in Hannover, Germany. A range of hydrodynamic conditions was tested, replicating irregular wave loading scenarios typical for coastal structures. The primary focus was to quantify impact pressures, rise times, and impact frequencies under various wave conditions to improve the understanding of wave impact characteristics at stepped revetments. Investigations of wave reflection and wave run-up and wave overtopping can be found in Schoonees et al. (2021) (https://doi.org/10.1016/j.coastaleng.2021.103887) and Schoonees et al. (2022) (https://doi.org/10.1016/j.coastaleng.2021.104045).\r\nThe dataset contains three key components:\r\n\t\t1.\tInstrumentation Setup – Positioning of pressure transducers and wave gauges along the stepped revetment.\r\n\t\t2.\tTest Conditions – Detailed incident wave conditions of each conducted tests.\r\n\t\t3.\tImpact Data – Wave impact pressures and rise times of different non-exceedance probabilities, and recorded impact counts for each transducer of each test.\r\nThis dataset is the basis for the findings presented in Herbst et al. (2025) (https://doi.org/10.1016/j.coastaleng.2025.104705) and is valuable for researchers studying wave impact characteristics on coastal structures for design purposes. Raw data of individual pressure transducers are not part of this dataset. These can be requested through the Forschungszentrum Küste (FZK).",
+  "num_resources": 4,
+  "num_tags": 8,
+  "organization": {
+    "id": "e0375eb9-975b-4de4-b94f-68977d14697a",
+    "name": "ludwig-franzius-institut-fur-wasserbau-astuar-und-kusteningenieurwesen",
+    "title": "Ludwig-Franzius-Institut für Wasserbau, Ästuar- und Küsteningenieurwesen",
+    "type": "organization",
+    "description": "Nienburger Str. 4\r\n\r\n30167 Hannover\r\n\r\nTel. +49 511 762 - 2573\r\n\r\nFax  +49 511 762 - 4002 \r\n\r\nhttps://www.lufi.uni-hannover.de",
+    "image_url": "https://www.lufi.uni-hannover.de/fileadmin/site-templates/logos/lufi/LuFI_logo.png",
+    "created": "2022-12-01T08:40:21.679246",
+    "is_organization": true,
+    "approval_status": "approved",
+    "state": "active"
+  },
+  "owner_org": "e0375eb9-975b-4de4-b94f-68977d14697a",
+  "private": false,
+  "state": "active",
+  "terms_of_usage": "Yes",
+  "title": "DATASET FOR \"FULL-SCALE EXPERIMENTAL STUDY ON WAVE IMPACTS AT STEPPED REVETMENTS\"",
+  "type": "dataset",
+  "url": "",
+  "version": "",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2025-02-19T10:16:25.967331",
+      "datastore_active": false,
+      "description": "This file provides the positions and sampling frequencies of the instrumentation used in the experiment. The data structure can be found in the readme. Further information on the experimental setup can be found in Fig. 1 in Herbst et al. (2025). Further information about the Large Wave Flume (GWK) can be found here: https://www.fzk.uni-hannover.de/en/the-fzk/equipment/gwk",
+      "format": ".csv",
+      "hash": "",
+      "id": "b260f7ab-829d-447d-beaa-3629027e7a1a",
+      "last_modified": "2025-02-19T10:16:25.806206",
+      "metadata_modified": "2025-02-19T10:17:49.209218",
+      "mimetype": "text/csv",
+      "mimetype_inner": null,
+      "name": "01_experimental_setup.csv",
+      "package_id": "0ec106cd-a062-4ed4-99ad-da9e329e1357",
+      "position": 0,
+      "resource_type": null,
+      "size": 1106,
+      "state": "active",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "url": "https://data.uni-hannover.de/dataset/0ec106cd-a062-4ed4-99ad-da9e329e1357/resource/b260f7ab-829d-447d-beaa-3629027e7a1a/download/01_experimental_setup.csv",
+      "url_type": "upload"
+    },
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2025-02-19T10:17:49.224182",
+      "datastore_active": false,
+      "description": "This file contains the wave conditions at the toe of the structure for each test. The data structure can be found in the readme. Further information on the experimental setup can be found in Fig. 1 in Herbst et al. (2025) (https://doi.org/10.1016/j.coastaleng.2025.104705).",
+      "format": ".csv",
+      "hash": "",
+      "id": "90e5bdd4-c0d6-4e17-ae62-fd4e3d871285",
+      "last_modified": "2025-02-19T10:17:49.190365",
+      "metadata_modified": "2025-02-19T10:20:15.605974",
+      "mimetype": "text/csv",
+      "mimetype_inner": null,
+      "name": "02_test_conditions.csv",
+      "package_id": "0ec106cd-a062-4ed4-99ad-da9e329e1357",
+      "position": 1,
+      "resource_type": null,
+      "size": 3243,
+      "state": "active",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "url": "https://data.uni-hannover.de/dataset/0ec106cd-a062-4ed4-99ad-da9e329e1357/resource/90e5bdd4-c0d6-4e17-ae62-fd4e3d871285/download/02_test_conditions.csv",
+      "url_type": "upload"
+    },
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2025-02-19T10:20:15.620306",
+      "datastore_active": false,
+      "description": "This file contains measured impact pressures and rise times of different probabilities of non-exceedance, as well as impact counts for each pressure transducer of each test. The data structure can be found in the readme. All pressure values are given dimensionally in kilopascal [kPa]. Values in Herbst et al. (2025) are dimensionless, normalized by ρgHm0 (density, gravitational acceleration, and spectral wave height of the respective test).",
+      "format": ".csv",
+      "hash": "",
+      "id": "a96f1db4-3cbf-4fd9-be37-df36a5d73ff3",
+      "last_modified": "2025-02-19T10:20:15.585541",
+      "metadata_modified": "2025-02-19T10:20:17.026813",
+      "mimetype": "text/csv",
+      "mimetype_inner": null,
+      "name": "03_impact_data.csv",
+      "package_id": "0ec106cd-a062-4ed4-99ad-da9e329e1357",
+      "position": 2,
+      "resource_type": null,
+      "size": 133943,
+      "state": "active",
+      "tracking_summary": {
+        "total": 0,
+        "recent": 0
+      },
+      "url": "https://data.uni-hannover.de/dataset/0ec106cd-a062-4ed4-99ad-da9e329e1357/resource/a96f1db4-3cbf-4fd9-be37-df36a5d73ff3/download/03_impact_data.csv",
+      "url_type": "upload"
+    },
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2025-02-19T10:22:34.818976",
+      "datastore_active": false,
+      "description": "The dataset is structured into multiple sections for clarity and ease of use. In this readme, you will find details regarding A) general information, B) description of the data files, C) coordinate system and test notation, D) data format and access and E) Usage and licensing.",
+      "format": ".txt",
+      "hash": "",
+      "id": "51ee1d71-3fd7-453e-8ebe-4072cc248746",
+      "last_modified": "2025-02-19T10:22:34.783759",
+      "metadata_modified": "2025-02-19T10:22:34.804548",
+      "mimetype": "text/plain",
+      "mimetype_inner": null,
+      "name": "README.txt",
+      "package_id": "0ec106cd-a062-4ed4-99ad-da9e329e1357",
+      "position": 3,
+      "resource_type": null,
+      "size": 10565,
+      "state": "active",
+      "tracking_summary": {
+        "total": 3,
+        "recent": 1
+      },
+      "url": "https://data.uni-hannover.de/dataset/0ec106cd-a062-4ed4-99ad-da9e329e1357/resource/51ee1d71-3fd7-453e-8ebe-4072cc248746/download/readme.txt",
+      "url_type": "upload"
+    }
+  ],
+  "tags": [
+    {
+      "display_name": "Full scale",
+      "id": "a75828bd-6798-4817-b22a-0a3ef346629e",
+      "name": "Full scale",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Impact pressures",
+      "id": "942e9728-0b50-4a71-b4aa-b849f0aa55c6",
+      "name": "Impact pressures",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Large scale",
+      "id": "bf9f3c19-aaae-4ab8-bd27-d26c902ee473",
+      "name": "Large scale",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Physical model test",
+      "id": "377f8f96-788a-4345-92e8-745bf249c2df",
+      "name": "Physical model test",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Scale effects",
+      "id": "09a49f0b-54d8-4009-91fa-eefb61974e9f",
+      "name": "Scale effects",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Stepped revetment",
+      "id": "c7c06222-10be-43a3-9d49-5920e1fee513",
+      "name": "Stepped revetment",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "coastal structures",
+      "id": "aa559ed6-1c7b-4f19-b011-0ed917ebca2d",
+      "name": "coastal structures",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "wave impact",
+      "id": "f2b5b42c-d186-4706-97b6-48943478db2d",
+      "name": "wave impact",
+      "state": "active",
+      "vocabulary_id": null
+    }
+  ],
+  "groups": [],
+  "relationships_as_subject": [],
+  "relationships_as_object": [],
+  "doi": "10.25835/3n23z735",
+  "doi_status": true,
+  "domain": "https://data.uni-hannover.de",
+  "doi_date_published": "2025-02-19",
+  "doi_publisher": "LUIS"
+}

@@ -1,0 +1,161 @@
+{
+  "author": "Christoph Garwe",
+  "author_email": "chr.garwe@gmail.com",
+  "creator_user_id": "d45b7359-c52c-426a-9e38-167509b9f5a5",
+  "have_copyright": "Yes",
+  "id": "453df984-9a37-4834-b9e3-5ff83a383766",
+  "isopen": true,
+  "license_id": "CC-BY-4.0",
+  "license_title": "Creative Commons Attribution 4.0 International",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "maintainer": "Christoph Garwe",
+  "maintainer_email": "",
+  "metadata_created": "2025-04-26T09:31:28.661707",
+  "metadata_modified": "2025-04-26T11:23:36.005220",
+  "name": "data-conceptualizing-and-measuring-legislative-significance-an-application-to-the-german-bundestag",
+  "notes": "### Abstract\r\nIn this supplementary material, I provide a comprehensive dataset of German legislation collected and analyzed for the purposes of my dissertation project. It includes the new measures of legislative significance developed in the dissertation, as well as several accompanying (independent or identification) variables based on the characteristics of individual legislative processes and administrative information. This supplementary material includes the data, an extensive codebook that outlines each individual variable, and the required R code to replicate the analyses performed in the dissertation and to reproduce and extend the data. The code is provided in an interoperable way that enables easy execution. Several preliminary datasets are made available along with the final dataset. See the attached description document for more details and a precise instruction.\r\n\r\n### Details\r\nThe final dataset “leg_sig.csv” covers all legislative processes considered in the German Bundestag from 1991 to 2021 – 6,602 submitted bills and 3,206 enacted laws. It is a special feature of this dataset that it connects bills to finalized laws and thus covers the complete legislative procedure. For each legislative process, extensive information was collected and transformed into 142 variables (154 variables in the reproduced version). Most of the data were collected from official sources of the German Bundestag, i.e., the DIP repository (Deutscher Bundestag / Bundesrat, n.d.) and the Bundestag’s official data handbook (Deutscher Bundestag, 2024). Data from the German Federal Statistical Office (Statistisches Bundesamt [Destatis], 2024a, 2024b, 2024c, 2024d) and the Federal Election Supervisor (Der Bundeswahlleiter, 2022) were added subsequently. Enacted laws were obtained from the private webpage OffeneGesetze.de (Wehrmeyer et al., n.d.).\r\n\r\n### Target group\r\nThis data and supplementary material may be of interest to: legislative studies scholars, students of German lawmaking and legislation, replication research testing lawmaking arguments with significant (instead of all) legislation, research on the “significance” of political action, public policy scholars aiming to quantify the content of laws, legal scholars aiming to measure the juridification, expansion or detail of law.\r\n\r\n### Related publication\r\nGarwe, Christoph (2025). _Conceptualizing and Measuring Legislative Significance – an Application to the German Bundestag_. [Dissertation, Leibniz Universität Hannover]. Institutionelles Repositorium der Leibniz Universität Hannover. https://doi.org/10.15488/18305",
+  "num_resources": 1,
+  "num_tags": 10,
+  "organization": {
+    "id": "c09f0aa7-118a-4039-9a64-c75cf42dbb8e",
+    "name": "institut-fur-politikwissenschaft",
+    "title": "Institut für Politikwissenschaft",
+    "type": "organization",
+    "description": "Schneiderberg 50\r\n30167 Hannover \r\n\r\nhttps://www.ipw.uni-hannover.de",
+    "image_url": "https://www.ipw.uni-hannover.de/fileadmin/site-templates/logos/ipw/ipw_logo.png",
+    "created": "2022-03-29T12:11:40.813612",
+    "is_organization": true,
+    "approval_status": "approved",
+    "state": "active"
+  },
+  "owner_org": "c09f0aa7-118a-4039-9a64-c75cf42dbb8e",
+  "private": false,
+  "state": "active",
+  "terms_of_usage": "Yes",
+  "title": "Data: Conceptualizing and Measuring Legislative Significance – an Application to the German Bundestag",
+  "type": "dataset",
+  "url": "",
+  "version": "",
+  "extras": [
+    {
+      "key": "Dataset Size (unpacked)",
+      "value": "36.1 MByte"
+    },
+    {
+      "key": "IsSupplementTo",
+      "value": "https://doi.org/10.15488/18305"
+    },
+    {
+      "key": "Period Covered",
+      "value": "1991-01-07/2021-08-20"
+    }
+  ],
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2025-04-26T09:53:08.653184",
+      "datastore_active": false,
+      "description": "__File size unpacked:__ 36.1 MByte\r\n\r\nThis .zip-folder contains several _datasets_, _R scripts_ and a _description document_ in a specific folder structure. When working with the R scripts, be sure to keep the defined folder structure to safeguard that working directories are set to expected locations. See the provided description document for a precise instruction, a codebook, and further details.",
+      "format": "zip, csv, R, pdf",
+      "hash": "",
+      "id": "b349ac40-911c-49d2-be50-37e77f3db7cb",
+      "last_modified": "2025-04-26T09:53:08.561546",
+      "metadata_modified": "2025-04-26T10:45:06.979320",
+      "mimetype": "application/zip",
+      "mimetype_inner": null,
+      "name": "Data_Leg_Sig.zip",
+      "package_id": "453df984-9a37-4834-b9e3-5ff83a383766",
+      "position": 0,
+      "resource_type": null,
+      "size": 4477874,
+      "state": "active",
+      "tracking_summary": {
+        "total": 7,
+        "recent": 1
+      },
+      "url": "https://data.uni-hannover.de/dataset/453df984-9a37-4834-b9e3-5ff83a383766/resource/b349ac40-911c-49d2-be50-37e77f3db7cb/download/data_leg_sig.zip",
+      "url_type": "upload"
+    }
+  ],
+  "tags": [
+    {
+      "display_name": "Bundestag",
+      "id": "c7fa038e-9175-412f-adb4-7d779364d8f5",
+      "name": "Bundestag",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "key laws",
+      "id": "1afca158-2561-4416-a280-33966101b59b",
+      "name": "key laws",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "landmark laws",
+      "id": "1c8e1ed3-a21c-4d69-8442-b19e08084791",
+      "name": "landmark laws",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "lawmaking",
+      "id": "4f5339c3-af6d-42ce-8452-1652b34285fb",
+      "name": "lawmaking",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "legal changes",
+      "id": "15d3731e-6587-42e0-bdb5-1c6498f29cf4",
+      "name": "legal changes",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "legislative productivity",
+      "id": "836baa25-cfe1-4b2f-b036-cfa1bd1f3529",
+      "name": "legislative productivity",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "legislative significance",
+      "id": "468b5589-e351-426e-8e9f-53e1de98cf33",
+      "name": "legislative significance",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "policy change",
+      "id": "92175bfd-f539-4506-b2a8-f9594e11529f",
+      "name": "policy change",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "salience",
+      "id": "129edc3d-a1d7-440a-946a-80e197db3bbf",
+      "name": "salience",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "significant laws",
+      "id": "df720c38-7328-4216-b408-e860a3563c75",
+      "name": "significant laws",
+      "state": "active",
+      "vocabulary_id": null
+    }
+  ],
+  "groups": [],
+  "relationships_as_subject": [],
+  "relationships_as_object": [],
+  "doi": "10.25835/l9nj4cwc",
+  "doi_status": true,
+  "domain": "https://data.uni-hannover.de",
+  "doi_date_published": "2025-04-26",
+  "doi_publisher": "LUIS"
+}

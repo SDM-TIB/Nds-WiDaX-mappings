@@ -1,0 +1,85 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/ZN7LRW",
+    "identifier": "https://doi.org/10.25625/ZN7LRW",
+    "name": "RDMC Demo Data",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Safial Islam",
+            "familyName": "Ayon",
+            "sameAs": "https://orcid.org/0000-0002-0970-0455",
+            "@id": "https://orcid.org/0000-0002-0970-0455",
+            "identifier": "https://orcid.org/0000-0002-0970-0455",
+            "name": "Ayon, Safial Islam"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Safial Islam",
+            "familyName": "Ayon",
+            "sameAs": "https://orcid.org/0000-0002-0970-0455",
+            "@id": "https://orcid.org/0000-0002-0970-0455",
+            "identifier": "https://orcid.org/0000-0002-0970-0455",
+            "name": "Ayon, Safial Islam"
+        }
+    ],
+    "datePublished": "2026-05-18",
+    "dateModified": "2026-05-18",
+    "version": "1",
+    "description": "RDMC Demo Data",
+    "keywords": [
+        "Computer and Information Science"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "rdmc-good.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 1306,
+            "description": "A complete, valid RDMC folder.",
+            "@id": "https://doi.org/10.25625/ZN7LRW/EGSCKT",
+            "identifier": "https://doi.org/10.25625/ZN7LRW/EGSCKT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/170920"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "rdmc-missing-manifest.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 1909,
+            "description": "RDMC folder without a manifest file.",
+            "@id": "https://doi.org/10.25625/ZN7LRW/MZSDHD",
+            "identifier": "https://doi.org/10.25625/ZN7LRW/MZSDHD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/170921"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "rdmc-incomplete-manifest.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 2703,
+            "@id": "https://doi.org/10.25625/ZN7LRW/KMG4PE",
+            "identifier": "https://doi.org/10.25625/ZN7LRW/KMG4PE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/170922"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Computer and Information Science"
+    ]
+}

@@ -1,0 +1,226 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/8OQMUF",
+    "identifier": "https://doi.org/10.25625/8OQMUF",
+    "name": "Julia Framework for Chemical Reaction Networks (CRN)",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Maximilian Stephan",
+            "familyName": "Kurjahn",
+            "name": "Kurjahn, Maximilian Stephan"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Maximilian Stephan",
+            "familyName": "Kurjahn",
+            "name": "Kurjahn, Maximilian Stephan"
+        }
+    ],
+    "datePublished": "2020-12-10",
+    "dateModified": "2020-12-11",
+    "version": "2",
+    "description": "Julia framework for chemical reaction networks used in my Master's thesis",
+    "keywords": [
+        "Physics",
+        "reaction network"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "@id": "https://github.com/mkurjahn/CRN",
+            "identifier": "https://github.com/mkurjahn/CRN",
+            "url": "https://github.com/mkurjahn/CRN"
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "LICENSE.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1079,
+            "@id": "https://doi.org/10.25625/8OQMUF/GT4P8N",
+            "identifier": "https://doi.org/10.25625/8OQMUF/GT4P8N",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/20327"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Project.toml",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 470,
+            "@id": "https://doi.org/10.25625/8OQMUF/Z3UBXE",
+            "identifier": "https://doi.org/10.25625/8OQMUF/Z3UBXE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/20322"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "README.md",
+            "encodingFormat": "text/markdown",
+            "contentSize": 2681,
+            "@id": "https://doi.org/10.25625/8OQMUF/S3OLLN",
+            "identifier": "https://doi.org/10.25625/8OQMUF/S3OLLN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/20315"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "ABC_Numerics.ipynb",
+            "encodingFormat": "application/x-ipynb+json",
+            "contentSize": 1491911,
+            "@id": "https://doi.org/10.25625/8OQMUF/YK54MV",
+            "identifier": "https://doi.org/10.25625/8OQMUF/YK54MV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/20326"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "gillespie.png",
+            "encodingFormat": "image/png",
+            "contentSize": 57091,
+            "@id": "https://doi.org/10.25625/8OQMUF/KJRITU",
+            "identifier": "https://doi.org/10.25625/8OQMUF/KJRITU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/20317"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "plefka_1.png",
+            "encodingFormat": "image/png",
+            "contentSize": 128527,
+            "@id": "https://doi.org/10.25625/8OQMUF/UXM2Q1",
+            "identifier": "https://doi.org/10.25625/8OQMUF/UXM2Q1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/20318"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "plefka_2.png",
+            "encodingFormat": "image/png",
+            "contentSize": 148043,
+            "@id": "https://doi.org/10.25625/8OQMUF/DOLKEY",
+            "identifier": "https://doi.org/10.25625/8OQMUF/DOLKEY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/20312"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "plefka_2_hatTheta.png",
+            "encodingFormat": "image/png",
+            "contentSize": 37023,
+            "@id": "https://doi.org/10.25625/8OQMUF/4LJGVY",
+            "identifier": "https://doi.org/10.25625/8OQMUF/4LJGVY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/20310"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "plefka_2_resp.png",
+            "encodingFormat": "image/png",
+            "contentSize": 30501,
+            "@id": "https://doi.org/10.25625/8OQMUF/Z7CYEZ",
+            "identifier": "https://doi.org/10.25625/8OQMUF/Z7CYEZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/20314"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "CRN.jl",
+            "encodingFormat": "text/x-julia",
+            "contentSize": 246,
+            "@id": "https://doi.org/10.25625/8OQMUF/O0E8QM",
+            "identifier": "https://doi.org/10.25625/8OQMUF/O0E8QM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/20309"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "c_mn.jl",
+            "encodingFormat": "text/x-julia",
+            "contentSize": 4386,
+            "@id": "https://doi.org/10.25625/8OQMUF/ZPDSMF",
+            "identifier": "https://doi.org/10.25625/8OQMUF/ZPDSMF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/20325"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "euler_step.jl",
+            "encodingFormat": "text/x-julia",
+            "contentSize": 9890,
+            "@id": "https://doi.org/10.25625/8OQMUF/QPG05B",
+            "identifier": "https://doi.org/10.25625/8OQMUF/QPG05B",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/20311"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "gillespie.jl",
+            "encodingFormat": "text/x-julia",
+            "contentSize": 8105,
+            "@id": "https://doi.org/10.25625/8OQMUF/VTRLG0",
+            "identifier": "https://doi.org/10.25625/8OQMUF/VTRLG0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/20316"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "master_op.jl",
+            "encodingFormat": "text/x-julia",
+            "contentSize": 7625,
+            "@id": "https://doi.org/10.25625/8OQMUF/YIPN0U",
+            "identifier": "https://doi.org/10.25625/8OQMUF/YIPN0U",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/20320"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "ode_solver.jl",
+            "encodingFormat": "text/x-julia",
+            "contentSize": 1884,
+            "@id": "https://doi.org/10.25625/8OQMUF/MFY7CG",
+            "identifier": "https://doi.org/10.25625/8OQMUF/MFY7CG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/20324"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "plotting.jl",
+            "encodingFormat": "text/x-julia",
+            "contentSize": 7781,
+            "@id": "https://doi.org/10.25625/8OQMUF/BXLJ46",
+            "identifier": "https://doi.org/10.25625/8OQMUF/BXLJ46",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/20313"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "print_fields.jl",
+            "encodingFormat": "text/x-julia",
+            "contentSize": 8498,
+            "@id": "https://doi.org/10.25625/8OQMUF/NEIEZI",
+            "identifier": "https://doi.org/10.25625/8OQMUF/NEIEZI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/20319"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "utilities.jl",
+            "encodingFormat": "text/x-julia",
+            "contentSize": 3541,
+            "@id": "https://doi.org/10.25625/8OQMUF/WV1OYJ",
+            "identifier": "https://doi.org/10.25625/8OQMUF/WV1OYJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/20321"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Physics"
+    ],
+    "publications": [
+        {
+            "url": "https://github.com/mkurjahn/CRN"
+        }
+    ]
+}

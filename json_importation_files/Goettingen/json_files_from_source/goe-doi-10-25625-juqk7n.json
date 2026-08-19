@@ -1,0 +1,936 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/JUQK7N",
+    "identifier": "https://doi.org/10.25625/JUQK7N",
+    "name": "GEOROC Compilation: Seamounts",
+    "creator": [
+        {
+            "@type": "Organization",
+            "parentOrganization": {
+                "@type": "Organization",
+                "name": "G\u00f6ttingen University, G\u00f6ttingen, Germany"
+            },
+            "name": "DIGIS Team"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Organization",
+            "parentOrganization": {
+                "@type": "Organization",
+                "name": "G\u00f6ttingen University, G\u00f6ttingen, Germany"
+            },
+            "name": "DIGIS Team"
+        }
+    ],
+    "datePublished": "2021-12-13",
+    "dateModified": "2026-06-11",
+    "version": "12",
+    "description": "Compilation of geochemical and isotopic rock compositions from seamounts held in the GEOROC database. Results are grouped by geographical provinces. Files were generated from the GEOROC database on 2026-06-01.",
+    "keywords": [
+        "Earth and Environmental Sciences"
+    ],
+    "license": "http://creativecommons.org/licenses/by-sa/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "Deutsche Forschungsgemeinschaft (DFG)"
+        }
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_AEGEAN_ARC.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 38580,
+            "@id": "https://doi.org/10.25625/JUQK7N/THHIZO",
+            "identifier": "https://doi.org/10.25625/JUQK7N/THHIZO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173655"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_AEOLIAN_ARC.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 80954,
+            "@id": "https://doi.org/10.25625/JUQK7N/TNVA9N",
+            "identifier": "https://doi.org/10.25625/JUQK7N/TNVA9N",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173695"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_ALEUTIAN_ARC.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 32249,
+            "@id": "https://doi.org/10.25625/JUQK7N/03BZXB",
+            "identifier": "https://doi.org/10.25625/JUQK7N/03BZXB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173653"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_AMSTERDAM-ST_PAUL.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 14059,
+            "@id": "https://doi.org/10.25625/JUQK7N/CDA5KX",
+            "identifier": "https://doi.org/10.25625/JUQK7N/CDA5KX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173674"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_ANEWETAK_SEAMOUNT_TRAIL.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 12932,
+            "@id": "https://doi.org/10.25625/JUQK7N/XSRXEU",
+            "identifier": "https://doi.org/10.25625/JUQK7N/XSRXEU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173700"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_AUSTRAL-COOK_ISLANDS.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 143605,
+            "@id": "https://doi.org/10.25625/JUQK7N/YFAGU9",
+            "identifier": "https://doi.org/10.25625/JUQK7N/YFAGU9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173644"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_AZORES.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 43682,
+            "@id": "https://doi.org/10.25625/JUQK7N/HD73HJ",
+            "identifier": "https://doi.org/10.25625/JUQK7N/HD73HJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173694"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_BAHIA_CHAIN.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 11396,
+            "@id": "https://doi.org/10.25625/JUQK7N/9MJ3SM",
+            "identifier": "https://doi.org/10.25625/JUQK7N/9MJ3SM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173670"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_BATHYMETRISTS_OR_GRIMALDI_SEAMOUNT_CHAIN.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 38084,
+            "@id": "https://doi.org/10.25625/JUQK7N/4BJIQE",
+            "identifier": "https://doi.org/10.25625/JUQK7N/4BJIQE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173732"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_BETIC-RIF_OROGENIC_BELT_OR_GIBRALTAR_ARC.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 12768,
+            "@id": "https://doi.org/10.25625/JUQK7N/K61BGC",
+            "identifier": "https://doi.org/10.25625/JUQK7N/K61BGC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173711"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_BISMARCK_ARC_NEW_BRITAIN_ARC.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 266498,
+            "@id": "https://doi.org/10.25625/JUQK7N/FKBZKT",
+            "identifier": "https://doi.org/10.25625/JUQK7N/FKBZKT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173676"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_CANARY_ISLANDS.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 63738,
+            "@id": "https://doi.org/10.25625/JUQK7N/3GFWPK",
+            "identifier": "https://doi.org/10.25625/JUQK7N/3GFWPK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173721"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_CAPE_VERDE_ISLANDS.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 220615,
+            "@id": "https://doi.org/10.25625/JUQK7N/35KUQR",
+            "identifier": "https://doi.org/10.25625/JUQK7N/35KUQR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173672"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_CARNEGIE_RIDGE_SEAMOUNTS.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 12754,
+            "@id": "https://doi.org/10.25625/JUQK7N/P7X7J1",
+            "identifier": "https://doi.org/10.25625/JUQK7N/P7X7J1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173685"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_CASTOR_GUYOT.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 4879,
+            "@id": "https://doi.org/10.25625/JUQK7N/GH9U1J",
+            "identifier": "https://doi.org/10.25625/JUQK7N/GH9U1J",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173675"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_CHRISTMAS_ISLAND_SEAMOUNT_PROVINCE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 41878,
+            "@id": "https://doi.org/10.25625/JUQK7N/C4S8B1",
+            "identifier": "https://doi.org/10.25625/JUQK7N/C4S8B1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173724"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_COBB_SEAMOUNT_CHAIN.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 30621,
+            "@id": "https://doi.org/10.25625/JUQK7N/N1GLHM",
+            "identifier": "https://doi.org/10.25625/JUQK7N/N1GLHM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173733"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_COCOS_ISLAND_SEAMOUNTS.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 17793,
+            "@id": "https://doi.org/10.25625/JUQK7N/MAHY5S",
+            "identifier": "https://doi.org/10.25625/JUQK7N/MAHY5S",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173662"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_COCOS_RIDGE_SEAMOUNTS.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 13731,
+            "@id": "https://doi.org/10.25625/JUQK7N/0TXAZL",
+            "identifier": "https://doi.org/10.25625/JUQK7N/0TXAZL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173710"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_COIBA_RIDGE_SEAMOUNTS.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 4381,
+            "@id": "https://doi.org/10.25625/JUQK7N/W8JWOC",
+            "identifier": "https://doi.org/10.25625/JUQK7N/W8JWOC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173712"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_CONTINENTAL_MARGIN_OFFSHORE_CALIFORNIA_SEAMOUNTS.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 414641,
+            "@id": "https://doi.org/10.25625/JUQK7N/SRMSAG",
+            "identifier": "https://doi.org/10.25625/JUQK7N/SRMSAG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173706"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_COSTA_RICA_SEAMOUNT_PROVINCE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 23765,
+            "@id": "https://doi.org/10.25625/JUQK7N/FYDKZS",
+            "identifier": "https://doi.org/10.25625/JUQK7N/FYDKZS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173707"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_DE_GERLACH_SEAMOUNTS.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 7938,
+            "@id": "https://doi.org/10.25625/JUQK7N/8FBRX0",
+            "identifier": "https://doi.org/10.25625/JUQK7N/8FBRX0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173643"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_DISCOVERY_TABLEMOUNT.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 8744,
+            "@id": "https://doi.org/10.25625/JUQK7N/SWHOJ0",
+            "identifier": "https://doi.org/10.25625/JUQK7N/SWHOJ0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173736"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_EASTER_SEAMOUNT_CHAIN_SALAS_Y_GOMEZ_RIDGE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 179995,
+            "@id": "https://doi.org/10.25625/JUQK7N/8PUIAL",
+            "identifier": "https://doi.org/10.25625/JUQK7N/8PUIAL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173709"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_EAST_SHIKOKU_BASIN_SEAMOUNTS.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 8672,
+            "@id": "https://doi.org/10.25625/JUQK7N/SKWQCO",
+            "identifier": "https://doi.org/10.25625/JUQK7N/SKWQCO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173735"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_ENPO_SEAMOUNT_CHAIN.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 5838,
+            "@id": "https://doi.org/10.25625/JUQK7N/TWDK3O",
+            "identifier": "https://doi.org/10.25625/JUQK7N/TWDK3O",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173704"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_EXPLORER_SEAMOUNT_CHAIN.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 3461,
+            "@id": "https://doi.org/10.25625/JUQK7N/VAHGVR",
+            "identifier": "https://doi.org/10.25625/JUQK7N/VAHGVR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173663"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_FIEBERLING-GUADALUPE_SEAMOUNT_TRAIL.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 93475,
+            "@id": "https://doi.org/10.25625/JUQK7N/NWNMCT",
+            "identifier": "https://doi.org/10.25625/JUQK7N/NWNMCT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173688"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_FOUNDATION_SEAMOUNT_CHAIN.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 59675,
+            "@id": "https://doi.org/10.25625/JUQK7N/TRHKUJ",
+            "identifier": "https://doi.org/10.25625/JUQK7N/TRHKUJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173689"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_GALAPAGOS_ISLANDS.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 205385,
+            "@id": "https://doi.org/10.25625/JUQK7N/A8ZWGY",
+            "identifier": "https://doi.org/10.25625/JUQK7N/A8ZWGY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173680"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_GENROKU_SEAMOUNT_CHAIN.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 7308,
+            "@id": "https://doi.org/10.25625/JUQK7N/4DJIM1",
+            "identifier": "https://doi.org/10.25625/JUQK7N/4DJIM1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173731"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_GILBERT_RIDGE_SEAMOUNTS.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 15711,
+            "@id": "https://doi.org/10.25625/JUQK7N/PJTO5J",
+            "identifier": "https://doi.org/10.25625/JUQK7N/PJTO5J",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173690"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_HAWAIIAN-EMPEROR_CHAIN.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 516596,
+            "@id": "https://doi.org/10.25625/JUQK7N/4TIDSQ",
+            "identifier": "https://doi.org/10.25625/JUQK7N/4TIDSQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173691"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_HAWAIIAN_ISLANDS.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 641833,
+            "@id": "https://doi.org/10.25625/JUQK7N/WZ0WJX",
+            "identifier": "https://doi.org/10.25625/JUQK7N/WZ0WJX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173686"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_HIKURANGI_SEAMOUNTS.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 18160,
+            "@id": "https://doi.org/10.25625/JUQK7N/VQYUL3",
+            "identifier": "https://doi.org/10.25625/JUQK7N/VQYUL3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173719"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_HONSHU_ARC.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 29438,
+            "@id": "https://doi.org/10.25625/JUQK7N/UDNOJX",
+            "identifier": "https://doi.org/10.25625/JUQK7N/UDNOJX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173665"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_IZU-BONIN-MARIANA_ARC.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 767371,
+            "@id": "https://doi.org/10.25625/JUQK7N/LJT10H",
+            "identifier": "https://doi.org/10.25625/JUQK7N/LJT10H",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173692"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_IZU-BONIN_ARC.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 229559,
+            "@id": "https://doi.org/10.25625/JUQK7N/6EM4NU",
+            "identifier": "https://doi.org/10.25625/JUQK7N/6EM4NU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173698"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_IZU-BONIN_BACK-ARC_SEAMOUNT_CHAIN.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 10496,
+            "@id": "https://doi.org/10.25625/JUQK7N/21SR9O",
+            "identifier": "https://doi.org/10.25625/JUQK7N/21SR9O",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173697"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_JAPANESE_SEAMOUNT_TRAIL.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 3415,
+            "@id": "https://doi.org/10.25625/JUQK7N/WUCFA4",
+            "identifier": "https://doi.org/10.25625/JUQK7N/WUCFA4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173654"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_JUAN_FERNANDEZ_RIDGE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 48999,
+            "@id": "https://doi.org/10.25625/JUQK7N/VQFCPD",
+            "identifier": "https://doi.org/10.25625/JUQK7N/VQFCPD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173681"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_KAMCHATKA.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 3455,
+            "@id": "https://doi.org/10.25625/JUQK7N/F3Q5LQ",
+            "identifier": "https://doi.org/10.25625/JUQK7N/F3Q5LQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173671"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_KANEI_SEAMOUNT_CHAIN.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 6200,
+            "@id": "https://doi.org/10.25625/JUQK7N/VOTZNC",
+            "identifier": "https://doi.org/10.25625/JUQK7N/VOTZNC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173651"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_KERGUELEN.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 12350,
+            "@id": "https://doi.org/10.25625/JUQK7N/MJJXKO",
+            "identifier": "https://doi.org/10.25625/JUQK7N/MJJXKO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173669"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_KERMADEC_ARC.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 524253,
+            "@id": "https://doi.org/10.25625/JUQK7N/KMSLJ9",
+            "identifier": "https://doi.org/10.25625/JUQK7N/KMSLJ9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173648"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_KINAN_ESCARPMENT.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 10130,
+            "@id": "https://doi.org/10.25625/JUQK7N/L04KVI",
+            "identifier": "https://doi.org/10.25625/JUQK7N/L04KVI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173726"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_KINAN_SEAMOUNT_CHAIN.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 25897,
+            "@id": "https://doi.org/10.25625/JUQK7N/XODOOW",
+            "identifier": "https://doi.org/10.25625/JUQK7N/XODOOW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173645"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_KURILE_ARC.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 49265,
+            "@id": "https://doi.org/10.25625/JUQK7N/9LKHAN",
+            "identifier": "https://doi.org/10.25625/JUQK7N/9LKHAN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173664"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_KYUSHU-PALAU_RIDGE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 92269,
+            "@id": "https://doi.org/10.25625/JUQK7N/JOGSS7",
+            "identifier": "https://doi.org/10.25625/JUQK7N/JOGSS7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173702"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_LESSER_ANTILLES.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 45467,
+            "@id": "https://doi.org/10.25625/JUQK7N/D9PRLF",
+            "identifier": "https://doi.org/10.25625/JUQK7N/D9PRLF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173657"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_LINE_ISLANDS_CHAIN.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 108068,
+            "@id": "https://doi.org/10.25625/JUQK7N/M4K2A9",
+            "identifier": "https://doi.org/10.25625/JUQK7N/M4K2A9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173661"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_LORD_HOWE_TRACK.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 6172,
+            "@id": "https://doi.org/10.25625/JUQK7N/C2IK8G",
+            "identifier": "https://doi.org/10.25625/JUQK7N/C2IK8G",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173723"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_LOUISVILLE_SEAMOUNT_CHAIN.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 416590,
+            "@id": "https://doi.org/10.25625/JUQK7N/0LR6V6",
+            "identifier": "https://doi.org/10.25625/JUQK7N/0LR6V6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173699"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_LUZON_ARC.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 19544,
+            "@id": "https://doi.org/10.25625/JUQK7N/47XQXJ",
+            "identifier": "https://doi.org/10.25625/JUQK7N/47XQXJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173715"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_MAGELLAN_SEAMOUNT_TRAIL.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 48673,
+            "@id": "https://doi.org/10.25625/JUQK7N/XJLXQP",
+            "identifier": "https://doi.org/10.25625/JUQK7N/XJLXQP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173714"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_MALPELO_RIDGE_SEAMOUNTS.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 16353,
+            "@id": "https://doi.org/10.25625/JUQK7N/LRQF8A",
+            "identifier": "https://doi.org/10.25625/JUQK7N/LRQF8A",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173660"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_MANJI_SEAMOUNT_CHAIN.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 7249,
+            "@id": "https://doi.org/10.25625/JUQK7N/W0YAMJ",
+            "identifier": "https://doi.org/10.25625/JUQK7N/W0YAMJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173718"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_MARIANA_NORTHERN_SEAMOUNT_PROVINCE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 40485,
+            "@id": "https://doi.org/10.25625/JUQK7N/POHBRB",
+            "identifier": "https://doi.org/10.25625/JUQK7N/POHBRB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173649"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_MARIE_BYRD_SEAMOUNTS.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 16643,
+            "@id": "https://doi.org/10.25625/JUQK7N/OASYCZ",
+            "identifier": "https://doi.org/10.25625/JUQK7N/OASYCZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173730"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_MARION_ISLANDS.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 9689,
+            "@id": "https://doi.org/10.25625/JUQK7N/YOIGTS",
+            "identifier": "https://doi.org/10.25625/JUQK7N/YOIGTS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173696"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_MARQUESAS.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 14853,
+            "@id": "https://doi.org/10.25625/JUQK7N/AYCSIY",
+            "identifier": "https://doi.org/10.25625/JUQK7N/AYCSIY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173642"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_MARSHALL_SEAMOUNT_GROUP.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 33773,
+            "@id": "https://doi.org/10.25625/JUQK7N/G5RMAX",
+            "identifier": "https://doi.org/10.25625/JUQK7N/G5RMAX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173737"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_MEDITERRANEAN_SEAMOUNTS.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 17368,
+            "@id": "https://doi.org/10.25625/JUQK7N/ZWGJNZ",
+            "identifier": "https://doi.org/10.25625/JUQK7N/ZWGJNZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173656"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_MID-PACIFIC_MOUNTAINS.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 48284,
+            "@id": "https://doi.org/10.25625/JUQK7N/NCNWIU",
+            "identifier": "https://doi.org/10.25625/JUQK7N/NCNWIU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173684"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_MUSICIANS_SEAMOUNTS.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 12215,
+            "@id": "https://doi.org/10.25625/JUQK7N/BW0MBM",
+            "identifier": "https://doi.org/10.25625/JUQK7N/BW0MBM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173647"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_NEW_ENGLAND_SEAMOUNT_CHAIN.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 39994,
+            "@id": "https://doi.org/10.25625/JUQK7N/1PRATH",
+            "identifier": "https://doi.org/10.25625/JUQK7N/1PRATH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173703"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_NEW_HEBRIDES_ARC_VANUATU_ARCHIPELAGO.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 96917,
+            "@id": "https://doi.org/10.25625/JUQK7N/FQGMTS",
+            "identifier": "https://doi.org/10.25625/JUQK7N/FQGMTS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173729"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_NORTH_ATLANTIC_SEAMOUNTS.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 10201,
+            "@id": "https://doi.org/10.25625/JUQK7N/MOSW4V",
+            "identifier": "https://doi.org/10.25625/JUQK7N/MOSW4V",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173725"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_PERNAMBUCO_CHAIN.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 27002,
+            "@id": "https://doi.org/10.25625/JUQK7N/LLUDKN",
+            "identifier": "https://doi.org/10.25625/JUQK7N/LLUDKN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173679"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_PITCAIRN-GAMBIER_CHAIN.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 171809,
+            "@id": "https://doi.org/10.25625/JUQK7N/HDXBF1",
+            "identifier": "https://doi.org/10.25625/JUQK7N/HDXBF1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173705"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_PRATT-WELKER_SEAMOUNT_CHAIN.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 16251,
+            "@id": "https://doi.org/10.25625/JUQK7N/ZMK5FO",
+            "identifier": "https://doi.org/10.25625/JUQK7N/ZMK5FO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173693"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_RALIK_SEAMOUNT_GROUP.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 40291,
+            "@id": "https://doi.org/10.25625/JUQK7N/U0KR5C",
+            "identifier": "https://doi.org/10.25625/JUQK7N/U0KR5C",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173658"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_RATAK_SEAMOUNT_GROUP.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 36695,
+            "@id": "https://doi.org/10.25625/JUQK7N/AGMWFC",
+            "identifier": "https://doi.org/10.25625/JUQK7N/AGMWFC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173720"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_RED_SEA_SEMOUNTS.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 6511,
+            "@id": "https://doi.org/10.25625/JUQK7N/MGXSAJ",
+            "identifier": "https://doi.org/10.25625/JUQK7N/MGXSAJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173682"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_ROSS_SEA_SEAMOUNTS.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 14069,
+            "@id": "https://doi.org/10.25625/JUQK7N/XLEFXP",
+            "identifier": "https://doi.org/10.25625/JUQK7N/XLEFXP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173652"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_SAMOAN_ISLANDS.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 297017,
+            "@id": "https://doi.org/10.25625/JUQK7N/YH1E0J",
+            "identifier": "https://doi.org/10.25625/JUQK7N/YH1E0J",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173667"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_SCOTIA_ARC.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 45325,
+            "@id": "https://doi.org/10.25625/JUQK7N/MW8RFS",
+            "identifier": "https://doi.org/10.25625/JUQK7N/MW8RFS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173666"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_SELVAGEN_ISLANDS.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 22581,
+            "@id": "https://doi.org/10.25625/JUQK7N/5V3SZE",
+            "identifier": "https://doi.org/10.25625/JUQK7N/5V3SZE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173646"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_SHIKOKU_BASIN_FLOOR_NEAR_KINAN_SEAMOUNT_CHAIN.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 4451,
+            "@id": "https://doi.org/10.25625/JUQK7N/LGRSIM",
+            "identifier": "https://doi.org/10.25625/JUQK7N/LGRSIM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173683"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_SOCIETY_ISLANDS.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 127340,
+            "@id": "https://doi.org/10.25625/JUQK7N/QSLMDH",
+            "identifier": "https://doi.org/10.25625/JUQK7N/QSLMDH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173650"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_SOLITARY_SEAMOUNTS.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 4498,
+            "@id": "https://doi.org/10.25625/JUQK7N/6WXXUT",
+            "identifier": "https://doi.org/10.25625/JUQK7N/6WXXUT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173722"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_SOUTHERN_AZORES_SEAMOUNT_CHAIN.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 23657,
+            "@id": "https://doi.org/10.25625/JUQK7N/YV0JTI",
+            "identifier": "https://doi.org/10.25625/JUQK7N/YV0JTI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173708"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_SOUTHWESTERN_SEAMOUNT_PROVINCE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 7034,
+            "@id": "https://doi.org/10.25625/JUQK7N/DYPVLI",
+            "identifier": "https://doi.org/10.25625/JUQK7N/DYPVLI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173713"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_SUNDA_ARC.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 14257,
+            "@id": "https://doi.org/10.25625/JUQK7N/4Z5YZ6",
+            "identifier": "https://doi.org/10.25625/JUQK7N/4Z5YZ6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173727"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_TARAVA_SEAMOUNT_CHAIN.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 4395,
+            "@id": "https://doi.org/10.25625/JUQK7N/CJHLKD",
+            "identifier": "https://doi.org/10.25625/JUQK7N/CJHLKD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173728"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_TASMANTID_SEAMOUNTS.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 30531,
+            "@id": "https://doi.org/10.25625/JUQK7N/QCFZKJ",
+            "identifier": "https://doi.org/10.25625/JUQK7N/QCFZKJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173734"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_TOKELAU_SEAMOUNTS.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 15700,
+            "@id": "https://doi.org/10.25625/JUQK7N/M8Z2OV",
+            "identifier": "https://doi.org/10.25625/JUQK7N/M8Z2OV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173717"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_TONGA_ARC.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 288413,
+            "@id": "https://doi.org/10.25625/JUQK7N/KZCYRM",
+            "identifier": "https://doi.org/10.25625/JUQK7N/KZCYRM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173716"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_TORE-MADEIRA_RISE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 40282,
+            "@id": "https://doi.org/10.25625/JUQK7N/KSRTBL",
+            "identifier": "https://doi.org/10.25625/JUQK7N/KSRTBL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173687"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_TRINDADE-VITORIA_RISE.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 23349,
+            "@id": "https://doi.org/10.25625/JUQK7N/JGXB2U",
+            "identifier": "https://doi.org/10.25625/JUQK7N/JGXB2U",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173659"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_TUVALU_SEAMOUNT_CHAIN.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 38220,
+            "@id": "https://doi.org/10.25625/JUQK7N/SIS4OH",
+            "identifier": "https://doi.org/10.25625/JUQK7N/SIS4OH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173668"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_TYPHOON_SEAMOUNT_GROUP.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 4386,
+            "@id": "https://doi.org/10.25625/JUQK7N/FPCROY",
+            "identifier": "https://doi.org/10.25625/JUQK7N/FPCROY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173701"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_UJLAN_SEAMOUNTS.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 5977,
+            "@id": "https://doi.org/10.25625/JUQK7N/9LDGTT",
+            "identifier": "https://doi.org/10.25625/JUQK7N/9LDGTT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173673"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_UNION_SEAMOUNT_CHAIN.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 3462,
+            "@id": "https://doi.org/10.25625/JUQK7N/2HKMDF",
+            "identifier": "https://doi.org/10.25625/JUQK7N/2HKMDF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173678"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_WAKE_SEAMOUNT_GROUP.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 53018,
+            "@id": "https://doi.org/10.25625/JUQK7N/MIRL4O",
+            "identifier": "https://doi.org/10.25625/JUQK7N/MIRL4O",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173738"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2026-06-JUQK7N_s_YAMATO_SEAMOUNT_CHAIN.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 18670,
+            "@id": "https://doi.org/10.25625/JUQK7N/T5J4AB",
+            "identifier": "https://doi.org/10.25625/JUQK7N/T5J4AB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/173677"
+        }
+    ],
+    "license_title": "Creative Commons Attribution-ShareAlike 4.0 International",
+    "subjects": [
+        "Earth and Environmental Sciences"
+    ],
+    "publications": [
+        {}
+    ]
+}

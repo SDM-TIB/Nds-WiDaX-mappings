@@ -1,0 +1,107 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/JJU9AJ",
+    "identifier": "https://doi.org/10.25625/JJU9AJ",
+    "name": "Test Dataset",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Pedro",
+            "familyName": "Costa Klein",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "name": "Costa Klein, Pedro"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Pedro",
+            "familyName": "Costa Klein",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "name": "Costa Klein, Pedro"
+        }
+    ],
+    "datePublished": "2023-04-24",
+    "dateModified": "2024-01-31",
+    "version": "4",
+    "description": "Test Dataset",
+    "keywords": [
+        "Computer and Information Science"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "test.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 5,
+            "@id": "https://doi.org/10.25625/JJU9AJ/AOGFJ3",
+            "identifier": "https://doi.org/10.25625/JJU9AJ/AOGFJ3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/58124"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "test_dataset.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 40,
+            "description": "test_dataset",
+            "@id": "https://doi.org/10.25625/JJU9AJ/FIJ7M8",
+            "identifier": "https://doi.org/10.25625/JJU9AJ/FIJ7M8",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/58201"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "c04_helio.tar",
+            "encodingFormat": "application/x-tar",
+            "contentSize": 4416929280,
+            "description": "API Upload Test",
+            "@id": "https://doi.org/10.25625/JJU9AJ/3IN1ZG",
+            "identifier": "https://doi.org/10.25625/JJU9AJ/3IN1ZG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/58542"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "datafile-1.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 43,
+            "description": "Big file test",
+            "@id": "https://doi.org/10.25625/JJU9AJ/SFHMLR",
+            "identifier": "https://doi.org/10.25625/JJU9AJ/SFHMLR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/70663"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "datafile.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 11,
+            "description": "API Upload Test",
+            "@id": "https://doi.org/10.25625/JJU9AJ/ZR5IW7",
+            "identifier": "https://doi.org/10.25625/JJU9AJ/ZR5IW7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/58541"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Computer and Information Science"
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/IWHFEY",
+    "identifier": "https://doi.org/10.25625/IWHFEY",
+    "name": "Application-agnostic Provenance Auditing for HPC Systems Using libc Interposition",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Maxim",
+            "familyName": "Barnsorf",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Gesellschaft f\u00fcr wissenschaftliche Datenverarbeitung mbH G\u00f6ttingen"
+            },
+            "name": "Barnsorf, Maxim"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Maxim",
+            "familyName": "Barnsorf",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Gesellschaft f\u00fcr wissenschaftliche Datenverarbeitung mbH G\u00f6ttingen"
+            },
+            "name": "Barnsorf, Maxim"
+        }
+    ],
+    "datePublished": "2026-07-29",
+    "dateModified": "2026-07-29",
+    "version": "1",
+    "description": "Reproducibility is fundamental to scientific integrity, and as computational experiments grow in complexity, systematically recording the data consumed, software invoked, and environment in which execution occurred becomes increasingly critical. This challenge is especially pronounced in High-Performance Computing environments, where workflows span multiple nodes, coordinated through job schedulers, and operate at a scale that makes manual documentation entirely infeasible. Existing Provenance Auditing Tools were designed for general-purpose systems and fail to meet the combined requirements of HPC deployment, namely low overhead, transparency to the user, integration with job schedulers, applicability across a broad spectrum of computations, and compatibility with data lake storage for long-term artifact preservation. A gap analysis of thirty existing tools conducted in earlier work found that no publicly available system satisfies all of these criteria simultaneously. This thesis presents the design and implementation of a Provenance Auditing Tool purpose-built for HPC. The tool uses libc interposition via LD_PRELOAD to transparently capture file access operations and process relationships across entire jobs without requiring modifications to user code or applications. Provenance data is stored in a database and made accessible through interfaces for querying prior jobs, generating graphical dependency overviews, and restoring earlier file states to enable rerunning of previous computations, with artifacts preserved in a data lake. Validation demonstrates correct behavior for C and Python workloads including com- plex process trees, but also reveals that even minimal instrumentation causes reproducible crashes in highly concurrent applications, indicating that libc interposition cannot be assumed universally safe in production HPC environments. Performance evaluation identifies file descriptor path resolution as the dominant source of overhead, a bottleneck shared by comparable tools and addressable by delegating resolution to a background thread. The results motivate a transition toward modern kernel instrumentation as the most promising direction for future work. While kernel instrumentation has been used numerous times for provenance auditing, publicly available approaches were not developed with the specific constraints of HPC environments in mind. Modern mechanisms in this area offer universal applicability and do not interfere with host processes, and could be integrated directly into the processing and storage architecture developed in this thesis.",
+    "keywords": [
+        "Computer and Information Science",
+        "HPC"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "maxim_barnstorf_automatic_hpc_native_data_provenance.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 1393249,
+            "@id": "https://doi.org/10.25625/IWHFEY/ZOBOJO",
+            "identifier": "https://doi.org/10.25625/IWHFEY/ZOBOJO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/188245"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Computer and Information Science"
+    ]
+}

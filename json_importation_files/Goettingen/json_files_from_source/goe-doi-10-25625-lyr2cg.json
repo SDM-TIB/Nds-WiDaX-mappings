@@ -1,0 +1,154 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/LYR2CG",
+    "identifier": "https://doi.org/10.25625/LYR2CG",
+    "name": "Replication Data for: Analysis of divergence-preserving unfitted finite element methods for the mixed Poisson problem",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Christoph",
+            "familyName": "Lehrenfeld",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Georg-August-Universit\u00e4t G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0003-0170-8468",
+            "@id": "https://orcid.org/0000-0003-0170-8468",
+            "identifier": "https://orcid.org/0000-0003-0170-8468",
+            "name": "Lehrenfeld, Christoph"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Igor",
+            "familyName": "Voulis",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Georg-August-Universit\u00e4t G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-7313-032X",
+            "@id": "https://orcid.org/0000-0002-7313-032X",
+            "identifier": "https://orcid.org/0000-0002-7313-032X",
+            "name": "Voulis, Igor"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Tim",
+            "familyName": "van Beeck",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Georg-August-Universit\u00e4t G\u00f6ttingen"
+            },
+            "name": "van Beeck, Tim"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Christoph",
+            "familyName": "Lehrenfeld",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Georg-August-Universit\u00e4t G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0003-0170-8468",
+            "@id": "https://orcid.org/0000-0003-0170-8468",
+            "identifier": "https://orcid.org/0000-0003-0170-8468",
+            "name": "Lehrenfeld, Christoph"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Igor",
+            "familyName": "Voulis",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Georg-August-Universit\u00e4t G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-7313-032X",
+            "@id": "https://orcid.org/0000-0002-7313-032X",
+            "identifier": "https://orcid.org/0000-0002-7313-032X",
+            "name": "Voulis, Igor"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Tim",
+            "familyName": "van Beeck",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Georg-August-Universit\u00e4t G\u00f6ttingen"
+            },
+            "name": "van Beeck, Tim"
+        }
+    ],
+    "datePublished": "2023-06-16",
+    "dateModified": "2024-04-05",
+    "version": "2",
+    "description": "Replication Data for: Analysis of divergence-preserving unfitted finite element methods for the mixed Poisson problem Requirement: ngsxfem (version xfem 2.1.2301). Installation instructions are provided at http://github.com/ngsxfem/ngsxfem (easiest is a pip installation) and a docker image is hosted at https://hub.docker.com/r/ngsxfem/ngsxfem . Reproduction instructions: Call the python script \"unfmixed.py\" for convergence studies. By default the Dirichlet case and several post-processing versions are active. The parameters are given at the beginning of the script and should be self-explanatory.",
+    "keywords": [
+        "Mathematical Sciences",
+        "Unfitted FEM",
+        "Mixed FEM",
+        "Poisson problem",
+        "Numerical analysis"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "cut_stencils.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 5099,
+            "description": "script to evaluate sparsity pattern for a set of GP stabilized mixed Poisson problems",
+            "@id": "https://doi.org/10.25625/LYR2CG/QT9YUK",
+            "identifier": "https://doi.org/10.25625/LYR2CG/QT9YUK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/72833"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "drawmesh.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 2227,
+            "description": "simple script to write tikz file to draw mesh and cut interface with latex",
+            "@id": "https://doi.org/10.25625/LYR2CG/JDTBA3",
+            "identifier": "https://doi.org/10.25625/LYR2CG/JDTBA3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/72830"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "estcond.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 1357,
+            "description": "library for a simple condition number estimator based on (inverse) power iterations",
+            "@id": "https://doi.org/10.25625/LYR2CG/FMMIFA",
+            "identifier": "https://doi.org/10.25625/LYR2CG/FMMIFA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/72831"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "unfmixed.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 27668,
+            "description": "main runner script for convergence studies of several version of unfitted mixed methods",
+            "@id": "https://doi.org/10.25625/LYR2CG/CGLOIU",
+            "identifier": "https://doi.org/10.25625/LYR2CG/CGLOIU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/72834"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Mathematical Sciences"
+    ]
+}

@@ -1,0 +1,962 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/RFU04J",
+    "identifier": "https://doi.org/10.25625/RFU04J",
+    "name": "Nursing Activity Recognition with IMU and Low-Resolution Thermal Imaging (Two Studies)",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Fenja Tjalda",
+            "familyName": "Hesselmann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institut f\u00fcr technische Assistenzsysteme, Jade Hochschule"
+            },
+            "sameAs": "https://orcid.org/0000-0003-0395-3854",
+            "@id": "https://orcid.org/0000-0003-0395-3854",
+            "identifier": "https://orcid.org/0000-0003-0395-3854",
+            "name": "Hesselmann, Fenja Tjalda"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Frank",
+            "familyName": "Wallhoff",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institut f\u00fcr technische Assistenzsysteme, Jade Hochschule"
+            },
+            "sameAs": "https://orcid.org/0000-0002-7791-3225",
+            "@id": "https://orcid.org/0000-0002-7791-3225",
+            "identifier": "https://orcid.org/0000-0002-7791-3225",
+            "name": "Wallhoff, Frank"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Fenja Tjalda",
+            "familyName": "Hesselmann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institut f\u00fcr technische Assistenzsysteme, Jade Hochschule"
+            },
+            "sameAs": "https://orcid.org/0000-0003-0395-3854",
+            "@id": "https://orcid.org/0000-0003-0395-3854",
+            "identifier": "https://orcid.org/0000-0003-0395-3854",
+            "name": "Hesselmann, Fenja Tjalda"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Frank",
+            "familyName": "Wallhoff",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institut f\u00fcr technische Assistenzsysteme, Jade Hochschule"
+            },
+            "sameAs": "https://orcid.org/0000-0002-7791-3225",
+            "@id": "https://orcid.org/0000-0002-7791-3225",
+            "identifier": "https://orcid.org/0000-0002-7791-3225",
+            "name": "Wallhoff, Frank"
+        }
+    ],
+    "datePublished": "2026-05-08",
+    "dateModified": "2026-05-08",
+    "version": "1",
+    "description": "This dataset contains recorded and preprocessed data from two studies on nursing activity recognition. Thirteen nursing activities were performed by trained professional nursing staff. Participants wore 10 inertial measurement units (IMUs) placed on the body (upper arms, wrists, upper and lower back, thighs, and ankles). In addition, a low-resolution thermal camera (24\u00d732 pixels) recorded the activities. For each study, the dataset provides time-synchronized multimodal recordings and a uniform sampling rate of 60 Hz. Each participant completed two runs, which are provided as separate files. The synchronized files include (i) IMU signals, (ii) the activity label per timestamp, and (iii) the corresponding thermal frame per timestamp. In addition to the synchronized recordings, we provide derived windowed data for machine-learning experiments. The windowed data were downsampled to 30 Hz, segmented into 1-second windows with 50% overlap, and windows without relevant target activities were removed. Window labels were assigned using majority vote within each window. Study 2 includes a stress condition: in the second run, participants performed a mental arithmetic task by counting backwards from 1678 in steps of 13, with 10 seconds allowed per step, while conducting the nursing activities. Windowed data for Study 2 are therefore provided separately for run 1 (baseline) and run 2 (stress). Please see README.md for file structure, data schema, label lists, and preprocessing details. This dataset is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0). You may share and adapt the data for non-commercial purposes, provided that you give appropriate credit and distribute contributions under the same license. The preprocessing code included in this record is licensed under the MIT License (see the corresponding LICENSE file in the code folder).",
+    "keywords": [
+        "Computer and Information Science",
+        "Medicine, Health and Life Sciences",
+        "human activity recognition",
+        "IMU",
+        "thermal imaging",
+        "wearable sensors"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "Nursing Activity Recognition for Automated Care Documentation in Clinical Settings"
+        }
+    ],
+    "license": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "README.md",
+            "encodingFormat": "text/markdown",
+            "contentSize": 7153,
+            "@id": "https://doi.org/10.25625/RFU04J/DV0RYY",
+            "identifier": "https://doi.org/10.25625/RFU04J/DV0RYY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/162723"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "create_windowed_npy.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 4095,
+            "@id": "https://doi.org/10.25625/RFU04J/K4DSK5",
+            "identifier": "https://doi.org/10.25625/RFU04J/K4DSK5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159920"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "LICENSE.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 1159,
+            "@id": "https://doi.org/10.25625/RFU04J/YHQUCX",
+            "identifier": "https://doi.org/10.25625/RFU04J/YHQUCX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159921"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "1736-1.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 762914357,
+            "@id": "https://doi.org/10.25625/RFU04J/NSZAOY",
+            "identifier": "https://doi.org/10.25625/RFU04J/NSZAOY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/166824"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "1736-1.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1560489450,
+            "@id": "https://doi.org/10.25625/RFU04J/2EMMF1",
+            "identifier": "https://doi.org/10.25625/RFU04J/2EMMF1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167337"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "1736-2.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 636086189,
+            "@id": "https://doi.org/10.25625/RFU04J/PU3UDW",
+            "identifier": "https://doi.org/10.25625/RFU04J/PU3UDW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/166825"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "1736-2.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1301417613,
+            "@id": "https://doi.org/10.25625/RFU04J/BXQABA",
+            "identifier": "https://doi.org/10.25625/RFU04J/BXQABA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167338"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2764-1.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 853518152,
+            "@id": "https://doi.org/10.25625/RFU04J/SC23T6",
+            "identifier": "https://doi.org/10.25625/RFU04J/SC23T6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/166822"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2764-1.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1746325394,
+            "@id": "https://doi.org/10.25625/RFU04J/132QLJ",
+            "identifier": "https://doi.org/10.25625/RFU04J/132QLJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167336"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2764-2.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 725286855,
+            "@id": "https://doi.org/10.25625/RFU04J/1T5L01",
+            "identifier": "https://doi.org/10.25625/RFU04J/1T5L01",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/166823"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2764-2.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1484276079,
+            "@id": "https://doi.org/10.25625/RFU04J/YJDCHK",
+            "identifier": "https://doi.org/10.25625/RFU04J/YJDCHK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167332"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "5575-1.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 773439397,
+            "@id": "https://doi.org/10.25625/RFU04J/SH0SWP",
+            "identifier": "https://doi.org/10.25625/RFU04J/SH0SWP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/166827"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "5575-1.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1581221906,
+            "@id": "https://doi.org/10.25625/RFU04J/HI4TUQ",
+            "identifier": "https://doi.org/10.25625/RFU04J/HI4TUQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167331"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "5575-2.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 159909489,
+            "@id": "https://doi.org/10.25625/RFU04J/WKLXPA",
+            "identifier": "https://doi.org/10.25625/RFU04J/WKLXPA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/166826"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "5575-2.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 326909990,
+            "@id": "https://doi.org/10.25625/RFU04J/GCTWVD",
+            "identifier": "https://doi.org/10.25625/RFU04J/GCTWVD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167330"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "6667-1.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1023850324,
+            "@id": "https://doi.org/10.25625/RFU04J/QNEQWO",
+            "identifier": "https://doi.org/10.25625/RFU04J/QNEQWO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/166829"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "6667-1.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 2094857863,
+            "@id": "https://doi.org/10.25625/RFU04J/W39XWG",
+            "identifier": "https://doi.org/10.25625/RFU04J/W39XWG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167335"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "6667-2.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 762037137,
+            "@id": "https://doi.org/10.25625/RFU04J/FKDSVV",
+            "identifier": "https://doi.org/10.25625/RFU04J/FKDSVV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/166828"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "6667-2.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1559175545,
+            "@id": "https://doi.org/10.25625/RFU04J/HP42BR",
+            "identifier": "https://doi.org/10.25625/RFU04J/HP42BR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167334"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "7439-1.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 839221563,
+            "@id": "https://doi.org/10.25625/RFU04J/BGJIOJ",
+            "identifier": "https://doi.org/10.25625/RFU04J/BGJIOJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167288"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "7439-1.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1717130217,
+            "@id": "https://doi.org/10.25625/RFU04J/HECSAQ",
+            "identifier": "https://doi.org/10.25625/RFU04J/HECSAQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167333"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "7439-2.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 673713726,
+            "@id": "https://doi.org/10.25625/RFU04J/MGVYEM",
+            "identifier": "https://doi.org/10.25625/RFU04J/MGVYEM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167284"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "7439-2.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1378543738,
+            "@id": "https://doi.org/10.25625/RFU04J/K6P1A4",
+            "identifier": "https://doi.org/10.25625/RFU04J/K6P1A4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167329"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "8263-1.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 653628013,
+            "@id": "https://doi.org/10.25625/RFU04J/VUZVK8",
+            "identifier": "https://doi.org/10.25625/RFU04J/VUZVK8",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167286"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "8263-1.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1337229498,
+            "@id": "https://doi.org/10.25625/RFU04J/3E5BUP",
+            "identifier": "https://doi.org/10.25625/RFU04J/3E5BUP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167406"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "8263-2.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 604247418,
+            "@id": "https://doi.org/10.25625/RFU04J/7GHPYA",
+            "identifier": "https://doi.org/10.25625/RFU04J/7GHPYA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167285"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "8263-2.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1236299485,
+            "@id": "https://doi.org/10.25625/RFU04J/P42DD5",
+            "identifier": "https://doi.org/10.25625/RFU04J/P42DD5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167407"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "8464-1.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1039463369,
+            "@id": "https://doi.org/10.25625/RFU04J/K7QI3V",
+            "identifier": "https://doi.org/10.25625/RFU04J/K7QI3V",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167287"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "8464-1.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 2126608892,
+            "@id": "https://doi.org/10.25625/RFU04J/L35FBZ",
+            "identifier": "https://doi.org/10.25625/RFU04J/L35FBZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167410"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "8464-2.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 941667122,
+            "@id": "https://doi.org/10.25625/RFU04J/WTJFKY",
+            "identifier": "https://doi.org/10.25625/RFU04J/WTJFKY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167280"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "8464-2.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1926280102,
+            "@id": "https://doi.org/10.25625/RFU04J/0UDPJD",
+            "identifier": "https://doi.org/10.25625/RFU04J/0UDPJD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167412"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "8559-1.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 727566845,
+            "@id": "https://doi.org/10.25625/RFU04J/6B3WIB",
+            "identifier": "https://doi.org/10.25625/RFU04J/6B3WIB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167279"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "8559-1.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1489139863,
+            "@id": "https://doi.org/10.25625/RFU04J/O6ZFKX",
+            "identifier": "https://doi.org/10.25625/RFU04J/O6ZFKX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167408"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "8559-2.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 562761124,
+            "@id": "https://doi.org/10.25625/RFU04J/GJMRSS",
+            "identifier": "https://doi.org/10.25625/RFU04J/GJMRSS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167282"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "8559-2.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1151654947,
+            "@id": "https://doi.org/10.25625/RFU04J/GQOQQG",
+            "identifier": "https://doi.org/10.25625/RFU04J/GQOQQG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167409"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "9374-1.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 716866682,
+            "@id": "https://doi.org/10.25625/RFU04J/QP0MPJ",
+            "identifier": "https://doi.org/10.25625/RFU04J/QP0MPJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167283"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "9374-1.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1466367010,
+            "@id": "https://doi.org/10.25625/RFU04J/WNBSCB",
+            "identifier": "https://doi.org/10.25625/RFU04J/WNBSCB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167411"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "9374-2.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 547148649,
+            "@id": "https://doi.org/10.25625/RFU04J/LQFCAH",
+            "identifier": "https://doi.org/10.25625/RFU04J/LQFCAH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167281"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "9374-2.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1119244222,
+            "@id": "https://doi.org/10.25625/RFU04J/MTXV6T",
+            "identifier": "https://doi.org/10.25625/RFU04J/MTXV6T",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/167380"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "0424-base.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 776164546,
+            "@id": "https://doi.org/10.25625/RFU04J/6PKVL9",
+            "identifier": "https://doi.org/10.25625/RFU04J/6PKVL9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161794"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "0424-base.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1587831231,
+            "@id": "https://doi.org/10.25625/RFU04J/SCPGRK",
+            "identifier": "https://doi.org/10.25625/RFU04J/SCPGRK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/166391"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "0424-stress.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 548324537,
+            "@id": "https://doi.org/10.25625/RFU04J/X0QS27",
+            "identifier": "https://doi.org/10.25625/RFU04J/X0QS27",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161795"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "0424-stress.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1121943880,
+            "@id": "https://doi.org/10.25625/RFU04J/RTAELR",
+            "identifier": "https://doi.org/10.25625/RFU04J/RTAELR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/164586"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "0863-base.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 790651997,
+            "@id": "https://doi.org/10.25625/RFU04J/WCSVOZ",
+            "identifier": "https://doi.org/10.25625/RFU04J/WCSVOZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/164486"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "0863-base.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1595741140,
+            "@id": "https://doi.org/10.25625/RFU04J/SRAAZ6",
+            "identifier": "https://doi.org/10.25625/RFU04J/SRAAZ6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/166803"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "0863-stress.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 552187965,
+            "@id": "https://doi.org/10.25625/RFU04J/0HNFGI",
+            "identifier": "https://doi.org/10.25625/RFU04J/0HNFGI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161943"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "0863-stress.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1114514689,
+            "@id": "https://doi.org/10.25625/RFU04J/FDZM3K",
+            "identifier": "https://doi.org/10.25625/RFU04J/FDZM3K",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/166805"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "1349-base.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 845965927,
+            "@id": "https://doi.org/10.25625/RFU04J/OEOAXT",
+            "identifier": "https://doi.org/10.25625/RFU04J/OEOAXT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/164582"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "1349-base.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1730808713,
+            "@id": "https://doi.org/10.25625/RFU04J/P1U7P8",
+            "identifier": "https://doi.org/10.25625/RFU04J/P1U7P8",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/166844"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "1349-stress.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 449901079,
+            "@id": "https://doi.org/10.25625/RFU04J/ONF59T",
+            "identifier": "https://doi.org/10.25625/RFU04J/ONF59T",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/165712"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "1349-stress.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 920452767,
+            "@id": "https://doi.org/10.25625/RFU04J/NGZSOH",
+            "identifier": "https://doi.org/10.25625/RFU04J/NGZSOH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/166830"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2583-base.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 596614384,
+            "@id": "https://doi.org/10.25625/RFU04J/78QB4Q",
+            "identifier": "https://doi.org/10.25625/RFU04J/78QB4Q",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/164107"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2583-base.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1220452329,
+            "@id": "https://doi.org/10.25625/RFU04J/J9UKNK",
+            "identifier": "https://doi.org/10.25625/RFU04J/J9UKNK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/166837"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2583-stress.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 429706759,
+            "@id": "https://doi.org/10.25625/RFU04J/WIOZY2",
+            "identifier": "https://doi.org/10.25625/RFU04J/WIOZY2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/164106"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "2583-stress.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 878699118,
+            "@id": "https://doi.org/10.25625/RFU04J/V9VOUB",
+            "identifier": "https://doi.org/10.25625/RFU04J/V9VOUB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/166838"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "6548-base.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 925073990,
+            "@id": "https://doi.org/10.25625/RFU04J/FLBDO8",
+            "identifier": "https://doi.org/10.25625/RFU04J/FLBDO8",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/164584"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "6548-base.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1892370882,
+            "@id": "https://doi.org/10.25625/RFU04J/KV3SPQ",
+            "identifier": "https://doi.org/10.25625/RFU04J/KV3SPQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/166842"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "6548-stress.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 612331380,
+            "@id": "https://doi.org/10.25625/RFU04J/IRQI65",
+            "identifier": "https://doi.org/10.25625/RFU04J/IRQI65",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/166821"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "6548-stress.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1253165689,
+            "@id": "https://doi.org/10.25625/RFU04J/ATOC9B",
+            "identifier": "https://doi.org/10.25625/RFU04J/ATOC9B",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/166836"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "6567-base.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 636826785,
+            "@id": "https://doi.org/10.25625/RFU04J/LQSXX0",
+            "identifier": "https://doi.org/10.25625/RFU04J/LQSXX0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/166818"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "6567-base.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1302544542,
+            "@id": "https://doi.org/10.25625/RFU04J/9KQOKW",
+            "identifier": "https://doi.org/10.25625/RFU04J/9KQOKW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/166831"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "6567-stress.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 379748999,
+            "@id": "https://doi.org/10.25625/RFU04J/LRQKAX",
+            "identifier": "https://doi.org/10.25625/RFU04J/LRQKAX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/164104"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "6567-stress.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 776972225,
+            "@id": "https://doi.org/10.25625/RFU04J/3ZF8CG",
+            "identifier": "https://doi.org/10.25625/RFU04J/3ZF8CG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/166839"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "7324-stress.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 520755113,
+            "@id": "https://doi.org/10.25625/RFU04J/SK2P9W",
+            "identifier": "https://doi.org/10.25625/RFU04J/SK2P9W",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/164108"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "7324-stress.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1065362435,
+            "@id": "https://doi.org/10.25625/RFU04J/AFHKL3",
+            "identifier": "https://doi.org/10.25625/RFU04J/AFHKL3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/166841"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "8275-base.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 907074175,
+            "@id": "https://doi.org/10.25625/RFU04J/0HWBRT",
+            "identifier": "https://doi.org/10.25625/RFU04J/0HWBRT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/164585"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "8275-base.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1855886317,
+            "@id": "https://doi.org/10.25625/RFU04J/VXG8PH",
+            "identifier": "https://doi.org/10.25625/RFU04J/VXG8PH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/166832"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "8275-stress.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 600126256,
+            "@id": "https://doi.org/10.25625/RFU04J/IBMMB7",
+            "identifier": "https://doi.org/10.25625/RFU04J/IBMMB7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/164109"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "8275-stress.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1228059015,
+            "@id": "https://doi.org/10.25625/RFU04J/LTZZW7",
+            "identifier": "https://doi.org/10.25625/RFU04J/LTZZW7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/166833"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "8368-base.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 826649820,
+            "@id": "https://doi.org/10.25625/RFU04J/6EAA0F",
+            "identifier": "https://doi.org/10.25625/RFU04J/6EAA0F",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/166819"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "8368-base.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1690740251,
+            "@id": "https://doi.org/10.25625/RFU04J/FZWACE",
+            "identifier": "https://doi.org/10.25625/RFU04J/FZWACE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/166843"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "8368-stress.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 701798568,
+            "@id": "https://doi.org/10.25625/RFU04J/WBRS18",
+            "identifier": "https://doi.org/10.25625/RFU04J/WBRS18",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/166820"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "8368-stress.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1435350609,
+            "@id": "https://doi.org/10.25625/RFU04J/NAWDCB",
+            "identifier": "https://doi.org/10.25625/RFU04J/NAWDCB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/166840"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "9402-base.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 474572538,
+            "@id": "https://doi.org/10.25625/RFU04J/9P7I2Y",
+            "identifier": "https://doi.org/10.25625/RFU04J/9P7I2Y",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/164060"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "9402-base.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 970756503,
+            "@id": "https://doi.org/10.25625/RFU04J/YTPHM3",
+            "identifier": "https://doi.org/10.25625/RFU04J/YTPHM3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/166834"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "9402-stress.pkl",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 337980664,
+            "@id": "https://doi.org/10.25625/RFU04J/5HSPRN",
+            "identifier": "https://doi.org/10.25625/RFU04J/5HSPRN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/164059"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "9402-stress.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 690990548,
+            "@id": "https://doi.org/10.25625/RFU04J/ECRZU5",
+            "identifier": "https://doi.org/10.25625/RFU04J/ECRZU5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/166835"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "activities_30Hz.npy",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 3916456,
+            "@id": "https://doi.org/10.25625/RFU04J/4V9PVS",
+            "identifier": "https://doi.org/10.25625/RFU04J/4V9PVS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159922"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "excluded_activities.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 144,
+            "@id": "https://doi.org/10.25625/RFU04J/3BU5NL",
+            "identifier": "https://doi.org/10.25625/RFU04J/3BU5NL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159919"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "IMU_columns.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 4206,
+            "@id": "https://doi.org/10.25625/RFU04J/NLFLAG",
+            "identifier": "https://doi.org/10.25625/RFU04J/NLFLAG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159925"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "unique_activities.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 262,
+            "@id": "https://doi.org/10.25625/RFU04J/CZOGZ0",
+            "identifier": "https://doi.org/10.25625/RFU04J/CZOGZ0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159924"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "users_30Hz.npy",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 602640,
+            "@id": "https://doi.org/10.25625/RFU04J/WGS3WA",
+            "identifier": "https://doi.org/10.25625/RFU04J/WGS3WA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159923"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "x_IMU_30Hz.npy",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 2078666528,
+            "@id": "https://doi.org/10.25625/RFU04J/JOLHE4",
+            "identifier": "https://doi.org/10.25625/RFU04J/JOLHE4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/162637"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "x_thermal_30Hz.npy",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 3470469248,
+            "@id": "https://doi.org/10.25625/RFU04J/MJXQC3",
+            "identifier": "https://doi.org/10.25625/RFU04J/MJXQC3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/162215"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "activities_30Hz-base.npy",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1708224,
+            "@id": "https://doi.org/10.25625/RFU04J/OLHTQI",
+            "identifier": "https://doi.org/10.25625/RFU04J/OLHTQI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159969"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "activities_30Hz-stress.npy",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1542552,
+            "@id": "https://doi.org/10.25625/RFU04J/4L0G7I",
+            "identifier": "https://doi.org/10.25625/RFU04J/4L0G7I",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159966"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "excluded_activities.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 188,
+            "@id": "https://doi.org/10.25625/RFU04J/3HG0MA",
+            "identifier": "https://doi.org/10.25625/RFU04J/3HG0MA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159967"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "IMU_columns.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 4206,
+            "@id": "https://doi.org/10.25625/RFU04J/ITFSHP",
+            "identifier": "https://doi.org/10.25625/RFU04J/ITFSHP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159964"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "unique_activities.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 262,
+            "@id": "https://doi.org/10.25625/RFU04J/82NQGG",
+            "identifier": "https://doi.org/10.25625/RFU04J/82NQGG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159963"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "users_30Hz-base.npy",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 262912,
+            "@id": "https://doi.org/10.25625/RFU04J/ZPNCOE",
+            "identifier": "https://doi.org/10.25625/RFU04J/ZPNCOE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159965"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "users_30Hz-stress.npy",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 237424,
+            "@id": "https://doi.org/10.25625/RFU04J/Z8JLFX",
+            "identifier": "https://doi.org/10.25625/RFU04J/Z8JLFX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159968"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "x_IMU_30Hz-base.npy",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 453302528,
+            "@id": "https://doi.org/10.25625/RFU04J/OQ4PKD",
+            "identifier": "https://doi.org/10.25625/RFU04J/OQ4PKD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159972"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "x_IMU_30Hz-stress.npy",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 409335728,
+            "@id": "https://doi.org/10.25625/RFU04J/ZZDHTK",
+            "identifier": "https://doi.org/10.25625/RFU04J/ZZDHTK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/159973"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "x_thermal_30Hz-base.npy",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1513635968,
+            "@id": "https://doi.org/10.25625/RFU04J/0WRMTH",
+            "identifier": "https://doi.org/10.25625/RFU04J/0WRMTH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/162212"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "x_thermal_30Hz-stress.npy",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1366825088,
+            "@id": "https://doi.org/10.25625/RFU04J/OG9SYM",
+            "identifier": "https://doi.org/10.25625/RFU04J/OG9SYM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/162213"
+        }
+    ],
+    "license_title": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+    "subjects": [
+        "Computer and Information Science",
+        "Medicine, Health and Life Sciences"
+    ],
+    "publications": [
+        {
+            "citation": "Nursing Activity Recognition for Automated Care Documentation in Clinical Settings"
+        }
+    ]
+}

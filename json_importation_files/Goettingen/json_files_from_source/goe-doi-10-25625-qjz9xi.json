@@ -1,0 +1,247 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/QJZ9XI",
+    "identifier": "https://doi.org/10.25625/QJZ9XI",
+    "name": "Rasters of vegetation canopy height estimated with spaceborne TanDEM-X data",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Michael",
+            "familyName": "Schlund",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Twente"
+            },
+            "sameAs": "https://orcid.org/0000-0001-6657-6713",
+            "@id": "https://orcid.org/0000-0001-6657-6713",
+            "identifier": "https://orcid.org/0000-0001-6657-6713",
+            "name": "Schlund, Michael"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Stefan",
+            "familyName": "Erasmi",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Th\u00fcnen Institute"
+            },
+            "sameAs": "https://orcid.org/0000-0002-6393-6071",
+            "@id": "https://orcid.org/0000-0002-6393-6071",
+            "identifier": "https://orcid.org/0000-0002-6393-6071",
+            "name": "Erasmi, Stefan"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Michael",
+            "familyName": "Schlund",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Twente"
+            },
+            "sameAs": "https://orcid.org/0000-0001-6657-6713",
+            "@id": "https://orcid.org/0000-0001-6657-6713",
+            "identifier": "https://orcid.org/0000-0001-6657-6713",
+            "name": "Schlund, Michael"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Stefan",
+            "familyName": "Erasmi",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Th\u00fcnen Institute"
+            },
+            "sameAs": "https://orcid.org/0000-0002-6393-6071",
+            "@id": "https://orcid.org/0000-0002-6393-6071",
+            "identifier": "https://orcid.org/0000-0002-6393-6071",
+            "name": "Erasmi, Stefan"
+        }
+    ],
+    "datePublished": "2022-07-07",
+    "dateModified": "2022-07-07",
+    "version": "1",
+    "description": "Raster data of vegetation canopy height derived from spaceborne interferometric synthetic aperture radar (InSAR) data of TanDEM-X with the support of spaceborne laser data of GEDI. In total, the four acquisitions cover the Harapan landscape and the majority of the Bukit Duabelas landscape of the Jambi province, Sumatra, Indonesia. Four variants of vegetation canopy height exist based on different estimation models. The use of the estimation model depends on focused land use type. In general, the sinc empirical estimation model is recommended to use. Pixel size: 25m. Geographic Coordinate System: EPSG 32748.",
+    "keywords": [
+        "Earth and Environmental Sciences",
+        "Vegetation canopy height",
+        "TanDEM-X"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "Schlund, M., Wenzel, A., Camarretta, N., Stiegler, C. and Erasmi, S. (2022), Vegetation canopy height estimation in dynamic tropical landscapes with TanDEM-X supported by GEDI data. Methods Ecol Evol. https://doi.org/10.1111/2041-210X.13933"
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "TDX_cc_height_2018-02-27_linear.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 38244949,
+            "@id": "https://doi.org/10.25625/QJZ9XI/3SCS6P",
+            "identifier": "https://doi.org/10.25625/QJZ9XI/3SCS6P",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/44350"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TDX_cc_height_2018-02-27_linear_empirical.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 38244949,
+            "@id": "https://doi.org/10.25625/QJZ9XI/KXPSKI",
+            "identifier": "https://doi.org/10.25625/QJZ9XI/KXPSKI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/44356"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TDX_cc_height_2018-02-27_sinc.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 38244949,
+            "@id": "https://doi.org/10.25625/QJZ9XI/CWPSNT",
+            "identifier": "https://doi.org/10.25625/QJZ9XI/CWPSNT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/44355"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TDX_cc_height_2018-02-27_sinc_empirical.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 38244949,
+            "@id": "https://doi.org/10.25625/QJZ9XI/IJUPLF",
+            "identifier": "https://doi.org/10.25625/QJZ9XI/IJUPLF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/44358"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TDX_cc_height_2018-05-09_linear.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 16652909,
+            "@id": "https://doi.org/10.25625/QJZ9XI/WOGPMJ",
+            "identifier": "https://doi.org/10.25625/QJZ9XI/WOGPMJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/44347"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TDX_cc_height_2018-05-09_linear_empirical.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 16652909,
+            "@id": "https://doi.org/10.25625/QJZ9XI/X2KVL4",
+            "identifier": "https://doi.org/10.25625/QJZ9XI/X2KVL4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/44361"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TDX_cc_height_2018-05-09_sinc.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 16652909,
+            "@id": "https://doi.org/10.25625/QJZ9XI/9WIZWS",
+            "identifier": "https://doi.org/10.25625/QJZ9XI/9WIZWS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/44362"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TDX_cc_height_2018-05-09_sinc_empirical.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 16652909,
+            "@id": "https://doi.org/10.25625/QJZ9XI/E9AJSR",
+            "identifier": "https://doi.org/10.25625/QJZ9XI/E9AJSR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/44348"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TDX_cc_height_2019-02-25_linear.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 37279949,
+            "@id": "https://doi.org/10.25625/QJZ9XI/IRCMBW",
+            "identifier": "https://doi.org/10.25625/QJZ9XI/IRCMBW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/44357"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TDX_cc_height_2019-02-25_linear_empirical.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 37279949,
+            "@id": "https://doi.org/10.25625/QJZ9XI/WFPO4Y",
+            "identifier": "https://doi.org/10.25625/QJZ9XI/WFPO4Y",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/44351"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TDX_cc_height_2019-02-25_sinc.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 37279949,
+            "@id": "https://doi.org/10.25625/QJZ9XI/CVZTGD",
+            "identifier": "https://doi.org/10.25625/QJZ9XI/CVZTGD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/44352"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TDX_cc_height_2019-02-25_sinc_empirical.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 37279949,
+            "@id": "https://doi.org/10.25625/QJZ9XI/ADGM0L",
+            "identifier": "https://doi.org/10.25625/QJZ9XI/ADGM0L",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/44353"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TDX_cc_height_2019-04-26_linear.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 15741305,
+            "@id": "https://doi.org/10.25625/QJZ9XI/WQRSBC",
+            "identifier": "https://doi.org/10.25625/QJZ9XI/WQRSBC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/44360"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TDX_cc_height_2019-04-26_linear_empirical.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 15741305,
+            "@id": "https://doi.org/10.25625/QJZ9XI/HSMTE8",
+            "identifier": "https://doi.org/10.25625/QJZ9XI/HSMTE8",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/44349"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TDX_cc_height_2019-04-26_sinc.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 15741305,
+            "@id": "https://doi.org/10.25625/QJZ9XI/35SNWG",
+            "identifier": "https://doi.org/10.25625/QJZ9XI/35SNWG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/44354"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TDX_cc_height_2019-04-26_sinc_empirical.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 15741305,
+            "@id": "https://doi.org/10.25625/QJZ9XI/7T3GWK",
+            "identifier": "https://doi.org/10.25625/QJZ9XI/7T3GWK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/44359"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Earth and Environmental Sciences"
+    ],
+    "publications": [
+        {
+            "citation": "Schlund, M., Wenzel, A., Camarretta, N., Stiegler, C. and Erasmi, S. (2022), Vegetation canopy height estimation in dynamic tropical landscapes with TanDEM-X supported by GEDI data. Methods Ecol Evol. https://doi.org/10.1111/2041-210X.13933"
+        }
+    ]
+}

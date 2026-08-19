@@ -1,0 +1,166 @@
+{
+  "author": "Jennifer D'Souza, Quentin Münch, Hamed Babaei Giglou",
+  "author_email": "jennifer.dsouza@tib.eu",
+  "creator_user_id": "270b6f85-9a22-470e-955a-4e9587c7f582",
+  "have_copyright": "Yes",
+  "id": "4dbd7b0c-ca2b-4f10-b1d7-50c2d4b32de2",
+  "isopen": true,
+  "license_id": "CC-BY-4.0",
+  "license_title": "Creative Commons Attribution 4.0 International",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "maintainer": "Jennifer D'Souza",
+  "maintainer_email": "jennifer.dsouza@tib.eu",
+  "metadata_created": "2025-05-28T10:02:16.873535",
+  "metadata_modified": "2025-05-28T10:21:16.204558",
+  "name": "yescieval-corpus",
+  "notes": "**YESciEval** is a benchmark dataset for evaluating the robustness of Large Language Models (LLMs) as evaluators in scientific question answering (scienceQ&A). It features multi-domain and biomedical question-answering instances with both standard and adversarial variants. The dataset is part of the [YESciEval framework](https://github.com/sciknoworg/YESciEval), developed to support robust, transparent, and scalable evaluation using open-source LLMs.\r\n\r\n---\r\n\r\n## 🔍 Overview\r\n\r\nYESciEval provides:\r\n\r\n- **ScienceQ&A datasets** generated using open-source LLMs\r\n- **Adversarial variants** designed using fine-grained rubric-based heuristics\r\n- **Evaluation scores** from multiple LLMs acting as evaluators (LLM-as-a-judge)\r\n\r\n---\r\n\r\n## 📂 Dataset Structure\r\n\r\nThe dataset is organized into two main parts:\r\n\r\n### 1. **Benign (Original) ScienceQ&A Data**\r\nSynthesized answers to research questions based on abstracts from relevant papers.\r\n\r\n- Sources:\r\n  - **ORKGSyn**: Multidisciplinary questions from the Open Research Knowledge Graph\r\n  - **BioASQ**: Biomedical questions from the BioASQ challenge\r\n\r\n- Format: For each Q&A instance:\r\n  - `question`: research question\r\n  - `abstracts`: relevant paper abstracts\r\n  - `answer`: LLM-generated synthesis\r\n\r\n### 2. **Adversarial ScienceQ&A Data**\r\nEach benign answer is perturbed with two types of adversarial modifications:\r\n\r\n- **Subtle Perturbations**: Realistic, light-weight errors designed to be difficult for models to detect\r\n- **Extreme Perturbations**: Significant modifications that should be easily identifiable by robust evaluators\r\n\r\nPerturbations target nine qualitative rubrics:\r\n- Cohesion\r\n- Conciseness\r\n- Readability\r\n- Coherence\r\n- Integration\r\n- Relevancy\r\n- Correctness\r\n- Completeness\r\n- Informativeness\r\n\r\nEach rubric has a defined subtle and extreme perturbation heuristic.\r\n\r\n---\r\n\r\n## 🧪 Evaluation Outputs\r\n\r\nEach dataset variant is scored using multiple open-source LLMs (e.g., LLaMA-3.1, Qwen-2.5, Mistral-Large) as evaluators. For each response, a JSON file records:\r\n\r\n- A 1–5 Likert score for each rubric\r\n- A rationale for the score\r\n\r\n---\r\n\r\n## 📊 Statistics\r\n\r\n### ORKGSyn (33 disciplines)\r\n- **Benign**: 348 Q&A pairs\r\n- **Subtle Adversarial**: 348 Q&A pairs\r\n- **Extreme Adversarial**: 348 Q&A pairs\r\n\r\n### BioASQ (Biomedical)\r\n- **Benign**: 73 Q&A pairs\r\n- **Subtle Adversarial**: 73 Q&A pairs\r\n- **Extreme Adversarial**: 73 Q&A pairs\r\n\r\nTotal evaluations: ~45,000 across models and variants.\r\n\r\n---\r\n\r\n## 🗃️ Access\r\n\r\nThe dataset is also released on the [YESciEval GitHub repository](https://github.com/sciknoworg/YESciEval/tree/main/experiments/dataset).\r\n\r\nA dedicated repository, as this one, with only the dataset files can be used to simplify integration into benchmarking pipelines.\r\n\r\n---\r\n\r\n## 📜 Citation\r\n\r\nIf you use this dataset, please cite the following:\r\n\r\n> D’Souza, J., Babaei Giglou, H., & Münch, Q. (2025). **YESciEval: Robust LLM-as-a-Judge for Scientific Question Answering**. *Proceedings of ACL 2025*. [Preprint](https://github.com/sciknoworg/YESciEval)\r\n\r\n---\r\n\r\n## 🛠️ License\r\n\r\nThis dataset is released under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.en).\r\n\r\n---\r\n\r\n## 🙋‍♀️ Questions?\r\n\r\nFor questions or collaborations, contact [Jennifer D’Souza](mailto:jennifer.dsouza@tib.eu).\r\n",
+  "num_resources": 2,
+  "num_tags": 9,
+  "organization": {
+    "id": "71f7bf65-eb79-43d5-bbb3-8bac53129eec",
+    "name": "tib",
+    "title": "TIB",
+    "type": "organization",
+    "description": "Technische Informationsbibliothek",
+    "image_url": "2018-01-23-104035.171142TIBWortBildmarkeBBRGB.PNG",
+    "created": "2018-01-23T11:36:35.480058",
+    "is_organization": true,
+    "approval_status": "approved",
+    "state": "active"
+  },
+  "owner_org": "71f7bf65-eb79-43d5-bbb3-8bac53129eec",
+  "private": false,
+  "state": "active",
+  "terms_of_usage": "Yes",
+  "title": "YESciEval Corpus",
+  "type": "dataset",
+  "url": "https://github.com/sciknoworg/YESciEval/tree/main/experiments/dataset",
+  "version": "",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2025-05-28T10:07:15.575309",
+      "datastore_active": false,
+      "description": "",
+      "format": "CSV",
+      "hash": "",
+      "id": "ca353e69-debe-4ab1-b5fe-29b403b93e39",
+      "last_modified": "2025-05-28T10:07:15.432003",
+      "metadata_modified": "2025-05-28T10:08:26.923158",
+      "mimetype": "application/zip",
+      "mimetype_inner": null,
+      "name": "YESciEval BioASQ Q&A Dataset",
+      "package_id": "4dbd7b0c-ca2b-4f10-b1d7-50c2d4b32de2",
+      "position": 0,
+      "resource_type": null,
+      "size": 29470889,
+      "state": "active",
+      "tracking_summary": {
+        "total": 5,
+        "recent": 1
+      },
+      "url": "https://data.uni-hannover.de/dataset/4dbd7b0c-ca2b-4f10-b1d7-50c2d4b32de2/resource/ca353e69-debe-4ab1-b5fe-29b403b93e39/download/bioasq-dataset.zip",
+      "url_type": "upload"
+    },
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2025-05-28T10:08:26.942302",
+      "datastore_active": false,
+      "description": "",
+      "format": "CSV",
+      "hash": "",
+      "id": "92032e41-3cfc-4427-98c2-f4f1638e7edb",
+      "last_modified": "2025-05-28T10:08:26.901035",
+      "metadata_modified": "2025-05-28T10:13:12.168810",
+      "mimetype": "application/zip",
+      "mimetype_inner": null,
+      "name": "YESciEval ORKG-Synthesis Q&A Dataset",
+      "package_id": "4dbd7b0c-ca2b-4f10-b1d7-50c2d4b32de2",
+      "position": 1,
+      "resource_type": null,
+      "size": 82283594,
+      "state": "active",
+      "tracking_summary": {
+        "total": 3,
+        "recent": 1
+      },
+      "url": "https://data.uni-hannover.de/dataset/4dbd7b0c-ca2b-4f10-b1d7-50c2d4b32de2/resource/92032e41-3cfc-4427-98c2-f4f1638e7edb/download/orkg-synthesis-dataset.zip",
+      "url_type": "upload"
+    }
+  ],
+  "tags": [
+    {
+      "display_name": "Artificial Intelligence",
+      "id": "f93349fd-242e-4906-8d6c-6eb23c023891",
+      "name": "Artificial Intelligence",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "LLMs",
+      "id": "831a1162-2ba7-4007-8d32-e5c8a4970298",
+      "name": "LLMs",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "LLMs as evaluators",
+      "id": "66a39da0-db35-45ae-8d50-93ee4bab7e15",
+      "name": "LLMs as evaluators",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Large Language Models",
+      "id": "9db73a6b-e915-4c6a-924b-7508eb4c6767",
+      "name": "Large Language Models",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "computational linguistics",
+      "id": "5e2b1d69-6a1f-4b9a-b311-cb33fd5b7bd8",
+      "name": "computational linguistics",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "llm-as-a-judge",
+      "id": "8706b64f-5e3e-413f-9381-db36aae43f43",
+      "name": "llm-as-a-judge",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "natural language processing",
+      "id": "2f4cc4e6-4b48-4abd-baa7-ba807c2817f0",
+      "name": "natural language processing",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "nlp",
+      "id": "3a4e333c-43ed-4652-b772-3f790322e6f3",
+      "name": "nlp",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "science question answering",
+      "id": "13fa85ab-6bd9-494b-a8b4-a55c54fd4afe",
+      "name": "science question answering",
+      "state": "active",
+      "vocabulary_id": null
+    }
+  ],
+  "groups": [],
+  "relationships_as_subject": [],
+  "relationships_as_object": [],
+  "doi": "10.25835/8dcv2ka6",
+  "doi_status": true,
+  "domain": "https://data.uni-hannover.de",
+  "doi_date_published": "2025-05-28",
+  "doi_publisher": "LUIS"
+}

@@ -1,0 +1,98 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/V15GPE",
+    "identifier": "https://doi.org/10.25625/V15GPE",
+    "name": "Piroplasmida",
+    "creator": [
+        {
+            "@type": "Person",
+            "name": "GOBICS"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "name": "GOBICS"
+        }
+    ],
+    "datePublished": "2022-07-11",
+    "dateModified": "2022-07-11",
+    "version": "1",
+    "description": "The reference tree was taken from Schreeg et al (2016), the sequences were downloaded from GenBank.",
+    "keywords": [
+        "Computer and Information Science",
+        "Medicine, Health and Life Sciences"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "Schreeg ME, Marr HS, Tarigo JL, Cohn LA, Bird DM, et al. (2016) Mitochondrial Genome Sequences and Structures Aid in the Resolution of Piroplasmida phylogeny. PLOS ONE 11(11): e0165702. https://doi.org/10.1371/journal.pone.0165702"
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "DMat",
+            "encodingFormat": "text/plain; charset=US-ASCII",
+            "contentSize": 5741,
+            "description": "Distance matrix created by FSWM",
+            "@id": "https://doi.org/10.25625/V15GPE/1PBLP1",
+            "identifier": "https://doi.org/10.25625/V15GPE/1PBLP1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/47532"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "piroplasmida.fasta",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 126847,
+            "@id": "https://doi.org/10.25625/V15GPE/FLBRYO",
+            "identifier": "https://doi.org/10.25625/V15GPE/FLBRYO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/47530"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "piroplasmida.nwk",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 424,
+            "description": "Reference tree",
+            "@id": "https://doi.org/10.25625/V15GPE/UPZN2A",
+            "identifier": "https://doi.org/10.25625/V15GPE/UPZN2A",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/47531"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "piroplasmida_short.nwk",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 191,
+            "description": "Reference tree containing the short names of the sequences (you probably want to use this one)",
+            "@id": "https://doi.org/10.25625/V15GPE/0JRBFX",
+            "identifier": "https://doi.org/10.25625/V15GPE/0JRBFX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/47533"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Computer and Information Science",
+        "Medicine, Health and Life Sciences"
+    ],
+    "publications": [
+        {
+            "citation": "Schreeg ME, Marr HS, Tarigo JL, Cohn LA, Bird DM, et al. (2016) Mitochondrial Genome Sequences and Structures Aid in the Resolution of Piroplasmida phylogeny. PLOS ONE 11(11): e0165702. https://doi.org/10.1371/journal.pone.0165702"
+        }
+    ]
+}

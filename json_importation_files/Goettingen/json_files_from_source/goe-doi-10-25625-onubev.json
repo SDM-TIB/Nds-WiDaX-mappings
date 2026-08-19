@@ -1,0 +1,525 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/ONUBEV",
+    "identifier": "https://doi.org/10.25625/ONUBEV",
+    "name": "Digital Terrain Models & elevation metrics from acquisition in 2022",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Michael",
+            "familyName": "Schlund",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Twente"
+            },
+            "sameAs": "https://orcid.org/0000-0001-6657-6713",
+            "@id": "https://orcid.org/0000-0001-6657-6713",
+            "identifier": "https://orcid.org/0000-0001-6657-6713",
+            "name": "Schlund, Michael"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Michael",
+            "familyName": "Schlund",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Twente"
+            },
+            "sameAs": "https://orcid.org/0000-0001-6657-6713",
+            "@id": "https://orcid.org/0000-0001-6657-6713",
+            "identifier": "https://orcid.org/0000-0001-6657-6713",
+            "name": "Schlund, Michael"
+        }
+    ],
+    "datePublished": "2023-05-25",
+    "dateModified": "2023-05-25",
+    "version": "1",
+    "description": "Digital Terrain Models (DTMs), Slope, Aspect, Topographic Position Index (TPI), curvature in profile and plan direction and their average, and flow accumulation derived from airborne LiDAR data acquired over the Bukit Duabelas, Batanghari regency and Harapan rainforest protected area, in Jambi, Sumatra, Indonesia. Slope, aspect, curvatures, flow accumulation and TPI were calculated following a two-step approach where first the DTM was resampled to 10 m pixel size and then the metrics were calculated and further aggregated to 50 m (see also Jucker et al. 2018 https://doi.org/10.1111/gcb.14415). Original pixel size of DTM: 1m. Geographic Coordinate System: EPSG 32748.",
+    "keywords": [
+        "Agricultural Sciences",
+        "Earth and Environmental Sciences"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Aspect_area1_UTM48S_ellipsoidal_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 1838964,
+            "@id": "https://doi.org/10.25625/ONUBEV/5HISZY",
+            "identifier": "https://doi.org/10.25625/ONUBEV/5HISZY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59891"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Aspect_area1_UTM48S_ellipsoidal_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 65800,
+            "@id": "https://doi.org/10.25625/ONUBEV/RGSKPL",
+            "identifier": "https://doi.org/10.25625/ONUBEV/RGSKPL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59886"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Aspect_area2_UTM48S_ellipsoidal_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 8657204,
+            "@id": "https://doi.org/10.25625/ONUBEV/GKQ8IV",
+            "identifier": "https://doi.org/10.25625/ONUBEV/GKQ8IV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59900"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Aspect_area2_UTM48S_ellipsoidal_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 319328,
+            "@id": "https://doi.org/10.25625/ONUBEV/RYXYX6",
+            "identifier": "https://doi.org/10.25625/ONUBEV/RYXYX6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59897"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Aspect_area3_UTM48S_ellipsoidal_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 3674644,
+            "@id": "https://doi.org/10.25625/ONUBEV/PUJNPT",
+            "identifier": "https://doi.org/10.25625/ONUBEV/PUJNPT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59909"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Aspect_area3_UTM48S_ellipsoidal_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 125372,
+            "@id": "https://doi.org/10.25625/ONUBEV/XIPKGO",
+            "identifier": "https://doi.org/10.25625/ONUBEV/XIPKGO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59918"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "curvature_area1_UTM48S_ellipsoidal_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 1838964,
+            "@id": "https://doi.org/10.25625/ONUBEV/5SNMIX",
+            "identifier": "https://doi.org/10.25625/ONUBEV/5SNMIX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59883"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "curvature_area1_UTM48S_ellipsoidal_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 1624204,
+            "@id": "https://doi.org/10.25625/ONUBEV/CPWLVA",
+            "identifier": "https://doi.org/10.25625/ONUBEV/CPWLVA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59882"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "curvature_area2_UTM48S_ellipsoidal_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 8657204,
+            "@id": "https://doi.org/10.25625/ONUBEV/160GQX",
+            "identifier": "https://doi.org/10.25625/ONUBEV/160GQX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59903"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "curvature_area2_UTM48S_ellipsoidal_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 319328,
+            "@id": "https://doi.org/10.25625/ONUBEV/SRIY4A",
+            "identifier": "https://doi.org/10.25625/ONUBEV/SRIY4A",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59899"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "curvature_area3_UTM48S_ellipsoidal_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 3674644,
+            "@id": "https://doi.org/10.25625/ONUBEV/BB3VWE",
+            "identifier": "https://doi.org/10.25625/ONUBEV/BB3VWE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59912"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "curvature_area3_UTM48S_ellipsoidal_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 125372,
+            "@id": "https://doi.org/10.25625/ONUBEV/FKEA81",
+            "identifier": "https://doi.org/10.25625/ONUBEV/FKEA81",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59917"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "DTM_area1_UTM48S_ellipsoidal.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 119152552,
+            "@id": "https://doi.org/10.25625/ONUBEV/0VOXIA",
+            "identifier": "https://doi.org/10.25625/ONUBEV/0VOXIA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59878"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "DTM_area1_UTM48S_ellipsoidal_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 1624205,
+            "@id": "https://doi.org/10.25625/ONUBEV/HIMGNK",
+            "identifier": "https://doi.org/10.25625/ONUBEV/HIMGNK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59875"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "DTM_area1_UTM48S_ellipsoidal_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 65801,
+            "@id": "https://doi.org/10.25625/ONUBEV/DNHAVS",
+            "identifier": "https://doi.org/10.25625/ONUBEV/DNHAVS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59874"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "DTM_area2_UTM48S_ellipsoidal.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 236775807,
+            "@id": "https://doi.org/10.25625/ONUBEV/1UU2FB",
+            "identifier": "https://doi.org/10.25625/ONUBEV/1UU2FB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59872"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "DTM_area2_UTM48S_ellipsoidal_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 7962710,
+            "@id": "https://doi.org/10.25625/ONUBEV/3CKNSB",
+            "identifier": "https://doi.org/10.25625/ONUBEV/3CKNSB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59879"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "DTM_area2_UTM48S_ellipsoidal_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 319329,
+            "@id": "https://doi.org/10.25625/ONUBEV/KLQH4Q",
+            "identifier": "https://doi.org/10.25625/ONUBEV/KLQH4Q",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59876"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "DTM_area3_UTM48S_ellipsoidal.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 277589995,
+            "@id": "https://doi.org/10.25625/ONUBEV/GOQZRR",
+            "identifier": "https://doi.org/10.25625/ONUBEV/GOQZRR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59877"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "DTM_area3_UTM48S_ellipsoidal_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 3119733,
+            "@id": "https://doi.org/10.25625/ONUBEV/JXAK5Q",
+            "identifier": "https://doi.org/10.25625/ONUBEV/JXAK5Q",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59873"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "DTM_area3_UTM48S_ellipsoidal_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 125373,
+            "@id": "https://doi.org/10.25625/ONUBEV/R9CCSH",
+            "identifier": "https://doi.org/10.25625/ONUBEV/R9CCSH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59880"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "flowacc_area1_UTM48S_ellipsoidal_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 282694,
+            "@id": "https://doi.org/10.25625/ONUBEV/KFSREV",
+            "identifier": "https://doi.org/10.25625/ONUBEV/KFSREV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59890"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "flowacc_area1_UTM48S_ellipsoidal_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 65800,
+            "@id": "https://doi.org/10.25625/ONUBEV/GPBZXS",
+            "identifier": "https://doi.org/10.25625/ONUBEV/GPBZXS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59887"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "flowacc_area2_UTM48S_ellipsoidal_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 604512,
+            "@id": "https://doi.org/10.25625/ONUBEV/FMHAFW",
+            "identifier": "https://doi.org/10.25625/ONUBEV/FMHAFW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59904"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "flowacc_area2_UTM48S_ellipsoidal_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 319328,
+            "@id": "https://doi.org/10.25625/ONUBEV/GHJ01R",
+            "identifier": "https://doi.org/10.25625/ONUBEV/GHJ01R",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59907"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "flowacc_area3_UTM48S_ellipsoidal_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 614516,
+            "@id": "https://doi.org/10.25625/ONUBEV/XG6DGV",
+            "identifier": "https://doi.org/10.25625/ONUBEV/XG6DGV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59915"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "flowacc_area3_UTM48S_ellipsoidal_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 125372,
+            "@id": "https://doi.org/10.25625/ONUBEV/BS4SQD",
+            "identifier": "https://doi.org/10.25625/ONUBEV/BS4SQD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59922"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "plan_curvature_area1_UTM48S_ellipsoidal_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 1838964,
+            "@id": "https://doi.org/10.25625/ONUBEV/1HEAKT",
+            "identifier": "https://doi.org/10.25625/ONUBEV/1HEAKT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59893"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "plan_curvature_area1_UTM48S_ellipsoidal_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 65800,
+            "@id": "https://doi.org/10.25625/ONUBEV/TUXBCO",
+            "identifier": "https://doi.org/10.25625/ONUBEV/TUXBCO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59888"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "plan_curvature_area2_UTM48S_ellipsoidal_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 8657204,
+            "@id": "https://doi.org/10.25625/ONUBEV/XNPXLS",
+            "identifier": "https://doi.org/10.25625/ONUBEV/XNPXLS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59905"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "plan_curvature_area2_UTM48S_ellipsoidal_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 319328,
+            "@id": "https://doi.org/10.25625/ONUBEV/3NYLFH",
+            "identifier": "https://doi.org/10.25625/ONUBEV/3NYLFH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59896"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "plan_curvature_area3_UTM48S_ellipsoidal_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 3674644,
+            "@id": "https://doi.org/10.25625/ONUBEV/QJG3FH",
+            "identifier": "https://doi.org/10.25625/ONUBEV/QJG3FH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59916"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "plan_curvature_area3_UTM48S_ellipsoidal_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 125372,
+            "@id": "https://doi.org/10.25625/ONUBEV/NGXIY1",
+            "identifier": "https://doi.org/10.25625/ONUBEV/NGXIY1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59920"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "profile_curvature_area1_UTM48S_ellipsoidal_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 1838964,
+            "@id": "https://doi.org/10.25625/ONUBEV/P5KK7X",
+            "identifier": "https://doi.org/10.25625/ONUBEV/P5KK7X",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59894"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "profile_curvature_area1_UTM48S_ellipsoidal_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 65800,
+            "@id": "https://doi.org/10.25625/ONUBEV/K8XFPT",
+            "identifier": "https://doi.org/10.25625/ONUBEV/K8XFPT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59884"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "profile_curvature_area2_UTM48S_ellipsoidal_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 8657204,
+            "@id": "https://doi.org/10.25625/ONUBEV/KVOWNU",
+            "identifier": "https://doi.org/10.25625/ONUBEV/KVOWNU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59906"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "profile_curvature_area2_UTM48S_ellipsoidal_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 319328,
+            "@id": "https://doi.org/10.25625/ONUBEV/7UVUMS",
+            "identifier": "https://doi.org/10.25625/ONUBEV/7UVUMS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59898"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "profile_curvature_area3_UTM48S_ellipsoidal_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 3674644,
+            "@id": "https://doi.org/10.25625/ONUBEV/2YMARO",
+            "identifier": "https://doi.org/10.25625/ONUBEV/2YMARO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59911"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "profile_curvature_area3_UTM48S_ellipsoidal_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 125372,
+            "@id": "https://doi.org/10.25625/ONUBEV/PD3SWT",
+            "identifier": "https://doi.org/10.25625/ONUBEV/PD3SWT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59921"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Slope_area1_UTM48S_ellipsoidal_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 1838964,
+            "@id": "https://doi.org/10.25625/ONUBEV/WNR15O",
+            "identifier": "https://doi.org/10.25625/ONUBEV/WNR15O",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59881"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Slope_area1_UTM48S_ellipsoidal_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 65800,
+            "@id": "https://doi.org/10.25625/ONUBEV/DVMJ2C",
+            "identifier": "https://doi.org/10.25625/ONUBEV/DVMJ2C",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59889"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Slope_area2_UTM48S_ellipsoidal_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 8657204,
+            "@id": "https://doi.org/10.25625/ONUBEV/4CSK8L",
+            "identifier": "https://doi.org/10.25625/ONUBEV/4CSK8L",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59908"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Slope_area2_UTM48S_ellipsoidal_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 319328,
+            "@id": "https://doi.org/10.25625/ONUBEV/IUWF0Q",
+            "identifier": "https://doi.org/10.25625/ONUBEV/IUWF0Q",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59902"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Slope_area3_UTM48S_ellipsoidal_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 3674644,
+            "@id": "https://doi.org/10.25625/ONUBEV/AVCE78",
+            "identifier": "https://doi.org/10.25625/ONUBEV/AVCE78",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59910"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Slope_area3_UTM48S_ellipsoidal_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 125372,
+            "@id": "https://doi.org/10.25625/ONUBEV/JZQRJM",
+            "identifier": "https://doi.org/10.25625/ONUBEV/JZQRJM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59919"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TPI_area1_UTM48S_ellipsoidal_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 1622598,
+            "@id": "https://doi.org/10.25625/ONUBEV/RTZ0ZD",
+            "identifier": "https://doi.org/10.25625/ONUBEV/RTZ0ZD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59885"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TPI_area1_UTM48S_ellipsoidal_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 65782,
+            "@id": "https://doi.org/10.25625/ONUBEV/POHQPS",
+            "identifier": "https://doi.org/10.25625/ONUBEV/POHQPS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59892"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TPI_area2_UTM48S_ellipsoidal_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 7943430,
+            "@id": "https://doi.org/10.25625/ONUBEV/P8CDQG",
+            "identifier": "https://doi.org/10.25625/ONUBEV/P8CDQG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59895"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TPI_area2_UTM48S_ellipsoidal_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 319310,
+            "@id": "https://doi.org/10.25625/ONUBEV/44ACHF",
+            "identifier": "https://doi.org/10.25625/ONUBEV/44ACHF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59901"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TPI_area3_UTM48S_ellipsoidal_10m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 3116326,
+            "@id": "https://doi.org/10.25625/ONUBEV/FQKLVU",
+            "identifier": "https://doi.org/10.25625/ONUBEV/FQKLVU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59913"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TPI_area3_UTM48S_ellipsoidal_50m.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 125354,
+            "@id": "https://doi.org/10.25625/ONUBEV/QWDZPZ",
+            "identifier": "https://doi.org/10.25625/ONUBEV/QWDZPZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/59914"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Agricultural Sciences",
+        "Earth and Environmental Sciences"
+    ]
+}

@@ -1,0 +1,145 @@
+{
+  "author": "Dustin R. Jantos, Miriam Kick, Philipp Junker",
+  "author_email": "jantos@ikm.uni-hannover.de",
+  "creator_user_id": "3726954e-37f4-4370-9618-9871308c7966",
+  "have_copyright": "Yes",
+  "id": "619d9e8b-8fba-4d9d-8311-fe11286e5b07",
+  "isopen": false,
+  "license_id": "CC-BY-NC-3.0",
+  "license_title": "Creative Commons Attribution-NonCommercial 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc/3.0/",
+  "maintainer": "Dustin R. Jantos",
+  "maintainer_email": "jantos@ikm.uni-hannover.de",
+  "metadata_created": "2022-02-11T09:00:18.834568",
+  "metadata_modified": "2022-02-18T14:21:11.410378",
+  "name": "implementation-of-tto-for-sequential-am-including-structural-self-weight-in-matlab",
+  "notes": "The development of engineering components often starts digitally and a topology optimization can be the very first step. However, it is important to account for manufacturing properties during the optimization of these structures. For a step-by-step additive manufacturing, we developed a sequential thermodynamic topology optimization and implemented it into the software MATLAB [1].  This optimization process runs step-by-step through predefined sequences. For each sequence, the boundary conditions are updated due to the changed manufacturing load. Furthermore, the design space can be extended and/or reinitialized. Therefore, the optimization properties 1) fixed design, 2) only material can be added or 3) free optimization can be chosen. The next sequence starts when the optimization of the previous sequence converges. Using this MATLAB code, we computed the numerical results for a bridge-like structure in [2]. The given MATLAB code is divided into two files: 1) “topTTO.m” contains the optimization function for a rectangular design space discretized by 4-node square elements and 2) “executer.m” contains the function calls to compute the sequential optimization for the examples in [2].\r\n\r\n[1] MATLAB programming language, www.mathworks.com.\r\n\r\n[2] Miriam Kick, Dustin R. Jantos and Philipp Junker. _Thermodynamic topology optimization for sequential additive manufacturing including structural self-weight._ Submitted. (2022)",
+  "num_resources": 2,
+  "num_tags": 6,
+  "organization": {
+    "id": "44b6066d-41c1-47b2-bd20-9390fa1d56b4",
+    "name": "institut-fur-kontinuumsmechanik",
+    "title": "Institut für Kontinuumsmechanik",
+    "type": "organization",
+    "description": "__An der Universität 1__\r\n\r\n__30823 Garbsen__\r\n\r\nTel. +49 511 762 - 3220\r\n\r\nFax  +49 511 762 - 5496 \r\n\r\nhttps://www.ikm.uni-hannover.de/",
+    "image_url": "https://www.ikm.uni-hannover.de/fileadmin/site-templates/logos/ikm/IKM-Logo_2024.png",
+    "created": "2022-02-10T16:36:38.855497",
+    "is_organization": true,
+    "approval_status": "approved",
+    "state": "active"
+  },
+  "owner_org": "44b6066d-41c1-47b2-bd20-9390fa1d56b4",
+  "private": false,
+  "state": "active",
+  "terms_of_usage": "Yes",
+  "title": "Implementation of thermodynamic topology optimization for sequential additive manufacturing including structural self-weight in MATLAB",
+  "type": "dataset",
+  "url": "",
+  "version": "",
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2022-02-11T09:43:58.926457",
+      "datastore_active": false,
+      "description": "",
+      "format": "matlab",
+      "hash": "",
+      "id": "b75089e5-f730-4811-ae42-c39fa7e9a2d2",
+      "last_modified": "2022-02-11T09:43:58.889942",
+      "metadata_modified": "2022-02-11T09:43:58.917096",
+      "mimetype": "application/vnd.wolfram.mathematica.package",
+      "mimetype_inner": null,
+      "name": "topTTO.m",
+      "package_id": "619d9e8b-8fba-4d9d-8311-fe11286e5b07",
+      "position": 0,
+      "resource_type": null,
+      "size": 10698,
+      "state": "active",
+      "tracking_summary": {
+        "total": 24,
+        "recent": 1
+      },
+      "url": "https://data.uni-hannover.de/dataset/619d9e8b-8fba-4d9d-8311-fe11286e5b07/resource/b75089e5-f730-4811-ae42-c39fa7e9a2d2/download/toptto.m",
+      "url_type": "upload"
+    },
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2022-02-11T09:43:38.172355",
+      "datastore_active": false,
+      "description": "",
+      "format": "matlab",
+      "hash": "",
+      "id": "4223489d-46ad-4c26-865a-31f9794c5f22",
+      "last_modified": "2022-02-11T09:43:38.131124",
+      "metadata_modified": "2022-02-11T09:43:38.160732",
+      "mimetype": "application/vnd.wolfram.mathematica.package",
+      "mimetype_inner": null,
+      "name": "executer.m",
+      "package_id": "619d9e8b-8fba-4d9d-8311-fe11286e5b07",
+      "position": 1,
+      "resource_type": null,
+      "size": 8125,
+      "state": "active",
+      "tracking_summary": {
+        "total": 12,
+        "recent": 1
+      },
+      "url": "https://data.uni-hannover.de/dataset/619d9e8b-8fba-4d9d-8311-fe11286e5b07/resource/4223489d-46ad-4c26-865a-31f9794c5f22/download/executer.m",
+      "url_type": "upload"
+    }
+  ],
+  "tags": [
+    {
+      "display_name": "Additive Manufacturing",
+      "id": "40bc3d93-8f1a-4a72-a6d5-ff03701d8874",
+      "name": "Additive Manufacturing",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Code",
+      "id": "931397cd-e741-41d5-ab08-86465d35c1bc",
+      "name": "Code",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "MATLAB",
+      "id": "8eb269d9-9565-4cbb-8eff-22651298ad07",
+      "name": "MATLAB",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Sequential Optimization",
+      "id": "29795377-b845-444e-be39-3226c290e0e3",
+      "name": "Sequential Optimization",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Software",
+      "id": "5176d9f1-721a-48e7-891d-768524dce34c",
+      "name": "Software",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Thermodynamic Topology Optimization",
+      "id": "ca905cd2-e466-41e8-83fc-d26b1c66271d",
+      "name": "Thermodynamic Topology Optimization",
+      "state": "active",
+      "vocabulary_id": null
+    }
+  ],
+  "groups": [],
+  "relationships_as_subject": [],
+  "relationships_as_object": [],
+  "doi": "10.25835/176pl6eq",
+  "doi_status": true,
+  "domain": "https://data.uni-hannover.de",
+  "doi_date_published": "2022-02-18",
+  "doi_publisher": "LUIS"
+}

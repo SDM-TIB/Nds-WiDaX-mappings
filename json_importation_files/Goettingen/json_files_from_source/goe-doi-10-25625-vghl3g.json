@@ -1,0 +1,61 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/VGHL3G",
+    "identifier": "https://doi.org/10.25625/VGHL3G",
+    "name": "Master's Thesis: Numerical Simulations of a Stochastic Optimal Control Model for the Navigation of Finite-Size Microswimmers",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Malte",
+            "familyName": "Thumann",
+            "name": "Thumann, Malte"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Malte",
+            "familyName": "Thumann",
+            "name": "Thumann, Malte"
+        }
+    ],
+    "datePublished": "2025-07-21",
+    "dateModified": "2025-07-21",
+    "version": "1",
+    "description": "We study the optimal navigation of finite-size microswimmers in presence of an external flow field and thermal fluctuations in two-dimensional space where the dynamics are governed by the equations of motion. We address the problem of optimal navigation by using stochastic optimal control theory and obtaining a Hamilton-Jacobi-Bellman (HJB) equation, which is a nonlinear convection-di!usion type partial di!erential equation (PDE) that describes the optimal torque an active microswimmer must satisfy to navigate towards a desired target. This equation is numerically solvable in a three-dimensional configuration space (position and orientation) for a given set of initial conditions. We discretize the HJB equation in a finite element framework known as the Discontinuous Galerkin (DG) method, which operates over a trial space of functions that are only piecewise continuous. This allows for a stable and flexible discretization scheme, in particular to cope with arising instabilities in the convection dominated regime. Using the optimal torque solution, we integrate the equations of motion and perform stochastic simulations to determine the optimal microswimmer paths and to compute arrival time statistics. From the results, we conclude that the most efficient shape of microswimmers is a needle-like form.",
+    "keywords": [
+        "Mathematical Sciences",
+        "Physics"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "NumSimMicroswimmers_final.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 30178446,
+            "@id": "https://doi.org/10.25625/VGHL3G/PNW7K3",
+            "identifier": "https://doi.org/10.25625/VGHL3G/PNW7K3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/132172"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Mathematical Sciences",
+        "Physics"
+    ]
+}

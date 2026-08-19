@@ -1,0 +1,235 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/XMYQHO",
+    "identifier": "https://doi.org/10.25625/XMYQHO",
+    "name": "Minimizing Structural Vibrations Dataset",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Jan",
+            "familyName": "van Delden",
+            "name": "van Delden, Jan"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Julius",
+            "familyName": "Schultz",
+            "name": "Schultz, Julius"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Sebastian",
+            "familyName": "Rothe",
+            "name": "Rothe, Sebastian"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Christian",
+            "familyName": "Libner",
+            "name": "Libner, Christian"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Sabine C.",
+            "familyName": "Langer",
+            "name": "Langer, Sabine C."
+        },
+        {
+            "@type": "Person",
+            "givenName": "Timo",
+            "familyName": "L\u00fcddecke",
+            "name": "L\u00fcddecke, Timo"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jan",
+            "familyName": "van Delden",
+            "name": "van Delden, Jan"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Julius",
+            "familyName": "Schultz",
+            "name": "Schultz, Julius"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Sebastian",
+            "familyName": "Rothe",
+            "name": "Rothe, Sebastian"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Christian",
+            "familyName": "Libner",
+            "name": "Libner, Christian"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Sabine C.",
+            "familyName": "Langer",
+            "name": "Langer, Sabine C."
+        },
+        {
+            "@type": "Person",
+            "givenName": "Timo",
+            "familyName": "L\u00fcddecke",
+            "name": "L\u00fcddecke, Timo"
+        }
+    ],
+    "datePublished": "2025-05-28",
+    "dateModified": "2025-11-26",
+    "version": "2",
+    "description": "Overview This repository contains two main datasets: a primary dataset with 51,000 plate geometries (each with 15 frequency solutions) intended for training and validation, and a test dataset with 500 geometries (each with 300 frequency solutions). Alongside the data, we provide the weights of the trained models. Included Files D50k_edited.h5: Dataset with 51,000 plate geometries and numerical solutions for 15 frequencies. D500_edit.h5: Dataset with 500 plate geometries and numerical solutions for 300 frequencies. moments_d50k.pt: Mean and standard deviation of the dataset. flow_matching_0331.ckpt: Flow matching model weights. regression_075_noise_0312.ckpt: Regression model weights, trained with noisy beading patterns. regression_no_noise_0526.ckpt: Regression model weights, trained with clean beading patterns. Data Format & Usage The datasets are saved in the HDF5 file format (.h5) and compressed with the \"Blosc\" compression filter. To read these files, you will need the hdf5plugin Python package. Include the following in your Python script: import h5py import hdf5plugin The HDF5 files contain the following keys: bead_patterns: The mesh geometry. z_vel_mean_sq: The frequency response. z_vel_abs: Velocity fields. phy_para: The scalar properties. frequencies: The frequencies for frequency response and velocity fields. ModeONet files In addition to the original version of the dataset, an updated version with the full complex velocity fields has been added. The dataset is split up into separate files with 10.000 samples each. The files are named D50k_complex_field_{id}.h5. The dataset field for the velocity fields is renamed to z_vel. The other fields remain the same. z_vel: Complex velocity fields. More Information Please refer to the paper as well as the code repository for a full introduction into this dataset.",
+    "keywords": [
+        "Computer and Information Science",
+        "Engineering",
+        "Physics"
+    ],
+    "license": "http://creativecommons.org/licenses/by-sa/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "DFG"
+        },
+        {
+            "@type": "Organization",
+            "name": "Emmy/Grete at NHR-Nord@G\u00f6ttingen"
+        }
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "D500_edit.h5",
+            "encodingFormat": "application/x-h5",
+            "contentSize": 2624001186,
+            "@id": "https://doi.org/10.25625/XMYQHO/XZ8FV2",
+            "identifier": "https://doi.org/10.25625/XMYQHO/XZ8FV2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/125125"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "D50k_edited.h5",
+            "encodingFormat": "application/x-h5",
+            "contentSize": 14340598409,
+            "@id": "https://doi.org/10.25625/XMYQHO/5KAQX0",
+            "identifier": "https://doi.org/10.25625/XMYQHO/5KAQX0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/125180"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "moments_d50k.pt",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 4280,
+            "@id": "https://doi.org/10.25625/XMYQHO/MGJOEW",
+            "identifier": "https://doi.org/10.25625/XMYQHO/MGJOEW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/125124"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "D50k_complex_field_0.h5",
+            "encodingFormat": "application/x-hdf5",
+            "contentSize": 5815755723,
+            "@id": "https://doi.org/10.25625/XMYQHO/MV2ESF",
+            "identifier": "https://doi.org/10.25625/XMYQHO/MV2ESF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/142073"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "D50k_complex_field_1.h5",
+            "encodingFormat": "application/x-h5",
+            "contentSize": 5816434092,
+            "@id": "https://doi.org/10.25625/XMYQHO/L7Y3FM",
+            "identifier": "https://doi.org/10.25625/XMYQHO/L7Y3FM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/142076"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "D50k_complex_field_2.h5",
+            "encodingFormat": "application/x-h5",
+            "contentSize": 5815205181,
+            "@id": "https://doi.org/10.25625/XMYQHO/JBH06T",
+            "identifier": "https://doi.org/10.25625/XMYQHO/JBH06T",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/142077"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "D50k_complex_field_3.h5",
+            "encodingFormat": "application/x-h5",
+            "contentSize": 5815099820,
+            "@id": "https://doi.org/10.25625/XMYQHO/FAMWKR",
+            "identifier": "https://doi.org/10.25625/XMYQHO/FAMWKR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/142074"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "D50k_complex_field_4.h5",
+            "encodingFormat": "application/x-h5",
+            "contentSize": 5816669750,
+            "@id": "https://doi.org/10.25625/XMYQHO/9HO8SW",
+            "identifier": "https://doi.org/10.25625/XMYQHO/9HO8SW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/142075"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "D50k_complex_field_5.h5",
+            "encodingFormat": "application/x-hdf5",
+            "contentSize": 583709253,
+            "@id": "https://doi.org/10.25625/XMYQHO/UJWIUE",
+            "identifier": "https://doi.org/10.25625/XMYQHO/UJWIUE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/141979"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "flow_matching_0331.ckpt",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 140070026,
+            "@id": "https://doi.org/10.25625/XMYQHO/SGXNQF",
+            "identifier": "https://doi.org/10.25625/XMYQHO/SGXNQF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/125254"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "regression_075_noise_0312.ckpt",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 36742106,
+            "@id": "https://doi.org/10.25625/XMYQHO/CYTLM3",
+            "identifier": "https://doi.org/10.25625/XMYQHO/CYTLM3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/125255"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "regression_no_noise_0526.ckpt",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 36741924,
+            "@id": "https://doi.org/10.25625/XMYQHO/UWV4UR",
+            "identifier": "https://doi.org/10.25625/XMYQHO/UWV4UR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/125253"
+        }
+    ],
+    "license_title": "Creative Commons Attribution-ShareAlike 4.0 International",
+    "subjects": [
+        "Computer and Information Science",
+        "Engineering",
+        "Physics"
+    ],
+    "publications": [
+        {}
+    ]
+}

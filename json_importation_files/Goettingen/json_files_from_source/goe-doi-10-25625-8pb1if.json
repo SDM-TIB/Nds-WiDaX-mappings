@@ -1,0 +1,184 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/8PB1IF",
+    "identifier": "https://doi.org/10.25625/8PB1IF",
+    "name": "BioDiv-3DTrees: A Large Labelled Single Tree Point Cloud, QSM and Tree Graph Dataset",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Nils",
+            "familyName": "Griese",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen, Department of Forest Inventory and Remote Sensing"
+            },
+            "sameAs": "https://orcid.org/0009-0009-9187-4638",
+            "@id": "https://orcid.org/0009-0009-9187-4638",
+            "identifier": "https://orcid.org/0009-0009-9187-4638",
+            "name": "Griese, Nils"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Martin",
+            "familyName": "Ritzert",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen, Neural Data Science"
+            },
+            "sameAs": "https://orcid.org/0000-0002-5322-3684",
+            "@id": "https://orcid.org/0000-0002-5322-3684",
+            "identifier": "https://orcid.org/0000-0002-5322-3684",
+            "name": "Ritzert, Martin"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Nils",
+            "familyName": "N\u00f6lke",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen, Department of Forest Inventory and Remote Sensing"
+            },
+            "sameAs": "https://orcid.org/0000-0003-4925-2287",
+            "@id": "https://orcid.org/0000-0003-4925-2287",
+            "identifier": "https://orcid.org/0000-0003-4925-2287",
+            "name": "N\u00f6lke, Nils"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Nils",
+            "familyName": "Griese",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen, Department of Forest Inventory and Remote Sensing"
+            },
+            "sameAs": "https://orcid.org/0009-0009-9187-4638",
+            "@id": "https://orcid.org/0009-0009-9187-4638",
+            "identifier": "https://orcid.org/0009-0009-9187-4638",
+            "name": "Griese, Nils"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Martin",
+            "familyName": "Ritzert",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen, Neural Data Science"
+            },
+            "sameAs": "https://orcid.org/0000-0002-5322-3684",
+            "@id": "https://orcid.org/0000-0002-5322-3684",
+            "identifier": "https://orcid.org/0000-0002-5322-3684",
+            "name": "Ritzert, Martin"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Nils",
+            "familyName": "N\u00f6lke",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen, Department of Forest Inventory and Remote Sensing"
+            },
+            "sameAs": "https://orcid.org/0000-0003-4925-2287",
+            "@id": "https://orcid.org/0000-0003-4925-2287",
+            "identifier": "https://orcid.org/0000-0003-4925-2287",
+            "name": "N\u00f6lke, Nils"
+        }
+    ],
+    "datePublished": "2025-11-30",
+    "dateModified": "2025-11-30",
+    "version": "1",
+    "description": "This dataset contains 4,952 labelled single-tree point clouds captured using terrestrial laser scanning (TLS) and unmanned aerial vehicle laser scanning (ULS), as well as 3,386 quantitative structure models (QSMs) and graph representations of the broadleaved trees. The data was collected on the Forest Gap Experiment (FOX) plot of the Biodiversity Exploratories in Germany. Quantitative Structure Models (QSMs) were derived using TreeQSM and allometrically corrected using the R package rTwig. The dataset is organized into several directories, each containing specific types of data files. Further information can be found in the README.md.",
+    "keywords": [
+        "Computer and Information Science",
+        "Earth and Environmental Sciences",
+        "Labelled Single Tree Pointclouds"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "spatialCoverage": [
+        "Germany, Schorfheide-Chorin",
+        "Germany, Hainich-D\u00fcn",
+        "Germany, Schw\u00e4bische Alb"
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Graphs.tar.zst",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 1776293128,
+            "description": "",
+            "@id": "https://doi.org/10.25625/8PB1IF/PVVDG3",
+            "identifier": "https://doi.org/10.25625/8PB1IF/PVVDG3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/142310"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "labels.csv",
+            "encodingFormat": "text/comma-separated-values",
+            "contentSize": 1109780,
+            "description": "",
+            "@id": "https://doi.org/10.25625/8PB1IF/HY1E4C",
+            "identifier": "https://doi.org/10.25625/8PB1IF/HY1E4C",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/142314"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "QSM.tar.zst",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 108024254404,
+            "description": "",
+            "@id": "https://doi.org/10.25625/8PB1IF/ACLA1G",
+            "identifier": "https://doi.org/10.25625/8PB1IF/ACLA1G",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/142308"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "README.md",
+            "encodingFormat": "text/markdown",
+            "contentSize": 10838,
+            "description": "",
+            "@id": "https://doi.org/10.25625/8PB1IF/K6GTVZ",
+            "identifier": "https://doi.org/10.25625/8PB1IF/K6GTVZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/142312"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "TLS.tar.zst",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 19941204645,
+            "description": "",
+            "@id": "https://doi.org/10.25625/8PB1IF/MZ0XUR",
+            "identifier": "https://doi.org/10.25625/8PB1IF/MZ0XUR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/142309"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "ULS.tar.zst",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 652222562,
+            "description": "",
+            "@id": "https://doi.org/10.25625/8PB1IF/CZ3TZQ",
+            "identifier": "https://doi.org/10.25625/8PB1IF/CZ3TZQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/142311"
+        }
+    ],
+    "license_title": "Creative Commons Attribution 4.0 International",
+    "subjects": [
+        "Computer and Information Science",
+        "Earth and Environmental Sciences"
+    ]
+}

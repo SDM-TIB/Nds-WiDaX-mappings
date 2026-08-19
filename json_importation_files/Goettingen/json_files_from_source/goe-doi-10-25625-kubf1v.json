@@ -1,0 +1,455 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/KUBF1V",
+    "identifier": "https://doi.org/10.25625/KUBF1V",
+    "name": "Dissertation_Supplementary Material",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Svea-Solveig",
+            "familyName": "Mennen",
+            "name": "Mennen, Svea-Solveig"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Svea-Solveig",
+            "familyName": "Mennen",
+            "name": "Mennen, Svea-Solveig"
+        }
+    ],
+    "datePublished": "2026-02-10",
+    "dateModified": "2026-02-10",
+    "version": "1",
+    "description": "This dataset contains the supplementary material for the dissertation \"The GRAMS Study: An Approach to Bridging Genomic Data and Deep Phenotyping to Understand Familial Multiple Sclerosis\", including the study manual as well as all custom R scripts and PLINK command files used in the analyses.",
+    "keywords": [
+        "Medicine, Health and Life Sciences"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": ".RData",
+            "encodingFormat": "application/x-rlang-transport",
+            "contentSize": 2595,
+            "@id": "https://doi.org/10.25625/KUBF1V/6BFNAZ",
+            "identifier": "https://doi.org/10.25625/KUBF1V/6BFNAZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152021"
+        },
+        {
+            "@type": "DataDownload",
+            "name": ".Rhistory",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 25652,
+            "@id": "https://doi.org/10.25625/KUBF1V/YCTEAZ",
+            "identifier": "https://doi.org/10.25625/KUBF1V/YCTEAZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152031"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Affected vs Unaffected.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 329,
+            "@id": "https://doi.org/10.25625/KUBF1V/QSAJOI",
+            "identifier": "https://doi.org/10.25625/KUBF1V/QSAJOI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152054"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "All_interesting_variants.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 1358,
+            "@id": "https://doi.org/10.25625/KUBF1V/BIT8HY",
+            "identifier": "https://doi.org/10.25625/KUBF1V/BIT8HY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152020"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "analysis_post_processingANNOVAR.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 14980,
+            "@id": "https://doi.org/10.25625/KUBF1V/TVKQVR",
+            "identifier": "https://doi.org/10.25625/KUBF1V/TVKQVR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152025"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "block1_family_burden_tmp.gds",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 8678567,
+            "@id": "https://doi.org/10.25625/KUBF1V/NYFFJC",
+            "identifier": "https://doi.org/10.25625/KUBF1V/NYFFJC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152028"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "CompositeScore.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 27193,
+            "@id": "https://doi.org/10.25625/KUBF1V/BMOMIJ",
+            "identifier": "https://doi.org/10.25625/KUBF1V/BMOMIJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152035"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Covariates_Alignment.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 9232,
+            "@id": "https://doi.org/10.25625/KUBF1V/9J240A",
+            "identifier": "https://doi.org/10.25625/KUBF1V/9J240A",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152038"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "family-aware_GLMM.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 63960,
+            "@id": "https://doi.org/10.25625/KUBF1V/9TYUPD",
+            "identifier": "https://doi.org/10.25625/KUBF1V/9TYUPD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152043"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "file_processing_postANNOVAR.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 15283,
+            "@id": "https://doi.org/10.25625/KUBF1V/VQ7G6V",
+            "identifier": "https://doi.org/10.25625/KUBF1V/VQ7G6V",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152056"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "generating_maps.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 5651,
+            "@id": "https://doi.org/10.25625/KUBF1V/J6256S",
+            "identifier": "https://doi.org/10.25625/KUBF1V/J6256S",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152036"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "gene_pathway_map-1.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 420396,
+            "@id": "https://doi.org/10.25625/KUBF1V/L9BOO6",
+            "identifier": "https://doi.org/10.25625/KUBF1V/L9BOO6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152033"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "gene_pathway_map.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 420396,
+            "@id": "https://doi.org/10.25625/KUBF1V/1KPFCG",
+            "identifier": "https://doi.org/10.25625/KUBF1V/1KPFCG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152053"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GLM-CR_Subtype.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 75497,
+            "@id": "https://doi.org/10.25625/KUBF1V/MSXKB7",
+            "identifier": "https://doi.org/10.25625/KUBF1V/MSXKB7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152034"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GLMM_withoutPCA.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 14762,
+            "@id": "https://doi.org/10.25625/KUBF1V/UA13DQ",
+            "identifier": "https://doi.org/10.25625/KUBF1V/UA13DQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152032"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GRAMS Manual.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 5001494,
+            "@id": "https://doi.org/10.25625/KUBF1V/XL3T4L",
+            "identifier": "https://doi.org/10.25625/KUBF1V/XL3T4L",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152050"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GRAMS_descriptiveData.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 17640,
+            "@id": "https://doi.org/10.25625/KUBF1V/WFZQGL",
+            "identifier": "https://doi.org/10.25625/KUBF1V/WFZQGL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152023"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "identify_shared_genes_allControlsAccounted.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 7238,
+            "@id": "https://doi.org/10.25625/KUBF1V/FWTNJQ",
+            "identifier": "https://doi.org/10.25625/KUBF1V/FWTNJQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152060"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "input_GLMM.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 1690,
+            "@id": "https://doi.org/10.25625/KUBF1V/5OVUGD",
+            "identifier": "https://doi.org/10.25625/KUBF1V/5OVUGD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152042"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "KING.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 15920,
+            "@id": "https://doi.org/10.25625/KUBF1V/4YG1LT",
+            "identifier": "https://doi.org/10.25625/KUBF1V/4YG1LT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152039"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "plink preparation.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 2226,
+            "@id": "https://doi.org/10.25625/KUBF1V/URCHQB",
+            "identifier": "https://doi.org/10.25625/KUBF1V/URCHQB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152055"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "PLINK2_REGENIE.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 3151,
+            "@id": "https://doi.org/10.25625/KUBF1V/QBEHHZ",
+            "identifier": "https://doi.org/10.25625/KUBF1V/QBEHHZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152030"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "PLINK2_REGENIE_withComments.docx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            "contentSize": 16391,
+            "@id": "https://doi.org/10.25625/KUBF1V/NJHVZK",
+            "identifier": "https://doi.org/10.25625/KUBF1V/NJHVZK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152046"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "PLINK_fam vs spo.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 467,
+            "@id": "https://doi.org/10.25625/KUBF1V/V22WWK",
+            "identifier": "https://doi.org/10.25625/KUBF1V/V22WWK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152027"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "PLINK_RRMS vs Prog.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 452,
+            "@id": "https://doi.org/10.25625/KUBF1V/UXVBHA",
+            "identifier": "https://doi.org/10.25625/KUBF1V/UXVBHA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152058"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "plots.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 7611,
+            "@id": "https://doi.org/10.25625/KUBF1V/XCF9SY",
+            "identifier": "https://doi.org/10.25625/KUBF1V/XCF9SY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152059"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "preparation.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 2056,
+            "@id": "https://doi.org/10.25625/KUBF1V/DLKPWY",
+            "identifier": "https://doi.org/10.25625/KUBF1V/DLKPWY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152057"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "preparation_genotype.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 4136,
+            "@id": "https://doi.org/10.25625/KUBF1V/MWCNOK",
+            "identifier": "https://doi.org/10.25625/KUBF1V/MWCNOK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152047"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "preparation_GLM-CR.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 4120,
+            "@id": "https://doi.org/10.25625/KUBF1V/5O3L92",
+            "identifier": "https://doi.org/10.25625/KUBF1V/5O3L92",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152019"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "ProgressionProxy_GWAS.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 9964,
+            "@id": "https://doi.org/10.25625/KUBF1V/LLMNNQ",
+            "identifier": "https://doi.org/10.25625/KUBF1V/LLMNNQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152026"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "PRS.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 938,
+            "@id": "https://doi.org/10.25625/KUBF1V/LZ0JGH",
+            "identifier": "https://doi.org/10.25625/KUBF1V/LZ0JGH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152029"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "PRS_AddOns_Plots.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 37608,
+            "@id": "https://doi.org/10.25625/KUBF1V/OZOCJC",
+            "identifier": "https://doi.org/10.25625/KUBF1V/OZOCJC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152052"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "PRS_analysis.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 15449,
+            "@id": "https://doi.org/10.25625/KUBF1V/Q16GEW",
+            "identifier": "https://doi.org/10.25625/KUBF1V/Q16GEW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152017"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "PRS_Base_Preparation.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 3231,
+            "@id": "https://doi.org/10.25625/KUBF1V/HQYGTJ",
+            "identifier": "https://doi.org/10.25625/KUBF1V/HQYGTJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152022"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "PRS_comparison.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 15048,
+            "@id": "https://doi.org/10.25625/KUBF1V/BDLVEI",
+            "identifier": "https://doi.org/10.25625/KUBF1V/BDLVEI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152061"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "REGENIE.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 10489,
+            "@id": "https://doi.org/10.25625/KUBF1V/Y5R1TN",
+            "identifier": "https://doi.org/10.25625/KUBF1V/Y5R1TN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152049"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "SKAT-O_Family.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 94684,
+            "@id": "https://doi.org/10.25625/KUBF1V/KNYJ6J",
+            "identifier": "https://doi.org/10.25625/KUBF1V/KNYJ6J",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152051"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "SKAT-O_Subtype.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 66091,
+            "@id": "https://doi.org/10.25625/KUBF1V/IIETEQ",
+            "identifier": "https://doi.org/10.25625/KUBF1V/IIETEQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152040"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "SKAT_pheno-preparation_both aims.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 26989,
+            "@id": "https://doi.org/10.25625/KUBF1V/NI9LLA",
+            "identifier": "https://doi.org/10.25625/KUBF1V/NI9LLA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152044"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "SKAT_working.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 15095,
+            "@id": "https://doi.org/10.25625/KUBF1V/WWOGDD",
+            "identifier": "https://doi.org/10.25625/KUBF1V/WWOGDD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152048"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "snp_gene_map.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 7500548,
+            "@id": "https://doi.org/10.25625/KUBF1V/5VLTSU",
+            "identifier": "https://doi.org/10.25625/KUBF1V/5VLTSU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152045"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "snp_gene_map_50kb-1.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 8036728,
+            "@id": "https://doi.org/10.25625/KUBF1V/LAZYHG",
+            "identifier": "https://doi.org/10.25625/KUBF1V/LAZYHG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152037"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "snp_gene_map_50kb.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 8036728,
+            "@id": "https://doi.org/10.25625/KUBF1V/7UY44Y",
+            "identifier": "https://doi.org/10.25625/KUBF1V/7UY44Y",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152018"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "sorting.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 548,
+            "@id": "https://doi.org/10.25625/KUBF1V/NIZBJE",
+            "identifier": "https://doi.org/10.25625/KUBF1V/NIZBJE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152024"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "WGS_descriptiveData.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 17867,
+            "@id": "https://doi.org/10.25625/KUBF1V/4DEOJ4",
+            "identifier": "https://doi.org/10.25625/KUBF1V/4DEOJ4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/152041"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Medicine, Health and Life Sciences"
+    ]
+}

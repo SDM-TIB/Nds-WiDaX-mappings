@@ -1,0 +1,87 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/P5IBUT",
+    "identifier": "https://doi.org/10.25625/P5IBUT",
+    "name": "Wolbachia",
+    "creator": [
+        {
+            "@type": "Person",
+            "name": "GOBICS"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "name": "GOBICS"
+        }
+    ],
+    "datePublished": "2022-07-11",
+    "dateModified": "2022-07-11",
+    "version": "1",
+    "description": "This dataset was taken from Gerth et al (2017).",
+    "keywords": [
+        "Computer and Information Science",
+        "Medicine, Health and Life Sciences"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "Gerth, M., Bleidorn, C. Comparative genomics provides a timeframe for Wolbachia evolution and exposes a recent biotin synthesis operon transfer. Nat Microbiol 2, 16241 (2017). https://doi.org/10.1038/nmicrobiol.2016.241"
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "DMat",
+            "encodingFormat": "text/plain; charset=US-ASCII",
+            "contentSize": 5741,
+            "description": "Distance matrix created by FSWM",
+            "@id": "https://doi.org/10.25625/P5IBUT/IPHZUT",
+            "identifier": "https://doi.org/10.25625/P5IBUT/IPHZUT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/47512"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "w2016.fasta",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 25527006,
+            "@id": "https://doi.org/10.25625/P5IBUT/QRZ1RV",
+            "identifier": "https://doi.org/10.25625/P5IBUT/QRZ1RV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/47513"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "w2016.nwk",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 428,
+            "@id": "https://doi.org/10.25625/P5IBUT/DI88IN",
+            "identifier": "https://doi.org/10.25625/P5IBUT/DI88IN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/47514"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Computer and Information Science",
+        "Medicine, Health and Life Sciences"
+    ],
+    "publications": [
+        {
+            "citation": "Gerth, M., Bleidorn, C. Comparative genomics provides a timeframe for Wolbachia evolution and exposes a recent biotin synthesis operon transfer. Nat Microbiol 2, 16241 (2017). https://doi.org/10.1038/nmicrobiol.2016.241"
+        }
+    ]
+}

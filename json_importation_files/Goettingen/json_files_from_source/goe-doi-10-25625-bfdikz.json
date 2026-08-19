@@ -1,0 +1,4014 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/BFDIKZ",
+    "identifier": "https://doi.org/10.25625/BFDIKZ",
+    "name": "General Reactivity Indexed Chemistry (GRInCh) Dataset",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Maike",
+            "familyName": "M\u00fccke",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute of Physical Chemistry"
+            },
+            "name": "M\u00fccke, Maike"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Ricardo A.",
+            "familyName": "Mata",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute of Physical Chemistry"
+            },
+            "sameAs": "https://orcid.org/0000-0002-2720-3364",
+            "@id": "https://orcid.org/0000-0002-2720-3364",
+            "identifier": "https://orcid.org/0000-0002-2720-3364",
+            "name": "Mata, Ricardo A."
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Maike",
+            "familyName": "M\u00fccke",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute of Physical Chemistry"
+            },
+            "name": "M\u00fccke, Maike"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Ricardo A.",
+            "familyName": "Mata",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute of Physical Chemistry"
+            },
+            "sameAs": "https://orcid.org/0000-0002-2720-3364",
+            "@id": "https://orcid.org/0000-0002-2720-3364",
+            "identifier": "https://orcid.org/0000-0002-2720-3364",
+            "name": "Mata, Ricardo A."
+        }
+    ],
+    "datePublished": "2026-03-25",
+    "dateModified": "2026-07-10",
+    "version": "1",
+    "description": "This dataset presents a curated set of representative reactions from organic synthesis. For every reaction the optimized reactant and product structures are provided, as well as the log files to ensure transparency & reproducibility. Extensive metadata information is provided to improve general reusability and potentially use in automated workflows. The set was originally created to test double-ended methods for the description of reaction pathways representative of lab chemistry.",
+    "keywords": [
+        "Chemistry",
+        "Computational chemistry",
+        "reaction mechanism",
+        "Diels\u2013Alder reaction",
+        "molecular conformation",
+        "water",
+        "ring-forming reaction"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "Deutsche Forschungsgemeinschaft"
+        }
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 582,
+            "@id": "https://doi.org/10.25625/BFDIKZ/AXRZVM",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/AXRZVM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161565"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 319602,
+            "@id": "https://doi.org/10.25625/BFDIKZ/JXF44C",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/JXF44C",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161580"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 506,
+            "@id": "https://doi.org/10.25625/BFDIKZ/PUAIUV",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/PUAIUV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161720"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 266373,
+            "@id": "https://doi.org/10.25625/BFDIKZ/UPQQUH",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/UPQQUH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161376"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 509,
+            "@id": "https://doi.org/10.25625/BFDIKZ/DTXNK6",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/DTXNK6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161490"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 582,
+            "@id": "https://doi.org/10.25625/BFDIKZ/ZWCR3F",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/ZWCR3F",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161505"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 319695,
+            "@id": "https://doi.org/10.25625/BFDIKZ/OKHFFF",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/OKHFFF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161672"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 505,
+            "@id": "https://doi.org/10.25625/BFDIKZ/I2LC6S",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/I2LC6S",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161658"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 263851,
+            "@id": "https://doi.org/10.25625/BFDIKZ/VTYOAQ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/VTYOAQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161731"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 509,
+            "@id": "https://doi.org/10.25625/BFDIKZ/LPPAOD",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/LPPAOD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161507"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 582,
+            "@id": "https://doi.org/10.25625/BFDIKZ/Z26CTL",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/Z26CTL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161756"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 161636,
+            "@id": "https://doi.org/10.25625/BFDIKZ/CBP977",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/CBP977",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161445"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 507,
+            "@id": "https://doi.org/10.25625/BFDIKZ/QQQPEY",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/QQQPEY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161478"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 319630,
+            "@id": "https://doi.org/10.25625/BFDIKZ/BMMIHD",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/BMMIHD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161498"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 507,
+            "@id": "https://doi.org/10.25625/BFDIKZ/9PUXL5",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/9PUXL5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161419"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 746,
+            "@id": "https://doi.org/10.25625/BFDIKZ/GW5HF2",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/GW5HF2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161573"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 435571,
+            "@id": "https://doi.org/10.25625/BFDIKZ/Z116EB",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/Z116EB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161370"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 599,
+            "@id": "https://doi.org/10.25625/BFDIKZ/ESKL7N",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/ESKL7N",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161612"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 488292,
+            "@id": "https://doi.org/10.25625/BFDIKZ/EL4ICH",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/EL4ICH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161364"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 594,
+            "@id": "https://doi.org/10.25625/BFDIKZ/TJTEEK",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/TJTEEK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161715"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 754,
+            "@id": "https://doi.org/10.25625/BFDIKZ/R33MGM",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/R33MGM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161399"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 346222,
+            "@id": "https://doi.org/10.25625/BFDIKZ/KYFAWA",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/KYFAWA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161472"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 595,
+            "@id": "https://doi.org/10.25625/BFDIKZ/EL6L1V",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/EL6L1V",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161443"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 488209,
+            "@id": "https://doi.org/10.25625/BFDIKZ/7LMRWV",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/7LMRWV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161442"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 592,
+            "@id": "https://doi.org/10.25625/BFDIKZ/4QFMZJ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/4QFMZJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161598"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 674,
+            "@id": "https://doi.org/10.25625/BFDIKZ/JP4RKG",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/JP4RKG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161722"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 238061,
+            "@id": "https://doi.org/10.25625/BFDIKZ/KNDSK2",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/KNDSK2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161659"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 464,
+            "@id": "https://doi.org/10.25625/BFDIKZ/BGNP5C",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/BGNP5C",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161451"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 190706,
+            "@id": "https://doi.org/10.25625/BFDIKZ/W2G9PY",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/W2G9PY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161546"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 468,
+            "@id": "https://doi.org/10.25625/BFDIKZ/HQWCRL",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/HQWCRL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161662"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 672,
+            "@id": "https://doi.org/10.25625/BFDIKZ/OLPOLN",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/OLPOLN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161438"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 238027,
+            "@id": "https://doi.org/10.25625/BFDIKZ/FGBNHI",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/FGBNHI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161706"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 461,
+            "@id": "https://doi.org/10.25625/BFDIKZ/MVAPKA",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/MVAPKA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161585"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 165300,
+            "@id": "https://doi.org/10.25625/BFDIKZ/E0ZVUW",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/E0ZVUW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161365"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 470,
+            "@id": "https://doi.org/10.25625/BFDIKZ/VGAGCH",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/VGAGCH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161513"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 577,
+            "@id": "https://doi.org/10.25625/BFDIKZ/4XWG3R",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/4XWG3R",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161643"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 107751,
+            "@id": "https://doi.org/10.25625/BFDIKZ/SESZTT",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/SESZTT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161400"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 298,
+            "@id": "https://doi.org/10.25625/BFDIKZ/JDM04O",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/JDM04O",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161359"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 106317,
+            "@id": "https://doi.org/10.25625/BFDIKZ/ID54TN",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/ID54TN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161480"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 298,
+            "@id": "https://doi.org/10.25625/BFDIKZ/O58UTW",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/O58UTW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161670"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 645,
+            "@id": "https://doi.org/10.25625/BFDIKZ/QKGDCT",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/QKGDCT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161709"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 244880,
+            "@id": "https://doi.org/10.25625/BFDIKZ/UQETBP",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/UQETBP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161717"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 174,
+            "@id": "https://doi.org/10.25625/BFDIKZ/DVOKER",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/DVOKER",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161785"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 74194,
+            "@id": "https://doi.org/10.25625/BFDIKZ/DZSPPT",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/DZSPPT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161371"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 169,
+            "@id": "https://doi.org/10.25625/BFDIKZ/2RFWJD",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/2RFWJD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161458"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 607,
+            "@id": "https://doi.org/10.25625/BFDIKZ/A1E0WH",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/A1E0WH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161621"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 170852,
+            "@id": "https://doi.org/10.25625/BFDIKZ/RQLDAQ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/RQLDAQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161515"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 553,
+            "@id": "https://doi.org/10.25625/BFDIKZ/LZKYS3",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/LZKYS3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161640"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 206668,
+            "@id": "https://doi.org/10.25625/BFDIKZ/QJCNDX",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/QJCNDX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161627"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 551,
+            "@id": "https://doi.org/10.25625/BFDIKZ/TGTHAN",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/TGTHAN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161385"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 610,
+            "@id": "https://doi.org/10.25625/BFDIKZ/GKQKZS",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/GKQKZS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161742"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 188242,
+            "@id": "https://doi.org/10.25625/BFDIKZ/HSCRQN",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/HSCRQN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161703"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 554,
+            "@id": "https://doi.org/10.25625/BFDIKZ/T7TQFF",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/T7TQFF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161563"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 170659,
+            "@id": "https://doi.org/10.25625/BFDIKZ/J9RXFE",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/J9RXFE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161382"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 550,
+            "@id": "https://doi.org/10.25625/BFDIKZ/E5OMPZ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/E5OMPZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161437"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 673,
+            "@id": "https://doi.org/10.25625/BFDIKZ/VWZWYQ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/VWZWYQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161485"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 367819,
+            "@id": "https://doi.org/10.25625/BFDIKZ/XGOFB7",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/XGOFB7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161431"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 548,
+            "@id": "https://doi.org/10.25625/BFDIKZ/HUNHAI",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/HUNHAI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161553"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 170934,
+            "@id": "https://doi.org/10.25625/BFDIKZ/XLPCBF",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/XLPCBF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161446"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 552,
+            "@id": "https://doi.org/10.25625/BFDIKZ/RFMHWO",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/RFMHWO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161733"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 685,
+            "@id": "https://doi.org/10.25625/BFDIKZ/YE6JNF",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/YE6JNF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161781"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 453389,
+            "@id": "https://doi.org/10.25625/BFDIKZ/VNN1DE",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/VNN1DE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161723"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 677,
+            "@id": "https://doi.org/10.25625/BFDIKZ/3OKRWO",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/3OKRWO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161657"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 216881,
+            "@id": "https://doi.org/10.25625/BFDIKZ/2TEHMV",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/2TEHMV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161424"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 674,
+            "@id": "https://doi.org/10.25625/BFDIKZ/8NQKKT",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/8NQKKT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161587"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 752,
+            "@id": "https://doi.org/10.25625/BFDIKZ/KOYAUV",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/KOYAUV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161427"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 453506,
+            "@id": "https://doi.org/10.25625/BFDIKZ/LRKLJY",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/LRKLJY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161667"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 679,
+            "@id": "https://doi.org/10.25625/BFDIKZ/FNNW95",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/FNNW95",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161372"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 402413,
+            "@id": "https://doi.org/10.25625/BFDIKZ/V2PZCW",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/V2PZCW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161397"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 672,
+            "@id": "https://doi.org/10.25625/BFDIKZ/YAJ3HR",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/YAJ3HR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161521"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 699,
+            "@id": "https://doi.org/10.25625/BFDIKZ/OW3CZI",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/OW3CZI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161481"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 453707,
+            "@id": "https://doi.org/10.25625/BFDIKZ/J0TA7P",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/J0TA7P",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161728"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 680,
+            "@id": "https://doi.org/10.25625/BFDIKZ/XVKTMM",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/XVKTMM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161671"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 216900,
+            "@id": "https://doi.org/10.25625/BFDIKZ/ZBQZWP",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/ZBQZWP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161539"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 676,
+            "@id": "https://doi.org/10.25625/BFDIKZ/D5LOT4",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/D5LOT4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161499"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 597,
+            "@id": "https://doi.org/10.25625/BFDIKZ/VIG9IS",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/VIG9IS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161761"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 187255,
+            "@id": "https://doi.org/10.25625/BFDIKZ/KY59P7",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/KY59P7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161386"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 470,
+            "@id": "https://doi.org/10.25625/BFDIKZ/F1LBUJ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/F1LBUJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161614"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 253968,
+            "@id": "https://doi.org/10.25625/BFDIKZ/X94WYZ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/X94WYZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161552"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 464,
+            "@id": "https://doi.org/10.25625/BFDIKZ/LLLXFR",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/LLLXFR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161661"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 578,
+            "@id": "https://doi.org/10.25625/BFDIKZ/9RNITL",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/9RNITL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161532"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 116495,
+            "@id": "https://doi.org/10.25625/BFDIKZ/1VAWT0",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/1VAWT0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161430"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 384,
+            "@id": "https://doi.org/10.25625/BFDIKZ/6WW1RC",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/6WW1RC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161646"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 160956,
+            "@id": "https://doi.org/10.25625/BFDIKZ/X53HUH",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/X53HUH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161561"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 380,
+            "@id": "https://doi.org/10.25625/BFDIKZ/ESIS6O",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/ESIS6O",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161476"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 667,
+            "@id": "https://doi.org/10.25625/BFDIKZ/YNDQHG",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/YNDQHG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161494"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 301133,
+            "@id": "https://doi.org/10.25625/BFDIKZ/TQ7WTA",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/TQ7WTA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161772"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 638,
+            "@id": "https://doi.org/10.25625/BFDIKZ/BNVXDV",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/BNVXDV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161471"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 185582,
+            "@id": "https://doi.org/10.25625/BFDIKZ/VQJBLV",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/VQJBLV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161543"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 635,
+            "@id": "https://doi.org/10.25625/BFDIKZ/W7GMYN",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/W7GMYN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161441"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 641,
+            "@id": "https://doi.org/10.25625/BFDIKZ/OEXAK5",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/OEXAK5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161632"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 226923,
+            "@id": "https://doi.org/10.25625/BFDIKZ/XFJMZS",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/XFJMZS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161516"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 710,
+            "@id": "https://doi.org/10.25625/BFDIKZ/TU4PZR",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/TU4PZR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161764"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 191335,
+            "@id": "https://doi.org/10.25625/BFDIKZ/DTKS4D",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/DTKS4D",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161508"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 681,
+            "@id": "https://doi.org/10.25625/BFDIKZ/EO7IAQ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/EO7IAQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161429"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 684,
+            "@id": "https://doi.org/10.25625/BFDIKZ/0FVWIQ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/0FVWIQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161489"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 371073,
+            "@id": "https://doi.org/10.25625/BFDIKZ/WBH360",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/WBH360",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161754"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 680,
+            "@id": "https://doi.org/10.25625/BFDIKZ/SKSGWK",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/SKSGWK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161428"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 226400,
+            "@id": "https://doi.org/10.25625/BFDIKZ/SAAQAK",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/SAAQAK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161420"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 672,
+            "@id": "https://doi.org/10.25625/BFDIKZ/Y6RTTB",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/Y6RTTB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161473"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 694,
+            "@id": "https://doi.org/10.25625/BFDIKZ/KKG1HR",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/KKG1HR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161388"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 370900,
+            "@id": "https://doi.org/10.25625/BFDIKZ/ALUK2I",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/ALUK2I",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161484"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 681,
+            "@id": "https://doi.org/10.25625/BFDIKZ/A1NPRG",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/A1NPRG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161396"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 317044,
+            "@id": "https://doi.org/10.25625/BFDIKZ/FCCNLX",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/FCCNLX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161500"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 680,
+            "@id": "https://doi.org/10.25625/BFDIKZ/Z98Z6S",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/Z98Z6S",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161425"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 807,
+            "@id": "https://doi.org/10.25625/BFDIKZ/EPKB6M",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/EPKB6M",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161466"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 744446,
+            "@id": "https://doi.org/10.25625/BFDIKZ/JXWFZI",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/JXWFZI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161736"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 718,
+            "@id": "https://doi.org/10.25625/BFDIKZ/XF0OV8",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/XF0OV8",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161603"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 376808,
+            "@id": "https://doi.org/10.25625/BFDIKZ/QWUKHU",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/QWUKHU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161432"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 714,
+            "@id": "https://doi.org/10.25625/BFDIKZ/A7B71Q",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/A7B71Q",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161582"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 700,
+            "@id": "https://doi.org/10.25625/BFDIKZ/M20BLV",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/M20BLV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161360"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 420834,
+            "@id": "https://doi.org/10.25625/BFDIKZ/0RE9PC",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/0RE9PC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161450"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 933,
+            "@id": "https://doi.org/10.25625/BFDIKZ/XQPD7K",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/XQPD7K",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161398"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 372585,
+            "@id": "https://doi.org/10.25625/BFDIKZ/SQPDXB",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/SQPDXB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161652"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 923,
+            "@id": "https://doi.org/10.25625/BFDIKZ/QIHYEM",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/QIHYEM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161514"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 761,
+            "@id": "https://doi.org/10.25625/BFDIKZ/UJJYSK",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/UJJYSK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161619"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 1253127,
+            "@id": "https://doi.org/10.25625/BFDIKZ/ZAHKKQ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/ZAHKKQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161767"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 870,
+            "@id": "https://doi.org/10.25625/BFDIKZ/DNERXI",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/DNERXI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161608"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 487419,
+            "@id": "https://doi.org/10.25625/BFDIKZ/RGRWTA",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/RGRWTA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161642"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 868,
+            "@id": "https://doi.org/10.25625/BFDIKZ/BPEHSO",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/BPEHSO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161673"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 824,
+            "@id": "https://doi.org/10.25625/BFDIKZ/GBYOCD",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/GBYOCD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161732"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 244535,
+            "@id": "https://doi.org/10.25625/BFDIKZ/IBNJKO",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/IBNJKO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161363"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 753,
+            "@id": "https://doi.org/10.25625/BFDIKZ/44SI5L",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/44SI5L",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161734"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 257681,
+            "@id": "https://doi.org/10.25625/BFDIKZ/EOGJU6",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/EOGJU6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161694"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 758,
+            "@id": "https://doi.org/10.25625/BFDIKZ/W7C1AD",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/W7C1AD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161751"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 692,
+            "@id": "https://doi.org/10.25625/BFDIKZ/QZQ6KT",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/QZQ6KT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161663"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 328895,
+            "@id": "https://doi.org/10.25625/BFDIKZ/V14FH0",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/V14FH0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161705"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 769,
+            "@id": "https://doi.org/10.25625/BFDIKZ/ODDSES",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/ODDSES",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161483"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 242972,
+            "@id": "https://doi.org/10.25625/BFDIKZ/WTSFK0",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/WTSFK0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161631"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 767,
+            "@id": "https://doi.org/10.25625/BFDIKZ/DS1PZW",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/DS1PZW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161665"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 589,
+            "@id": "https://doi.org/10.25625/BFDIKZ/VUEYQI",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/VUEYQI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161690"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 213261,
+            "@id": "https://doi.org/10.25625/BFDIKZ/SLAFGG",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/SLAFGG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161391"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 677,
+            "@id": "https://doi.org/10.25625/BFDIKZ/VKSAGC",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/VKSAGC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161462"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 212941,
+            "@id": "https://doi.org/10.25625/BFDIKZ/QPW2PZ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/QPW2PZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161752"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 675,
+            "@id": "https://doi.org/10.25625/BFDIKZ/TEEHEE",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/TEEHEE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161551"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 799,
+            "@id": "https://doi.org/10.25625/BFDIKZ/56FFWJ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/56FFWJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161664"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 1036188,
+            "@id": "https://doi.org/10.25625/BFDIKZ/QNPFUA",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/QNPFUA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161656"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 973,
+            "@id": "https://doi.org/10.25625/BFDIKZ/IS7TRB",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/IS7TRB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161727"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 393431,
+            "@id": "https://doi.org/10.25625/BFDIKZ/INA2AZ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/INA2AZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161650"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 979,
+            "@id": "https://doi.org/10.25625/BFDIKZ/G6ASAU",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/G6ASAU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161708"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 770,
+            "@id": "https://doi.org/10.25625/BFDIKZ/KOPSOD",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/KOPSOD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161464"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 1036786,
+            "@id": "https://doi.org/10.25625/BFDIKZ/WPWVHO",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/WPWVHO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161381"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 968,
+            "@id": "https://doi.org/10.25625/BFDIKZ/66VJ1X",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/66VJ1X",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161572"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 386133,
+            "@id": "https://doi.org/10.25625/BFDIKZ/SNS7VB",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/SNS7VB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161497"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 975,
+            "@id": "https://doi.org/10.25625/BFDIKZ/JFMUHK",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/JFMUHK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161590"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 935,
+            "@id": "https://doi.org/10.25625/BFDIKZ/B2PHY5",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/B2PHY5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161741"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 1162636,
+            "@id": "https://doi.org/10.25625/BFDIKZ/DKLJUP",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/DKLJUP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161417"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1467,
+            "@id": "https://doi.org/10.25625/BFDIKZ/O6USW2",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/O6USW2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161633"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 1413991,
+            "@id": "https://doi.org/10.25625/BFDIKZ/C2LNY4",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/C2LNY4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161367"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1476,
+            "@id": "https://doi.org/10.25625/BFDIKZ/GZ3OJN",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/GZ3OJN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161468"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 922,
+            "@id": "https://doi.org/10.25625/BFDIKZ/0HVHCP",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/0HVHCP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161666"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 1162236,
+            "@id": "https://doi.org/10.25625/BFDIKZ/UJE7L7",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/UJE7L7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161402"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1469,
+            "@id": "https://doi.org/10.25625/BFDIKZ/2WIHRH",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/2WIHRH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161698"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 1093724,
+            "@id": "https://doi.org/10.25625/BFDIKZ/6PDWJT",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/6PDWJT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161779"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1464,
+            "@id": "https://doi.org/10.25625/BFDIKZ/E4QLQD",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/E4QLQD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161750"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 750,
+            "@id": "https://doi.org/10.25625/BFDIKZ/BHVJ2K",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/BHVJ2K",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161440"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 320890,
+            "@id": "https://doi.org/10.25625/BFDIKZ/XJBFYE",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/XJBFYE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161637"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 678,
+            "@id": "https://doi.org/10.25625/BFDIKZ/4FRZEK",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/4FRZEK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161601"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 529643,
+            "@id": "https://doi.org/10.25625/BFDIKZ/USWCQN",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/USWCQN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161395"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 641,
+            "@id": "https://doi.org/10.25625/BFDIKZ/7FD7HG",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/7FD7HG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161719"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 746,
+            "@id": "https://doi.org/10.25625/BFDIKZ/HO7WN0",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/HO7WN0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161423"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 448071,
+            "@id": "https://doi.org/10.25625/BFDIKZ/Q7KWCS",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/Q7KWCS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161452"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 832,
+            "@id": "https://doi.org/10.25625/BFDIKZ/8VA7HH",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/8VA7HH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161486"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 615201,
+            "@id": "https://doi.org/10.25625/BFDIKZ/TGSSVK",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/TGSSVK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161739"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 837,
+            "@id": "https://doi.org/10.25625/BFDIKZ/USIOHX",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/USIOHX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161593"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 808,
+            "@id": "https://doi.org/10.25625/BFDIKZ/3AYOT3",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/3AYOT3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161588"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 253709,
+            "@id": "https://doi.org/10.25625/BFDIKZ/WIIN9L",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/WIIN9L",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161605"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 547,
+            "@id": "https://doi.org/10.25625/BFDIKZ/TVUNK4",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/TVUNK4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161416"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 499289,
+            "@id": "https://doi.org/10.25625/BFDIKZ/FHXH4P",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/FHXH4P",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161393"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 767,
+            "@id": "https://doi.org/10.25625/BFDIKZ/PWV8M9",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/PWV8M9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161435"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 655,
+            "@id": "https://doi.org/10.25625/BFDIKZ/5A3WLU",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/5A3WLU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161648"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 584112,
+            "@id": "https://doi.org/10.25625/BFDIKZ/YK2XCF",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/YK2XCF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161491"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 633,
+            "@id": "https://doi.org/10.25625/BFDIKZ/MZL2C8",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/MZL2C8",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161439"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 218517,
+            "@id": "https://doi.org/10.25625/BFDIKZ/9ZRUF3",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/9ZRUF3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161674"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 643,
+            "@id": "https://doi.org/10.25625/BFDIKZ/14MHX9",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/14MHX9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161506"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 710,
+            "@id": "https://doi.org/10.25625/BFDIKZ/HZPHSM",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/HZPHSM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161520"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 503807,
+            "@id": "https://doi.org/10.25625/BFDIKZ/BRZEMO",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/BRZEMO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161583"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 755,
+            "@id": "https://doi.org/10.25625/BFDIKZ/VIHV5T",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/VIHV5T",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161502"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 689702,
+            "@id": "https://doi.org/10.25625/BFDIKZ/9FZETD",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/9FZETD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161689"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 761,
+            "@id": "https://doi.org/10.25625/BFDIKZ/N9JUP4",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/N9JUP4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161404"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 633,
+            "@id": "https://doi.org/10.25625/BFDIKZ/VTHJ12",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/VTHJ12",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161412"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 319160,
+            "@id": "https://doi.org/10.25625/BFDIKZ/AF2REX",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/AF2REX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161530"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 892,
+            "@id": "https://doi.org/10.25625/BFDIKZ/4XYMVQ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/4XYMVQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161477"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 324286,
+            "@id": "https://doi.org/10.25625/BFDIKZ/FMGAQH",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/FMGAQH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161541"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 892,
+            "@id": "https://doi.org/10.25625/BFDIKZ/GZWBGL",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/GZWBGL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161711"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 898,
+            "@id": "https://doi.org/10.25625/BFDIKZ/XXNCTN",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/XXNCTN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161660"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 3135486,
+            "@id": "https://doi.org/10.25625/BFDIKZ/AM643R",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/AM643R",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161378"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1096,
+            "@id": "https://doi.org/10.25625/BFDIKZ/X6QPCQ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/X6QPCQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161786"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 2683579,
+            "@id": "https://doi.org/10.25625/BFDIKZ/PO8AMB",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/PO8AMB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161414"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1097,
+            "@id": "https://doi.org/10.25625/BFDIKZ/DMNUBL",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/DMNUBL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161558"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 859,
+            "@id": "https://doi.org/10.25625/BFDIKZ/QEIIYG",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/QEIIYG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161387"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 7876770,
+            "@id": "https://doi.org/10.25625/BFDIKZ/PUANOH",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/PUANOH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161522"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2255,
+            "@id": "https://doi.org/10.25625/BFDIKZ/49YDCS",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/49YDCS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161401"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 4311417,
+            "@id": "https://doi.org/10.25625/BFDIKZ/DMDWMS",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/DMDWMS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161594"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2255,
+            "@id": "https://doi.org/10.25625/BFDIKZ/AYHGJD",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/AYHGJD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161574"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 930,
+            "@id": "https://doi.org/10.25625/BFDIKZ/OWOYQJ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/OWOYQJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161630"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 1508260,
+            "@id": "https://doi.org/10.25625/BFDIKZ/BHF5SY",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/BHF5SY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161545"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2259,
+            "@id": "https://doi.org/10.25625/BFDIKZ/JCAOZS",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/JCAOZS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161649"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 1917354,
+            "@id": "https://doi.org/10.25625/BFDIKZ/A9WU0M",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/A9WU0M",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161668"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2258,
+            "@id": "https://doi.org/10.25625/BFDIKZ/CQK7SG",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/CQK7SG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161384"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 645,
+            "@id": "https://doi.org/10.25625/BFDIKZ/FW1AYT",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/FW1AYT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161679"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 152496,
+            "@id": "https://doi.org/10.25625/BFDIKZ/R7FU06",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/R7FU06",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161479"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 385,
+            "@id": "https://doi.org/10.25625/BFDIKZ/QAVW9O",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/QAVW9O",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161702"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 91178,
+            "@id": "https://doi.org/10.25625/BFDIKZ/HNYBYE",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/HNYBYE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161512"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 386,
+            "@id": "https://doi.org/10.25625/BFDIKZ/KDWBFR",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/KDWBFR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161774"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 672,
+            "@id": "https://doi.org/10.25625/BFDIKZ/WD6MTM",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/WD6MTM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161407"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 890192,
+            "@id": "https://doi.org/10.25625/BFDIKZ/13XBC9",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/13XBC9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161691"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 559,
+            "@id": "https://doi.org/10.25625/BFDIKZ/6IPQIT",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/6IPQIT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161758"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 156016,
+            "@id": "https://doi.org/10.25625/BFDIKZ/BIXYC1",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/BIXYC1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161518"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 559,
+            "@id": "https://doi.org/10.25625/BFDIKZ/I3I8XD",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/I3I8XD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161597"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 569,
+            "@id": "https://doi.org/10.25625/BFDIKZ/NYMC8E",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/NYMC8E",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161609"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 101375,
+            "@id": "https://doi.org/10.25625/BFDIKZ/44TMTW",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/44TMTW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161740"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 433,
+            "@id": "https://doi.org/10.25625/BFDIKZ/JMMJ5J",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/JMMJ5J",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161501"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 135995,
+            "@id": "https://doi.org/10.25625/BFDIKZ/XBMMF0",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/XBMMF0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161493"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 428,
+            "@id": "https://doi.org/10.25625/BFDIKZ/XYAKRP",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/XYAKRP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161374"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 542,
+            "@id": "https://doi.org/10.25625/BFDIKZ/IZAYXK",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/IZAYXK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161704"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 60985,
+            "@id": "https://doi.org/10.25625/BFDIKZ/8EI4KX",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/8EI4KX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161576"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 134,
+            "@id": "https://doi.org/10.25625/BFDIKZ/8MRIWH",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/8MRIWH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161548"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 50238,
+            "@id": "https://doi.org/10.25625/BFDIKZ/4WHZEG",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/4WHZEG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161361"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 133,
+            "@id": "https://doi.org/10.25625/BFDIKZ/TDNVST",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/TDNVST",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161718"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 585,
+            "@id": "https://doi.org/10.25625/BFDIKZ/FVNRL7",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/FVNRL7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161729"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 245647,
+            "@id": "https://doi.org/10.25625/BFDIKZ/RVP6MU",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/RVP6MU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161784"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 602,
+            "@id": "https://doi.org/10.25625/BFDIKZ/UZBDMP",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/UZBDMP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161383"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 303335,
+            "@id": "https://doi.org/10.25625/BFDIKZ/Y7Z6TV",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/Y7Z6TV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161618"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 591,
+            "@id": "https://doi.org/10.25625/BFDIKZ/HRQE71",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/HRQE71",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161773"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 575,
+            "@id": "https://doi.org/10.25625/BFDIKZ/LLDVLA",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/LLDVLA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161790"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 216330,
+            "@id": "https://doi.org/10.25625/BFDIKZ/SDN0LR",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/SDN0LR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161469"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 767,
+            "@id": "https://doi.org/10.25625/BFDIKZ/JGMPZQ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/JGMPZQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161730"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 215463,
+            "@id": "https://doi.org/10.25625/BFDIKZ/QF4SWD",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/QF4SWD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161712"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 771,
+            "@id": "https://doi.org/10.25625/BFDIKZ/JBGMAU",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/JBGMAU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161465"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 595,
+            "@id": "https://doi.org/10.25625/BFDIKZ/TXXKSW",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/TXXKSW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161791"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 155439,
+            "@id": "https://doi.org/10.25625/BFDIKZ/T5XWZT",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/T5XWZT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161405"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 555,
+            "@id": "https://doi.org/10.25625/BFDIKZ/4ZYI24",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/4ZYI24",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161634"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 155479,
+            "@id": "https://doi.org/10.25625/BFDIKZ/KPLKR4",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/KPLKR4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161647"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 551,
+            "@id": "https://doi.org/10.25625/BFDIKZ/2DNINI",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/2DNINI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161651"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 765,
+            "@id": "https://doi.org/10.25625/BFDIKZ/FHJTUI",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/FHJTUI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161611"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 1730319,
+            "@id": "https://doi.org/10.25625/BFDIKZ/4DRLHP",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/4DRLHP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161638"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1034,
+            "@id": "https://doi.org/10.25625/BFDIKZ/BQPXG4",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/BQPXG4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161379"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 1169736,
+            "@id": "https://doi.org/10.25625/BFDIKZ/KKRXME",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/KKRXME",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161680"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1015,
+            "@id": "https://doi.org/10.25625/BFDIKZ/W5JGW1",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/W5JGW1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161686"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 764,
+            "@id": "https://doi.org/10.25625/BFDIKZ/L8UYFK",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/L8UYFK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161738"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 1076432,
+            "@id": "https://doi.org/10.25625/BFDIKZ/SRW5MF",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/SRW5MF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161584"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1021,
+            "@id": "https://doi.org/10.25625/BFDIKZ/LO7MPJ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/LO7MPJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161628"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 1730198,
+            "@id": "https://doi.org/10.25625/BFDIKZ/EI1IAN",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/EI1IAN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161622"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1024,
+            "@id": "https://doi.org/10.25625/BFDIKZ/P4QDGW",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/P4QDGW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161616"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 772,
+            "@id": "https://doi.org/10.25625/BFDIKZ/R0ME3L",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/R0ME3L",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161697"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 838365,
+            "@id": "https://doi.org/10.25625/BFDIKZ/5JB3ZN",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/5JB3ZN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161695"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 608,
+            "@id": "https://doi.org/10.25625/BFDIKZ/FYOGHA",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/FYOGHA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161488"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 864341,
+            "@id": "https://doi.org/10.25625/BFDIKZ/MS65WM",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/MS65WM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161524"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 598,
+            "@id": "https://doi.org/10.25625/BFDIKZ/KUMBTN",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/KUMBTN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161377"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 777,
+            "@id": "https://doi.org/10.25625/BFDIKZ/MDQETY",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/MDQETY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161410"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 662630,
+            "@id": "https://doi.org/10.25625/BFDIKZ/TETIWZ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/TETIWZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161482"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 475,
+            "@id": "https://doi.org/10.25625/BFDIKZ/QU6ECU",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/QU6ECU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161707"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 776255,
+            "@id": "https://doi.org/10.25625/BFDIKZ/P8E2NM",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/P8E2NM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161575"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 472,
+            "@id": "https://doi.org/10.25625/BFDIKZ/XJWO4Q",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/XJWO4Q",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161531"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 624,
+            "@id": "https://doi.org/10.25625/BFDIKZ/RJVDNH",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/RJVDNH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161578"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 154766,
+            "@id": "https://doi.org/10.25625/BFDIKZ/8E97R3",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/8E97R3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161357"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 601,
+            "@id": "https://doi.org/10.25625/BFDIKZ/ANRXRL",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/ANRXRL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161409"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 161494,
+            "@id": "https://doi.org/10.25625/BFDIKZ/7YMVFQ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/7YMVFQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161463"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 600,
+            "@id": "https://doi.org/10.25625/BFDIKZ/JGAPME",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/JGAPME",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161459"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 882,
+            "@id": "https://doi.org/10.25625/BFDIKZ/G8DPIZ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/G8DPIZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161770"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 518296,
+            "@id": "https://doi.org/10.25625/BFDIKZ/DTVHPQ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/DTVHPQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161570"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1378,
+            "@id": "https://doi.org/10.25625/BFDIKZ/YI3UWM",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/YI3UWM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161566"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 564178,
+            "@id": "https://doi.org/10.25625/BFDIKZ/2YC1TU",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/2YC1TU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161454"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1389,
+            "@id": "https://doi.org/10.25625/BFDIKZ/OVRFIR",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/OVRFIR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161413"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 749,
+            "@id": "https://doi.org/10.25625/BFDIKZ/YTUL9D",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/YTUL9D",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161759"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 139910,
+            "@id": "https://doi.org/10.25625/BFDIKZ/DO2EBR",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/DO2EBR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161373"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 430,
+            "@id": "https://doi.org/10.25625/BFDIKZ/NYPFNH",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/NYPFNH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161591"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 294158,
+            "@id": "https://doi.org/10.25625/BFDIKZ/XZCT0Y",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/XZCT0Y",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161455"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 431,
+            "@id": "https://doi.org/10.25625/BFDIKZ/RAF8VM",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/RAF8VM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161762"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 830,
+            "@id": "https://doi.org/10.25625/BFDIKZ/TX9VLW",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/TX9VLW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161554"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 4123774,
+            "@id": "https://doi.org/10.25625/BFDIKZ/EVGVWG",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/EVGVWG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161444"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1284,
+            "@id": "https://doi.org/10.25625/BFDIKZ/P1T1JO",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/P1T1JO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161688"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 368666,
+            "@id": "https://doi.org/10.25625/BFDIKZ/8ZVN81",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/8ZVN81",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161380"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1283,
+            "@id": "https://doi.org/10.25625/BFDIKZ/JWEAIU",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/JWEAIU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161743"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 601,
+            "@id": "https://doi.org/10.25625/BFDIKZ/LNW1CB",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/LNW1CB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161503"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 196225,
+            "@id": "https://doi.org/10.25625/BFDIKZ/UMYZ3T",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/UMYZ3T",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161757"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 647,
+            "@id": "https://doi.org/10.25625/BFDIKZ/IKJWHX",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/IKJWHX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161549"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 182125,
+            "@id": "https://doi.org/10.25625/BFDIKZ/AZXWJ0",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/AZXWJ0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161411"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 646,
+            "@id": "https://doi.org/10.25625/BFDIKZ/SSG7HT",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/SSG7HT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161496"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 687,
+            "@id": "https://doi.org/10.25625/BFDIKZ/81KPUA",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/81KPUA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161692"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 700613,
+            "@id": "https://doi.org/10.25625/BFDIKZ/F689EG",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/F689EG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161716"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 803,
+            "@id": "https://doi.org/10.25625/BFDIKZ/S8XTPT",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/S8XTPT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161560"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 556830,
+            "@id": "https://doi.org/10.25625/BFDIKZ/HJ5RAS",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/HJ5RAS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161592"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 801,
+            "@id": "https://doi.org/10.25625/BFDIKZ/KB4BID",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/KB4BID",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161623"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 821,
+            "@id": "https://doi.org/10.25625/BFDIKZ/19ZYRB",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/19ZYRB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161615"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 2690014,
+            "@id": "https://doi.org/10.25625/BFDIKZ/B3YSOB",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/B3YSOB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161721"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1281,
+            "@id": "https://doi.org/10.25625/BFDIKZ/JZONVJ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/JZONVJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161602"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 2432597,
+            "@id": "https://doi.org/10.25625/BFDIKZ/NRXHWO",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/NRXHWO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161701"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1279,
+            "@id": "https://doi.org/10.25625/BFDIKZ/SKYUXT",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/SKYUXT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161447"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 632,
+            "@id": "https://doi.org/10.25625/BFDIKZ/ZTSSFL",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/ZTSSFL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161655"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 282759,
+            "@id": "https://doi.org/10.25625/BFDIKZ/SZQPOJ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/SZQPOJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161595"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 763,
+            "@id": "https://doi.org/10.25625/BFDIKZ/M96URL",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/M96URL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161684"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 313868,
+            "@id": "https://doi.org/10.25625/BFDIKZ/HXN3DD",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/HXN3DD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161735"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 770,
+            "@id": "https://doi.org/10.25625/BFDIKZ/KF0RBQ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/KF0RBQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161669"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 722,
+            "@id": "https://doi.org/10.25625/BFDIKZ/ZC01BZ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/ZC01BZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161540"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 973184,
+            "@id": "https://doi.org/10.25625/BFDIKZ/MFY8BA",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/MFY8BA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161534"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1517,
+            "@id": "https://doi.org/10.25625/BFDIKZ/SMNUII",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/SMNUII",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161726"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 545870,
+            "@id": "https://doi.org/10.25625/BFDIKZ/P028CW",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/P028CW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161492"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1519,
+            "@id": "https://doi.org/10.25625/BFDIKZ/9JFV4G",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/9JFV4G",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161567"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 660,
+            "@id": "https://doi.org/10.25625/BFDIKZ/NJHTOB",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/NJHTOB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161550"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 153718,
+            "@id": "https://doi.org/10.25625/BFDIKZ/V9DATJ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/V9DATJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161714"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 521,
+            "@id": "https://doi.org/10.25625/BFDIKZ/JQTHKS",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/JQTHKS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161375"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 110190,
+            "@id": "https://doi.org/10.25625/BFDIKZ/YR0JHG",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/YR0JHG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161533"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 514,
+            "@id": "https://doi.org/10.25625/BFDIKZ/YDKLUQ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/YDKLUQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161653"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 676,
+            "@id": "https://doi.org/10.25625/BFDIKZ/NQVVOU",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/NQVVOU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161392"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 1132164,
+            "@id": "https://doi.org/10.25625/BFDIKZ/XNIJO5",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/XNIJO5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161755"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 774,
+            "@id": "https://doi.org/10.25625/BFDIKZ/TEXVBT",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/TEXVBT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161538"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 238669,
+            "@id": "https://doi.org/10.25625/BFDIKZ/2TV1DF",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/2TV1DF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161639"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 777,
+            "@id": "https://doi.org/10.25625/BFDIKZ/IIVJT1",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/IIVJT1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161783"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 746,
+            "@id": "https://doi.org/10.25625/BFDIKZ/NZPZM3",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/NZPZM3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161467"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 886820,
+            "@id": "https://doi.org/10.25625/BFDIKZ/JQQE3K",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/JQQE3K",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161613"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 780,
+            "@id": "https://doi.org/10.25625/BFDIKZ/8OMP4I",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/8OMP4I",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161403"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 238603,
+            "@id": "https://doi.org/10.25625/BFDIKZ/DNTE9N",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/DNTE9N",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161448"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 773,
+            "@id": "https://doi.org/10.25625/BFDIKZ/DEMEFK",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/DEMEFK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161422"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 679,
+            "@id": "https://doi.org/10.25625/BFDIKZ/M5OHHM",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/M5OHHM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161509"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 956369,
+            "@id": "https://doi.org/10.25625/BFDIKZ/ZMZ3YH",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/ZMZ3YH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161504"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 844,
+            "@id": "https://doi.org/10.25625/BFDIKZ/OPWD6H",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/OPWD6H",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161406"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 234057,
+            "@id": "https://doi.org/10.25625/BFDIKZ/BPQLEP",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/BPQLEP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161362"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 852,
+            "@id": "https://doi.org/10.25625/BFDIKZ/ITPVAB",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/ITPVAB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161678"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 662,
+            "@id": "https://doi.org/10.25625/BFDIKZ/XHPP9C",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/XHPP9C",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161635"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 479977,
+            "@id": "https://doi.org/10.25625/BFDIKZ/0EUVPY",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/0EUVPY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161789"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 553,
+            "@id": "https://doi.org/10.25625/BFDIKZ/F2AYUS",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/F2AYUS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161654"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 149073,
+            "@id": "https://doi.org/10.25625/BFDIKZ/PSXESR",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/PSXESR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161577"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 549,
+            "@id": "https://doi.org/10.25625/BFDIKZ/OTVUX2",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/OTVUX2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161547"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 753,
+            "@id": "https://doi.org/10.25625/BFDIKZ/ZMUUAE",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/ZMUUAE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161556"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 484833,
+            "@id": "https://doi.org/10.25625/BFDIKZ/NI9DNS",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/NI9DNS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161769"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1141,
+            "@id": "https://doi.org/10.25625/BFDIKZ/JSELJI",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/JSELJI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161746"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 580806,
+            "@id": "https://doi.org/10.25625/BFDIKZ/U3AG9C",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/U3AG9C",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161763"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1134,
+            "@id": "https://doi.org/10.25625/BFDIKZ/CVQS0D",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/CVQS0D",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161625"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 818,
+            "@id": "https://doi.org/10.25625/BFDIKZ/09O0OL",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/09O0OL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161745"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 764112,
+            "@id": "https://doi.org/10.25625/BFDIKZ/WYOUOY",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/WYOUOY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161677"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1092,
+            "@id": "https://doi.org/10.25625/BFDIKZ/KGUQBL",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/KGUQBL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161788"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 1048036,
+            "@id": "https://doi.org/10.25625/BFDIKZ/V1FROP",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/V1FROP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161559"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 1091,
+            "@id": "https://doi.org/10.25625/BFDIKZ/NPZ8CE",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/NPZ8CE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161568"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 770,
+            "@id": "https://doi.org/10.25625/BFDIKZ/T5ENQT",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/T5ENQT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161535"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 385902,
+            "@id": "https://doi.org/10.25625/BFDIKZ/LJ9DAF",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/LJ9DAF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161604"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 975,
+            "@id": "https://doi.org/10.25625/BFDIKZ/2L7ZIS",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/2L7ZIS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161687"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 489706,
+            "@id": "https://doi.org/10.25625/BFDIKZ/MPIHZG",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/MPIHZG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161368"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 973,
+            "@id": "https://doi.org/10.25625/BFDIKZ/WGPUR2",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/WGPUR2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161768"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 865,
+            "@id": "https://doi.org/10.25625/BFDIKZ/35QBFF",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/35QBFF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161562"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 1508446,
+            "@id": "https://doi.org/10.25625/BFDIKZ/RXSPNE",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/RXSPNE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161510"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2269,
+            "@id": "https://doi.org/10.25625/BFDIKZ/EGZBXV",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/EGZBXV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161775"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 4226325,
+            "@id": "https://doi.org/10.25625/BFDIKZ/PO7BCT",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/PO7BCT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161529"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 2254,
+            "@id": "https://doi.org/10.25625/BFDIKZ/F7DHWW",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/F7DHWW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161475"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 822,
+            "@id": "https://doi.org/10.25625/BFDIKZ/COJCNI",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/COJCNI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161685"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 1082994,
+            "@id": "https://doi.org/10.25625/BFDIKZ/IZYM2E",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/IZYM2E",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161744"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 773,
+            "@id": "https://doi.org/10.25625/BFDIKZ/EHIPXR",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/EHIPXR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161737"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 779836,
+            "@id": "https://doi.org/10.25625/BFDIKZ/ETT4PX",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/ETT4PX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161523"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 756,
+            "@id": "https://doi.org/10.25625/BFDIKZ/KLGFJQ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/KLGFJQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161596"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 692,
+            "@id": "https://doi.org/10.25625/BFDIKZ/KCP4LN",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/KCP4LN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161408"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 232181,
+            "@id": "https://doi.org/10.25625/BFDIKZ/RXPVNX",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/RXPVNX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161569"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 850,
+            "@id": "https://doi.org/10.25625/BFDIKZ/UI86WI",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/UI86WI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161710"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 284249,
+            "@id": "https://doi.org/10.25625/BFDIKZ/XX3SDX",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/XX3SDX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161460"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 863,
+            "@id": "https://doi.org/10.25625/BFDIKZ/T50TAQ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/T50TAQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161519"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 604,
+            "@id": "https://doi.org/10.25625/BFDIKZ/TMXCKA",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/TMXCKA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161766"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 246895,
+            "@id": "https://doi.org/10.25625/BFDIKZ/BAFZXZ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/BAFZXZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161765"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 846,
+            "@id": "https://doi.org/10.25625/BFDIKZ/BDRV3N",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/BDRV3N",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161725"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 237873,
+            "@id": "https://doi.org/10.25625/BFDIKZ/DPA3IJ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/DPA3IJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161610"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 848,
+            "@id": "https://doi.org/10.25625/BFDIKZ/K8ZEG0",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/K8ZEG0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161683"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 792,
+            "@id": "https://doi.org/10.25625/BFDIKZ/4BKZNU",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/4BKZNU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161557"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 477624,
+            "@id": "https://doi.org/10.25625/BFDIKZ/YGUBAO",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/YGUBAO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161390"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 848,
+            "@id": "https://doi.org/10.25625/BFDIKZ/53NM1Q",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/53NM1Q",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161555"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 513401,
+            "@id": "https://doi.org/10.25625/BFDIKZ/W7ZVQA",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/W7ZVQA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161474"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 846,
+            "@id": "https://doi.org/10.25625/BFDIKZ/IPMU72",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/IPMU72",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161571"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 791,
+            "@id": "https://doi.org/10.25625/BFDIKZ/OTSEZO",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/OTSEZO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161747"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 463205,
+            "@id": "https://doi.org/10.25625/BFDIKZ/86ECKH",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/86ECKH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161536"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 850,
+            "@id": "https://doi.org/10.25625/BFDIKZ/NXWZWF",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/NXWZWF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161607"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 538167,
+            "@id": "https://doi.org/10.25625/BFDIKZ/U6XJGC",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/U6XJGC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161426"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 857,
+            "@id": "https://doi.org/10.25625/BFDIKZ/B66WPU",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/B66WPU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161456"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 589,
+            "@id": "https://doi.org/10.25625/BFDIKZ/HBLM16",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/HBLM16",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161693"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 351283,
+            "@id": "https://doi.org/10.25625/BFDIKZ/AJOZWN",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/AJOZWN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161753"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 809,
+            "@id": "https://doi.org/10.25625/BFDIKZ/TCWNWH",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/TCWNWH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161586"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 389972,
+            "@id": "https://doi.org/10.25625/BFDIKZ/FQRKXP",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/FQRKXP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161620"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 813,
+            "@id": "https://doi.org/10.25625/BFDIKZ/SL6NFE",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/SL6NFE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161434"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 632,
+            "@id": "https://doi.org/10.25625/BFDIKZ/LYLJPA",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/LYLJPA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161358"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 1478780,
+            "@id": "https://doi.org/10.25625/BFDIKZ/ODZEKF",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/ODZEKF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161682"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 808,
+            "@id": "https://doi.org/10.25625/BFDIKZ/8ARIC1",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/8ARIC1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161470"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 351283,
+            "@id": "https://doi.org/10.25625/BFDIKZ/LFXZGB",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/LFXZGB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161641"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 809,
+            "@id": "https://doi.org/10.25625/BFDIKZ/DC6GAC",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/DC6GAC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161782"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 590,
+            "@id": "https://doi.org/10.25625/BFDIKZ/PIWWDR",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/PIWWDR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161487"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 408302,
+            "@id": "https://doi.org/10.25625/BFDIKZ/8NXW4J",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/8NXW4J",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161418"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 811,
+            "@id": "https://doi.org/10.25625/BFDIKZ/WUHI5X",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/WUHI5X",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161589"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 347719,
+            "@id": "https://doi.org/10.25625/BFDIKZ/YOLTLC",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/YOLTLC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161517"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 807,
+            "@id": "https://doi.org/10.25625/BFDIKZ/9CIJGL",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/9CIJGL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161713"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 605,
+            "@id": "https://doi.org/10.25625/BFDIKZ/1PXGRT",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/1PXGRT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161780"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 1009191,
+            "@id": "https://doi.org/10.25625/BFDIKZ/EY9MRA",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/EY9MRA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161777"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 815,
+            "@id": "https://doi.org/10.25625/BFDIKZ/W6TU3D",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/W6TU3D",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161629"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 347719,
+            "@id": "https://doi.org/10.25625/BFDIKZ/6CZCWO",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/6CZCWO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161389"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 807,
+            "@id": "https://doi.org/10.25625/BFDIKZ/7IORU2",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/7IORU2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161645"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 582,
+            "@id": "https://doi.org/10.25625/BFDIKZ/GUKJF0",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/GUKJF0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161676"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 390129,
+            "@id": "https://doi.org/10.25625/BFDIKZ/DLEDJC",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/DLEDJC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161599"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 806,
+            "@id": "https://doi.org/10.25625/BFDIKZ/RUP0MT",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/RUP0MT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161579"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 452461,
+            "@id": "https://doi.org/10.25625/BFDIKZ/BO4PGR",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/BO4PGR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161542"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 801,
+            "@id": "https://doi.org/10.25625/BFDIKZ/EMCHPJ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/EMCHPJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161681"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 618,
+            "@id": "https://doi.org/10.25625/BFDIKZ/LBV0ZH",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/LBV0ZH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161748"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 451818,
+            "@id": "https://doi.org/10.25625/BFDIKZ/PRPEOV",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/PRPEOV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161617"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 807,
+            "@id": "https://doi.org/10.25625/BFDIKZ/3PBUIR",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/3PBUIR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161525"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 390129,
+            "@id": "https://doi.org/10.25625/BFDIKZ/U6G1J0",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/U6G1J0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161453"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 806,
+            "@id": "https://doi.org/10.25625/BFDIKZ/OUDSDV",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/OUDSDV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161526"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 639,
+            "@id": "https://doi.org/10.25625/BFDIKZ/HNWBCI",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/HNWBCI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161696"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 451818,
+            "@id": "https://doi.org/10.25625/BFDIKZ/LQDOV1",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/LQDOV1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161527"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 807,
+            "@id": "https://doi.org/10.25625/BFDIKZ/BL5N7Z",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/BL5N7Z",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161776"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 462830,
+            "@id": "https://doi.org/10.25625/BFDIKZ/MMZD0S",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/MMZD0S",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161749"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 794,
+            "@id": "https://doi.org/10.25625/BFDIKZ/M8MDMB",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/M8MDMB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161606"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 601,
+            "@id": "https://doi.org/10.25625/BFDIKZ/ASUBLC",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/ASUBLC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161544"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 368552,
+            "@id": "https://doi.org/10.25625/BFDIKZ/CX2VO0",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/CX2VO0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161564"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 810,
+            "@id": "https://doi.org/10.25625/BFDIKZ/5OR4NU",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/5OR4NU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161415"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 589984,
+            "@id": "https://doi.org/10.25625/BFDIKZ/JQNJ3W",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/JQNJ3W",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161787"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 803,
+            "@id": "https://doi.org/10.25625/BFDIKZ/OWH3KQ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/OWH3KQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161436"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 610,
+            "@id": "https://doi.org/10.25625/BFDIKZ/J9QR6N",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/J9QR6N",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161626"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 368552,
+            "@id": "https://doi.org/10.25625/BFDIKZ/X8ANIN",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/X8ANIN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161700"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 810,
+            "@id": "https://doi.org/10.25625/BFDIKZ/GBPSTB",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/GBPSTB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161771"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 696338,
+            "@id": "https://doi.org/10.25625/BFDIKZ/ABADVF",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/ABADVF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161369"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 797,
+            "@id": "https://doi.org/10.25625/BFDIKZ/4GENN6",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/4GENN6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161760"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 616,
+            "@id": "https://doi.org/10.25625/BFDIKZ/7BJ9MQ",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/7BJ9MQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161675"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 417946,
+            "@id": "https://doi.org/10.25625/BFDIKZ/YJYCFY",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/YJYCFY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161778"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 807,
+            "@id": "https://doi.org/10.25625/BFDIKZ/SSTWFN",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/SSTWFN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161495"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 397638,
+            "@id": "https://doi.org/10.25625/BFDIKZ/RSMZP0",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/RSMZP0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161537"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 804,
+            "@id": "https://doi.org/10.25625/BFDIKZ/JO6PM0",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/JO6PM0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161461"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 586,
+            "@id": "https://doi.org/10.25625/BFDIKZ/MICRQG",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/MICRQG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161433"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 366173,
+            "@id": "https://doi.org/10.25625/BFDIKZ/2HZBCN",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/2HZBCN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161724"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 807,
+            "@id": "https://doi.org/10.25625/BFDIKZ/PZXIZS",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/PZXIZS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161421"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 397638,
+            "@id": "https://doi.org/10.25625/BFDIKZ/WWK1W6",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/WWK1W6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161511"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 804,
+            "@id": "https://doi.org/10.25625/BFDIKZ/BIXLGH",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/BIXLGH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161636"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 592,
+            "@id": "https://doi.org/10.25625/BFDIKZ/CQOAAF",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/CQOAAF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161624"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 524221,
+            "@id": "https://doi.org/10.25625/BFDIKZ/R17KMR",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/R17KMR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161600"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 810,
+            "@id": "https://doi.org/10.25625/BFDIKZ/CP394F",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/CP394F",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161449"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 366173,
+            "@id": "https://doi.org/10.25625/BFDIKZ/0Z0PE0",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/0Z0PE0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161581"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 807,
+            "@id": "https://doi.org/10.25625/BFDIKZ/XXWRRN",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/XXWRRN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161457"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "meta_data.json",
+            "encodingFormat": "application/json",
+            "contentSize": 607,
+            "@id": "https://doi.org/10.25625/BFDIKZ/VWMTCI",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/VWMTCI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161366"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 519420,
+            "@id": "https://doi.org/10.25625/BFDIKZ/SCOYXU",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/SCOYXU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161644"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_1.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 808,
+            "@id": "https://doi.org/10.25625/BFDIKZ/1KUUWV",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/1KUUWV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161699"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.log",
+            "encodingFormat": "text/plain",
+            "contentSize": 692794,
+            "@id": "https://doi.org/10.25625/BFDIKZ/LKMS4R",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/LKMS4R",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161394"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "optimized_state_2.xyz",
+            "encodingFormat": "chemical/x-xyz",
+            "contentSize": 808,
+            "@id": "https://doi.org/10.25625/BFDIKZ/QAHN2S",
+            "identifier": "https://doi.org/10.25625/BFDIKZ/QAHN2S",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/161528"
+        }
+    ],
+    "license_title": "Creative Commons Attribution 4.0 International",
+    "subjects": [
+        "Chemistry"
+    ],
+    "publications": [
+        {}
+    ]
+}

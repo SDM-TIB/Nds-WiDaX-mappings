@@ -1,0 +1,781 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/GUWXUX",
+    "identifier": "https://doi.org/10.25625/GUWXUX",
+    "name": "Data and code for: Diverse and larger tree islands promote native tree diversity in oil palm landscapes",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Gustavo Brant",
+            "familyName": "Paterno",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Biodiversity, Macroecology and Biogeography, University of G\u00f6ttingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0001-9719-3037",
+            "@id": "https://orcid.org/0000-0001-9719-3037",
+            "identifier": "https://orcid.org/0000-0001-9719-3037",
+            "name": "Paterno, Gustavo Brant"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Fabian",
+            "familyName": "Brambach",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Biodiversity, Macroecology and Biogeography, University of G\u00f6ttingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0001-7311-9852",
+            "@id": "https://orcid.org/0000-0001-7311-9852",
+            "identifier": "https://orcid.org/0000-0001-7311-9852",
+            "name": "Brambach, Fabian"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Nathaly",
+            "familyName": "Guerrero-Ram\u00edrez",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Biodiversity, Macroecology and Biogeography, University of G\u00f6ttingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0001-7311-9852",
+            "@id": "https://orcid.org/0000-0001-7311-9852",
+            "identifier": "https://orcid.org/0000-0001-7311-9852",
+            "name": "Guerrero-Ram\u00edrez, Nathaly"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Delphine Clara",
+            "familyName": "Zemp",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Conservation Biology, University of Neuch\u00e2tel, Neuch\u00e2tel, Switzerland"
+            },
+            "sameAs": "https://orcid.org/0000-0002-2239-2995",
+            "@id": "https://orcid.org/0000-0002-2239-2995",
+            "identifier": "https://orcid.org/0000-0002-2239-2995",
+            "name": "Zemp, Delphine Clara"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Aiza Fernanda",
+            "familyName": "Cantillo",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Biodiversity, Macroecology and Biogeography, University of G\u00f6ttingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0002-9761-3369",
+            "@id": "https://orcid.org/0000-0002-9761-3369",
+            "identifier": "https://orcid.org/0000-0002-9761-3369",
+            "name": "Cantillo, Aiza Fernanda"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Nicol\u00f2",
+            "familyName": "Camarretta",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Bioclimatology, University of G\u00f6ttingen, G\u00f6ttingen, Germany."
+            },
+            "sameAs": "https://orcid.org/0000-0001-7520-126X",
+            "@id": "https://orcid.org/0000-0001-7520-126X",
+            "identifier": "https://orcid.org/0000-0001-7520-126X",
+            "name": "Camarretta, Nicol\u00f2"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Carina C. M.",
+            "familyName": "Moura",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Forest Genetics and Forest Tree Breeding, University of G\u00f6ttingen, G\u00f6ttingen, Germany."
+            },
+            "sameAs": "https://orcid.org/0000-0003-2635-4408",
+            "@id": "https://orcid.org/0000-0003-2635-4408",
+            "identifier": "https://orcid.org/0000-0003-2635-4408",
+            "name": "Moura, Carina C. M."
+        },
+        {
+            "@type": "Person",
+            "givenName": "Oliver",
+            "familyName": "Gailing",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Forest Genetics and Forest Tree Breeding, University of G\u00f6ttingen, G\u00f6ttingen, Germany."
+            },
+            "sameAs": "https://orcid.org/0000-0002-4572-2408",
+            "@id": "https://orcid.org/0000-0002-4572-2408",
+            "identifier": "https://orcid.org/0000-0002-4572-2408",
+            "name": "Gailing, Oliver"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Johannes",
+            "familyName": "Ballauff",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Forest Botany and Tree Physiology, University of G\u00f6ttingen, G\u00f6ttingen, Germany."
+            },
+            "name": "Ballauff, Johannes"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Andrea",
+            "familyName": "Polle",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Forest Botany and Tree Physiology, University of G\u00f6ttingen, G\u00f6ttingen, Germany."
+            },
+            "sameAs": "https://orcid.org/0000-0001-8697-6394",
+            "@id": "https://orcid.org/0000-0001-8697-6394",
+            "identifier": "https://orcid.org/0000-0001-8697-6394",
+            "name": "Polle, Andrea"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Michael",
+            "familyName": "Schlund",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department of Natural Resources, University of Twente, Enschede, The Netherlands"
+            },
+            "sameAs": "https://orcid.org/0000-0001-6657-6713",
+            "@id": "https://orcid.org/0000-0001-6657-6713",
+            "identifier": "https://orcid.org/0000-0001-6657-6713",
+            "name": "Schlund, Michael"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Stefan",
+            "familyName": "Erasmi",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Th\u00fcnen Institute of Farm Economics, Braunschweig, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0002-6393-6071",
+            "@id": "https://orcid.org/0000-0002-6393-6071",
+            "identifier": "https://orcid.org/0000-0002-6393-6071",
+            "name": "Erasmi, Stefan"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Najeeb",
+            "familyName": "Iddris",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Soil Science of Tropical and Subtropical Ecosystems, University of G\u00f6ttingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0002-6904-1092",
+            "@id": "https://orcid.org/0000-0002-6904-1092",
+            "identifier": "https://orcid.org/0000-0002-6904-1092",
+            "name": "Iddris, Najeeb"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Watit",
+            "familyName": "Khokthong",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department of Biology, Chiang Mai University, Chiang Mai, Thailand"
+            },
+            "sameAs": "https://orcid.org/0000-0002-1156-3605",
+            "@id": "https://orcid.org/0000-0002-1156-3605",
+            "identifier": "https://orcid.org/0000-0002-1156-3605",
+            "name": "Khokthong, Watit"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Leti",
+            "familyName": "Sundawati",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department of Forest Management, IPB University, Kampus IPB Darmaga, Bogor, Indonesia"
+            },
+            "name": "Sundawati, Leti"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Bambang",
+            "familyName": "Irawan",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Forestry Department, Faculty of Agriculture, University of Jambi, Jambi, Indonesia"
+            },
+            "name": "Irawan, Bambang"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Dirk",
+            "familyName": "H\u00f6lscher",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Silviculture and Forest Ecology of the Temperate Zones, University of G\u00f6ttingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0002-7097-3102",
+            "@id": "https://orcid.org/0000-0002-7097-3102",
+            "identifier": "https://orcid.org/0000-0002-7097-3102",
+            "name": "H\u00f6lscher, Dirk"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Holger",
+            "familyName": "Kreft",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Biodiversity, Macroecology and Biogeography, University of G\u00f6ttingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0003-4471-8236",
+            "@id": "https://orcid.org/0000-0003-4471-8236",
+            "identifier": "https://orcid.org/0000-0003-4471-8236",
+            "name": "Kreft, Holger"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Gustavo Brant",
+            "familyName": "Paterno",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Biodiversity, Macroecology and Biogeography, University of G\u00f6ttingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0001-9719-3037",
+            "@id": "https://orcid.org/0000-0001-9719-3037",
+            "identifier": "https://orcid.org/0000-0001-9719-3037",
+            "name": "Paterno, Gustavo Brant"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Fabian",
+            "familyName": "Brambach",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Biodiversity, Macroecology and Biogeography, University of G\u00f6ttingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0001-7311-9852",
+            "@id": "https://orcid.org/0000-0001-7311-9852",
+            "identifier": "https://orcid.org/0000-0001-7311-9852",
+            "name": "Brambach, Fabian"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Nathaly",
+            "familyName": "Guerrero-Ram\u00edrez",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Biodiversity, Macroecology and Biogeography, University of G\u00f6ttingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0001-7311-9852",
+            "@id": "https://orcid.org/0000-0001-7311-9852",
+            "identifier": "https://orcid.org/0000-0001-7311-9852",
+            "name": "Guerrero-Ram\u00edrez, Nathaly"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Delphine Clara",
+            "familyName": "Zemp",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Conservation Biology, University of Neuch\u00e2tel, Neuch\u00e2tel, Switzerland"
+            },
+            "sameAs": "https://orcid.org/0000-0002-2239-2995",
+            "@id": "https://orcid.org/0000-0002-2239-2995",
+            "identifier": "https://orcid.org/0000-0002-2239-2995",
+            "name": "Zemp, Delphine Clara"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Aiza Fernanda",
+            "familyName": "Cantillo",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Biodiversity, Macroecology and Biogeography, University of G\u00f6ttingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0002-9761-3369",
+            "@id": "https://orcid.org/0000-0002-9761-3369",
+            "identifier": "https://orcid.org/0000-0002-9761-3369",
+            "name": "Cantillo, Aiza Fernanda"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Nicol\u00f2",
+            "familyName": "Camarretta",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Bioclimatology, University of G\u00f6ttingen, G\u00f6ttingen, Germany."
+            },
+            "sameAs": "https://orcid.org/0000-0001-7520-126X",
+            "@id": "https://orcid.org/0000-0001-7520-126X",
+            "identifier": "https://orcid.org/0000-0001-7520-126X",
+            "name": "Camarretta, Nicol\u00f2"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Carina C. M.",
+            "familyName": "Moura",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Forest Genetics and Forest Tree Breeding, University of G\u00f6ttingen, G\u00f6ttingen, Germany."
+            },
+            "sameAs": "https://orcid.org/0000-0003-2635-4408",
+            "@id": "https://orcid.org/0000-0003-2635-4408",
+            "identifier": "https://orcid.org/0000-0003-2635-4408",
+            "name": "Moura, Carina C. M."
+        },
+        {
+            "@type": "Person",
+            "givenName": "Oliver",
+            "familyName": "Gailing",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Forest Genetics and Forest Tree Breeding, University of G\u00f6ttingen, G\u00f6ttingen, Germany."
+            },
+            "sameAs": "https://orcid.org/0000-0002-4572-2408",
+            "@id": "https://orcid.org/0000-0002-4572-2408",
+            "identifier": "https://orcid.org/0000-0002-4572-2408",
+            "name": "Gailing, Oliver"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Johannes",
+            "familyName": "Ballauff",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Forest Botany and Tree Physiology, University of G\u00f6ttingen, G\u00f6ttingen, Germany."
+            },
+            "name": "Ballauff, Johannes"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Andrea",
+            "familyName": "Polle",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Forest Botany and Tree Physiology, University of G\u00f6ttingen, G\u00f6ttingen, Germany."
+            },
+            "sameAs": "https://orcid.org/0000-0001-8697-6394",
+            "@id": "https://orcid.org/0000-0001-8697-6394",
+            "identifier": "https://orcid.org/0000-0001-8697-6394",
+            "name": "Polle, Andrea"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Michael",
+            "familyName": "Schlund",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department of Natural Resources, University of Twente, Enschede, The Netherlands"
+            },
+            "sameAs": "https://orcid.org/0000-0001-6657-6713",
+            "@id": "https://orcid.org/0000-0001-6657-6713",
+            "identifier": "https://orcid.org/0000-0001-6657-6713",
+            "name": "Schlund, Michael"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Stefan",
+            "familyName": "Erasmi",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Th\u00fcnen Institute of Farm Economics, Braunschweig, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0002-6393-6071",
+            "@id": "https://orcid.org/0000-0002-6393-6071",
+            "identifier": "https://orcid.org/0000-0002-6393-6071",
+            "name": "Erasmi, Stefan"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Najeeb",
+            "familyName": "Iddris",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Soil Science of Tropical and Subtropical Ecosystems, University of G\u00f6ttingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0002-6904-1092",
+            "@id": "https://orcid.org/0000-0002-6904-1092",
+            "identifier": "https://orcid.org/0000-0002-6904-1092",
+            "name": "Iddris, Najeeb"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Watit",
+            "familyName": "Khokthong",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department of Biology, Chiang Mai University, Chiang Mai, Thailand"
+            },
+            "sameAs": "https://orcid.org/0000-0002-1156-3605",
+            "@id": "https://orcid.org/0000-0002-1156-3605",
+            "identifier": "https://orcid.org/0000-0002-1156-3605",
+            "name": "Khokthong, Watit"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Leti",
+            "familyName": "Sundawati",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department of Forest Management, IPB University, Kampus IPB Darmaga, Bogor, Indonesia"
+            },
+            "name": "Sundawati, Leti"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Bambang",
+            "familyName": "Irawan",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Forestry Department, Faculty of Agriculture, University of Jambi, Jambi, Indonesia"
+            },
+            "name": "Irawan, Bambang"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Dirk",
+            "familyName": "H\u00f6lscher",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Silviculture and Forest Ecology of the Temperate Zones, University of G\u00f6ttingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0002-7097-3102",
+            "@id": "https://orcid.org/0000-0002-7097-3102",
+            "identifier": "https://orcid.org/0000-0002-7097-3102",
+            "name": "H\u00f6lscher, Dirk"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Holger",
+            "familyName": "Kreft",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Biodiversity, Macroecology and Biogeography, University of G\u00f6ttingen, G\u00f6ttingen, Germany"
+            },
+            "sameAs": "https://orcid.org/0000-0003-4471-8236",
+            "@id": "https://orcid.org/0000-0003-4471-8236",
+            "identifier": "https://orcid.org/0000-0003-4471-8236",
+            "name": "Kreft, Holger"
+        }
+    ],
+    "datePublished": "2024-07-12",
+    "dateModified": "2024-09-19",
+    "version": "3",
+    "description": "Data and code for: Planting diversity begets multifaceted native diversity in oil palm landscapes",
+    "keywords": [
+        "Earth and Environmental Sciences"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Analysis_01_alpha_diversity.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 22055,
+            "description": "Analysis of tree islands and experimental treatments on multifaceted alpha diversity.",
+            "@id": "https://doi.org/10.25625/GUWXUX/MS6VD7",
+            "identifier": "https://doi.org/10.25625/GUWXUX/MS6VD7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108617"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Analysis_02_Gamma_diversity.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 13965,
+            "description": "Analysis of tree islands and experimental treatments on multifaceted Gamma diversity.",
+            "@id": "https://doi.org/10.25625/GUWXUX/451OQS",
+            "identifier": "https://doi.org/10.25625/GUWXUX/451OQS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108619"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Analysis_03_sem_models.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 21867,
+            "description": "Fit structural equation models (SEMs) for taxonomic, phylogenetic, and functional diversity (q-orders: 0-2) for observed and coverage-based standardized diversity.",
+            "@id": "https://doi.org/10.25625/GUWXUX/DH3CGQ",
+            "identifier": "https://doi.org/10.25625/GUWXUX/DH3CGQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108616"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "B11_abundance_plot.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 8796,
+            "description": "Abundance of recruiting woody species per plot",
+            "@id": "https://doi.org/10.25625/GUWXUX/YT2WJP",
+            "identifier": "https://doi.org/10.25625/GUWXUX/YT2WJP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108600"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "experimental_design.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 2968,
+            "description": "Experimental design of EFForTS-BEE.",
+            "@id": "https://doi.org/10.25625/GUWXUX/HCV0OG",
+            "identifier": "https://doi.org/10.25625/GUWXUX/HCV0OG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108591"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "functional_traits_species_imputation.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 10158,
+            "description": "Functional traits with trait imputation for missing values (SLA and wood density). ",
+            "@id": "https://doi.org/10.25625/GUWXUX/VG1GPI",
+            "identifier": "https://doi.org/10.25625/GUWXUX/VG1GPI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108599"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "functional_traits_species_R1.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 7925,
+            "description": "Species level functional traits.",
+            "@id": "https://doi.org/10.25625/GUWXUX/CWEGJY",
+            "identifier": "https://doi.org/10.25625/GUWXUX/CWEGJY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108595"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "hill_diversities_tax-phy-fun_imp.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 329204,
+            "description": "Observed and coverage-based Hill diversity across EFForTS-BEE plots.",
+            "@id": "https://doi.org/10.25625/GUWXUX/NHTTSI",
+            "identifier": "https://doi.org/10.25625/GUWXUX/NHTTSI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108597"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "phylogenetic_tree_allsp2020_S3.tre",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 2621,
+            "description": "Phylogenetic tree with recruiting species. ",
+            "@id": "https://doi.org/10.25625/GUWXUX/C122ES",
+            "identifier": "https://doi.org/10.25625/GUWXUX/C122ES",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108598"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plot_phylogenetic_tree.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 13938,
+            "description": "Script to plot the phylogenetic tree with trait data and species occurrence.",
+            "@id": "https://doi.org/10.25625/GUWXUX/35YCTP",
+            "identifier": "https://doi.org/10.25625/GUWXUX/35YCTP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108620"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Processing_01_trait_imputation.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 8073,
+            "description": "Impute missing traits using Rphylopars",
+            "@id": "https://doi.org/10.25625/GUWXUX/VN3656",
+            "identifier": "https://doi.org/10.25625/GUWXUX/VN3656",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108622"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Processing_02_speciesXsite_matrix.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 8453,
+            "description": "Build species x site matrix with abundance to compute Hill diversity.\n",
+            "@id": "https://doi.org/10.25625/GUWXUX/Z6YNJF",
+            "identifier": "https://doi.org/10.25625/GUWXUX/Z6YNJF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108623"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Processing_03_compute_alpha_hill_diversity.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 9704,
+            "description": "Compute multifaceted alpha diversity indices (Hill-Chao) Hill diversity calculated using observed and coverage-based approaches. Script adapted from Chao et al. (2021).",
+            "@id": "https://doi.org/10.25625/GUWXUX/UWQUIN",
+            "identifier": "https://doi.org/10.25625/GUWXUX/UWQUIN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108615"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "README.html",
+            "encodingFormat": "text/html",
+            "contentSize": 39743,
+            "description": "README",
+            "@id": "https://doi.org/10.25625/GUWXUX/VLURTD",
+            "identifier": "https://doi.org/10.25625/GUWXUX/VLURTD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108625"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "species_site_matrix_plotsize_S1.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 1789,
+            "description": "Species by site matrix all plots (all species).",
+            "@id": "https://doi.org/10.25625/GUWXUX/SDSHXF",
+            "identifier": "https://doi.org/10.25625/GUWXUX/SDSHXF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108606"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "species_site_matrix_plotsize_S2.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 1574,
+            "description": "Species by site matrix grouped by plot size (native species).",
+            "@id": "https://doi.org/10.25625/GUWXUX/EZ3LKX",
+            "identifier": "https://doi.org/10.25625/GUWXUX/EZ3LKX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108609"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "species_site_matrix_plotsize_S3.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 588,
+            "description": "Species by site matrix grouped by plot size (forest species).",
+            "@id": "https://doi.org/10.25625/GUWXUX/MEP1YH",
+            "identifier": "https://doi.org/10.25625/GUWXUX/MEP1YH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108610"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "species_site_matrix_restoration_S1.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 1677,
+            "description": "Species by site matrix grouped by plot size (all species).",
+            "@id": "https://doi.org/10.25625/GUWXUX/JKIE8A",
+            "identifier": "https://doi.org/10.25625/GUWXUX/JKIE8A",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108608"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "species_site_matrix_restoration_S2.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 1478,
+            "description": "Species by site matrix grouped by restoration approach (native species).",
+            "@id": "https://doi.org/10.25625/GUWXUX/KYQP5N",
+            "identifier": "https://doi.org/10.25625/GUWXUX/KYQP5N",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108605"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "species_site_matrix_restoration_S3.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 557,
+            "description": "Species by site matrix grouped by restoration approach (forest species).",
+            "@id": "https://doi.org/10.25625/GUWXUX/42VMRB",
+            "identifier": "https://doi.org/10.25625/GUWXUX/42VMRB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108607"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "species_site_matrix_S1.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 7242,
+            "description": "Species by site matrix grouped by restoration approach (all species).",
+            "@id": "https://doi.org/10.25625/GUWXUX/PHIYGN",
+            "identifier": "https://doi.org/10.25625/GUWXUX/PHIYGN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108603"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "species_site_matrix_S2.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 6401,
+            "description": "Species by site matrix all plots (native species).",
+            "@id": "https://doi.org/10.25625/GUWXUX/2V4ERC",
+            "identifier": "https://doi.org/10.25625/GUWXUX/2V4ERC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108611"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "species_site_matrix_S3.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 1848,
+            "description": "Species by site matrix all plots (forest species).",
+            "@id": "https://doi.org/10.25625/GUWXUX/CJAZA4",
+            "identifier": "https://doi.org/10.25625/GUWXUX/CJAZA4",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108604"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Summary_results_gamma_diversity.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 13513,
+            "description": "Extract main results for gamma multifacted diversity and plot rarefaction curves.\n",
+            "@id": "https://doi.org/10.25625/GUWXUX/VGZI5M",
+            "identifier": "https://doi.org/10.25625/GUWXUX/VGZI5M",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108612"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Summary_results_SEM_models.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 12102,
+            "description": "Extract results from SEM models for q0-2, export summary tables and figures.",
+            "@id": "https://doi.org/10.25625/GUWXUX/OMKJFH",
+            "identifier": "https://doi.org/10.25625/GUWXUX/OMKJFH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108621"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Supp_01_inventory_species_overview.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 19987,
+            "description": "Overview of inventory species, functional trait distribution and supplementary figures.",
+            "@id": "https://doi.org/10.25625/GUWXUX/EWLXPB",
+            "identifier": "https://doi.org/10.25625/GUWXUX/EWLXPB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108614"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Supp_02_Spatial_autocorrelation_facet correlation.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 10016,
+            "description": "Test for spatial autocorrelation in response variables and correlation between diversity facets (taxonomic, phylogenetic, functional).",
+            "@id": "https://doi.org/10.25625/GUWXUX/KIZNXP",
+            "identifier": "https://doi.org/10.25625/GUWXUX/KIZNXP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108618"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "tree_inventory2020.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 221325,
+            "description": "Inventory of recruiting wood species in EFForTS-BEE (2020). ",
+            "@id": "https://doi.org/10.25625/GUWXUX/IPU2RV",
+            "identifier": "https://doi.org/10.25625/GUWXUX/IPU2RV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108596"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "utils.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 41700,
+            "description": "A set of wrap and auxiliary functions.",
+            "@id": "https://doi.org/10.25625/GUWXUX/JWXN8D",
+            "identifier": "https://doi.org/10.25625/GUWXUX/JWXN8D",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108613"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Earth and Environmental Sciences"
+    ],
+    "publications": [
+        {}
+    ]
+}

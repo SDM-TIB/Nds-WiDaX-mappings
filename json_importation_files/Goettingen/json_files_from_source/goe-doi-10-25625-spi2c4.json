@@ -1,0 +1,92 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/SPI2C4",
+    "identifier": "https://doi.org/10.25625/SPI2C4",
+    "name": "dendrometer_and_climate_daily_2019-2022",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Christina",
+            "familyName": "Hackmann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0009-0001-8786-8157",
+            "@id": "https://orcid.org/0009-0001-8786-8157",
+            "identifier": "https://orcid.org/0009-0001-8786-8157",
+            "name": "Hackmann, Christina"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Christina",
+            "familyName": "Hackmann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0009-0001-8786-8157",
+            "@id": "https://orcid.org/0009-0001-8786-8157",
+            "identifier": "https://orcid.org/0009-0001-8786-8157",
+            "name": "Hackmann, Christina"
+        }
+    ],
+    "datePublished": "2024-11-08",
+    "dateModified": "2025-06-01",
+    "version": "1",
+    "description": "Daily time series of stem diameter measurements, taken with high-resolution dendrometers (DC2 and DC3, Ecomatik, Munich, Germany). Measurements were taken on the 20 IMP plots of the RTG2300, i.e. quintets 3, 4, 6 and 8. Per plot, four trees per species were equipped with a dendrometer. The data set also contains variables derived from dendrometer data with the treenetproc R package, including growth, maximum daily shrinkage and daily minimum tree water deficit. Additionally, the data set includes environmental variables, which were gathered on the study plots and used for modeling of tree water deficit, such as precipitation, VPD, temperature and soil moisture. For detailed description of the data columns, see the metadata excel-file. Data is processed using the treenetproc R package, which includes exclusion of outliers, correction of jumps and calculation of variables, such as tree water deficit and irreversible growth. Then, it was summarized to daily values and merged with climate data. This data set covers years 2019-2022.",
+    "keywords": [
+        "Earth and Environmental Sciences",
+        "dendrometer, climate"
+    ],
+    "temporalCoverage": [
+        "2019-01-01/2022-12-31"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "DFG"
+        }
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "dendrometer_and_climate_daily_2019-2022.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 34704253,
+            "@id": "https://doi.org/10.25625/SPI2C4/EJ1C1X",
+            "identifier": "https://doi.org/10.25625/SPI2C4/EJ1C1X",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/71380"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "dendrometer_and_climate_daily_metadata.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1796,
+            "@id": "https://doi.org/10.25625/SPI2C4/CJ3ZQI",
+            "identifier": "https://doi.org/10.25625/SPI2C4/CJ3ZQI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/71381"
+        }
+    ],
+    "license_title": "Creative Commons Attribution 4.0 International",
+    "subjects": [
+        "Earth and Environmental Sciences"
+    ]
+}

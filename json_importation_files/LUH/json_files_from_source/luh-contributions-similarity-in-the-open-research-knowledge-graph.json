@@ -1,0 +1,115 @@
+{
+  "author": "Omar Arab Oghli",
+  "author_email": "omar.araboghli@tib.eu",
+  "creator_user_id": "8de05327-c6aa-43bd-beb0-dd453d285be0",
+  "have_copyright": "Yes",
+  "id": "599f7132-e98c-46f5-8ec7-1aa680c2a74a",
+  "isopen": true,
+  "license_id": "CC-BY-3.0",
+  "license_title": "Creative Commons Attribution 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "maintainer": "Omar Arab Oghli",
+  "maintainer_email": "omar.araboghli@tib.eu",
+  "metadata_created": "2022-06-03T07:51:56.137319",
+  "metadata_modified": "2022-06-03T07:52:15.823745",
+  "name": "contributions-similarity-in-the-open-research-knowledge-graph",
+  "notes": "This evaluation set has been created for evaluating a content-based recommender system in the context of the Open Research Knowledge Graph (ORKG). The recommender system accepts structured ORKG contribution as input and recommends existing contributions in the ORKG semantically relevant to the given one.\r\n\r\n \r\n\r\nThe evaluation set is manually annotated based on the featured comparisons in the ORKG. In the course of this, it has been distinguished between homogeneous (those who are dissimilar in 2-3 properties) and heterogeneous (otherwise) instances. Multiple annotations have been obtained for the former and exactly one for the latter.\r\n\r\n \r\n\r\nIt has been also distinguished between \"with_response\" and \"without_response\" instances (50 instances for each). The former are those contributions for them the initial version of the contributions similarity service has found similarities and the latter are the opposite case.\r\n\r\n \r\n\r\nThis evaluation set has been created and applied on a modified version of the contributions similarity service in the context of this master's thesis. The modified version of the service has simplified the document representation of contributions that are stored in an ElasticSearch index by omitting redundant terms.",
+  "num_resources": 1,
+  "num_tags": 4,
+  "organization": {
+    "id": "71f7bf65-eb79-43d5-bbb3-8bac53129eec",
+    "name": "tib",
+    "title": "TIB",
+    "type": "organization",
+    "description": "Technische Informationsbibliothek",
+    "image_url": "2018-01-23-104035.171142TIBWortBildmarkeBBRGB.PNG",
+    "created": "2018-01-23T11:36:35.480058",
+    "is_organization": true,
+    "approval_status": "approved",
+    "state": "active"
+  },
+  "owner_org": "71f7bf65-eb79-43d5-bbb3-8bac53129eec",
+  "private": false,
+  "state": "active",
+  "terms_of_usage": "Yes",
+  "title": "Contributions Similarity in the Open Research Knowledge Graph",
+  "type": "dataset",
+  "url": "https://zenodo.org/record/6609750#.Ypm8IDlBxFE",
+  "version": "",
+  "extras": [
+    {
+      "key": "1st Supervisor",
+      "value": "Jennifer D'Souza"
+    },
+    {
+      "key": "2nd Supervisor",
+      "value": "Sören Auer"
+    }
+  ],
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2022-06-03T07:52:15.590332",
+      "datastore_active": false,
+      "description": "",
+      "format": "JSON",
+      "hash": "",
+      "id": "f5b90654-7fc4-4731-af7b-26c074915c14",
+      "last_modified": "2022-06-03T07:52:15.547707",
+      "metadata_modified": "2022-06-03T07:52:15.575613",
+      "mimetype": "application/json",
+      "mimetype_inner": null,
+      "name": "evaluation_set.json",
+      "package_id": "599f7132-e98c-46f5-8ec7-1aa680c2a74a",
+      "position": 0,
+      "resource_type": null,
+      "size": 85220,
+      "state": "active",
+      "tracking_summary": {
+        "total": 3,
+        "recent": 1
+      },
+      "url": "https://data.uni-hannover.de/dataset/599f7132-e98c-46f5-8ec7-1aa680c2a74a/resource/f5b90654-7fc4-4731-af7b-26c074915c14/download/evaluation_set.json",
+      "url_type": "upload"
+    }
+  ],
+  "tags": [
+    {
+      "display_name": "Artificial Intelligence",
+      "id": "f93349fd-242e-4906-8d6c-6eb23c023891",
+      "name": "Artificial Intelligence",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Content-based recommender system",
+      "id": "4b2fc3f3-4022-4ef6-8065-9034d4a55439",
+      "name": "Content-based recommender system",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "ElasticSearch",
+      "id": "65b79de4-747b-4dc3-8d90-bb41d548716e",
+      "name": "ElasticSearch",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Open Research Knowledge Graph",
+      "id": "fbab38f6-7d63-45b8-b41b-92b9d77c2b5b",
+      "name": "Open Research Knowledge Graph",
+      "state": "active",
+      "vocabulary_id": null
+    }
+  ],
+  "groups": [],
+  "relationships_as_subject": [],
+  "relationships_as_object": [],
+  "doi": "10.25835/nop77eg4",
+  "doi_status": true,
+  "domain": "https://data.uni-hannover.de",
+  "doi_date_published": "2022-06-03",
+  "doi_publisher": "LUIS"
+}

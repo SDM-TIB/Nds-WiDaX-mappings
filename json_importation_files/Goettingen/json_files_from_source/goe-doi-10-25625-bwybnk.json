@@ -1,0 +1,154 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/BWYBNK",
+    "identifier": "https://doi.org/10.25625/BWYBNK",
+    "name": "Meta-analysis data extracted from IQWiG publications",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Svenja E.",
+            "familyName": "Seide",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department of Medical Statistics, University Medical Center G\u00f6ttingen; Institute of Medical Biometry and Informatics, Heidelberg University Hospital"
+            },
+            "sameAs": "https://orcid.org/0000-0002-9113-7373",
+            "@id": "https://orcid.org/0000-0002-9113-7373",
+            "identifier": "https://orcid.org/0000-0002-9113-7373",
+            "name": "Seide, Svenja E."
+        },
+        {
+            "@type": "Person",
+            "givenName": "Christian",
+            "familyName": "R\u00f6ver",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department of Medical Statistics, University Medical Center G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-6911-698X",
+            "@id": "https://orcid.org/0000-0002-6911-698X",
+            "identifier": "https://orcid.org/0000-0002-6911-698X",
+            "name": "R\u00f6ver, Christian"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Tim",
+            "familyName": "Friede",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department of Medical Statistics, University Medical Center G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0001-5347-7441",
+            "@id": "https://orcid.org/0000-0001-5347-7441",
+            "identifier": "https://orcid.org/0000-0001-5347-7441",
+            "name": "Friede, Tim"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Svenja E.",
+            "familyName": "Seide",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department of Medical Statistics, University Medical Center G\u00f6ttingen; Institute of Medical Biometry and Informatics, Heidelberg University Hospital"
+            },
+            "sameAs": "https://orcid.org/0000-0002-9113-7373",
+            "@id": "https://orcid.org/0000-0002-9113-7373",
+            "identifier": "https://orcid.org/0000-0002-9113-7373",
+            "name": "Seide, Svenja E."
+        },
+        {
+            "@type": "Person",
+            "givenName": "Christian",
+            "familyName": "R\u00f6ver",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department of Medical Statistics, University Medical Center G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-6911-698X",
+            "@id": "https://orcid.org/0000-0002-6911-698X",
+            "identifier": "https://orcid.org/0000-0002-6911-698X",
+            "name": "R\u00f6ver, Christian"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Tim",
+            "familyName": "Friede",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department of Medical Statistics, University Medical Center G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0001-5347-7441",
+            "@id": "https://orcid.org/0000-0001-5347-7441",
+            "identifier": "https://orcid.org/0000-0001-5347-7441",
+            "name": "Friede, Tim"
+        }
+    ],
+    "datePublished": "2018-09-12",
+    "dateModified": "2019-01-14",
+    "version": "2",
+    "description": "This data set contains data on 40 meta-analyses extracted from publications by the German Institute for Quality and Efficiency in Health Care (Institut f\u00fcr Qualit\u00e4t und Wirtschaftlichkeit im Gesundheitswesen; IQWiG). In April 2017, IQWiG publications were screened chronologically, starting with the most recent one. Each publication was searched for reported meta-analyses involving binary endpoints, and non-zero event counts in all study arms, and the first qualifying analysis within each report was entered into the database. The search was continued (going back to March 2012) until a total of 40 analyses had been found. For more details see also the related publication referenced below (Seide et al., 2018). The data set consists of two CSV files; the first one, IQWiG-metadata.csv, contains metadata regarding each of the 40 meta-analyses; these are in particular the following variables (columns): no: running number identifier: IQWiG project identifier date: publication date of IQWiG project report endpoint: name of endpoint page: page number in IQWiG project report studies: number of studies included in the meta-analysis effect.measure: effect measure used The second file, IQWiG-data.csv, contains the actual count data from 131 individual studies that went into the 40 meta-analyses (each row corresponding to a study that was meta-analysed, and several rows corresponding to each meta-analysis). It contains the following variables (columns): no: running number identifier: IQWiG project identifier study: study label treat.events: number of events in the treatment group treat.total: total number of cases in the treatment group control.events: number of events in the control group control.total: total number of cases in the control group Running number and identifier allow to match the entries from both files.",
+    "keywords": [
+        "Mathematical Sciences",
+        "Medicine, Health and Life Sciences"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "S. E. Seide, C. R\u00f6ver, T. Friede. Likelihood-based random-effects meta-analysis with few studies: Empirical and simulation studies. BMC Medical Research Methodology 19:16, 2019.",
+            "@id": "https://doi.org/10.1186/s12874-018-0618-3",
+            "identifier": "https://doi.org/10.1186/s12874-018-0618-3",
+            "url": "https://doi.org/10.1186/s12874-018-0618-3"
+        }
+    ],
+    "temporalCoverage": [
+        "2012-03/2017-04"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "IQWiG-data.csv",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 4926,
+            "@id": "https://doi.org/10.25625/BWYBNK/L7OWKN",
+            "identifier": "https://doi.org/10.25625/BWYBNK/L7OWKN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/5920"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "IQWiG-metadata.csv",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 2131,
+            "@id": "https://doi.org/10.25625/BWYBNK/5MNGIE",
+            "identifier": "https://doi.org/10.25625/BWYBNK/5MNGIE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/5919"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Mathematical Sciences",
+        "Medicine, Health and Life Sciences"
+    ],
+    "publications": [
+        {
+            "citation": "S. E. Seide, C. R\u00f6ver, T. Friede. Likelihood-based random-effects meta-analysis with few studies: Empirical and simulation studies. BMC Medical Research Methodology 19:16, 2019.",
+            "url": "https://doi.org/10.1186/s12874-018-0618-3"
+        }
+    ]
+}

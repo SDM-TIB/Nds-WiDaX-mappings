@@ -1,0 +1,81 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/ZZDQF8",
+    "identifier": "https://doi.org/10.25625/ZZDQF8",
+    "name": "Forest aboveground biomass in the Annapurna region, Himalaya, derived from ground-based and spaceborne laser scanning",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Smita",
+            "familyName": "Das",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "name": "Das, Smita"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Smita",
+            "familyName": "Das",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "name": "Das, Smita"
+        }
+    ],
+    "datePublished": "2026-03-04",
+    "dateModified": "2026-03-04",
+    "version": "1",
+    "description": "Raw data used in the study to compare space-borne (GEDI) and ground-based mobile laser scanning-derived relative canopy height and above-ground biomass of mountain forests.",
+    "keywords": [
+        "Earth and Environmental Sciences",
+        "Other",
+        "relative canopy height, biomass, GEDI"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "MLS_GEDI_68plots.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 5369,
+            "description": "Data of 68 plots to calculate MLS and GEDI-derived relative canopy height and biomass values",
+            "@id": "https://doi.org/10.25625/ZZDQF8/YAUNXN",
+            "identifier": "https://doi.org/10.25625/ZZDQF8/YAUNXN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/125309"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "MLS_GEDI_non-pft _agb.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 895,
+            "description": "Data of 27 plots whose PFT varied between the two observations. This shows AGB values with different PFT and common based on the field PFT",
+            "@id": "https://doi.org/10.25625/ZZDQF8/2PMN7N",
+            "identifier": "https://doi.org/10.25625/ZZDQF8/2PMN7N",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/125308"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Earth and Environmental Sciences",
+        "Other"
+    ]
+}

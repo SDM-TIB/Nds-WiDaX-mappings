@@ -1,0 +1,179 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/BPQAFK",
+    "identifier": "https://doi.org/10.25625/BPQAFK",
+    "name": "Data for Burchert et al. 2024 \"X-ray phase-contrast tomography of cells manipulated with an optical stretcher\", J. Synchrotron Rad. 31, https://doi.org/10.1107/S1600577524003618",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Jan-Philipp",
+            "familyName": "Burchert",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for X-Ray Physics"
+            },
+            "sameAs": "https://orcid.org/0000-0003-1923-9743",
+            "@id": "https://orcid.org/0000-0003-1923-9743",
+            "identifier": "https://orcid.org/0000-0003-1923-9743",
+            "name": "Burchert, Jan-Philipp"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jan-Philipp",
+            "familyName": "Burchert",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for X-Ray Physics"
+            },
+            "sameAs": "https://orcid.org/0000-0003-1923-9743",
+            "@id": "https://orcid.org/0000-0003-1923-9743",
+            "identifier": "https://orcid.org/0000-0003-1923-9743",
+            "name": "Burchert, Jan-Philipp"
+        }
+    ],
+    "datePublished": "2024-06-12",
+    "dateModified": "2024-06-12",
+    "version": "1",
+    "description": "The underlying data that were utilized to create Figures 2b - 5e, S3, S4d.",
+    "keywords": [
+        "Physics"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "J.-P. Burchert, J. Frohn, U. R\u00f6lleke, H. Bruns, B. Yu, S.-C. Gleber, R. Stange, M. Busse, M. Osterhoff, T. Salditt and S. K\u00f6ster (2024). J. Synchrotron Rad. 31",
+            "@id": "https://doi.org/10.1107/S1600577524003618",
+            "identifier": "https://doi.org/10.1107/S1600577524003618",
+            "url": "https://doi.org/10.1107/S1600577524003618"
+        }
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Fig2b_data.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 6046,
+            "description": "The file contains a table that lists for every column in the corresponding background-divided transmission image the average value and its error from the experimental data as well as the calculated/ expected value according to Lambert-Beer's law. \n\nOrigin of the data: Processed acquisitions from single photon counting detector images that are acquired during waveguide alignment.\n\nHow to use: Read and plot the data with your preferred tool.",
+            "@id": "https://doi.org/10.25625/BPQAFK/BV88LJ",
+            "identifier": "https://doi.org/10.25625/BPQAFK/BV88LJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103777"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fig2e_data.h5",
+            "encodingFormat": "application/x-hdf5",
+            "contentSize": 895152,
+            "description": "The HDF5 file consists of two data sets: /bg_9900eV, /bg_13800eV. Each of them represents a mean hologram of the cell-free, liquid-filled capillary for the respective beam energies. The attributes of each dataset are: median_brightness, y_range(px) and z_range(px)\n\nOrigin of the data: Holograms of the cell-free capillaries that were further processed (cropping, normalization, alignment) and averaged.\n\nHow to use: HDF5 files can be accessed with multiple tools and softwares, e.g., silx (https://www.silx.org/doc/silx/latest/applications/view.html) and the python module h5py (https://docs.h5py.org/en/stable/quick.html)\n",
+            "@id": "https://doi.org/10.25625/BPQAFK/3Q2APT",
+            "identifier": "https://doi.org/10.25625/BPQAFK/3Q2APT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103778"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fig3c_data.h5",
+            "encodingFormat": "application/x-hdf5",
+            "contentSize": 305792,
+            "description": "The HDF5 file consists of twelve datasets: /0.3s, /0.6s, /0.9s, /3.0s, /6.0s, /9.0s, /15.0s, /30.0s, /60.0s, /90.0s, /150.0s, /300.0s). Each of them represents an exposure time and consists of a list of pixel values that are reconstructed phase shifts from the the cytoplasm of the cell. Contributions from debris and BaSO4 grains are excluded. Attributes for every dataset are: time(s), min, quantile25, median, median_err, mean, mean_err, quantile75, max\n\nOrigin of the data: Masked RAAR phase reconstructions based on processed holograms of a cell (without signal of capillary or liquid). The cell has been fixed, stained and measured with 9.9keV.\n\nHow to use: HDF5 files can be accessed with multiple tools and softwares, e.g., silx (https://www.silx.org/doc/silx/latest/applications/view.html) and h5py (https://docs.h5py.org/en/stable/quick.html)",
+            "@id": "https://doi.org/10.25625/BPQAFK/NAJZ6V",
+            "identifier": "https://doi.org/10.25625/BPQAFK/NAJZ6V",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103779"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fig3d_data.h5",
+            "encodingFormat": "application/x-hdf5",
+            "contentSize": 239184,
+            "description": "The HDF5 file consists of nine datasets: /time_30.0s/cytoplasmic_phase_shift_1, /time_30.0s/cytoplasmic_phase_shift_2, /time_30.0s/cytoplasmic_phase_shift_3, /time_30.0s/cytoplasmic_phase_shift_4, /time_30.0s/cytoplasmic_phase_shift_5, /time_30.0s/cytoplasmic_phase_shift_6, /time_30.0s/cytoplasmic_phase_shift_7, /time_30.0s/cytoplasmic_phase_shift_8, /time_30.0s/cytoplasmic_phase_shift_9). Each of them represents a magnitude of Gaussian noise (sigma) that is added to the the hologram with an exposure time of 30s before reconstruction. The datasets contain reconstructed phase shifts (pixel values) from the the cytoplasm of the cell. Contributions from debris and BaSO4 grains are not included. Attributes for every dataset are: exposure_time(s), median, noise_sigma, quantile25, quantile75\n\nOrigin of the data: Masked RAAR phase reconstructions based on processed holograms of a cell (without signal of capillary or liquid). The cell has been fixed, stained and measured with 9.9keV.\n\nHow to use: HDF5 files can be accessed with multiple tools and softwares, e.g., silx (https://www.silx.org/doc/silx/latest/applications/view.html) and h5py (https://docs.h5py.org/en/stable/quick.html)",
+            "@id": "https://doi.org/10.25625/BPQAFK/GBQEUN",
+            "identifier": "https://doi.org/10.25625/BPQAFK/GBQEUN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103780"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fig3e_data.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 13290,
+            "description": "Files for different acquisition datasets that are obtained for different experimental conditions: \"fixed and stained\" and \"living\" cells for both photon energies. Every file contain a table which link the exposure time to the experimentally observed noise level (sigma) in the cell holograms. \n\nOrigin of the data: Processed holograms of the background-corrected cell.\n\nHow to use: Read and plot the data with your preferred tool.\n",
+            "@id": "https://doi.org/10.25625/BPQAFK/FPJPDQ",
+            "identifier": "https://doi.org/10.25625/BPQAFK/FPJPDQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103847"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fig3f_data.h5",
+            "encodingFormat": "application/x-hdf5",
+            "contentSize": 1134736,
+            "description": "The HDF5 file consists of four datasets: /30s/data_fixed_and_stained_9900eV, /30s/data_fixed_and_stained_13800eV, /30s/data_living_9900eV, /30s/data_living_13800eV. Every dataset describes an experimental condition. It is a list of reconstructed phase shift pixel values that is accumulated from individual acquisition datasets. The mean and median values (means, medians) of those contributing individual datasets are listed as attributes. Moreover, the global_mean and global_median are stored as attributes for each dataset.\n\nOrigin of the data: Masked RAAR phase reconstructions based on processed holograms of cells.\n\nHow to use: HDF5 files can be accessed with multiple tools and softwares, e.g., silx (https://www.silx.org/doc/silx/latest/applications/view.html) and h5py (https://docs.h5py.org/en/stable/quick.html)",
+            "@id": "https://doi.org/10.25625/BPQAFK/QBU0TE",
+            "identifier": "https://doi.org/10.25625/BPQAFK/QBU0TE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103848"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fig5c_5d_data.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 68474,
+            "description": "The file experimental_coordinates.txt contains a table with the experimentally obtained grain coordinates for every projection in the frame of reference of the lab while the file calculated_coordinates.txt contain the calculated grain coordinates from the solution of the minimization problem. The file BaSO4_coordinates.txt contains the coordinates of the BaSO4 grains in the frame of reference of the cell. Note that the underlying images are cropped and binned before the coordinates are extracted or calculated.\n\nOrigin of the data: A single dataset of a fixed and stained cells that is acquired with a beam energy of 13.8keV is processed as described in the materials and methods part to obtain the coordinates of the BaSO4 grains and a description of the movement of the cell in the optical stretcher.\n\nHow to use: Read and plot the data with your preferred tool.\n",
+            "@id": "https://doi.org/10.25625/BPQAFK/AQJESU",
+            "identifier": "https://doi.org/10.25625/BPQAFK/AQJESU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103849"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Fig5e_S4a_S4b_S4c_transformation_data.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 69747,
+            "description": "The file transformation.txt contains the angles and translations that describe the rotation of the cell in the optical stretcher. Note that the underlying images are cropped and binned before the coordinates are extracted or calculated.\n\nOrigin of the data: A single dataset of a fixed and stained cells that is acquired with a beam energy of 13.8keV is processed as described in the materials and methods part to obtain the coordinates of the BaSO4 grains and a description of the movement of the cell in the optical stretcher.\n\nHow to use: To obtain the the direction of the incident beam calculate (M_y(alpha)*M_x(beta)*M_y(gamma))^(-1) * (1,0,0)^t for every set of angles (alpha, beta, gamma). M_i is the 3D rotation matrix around axis i.",
+            "@id": "https://doi.org/10.25625/BPQAFK/ZB9FPA",
+            "identifier": "https://doi.org/10.25625/BPQAFK/ZB9FPA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103865"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "FigS3_transformation_data-1.txt",
+            "encodingFormat": "text/plain",
+            "contentSize": 69747,
+            "description": "The file transformation.txt contains the angles and translations that describe the motion of the cell in the optical stretcher. Note that the underlying images are cropped and binned before the coordinates are extracted or calculated. This data is also used in Figure 5e. \n\nOrigin of the data: A single dataset of a fixed and stained cells that is acquired with a beam energy of 13.8keV is processed as described in the materials and methods part to obtain the coordinates of the BaSO4 grains and a description of the movement of the cell in the optical stretcher.\n\nHow to use: Read and plot the data with your preferred tool.",
+            "@id": "https://doi.org/10.25625/BPQAFK/2QOE9V",
+            "identifier": "https://doi.org/10.25625/BPQAFK/2QOE9V",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103903"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "FigS4d.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 5326,
+            "description": "The files average_sum_square_differences_1subvoxel.txt, average_sum_square_differences_8subvoxel.txt, average_sum_square_differences_64subvoxel.txt contain data that describe the convergence of the 3D tomographic reconstruction based on the average sum of squared differences between the experimental and forward projections. \n\nOrigin of the data: A single dataset of a fixed and stained cells that is acquired with a beam energy of 13.8keV is processed as described in the materials and methods part to obtain the coordinates of the BaSO4 grains and a description of the movement of the cell in the optical stretcher.\n\nHow to use: Read and plot the data with your preferred tool.",
+            "@id": "https://doi.org/10.25625/BPQAFK/HHQT4P",
+            "identifier": "https://doi.org/10.25625/BPQAFK/HHQT4P",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103904"
+        }
+    ],
+    "license_title": "Creative Commons Attribution 4.0 International",
+    "subjects": [
+        "Physics"
+    ],
+    "publications": [
+        {
+            "citation": "J.-P. Burchert, J. Frohn, U. R\u00f6lleke, H. Bruns, B. Yu, S.-C. Gleber, R. Stange, M. Busse, M. Osterhoff, T. Salditt and S. K\u00f6ster (2024). J. Synchrotron Rad. 31",
+            "url": "https://doi.org/10.1107/S1600577524003618"
+        }
+    ]
+}

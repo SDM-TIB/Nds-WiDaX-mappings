@@ -1,0 +1,112 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/KV5BBS",
+    "identifier": "https://doi.org/10.25625/KV5BBS",
+    "name": "EJP SOIL - TrueSoil - Germany",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Antonios",
+            "familyName": "Apostolakis",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Goettingen"
+            },
+            "name": "Apostolakis, Antonios"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Ana",
+            "familyName": "Meijide",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Bonn"
+            },
+            "name": "Meijide, Ana"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Antonios",
+            "familyName": "Apostolakis",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Goettingen"
+            },
+            "name": "Apostolakis, Antonios"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Ana",
+            "familyName": "Meijide",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Bonn"
+            },
+            "name": "Meijide, Ana"
+        }
+    ],
+    "datePublished": "2025-10-20",
+    "dateModified": "2025-10-20",
+    "version": "1",
+    "description": "The EJP SOIL TrueSoil Project 2022-2025 investigated trade offs between crop yield, soil organic carbon and greenhouse gas emissions under agroecological practices over broad pedoclimatic conditions. The Garte-Sued field trial is a tillage practices experiment that compares conventional tillage and reduced tillage since 1970 in Goettingen, Germany. Conventional tillage is applied with moldboard ploughing at 30 cm and reduced tillage with rotary harrowing at 10 cm. The trial follows a randomized block design with four blocks each having four plots. In February 2023, we paired the tillage experiment with a reduced rain experiment using rainout shelters designed to intercept 50% of rainfall in half of the plots. In this dataset, we contribute data on crop yield, soil organic carbon stocks, soil carbon dioxide and nitrous oxide fluxes and soil mineral nitrogen from February 2022 until March 2025. Additional data (e.g., management information and soil properties) are also included.",
+    "keywords": [
+        "Agricultural Sciences",
+        "Earth and Environmental Sciences",
+        "agroecology",
+        "soil organic matter",
+        "greenhouse gas emissions",
+        "nitrous oxide",
+        "reduced tillage",
+        "reduced rain"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "spatialCoverage": [
+        "Goettingen, Lower Saxony, Germany, Reinshof Experimental Farm"
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "EJPsoil TRUESOIL_Germany.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 11354,
+            "description": "EJP SOIL format followed by all TrueSoil members",
+            "@id": "https://doi.org/10.25625/KV5BBS/MQLGF1",
+            "identifier": "https://doi.org/10.25625/KV5BBS/MQLGF1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/131016"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "GarteSued_information_2025.07.10.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 9844,
+            "description": "Format of Division Agronomy, Department of Crop Sciences, University of Goettingen.\n\nThis dataset contains additional data on the history of Garte-Sued.",
+            "@id": "https://doi.org/10.25625/KV5BBS/MXOSEZ",
+            "identifier": "https://doi.org/10.25625/KV5BBS/MXOSEZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/139582"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Agricultural Sciences",
+        "Earth and Environmental Sciences"
+    ],
+    "publications": [
+        {}
+    ]
+}

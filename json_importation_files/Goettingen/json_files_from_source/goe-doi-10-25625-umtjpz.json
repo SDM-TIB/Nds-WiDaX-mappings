@@ -1,0 +1,114 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/UMTJPZ",
+    "identifier": "https://doi.org/10.25625/UMTJPZ",
+    "name": "Data from a Study on Polarity Licensing in English",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Thomas",
+            "familyName": "Weskott",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Seminar f\u00fcr Deutsche Philologie, Georg-August-Universit\u00e4t G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0003-3858-9909",
+            "@id": "https://orcid.org/0000-0003-3858-9909",
+            "identifier": "https://orcid.org/0000-0003-3858-9909",
+            "name": "Weskott, Thomas"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Julie",
+            "familyName": "Goncharov",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Seminar f\u00fcr Englische Philologie, Georg-August-Univerist\u00e4t G\u00f6ttingen"
+            },
+            "name": "Goncharov, Julie"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Thomas",
+            "familyName": "Weskott",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Seminar f\u00fcr Deutsche Philologie, Georg-August-Universit\u00e4t G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0003-3858-9909",
+            "@id": "https://orcid.org/0000-0003-3858-9909",
+            "identifier": "https://orcid.org/0000-0003-3858-9909",
+            "name": "Weskott, Thomas"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Julie",
+            "familyName": "Goncharov",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Seminar f\u00fcr Englische Philologie, Georg-August-Univerist\u00e4t G\u00f6ttingen"
+            },
+            "name": "Goncharov, Julie"
+        }
+    ],
+    "datePublished": "2026-06-28",
+    "dateModified": "2026-06-28",
+    "version": "1",
+    "description": "Data set and RMarkdown script (+ *.pdf output)",
+    "keywords": [
+        "Arts and Humanities"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "results_prod_48_2025_09_19.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 4784272,
+            "description": "Raw data from online judgment experiment run on Prolific",
+            "@id": "https://doi.org/10.25625/UMTJPZ/MVYZRJ",
+            "identifier": "https://doi.org/10.25625/UMTJPZ/MVYZRJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/187178"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "results_v4_2025_11_02.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 489026,
+            "description": "Output of RMarkdown script",
+            "@id": "https://doi.org/10.25625/UMTJPZ/GHQI9R",
+            "identifier": "https://doi.org/10.25625/UMTJPZ/GHQI9R",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/187177"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "results_v4_2025_11_02.Rmd",
+            "encodingFormat": "text/x-r-notebook",
+            "contentSize": 26310,
+            "description": "RMarkdown script (version 4) of analysis and visualization of data",
+            "@id": "https://doi.org/10.25625/UMTJPZ/HH5OYD",
+            "identifier": "https://doi.org/10.25625/UMTJPZ/HH5OYD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/187176"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Arts and Humanities"
+    ]
+}

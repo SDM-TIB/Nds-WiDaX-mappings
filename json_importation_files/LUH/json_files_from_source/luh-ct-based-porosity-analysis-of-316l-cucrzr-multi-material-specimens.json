@@ -1,0 +1,172 @@
+{
+  "author": "Ina Meyer, Cameron Owen Messmann, Roland Lachmayer",
+  "author_email": "meyer@ipeg.uni-hannover.de",
+  "creator_user_id": "5a1a8542-ae9d-49bd-861a-56a761e0c3ff",
+  "have_copyright": "Yes",
+  "id": "2fe1feea-710f-4b49-9678-c411a454e1a5",
+  "isopen": true,
+  "license_id": "CC-BY-3.0",
+  "license_title": "Creative Commons Attribution 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "maintainer": "Ina Meyer",
+  "maintainer_email": "meyer@ipeg.uni-hannover.de",
+  "metadata_created": "2026-07-13T16:48:37.181428",
+  "metadata_modified": "2026-07-16T14:47:23.213160",
+  "name": "ct-based-porosity-analysis-of-316l-cucrzr-multi-material-specimens",
+  "notes": "This dataset was generated in the context of the parameter study presented in the paper: _Additive manufacturing of multi-material parts – Influence of process parameters on interface formation in in-plane 316L/CuCrZr laser powder bed fusion_\r\n\r\nIt contains the __VGSTUDIO MAX porosity analysis reports__ for all analyzed specimens. Porosity analysis was performed in VGSTUDIO MAX (version 2026.1). Each reconstructed volume was first registered to the nominal CAD geometry by best-fit alignment to provide a common coordinate system. Pores were then quantified within a __9.3 × 9.3 × 1.5 mm³__ region of interest centered on the coordinate origin of each sample, using the __VGEasyPore__ algorithm (Porosity/Inclusion Analysis module) in relative mode with a minimum contrast of 20% and a local area size of 10 voxels. The built-in noise reduction was set to \"Low\", and indications below a minimum size of 8 voxels were discarded to suppress image artifacts. The reports include the total porosity, pore statistics, indication tables, three-dimensional pore visualizations, and the complete analysis settings.\r\n\r\nThe dataset contains porosity analysis reports for the following specimen numbers (ordered by increasing volumetric energy density): 8, 16, 31, 1, 24, 26, 33, 15 (3×), 40, 10, 32, 25.\r\n\r\n![ Representative CT-based porosity analysis of specimen 8.](https://data.uni-hannover.de/dataset/2fe1feea-710f-4b49-9678-c411a454e1a5/resource/2873b591-b79d-4e35-9a53-449eabf4624c/download/representive_specimen_8.png)\r\nRepresentative CT-based porosity analysis of specimen 8.\r\n\r\n### References\r\n\r\nMeyer, I., Oel, M., Ehlers, T., & Lachmayer, R. (2023). *Additive manufacturing of multi-material parts – Design guidelines for manufacturing of 316L/CuCrZr in laser powder bed fusion*. Heliyon, 9(8), e18301. https://doi.org/10.1016/j.heliyon.2023.e18301\r\n\r\nIna Meyer, Roland Lachmayer (2025). *Additive manufacturing data from a parameter study on 316L/CuCrZr multi-material specimens* [Data set]. LUIS. https://doi.org/10.25835/7p6wv6cg\r\n\r\nIna Meyer, Roland Lachmayer (2025). *Light microscopy data from a parameter study on 316L/CuCrZr multi-material specimens* [Data set]. LUIS. https://doi.org/10.25835/rsjz3w2k\r\n\r\nIna Meyer, Roland Lachmayer (2025). *SEM data from a parameter study on 316L/CuCrZr multi-material specimens* [Data set]. LUIS. https://doi.org/10.25835/wan2sabi\r\n\r\n### Acknowledgments\r\n\r\nThe project ”*Additive Fertigung multimaterieller Komponenten zur nachhaltigen Energiewandlung*” was funded by the European Regional Development Fund (ERDF) and the state of Lower Saxony – Project number ZW 7-87011865.\r\n\r\nThe project ”*Major Research Instrumentation for integration of efficient effects in multi-material structural components*” was funded by the Deutsche Forschungsgemeinschaft (DFG - German Research Foundation) - Project number 445707542.\r\n\r\nWe would like to thank Volume Graphics GmbH for providing the VGSTUDIO MAX software, which was used to analyze the CT scans in this study.\r\n",
+  "num_resources": 2,
+  "num_tags": 9,
+  "organization": {
+    "id": "07fc393b-f95c-45a9-9eda-618c5a0db319",
+    "name": "institut-fur-produktentwicklung-und-geratebau",
+    "title": "Institut für Produktentwicklung und Gerätebau",
+    "type": "organization",
+    "description": "Gebäude 8143\r\n\r\nAn der Universität 1\r\n\r\n**30823 Garbsen**\r\n\r\nhttp://ipeg.uni-hannover.de/",
+    "image_url": "https://www.ipeg.uni-hannover.de/fileadmin/site-templates/logos/ipeg/IPeG_Logo.png",
+    "created": "2021-05-20T15:24:18.740575",
+    "is_organization": true,
+    "approval_status": "approved",
+    "state": "active"
+  },
+  "owner_org": "07fc393b-f95c-45a9-9eda-618c5a0db319",
+  "private": false,
+  "state": "active",
+  "terms_of_usage": "Yes",
+  "title": "CT-based porosity analysis of 316L/CuCrZr multi-material specimens",
+  "type": "dataset",
+  "url": "",
+  "version": "",
+  "extras": [
+    {
+      "key": "Orcid-ID (Cameron Messmann)",
+      "value": "https://orcid.org/0009-0008-1364-0361"
+    },
+    {
+      "key": "Orcid-ID (Ina Meyer)",
+      "value": "https://orcid.org/0000-0003-0950-9535"
+    },
+    {
+      "key": "Orcid-ID (Roland Lachmayer)",
+      "value": " https://orcid.org/0000-0002-3181-6323"
+    }
+  ],
+  "resources": [
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2026-07-13T16:50:18.590657",
+      "datastore_active": false,
+      "description": "",
+      "format": "PDF",
+      "hash": "",
+      "id": "bfcbb7f8-92a1-46d4-b638-3ce28462f5bf",
+      "last_modified": "2026-07-13T16:50:18.197243",
+      "metadata_modified": "2026-07-13T16:50:36.212909",
+      "mimetype": "application/pdf",
+      "mimetype_inner": null,
+      "name": "CT_Porosity_Analysis_Reports.pdf",
+      "package_id": "2fe1feea-710f-4b49-9678-c411a454e1a5",
+      "position": 0,
+      "resource_type": null,
+      "size": 65118842,
+      "state": "active",
+      "url": "https://data.uni-hannover.de/dataset/2fe1feea-710f-4b49-9678-c411a454e1a5/resource/bfcbb7f8-92a1-46d4-b638-3ce28462f5bf/download/ct_porosity_analysis_reports.pdf",
+      "url_type": "upload"
+    },
+    {
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2026-07-13T16:50:36.225388",
+      "datastore_active": false,
+      "description": "",
+      "format": "PNG",
+      "hash": "",
+      "id": "2873b591-b79d-4e35-9a53-449eabf4624c",
+      "last_modified": "2026-07-13T16:56:04.304595",
+      "metadata_modified": "2026-07-13T16:56:04.316555",
+      "mimetype": "image/png",
+      "mimetype_inner": null,
+      "name": "Representive_specimen_8.png",
+      "package_id": "2fe1feea-710f-4b49-9678-c411a454e1a5",
+      "position": 1,
+      "resource_type": null,
+      "size": 770760,
+      "state": "active",
+      "url": "https://data.uni-hannover.de/dataset/2fe1feea-710f-4b49-9678-c411a454e1a5/resource/2873b591-b79d-4e35-9a53-449eabf4624c/download/representive_specimen_8.png",
+      "url_type": "upload"
+    }
+  ],
+  "tags": [
+    {
+      "display_name": "Additive Manufacturing",
+      "id": "40bc3d93-8f1a-4a72-a6d5-ff03701d8874",
+      "name": "Additive Manufacturing",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Materials characterization",
+      "id": "4f634040-b484-4913-a0e5-954cb980adc8",
+      "name": "Materials characterization",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Multi-material additive manufacturing",
+      "id": "52a620e2-2055-4f8f-9cbc-94d7ff4eadfa",
+      "name": "Multi-material additive manufacturing",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Porosity analysis",
+      "id": "0e0f6f4d-a058-4f7a-9159-6bc9e93bdef3",
+      "name": "Porosity analysis",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Powder Bed Fusion of Metals using a Laser Beam",
+      "id": "303c5ace-b1ba-45d4-a892-46d0bb2a3841",
+      "name": "Powder Bed Fusion of Metals using a Laser Beam",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "Steel",
+      "id": "9b9adabe-29e0-4d8b-a5ac-ee5234ccd783",
+      "name": "Steel",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "VGSTUDIO MAX",
+      "id": "39426e8d-6618-4971-9302-09f57041bcd8",
+      "name": "VGSTUDIO MAX",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "X-ray computed tomography",
+      "id": "ba677855-5829-4bab-a61e-cba79f8ffe3d",
+      "name": "X-ray computed tomography",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "copper",
+      "id": "12150538-7001-4730-abc7-dc84392b2594",
+      "name": "copper",
+      "state": "active",
+      "vocabulary_id": null
+    }
+  ],
+  "groups": [],
+  "relationships_as_subject": [],
+  "relationships_as_object": [],
+  "doi": "10.25835/wzrn3izc",
+  "doi_status": true,
+  "domain": "https://data.uni-hannover.de",
+  "doi_date_published": "2026-07-16",
+  "doi_publisher": "LUIS"
+}

@@ -1,0 +1,62 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/L6J3DM",
+    "identifier": "https://doi.org/10.25625/L6J3DM",
+    "name": "Replication Data for: Embedded Trefftz Trace DG Methods for PDEs on unfitted Surfaces",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Erik",
+            "familyName": "Schlesinger",
+            "name": "Schlesinger, Erik"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Erik",
+            "familyName": "Schlesinger",
+            "name": "Schlesinger, Erik"
+        }
+    ],
+    "datePublished": "2023-04-04",
+    "dateModified": "2023-04-04",
+    "version": "1",
+    "description": "Masterthesis \"Embedded Trefftz Trace DG Methods for PDEs on unfitted Surfaces\" These are the files to reproduce the results of the master thesis \"Embedded Trefftz Trace DG Methods for PDEs on unfitted Surfaces\" of Erik Schlesinger (examiner and co-examiner: Christoph Lehrenfeld & Paul Stocker) (2023-04-04). Documentation: The masterthesis document can be found in the 00_Text-directory Numerical Experiments and Implementations: Numerical Experiments of the Laplace-Beltrami problem in chapter 7 can be found in the ./01_Laplace-Beltrami/3D-directory. The hierarchy of the files is as follows: In run_LaplaceBeltr_3D.sh. In this file all runs for the cluster are recorded. The flags are set in run_LaplaceBeltr_3D.py itself using argparse. Moreover in run_LaplaceBeltr_3D.py the convergence test file ConvTest_LaplaceBeltr.py is called. In ConvTest_LaplaceBeltr.py in turn depending on the method flag, one of the solvers Solve_DG_TraceFEM_unfitted_3D.py, Solve_ProjDG_TraceFEM_unfitted_3D.py, Solve_TrefftzDG_TraceFEM_unfitted_3D.py is called. Further you can run Solve_CG_TraceFEM_unfitted_3D.py independent of this hierachy. The results will end up in the ./01_Laplace_Beltrami/3D/numerical_experiments-directory. Numerical Experiments of the Surface Vector-Laplace problem in chapter 8 can be found in the ./02_Surface-Vector-Laplace-directory with same hierarchy. Used libraries: Netgen/NGSolve: Netgen/NGSolve Netgen/NGSolve-add-on ngsxfem: ngsxfem Netgen/NGSolve-add-on ngstrefftz: ngstrefftz HPC Cluster: For computations on the HPC-cluster of the GWDG we recommend also the Instruction for HPC setup in G\u00f6ttingen. Shortcut installtion setups of the libraries above are in the ./10_Install_Cluster-directory.",
+    "keywords": [
+        "Mathematical Sciences"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "masterthesis-surface-pdes-main.tar.gz",
+            "encodingFormat": "application/gzip",
+            "contentSize": 5315282,
+            "@id": "https://doi.org/10.25625/L6J3DM/L4B8SL",
+            "identifier": "https://doi.org/10.25625/L6J3DM/L4B8SL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/58074"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Mathematical Sciences"
+    ],
+    "publications": [
+        {}
+    ]
+}

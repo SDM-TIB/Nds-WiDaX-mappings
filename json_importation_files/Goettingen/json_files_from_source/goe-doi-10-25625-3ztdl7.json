@@ -1,0 +1,170 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/3ZTDL7",
+    "identifier": "https://doi.org/10.25625/3ZTDL7",
+    "name": "Data set and R scripts from \"Landscape diversity can promote functional diversity of spider assemblages while habitat characteristics filter for specific traits\"",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Marco",
+            "familyName": "Ferrante",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0003-2421-396X",
+            "@id": "https://orcid.org/0000-0003-2421-396X",
+            "identifier": "https://orcid.org/0000-0003-2421-396X",
+            "name": "Ferrante, Marco"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Liebke",
+            "familyName": "Dana Fabienne",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0009-0002-2512-1004",
+            "@id": "https://orcid.org/0009-0002-2512-1004",
+            "identifier": "https://orcid.org/0009-0002-2512-1004",
+            "name": "Dana Fabienne, Liebke"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Marco",
+            "familyName": "Ferrante",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0003-2421-396X",
+            "@id": "https://orcid.org/0000-0003-2421-396X",
+            "identifier": "https://orcid.org/0000-0003-2421-396X",
+            "name": "Ferrante, Marco"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Liebke",
+            "familyName": "Dana Fabienne",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0009-0002-2512-1004",
+            "@id": "https://orcid.org/0009-0002-2512-1004",
+            "identifier": "https://orcid.org/0009-0002-2512-1004",
+            "name": "Dana Fabienne, Liebke"
+        }
+    ],
+    "datePublished": "2025-08-01",
+    "dateModified": "2025-11-11",
+    "version": "1",
+    "description": "Data sets and R scripts used for the analyses in Ferrante & Liebke et al. accepted, Functional Ecology. Please, check the Statistical Analyses section of the article for further details.",
+    "keywords": [
+        "Agricultural Sciences",
+        "biological control",
+        "ecosystem service",
+        "edge effect",
+        "functional dispersion",
+        "functional trait",
+        "landscape composition",
+        "Linyphiidae",
+        "semi-natural habitat",
+        "spider",
+        "functional diversity"
+    ],
+    "license": "http://creativecommons.org/licenses/by-nc/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "cwm.csv",
+            "encodingFormat": "text/csv",
+            "contentSize": 2911,
+            "description": "Community-weighted means for each landscape and habitat type",
+            "@id": "https://doi.org/10.25625/3ZTDL7/ZOFCUN",
+            "identifier": "https://doi.org/10.25625/3ZTDL7/ZOFCUN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/135588"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ferrante & Liebke et al_Func Ecol.R",
+            "encodingFormat": "type/x-r-syntax",
+            "contentSize": 30251,
+            "description": "R scripts used for the analyses in Ferrante & Liebke et al. accepted, Functional Ecology. Please, check the Statistical Analyses section of the article for further details.",
+            "@id": "https://doi.org/10.25625/3ZTDL7/L0K4IP",
+            "identifier": "https://doi.org/10.25625/3ZTDL7/L0K4IP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/135593"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Ferrante&Liebke et al._rawdata.xlsx",
+            "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "contentSize": 10880109,
+            "description": "Raw data",
+            "@id": "https://doi.org/10.25625/3ZTDL7/TJNEZJ",
+            "identifier": "https://doi.org/10.25625/3ZTDL7/TJNEZJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/135590"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "speciesxsite.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 7440,
+            "description": "Species x Site matrix for the functional diversity analysis",
+            "@id": "https://doi.org/10.25625/3ZTDL7/AX28SW",
+            "identifier": "https://doi.org/10.25625/3ZTDL7/AX28SW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/135592"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "traitxspecies.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 1977,
+            "description": "Trait x Species matrix for the functional diversity analysis",
+            "@id": "https://doi.org/10.25625/3ZTDL7/Y5INMU",
+            "identifier": "https://doi.org/10.25625/3ZTDL7/Y5INMU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/135589"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "trait_type.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 45,
+            "description": "Data set necessary for functional diversity analyses",
+            "@id": "https://doi.org/10.25625/3ZTDL7/ZNCBWB",
+            "identifier": "https://doi.org/10.25625/3ZTDL7/ZNCBWB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/135587"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "variablexsite.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 8327,
+            "description": "Environmental variable x Site matrix for the functional diversity analysis",
+            "@id": "https://doi.org/10.25625/3ZTDL7/MBKJIP",
+            "identifier": "https://doi.org/10.25625/3ZTDL7/MBKJIP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/135591"
+        }
+    ],
+    "license_title": "Creative Commons Attribution-NonCommercial 4.0 International",
+    "subjects": [
+        "Agricultural Sciences"
+    ]
+}

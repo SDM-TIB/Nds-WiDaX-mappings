@@ -1,0 +1,161 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/WNNFYN",
+    "identifier": "https://doi.org/10.25625/WNNFYN",
+    "name": "Data for \"Stability of bond clusters with a characteristic length scale for load distribution\"",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Yannick",
+            "familyName": "L\u00fcdemann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for the Dynamics of Complex Systems, University of G\u00f6ttingen"
+            },
+            "name": "L\u00fcdemann, Yannick"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Stefan",
+            "familyName": "Klumpp",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for the Dynamics of Complex Systems, University of G\u00f6ttingen"
+            },
+            "name": "Klumpp, Stefan"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Komal",
+            "familyName": "Bhattacharyya",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for the Dynamics of Complex Systems, University of G\u00f6ttingen"
+            },
+            "name": "Bhattacharyya, Komal"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Yannick",
+            "familyName": "L\u00fcdemann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for the Dynamics of Complex Systems, University of G\u00f6ttingen"
+            },
+            "name": "L\u00fcdemann, Yannick"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Stefan",
+            "familyName": "Klumpp",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for the Dynamics of Complex Systems, University of G\u00f6ttingen"
+            },
+            "name": "Klumpp, Stefan"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Komal",
+            "familyName": "Bhattacharyya",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute for the Dynamics of Complex Systems, University of G\u00f6ttingen"
+            },
+            "name": "Bhattacharyya, Komal"
+        }
+    ],
+    "datePublished": "2025-11-24",
+    "dateModified": "2025-11-24",
+    "version": "1",
+    "description": "This dataset contains the codes used to reproduce the figures in the article \u201cStability of bond clusters with a characteristic length scale for load distribution\u201d by L\u00fcdemann et al. The directory is organized into subfolders, each containing the Jupyter notebooks used to generate the plots for Figures 3\u20139 of the article. Each subfolder is named according to its corresponding figure. These codes have been produced by Yannick L\u00fcdemann. If you have any questions about the codes please contact Stefan Klumpp stefan.klumpp@phys.uni-goettingen.de.",
+    "keywords": [
+        "Physics"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "Figure3_4.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 9832,
+            "description": "This folder contains the code for creating the figure 3 and 4. This code has been used for quantifying the force on a closed bond considering the general model and the theoretical approximation of force using the continuum approximation (Figure 3 A and B) and the small l approximation and the local model (Figure 4 A, B and C). The notebook contains the simulation code, relavant parameters, theoretical approximations and plotting functions.",
+            "@id": "https://doi.org/10.25625/WNNFYN/L2R8I9",
+            "identifier": "https://doi.org/10.25625/WNNFYN/L2R8I9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/142118"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Figure5.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 30130,
+            "description": "This folder contains the code used to create the figure 5. \nThis code generates time series of numbers of closed bonds (Figure 5A) and kymogrphas of open and closed bonds (Figure 5 B) from the simulations of global model, local model and full general model. This notebook contains the simulation codes, relavent parameters and plotting functions. ",
+            "@id": "https://doi.org/10.25625/WNNFYN/BBNOD1",
+            "identifier": "https://doi.org/10.25625/WNNFYN/BBNOD1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/142119"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Figure6.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 59785,
+            "description": "This folder contains the code used to create figure 6. \nThis code returns the maximum force among all the bonds and the time at different iterations when simulating dynamics of a bond cluster, for global model and local model. This code also computes the force at critical n for global model (Figure 6 A) and the force at critical d for local model (Figure 6 B) and plots them with the maximum force over time to generate the plots.\nThis notebook contains the simulation codes, relavent parameters, theoretical estimations and plotting functions.",
+            "@id": "https://doi.org/10.25625/WNNFYN/OB7ZFS",
+            "identifier": "https://doi.org/10.25625/WNNFYN/OB7ZFS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/142122"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Figure7.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 25913,
+            "description": "This folder contains the code to generate the Figure 7.\nThis code can be used to compute the rupture time of bond series simulated using the local model, global model and the general model with variable force distribution length scale with respect to applied relative load density and generate Figure 7 A and compute rupture time with respespect to system size N to generate figure Figure 7B. \nThis notebook contains the simulation codes, relavent parameters and plotting functions.",
+            "@id": "https://doi.org/10.25625/WNNFYN/TIN1JP",
+            "identifier": "https://doi.org/10.25625/WNNFYN/TIN1JP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/142123"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Figure8.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 20705,
+            "description": "This folder contains the code used to generate the Figure 8.\nThis code is used to quantify the critical gap size from simulation of bond dynamics using the full general model. \nThis code is used to plot the on rate as a function of gap size d, off rate as a function of d, the intersection of on and off rate and the quantified critical gap size distribution from simulation. (Figure 8 A). \nThis code has been used to find the roots of the equations 26, equation 28 and equation 23 and the approximation from Mulla et al. to determine the analytical estimates of critical gap size and to plot with the histogram of critical gap size from simulations. (Figure 8 B and C).\nThis notebook contains the simulation codes, relavent parameters, codes to find roots of relavant analytical functions, analytical functions and plotting functions. ",
+            "@id": "https://doi.org/10.25625/WNNFYN/AHDSYJ",
+            "identifier": "https://doi.org/10.25625/WNNFYN/AHDSYJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/142120"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Figure9.zip",
+            "encodingFormat": "application/zip",
+            "contentSize": 17221,
+            "description": "This folder contains the code used for creating Figure 9.\nThis code computes the forces on the boundary of the largest gap within the bond sequence with respect to the gap size along with the maximum force around gaps equation 31, minimum force around gaps equation 30, and force around gaps considering average bond spacing equation 28, along with rupture condition of force against gap size equation 32 and generates figure 9A and Figure 9B for l=1 and l=2.\nThis notebook contains simulation codes, relavant parameters, analytical functions and plotting functions.",
+            "@id": "https://doi.org/10.25625/WNNFYN/3Y7YKO",
+            "identifier": "https://doi.org/10.25625/WNNFYN/3Y7YKO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/142121"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Physics"
+    ],
+    "publications": [
+        {}
+    ]
+}

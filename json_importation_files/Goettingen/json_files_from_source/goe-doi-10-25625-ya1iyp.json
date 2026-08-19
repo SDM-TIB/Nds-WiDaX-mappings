@@ -1,0 +1,486 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/YA1IYP",
+    "identifier": "https://doi.org/10.25625/YA1IYP",
+    "name": "Geometry effects on protein mobility in a synapse (data + code)",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Simon",
+            "familyName": "Dannenberg",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Universit\u00e4t G\u00f6ttingen"
+            },
+            "name": "Dannenberg, Simon"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Sofiia",
+            "familyName": "Reshetniak",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Universit\u00e4tsmedizin G\u00f6ttingen"
+            },
+            "name": "Reshetniak, Sofiia"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Sarah",
+            "familyName": "Mohammadinejad",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Universit\u00e4t G\u00f6ttingen"
+            },
+            "name": "Mohammadinejad, Sarah"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Silvio O.",
+            "familyName": "Rizzoli",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Universit\u00e4tsmedizin G\u00f6ttingen"
+            },
+            "name": "Rizzoli, Silvio O."
+        },
+        {
+            "@type": "Person",
+            "givenName": "Stefan",
+            "familyName": "Klumpp",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Universit\u00e4t G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0003-0584-2146",
+            "@id": "https://orcid.org/0000-0003-0584-2146",
+            "identifier": "https://orcid.org/0000-0003-0584-2146",
+            "name": "Klumpp, Stefan"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Simon",
+            "familyName": "Dannenberg",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Universit\u00e4t G\u00f6ttingen"
+            },
+            "name": "Dannenberg, Simon"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Sofiia",
+            "familyName": "Reshetniak",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Universit\u00e4tsmedizin G\u00f6ttingen"
+            },
+            "name": "Reshetniak, Sofiia"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Sarah",
+            "familyName": "Mohammadinejad",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Universit\u00e4t G\u00f6ttingen"
+            },
+            "name": "Mohammadinejad, Sarah"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Silvio O.",
+            "familyName": "Rizzoli",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Universit\u00e4tsmedizin G\u00f6ttingen"
+            },
+            "name": "Rizzoli, Silvio O."
+        },
+        {
+            "@type": "Person",
+            "givenName": "Stefan",
+            "familyName": "Klumpp",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Universit\u00e4t G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0003-0584-2146",
+            "@id": "https://orcid.org/0000-0003-0584-2146",
+            "identifier": "https://orcid.org/0000-0003-0584-2146",
+            "name": "Klumpp, Stefan"
+        }
+    ],
+    "datePublished": "2025-07-04",
+    "dateModified": "2025-09-14",
+    "version": "1",
+    "description": "Data and code for the study \"Geometry effects on protein mobility in a synapse\"",
+    "keywords": [
+        "Medicine, Health and Life Sciences",
+        "Physics"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "S. Dannenberg, S. Reshetniak, S. Mohammadinejad, S. O. Rizzoli, S. Klumpp, Geometry effects on protein mobility in a synapse, bioRxiv 2025.01.12.632582 (2025)."
+        }
+    ],
+    "license": "http://creativecommons.org/licenses/by-nc/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "Deutsche Forschungsgemeinschaft"
+        },
+        {
+            "@type": "Organization",
+            "name": "Deutsche Forschungsgemeinschaft"
+        },
+        {
+            "@type": "Organization",
+            "name": "MWK Niedersachsen"
+        }
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "analysis_structure_output.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 5980,
+            "@id": "https://doi.org/10.25625/YA1IYP/DFIDZ6",
+            "identifier": "https://doi.org/10.25625/YA1IYP/DFIDZ6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128645"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "create_structure_for_output.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 14399,
+            "@id": "https://doi.org/10.25625/YA1IYP/IKQTSX",
+            "identifier": "https://doi.org/10.25625/YA1IYP/IKQTSX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128658"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "executable",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 190312,
+            "@id": "https://doi.org/10.25625/YA1IYP/E8JBUV",
+            "identifier": "https://doi.org/10.25625/YA1IYP/E8JBUV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128673"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "indexed_binary_tree.cpp",
+            "encodingFormat": "text/plain",
+            "contentSize": 4210,
+            "@id": "https://doi.org/10.25625/YA1IYP/VAQRCW",
+            "identifier": "https://doi.org/10.25625/YA1IYP/VAQRCW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128662"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "indexed_binary_tree.h",
+            "encodingFormat": "text/plain",
+            "contentSize": 4361,
+            "@id": "https://doi.org/10.25625/YA1IYP/F1PDF1",
+            "identifier": "https://doi.org/10.25625/YA1IYP/F1PDF1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128666"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "ini.c",
+            "encodingFormat": "text/plain",
+            "contentSize": 8125,
+            "@id": "https://doi.org/10.25625/YA1IYP/RI3GM5",
+            "identifier": "https://doi.org/10.25625/YA1IYP/RI3GM5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128644"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "ini.h",
+            "encodingFormat": "text/plain",
+            "contentSize": 5336,
+            "@id": "https://doi.org/10.25625/YA1IYP/T21ABT",
+            "identifier": "https://doi.org/10.25625/YA1IYP/T21ABT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128665"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "INIReader.cpp",
+            "encodingFormat": "text/plain",
+            "contentSize": 4014,
+            "@id": "https://doi.org/10.25625/YA1IYP/ATUKJU",
+            "identifier": "https://doi.org/10.25625/YA1IYP/ATUKJU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128661"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "INIReader.h",
+            "encodingFormat": "text/plain",
+            "contentSize": 3142,
+            "@id": "https://doi.org/10.25625/YA1IYP/9DXHCJ",
+            "identifier": "https://doi.org/10.25625/YA1IYP/9DXHCJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128671"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "input.raw",
+            "encodingFormat": "image/raw",
+            "contentSize": 921,
+            "@id": "https://doi.org/10.25625/YA1IYP/Y2RPVF",
+            "identifier": "https://doi.org/10.25625/YA1IYP/Y2RPVF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128663"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "jobfile.jdf",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 684,
+            "@id": "https://doi.org/10.25625/YA1IYP/VNXKNI",
+            "identifier": "https://doi.org/10.25625/YA1IYP/VNXKNI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128657"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "main.cpp",
+            "encodingFormat": "text/plain",
+            "contentSize": 23219,
+            "@id": "https://doi.org/10.25625/YA1IYP/ROCKEM",
+            "identifier": "https://doi.org/10.25625/YA1IYP/ROCKEM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128656"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "main.h",
+            "encodingFormat": "text/plain",
+            "contentSize": 1211,
+            "@id": "https://doi.org/10.25625/YA1IYP/QTDDGR",
+            "identifier": "https://doi.org/10.25625/YA1IYP/QTDDGR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128664"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "matrix.cpp",
+            "encodingFormat": "text/plain",
+            "contentSize": 4403,
+            "@id": "https://doi.org/10.25625/YA1IYP/BSVPLU",
+            "identifier": "https://doi.org/10.25625/YA1IYP/BSVPLU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128640"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "matrix.h",
+            "encodingFormat": "text/plain",
+            "contentSize": 575,
+            "@id": "https://doi.org/10.25625/YA1IYP/NMDJ7Q",
+            "identifier": "https://doi.org/10.25625/YA1IYP/NMDJ7Q",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128659"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "observables.cpp",
+            "encodingFormat": "text/plain",
+            "contentSize": 5921,
+            "@id": "https://doi.org/10.25625/YA1IYP/G7WTP9",
+            "identifier": "https://doi.org/10.25625/YA1IYP/G7WTP9",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128646"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "observerables.h",
+            "encodingFormat": "text/plain",
+            "contentSize": 837,
+            "@id": "https://doi.org/10.25625/YA1IYP/XTFQYR",
+            "identifier": "https://doi.org/10.25625/YA1IYP/XTFQYR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128654"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "output.cpp",
+            "encodingFormat": "text/plain",
+            "contentSize": 3759,
+            "@id": "https://doi.org/10.25625/YA1IYP/1EIVAJ",
+            "identifier": "https://doi.org/10.25625/YA1IYP/1EIVAJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128642"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "output.h",
+            "encodingFormat": "text/plain",
+            "contentSize": 625,
+            "@id": "https://doi.org/10.25625/YA1IYP/6ISJ95",
+            "identifier": "https://doi.org/10.25625/YA1IYP/6ISJ95",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128648"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "output_submitter.sh",
+            "encodingFormat": "application/x-sh",
+            "contentSize": 178,
+            "@id": "https://doi.org/10.25625/YA1IYP/CXRP9N",
+            "identifier": "https://doi.org/10.25625/YA1IYP/CXRP9N",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128672"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Overview_fitted_proteins.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 6433,
+            "@id": "https://doi.org/10.25625/YA1IYP/51Q5KO",
+            "identifier": "https://doi.org/10.25625/YA1IYP/51Q5KO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128674"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pcg_extras.hpp",
+            "encodingFormat": "text/plain",
+            "contentSize": 19553,
+            "@id": "https://doi.org/10.25625/YA1IYP/8FZQJW",
+            "identifier": "https://doi.org/10.25625/YA1IYP/8FZQJW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128667"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pcg_random.hpp",
+            "encodingFormat": "text/plain",
+            "contentSize": 63821,
+            "@id": "https://doi.org/10.25625/YA1IYP/NAIVLO",
+            "identifier": "https://doi.org/10.25625/YA1IYP/NAIVLO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128649"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "pcg_uint128.hpp",
+            "encodingFormat": "text/plain",
+            "contentSize": 21124,
+            "@id": "https://doi.org/10.25625/YA1IYP/IYDUY2",
+            "identifier": "https://doi.org/10.25625/YA1IYP/IYDUY2",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128668"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "reactions_without_binding.cpp",
+            "encodingFormat": "text/plain",
+            "contentSize": 14622,
+            "@id": "https://doi.org/10.25625/YA1IYP/UA7BNU",
+            "identifier": "https://doi.org/10.25625/YA1IYP/UA7BNU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128660"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "reactions_without_binding.h",
+            "encodingFormat": "text/plain",
+            "contentSize": 1610,
+            "@id": "https://doi.org/10.25625/YA1IYP/OWJVGL",
+            "identifier": "https://doi.org/10.25625/YA1IYP/OWJVGL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128655"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "reactions_with_binding.cpp",
+            "encodingFormat": "text/plain",
+            "contentSize": 16373,
+            "@id": "https://doi.org/10.25625/YA1IYP/R2KKUD",
+            "identifier": "https://doi.org/10.25625/YA1IYP/R2KKUD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128641"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "reactions_with_binding.h",
+            "encodingFormat": "text/plain",
+            "contentSize": 2161,
+            "@id": "https://doi.org/10.25625/YA1IYP/RMDRGP",
+            "identifier": "https://doi.org/10.25625/YA1IYP/RMDRGP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128643"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "reaction_rates_without_binding.cpp",
+            "encodingFormat": "text/plain",
+            "contentSize": 3748,
+            "@id": "https://doi.org/10.25625/YA1IYP/E4E6TD",
+            "identifier": "https://doi.org/10.25625/YA1IYP/E4E6TD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128670"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "reaction_rates_without_binding.h",
+            "encodingFormat": "text/plain",
+            "contentSize": 906,
+            "@id": "https://doi.org/10.25625/YA1IYP/D8CDYR",
+            "identifier": "https://doi.org/10.25625/YA1IYP/D8CDYR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128650"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "reaction_rates_with_binding.cpp",
+            "encodingFormat": "text/plain",
+            "contentSize": 3952,
+            "@id": "https://doi.org/10.25625/YA1IYP/JYAOWS",
+            "identifier": "https://doi.org/10.25625/YA1IYP/JYAOWS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128669"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "reaction_rates_with_binding.h",
+            "encodingFormat": "text/plain",
+            "contentSize": 1225,
+            "@id": "https://doi.org/10.25625/YA1IYP/T9POTU",
+            "identifier": "https://doi.org/10.25625/YA1IYP/T9POTU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128647"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "recovery_identification.py",
+            "encodingFormat": "text/x-python",
+            "contentSize": 39931,
+            "@id": "https://doi.org/10.25625/YA1IYP/PCB66A",
+            "identifier": "https://doi.org/10.25625/YA1IYP/PCB66A",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128653"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "run.sh",
+            "encodingFormat": "application/x-sh",
+            "contentSize": 769,
+            "@id": "https://doi.org/10.25625/YA1IYP/PQWFS1",
+            "identifier": "https://doi.org/10.25625/YA1IYP/PQWFS1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128652"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "simulation_class.h",
+            "encodingFormat": "text/plain",
+            "contentSize": 2078,
+            "@id": "https://doi.org/10.25625/YA1IYP/RUOWUF",
+            "identifier": "https://doi.org/10.25625/YA1IYP/RUOWUF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/128651"
+        }
+    ],
+    "license_title": "Creative Commons Attribution-NonCommercial 4.0 International",
+    "subjects": [
+        "Medicine, Health and Life Sciences",
+        "Physics"
+    ],
+    "publications": [
+        {
+            "citation": "S. Dannenberg, S. Reshetniak, S. Mohammadinejad, S. O. Rizzoli, S. Klumpp, Geometry effects on protein mobility in a synapse, bioRxiv 2025.01.12.632582 (2025)."
+        }
+    ]
+}

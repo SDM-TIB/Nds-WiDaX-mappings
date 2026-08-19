@@ -1,0 +1,218 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/ZOHHEI",
+    "identifier": "https://doi.org/10.25625/ZOHHEI",
+    "name": "Replication Data for: \"Neodymium acetate as a contrast agent for x-ray phase-contrast tomography\"",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Jakob",
+            "familyName": "Reichmann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-6597-1831",
+            "@id": "https://orcid.org/0000-0002-6597-1831",
+            "identifier": "https://orcid.org/0000-0002-6597-1831",
+            "name": "Reichmann, Jakob"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Tim",
+            "familyName": "Salditt",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0003-4636-0813",
+            "@id": "https://orcid.org/0000-0003-4636-0813",
+            "identifier": "https://orcid.org/0000-0003-4636-0813",
+            "name": "Salditt, Tim"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jakob",
+            "familyName": "Reichmann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0002-6597-1831",
+            "@id": "https://orcid.org/0000-0002-6597-1831",
+            "identifier": "https://orcid.org/0000-0002-6597-1831",
+            "name": "Reichmann, Jakob"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Tim",
+            "familyName": "Salditt",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of G\u00f6ttingen"
+            },
+            "sameAs": "https://orcid.org/0000-0003-4636-0813",
+            "@id": "https://orcid.org/0000-0003-4636-0813",
+            "identifier": "https://orcid.org/0000-0003-4636-0813",
+            "name": "Salditt, Tim"
+        }
+    ],
+    "datePublished": "2023-10-24",
+    "dateModified": "2024-07-23",
+    "version": "1",
+    "description": "This dataset contains analysis scripts as well as exemplary one raw data set with phase reconstructed projections, the tomographically reconstructed volumes with and without preceding phase reconstruction (along with the according Matlab script)",
+    "keywords": [
+        "Physics"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "Proceedings Volume 12242, Developments in X-Ray Tomography XIV; 1224204 (2022) https://doi.org/10.1117/12.2627682 Event: SPIE Optical Engineering + Applications, 2022, San Diego, California, United States",
+            "@id": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12242/1224204/Neodymium-acetate-as-a-contrast-agent-for-x-ray-phase/10.1117/12.2627682.full",
+            "identifier": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12242/1224204/Neodymium-acetate-as-a-contrast-agent-for-x-ray-phase/10.1117/12.2627682.full",
+            "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12242/1224204/Neodymium-acetate-as-a-contrast-agent-for-x-ray-phase/10.1117/12.2627682.full"
+        }
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "AtomScat_U_Nd_Os.ipynb",
+            "encodingFormat": "application/x-ipynb+json",
+            "contentSize": 85666,
+            "description": "Attenuation per voxel shown for similar region of NdAc, OsO4 and unstained samples in histograms for 13.8 &\n16 keV",
+            "@id": "https://doi.org/10.25625/ZOHHEI/NHJKQO",
+            "identifier": "https://doi.org/10.25625/ZOHHEI/NHJKQO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/66673"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Comparison_avg_138keV.m",
+            "encodingFormat": "text/x-objcsrc",
+            "contentSize": 1373,
+            "@id": "https://doi.org/10.25625/ZOHHEI/SFIEAE",
+            "identifier": "https://doi.org/10.25625/ZOHHEI/SFIEAE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/66670"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Comparison_avg_16keV.m",
+            "encodingFormat": "text/x-objcsrc",
+            "contentSize": 1887,
+            "@id": "https://doi.org/10.25625/ZOHHEI/SJGKV7",
+            "identifier": "https://doi.org/10.25625/ZOHHEI/SJGKV7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/66675"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "cropped_slice_Nd_138keV_avg.mat",
+            "encodingFormat": "application/matlab-mat",
+            "contentSize": 569986,
+            "@id": "https://doi.org/10.25625/ZOHHEI/VY9MUY",
+            "identifier": "https://doi.org/10.25625/ZOHHEI/VY9MUY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/66676"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "cropped_slice_Nd_16keV_avg.mat",
+            "encodingFormat": "application/matlab-mat",
+            "contentSize": 568651,
+            "@id": "https://doi.org/10.25625/ZOHHEI/PJXRTK",
+            "identifier": "https://doi.org/10.25625/ZOHHEI/PJXRTK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/66672"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "cropped_slice_OsO4_16keV_avg.mat",
+            "encodingFormat": "application/matlab-mat",
+            "contentSize": 551120,
+            "@id": "https://doi.org/10.25625/ZOHHEI/HCYJLI",
+            "identifier": "https://doi.org/10.25625/ZOHHEI/HCYJLI",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/66668"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "cropped_slice_Unstained_138keV_avg.mat",
+            "encodingFormat": "application/matlab-mat",
+            "contentSize": 570010,
+            "@id": "https://doi.org/10.25625/ZOHHEI/TM3BED",
+            "identifier": "https://doi.org/10.25625/ZOHHEI/TM3BED",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/66671"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "cropped_slice_Unstained_16keV_avg.mat",
+            "encodingFormat": "application/matlab-mat",
+            "contentSize": 576564,
+            "@id": "https://doi.org/10.25625/ZOHHEI/ZEAENU",
+            "identifier": "https://doi.org/10.25625/ZOHHEI/ZEAENU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/66669"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Plot_Profile-CCD.ipynb",
+            "encodingFormat": "application/x-ipynb+json",
+            "contentSize": 583859,
+            "description": "Profile plots, Figure 2",
+            "@id": "https://doi.org/10.25625/ZOHHEI/9W1HIN",
+            "identifier": "https://doi.org/10.25625/ZOHHEI/9W1HIN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/66674"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Retina_wholeEye_Neodym_16keV_tomo01b_seq2_reconstructedSlices_ctf_bin2_type=single_size=1024x1024x880.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 3691119626,
+            "description": "Phase- and tomographically reconstructed dataset of Neodym-stained whole eye, 2x2 binned ",
+            "@id": "https://doi.org/10.25625/ZOHHEI/IY4ICG",
+            "identifier": "https://doi.org/10.25625/ZOHHEI/IY4ICG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/66677"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Retina_wholeEye_Neodym_16keV_tomo01b_seq2_reconstructedSlices_no_pr_bin2_type=single_size=2048x2048x1760.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 3691119626,
+            "description": "Tomographically reconstructed dataset of Neodym-stained whole eye, 2x2 binned ",
+            "@id": "https://doi.org/10.25625/ZOHHEI/PP4BET",
+            "identifier": "https://doi.org/10.25625/ZOHHEI/PP4BET",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/66678"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "template_tomoreconstruction_parallel_GINIX.m",
+            "encodingFormat": "text/x-objcsrc",
+            "contentSize": 14763,
+            "description": "Template for phase- and tomographic reconstruction of projections recorded with parallel beam at GINIX instrument (P10, DESY, Hamburg)",
+            "@id": "https://doi.org/10.25625/ZOHHEI/GRMD1W",
+            "identifier": "https://doi.org/10.25625/ZOHHEI/GRMD1W",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/66667"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Physics"
+    ],
+    "publications": [
+        {
+            "citation": "Proceedings Volume 12242, Developments in X-Ray Tomography XIV; 1224204 (2022) https://doi.org/10.1117/12.2627682 Event: SPIE Optical Engineering + Applications, 2022, San Diego, California, United States",
+            "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12242/1224204/Neodymium-acetate-as-a-contrast-agent-for-x-ray-phase/10.1117/12.2627682.full"
+        }
+    ]
+}

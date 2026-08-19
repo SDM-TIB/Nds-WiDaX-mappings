@@ -1,0 +1,131 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/XCCORH",
+    "identifier": "https://doi.org/10.25625/XCCORH",
+    "name": "Testing Geospatial Data",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Claudia",
+            "familyName": "Malzer",
+            "name": "Malzer, Claudia"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Claudia",
+            "familyName": "Malzer",
+            "name": "Malzer, Claudia"
+        }
+    ],
+    "datePublished": "2021-12-13",
+    "dateModified": "2022-02-15",
+    "version": "2",
+    "description": "These files are meant for demonstration purposes in combination with GeoMapper.",
+    "keywords": [
+        "Earth and Environmental Sciences"
+    ],
+    "license": "http://creativecommons.org/publicdomain/zero/1.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "spatialCoverage": [
+        "Germany"
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "clipped-eight-band.tif",
+            "encodingFormat": "image/tiff",
+            "contentSize": 72315628,
+            "description": "A multi-band satellite image. Clipped from different bands available at https://landsat-pds.s3.amazonaws.com/c1/L8/139/045/LC08_L1TP_139045_20170304_20170316_01_T1/index.html",
+            "@id": "https://doi.org/10.25625/XCCORH/WHBVSJ",
+            "identifier": "https://doi.org/10.25625/XCCORH/WHBVSJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/35672"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "CSVPOIs.tab",
+            "encodingFormat": "text/tab-separated-values",
+            "contentSize": 7109,
+            "description": "CSV file with Longitude/Latitude columns",
+            "@id": "https://doi.org/10.25625/XCCORH/FMEBAA",
+            "identifier": "https://doi.org/10.25625/XCCORH/FMEBAA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/35675"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "example_4269.geotiff",
+            "encodingFormat": "image/tiff",
+            "contentSize": 1597,
+            "description": "A small Geotiff in 4269 projection. Source: https://github.com/GeoTIFF/georaster-layer-for-leaflet-example",
+            "@id": "https://doi.org/10.25625/XCCORH/WXJVBV",
+            "identifier": "https://doi.org/10.25625/XCCORH/WXJVBV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/35679"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "geojsonSample.geojson",
+            "encodingFormat": "application/geo+json",
+            "contentSize": 1580,
+            "@id": "https://doi.org/10.25625/XCCORH/N2PMQZ",
+            "identifier": "https://doi.org/10.25625/XCCORH/N2PMQZ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/35677"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "kmlSample.kml",
+            "encodingFormat": "application/vnd.google-earth.kml+xml",
+            "contentSize": 1847,
+            "@id": "https://doi.org/10.25625/XCCORH/VQXNMU",
+            "identifier": "https://doi.org/10.25625/XCCORH/VQXNMU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/35678"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Shapefile_points.zip",
+            "encodingFormat": "application/zipped-shapefile",
+            "contentSize": 7631,
+            "description": "Some POIs on G\u00f6ttingen Campus",
+            "@id": "https://doi.org/10.25625/XCCORH/MCP1A3",
+            "identifier": "https://doi.org/10.25625/XCCORH/MCP1A3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/35674"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "Shapefile_polygons_3857.zip",
+            "encodingFormat": "application/zipped-shapefile",
+            "contentSize": 151849,
+            "description": "University buildings in G\u00f6ttingen",
+            "@id": "https://doi.org/10.25625/XCCORH/10KHAW",
+            "identifier": "https://doi.org/10.25625/XCCORH/10KHAW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/34507"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "World1880.zip",
+            "encodingFormat": "application/zipped-shapefile",
+            "contentSize": 208678,
+            "description": "Historic country boundaries. Source: https://web.archive.org/web/20061221071409/http://library.thinkquest.org/C006628/download.html",
+            "@id": "https://doi.org/10.25625/XCCORH/P2UQBY",
+            "identifier": "https://doi.org/10.25625/XCCORH/P2UQBY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/34517"
+        }
+    ],
+    "license_title": "Creative Commons Zero (CC0)",
+    "subjects": [
+        "Earth and Environmental Sciences"
+    ]
+}

@@ -1,0 +1,914 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.25625/AP5BRQ",
+    "identifier": "https://doi.org/10.25625/AP5BRQ",
+    "name": "Dataset: Retinal ganglion cell spike trains from axolotl, mouse, and marmoset for full-field stimulation",
+    "creator": [
+        {
+            "@type": "Person",
+            "givenName": "Neda",
+            "familyName": "Shahidi",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Goettingen and German Primate Center"
+            },
+            "sameAs": "https://orcid.org/0000-0003-1961-4611",
+            "@id": "https://orcid.org/0000-0003-1961-4611",
+            "identifier": "https://orcid.org/0000-0003-1961-4611",
+            "name": "Shahidi, Neda"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Neda",
+            "familyName": "Shahidi",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Goettingen and German Primate Center"
+            },
+            "sameAs": "https://orcid.org/0000-0003-1961-4611",
+            "@id": "https://orcid.org/0000-0003-1961-4611",
+            "identifier": "https://orcid.org/0000-0003-1961-4611",
+            "name": "Shahidi, Neda"
+        }
+    ],
+    "datePublished": "2024-09-10",
+    "dateModified": "2025-02-14",
+    "version": "1",
+    "description": "Spike train data from axolotl, mouse, and marmoset retinal ganglion cells in response to temporally modulated full-field stimulation (white noise and chirp). Matlab code for reading the data and generating figures from the cited pre-print. See README file for further information.",
+    "keywords": [
+        "Medicine, Health and Life Sciences",
+        "retinal ganglion cell; encoding models; axolotl; mouse; marmoset"
+    ],
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "Shahidi, N., Rozenblit, F., Khani, M. H., Schreyer, H. M., Mietsch, M., Protti, D. A., & Gollisch, T. (2022). Filter-based models of suppression in retinal ganglion cells: comparison and generalization across species and stimuli.",
+            "@id": "https://doi.org/10.1101/2022.12.01.518577",
+            "identifier": "https://doi.org/10.1101/2022.12.01.518577",
+            "url": "https://doi.org/10.1101/2022.12.01.518577"
+        }
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GRO.data",
+        "url": "https://data.goettingen-research-online.de"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "GRO.data"
+    },
+    "funder": [
+        {
+            "@type": "Organization",
+            "name": "European Research Council"
+        },
+        {
+            "@type": "Organization",
+            "name": "Deutsche Forschungsgemeinschaft"
+        },
+        {
+            "@type": "Organization",
+            "name": "Deutsche Forschungsgemeinschaft"
+        }
+    ],
+    "distribution": [
+        {
+            "@type": "DataDownload",
+            "name": "README.pdf",
+            "encodingFormat": "application/pdf",
+            "contentSize": 82601,
+            "description": "Notes for reading data, fitting models, and re-creating figures",
+            "@id": "https://doi.org/10.25625/AP5BRQ/SKBFV7",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/SKBFV7",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/108567"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "analysis_modelFitting.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 38667,
+            "@id": "https://doi.org/10.25625/AP5BRQ/G9IGVX",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/G9IGVX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103527"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "analysis_postProcessing.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 58159,
+            "@id": "https://doi.org/10.25625/AP5BRQ/IOOJCU",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/IOOJCU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103514"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "auc.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 6160,
+            "@id": "https://doi.org/10.25625/AP5BRQ/X4UR3X",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/X4UR3X",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103555"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "binTimeStamps.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 104,
+            "@id": "https://doi.org/10.25625/AP5BRQ/CWILZA",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/CWILZA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103543"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "bitPerSpike.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 144,
+            "@id": "https://doi.org/10.25625/AP5BRQ/CW83C6",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/CW83C6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103528"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "ChirpStimulus.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 2035,
+            "@id": "https://doi.org/10.25625/AP5BRQ/ARNH8L",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/ARNH8L",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103546"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "cleanFigure.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 105,
+            "@id": "https://doi.org/10.25625/AP5BRQ/RIT1HT",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/RIT1HT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103548"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "dSoftThresh.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 179,
+            "@id": "https://doi.org/10.25625/AP5BRQ/O2T0CW",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/O2T0CW",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103505"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "explainableVar.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 809,
+            "@id": "https://doi.org/10.25625/AP5BRQ/UQRYKQ",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/UQRYKQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103502"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "explainableVar2.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 746,
+            "@id": "https://doi.org/10.25625/AP5BRQ/NQSFME",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/NQSFME",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103545"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "fconv.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 1179,
+            "@id": "https://doi.org/10.25625/AP5BRQ/JBVWLU",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/JBVWLU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103523"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "fdr_bh.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 6606,
+            "@id": "https://doi.org/10.25625/AP5BRQ/1QKLOY",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/1QKLOY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103549"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "filtProp.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 837,
+            "@id": "https://doi.org/10.25625/AP5BRQ/FB3NR8",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/FB3NR8",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103516"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "flipSup.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 401,
+            "@id": "https://doi.org/10.25625/AP5BRQ/TH7KOF",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/TH7KOF",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103534"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "funProp.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 436,
+            "@id": "https://doi.org/10.25625/AP5BRQ/QVHIMO",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/QVHIMO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103469"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "gauss1d.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 105,
+            "@id": "https://doi.org/10.25625/AP5BRQ/W1JFW5",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/W1JFW5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103465"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "gaussC.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 462,
+            "@id": "https://doi.org/10.25625/AP5BRQ/OGW14K",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/OGW14K",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103450"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "genStim.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 36268,
+            "@id": "https://doi.org/10.25625/AP5BRQ/EL4KMB",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/EL4KMB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103480"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "HartigansDipSignifTest.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 1416,
+            "@id": "https://doi.org/10.25625/AP5BRQ/H0RDGK",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/H0RDGK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103475"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "jbfill.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 1926,
+            "@id": "https://doi.org/10.25625/AP5BRQ/RL0SQN",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/RL0SQN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103521"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "lineSegmentIntersect.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 4664,
+            "@id": "https://doi.org/10.25625/AP5BRQ/CN2BQS",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/CN2BQS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103525"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "monitor_memory_whos.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 466,
+            "@id": "https://doi.org/10.25625/AP5BRQ/EJ1RQ6",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/EJ1RQ6",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103479"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "nan2z.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 55,
+            "@id": "https://doi.org/10.25625/AP5BRQ/JT8VK8",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/JT8VK8",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103466"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "point2line.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 113,
+            "@id": "https://doi.org/10.25625/AP5BRQ/C86SUX",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/C86SUX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103536"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "rawDataInfo.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 8749,
+            "@id": "https://doi.org/10.25625/AP5BRQ/NK6JHQ",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/NK6JHQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103537"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "roc.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 2247,
+            "@id": "https://doi.org/10.25625/AP5BRQ/5PGN2S",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/5PGN2S",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103457"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "testIntersections.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 2277,
+            "@id": "https://doi.org/10.25625/AP5BRQ/GCXA6I",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/GCXA6I",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103464"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "time2peak.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 142,
+            "@id": "https://doi.org/10.25625/AP5BRQ/EY9PA0",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/EY9PA0",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103448"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "trialCut.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 242,
+            "@id": "https://doi.org/10.25625/AP5BRQ/3FAXPY",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/3FAXPY",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103451"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "vertical.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 78,
+            "@id": "https://doi.org/10.25625/AP5BRQ/DFFXND",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/DFFXND",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103553"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "aBell.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 328,
+            "@id": "https://doi.org/10.25625/AP5BRQ/SRQQP3",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/SRQQP3",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103508"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "adjustFilt.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 236,
+            "@id": "https://doi.org/10.25625/AP5BRQ/LUZVEN",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/LUZVEN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103524"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "adjustFun.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 628,
+            "@id": "https://doi.org/10.25625/AP5BRQ/ACAPTT",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/ACAPTT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103494"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "evaluateModel.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 3527,
+            "@id": "https://doi.org/10.25625/AP5BRQ/X6WJQE",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/X6WJQE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103538"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "fitAdditive.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 15684,
+            "@id": "https://doi.org/10.25625/AP5BRQ/QFNGKA",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/QFNGKA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103472"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "fitES.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 15500,
+            "@id": "https://doi.org/10.25625/AP5BRQ/BWWDVH",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/BWWDVH",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103449"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "fitFilt.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 1910,
+            "@id": "https://doi.org/10.25625/AP5BRQ/5RZWAQ",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/5RZWAQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103535"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "fitFun.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 3050,
+            "@id": "https://doi.org/10.25625/AP5BRQ/72CKGG",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/72CKGG",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103541"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "fitModel.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 12712,
+            "@id": "https://doi.org/10.25625/AP5BRQ/JBVQJV",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/JBVQJV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103447"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "LLwithGradFilt.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 899,
+            "@id": "https://doi.org/10.25625/AP5BRQ/W8DM8Y",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/W8DM8Y",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103557"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "LLwithGradFun.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 793,
+            "@id": "https://doi.org/10.25625/AP5BRQ/B6YG9C",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/B6YG9C",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103512"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "LLwithGradSoftTresh.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 770,
+            "@id": "https://doi.org/10.25625/AP5BRQ/P8BYAN",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/P8BYAN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103551"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "LLwithGradSoftTresh2.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 775,
+            "@id": "https://doi.org/10.25625/AP5BRQ/3OMZQX",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/3OMZQX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103547"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "logLike.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 154,
+            "@id": "https://doi.org/10.25625/AP5BRQ/NLKNKR",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/NLKNKR",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103520"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "numDerv.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 227,
+            "@id": "https://doi.org/10.25625/AP5BRQ/QKU9F1",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/QKU9F1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103522"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "applyScreen.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 318,
+            "@id": "https://doi.org/10.25625/AP5BRQ/8RTOWM",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/8RTOWM",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103506"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "dSoftThresh-1.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 219,
+            "@id": "https://doi.org/10.25625/AP5BRQ/SUHILX",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/SUHILX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103496"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "explainedVar.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 172,
+            "@id": "https://doi.org/10.25625/AP5BRQ/Q5LXOB",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/Q5LXOB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103542"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "findEigenvectors.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 4245,
+            "@id": "https://doi.org/10.25625/AP5BRQ/LPT2BQ",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/LPT2BQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103461"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "gasdev.cpp",
+            "encodingFormat": "text/x-c",
+            "contentSize": 6104,
+            "@id": "https://doi.org/10.25625/AP5BRQ/JVE2CL",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/JVE2CL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103507"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "gasdev.mexa64",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 13576,
+            "@id": "https://doi.org/10.25625/AP5BRQ/JVPTME",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/JVPTME",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103453"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "iSoftThresh.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 105,
+            "@id": "https://doi.org/10.25625/AP5BRQ/PBVPCX",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/PBVPCX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103540"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "maximalCliques.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 9171,
+            "@id": "https://doi.org/10.25625/AP5BRQ/CPKMTE",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/CPKMTE",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103531"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "mWe.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 95,
+            "@id": "https://doi.org/10.25625/AP5BRQ/5PBOBJ",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/5PBOBJ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103470"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "nanfastsmooth.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 3818,
+            "@id": "https://doi.org/10.25625/AP5BRQ/MS2JGC",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/MS2JGC",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103492"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "PoissonDeviance.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 166,
+            "@id": "https://doi.org/10.25625/AP5BRQ/JHCO6B",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/JHCO6B",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103452"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "PoissonExpVar.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 135,
+            "@id": "https://doi.org/10.25625/AP5BRQ/FKJ9SB",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/FKJ9SB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103558"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "raisedCosine.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 426,
+            "@id": "https://doi.org/10.25625/AP5BRQ/ZPEVXT",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/ZPEVXT",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103489"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "ran1.cpp",
+            "encodingFormat": "text/x-c",
+            "contentSize": 4728,
+            "@id": "https://doi.org/10.25625/AP5BRQ/VHTT61",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/VHTT61",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103530"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "ran1.mexa64",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 13376,
+            "@id": "https://doi.org/10.25625/AP5BRQ/SFWEVS",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/SFWEVS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103519"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "ran1bool.cpp",
+            "encodingFormat": "text/x-c",
+            "contentSize": 4719,
+            "@id": "https://doi.org/10.25625/AP5BRQ/GQM9HS",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/GQM9HS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103476"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "ran1bool.mexa64",
+            "encodingFormat": "application/octet-stream",
+            "contentSize": 13304,
+            "@id": "https://doi.org/10.25625/AP5BRQ/FTOKTO",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/FTOKTO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103478"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "sigmoid.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 290,
+            "@id": "https://doi.org/10.25625/AP5BRQ/JPC2NS",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/JPC2NS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103483"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "sigmoidFn.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 75,
+            "@id": "https://doi.org/10.25625/AP5BRQ/1LYTSA",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/1LYTSA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103509"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "smoothFast.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 492,
+            "@id": "https://doi.org/10.25625/AP5BRQ/UXCUCP",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/UXCUCP",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103477"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "smoothGauss.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 518,
+            "@id": "https://doi.org/10.25625/AP5BRQ/1BDZUA",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/1BDZUA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103500"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "smoothMedian.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 376,
+            "@id": "https://doi.org/10.25625/AP5BRQ/IZFMPQ",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/IZFMPQ",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103513"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "softThresh.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 384,
+            "@id": "https://doi.org/10.25625/AP5BRQ/124DNU",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/124DNU",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103471"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "spikePoisson.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 57,
+            "@id": "https://doi.org/10.25625/AP5BRQ/3MCBEX",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/3MCBEX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103481"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "weightedCovariance.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 614,
+            "@id": "https://doi.org/10.25625/AP5BRQ/AK10M8",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/AK10M8",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103539"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "z2nan.m",
+            "encodingFormat": "text/x-matlab",
+            "contentSize": 47,
+            "@id": "https://doi.org/10.25625/AP5BRQ/KVEHPS",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/KVEHPS",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103495"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "addSolution_v42.mat",
+            "encodingFormat": "application/matlab-mat",
+            "contentSize": 315992836,
+            "@id": "https://doi.org/10.25625/AP5BRQ/EIEAT1",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/EIEAT1",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103544"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "addSolution_v42_mar.mat",
+            "encodingFormat": "application/matlab-mat",
+            "contentSize": 69641565,
+            "@id": "https://doi.org/10.25625/AP5BRQ/NXJJ44",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/NXJJ44",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103468"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "addSolution_v42_mous.mat",
+            "encodingFormat": "application/matlab-mat",
+            "contentSize": 126763377,
+            "@id": "https://doi.org/10.25625/AP5BRQ/FG00FX",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/FG00FX",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103498"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "chirpAllModels_mar_v42p10.mat",
+            "encodingFormat": "application/matlab-mat",
+            "contentSize": 170816761,
+            "@id": "https://doi.org/10.25625/AP5BRQ/R1CC5E",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/R1CC5E",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103501"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "divSolution_v42.mat",
+            "encodingFormat": "application/matlab-mat",
+            "contentSize": 317198246,
+            "@id": "https://doi.org/10.25625/AP5BRQ/LASOR8",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/LASOR8",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103515"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "divSolution_v42_mar.mat",
+            "encodingFormat": "application/matlab-mat",
+            "contentSize": 69352683,
+            "@id": "https://doi.org/10.25625/AP5BRQ/EFP8PN",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/EFP8PN",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103499"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "divSolution_v42_mous.mat",
+            "encodingFormat": "application/matlab-mat",
+            "contentSize": 316200615,
+            "@id": "https://doi.org/10.25625/AP5BRQ/0TKLXL",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/0TKLXL",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103455"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "experimentalData.mat",
+            "encodingFormat": "application/matlab-mat",
+            "contentSize": 468224262,
+            "@id": "https://doi.org/10.25625/AP5BRQ/ZEVH7M",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/ZEVH7M",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103486"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "fbSolution_v42.mat",
+            "encodingFormat": "application/matlab-mat",
+            "contentSize": 314580825,
+            "@id": "https://doi.org/10.25625/AP5BRQ/RGAWIO",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/RGAWIO",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103526"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "fbSolution_v42_mar.mat",
+            "encodingFormat": "application/matlab-mat",
+            "contentSize": 71499435,
+            "@id": "https://doi.org/10.25625/AP5BRQ/ADUGEB",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/ADUGEB",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103473"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "fbSolution_v42_mous.mat",
+            "encodingFormat": "application/matlab-mat",
+            "contentSize": 126207688,
+            "@id": "https://doi.org/10.25625/AP5BRQ/Q8ABOD",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/Q8ABOD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103490"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "LNsolution_v42.mat",
+            "encodingFormat": "application/matlab-mat",
+            "contentSize": 315529288,
+            "@id": "https://doi.org/10.25625/AP5BRQ/CT1EWK",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/CT1EWK",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103529"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "LNsolution_v42_mar.mat",
+            "encodingFormat": "application/matlab-mat",
+            "contentSize": 69992831,
+            "@id": "https://doi.org/10.25625/AP5BRQ/9W0CE5",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/9W0CE5",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103532"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "LNsolution_v42_mous.mat",
+            "encodingFormat": "application/matlab-mat",
+            "contentSize": 317497258,
+            "@id": "https://doi.org/10.25625/AP5BRQ/WHEW8F",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/WHEW8F",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103533"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "sessionsCombinedBasics_v42.mat",
+            "encodingFormat": "application/matlab-mat",
+            "contentSize": 1094826702,
+            "@id": "https://doi.org/10.25625/AP5BRQ/2DIT7G",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/2DIT7G",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103517"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "sessionsCombinedBasics_v42p10.mat",
+            "encodingFormat": "application/matlab-mat",
+            "contentSize": 530118217,
+            "@id": "https://doi.org/10.25625/AP5BRQ/CHEDEV",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/CHEDEV",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103467"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "sessionsCombinedBasics_v42_mar.mat",
+            "encodingFormat": "application/matlab-mat",
+            "contentSize": 1094796806,
+            "@id": "https://doi.org/10.25625/AP5BRQ/IHFIKA",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/IHFIKA",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103482"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "sessionsCombinedBasics_v42_mous.mat",
+            "encodingFormat": "application/matlab-mat",
+            "contentSize": 1094778193,
+            "@id": "https://doi.org/10.25625/AP5BRQ/FFQL2W",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/FFQL2W",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103454"
+        },
+        {
+            "@type": "DataDownload",
+            "name": "sessionsCombinedChirp_pre_v25.mat",
+            "encodingFormat": "application/matlab-mat",
+            "contentSize": 77559804,
+            "@id": "https://doi.org/10.25625/AP5BRQ/G2HUPD",
+            "identifier": "https://doi.org/10.25625/AP5BRQ/G2HUPD",
+            "contentUrl": "https://data.goettingen-research-online.de/api/access/datafile/103456"
+        }
+    ],
+    "license_title": "Creative Commons Attribution 4.0 International",
+    "subjects": [
+        "Medicine, Health and Life Sciences"
+    ],
+    "publications": [
+        {
+            "citation": "Shahidi, N., Rozenblit, F., Khani, M. H., Schreyer, H. M., Mietsch, M., Protti, D. A., &amp; Gollisch, T. (2022). Filter-based models of suppression in retinal ganglion cells: comparison and generalization across species and stimuli.",
+            "url": "https://doi.org/10.1101/2022.12.01.518577"
+        }
+    ]
+}
