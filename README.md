@@ -1,7 +1,7 @@
 # Nds-WiDaX: Semantically Enriched Knowledge Graph for Linking Research Data Repositories in Lower Saxony
 
 <p align="center">
-   <img src="./docs/images/logo_nds_widax.png" width="60%" alt="Nds-WiDaX logo"/>
+   <img src="docs/widax_images/logo_nds_widax.png" width="60%" alt="Nds-WiDaX logo"/>
 </p>
 
 > [**"Why it takes a village to do FAIR Data Management"**](https://doi.org/10.1162/99608f92.42eec111) – Nds-WiDaX brings together Lower Saxony’s research data infrastructures into a unified, semantically enriched knowledge graph.
@@ -15,7 +15,7 @@ Recognizing that effective research data management (RDM) is a collaborative cha
 The resulting knowledge graph semantically links digital research objects using ontologies, controlled vocabularies, and named entity recognition (NER).
 It supports the exploration, comparability, and reuse of research data through user-friendly, federated interfaces.
 
-![Project overview and work packages](./docs/images/graphical_abstract.png)
+![Project overview and work packages](docs/widax_images/graphical_abstract.png)
 
 ## Target Groups
 
@@ -61,7 +61,7 @@ These mappings serve as the foundation for building a unified knowledge graph an
 
 ## Data Sources
 
-The metadata of the following research data repositories in Lower Saxony is being included in Nds-WiDaX:
+The metadata of the following research data repositories in Lower Saxony is being incorporated into Nds-WiDaX (including harmonisation of terms and structure; capturing and solving interoperability issues):
 
 - Leibniz University Hannover: [Research Data Repository](https://data.uni-hannover.de/)  
 - University of Göttingen: [Göttingen Research Online Data (GRO.data)](https://data.goettingen-research-online.de/)  
@@ -71,7 +71,7 @@ The metadata of the following research data repositories in Lower Saxony is bein
 - Osnabrück University: [osnaData](osnadata.ub.uni-osnabrueck.de/)
 - University of Hildesheim: [HilReDa](data.goettingen-research-online.de/dataverse/hilreda/)
 
-![map of included research data repositories in Lower Saxony](./docs/images/map_lower_saxony.png)
+![map of included research data repositories in Lower Saxony](./docs/widax_images/map_lower_saxony.png)
 
 ## Participating Institutions
 
@@ -83,8 +83,8 @@ The metadata of the following research data repositories in Lower Saxony is bein
 
 ## License
 
-- Graphics and diagrams: [CC BY 4.0](LICENSE-CC-BY-4.0)
-- Software and all other files in this repository: [MIT License](LICENSE).
+- All files outside of the directory [`docs/widax_images/`](docs/widax_images) are licensed under [MIT License](LICENSE).
+- All files within the directory [`docs/widax_images/`](docs/widax_images) are licensed under [CC BY 4.0](docs/widax_images/LICENSE-CC-BY-4.0).
 
 ## Contact
 
